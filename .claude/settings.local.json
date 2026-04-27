@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda run -n autotagging python --version)",
+      "Bash(source ~/anaconda3/etc/profile.d/conda.sh)",
+      "Bash(source ~/miniconda3/etc/profile.d/conda.sh)",
+      "Bash(/c/ProgramData/miniconda3/Scripts/conda.exe run -n autotagging python --version)",
+      "Bash(/c/Users/eilop/miniconda3/Scripts/conda.exe run -n autotagging python --version)",
+      "Bash(cmd /c \"conda run -n autotagging python --version\")",
+      "Bash(cmd /c \"conda activate autotagging && python --version\")",
+      "Bash(cmd /c \"where conda\")",
+      "Bash(/c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python --version)",
+      "Bash(/c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging pip list)",
+      "Bash(/c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python -c \":*)",
+      "Bash(/c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python \"c:/yeon-git/KOR-criticism-autoTagging/_test_imports.py\")",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python \"c:/yeon-git/KOR-criticism-autoTagging/_test_imports.py\")",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python -c \"import lxml; print\\(''lxml'', lxml.__version__\\)\")",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging pip install lxml)",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python \"c:/yeon-git/KOR-criticism-autoTagging/_test_pipeline.py\")",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python \"c:/yeon-git/KOR-criticism-autoTagging/_test_extract_validate.py\")",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging pip install pandas)",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging pip install streamlit plotly)",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python \"c:/yeon-git/KOR-criticism-autoTagging/_test_syntax.py\")",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python -c \"import ast, pathlib; [ast.parse\\(pathlib.Path\\(f\\).read_text\\(''utf-8''\\)\\) or print\\(''OK'', f\\) for f in [''c:/yeon-git/KOR-criticism-autoTagging/core/tagger.py'']]\")",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python -c \":*)",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python \"c:/yeon-git/KOR-criticism-autoTagging/_chk.py\")"
+    ]
+  }
+}

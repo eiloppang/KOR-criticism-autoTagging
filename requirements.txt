@@ -1,0 +1,28 @@
+# KorCritTEI - 한국문학비평 TEI 자동 태깅 앱
+# Python 3.10+
+
+# 웹 앱
+streamlit>=1.35.0
+
+# XML 처리 및 검증
+lxml>=5.2.0
+xmlschema>=3.3.0
+
+# 데이터 처리
+pandas>=2.2.0
+
+# 시각화
+plotly>=5.22.0
+streamlit-agraph>=0.0.45
+
+# LLM 백엔드
+google-genai>=1.0.0          # Gemini API (신규 통합 SDK)
+anthropic>=0.28.0             # Claude API
+requests>=2.32.0              # Ollama (로컬 HTTP)
+
+# 문서 입력
+python-docx>=1.1.0
+pdfplumber>=0.11.0
+
+# 환경변수
+python-dotenv>=1.0.0
