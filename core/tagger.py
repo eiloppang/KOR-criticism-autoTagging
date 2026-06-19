@@ -46,18 +46,46 @@ def _load_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
-def build_prompt(dict_context: str = "") -> str:
+def _system_rules(include_builtin_example: bool = True) -> str:
+    """
+    시스템 규칙 텍스트를 로드한다.
+    include_builtin_example=False면 프롬프트에 내장된 <few-shot-example> 블록을
+    제거한다 (zero-shot / 스키마-only 모드용).
+    """
+    txt = _load_text(PROMPTS_DIR / "tei_system_prompt.txt")
+    if not include_builtin_example:
+        txt = re.sub(
+            r"\n*<few-shot-example>.*?</few-shot-example>\s*",
+            "\n",
+            txt,
+            flags=re.DOTALL,
+        )
+    return txt
+
+
+def build_prompt(
+    dict_context: str = "",
+    few_shot: str = "",
+    include_builtin_example: bool = True,
+) -> str:
     """
     첫 번째 청크용 프롬프트:
     시스템 규칙 + XSD 스키마 → 완전한 TEI 문서(teiHeader 포함) 생성.
-    dict_context가 있으면 시스템 규칙 뒤에 '[사전 매칭 참고자료]' 블록을 추가.
+
+    Parameters
+    ----------
+    dict_context            : '[사전 매칭 참고자료]' 블록 (2단계 파이프라인)
+    few_shot                : 수작업 정답 예시 블록 (4단계 few-shot ICL)
+    include_builtin_example : False면 내장 예시 제거 (1단계 zero-shot)
     """
-    system_rules = _load_text(PROMPTS_DIR / "tei_system_prompt.txt")
+    system_rules = _system_rules(include_builtin_example)
     xsd_schema = _load_text(SCHEMA_PATH)
     dict_block = ("\n\n" + dict_context) if dict_context else ""
+    few_shot_block = ("\n\n" + few_shot) if few_shot else ""
     return (
         system_rules
         + dict_block
+        + few_shot_block
         + "\n\n<XSD_스키마>\n"
         + xsd_schema
         + "\n</XSD_스키마>\n"
@@ -65,15 +93,19 @@ def build_prompt(dict_context: str = "") -> str:
     )
 
 
-def build_continuation_prompt(dict_context: str = "") -> str:
+def build_continuation_prompt(
+    dict_context: str = "",
+    few_shot: str = "",
+    include_builtin_example: bool = True,
+) -> str:
     """
     2번째 이후 청크용 프롬프트:
     teiHeader 없이 text > body > div 구조만 출력.
-    dict_context가 있으면 '[사전 매칭 참고자료]' 블록을 추가.
     """
-    system_rules = _load_text(PROMPTS_DIR / "tei_system_prompt.txt")
+    system_rules = _system_rules(include_builtin_example)
     xsd_schema = _load_text(SCHEMA_PATH)
     dict_block = ("\n\n" + dict_context) if dict_context else ""
+    few_shot_block = ("\n\n" + few_shot) if few_shot else ""
     continuation_note = """
 
 [후속 청크 출력 규칙]
@@ -96,6 +128,7 @@ def build_continuation_prompt(dict_context: str = "") -> str:
     return (
         system_rules
         + dict_block
+        + few_shot_block
         + continuation_note
         + "\n\n<XSD_스키마>\n"
         + xsd_schema
@@ -385,6 +418,8 @@ def tag_text(
     chunk_size: int = 5000,
     progress_callback=None,
     dict_context: str = "",
+    few_shot: str = "",
+    include_builtin_example: bool = True,
 ) -> tuple[str, list[str]]:
     """
     비평텍스트를 TEI/XML로 변환하는 메인 파이프라인.
@@ -406,8 +441,8 @@ def tag_text(
     Returns:
         (xml_output, warnings): 생성된 XML 문자열과 경고/오류 목록
     """
-    first_prompt = build_prompt(dict_context)
-    cont_prompt = build_continuation_prompt(dict_context)
+    first_prompt = build_prompt(dict_context, few_shot, include_builtin_example)
+    cont_prompt = build_continuation_prompt(dict_context, few_shot, include_builtin_example)
     chunker = AdaptiveChunker(provider, chunk_size=chunk_size)
     chunks = chunker.chunk_text(text)
     warnings: list[str] = []

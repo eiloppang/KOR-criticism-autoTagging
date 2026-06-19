@@ -206,9 +206,11 @@ provider, chunk_size, dict_matcher = _build_provider()
 st.title("KorCritTEI — 한국문학비평 TEI 자동 태거")
 st.caption("비평텍스트 → TEI/XML 자동 태깅 | XSD 스키마 검증 | 개체명 추출 · CSV 변환")
 
-from ui import data_tab, tagging_tab, viz_tab
+from ui import data_tab, experiment_tab, tagging_tab, viz_tab
 
-tab1, tab2, tab3 = st.tabs(["📝 XML 태깅", "📊 개체명 데이터", "📈 시각화"])
+tab1, tab2, tab3, tab4 = st.tabs(
+    ["📝 XML 태깅", "📊 개체명 데이터", "📈 시각화", "🧪 모드 비교 실험"]
+)
 
 with tab1:
     tagging_tab.render(provider, chunk_size, dict_matcher=dict_matcher)
@@ -218,3 +220,6 @@ with tab2:
 
 with tab3:
     viz_tab.render()
+
+with tab4:
+    experiment_tab.render(provider, chunk_size, dict_matcher=dict_matcher)

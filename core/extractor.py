@@ -31,8 +31,12 @@ def _xml_id(el: etree._Element) -> str:
 
 
 def _text_content(el: etree._Element) -> str:
-    """혼합 콘텐츠 요소의 전체 텍스트를 반환 (자식 요소 텍스트 포함)."""
-    return (etree.tostring(el, method="text", encoding="unicode") or "").strip()
+    """
+    요소 안의 텍스트만 반환 (자식 요소 텍스트 포함, 꼬리말 제외).
+    itertext()는 element + 하위 텍스트만 모으고 tail(태그 뒤 텍스트)은 빼므로
+    '신해욱의' → '신해욱' 처럼 조사가 섞이지 않는다.
+    """
+    return "".join(el.itertext()).strip()
 
 
 def _s_context(el: etree._Element, max_chars: int = 120) -> str:
@@ -286,7 +290,12 @@ def to_csv(
 
 
 def _parse(xml_string: str) -> tuple[etree._Element | None, str]:
+    # collect_ids=False: 같은 개체(인물·작품)가 반복 등장할 때 _dedup_xml_ids가
+    # 동일 xml:id를 부여해 XML ID 고유성을 위반한다. 추출은 ID 고유성을 따질
+    # 필요가 없으므로 ID 수집을 꺼서 파싱 거부("ID ... already defined")를 막는다.
+    # 중복 id는 그대로 유지되어 빈도(frequency) 집계는 의도대로 같은 개체로 묶인다.
+    parser = etree.XMLParser(collect_ids=False)
     try:
-        return etree.fromstring(xml_string.encode("utf-8")), ""
+        return etree.fromstring(xml_string.encode("utf-8"), parser=parser), ""
     except etree.XMLSyntaxError as e:
         return None, str(e)

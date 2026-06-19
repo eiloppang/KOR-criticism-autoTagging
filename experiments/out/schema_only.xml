@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader><fileDesc><titleStmt><title>자본주의에 대처하는 우리의 자세 - 최백규와 최지인이 노동과 우울을 그리는 방식에 대하여</title><author>성현아 成炫兒</author></titleStmt><publicationStmt><p>디지털 인문학 연구 목적</p></publicationStmt><sourceDesc><p>입력 텍스트</p></sourceDesc></fileDesc><encodingDesc><classDecl>
+  <taxonomy xml:id="tax-role">
+    <desc>인물 역할 분류</desc>
+    <category xml:id="critic"><catDesc>비평가</catDesc></category>
+    <category xml:id="poet"><catDesc>시인</catDesc></category>
+    <category xml:id="novelist"><catDesc>소설가</catDesc></category>
+    <category xml:id="essayist"><catDesc>수필가</catDesc></category>
+    <category xml:id="playwright"><catDesc>극작가</catDesc></category>
+    <category xml:id="translator"><catDesc>번역가</catDesc></category>
+    <category xml:id="childrenauthor"><catDesc>아동문학 작가</catDesc></category>
+    <category xml:id="scholar"><catDesc>학자</catDesc></category>
+    <category xml:id="foreigner"><catDesc>외국 문인</catDesc></category>
+    <category xml:id="other"><catDesc>기타</catDesc></category>
+  </taxonomy>
+  <taxonomy xml:id="tax-interp">
+    <desc>해석/평가 분류</desc>
+    <category xml:id="affirmative"><catDesc>긍정적 평가</catDesc></category>
+    <category xml:id="neutral"><catDesc>중립적 서술</catDesc></category>
+    <category xml:id="critical"><catDesc>비판적 평가</catDesc></category>
+  </taxonomy>
+</classDecl></encodingDesc></teiHeader><text>
+    <body>
+      <div type="body">
+        <p>
+          <s><persName xml:id="p-sunghyuna2" role="critic">성현아 成炫兒</persName></s>
+          <s>문학평론가.</s>
+          <s>평론 <title level="a" type="critic">「사랑의 파편을 의심하며 믿는 마음」</title>, 저서 <title level="m" type="critic">『아직 오지 않은 시』</title>(공저) 등이 있음.</s>
+          <s>dhdlshsp93@naver.com</s>
+        </p>
+        <div type="section">
+          <head>1. 분노 없이도</head>
+          <p>
+            <s>최근 젊은 시인들의 시에는 분노가 잘 드러나지 않는다.</s>
+            <s>이를 분노 이외의 다른 방식을 모색하는 움직임으로 보고 긍정할지 세계와의 대결 의지를 잃은 것으로 판단하여 비판적으로 바라볼지에 대해서는 의견이 분분하지만, <date when="2010">2010년대</date> 이후 등장한 젊은 시인들의 시에서 분노를 찾아보기 어려워졌다는 데는 이견이 없어 보인다.</s>
+            <s>많은 논자들이 그 원인으로 주체의 위상 변화를 꼽는다.</s>
+          </p>
+          <p>
+            <s><persName xml:id="p-parksangsu" role="critic">박상수</persName>는 <quote type="indirect" genre="critic">'몰락하는 시대감각'</quote> 속에 나고 자란 젊은 시인들이 그 감각을 체화함에 따라 시적 주체가 왜소해졌으며, 축소된 시적 주체에게는 <quote type="direct" genre="critic">"'분노'와 '격렬한 파토스'가 스며들 여지가 별로 없"</quote>어 무덤덤한 정서가 폭넓게 발견될 뿐이라고 진단한다.</s>
+            <s>꿈꿀 미래도, 세상에 대한 기대도 사라져 무기력해진 <date when="2010">2010년대</date> 젊은 시인들이 강렬한 분노를 표출하기는 어렵다는, 그 '불가능성'에 더욱 초점을 맞추고 있는 듯 보인다.</s>
+            <s>이후 <persName xml:id="p-parksangsu" role="critic">박상수</persName>는 <persName xml:id="p-yanggyeongeon" role="critic">양경언</persName>의 비판을 일부 수용하며 <quote type="direct" genre="critic">"현실의 위력을 앞세우는 글은 늘 문학적 실천의 가능성과 새로운 희망에 둔감할 수 있음"</quote>을 인정하지만, 젊은 시인들이 변화한 시대감각을 시에 고스란히 반영하고 있다는 주장은 그대로 유지한다.</s>
+            <s>그렇다면 <quote type="direct" genre="critic">"과연 시인은 달라진 경제조건에 조응하는 미적 감각을 드러내는 일에만 골몰하는 자들일까?"</quote>라는 <persName xml:id="p-yanggyeongeon" role="critic">양경언</persName>의 질문은 해결되지 않은 채로 남게 된다.</s>
+          </p>
+          <p>
+            <s><persName xml:id="p-gobongjun" role="critic">고봉준</persName> 역시 <quote type="direct" genre="critic">"지금 한국시의 주력으로 평가되는 젊은 시인들의 시에서 '분노'의 감정이 표면에 드러나는 장면을 찾기"</quote> 어려워진 사정이 이전 세대와는 확연히 달라진 주체화 방식, 즉 주체성의 위축에서 기인한다고 해석한다.</s>
+            <s><interp value="affirmative" ana="비평관">고봉준은 분노의 부재가 결핍은 아니라는 점을 분명히 하며, 젊은 시인들이 세계와 마주하지 않는 방식으로 세계와 대면하는 것일 뿐 부조리한 세계에 여전히 항거하고 있다고 설명한다.</interp></s>
+            <s>분노하지 않는 것이 아니라 분노의 표출 방식이 변화한 것이라는 <persName xml:id="p-gobongjun" role="critic">고봉준</persName>의 해석은 타당해 보이며 동의할 만하다.</s>
+            <s>그러나 그가 젊은 시인들이 <quote type="direct" genre="critic">"'분노'라는 익숙하고 투박한 길보다 유쾌한 반란과 분열의 길을 선호"</quote>한다고 서술하면서도 '선호한다'라는 술어에 담긴 능동성이 무색하게 현시대에서는 분노가 발생하기 어렵다고 판단하는 듯 보여 의문이 남는다.</s>
+            <s><persName xml:id="p-gobongjun" role="critic">고봉준</persName>은 분노란 강력한 주체성에서 발현되는 감정이기에 자신이 누구인지를 확신하지 못하는 희미해진 주체에게서는 <quote type="direct" genre="critic">"좀처럼 발생하지 않는다"</quote>고 진단한다.</s>
+            <s>더불어 <quote type="direct" genre="critic">"<term type="concept">신자유주의</term>가 강제하는 삶과 노동의 가속화"</quote>가 분노가 일어날 여지 자체를 없애버렸다고 이야기하며, 분노가 생기기 어려운 시대적 배경을 강조하고 있다.</s>
+          </p>
+          <p>
+            <s>이들이 전제하는 '주체의 왜소화로 인해 분노가 배면으로 밀려날 수밖에 없었다'는 인과는</s>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

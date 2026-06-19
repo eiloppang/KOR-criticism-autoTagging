@@ -23,7 +23,11 @@
       "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python \"c:/yeon-git/KOR-criticism-autoTagging/_test_syntax.py\")",
       "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python -c \"import ast, pathlib; [ast.parse\\(pathlib.Path\\(f\\).read_text\\(''utf-8''\\)\\) or print\\(''OK'', f\\) for f in [''c:/yeon-git/KOR-criticism-autoTagging/core/tagger.py'']]\")",
       "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python -c \":*)",
-      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python \"c:/yeon-git/KOR-criticism-autoTagging/_chk.py\")"
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/eilop/anaconda3/Scripts/conda.exe run -n autotagging python \"c:/yeon-git/KOR-criticism-autoTagging/_chk.py\")",
+      "Bash(python -c ' *)",
+      "Bash(python -m extract_assemble.compare_html --pred extract_assemble/결과/4-성현아_v2.xml --out extract_assemble/비교_정답_vs_4.html)",
+      "Bash(python -m extract_assemble.run --input 비평문/성현아.txt --out extract_assemble/결과/5-성현아_v2.xml)",
+      "Bash(python -m extract_assemble.평가_성현아)"
     ]
   }
 }

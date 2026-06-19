@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <text>
+    <body><div type="body">
+        <p>
+          <s>게 된 사정이, 폐지되었다고 믿어지는 <quote type="direct" genre="poet">"노예제도"</quote>가 존속하고 있는 현실에 영향받았을 것임을 암시하며, 아버지와 아들 간의 갈등에는 더 많은 요소가 개입하고 있다는 점을 다층적으로 살피게 한다.</s>
+          <s>'나'는 <quote type="direct" genre="poet">"돈 버는 것"</quote>에서 나름의 해답을 찾으려 해보지만, 녹록하지 않은 <term type="concept">노동</term>의 현실을 체험하며 아버지를 비롯한 현대인들의 삶이 얼마나 비참한 것인지를 몸소 감각한다.</s>
+          <s><quote type="direct" genre="poet">"모든 걸 잃은 한 사람의 표정을"</quote> 떠올리며 <quote type="direct" genre="poet">"삶이 짓밟"</quote>힌 이들의 심정을 가늠해보는 '나'는 '코러스'가 되어 묻히게 될 미약한 소리이나마, 자신에게는 선명한 <quote type="direct" genre="poet">"자갈 구르는 소리"</quote>를 듣는다.</s>
+          <s><term type="concept">계급</term>이 유지되고 있는 이 사회의 부조리를 실감하며 '나'는 아버지를 위시한 <term type="concept">노동자</term>들을 진정으로 연민할 수 있게 된다.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-choibaekgyu" role="poet">최백규</persName>의 경우 과거로 돌아가 아버지의 생애를 톺아보며 죽은 아버지를 <term type="concept">애도</term>한다.</s>
+          <s>아버지를 묘사할 때 그는 <quote type="direct" genre="poet">"일터에서 귀가한"</quote>(<title level="a" type="poem" xml:id="t-doleuihyunggwak">돌의 흉곽</title>), <quote type="direct" genre="poet">"공장에서 돌아온"</quote>(<title level="a" type="poem" xml:id="t-hyang">향</title>)과 같은 관형절을 활용하여 그가 성실히 일했음을 강조한다.</s>
+          <s>그가 애써온 날들까지 함부로 부정하지 않기 위해 그의 열심과 그럼에도 좌절할 수밖에 없었던 그간의 사정을 조명하는 것이다.</s>
+          <s>시인은 어린 '나'를 구하려다 다친 아버지를 회상하며 그의 아픔에 자신이 연루되어 있다는 사실에 부채감을 느끼고 평생 고통받았던 아버지를 가엾게 여기게 된다(<title level="a" type="poem" xml:id="t-apeujianhatta">아프지 않았다</title>).</s>
+          <s><quote type="direct" genre="poet">"수술비"</quote>가 없어 손 놓고 죽음을 기다릴 수밖에 없는 아버지를 그린 <title level="a" type="poem">돌의 흉곽</title>도 눈여겨볼 만하다.</s>
+          <s>병실에 누워 있는 그의 모습은 <term type="concept">노동</term>으로 지쳐 있었음에도 <quote type="direct" genre="poet">"가족에게 바람을 쐬러 계곡으로 떠나자"</quote>했던, 가장으로서 최선을 다하려던 과거의 아버지를 떠오르게 한다.</s>
+          <s>'나'는 물려받은 가난과 <term type="concept">계급</term>으로 인해 아버지처럼 <quote type="direct" genre="poet">"돈에 묶여"</quote> <quote type="direct" genre="poet">"강바닥으로 가라앉"</quote>게 될 신세지만, <quote type="direct" genre="poet">"그의 심장"</quote>만큼은 <quote type="direct" genre="poet">"머언 바다로 밀어"</quote> 해방시켜주고 싶어 한다.</s>
+          <s><interp value="affirmative" ana="문학관">아버지를 <term type="concept">애도</term>하는 과정을 통해 <persName xml:id="p-choibaekgyu2" role="poet">최백규</persName>는 자신의 <term type="concept">정체성</term>을 확인하는 데까지 나아간다.</interp></s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="poet">마지막 오디션에서 아무것도 못하고 카메라만 봤다 저것 때문에 평생을 망쳤구나</quote></s>
+          <s><quote type="direct" genre="poet">손바닥에 녹이 스미고 있다 해수면 위로 눈이 떨어진다</quote></s>
+          <s><quote type="direct" genre="poet">일을 마친 후 귀가하는 새벽녘마다 안전주의 표지판을 걷어차며 다짐했다 실컷 굶어 쓰린 배를 움켜쥐고</quote></s>
+          <s><quote type="direct" genre="poet">(…)</quote></s>
+          <s><quote type="direct" genre="poet">뼛가루를 안은 채 생각했다 인생은 결국 서서히 죽음을 인정하는 과정 같다</quote></s>
+          <s><quote type="direct" genre="poet">도축당한 짐승들은 어떻게 될까 인간이 그린 천국과 지옥에는 인간밖에 없어서</quote></s>
+          <s><quote type="direct" genre="poet">(…)</quote></s>
+          <s><quote type="direct" genre="poet">월요일에 죽은 아버지가 좋아하던 비가 월요일마다 온다</quote></s>
+          <s><quote type="direct" genre="poet">(…)</quote></s>
+          <s><quote type="direct" genre="poet">숨을 오래 마시면 이곳이 녹슬었다는 사실만 알 수 있다 흰 돌과 우주에 내일이 오지 않으면 어떻게 하나</quote></s>
+          <s><quote type="direct" genre="poet">침대에 누워 뜨거운 가슴을 움켜쥔 채 보이지 않을 때까지 멀리 바라보았다</quote></s>
+          <s><quote type="direct" genre="poet">그립지 않아서 슬퍼할 수가 없다</quote></s>
+          <s>—<persName xml:id="p-choibaekgyu3" role="poet">최백규</persName> <title level="a" type="poem" xml:id="t-cheongukeuljilta">천국을 잃다</title> 부분</s>
+        </p>
+        <p>
+          <s>'나'는 자신이 우연한 사건으로 <quote type="direct" genre="poet">"평생을 망"</quote>칠 수 있는, 동등한 접근권이 보장되지 않는 기이한 구조 속 <term type="concept">노동자</term>임을 확인한다.</s>
+          <s>아버지가 일을 마치고 집으로 돌아오는 장면을 반복해서 그렸듯이, '나' 또한 <quote type="direct" genre="poet">"일을 마친 후 귀가"</quote>하는 모습이 조명되는데, 이때 '나'는 <quote type="direct" genre="poet">"안전주의 표지판"</quote>을 걷어찬다.</s>
+          <s>이는 안전하지 않은 작업 환경을 개선하지 않고 조심할 것을 당부하여 안전 책임을 근로자에게 전가하는 지금의 안전교육을 상기시킨다.</s>
+          <s>'나'는 최소한의 안전도 보장해주지 않는 불합리한 <term type="concept">노동</term>환경에 불평하며 <quote type="direct" genre="poet">"실컷 굶어 쓰린 배"</quote>를 통해 일을 해도 빈곤한 처지에서 벗어날 수 없음을 감각한다.</s>
+          <s>그리하여 <quote type="direct" genre="poet">"이곳이 녹슬었다는 사실"</quote>을 확인하며 녹슬어가는 자신과 사는 동안 녹슬어갔을 <quote type="direct" genre="poet">"죽은 아버지"</quote>에게 그 책임이 있지 않다는 점을 알게 된다.</s>
+          <s>인간이 그려낸 <quote type="direct" genre="poet">"천국"</quote>에는 <quote type="direct" genre="poet">"도축당한 짐승들"</quote>의 자리가 없듯이, 비인간으로 내몰리는 <term type="concept">노동계급</term>에게는 <quote type="direct" genre="poet">"천국"</quote>이라는 상상의 공간마저 허용되지 않기에 <quote type="direct" genre="poet">"천국"</quote>을 그릴 수도, 그리워할 수도 없는 '나'는 <quote type="direct" genre="poet">"슬퍼할 수"</quote>조차 없는 상태로 남는다.</s>
+        </p>
+        <p>
+          <s>이렇듯 두 시인은 아버지가 제 역할을 잘 수행하지 못했음을 인식하면서도 그런 아버지와 대결하지 않는다.</s>
+          <s>섣불리 아버지를 부정하여 도리어 그에게 과도한 의미를 부여하는 우를 범하지도 않는다.</s>
+          <s>아버지를 말끔히 삭제하고 관계성 자체를 사유하지 않는 자기중심적 세계로 유폐되지도 않는다.</s>
+          <s>이들은 <term type="concept">노동자</term>로서의 아버지를 <term type="concept">노동</term>하는 '나'와 병렬적으로 연결해낸다.</s>
+          <s><quote type="direct" genre="poet">"<date when="2020">2020년대</date>에 먹고사는 건 <date when="1980">1980년대</date>에 <term type="concept">노동자</term>로 사는 것과 다르다 해도 자본가의 지배는 계속되고 있"</quote>(<persName xml:id="p-choijiin" role="poet">최지인</persName> <title level="a" type="poem" xml:id="t-seosa">서사</title>)다는 연속성에 주목하는 것이다.</s>
+          <s>기성세대의 잘못은 마땅히 지적되어야 하며, 지금 <term type="concept">청년들</term>이 처한 암울한 시대상황의 특이성 또한 인정받아야 하지만, 이러한 지적과 인정 요구에 대한 몰입은 <term type="concept">세대 갈등</term>으로 논의를 축소하는 결과를 초래할 수 있다.</s>
+          <s>대를 거듭하여 인간을 착취해왔으며 더 잘 착취할 수 있도록 발전해온 <term type="concept">자본주의</term>의 폐단을 의도치 않게 가리게 된다는 말이다.</s>
+          <s><interp value="affirmative" ana="사회">따라서 아버지-아들을 <term type="concept">자본주의</term>에 예속된 <term type="concept">노동자</term>로 범주화하는 일은 이들을 이해하는 세대라는 수직축뿐 아니라 착취당하는 <term type="concept">노동계급</term>으로서의 가로축 또한 선명히 하는 일이 된다.</interp></s>
+        </p>
+        <p>
+          <s><term type="concept">자본주의</term>는 <term type="concept">계급</term>을 세분화하고 이들 간의 갈등을 부추기는 방식으로 반(反)<term type="concept">자본주의</term>적 운동을 잠재워왔다.</s>
+          <s>가령 <quote type="direct" genre="poet">"철도 파업에 수험생들 '발 동동'"</quote>(<persName xml:id="p-choijiin2" role="poet">최지인</persName> <title level="a" type="poem" xml:id="t-jedaerosalgo">제대로 살고 있음</title>)이라는 구절에서 볼 수 있듯, 철도 파업이 무엇에 저항하는지는 가린 채 그것이 <term type="concept">노동자</term>들과 무관해 보이는 이들에게 어떤 피해를 주었는지에 집중하게 하는 방식이다.</s>
+          <s><quote type="indirect" genre="foreign">"<persName xml:id="p-marx" role="scholar foreigner">마르크스</persName>는 시간이 흐르면서 절대 다수의 사람들이 상대적으로 균일한 존재 조건을 공유"하게 되며 "<term type="concept">자본주의</term>의 <term type="concept">계급</term> 구조가 점차 단순"해질 것이라 예상했고, 따라서 <term type="concept">노동계급</term>은 <term type="concept">자본주의</term>에 맞설 응집력을 갖추게 될 것이라고 믿었다.</quote></s>
+          <s>그러나 그러한 예측으로부터 오랜 시간이 지난 지금, 비록 자기 노동력을 판매하는 임금소득자로서 <term type="concept">노동계급</term>이 폭넓게 정의되고 구성된다고 하더라도, 실제 <term type="concept">노동자</term>들의 경험은 대단히 파편적이기 때문에 공통된 <term type="concept">계급 정체성</term>을 만들어내기 어렵다.</s>
+          <s>여전히 많은 이들이 <term type="concept">노동자</term>로서의 <term type="concept">정체성</term>을 갖지만, 공통점을 찾아보기 어려울 만큼 <term type="concept">노동</term>이 분화되어 그 경험의 차이가 분명해졌다는 말이다.</s>
+          <s>더군다나 구조적인 문제를 은폐하기 위해 <term type="concept">노동계급</term> 간의 갈등이 강조되며 공동체의식은 희미해지고 <quote type="direct" genre="poet">"비정규직의 정규직 전환을 반대하는 건 정규직이라는 사실"</quote>(<persName xml:id="p-choijiin3" role="poet">최지인</persName> <title level="a" type="poem" xml:id="t-conveyor">컨베이어</title>)과 같은 내부의 대립이 먼저 인식되는 실정이다.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-fraser" role="scholar foreigner">낸시 프레이저(Nancy Fraser)</persName>는 '<term type="concept">계급투쟁</term>'을 보다 넓은 의미로 재정의하여 <term type="concept">자본주의</term>와 맞서기 위해 필요한 세력을 연합하는 하나의 방법으로 간주하자고 주장한다.</s>
+          <s><term type="concept">계급</term>운동이 특수한 <term type="concept">노동자</term>집단의 경제적 이익만을 대변하는 개별적인 투쟁으로 치부될 때, <term type="concept">자본주의</term>에 맞서는 일에 다수가 동참하기는 어려워진다.</s>
+          <s><term type="concept">자본주의</term>가 단순히 경제구조가 아니듯이 <term type="concept">계급투쟁</term> 또한 생산지점에서의 투쟁만을 지칭하지 않기 때문에 다양한 투쟁들을 <term type="concept">계급투쟁</term>으로 부름으로써 불필요한 갈등과 손실을 방지할 수 있다고 보는 것이다.</s>
+          <s>육체<term type="concept">노동</term>과 정신<term type="concept">노동</term>, 비정규직과 정규직 등의 구분보다 '<term type="concept">노동자</term>'라는 공통의 범주를 <term type="concept">젊은 시인들</term>이 시에 새기려는 이유가 바로 여기에 있다.</s>
+          <s><interp value="affirmative" ana="사회">다소 부정적인 아버지까지 <term type="concept">노동자</term>로서의 '우리'로 엮어보는 일은 저항의 에너지를 엉뚱한 곳으로 겨누지 않고 확산시켜 더 많은 이들이 결속할 수 있도록 만든다.</interp></s>
+        </p>
+        <p>
+          <s>3. 돌파 아닌 묘파</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-choijiin4" role="poet">최지인</persName>의 시에서 <term type="concept">노동</term>은 자아실현이나 부의 축적과 연결되지 않는다.</s>
+          <s>일과 짝패를 이루는 것은 언제나 <quote type="direct" genre="poet">"실업의 공포"</quote>(<title level="a" type="poem" xml:id="t-croquis">크로키</title>)와 '죽음'이다.</s>
+          <s>그의 시에서 <term type="concept">노동자</term>들은 <quote type="direct" genre="poet">"사무실 이곳저곳"</quote>에 '지진 경보음'이 울릴 때도 모두 제자리를 지킨다(<title level="a" type="poem" xml:id="t-sum">숨</title>).</s>
+          <s>재난의 위험 앞에서도 자신의 일자리를 사수하려, 하던 일을 지속한다.</s>
+          <s>직장에서 살아남기 위해서 목숨까지 내놓는 모순은 의아함을 자아낸다.</s>
+          <s>이들이 이토록 일자리에 집착하게 된 이유는 무엇일까?</s>
+          <s>첫째로, 그것은 해고되는 주변인들을 보며 자신이 언제라도 대체될 수 있는 인력임을 확인했던 경험에서 온다.</s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="poet">마흔이 되던 해에 회사를 그만두고 고용센터 민원 대기실에 앉아 손에 쥔 번호가 불리길 기다리는 선배에게 지나온 삶은 행복이었을까 절망이었을까</quote></s>
+          <s><quote type="direct" genre="poet">(…)</quote></s>
+          <s><quote type="direct" genre="poet">인간은 왜 죽을힘을 다해 일하는 걸까</quote></s>
+          <s><quote type="direct" genre="poet">함께 일했던 동료 두명은 쓸모없다는 이유로 해고당했다</quote></s>
+          <s><quote type="direct" genre="poet">대체할 수 있는 것들</quote></s>
+          <s><quote type="direct" genre="poet">포개져 있는</quote></s>
+          <s><quote type="direct" genre="poet">무해한 사람들</quote></s>
+          <s>—<title level="a" type="poem" xml:id="t-salgeubba">살과 뼈</title> 부분</s>
+        </p>
+        <p>
+          <s>적지 않은 나이에 회사를 그만두고 다시 <quote type="direct" genre="poet">"고용"</quote>되기를 기다려야 하는 <quote type="direct" genre="poet">"선배"</quote>의 모습을 보며 시적 주체는 자신의 암울한 미래를 예감한다.</s>
+          <s>이에 더해 <quote type="direct" genre="poet">"함께 일했던 동료"</quote>들이 <quote type="direct" genre="poet">"죽을힘을 다해 일"</quote>했음에도 <quote type="direct" genre="poet">"해고당"</quote>하는 상황을 목격하며 '무엇을 위해'와 같은 일의 목적은 희미해지고 일자리를 지켜야 한다는 강박적 사고가 팽배해진다.</s>
+        </p>
+        <p>
+          <s>둘째로, 시적 주체들을 일에 매이도록 만드는 것은 이들이 지고 있는 '<term type="concept">부채</term>'다.</s>
+          <s><persName xml:id="p-choijiin5" role="poet">최지인</persName>은 밤새워서 일하는 것도 마다하지 않는 성실한 <term type="concept">노동자</term>들을 시에 등장시킨다.</s>
+          <s>그리고 이들이 다달이 내야 하는 <quote type="direct" genre="poet">"월세"</quote>(<title level="a" type="poem" xml:id="t-oneroom">언젠가 우리는 이 원룸을 떠날 테고</title>), <quote type="direct" genre="poet">"전기 요금"</quote>(<title level="a" type="poem" xml:id="t-postpunk">포스트 포스트 펑크</title>), 대출이자(<title level="a" type="poem" xml:id="t-seosangieut">세상이 끝날 때까지</title>) 등으로 인해 결코 일을 그만둘 수 없음을 강조한다.</s>
+          <s><persName xml:id="p-lazzarato" role="scholar foreigner">라자라또(M. Lazzarato)</persName>는 현재 <term type="concept">자본주의</term>의 가장 핵심적이고 보편적인 권력관계가 '<term type="concept">부채</term>'를 중심으로 한 '채권자-채무자 관계'이며, 이는 수혜자, <term type="concept">노동자</term>, 소비자와 같은 다양한 주체를 모두 채무자로 만들어버린다고 이야기한다.</s>
+          <s>이로써 <term type="concept">노동</term>은 노력하고 보상받는 구도에서 빚을 지고 이를 갚겠다는 약속을 이행하는 구도로 변화한다.</s>
+          <s><term type="concept">부채</term>는 '빚진 자'로서의 <term type="concept">주체</term>를 생산하고 이는 책임감과 죄책감을 유발하며 <term type="concept">노동</term>과 윤리가 분리 불가능해지도록 만든다.</s>
+          <s><term type="concept">주체</term>가 스스로 계약하여 채무자가 된 것이기에 변제 의무를 다해야 하며, 그러지 못할 경우 부도덕한 인간으로 전락한다.</s>
+          <s>신체적·지적 능력뿐만 아니라 채무자의 도덕성 그리고 그의 실존 방식까지 채무 관계에 의해 동원된다.</s>
+          <s>빚은 <term type="concept">노동자</term>가 일하게 될 미래의 시간까지 저당 잡기 때문에, 이 시대의 <term type="concept">노동자</term>는 한시도 자유로울 수 없다.</s>
+          <s><term type="concept">노동자</term>는 일자리를 잃거나 직장을 옮기게 되는 변수를 최소화해야 한다는 의무감에 사로잡히게 되고 <quote type="direct" genre="poet">"부당한 요구에도"</quote>(<title level="a" type="poem">언젠가 우리는 이 원룸을 떠날 테고</title>) 순응하게 된다.</s>
+        </p>
+        <p>
+          <s>독특한 점은 <persName xml:id="p-choijiin6" role="poet">최지인</persName>의 시에서 이러한 <term type="concept">노동자</term>(채무자)가 <quote type="direct" genre="poet">"고용"</quote>되어 <term type="concept">노동</term>할 수 있을 때는 '슬픔이 없는'(<title level="a" type="poem" xml:id="t-seosangeut">세상의 끝에서</title>) 상태로 서술된다는 점이다.</s>
+          <s><term type="concept">노동</term>으로 인해 슬픔이 극복된 걸까.</s>
+        </p>
+      </div>
+    <div type="notes">
+        <p>
+          <s><persName xml:id="p-gobongjun" role="critic">고봉준</persName> <quote type="direct" genre="critic">「<title level="a" type="critic">분노의 시대, <term type="concept">분노</term>하지 않는 시</title>」</quote>, <title level="m" type="critic" xml:id="t-munhakihu">『문학 이후의 문학』</title>, 도서출판b <date when="2020">2020</date>, 181면.</s>
+        </p>
+        <p>
+          <s>같은 책 192면.</s>
+        </p>
+        <p>
+          <s>같은 책 192~93면.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-markfisher" role="foreigner">마크 피셔</persName> <title level="m" type="foreign" xml:id="t-capitalismrealism">『<term type="concept">자본주의</term> 리얼리즘』</title>, <persName xml:id="p-parkjincheol" role="translator">박진철</persName> 옮김, 리시올 <date when="2018">2018</date>, 36면.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-slavojzizek" role="foreigner">슬라보예 지젝</persName> <title level="m" type="foreign" xml:id="t-ideology">『이데올로기의 숭고한 대상』</title>, <persName xml:id="p-isuryon" role="translator">이수련</persName> 옮김, 새물결 <date when="2013">2013</date>, 68~69면.</s>
+        </p>
+        <p>
+          <s>이하 이 두 시집에서의 인용은 제목만 표기함을 밝힌다.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-shinhyeongcheol" role="critic">신형철</persName> <quote type="direct" genre="critic">「<title level="a" type="critic" xml:id="t-shin2000s">2000년대 시의 유산과 그 상속자들: 2010년대의 시를 읽는 하나의 시각</title>」</quote>, <title level="j" type="journal" xml:id="t-changbi">『창작과비평』</title> <date when="2013">2013년</date> 봄호 379~80면 참조.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-choibaekgyu" role="poet">최백규</persName> <title level="a" type="poem" xml:id="t-samsaem">「섬광」</title>, <persName xml:id="p-choijiin" role="poet">최지인</persName> <title level="a" type="poem" xml:id="t-chorus">「코러스」</title> <title level="a" type="poem" xml:id="t-machiavelli">「마카벨리전(傳)」</title> <title level="a" type="poem" xml:id="t-vaudeville">「보드빌」</title></s>
+        </p>
+        <p>
+          <s><persName xml:id="p-leekyeongsu" role="critic">이경수</persName> 해설 <quote type="direct" genre="critic">「<title level="a" type="critic" xml:id="t-uulmunhae">우울한 미래의 비망록</title>」</quote>, <title level="m" type="poem" xml:id="t-byeok">『나는 벽에 붙어 잤다』</title> 159면 참조.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-parkduyong" role="other">박두용</persName> <quote type="direct" genre="other">「<title level="a" type="other" xml:id="t-safetyedu">안전교육, 그 허상과 실상</title>」</quote>, <orgName xml:id="org-416writers">416세월호참사 작가기록단</orgName> <title level="m" type="other" xml:id="t-jaenaneulmutda">『재난을 묻다』</title>, 서해문집 <date when="2017">2017</date>, 179~80면 참조.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-erikolinwright" role="foreigner">에릭 올린 라이트</persName> <title level="m" type="foreign" xml:id="t-anticapitalism">『21세기를 살아가는 반<term type="concept">자본주의</term>자를 위한 안내서』</title>, <persName xml:id="p-yugange" role="translator">유강은</persName> 옮김, 이매진 <date when="2020">2020</date>, 205~206면 참조.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-nancyfraser" role="foreigner">낸시 프레이저</persName>·<persName xml:id="p-martinmosquera" role="foreigner">마르띤 모스께라</persName> 대담 <quote type="direct" genre="other">「'식인 <term type="concept">자본주의</term>'의 부상」</quote>, <title level="j" type="journal">『창작과비평』</title> <date when="2021">2021년</date> 겨울호 382~84면 참조.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-mauriziolazzarato" role="foreigner">마우리치오 라자라토</persName> <title level="m" type="foreign" xml:id="t-debtman">『<term type="concept">부채</term>인간』</title>, <persName xml:id="p-heogyeong" role="translator">허경</persName>·<persName xml:id="p-yangjinseong" role="translator">양진성</persName> 옮김, 메디치미디어 <date when="2012">2012</date>, 57면.</s>
+        </p>
+        <p>
+          <s>같은 책 80~87면 참조.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-byungchulhan" role="foreigner">한병철</persName> <title level="m" type="foreign" xml:id="t-painlesssociety">『고통 없는 사회』</title>, <persName xml:id="p-leejaeyon" role="translator">이재영</persName> 옮김, 김영사 <date when="2021">2021</date>, 20~24면.</s>
+        </p>
+        <p>
+          <s><persName xml:id="p-yanggyeongeon" role="critic">양경언</persName> <quote type="direct" genre="critic">「<title level="a" type="critic" xml:id="t-smallpolitics">작은 것들의 <term type="concept">정치</term>성: 2010년대 시가 '안녕'을 묻는 방식</title>」</quote>, <title level="m" type="critic" xml:id="t-anneongeulmutneun">『안녕을 묻는 방식』</title>, 창비 <date when="2019">2019</date>, 29면.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

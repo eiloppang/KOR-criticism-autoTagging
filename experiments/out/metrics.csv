@@ -1,0 +1,9 @@
+﻿모드,채점,유형,정답수,예측수,TP,FP,FN,정밀도,재현율,F1
+pipeline↔schema_only,느슨,인물(persName),9,8,8,0,1,1.0,0.889,0.941
+pipeline↔schema_only,느슨,작품(title),2,2,0,2,2,0.0,0.0,0.0
+pipeline↔schema_only,느슨,기관(orgName),0,0,0,0,0,0.0,0.0,0.0
+pipeline↔schema_only,느슨,용어(term),3,1,1,0,2,1.0,0.333,0.5
+pipeline↔schema_only,느슨,인용(quote),8,8,7,1,1,0.875,0.875,0.875
+pipeline↔schema_only,느슨,해석(interp),4,1,0,1,4,0.0,0.0,0.0
+pipeline↔schema_only,느슨,날짜(date),2,2,2,0,0,1.0,1.0,1.0
+pipeline↔schema_only,느슨,전체(micro),28,22,18,4,10,0.818,0.643,0.72
