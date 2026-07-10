@@ -33,7 +33,16 @@
       "Bash(gh repo *)",
       "Bash(grep -iE '\\\\.\\(docx|txt\\)\"?$')",
       "Bash(git add *)",
-      "Bash(grep -iE '\\\\.\\(pdf|docx|txt\\)$')"
+      "Bash(grep -iE '\\\\.\\(pdf|docx|txt\\)$')",
+      "Bash(git -c core.quotepath=false diff --cached --name-only --diff-filter=ACM)",
+      "Bash(grep -vE '^requirements\\\\.txt$|^prompts/tei_system_prompt\\\\.txt$')",
+      "Bash(git -c core.quotepath=false diff --cached --name-only --diff-filter=D)",
+      "Bash(grep -cE '\\\\.xml$')",
+      "Bash(grep -cE '\\\\.json$')",
+      "Bash(git -c core.quotepath=false diff --cached --name-only)",
+      "Bash(grep -E '\\(^|/\\)\\\\.env$')",
+      "Bash(git commit -q -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
