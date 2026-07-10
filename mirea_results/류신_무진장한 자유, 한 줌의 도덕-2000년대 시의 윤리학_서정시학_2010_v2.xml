@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>무진장한 자유, 한 줌의 도덕-2000년대 시의 윤리학</title>
+        <author>류신</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>무진장한 자유, 한 줌의 도덕— 2000년대 시의 윤리학류 <term type="concept">신윤리</term>가 사람으로서 마땅히 행하거나 지켜야할 도리를 뜻한다면, 시의 윤리란 시가 응당히 수행해야 하는 <term type="concept">역사철학적 사명</term>, 말하자면 시의 올바른‘<term type="concept">존재 방식</term>’의 총화를 의미한다.</s>
+          <s>이 개념을 질문으로 바꿔 풀어보면 이렇다.</s>
+          <s>오늘날 시는 왜 존재하며 도대체 무엇을 할 수 있는가?</s>
+          <s><persName role="foreigner" xml:id="p-x">횔덜린</persName>의 시구를 빌려 표현하면, “<quote type="direct" genre="poet" source="빵과 포도주">궁핍한 시대에 시인은 무엇을 위해 존재하는가?</quote></s>
+          <s>”(「<title level="a" type="poem" xml:id="t-x">빵과 포도주</title>」) 이 어마어마한 주제를 <date from="2000" to="2009">2000년대</date> 한국시와 연동하여 다루는 일은 필자의 능력을 초월한다.</s>
+          <s>그래서 <date from="2000" to="2009">2000년대</date> 시의 지형에서 ‘<term type="concept">윤리성</term>’이라는 모종의 진앙에 의해 무질서하게 융기한 고원들을 톺아보는 것으로 이 자리를 국한한다.</s>
+          <s>두 가지 소망이 있다.</s>
+          <s><persName role="foreigner" xml:id="p-x2">알랭 바디우</persName>의 『<title level="m" type="other" xml:id="t-x2">윤리학</title>』의 다음 대목을 읽고품은 작은 바람이다.</s>
+        </p>
+        <p>
+          <s>우리는 <term type="concept">윤리</term>라는 단어에 완전히 다른 의미를 부여하면서, 그 경향으로부터 이단어를 탈환할 것이다.</s>
+          <s>이 단어를 추상적인 범주들(인간, 권리, 타자)에 연결시키기보다는 상황들과 관계 맺을 것이다.</s>
+          <s>이 단어를 희생자들에 대한 동정의 차원24으로 삼기보다는 개별적인 과정들에 대한 지속 가능한 준칙으로 삼을 것이다.</s>
+          <s>이단어를 보수적인 양심의 무대로 삼기보다는 그 속에서 진리들의 운명을 문제 삼을 것이다.— <persName ref="#p-x2">알랭 바디우</persName>, 『<title level="m" type="foreign" ref="#t-x2">윤리학</title>』먼저 이 탐색을 통해 <term type="concept">시의 윤리</term>와 관계된 “<quote type="direct" genre="foreign" source="윤리학">추상적인 범주들(인간, 권리,타자)</quote>”이 거듭 부각되기보다 <date from="2000" to="2009">2000년대</date> <term type="concept">시의 윤리학</term>이 발생하는 구체적인“<quote type="direct" genre="foreign" source="윤리학">상황들</quote>”과 “<quote type="direct" genre="foreign" source="윤리학">개별적인 과정들</quote>”이 밝혀지길 바란다.</s>
+          <s>이를 토대로 <term type="concept">시의 윤리</term>에 내재한 “<quote type="direct" genre="foreign" source="윤리학">진리들의 운명</quote>”과 조우할 수 있으면 더할 나위가 없겠다.</s>
+          <s>
+            <term type="concept">분노</term>
+            <interp value="affirmative" ana="미학">분노를 통해 시의 윤리는 가장 정직하고 첨예하게 표출된다.</interp>
+          </s>
+          <s><term type="concept">분노</term>는 <term type="concept">저항</term>의 파토스(문제의식)를 시의 에토스(윤리의식)로 가감 없이 직결시키는 매제이다.</s>
+          <s>타락한 세상의 불의에 대한 가장 직접적인 자기고백, 즉 시인의 심장에서 들끓는 부정한 사회에 대한 주체할 수 없는 적개는 시적 ‘<term type="concept">실천이성</term>’의 가장 효과적인 발화형식인 것이다.</s>
+        </p>
+        <p>
+          <s>실례로 한국 사회의 대표적인 참극으로 기록될 <term type="concept">용산 4가 철거민 살인진압 사태</term> 앞에서 시는 에둘러 갈 여유가 없다.</s>
+          <s>“<quote type="direct" genre="poet" source="新바벨탑"><lg type="stanza"><l>여린 목숨이 신나 화염에 타올랐던 2009년 1월 20일 밤,/ 화산재가 되</l></lg><lg type="stanza"><l>어 흑우(黑雨)가 되어,/ 마침내 천둥이 되어,/ 남은 자의 가슴에 멍이 된</l></lg></quote>”(<persName role="poet" xml:id="p-x3">김윤환</persName>, 「<title level="a" type="poem" xml:id="t-x3">新바벨탑</title>」) <term type="concept">용산참사</term> 현장 앞에서 빼어난 시어를 찾고, <interp value="critical" ana="미학">은유와 비유와 상징의 잉여로 시를 장식할 틈이 없다</interp>.</s>
+          <s>‘여기 지금’ 자행되는 ‘구체적인’불의 앞에 ‘추상적인’ <term type="concept">언어유희</term>를 용인하기에는 사태가 너무 절박하다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">시인의 양심과 윤리가 시적 상상과 감각을 부득불 앞서야 하는 비상(非常)한 상황에 직면한 시업(詩業)은 불우하다.</interp>
+          </s>
+          <s>특집연속기획 | 류 신 25<quote type="direct" genre="poet" source="비시적인 삶들을 위한 편파적인 노래"><lg type="stanza"><l>당신의 죽음 앞에서</l></lg><lg type="stanza"><l>어떤 아름다운 시로 이 세상을 노래해줄까</l></lg><lg type="stanza"><l>어떤 그럴듯한 비유와 분석으로</l></lg><lg type="stanza"><l>이 세상의 구체적인 불의를</l></lg><lg type="stanza"><l>은유적으로 상징적으로</l></lg><lg type="stanza"><l>구조적으로 덮어줄까</l></lg></quote>— <persName role="poet" xml:id="p-x4">송경동</persName>, 「<title level="a" type="poem" xml:id="t-x4">비시적인 삶들을 위한 편파적인 노래</title>」 부분그렇다.</s>
+          <s>소박한 생존권을 요구하며 최소한의 저항을 펼치던 평범한 시민들을 체제 전복의 불온한 테러리스트로 왜곡시키는 “<quote type="direct" genre="poet" source="물구나무서서 보다">거꾸로 된 세상</quote>”(<persName role="poet" xml:id="p-x5">정희성</persName>, 「<title level="a" type="poem" xml:id="t-x5">물구나무서서 보다</title>」) 앞에서, 개발이익과 시세차익에 눈 먼 광포한 <term type="concept">자본증식</term>의 탐욕 앞에서, 그리고 공권력에 의해 적군처럼 살해당하고 쓰레기처럼 소각된 양민들의 시신, 즉 “<quote type="direct" genre="poet" source="남일당"><lg type="stanza"><l>근대화 100년이 만든/ 저 검게 탄 숯덩이</l></lg><lg type="stanza"><l>앞에서</l></lg></quote>”(<persName role="poet" xml:id="p-x6">박일환</persName>, 「<title level="a" type="poem" xml:id="t-x6">남일당</title>」) <interp value="critical" ana="사회">시는 경악을 금치 못한다.</interp></s>
+          <s>동시대의 비극 앞에‘<term type="concept">직설의 윤리학</term>’을 관철시킬 도리밖에 없는 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="사회">송경동 시인의 분노의절규는 우리의 마비된 양심을 뒤흔든다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>예술의 미학성보다 메시지의 가독성을 먼저 고려해야만 하는 시대는 긴박하다.</s>
+          <s>불에 그을린 그대로150일째 다섯 구의 시신이얼어붙은 순천향병원 냉동고에 갇혀 있다(…)이 냉동고를 열어라이 냉동고에 우리의 용기가 갇혀 있다이 냉동고를 열어라26이 냉동고에 우리의 권리가 묶여 있다이 냉동고를 열어라이 냉동고에 우리 자식들의 미래가 갇혀 있다이 냉동고를 열어라이 냉동고에 우리 모두의 것인 민주주의가 볼모로 갇혀 있다이 냉동고를 열어라이 냉동고에 우리 모두의 소망인평등과 평화와 사랑의 염원이 주리 틀려 있다이 냉동고를 열어라거기 너와 내가 갇혀 있다너와 나의 사랑이 갇혀 있다너와 나의 연대가 갇혀 있다너와 나의 정당한 분노가 갇혀 있다제발 이 냉동고를 열자너와 내가, 당신과 우리가모두 한마음으로 우리의 참담한 오늘을우리의 꽉 막힌 내일을얼어붙은 이 시대를열어라, 이 냉동고를— 송경동, 「이 냉동고를 열어라」 부분송경동 시인에게 분노는 환멸과 절망의 표시가 아니다.</s>
+          <s>그에게 “<quote type="direct" genre="poet">정당한분노</quote>”는 권력과 결탁한 자본제국의 전횡에 맞서는 “<quote type="direct" genre="poet">너와 나의 연대</quote>”의 시발점이다.</s>
+          <s>정당한 분노의 뜨거운 화기(火氣)는 “<quote type="direct" genre="poet">냉장고</quote>”(강압적인 공권력, 냉담한 무관심)에 꽁꽁 감금되어 싸늘하게 얼어붙은 우리의 “<quote type="direct" genre="poet">용기</quote>”와 “<quote type="direct" genre="poet">권리</quote>”와 “<quote type="direct" genre="poet">민주주의</quote>”와 “<quote type="direct" genre="poet">평등과 평화와 사랑</quote>”을 사르르 녹여준다.</s>
+          <s>분노는 희망의씨앗을 품고 미래의 창을 연다.</s>
+          <s>불의와 부패와 부도덕이 인내의 한계를 넘특집연속기획 | 류 신 27을 때, 분노는 수구적 질서와 낡은 가치체계를 깨부수는 진보적 윤리의 척도가 될 수 있다.</s>
+          <s>예나 지금이나 가장 근본적인 시의 윤리적 소명은 모든 정치적 위임을 거부하고 만인을 위해 말하는 것이다.</s>
+          <s>이런 맥락에서 “<quote type="direct" genre="poet"><lg type="stanza"><l>시는 권</l></lg><lg type="stanza"><l>력에 매수당하지 말고 모든 지배권에 맞서서 굳건히 장자로서의 특권을 고</l></lg><lg type="stanza"><l>수해야 한다</l></lg></quote>”(「시와 정치」)는 독일 시인 한스 마그누스 엔첸스베르거(HansMagnus Enzensberger)의 말은 지난 1980년대 유통되던 철지난 고언이 아니다.</s>
+        </p>
+        <p>
+          <s>이는 <term type="concept">민주주의</term>의 후퇴가 목하 진행 중인 한국 사회에서 여전히 유효한<term type="concept">시의 윤리 강령</term>이다.</s>
+          <s>
+            <interp value="critical" ana="사회">시인에게 미학적 모험보다 정치적 실천을 청원하는 시대는 참담하다.</interp>
+          </s>
+          <s>“<quote type="direct" genre="poet" source="송경동, 미안하다, 시야"><lg type="stanza"><l>나도 알고 보면 그냥 시인만 되고 싶은 시인/ 하지만 이 시</l></lg><lg type="stanza"><l>대는 쉽게, 시를 쓸 수 없는 시대</l></lg></quote>”(<persName ref="#p-x4">송경동</persName>, 「<title level="a" type="poem" xml:id="t-x7">미안하다, 시야</title>」)는 암울하다.</s>
+          <s><term type="concept">치욕</term>그렇다고 시인의 <term type="concept">윤리의식</term>이 늘 밖으로 표출되는 것은 아니다.</s>
+          <s>부당한 현실에 대한 <term type="concept">분노</term>는 그런 사회를 암묵적으로 용인한 자기 자신, 즉 사회를 변혁시키기는커녕 사리사욕만을 채우려는 비열한 자신에 대한 <term type="concept">치욕</term>의 감정으로 굴절된다.</s>
+          <s>세상의 타락에 으밀아밀 동참한 자기 자신에 대한 <term type="concept">부끄러움</term>,바로 이 지점에서 <term type="concept">시의 윤리</term>가 발화된다.</s>
+          <s><term type="concept">시의 에토스</term>는 <term type="concept">분노</term>를 통해 외화(外化)되고, <term type="concept">치욕</term>에 의해 내화된다.</s>
+          <s><persName role="poet" xml:id="p-x7">백무산</persName>의 시는 <term type="concept">분노</term>의 격정이 각성의 명상으로 가라앉는 지점에서 기동하는 ‘<term type="concept">치욕의 윤리학</term>’을 잘 보여준다.</s>
+        </p>
+        <p>
+          <s>그럼<persName ref="#p-x7">백무산</persName>은 어떤 <term type="concept">모멸감</term>에 몸을 부르르 떠는가?</s>
+          <s>그러나 나 역시 그 <quote type="direct" genre="poet" source="치욕"><lg type="stanza"><l>치욕 때문에 낡은 시간에 포섭되었다</l></lg><lg type="stanza"><l>치욕을 쓸개처럼 씹다 더러운 시간에 갇혔다</l></lg><lg type="stanza"><l>우리의 분노와 투쟁도 자주 노예노동의 연장이 되었다</l></lg><lg type="stanza"><l>28</l></lg><lg type="stanza"><l>아, 그렇게 만든 것은 우리들이다</l></lg><lg type="stanza"><l>더이상 노동은 신성한 것이 아니다</l></lg><lg type="stanza"><l>우리의 노동이 자주 그렇게 만들었다</l></lg><lg type="stanza"><l>만들어가고 있다, 또다른 치욕도</l></lg><lg type="stanza"><l>저 치욕과의 대면이 이제 일상이 되리</l></lg><lg type="stanza"><l>그것이 우리의 즐거움도 되리</l></lg><lg type="stanza"><l>역사도 정치도 세계도 저항도 허공도 그 무엇도</l></lg><lg type="stanza"><l>일상 아닌 것 없는, 거대한 일상이</l></lg></quote>— <persName ref="#p-x7">백무산</persName>, 「치욕」 부분오늘날 먹성 좋은 <term type="concept">자본주의</term>는 인간의 사회적 존재기반을 초토화시켰을뿐만 아니라, 개인이 자신을 실현할 노동의 조건 역시 황폐화시켰다.</s>
+          <s>인간생활의 물적 과정을 합리적으로 조율하기 위해 창안된 시장이 도리어 인간을 <term type="concept">노예상태</term>로 영속화하는 억압의 기제로 작동하면서 인간이 인간의 <term type="concept">노동가치</term>를 부정하는 단계에 이른 것이다.</s>
+          <s>그래서 시인은 이제 “<quote type="direct" genre="poet" source="치욕">더이상 노동은신성한 것이 아니다</quote>”라는 뼈저린 각성에 이른다.</s>
+          <s><term type="concept">초기자본주의</term>가 초래한 <term type="concept">인간소외</term>는 <term type="concept">후기자본주의</term>의 현실 속에서 극점에 이르러, 자본의 논리가 인간의 의식뿐만 아니라 무의식까지도 지배하는 ‘<term type="concept">초소외</term>’의 국면으로 전화했다는 것이다.</s>
+          <s>물론 이러한 자본의 제국에서 성실하게 일하는 <term type="concept">노동자</term>에게 인간다움을 요구한다면 되돌아오는 것은 <term type="concept">수치와 모욕</term>일 뿐이다.</s>
+          <s><term type="concept">노동기계</term>는 결코 <term type="concept">치욕</term>을 느끼지 못한다.</s>
+          <s>자본가에 의해 철저하게 훈육되어 있기 때문이다.</s>
+        </p>
+        <p>
+          <s>하지만 <term type="concept">노동기계</term>가 자신의 영혼에도 뜨거운 피가 흐르는 것을 감지하는 순간, 그는 심한 <term type="concept">자기모멸감</term>을 느끼기 시작한다.</s>
+          <s>모름지기 <interp value="affirmative" ana="미학">치욕도 윤리적 깨달음인 것이다.</interp></s>
+          <s>그러므로 이제 우리는 일상의 <term type="concept">치욕</term>과 독대해야 한다.</s>
+          <s>이전보다더욱 정교해지고 분화된 <term type="concept">자본주의적 지배 이데올로기</term>의 장치들이 우리의 일상을 통제하고 (무)의식까지 규율하는 <term type="concept">신자유주의 시대</term>, 인간의 존엄과 가특집연속기획 | 류 신 29치를 훼손하는 불의는 일상의 도처에 잠복해 있기 때문이다.</s>
+          <s>“<quote type="direct" genre="poet"><lg type="stanza"><l>역사도 정치</l></lg><lg type="stanza"><l>도 세계도 저항도 허공도 그 무엇도/ 일상 아닌 것 없는, 거대한 일상</l></lg></quote>”의 <term type="concept">치욕</term>을 쓸개처럼 씹을 때, ‘<quote type="indirect" genre="critic">적이 사라진 시대</quote>’ <interp value="affirmative" ana="미학">시의 윤리는 새록새록 궐기한다.</interp><term type="movement">68혁명</term>의 기수였던 시인 <persName role="foreigner" xml:id="p-x8">엔첸스베르거</persName>는 호시탐탐 양떼(민중)를 잡아먹으려는 사악한 늑대(권력층)의 탐욕도 문제이지만, 비판의 본성을 거세당한 순한 양떼의 비겁한 소시민성도 병폐라는 문제의식을 시로 형상화한 바있다.</s>
+          <s>
+            <quote type="direct" genre="poet" source="엔첸스베르거">거울을 들여다보라.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="엔첸스베르거">
+              <lg type="stanza">
+                <l>비겁하고,</l>
+              </lg>
+              <lg type="stanza">
+                <l>진리의 고통에 대해 머뭇거리며</l>
+              </lg>
+              <lg type="stanza">
+                <l>배움으로부터 등을 돌리고, 생각은</l>
+              </lg>
+              <lg type="stanza">
+                <l>늑대들에게 위임한 채</l>
+              </lg>
+              <lg type="stanza">
+                <l>코걸이는 너희의 가장 귀중한 장신구,</l>
+              </lg>
+              <lg type="stanza">
+                <l>속임수를 피하기엔 어리석고, 위안 받기에는</l>
+              </lg>
+              <lg type="stanza">
+                <l>너무나 천박하구나, 모든 협박에도</l>
+              </lg>
+              <lg type="stanza">
+                <l>너희에게는 그저 온유할 뿐이다.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="엔첸스베르거">
+              <lg type="stanza">
+                <l>너희 양떼 자매들이여, 너희는</l>
+              </lg>
+              <lg type="stanza">
+                <l>비유하자면 까마귀 떼와 비슷하다.</l>
+              </lg>
+            </quote>
+          </s>
+        </p>
+        <p>
+          <s>너희들은 상대방을 눈멀게 하니.</s>
+          <s>그러나 늑대들에게는형제애가 자리하고 있다.</s>
+          <s>그들은 무리지어 다니니.</s>
+          <s>강도들은 축복 받으리라.</s>
+          <s>너희가폭력에 초대받으면서,복종의 부패한 침대에 너희는30스스로 몸을 던지니까.</s>
+          <s>너희는애걸하며 거짓말한다.</s>
+          <s>찢겨지기를너희는 원하는구나, 너희는세상을 변화시키지 못한다.— 한스 마그누스 엔첸스베르거, 「양들에 대한 늑대의 변호」 부분이 작품은 “<quote type="direct" genre="poet">복종의 부패한 침대에</quote>” “<quote type="direct" genre="poet">스스로 몸을 던진</quote>” 양떼의 치욕적인자각이 시의 윤리와 교호하는 접점을 잘 보여준다.</s>
+          <s>백무산의 “<quote type="direct" genre="poet">아, 그렇게 만든 것은 우리들이다</quote>”라는 굴욕적인 고백을 뒤집으면 이 시의 결구가 된다.</s>
+        </p>
+        <p>
+          <s>“너희는/ 세상을 변화시키지 못한다.</s>
+          <s>” 그런데 이 치욕의 에토스가 분노의파토스보다 더 큰 시적 울림을 만들어내는 이유는 무엇일까?</s>
+          <s>전자가 반성적성찰이란 시의 핵자(核子)를 더 많이 함유하고 있기 때문이다.</s>
+          <s>반성세상에 대한 분노와 자신에 대한 치욕 사이에서 반성이 움튼다.</s>
+          <s>모순에 가득 찬 사회에 대한 격분과 “<quote type="direct" genre="poet"><lg type="stanza"><l>매일 밤 일탈의 유혹처럼 찾아드는/ 이 자본의</l></lg><lg type="stanza"><l>꿀맛</l></lg></quote>”을 즐기는 소시민성에 대한 자괴(自愧) 사이의 불협화음에서 김사이시인의 반성의 윤리학이 빚어진다.</s>
+          <s>비도덕적인 사회에 대한 도덕적 인간의절규가 송경동의 분노라면, 비도덕적 사회에 대한 비도덕적 인간의 자기고백이 백무산의 치욕이라면, 비도덕적 사회와 비도덕적 인간 사이의 경계가흐물흐물 불투명해진 지점(“<quote type="direct" genre="poet"><lg type="stanza"><l>춤을 추는 무대 위엔 노동자도 자본가도 없다/</l></lg><lg type="stanza"><l>신나게 흔들어대는 사람들만 있다</l></lg></quote>”)에서 움켜쥔 ‘<quote type="direct" genre="poet">최소한의 도덕</quote>’이 김사이시인이 말하는 2000년대 발(發) 반성의 실체이다.</s>
+          <s>처음 만난 사람들 속에서 술을 마신다특집연속기획 | 류 신 31말을 새로 배우듯 조금씩 취해가며자본가와 노동자를 얘기하다가<quote type="direct" genre="poet">비정규직 부당해고에 분개를 하고</quote>여성해방과 성매매를 말하며 반짝이는 눈동자들 틈에입으로만 달고 다닌 것 같은 시가 길을 헤매며주섬주섬 안주만 챙긴다엉거주춤 따라간 나이트클럽에 취해 돌아보니얼큰히 달아오른 얼굴들이 흐물거리고춤을 추는 무대 위엔 노동자도 자본가도 없다신나게 흔들어대는 사람들만 있다쩝쩝대고 쌈박질하고 홀로 비틀어대는,아주 빠르게 회전하는 형형색색의 불빛들 아래조금씩 젖어가며 너나없이 한 덩어리가 되어 출렁거린다낯선 이국땅에서 총 맞아 죽고 굶어 죽어도매일 밤 일탈의 유혹처럼 찾아드는이 자본의 꿀맛도처에 흔들리는 일상들등급매기지 않기로 했다— 김사이, 「반성하다 그만둔 날」 전문이 작품은 세상에 대한 분노(“비정규직 부당해고에 분개를 하고”)가 어떻게 낯뜨거운 부끄러움으로 이어지고(“<quote type="direct" genre="poet"><lg type="stanza"><l>입으로만 달고 다닌 것 같은 시가 길</l></lg><lg type="stanza"><l>을 헤매며/ 주섬주섬 안주만 챙긴다</l></lg></quote>”), 이 치욕이 어떻게 반성으로 귀결되는지를 평범한 언어로 비범하게 그린다.</s>
+          <s>강요된 반성만으로는 시를 쓸 수 없다.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="neutral" ana="미학">좋은 시는 참회록도 반성문도 아니기 때문이다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="미학">세계와 자아, 타자와 주32체에 대한 분노와 치욕 사이에서 부단히 갈등하며 반성하다가, 어느 순간 그반성마저 포기할 때, 비로소 시의 윤리가 발아한다.</interp>
+          </s>
+          <s>“<quote type="direct" genre="poet"><lg type="stanza"><l>도처에 흔들리는 일상</l></lg><lg type="stanza"><l>들/ 등급매기지 않기로 했다</l></lg></quote>”고 고백하는 순간, 말하자면 ‘<quote type="direct" genre="poet">반성하다 그만둔날</quote>’, <interp value="affirmative" ana="미학">시는 사회적 도덕성의 범주를 넘어 미학적 윤리성을 획득한다.</interp></s>
+          <s>위악애초부터 반성 자체가 불가능하다는 사실을 깨닫는 순간에도 <term type="concept">시의 윤리학</term>은 발생한다.</s>
+          <s>모름지기 <term type="concept">윤리</term>란 선과 악을 구분할 수 있는 주체의 판단 원리이다.</s>
+          <s>경험적으로 혹은 선험적으로 식별 가능한 악에 대항해 개입하는 선의 심급이 <term type="concept">윤리</term>인 것이다.</s>
+          <s>따라서 <term type="concept">윤리</term>는 생리적으로 죄악을 사갈시하기 마련이다.</s>
+          <s>그러나 여기 죄악을 단죄하지 않고 그 불의와 한 침대에서 뒹굴며아슬아슬하게 ‘<term type="concept">위악의 윤리학</term>’을 구현하는 시인이 있다.</s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="poet" source="알쏭달쏭 소녀백과사전—흰 벽"><lg type="stanza"><l>잔업이 끝나고 처음 만난 기계와 잠을 잤다</l></lg><lg type="stanza"><l>기계의 몸은 수천개의 부품들로 이뤄진 성감대를 갖고 있었다</l></lg><lg type="stanza"><l>기계가 나를 핥아주었다, 나도 기계를 핥아먹었다, 쇳가루가 혀에 묻어서 참</l></lg><lg type="stanza"><l>지 못하고 뱉어냈다,</l></lg><lg type="stanza"><l>기계가 나에게 야만스럽게 사정을 한다고, 볼트와 너트를 조여달라고 했다</l></lg><lg type="stanza"><l>공장 후문에 모인 소녀들</l></lg><lg type="stanza"><l>붉은 떡볶이를 자주 사먹는 것은 뜨거운 눈물이 흐를까 싶어서이다</l></lg><lg type="stanza"><l>아니다, 새로 들어온 기계와 사귀면서부터이다</l></lg></quote>— <persName role="poet" xml:id="p-x9">이기인</persName>, 「<title level="a" type="poem" xml:id="t-x8">알쏭달쏭 소녀백과사전—흰 벽</title>」 부분특집연속기획 | 류 신 33공장에서 일하는 소녀에 대한 어떤 연민도, 일말의 동정도, 눈곱 만큼의애처로움도 찾을 수 없다.</s>
+          <s>자본을 지휘하고 <term type="concept">노동자</term>를 통제하는 저 완악한 기계에 의해 유린당한 여직공의 상처 받은 영혼과 육신을 따뜻하게 보듬는 위무의 시선도 없다.</s>
+          <s><term type="concept">자본주의</term>와 <term type="concept">섹슈얼리티</term>가 화간(和姦)하는 장면을 좇는<interp value="critical" ana="사회">관음증적 시선만이 존재한다.</interp></s>
+          <s>하지만 이 <term type="concept">위악적인</term> 시의 <term type="concept">게스투스(Gestus)</term>에서 기묘한 <interp value="affirmative" ana="사상">윤리학의 하비투스(Habitus)가 얼비친다.</interp></s>
+          <s>자본의 횡포에 저항하기보다 자본의 논리를 받아들이는 소녀들의 육체(“<quote type="direct" genre="poet" source="알쏭달쏭 소녀백과사전—흰 벽">나도 기계를 핥아먹었다</quote>”)에서, 생존을 위해 소리 없이 우는 법을 체득한 소녀들의 얼굴(“<quote type="direct" genre="poet" source="알쏭달쏭 소녀백과사전—흰 벽">붉은 떡볶이를 자주 사먹는 것은 뜨거운 눈물이 흐를까 싶어서이다</quote>”)에서 <interp value="affirmative" ana="사회">신자유주의의 발호(跋扈)에 대한 윤리적 고발이 감지되기 때문이다.</interp></s>
+          <s>이런 맥락에서<persName ref="#p-x9">이기인</persName> 특유의 ‘<term type="concept">위악의 윤리학</term>’에 대한 <persName role="poet" xml:id="p-x10">이장욱</persName>의 평가는 정곡을 찌른다.</s>
+          <s>“<quote type="direct" genre="critic">이시집은 세계의 죄악을 누설하면서도, 그 죄의 바깥으로 자신/화자를 면제하지 않는다.</quote></s>
+          <s>여기에서 <interp value="affirmative" ana="문학관">기이한 시적 윤리학이 시작된다.</interp></s>
+        </p>
+        <p>
+          <s>”(「<title level="a" type="poem" xml:id="t-x9">외계인 인터뷰</title>」) <interp value="affirmative" ana="미학">애초부터 반성을 포기하고 짐짓 악한 체하는 시도 윤리를 구현할 수 있음을도발적으로 실천한 시인이 이기인이다.</interp></s>
+          <s><term type="concept">위선</term>은 <term type="concept">윤리</term>를 교묘하게 배신한다.</s>
+          <s>그러나 <term type="concept">위악</term>은 <term type="concept">윤리</term>를 역설적으로 윤허한다.</s>
+          <s><term type="concept">숭고</term><term type="concept">냉소</term>적인 <term type="concept">위악</term>의 체험뿐만 아니라 속(俗)이 성(聖)으로 뜨겁게 비약하는극적인 순간, 즉 ‘부정적’ 숭고의 체험에서도 시의 <term type="concept">윤리</term>는 발생한다.</s>
+          <s>여기서<term type="concept">숭고</term> 앞에 ‘부정적’이란 형용사를 덧붙인 이유는, 전통적인 숭고(<term type="concept">hypos</term>)와차별되는 개념임을 강조하기 위함이다.</s>
+          <s><persName role="foreigner" xml:id="p-x11">칸트</persName>에 따르면 <term type="concept">숭고</term>란 극심한 공포(불쾌)에서 희열(쾌)로 이행되는 순간 체험하는 <term type="concept">파토스</term>, 즉 격정적으로 치솟아 오르는 자아의 고양을 뜻한다.</s>
+          <s>그러나 <persName role="foreigner" xml:id="p-x12">리오타르</persName>는 <term type="concept">숭고</term>의 핵심 지점인 초월적 지고의 순간을 부정한다.</s>
+          <s>그는 <term type="concept">숭고</term>의 체험이 종교적 화해로 고양되는34절정의 지점을 인정하지 않는다.</s>
+        </p>
+        <p>
+          <s>왜냐하면, <term type="concept">숭고</term>가 절정의 임계점에서 초극하지 않고 오히려 추락할 때, 저 높은 신적인 곳을 지향하던 전통적인 숭고의 이념은 현대사회의 특징인 <term type="concept">삶의 부조리와 모순</term>의 심연을 느닷없이 환하게 드러내 보여주는 ‘<term type="concept">범속한 트임(Profane Erleuchtung)</term>’으로 새롭게 기능할 수 있기 때문이다.</s>
+          <s><persName role="critic" xml:id="p-x13">조영석</persName>의 시는 ‘<term type="concept">부정적 숭고의 윤리학</term>’이 어떻게 작동하는가를 잘 보여준다.</s>
+          <s>해변에서부터 너무 멀리 와버린 것일까.</s>
+          <s>암초 위에 앉아 젖은 머리를 말리며 듣던 노래더 이상 들리지 않고.</s>
+          <s>지상의 물기를 모조리 핥아먹는 여름쨍쨍한 정오의 태양을 온몸으로 짊어진 채인어 한 마리 눅눅한 아스팔트 위를 기어가고 있다.</s>
+          <s>목소리를 내어주고 얻은 것은 무엇이었나,인어는 다만 제 꼬리를 고무로 바꾸었을 뿐.</s>
+          <s>힘차게 한번 펄떡일 힘도 없이 꼬리는까맣고 끈적거리는 비늘을 녹이며 추진력을 얻는다.</s>
+          <s>칼날을 밟는 아픔을 참느라고개 숙인 인어의 얼굴은 일그러져 있다.</s>
+        </p>
+        <p>
+          <s>인어가 앞세운 녹슨 카세트에서기쁨과 축복의 노래가 가난하게 흘러나온다.</s>
+          <s>지느러미처럼 생긴 손바닥 위에 소쿠리를 얹은 채로인어는 지상에서 살기 위해 구경거리가 된다.</s>
+          <s>때마침 격렬한 소나기가 쏟아지고인어의 곁을 쿵쿵거리며 걷던 다리들이거품처럼 가볍게 사라진다.</s>
+          <s>특집연속기획 | 류 신 35또 다른 해변이 멀지 않은 것일까.</s>
+          <s>인어는 고개를 들어 빗물을 마신다.</s>
+          <s>밍밍하기만 한 물에 땀방울을 섞어 염분을 섭취한다.</s>
+          <s>꼬리에서는 푸시시 열기가 꺼지며 김이 솟아오른다.</s>
+          <s>소쿠리 속 동전들이 미역처럼 번들거린다.</s>
+        </p>
+        <p>
+          <s>까끌까끌한 눈알들이 <title level="a" type="poem" xml:id="t-x10">인어</title>의 몸을 핥으며곳곳에서 담배연기를 피워 올리고 있다.— <persName ref="#p-x13">조영석</persName>, 「인어」 전문<interp value="affirmative" ana="미학">이 작품은 상충하는 이미지들 사이의 긴장으로 팽팽하다.</interp></s>
+          <s>생명의 바다와불모의 육지, “<quote type="direct" genre="poet" source="인어">지상의 물기를 모조리 핥아먹는 여름</quote>”과 이 무더위를 기습적으로 폭격하는 “<quote type="direct" genre="poet" source="인어">격렬한 소나기</quote>”, “<quote type="direct" genre="poet" source="인어">암초 위에 앉아 젖은 머리를 말리며</quote>” 불렀던 로렐라이의 노래와 “<quote type="direct" genre="poet" source="인어">녹슨 카세트에서</quote>” “<quote type="direct" genre="poet" source="인어">가난하게 흘러나</quote>”오는 복음성가,황금빛 비늘로 화려하게 번쩍이는 인어공주의 하반신과 “<quote type="direct" genre="poet" source="인어">한번 펄떡일 힘도없이</quote>” “<quote type="direct" genre="poet" source="인어">까맣고 끈적거리는 비늘을 녹이며 추진력을 얻는</quote>” 인어의 고무꼬리.</s>
+          <s>요컨대 <interp value="affirmative" ana="미학">동화 속 인어의 낭만적인 아름다움과 현실의 저잣거리에서 구걸하는장애인의 기형적인 추함의 대비가 끝까지 긴장의 끈을 놓지 못하게 만든다.</interp></s>
+          <s>그런데 고무꼬리를 질질 끌며 “<quote type="direct" genre="poet" source="인어">지상에서 살기 위해 구경거리가</quote>” 되는 고개숙인 인어가 돌연 고개를 치켜든다.</s>
+          <s>때마침 쏟아진 소나기 덕분이다.</s>
+          <s>갑자기퍼붓는 소나기는 “<quote type="direct" genre="poet" source="인어">해변으로부터 너무 머리 와버린</quote>” 인어로 하여금 잠시나마삶의 희망을 품게 만든다.</s>
+          <s>그래서 시인은 이런 상상을 한다.</s>
+          <s>“<quote type="direct" genre="poet" source="인어">또 다른 해변이 멀지 않은 것일까.</quote></s>
+        </p>
+        <p>
+          <s>” 물론 <term type="concept">해변</term>은 비정하고 비열한 거리를 온몸으로 포복하며 “<quote type="direct" genre="poet">칼날을 밟는 아픔을</quote>” 참고 견디는 <term type="concept">인어</term>가 꿈꾸는 <term type="concept">유토피아</term>의 다른 이름이다.</s>
+          <s>4연은 <term type="concept">인어</term>가 빗물을 맞는 절정의 순간을 묘사한다.</s>
+          <s>“<quote type="direct" genre="poet">꼬리에서는 푸시시 열기가 꺼지며 김이 솟아오</quote>”르는 장면은 <persName ref="#p-x12">리오타르</persName>가 말한 ‘<quote type="direct" genre="poet"><lg type="stanza"><l>부정적 숭</l></lg><lg type="stanza"><l>36</l></lg><lg type="stanza"><l>고</l></lg></quote>’의 미가 권화되는 순간이다.</s>
+          <s>그러나 <term type="concept">인어</term>가 지상의 삶을 초극하려는 순간, 다시 인어의 몸을 핥는 “<quote type="direct" genre="poet">까끌까끌한 눈알들</quote>”과 허공으로 가뭇없이 사라지는 “<quote type="direct" genre="poet">담배연기</quote>”는 <interp value="neutral" ana="미학">인어의 현실초극이 절대 불가능한 일임을 역설적으로 증명한다.</interp></s>
+          <s>곧 단비는 그치고, 다시 태양이 작열할 것이다.</s>
+          <s>열기가 꺼지면 솟아오르던 김은 뜨거운 대기 속으로 증발해 버릴 것이다.</s>
+          <s>그리고 고무꼬리 <term type="concept">인어</term>는 다시 온몸으로 세속도시의 거리를 박박 기어 다닐 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 패배와 몰락의 장소에서 부정적 숭고의 윤리학이 발생한다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>시적 윤리는 값싼 연민이나 비장한 종교적 앙양(昻揚)으로 완성되지 않는다.</s>
+          <s>세속적인 현실에 대한도저한 부정이 낳는 불쾌가 쾌의 감정으로 승화되는 숭고의 극점에서 다시지상으로 곤두박질칠 때, 도리어 시의 윤리성은 고양된다.</s>
+          <s>회상시의 윤리는 과거와 현재가 병치되고, 사실과 환상이 중첩될 때에도 싹튼다.</s>
+          <s>진은영의 「Quo Vadis?」 전문을 읽어보자.</s>
+          <s>울던 아이들은 어디로 갔나이제 바람도 멈추었다네우리의 녹색 비밀을 묶어둔 노끈들처음으로 숫자를 적은작은 공책은 어디로물에 빠진 고양이털 하얗게 얼어가는 추위나무 실로폰은먼 마을의 저녁 종소리는특집연속기획 | 류 신 37어디로낡은 선반 위에서는여수 출입국 보호소 화재로사과와 별을 싼 종이냄새가 났었다이주노동자 10명 사망.</s>
+          <s>17명 부상사과와 별을 싼 종이냄새가 났었다보호 외국인의 도주를 우려해숨겨놓은 얇고 구겨진 파란 종이를 풀며쇠창살 문 개방 지연, 감금된 채숨겨놓은 얇고 구겨진 파란 종이를 풀며노동자들 연기에 질식 사망사탕에 그려진 달콤한 회오리를 따라 혀를 내밀었는데어린 우리는 높은 담장 넘어이웃의 마당에 빗방울로 떨어졌는데과일나무 가지들은 빨간 열매 달고우리를 계속 따라오는데서리 낀 창유리로 물방울맑은 얼룩의 길을 내며 흘러내린다연기에 그을린 고양이털지폐처럼 빳빳하게 얼어가는 추위우리가 모아놓은 잿빛 구름이밀빵처럼 부풀어오른다갇힌 사람들의 피로 젖은 빵을 뜯으며38저녁은 몹시 어두워지는데, 이제 어디로?</s>
+          <s>이 작품은 시인의 유년기에 대한 몽롱한 기억 속에 여수 출입국사무소 외국인보호소 화재 참사라는 현재의 사건이 낯설게 개입되면서 참신한 시적윤리성을 분무한다.</s>
+          <s>“<quote type="direct" genre="poet">녹색 비밀[유년기의 진실]을 묶어 둔 노끈들</quote>”의 신비로운 이미지는 도주를 우려해 노동자들을 가둔 “<quote type="direct" genre="poet">쇠창살</quote>”이라는 감시와 처벌의 상징과 교통하고, “<quote type="direct" genre="poet"><lg type="stanza"><l>연기에 그을린 고양이털/ 지폐처럼 빳빳하게 얼어</l></lg><lg type="stanza"><l>가는 추위</l></lg></quote>”는 노동자들을 산 채로 화장시킨 화마의 이미지와 충돌한다.</s>
+        </p>
+        <p>
+          <s>어릴 적 몰래 숨겨 놓고 빨아먹던 회오리사탕의 달콤함과 감금된 <term type="concept">노동자</term>들의단발마의 비명이 상충하고, <term type="concept">게토</term>의 벽을 넘지 못하고 불에 타 죽은 노동자의최후는 “<quote type="direct" genre="poet">높은 담장을 넘어 이웃의 마당에 빗방울로 떨어</quote>”지는 <term type="concept">월경(越境)</term>의 추억과 대비된다.</s>
+          <s>무엇보다 이 시의 압권은, 유년기 추억의 총체(“<quote type="direct" genre="poet">우리가모아 놓은 잿빛 구름</quote>”), 비유하자면 한껏 부풀어 오른 “<quote type="direct" genre="poet">밀빵</quote>”을 “<quote type="direct" genre="poet">갇힌 사람들의 피로 젖은 빵</quote>”으로 상상하는 대목이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학·사상">자신의 실존적 공복을 채워주는 추억의 밀빵이 사회적 불의에 참여하는 윤리적 각성의 밀빵과 새로운 전이의 계약을 맺는 장면이다.</interp>
+          </s>
+          <s>이런 맥락에서 시의 제목 ‘<title level="a" type="poem" xml:id="t-quovadis">Quo Vadis?</title></s>
+          <s>’, 즉 ‘당신은 어디로 가시나이까?</s>
+          <s>’의 함의는 이중적이다.</s>
+          <s>사적인 차원에서 시인은유년기의 순수함과 아름다움이 사라진 것을 못내 안타까워한다.</s>
+          <s>그래서 시인은 자신에게 되묻는다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet">울던 아이들은 어디로 갔나</quote>”, “<quote type="direct" genre="poet">작은 공책은 어디로</quote>”, “<quote type="direct" genre="poet">먼 마을의 저녁 종소리는/ 어디로</quote>”.</s>
+          <s>동시에 시인은 동시대 시민으로서세상을 향해 따져 묻는다.</s>
+          <s>사도 베드로가 십자가에 못 박혀 끌려가는 그리스도를 보고 ‘주여 당신은 어디로 가시나이까(Quo Vadis Domine)?</s>
+          <s>’라고 묻듯이, 외국인 노동자들을 죽음으로 내몬 현실을 나지막이 고발한다.</s>
+          <s>“[핍박받은 노동자들의 영혼들은] 이제 어디로?</s>
+          <s>” 아직 아물지 않은 과거의 상처를상기시키는 일은 시의 윤리적 소임이 아니다.</s>
+          <s>여기 억울하게 불타 죽은 이들이 있으니, ‘<quote type="direct" genre="poet">이 사람을 보라</quote>’라는 에케 호모(Ecce Homo)의 공적인 호소로시쓰기의 윤리학은 완수되지 않는다.</s>
+          <s>오히려 시는 망각의 역사를 사적인 기특집연속기획 | 류 신 39억으로 내밀히 복원해야 한다.</s>
+        </p>
+        <p>
+          <s>현재에서 과거를 추억하기보다 과거에서 현재를 예언하기.</s>
+          <s>이것이 <persName role="poet" xml:id="p-x14">진은영</persName>의 시학이 영토 세운 ‘<term type="concept">기억의 윤리학</term>’의 요체이다.</s>
+          <s><term type="concept">슬픔</term><term type="concept">모멸</term>과 치욕의 고통스러운 산물인 <term type="concept">각성의 윤리학</term>이 아니라 “<quote type="direct" genre="poet"><lg type="stanza"><l>타인들의 칭</l></lg><lg type="stanza"><l>송과 멸시와 무관심에 연연치</l></lg></quote>” 않는 <term type="concept">고독의 윤리학</term>을 선보이는 <term type="concept">언어의 곡예사</term>가 있다.</s>
+          <s>정치적 혁명의 당위성을 믿기보다는 “<quote type="direct" genre="poet" source="심보선, 착각"><lg type="stanza"><l>차라리 모호한 휴일의 일</l></lg><lg type="stanza"><l>기예보</l></lg></quote>”(<persName role="poet" xml:id="p-x15">심보선</persName>, 「<title level="a" type="poem" xml:id="t-x11">착각</title>」)의 불확실성을 믿는 <term type="concept">슬픔</term>의 감별사가 있다.</s>
+          <s><term type="concept">시적 윤리</term>는 현실참여를 추동하는 <term type="concept">실천이성</term>보다 ‘<term type="concept">감각적 체험의 자율성</term>’(<persName role="foreigner" xml:id="p-x16">자크 랑시에르</persName>)을 통해 보장된다고 확신하는 <term type="concept">미학적 불온분자</term>가 있다.</s>
+          <s>
+            <quote type="direct" genre="poet" source="심보선, 구름과 안개의 곡예사">
+              <lg type="stanza">
+                <l>구름과 안개에 골몰하느라 학업과 노동을 작파한 지 오래</l>
+              </lg>
+              <lg type="stanza">
+                <l>내가 펄쩍 뛰었다 착지한 자리엔 음모(陰毛)가 수북이 쌓이곤 한다</l>
+              </lg>
+              <lg type="stanza">
+                <l>내 몸의 중요 부위가 점점 구름과 안개로 화하기 때문일까?</l>
+              </lg>
+            </quote>
+          </s>
+          <s>어쨌든 네 행방을 찾으려거든 땅 위에 떨어진 털들을 따라오면 되는 것이다나는 그저 <term type="concept">고독</term>한 아크로바트일 뿐즐거움과 슬픔만이 나의 도덕사랑과 고백은 절대 금물이름이 무엇이고 거처가 어디인지에 대해서는 결단코 침묵이다간혹 나는 밤거리로 뚜벅뚜벅 걸어 나가 진열장에 비친 내 모습을 바라본다나 자신이 아득한 심연으로 되비치고등 뒤의 어둠과 눈앞의 환함이 서로를 환대할 때까지나는 일생에 걸쳐 가장 가난한 표정으로 거기 오래 서 있는다40그러고는 오묘한 정취에 젖어 달이 뜬 쪽을 향해 물구나무로 걸어가는 것이다자정의 밤거리는 언제나 취객과 창녀로 북적거린다내 둥근 몸을 통과한 달빛에 젖은 자들이여나를 비웃든 경외하든, 그대들의 삶에 다산과 다복이 넘치기를또 간혹 나는 구름과 안개를 뚫고 달리고 또 달린다구름과 안개가 걷히면 심심해져서 곧장 집으로 돌아온다구름과 안개가 걷힌 거리는지식 없는 선생이요표정 없는 얼굴이기에구름으로 다듬고 안개로 닦아야만 고독은 아름다운 자태를 얻는다고 믿는다나는 그저 고독한 아크로바트일 뿐굳이 유파를 들먹이자면마음의 거리에 자우룩한 구름과 안개의 모양을 탐구하는 ‘흐린 날씨’파고독이란 자고로 오직 자신에게만 아름다워 보이는 기괴함이기에타인들의 칭송과 멸시와 무관심에 연연치 않는다즐거움과 슬픔만이 나의 도덕사랑과 고백은 절대 금물어떻게 살아왔고 어떻게 살아갈 것인지에 대해서는 결단코 침묵이다— <persName ref="#p-x15">심보선</persName>, 「<title level="a" type="poem" xml:id="t-x12">구름과 안개의 곡예사</title>」 부분시인은 <term type="concept">자본주의</term> 사회가 강요하는 윤리적 덕목인 “학업과 <term type="concept">노동</term>을 작파”하고 골방에 틀어 박혀 실존의 소멸에 골몰한다.</s>
+          <s>존재의 상품가치를 부각시켜<term type="concept">자본주의</term> 질서체계 속에 안정적으로 편입되기보다, 스스로 자신을 구름이나 안개처럼 희부옇게 기화(氣化)시켜 완고한 자본주의 체제 위를 유령처럼표류하는 “<quote type="direct" genre="poet" source="심보선, 구름과 안개의 곡예사">고독한 아크로바트</quote>”의 길을 선택한 것이다.</s>
+        </p>
+        <p>
+          <s>정박하지 않고 부단특집연속기획 | 류 신 41히 주유하는 <term type="concept">노마드적 자아</term>의 출현.</s>
+          <s>여기서 중요한 것은, 이 방기된 삶이 현실도피의 산물이 아니라는 사실이다.</s>
+          <s>오히려 자신을 완전 탕진시키는 화자의 ‘비생산적’ 삶은 <term type="concept">노동</term>을 통한 무한생산과 <term type="concept">자본축적</term>을 강요하는 현대사회에 대한 은밀한 저항적 정체성을 획득한다.</s>
+          <s>나는 하찮고 보잘것없다고, 그저별일 없이 심심하게 살 뿐이라고 심드렁하게 말하는 시인의 독백 속에 <interp value="affirmative" ana="미학">전위적인 윤리의식이 스며 있다.</interp></s>
+          <s>시인은 <term type="concept">신자유주의</term>가 내건 찬란한 정치경제학적 비전을 신뢰하지 않는다.</s>
+          <s>자신의 정체성과 좌표(“<quote type="direct" genre="poet">이름이 무엇이고 거처가 어디인지</quote>”)와 역사와 목표(“<quote type="direct" genre="poet">어떻게 살아왔고 어떻게 살아갈 것인지</quote>”)에대해서도 일절 함구한다.</s>
+          <s><term type="concept">단독자</term>의 삶을 고집하는 시인은 타자와의 열정적인 관계(“<quote type="paraphrase" genre="poet">사랑</quote>”)도, 자기 자신과의 진솔한 대화(“<quote type="paraphrase" genre="poet">고백</quote>”)도 부정한다.</s>
+          <s>
+            <interp value="affirmative" ana="사회">이처럼시인은 기성 사회의 질서체계(자본주의)와 감각의 분배체계(사랑과 고백)를 교란하고 재배치하는 데 주력한다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>시인이 유일하게 신뢰할 수 있는 최후의 <term type="concept">미학적(윤리적) 보루</term>는 이제 자신의 감정뿐이다.</s>
+          <s>그래서 시인은 단언한다.</s>
+          <s>“즐거움과 슬픔만이 나의 도덕”.</s>
+          <s>
+            <interp value="neutral" ana="미학">감각이 윤리를 흡수한 경우이다.</interp>
+          </s>
+          <s><date from="2000" to="2009">2000년대</date> ‘<term type="concept">감각의 윤리학</term>’이 발흥하는 지점은 여기이다.</s>
+          <s><term type="concept">우울</term><term type="concept">슬픔</term>이 좀 더 골똘해지고 깊어지면 우울로 변하고, 이 씁쓸한 <term type="concept">멜랑콜리</term>의영토에서도 <term type="concept">검은 윤리</term>의 꽃이 스멀스멀 피어난다.</s>
+          <s><term type="concept">기대지평</term>과 <term type="concept">경험공간</term>의차이가 잉태한 정신상태가 <term type="concept">우울</term>이라면, 이상과 현실 사이의 메울 수 없는 간극이 발효시킨 감성의 분비물이 <term type="concept">멜랑콜리</term>라면, 필경 우울 속에도 바람직한삶에 대한 윤리적 사색과 실천의 흔적이 남아 있기 마련이다.</s>
+          <s><persName ref="#p-x10">이장욱</persName>의 시는‘<term type="concept">우울의 윤리학</term>’이 어떻게 발생하고 작동하는지를 보여준다.</s>
+        </p>
+        <p>
+          <s>골목, 이라는 발음을 반복하자 서서히 골목이 사라진다.</s>
+          <s>골목이, 골목은, 골목42을, 골목에서…… 하지만 창밖에 골목이 있다.</s>
+          <s>냉장고를 열고 우유팩을 꺼낸다.</s>
+          <s>내일은 선거일이다.</s>
+          <s>유통 기한이 지난 날짜가 찍혀 있다.</s>
+          <s>하지만 음악은 발라드.</s>
+          <s>시인 <persName role="poet" xml:id="p-x17">오장환</persName>이 ‘<quote type="direct" genre="critic">백석은 모던 보이</quote>’라고 적어놓은 글을읽었다.</s>
+          <s>아르바이트 급여를 확인하기 위해 나는 <orgName xml:id="org-x">국민은행</orgName>으로.</s>
+        </p>
+        <p>
+          <s>내일은 선거일이다.</s>
+          <s><persName role="poet" xml:id="p-x18">백석</persName>은 <term type="concept">모던 보이</term>.</s>
+          <s>나는 아직 과부하 상태인지 모른다.</s>
+          <s>전방을 향해 맹목적으로 사라지는 롤러블레이드들.</s>
+          <s>뒤돌아보지 마 소금 기둥이 될 거야.</s>
+          <s>골목이, 골목은, 골목과.</s>
+          <s>결국 골목을…… 나는 걸었다.</s>
+          <s>한때 <term type="concept">혁명가</term>였던, 아직 혁명가인지도 모르는, 컴퓨터 수리점 사장 김(金)을 먼발치로 발견하고, 나는 다른 골목을 택해 걷는다.</s>
+        </p>
+        <p>
+          <s>골목이, 골목을, 골목과, 결국골목은……그는 나를 로맨틱한 동물이라고 명명한 적이 있지만, 그날 밤 동해로 떠난 것은 내가 아니었다.</s>
+          <s>아파트 신축 현장의 모래 바람이 골목을 휩쓸고 지나갈 때,일당제 인부의 헬멧으로부터 클로즈업되는 ‘<term type="concept">안전제일</term>.</s>
+          <s>’ <interp value="critical" ana="문학관">백석은 모던 보이가 아니다.</interp></s>
+          <s>통장에 아르바이트 급여는 찍히지 않는다.</s>
+          <s>눈을 가늘게 뜨면, 서서히 떠오르는 것들.</s>
+          <s>가령 골목과, 골목에, 골목의…… 도레미레코드점에서 울리는 발라드.</s>
+          <s>내일은 선거일이다.</s>
+          <s><orgName ref="#org-x">국민은행</orgName>의 간판에 앉았다가 날아오르는 까치 몇 마리.</s>
+        </p>
+        <p>
+          <s>내가 걸어가는 골목을, 골목의, 골목에서, 골목을 향해, 어느 먼 하늘 쪽으로부터점점이, 명백한 자세로 밀려오는, 동해의 파도.— <persName ref="#p-x10">이장욱</persName>, 「<title level="a" type="poem" xml:id="t-x13">나의 우울한 모던 보이</title>」 전문특집연속기획 | <persName role="critic" xml:id="p-x19">류 신</persName> 43시인은 <interp value="neutral" ana="미학">언어란 세계를 함축한 기호라는 낙관의 전제를 실험해 본다</interp>.</s>
+          <s>골목이라는 단어를 조금씩 변주하고 반복 호명함으로써 골목이 사라지기를 희원한다.</s>
+          <s>“<quote type="direct" genre="poet">하지만 창밖에 골목은 있다</quote>”.</s>
+          <s><term type="concept">말과 사물 사이에 가로놓인 아득한 심연</term>.</s>
+          <s>그래서 시인은 <term type="concept">우울</term>하다.</s>
+          <s>유통 기한이 지난 부패한 우유와 정치적 유통기간이 만료된 사회(그래서 “<quote type="direct" genre="poet">내일은 투표일이다</quote>”) 사이의 모종의 연관성에대한 짧은 명상.</s>
+          <s>시인은 다시 침울해진다.</s>
+          <s><persName ref="#p-x17">오장환</persName>과 <persName ref="#p-x18">백석</persName>의 시를 읽는 “<quote type="direct" genre="poet">로맨틱한 동물</quote>”과 아직 송금되지 않은 임금이 찍힌 통장을 확인하는 불안정한<term type="concept">비정규직</term> <term type="concept">노동자</term> 사이의 낙차가 분무하는 <term type="concept">존재론적 비애</term>.</s>
+        </p>
+        <p>
+          <s>시인의 <term type="concept">수심</term>은 더깊어진다.</s>
+          <s>광장의 <term type="concept">혁명</term>에 등 돌리고 “<quote type="direct" genre="poet">다른 골목을 택해</quote>” 터벅터벅 걷는 <term type="concept">우울</term>한 <term type="concept">모던 보이</term>.</s>
+          <s>“<quote type="direct" genre="poet">도레미레코드점에서 울리는 발라드</quote>”는 <term type="concept">모던 보이</term>의 발걸음을 더욱 쓸쓸하게 만든다.</s>
+          <s>
+            <interp value="neutral" ana="미학">하지만 그렇다고 시인의 우울이 무기력한 허무의 나락으로 추락한 것은 아니다.</interp>
+          </s>
+          <s>시인은 자신의 <term type="concept">우울</term>한 거처인 골목의 끝자락에서 “<quote type="direct" genre="poet"><lg type="stanza"><l>골목을 향해, 어느 먼 하늘 쪽으로부터</l></lg><lg type="stanza"><l>점점이, 명백한 자세로 밀려오는, 동해의 파도</l></lg></quote>”를 공상한다.</s>
+          <s>꿈꾸기를 단념할 수 없는 <term type="concept">단독자</term>가 꿈 없는 현실과 독대한 후 품은 한 줌의 <term type="concept">분한(ressentiment)</term>.</s>
+          <s><term type="concept">절망</term>과 <term type="concept">희망</term>의 <term type="concept">변증법</term>적 자장(磁場)에서 분출되는 생을 향한 <term type="concept">우울</term>한 열정.</s>
+          <s><term type="concept">멜랑콜리</term>는 <term type="concept">유토피아</term>의 그늘에서 패자들이 품은 ‘<term type="concept">저항의 윤리</term>’에 다름 아니다.</s>
+        </p>
+        <p>
+          <s>아도르노는 우울에 내재한 구원의 가능성을 이렇게 말한다.</s>
+          <s>“모든 명상이 할 수 있는 것은오직 우울의 이중성을 항상 새로운 모습과 착상 속에서 참을성 있게 추적하여 묘사해나가는 것이다.</s>
+          <s>진리란 가상의 모습에서 언젠가는 가상 없는 구원이 솟아오르리라는 망상과 분리될 수 없다”(아도르노, 『미니마 모랄리아』).</s>
+          <s>오늘날 권력과 자본에는 도덕과 윤리가 없다.</s>
+          <s>권력은 더 많은 권력을 장악하려는 욕망으로, 자본은 더 많은 자본을 축적하려는 탐욕으로 칼춤을 춘다.</s>
+          <s>이것이 권력과 자본의 생리이다.</s>
+          <s>이 고삐 풀린 욕망의 난장에서 시가 할수 있는 일은 많지 않다.</s>
+          <s>시는 결코 세상을 바꿀 수 없다.</s>
+        </p>
+        <p>
+          <s>시는 힘이 없다.</s>
+          <s><term type="concept">권력</term>으로부터 무시당하고 <term type="concept">자본</term>으로부터 홀대받기 일쑤다.</s>
+          <s>이것이 시의 운명이44다.</s>
+          <s>그러나 시는 사람을 사람답게 만드는 종요로운 씨앗을 품고 있다.</s>
+          <s>시의내부에는 인간다운 삶을 성찰하게 만드는 계기가 잠복해 있다.</s>
+          <s>그러므로 <interp value="affirmative" ana="문학관">시의 논리는 정치적이다(정치란 인간다운 삶을 영위하기 위한 인간 활동의 총화이다).</interp></s>
+          <s>그뿐만 아니다.</s>
+          <s>당대의 역사적 현실을 가장 예민하게 감지하고 그것을 창조적으로 조형하는 <term type="concept">전위적인</term> 모색이 시의 내부에서 암약(暗躍)한다.</s>
+        </p>
+        <p>
+          <s>요컨대 시는 현실논리와 가장 멀리 떨어져 있으면서 동시에 고도의 정치적함의를 내장한 역설의 영역이다.</s>
+          <s>비정치성의 정치성!</s>
+          <s>이것이 2000년대 시의윤리이다.</s>
+          <s>끝으로 식자들의 지혜와 논자들의 전언에 의지해 시의 오륜(五倫)을 제안한다.</s>
+          <s>하나.</s>
+          <s>거짓 구호를 깨뜨려라.</s>
+          <s>“지배권의 눈에는, 시란 무정부주의적이요,시를 마음대로 할 수 없기 때문에 참을 수 없는 존재요, 시가 단순히 존재한다는 사실만으로도 파괴적인 존재로 보인다.</s>
+          <s>(…) 시의 비판적 행위란 동화속에서의 어린아이의 행위와 다를 바가 없다.</s>
+        </p>
+        <p>
+          <s>임금이 옷을 걸치고 있지 않다는 사실을 통찰하기 위해서는 그 어떤 책임감도 필요치 않다.</s>
+          <s><quote type="direct" genre="essay" source="시와 정치">오직 하나의시행이 요란한 박수소리를 깨뜨려 버리는 것으로도 충분하다</quote>”(<persName role="foreigner" xml:id="p-x20">한스 마그누스 엔첸스베르거</persName>, 「<title level="a" type="essay" xml:id="t-x14">시와 정치</title>」).</s>
+          <s>둘.</s>
+          <s><term type="concept">지배적 감각체계</term>를 전복하라.</s>
+          <s>기존의 자리들, 직무들, 그리고 느끼는방식들의 분배 시스템에 더 이상 들어맞지 않는 새로운 <term type="concept">감각</term>을 창출하라.</s>
+          <s>“예술의 ‘정치’에 부여된 임무는 <term type="concept">감각적인 것</term>의 정상적인 정보들을 중지시키는 것이다”(<persName ref="#p-x16">자크 랑시에르</persName>, 『<title level="m" type="foreign" xml:id="t-x15">미학 속의 불만</title>』).</s>
+          <s>“<quote type="direct" genre="foreign" source="감성의 분할">적절한 예술 작품의 꿈은바로, 어떤 메시지의 언표를 경유해야 하는 것이 아닌, 볼 수 있는 것, 말로표현할 수 있는 것 그리고 사유할 수 있는 것 사이의 관계를 전복시키는 꿈이다</quote>”(<persName ref="#p-x16">자크 랑시에르</persName>, 『<title level="m" type="foreign" xml:id="t-x16">감성의 분할</title>』).</s>
+          <s>셋.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet" source="먼 생">다른 생을 윤리</quote>”(<persName role="poet" xml:id="p-x21">김경주</persName>, 「<title level="a" type="poem" xml:id="t-x17">먼 생</title>」)하라.</s>
+          <s>낡은 도덕률을 폐기하고 새로운 <term type="concept">윤리</term>를 세워라.</s>
+          <s>“보다 나은 윤리적 세계를 상정하지 않는 시는, 그 새로운 세계의 비전과 관계없이, 아무리 위험하고 고통스러운 상황을 돌파하는특집연속기획 | 류 신 45중일지라도 ‘<term type="concept">투쟁</term>’이 아닌 ‘<term type="concept">모험</term>’이 된다.</s>
+          <s>주체의 <term type="concept">모험</term>, 미학의 모험, 감각의모험, 사유의 모험, 시의 모험…….</s>
+          <s><term type="concept">모험</term>은 모험하는 자를 변화시키고 성장시킬 수는 있되.</s>
+          <s><quote type="direct" genre="critic" source="무한히 열린, 진정한 모험의 가능성">모험의 터전인 현실과 세계를 변화시키고 성장시키기는 어렵다</quote>”(<persName role="critic" xml:id="p-x22">김수이</persName>, 「<title level="a" type="critic" xml:id="t-x18">무한히 열린, 진정한 모험의 가능성</title>」).</s>
+          <s>넷.</s>
+          <s>결단코 포기하지 마라.</s>
+        </p>
+        <p>
+          <s>“시는 현실에 내재하는 현실 아닌 것의 알레고리다.</s>
+          <s>그 점에서 시는 진보주의자다.</s>
+          <s>제가 옳다고 믿는 것을 끝까지 포기하지 않으려는 의지 외에 다른 어떤 말로 진보주의를 정의할 것인가.</s>
+          <s>사물을,말을, 사람을, 시적으로 만든다는 것은 옳은 것을 포기하지 않을 수 있는 높이로 정신을 들어 올린다는 뜻이다.</s>
+          <s>시는 포기하지 않는다.</s>
+          <s>그것이 시의 윤리다”(황현산, 「시는 포기하지 않는다」).</s>
+          <s>다섯.</s>
+          <s>한 줌의 도덕을 움켜잡아라.</s>
+        </p>
+        <p>
+          <s>시여, <term type="concept">무한대의 자유</term>를 누려라.</s>
+          <s>모든 금기와 속박으로부터 <term type="concept">해방</term>되라.</s>
+          <s><term type="concept">전위적 실험</term>과 유쾌한 도발을 마음껏 즐겨라.</s>
+          <s>치욕에 몸을 떨고 위악을 부려도 좋다.</s>
+          <s>눈물샘이 마르도록 목 놓아 울고 배꼽이 빠져라 포복절도하라.</s>
+          <s>극한의 <term type="concept">상상력</term>을 무례하게 펼쳐라.</s>
+          <s>못난 세상에<term type="concept">냉소</term>와 <term type="concept">환멸</term>로 일관해도 괜찮다.</s>
+          <s>아예 <term type="concept">우울</term>의 골방에 장기 칩거하면 어떠하리.</s>
+        </p>
+        <p>
+          <s>집단의 <term type="concept">공통감각</term>을 유린하고 새로운 감성의 문법을 세워라.</s>
+          <s>파천황의 가설을 마구 토해내도 좋다.</s>
+          <s>이 무진장한 자유는 시의 특권이다.</s>
+          <s>허나 윤리적마지노선만은 지켜라.</s>
+          <s>과도한 ‘<term type="concept">국민윤리</term>’의 섭취는 시의 건강에 치명적이다.</s>
+          <s>한 아름의 윤리적 자의식은 시의 자유로운 율동을 마비시키고 거동을 경직시킬 수 있다.</s>
+          <s>두어 줌의 도덕도 때론 시의 숨통을 틀어막을 수 있다.</s>
+          <s>‘<quote type="direct" genre="foreign" source="Minima Moralia">한 줌의 도덕(Minima Moralia)</quote>’이면 충분하다.</s>
+        </p>
+        <p>
+          <s><term type="concept">윤리</term>가 실종되고 양심이 말살된 시대에 시가 시답게 살 수 있는 최후의 존재론적 근거가 바로 한 줌의 <term type="concept">도덕</term>이다.</s>
+          <s>이 ‘<quote type="direct" genre="poet">최소</quote>’ <term type="concept">도덕감각</term>(moral sense)이 시의 ‘<quote type="direct" genre="poet">최후</quote>’ 방어선이다.</s>
+          <s>시에 요청된 <term type="concept">최소윤리</term>는 “<quote type="direct" genre="other" source="미니마 모랄리아">지옥 속에서도 아직 숨 쉴 공기가 남아 있다는 데 대한 수치심</quote>”(『<title level="m" type="foreign" xml:id="t-x19">미니마 모랄리아</title>』)으로 촉발된다.</s>
+          <s>그리고 이 <term type="concept">최소도덕</term>은 관점에 의해관철된다.</s>
+          <s>
+            <interp value="neutral" ana="미학">관점은 지성의 속성이 아니라 의지의 속성이다.</interp>
+          </s>
+          <s>아무리 명민한 시인이라도 열정이 없으면 관점은 닫힌다.</s>
+          <s>시각이 닫히면 결국 시의 지평이 닫46힌다.</s>
+          <s>보다 혹독한 날들이 다가오고 있다.</s>
+        </p>
+        <p>
+          <s>(…)그대의 시선이 안개 속에 궤적을 남기니,판결의 파기로 <title level="a" type="foreign" xml:id="t-x20">유예된 시간</title>이지평선에 보이게 되리라— <persName role="foreigner" xml:id="p-x23">잉게보르크 바흐만</persName>, 「유예된 시간」 부분류 신 | 문 학평론가.</s>
+          <s>중앙대 독문과 교수.</s>
+          <s><date when="2000">2000년</date> <orgName xml:id="org-x2">경향신문</orgName> 신춘문예로 등단.</s>
+          <s>저서 『<title level="m" type="critic" xml:id="t-x21">다성의 시학</title>』 『<title level="m" type="critic" xml:id="t-x22">수집가의 멜랑콜리</title>』 『<title level="m" type="critic" xml:id="t-x23">이카로스, 다이달로스, 시시포스</title>』 등.</s>
+          <s>특집연속기획 | <persName ref="#p-x19">류 신</persName> 47</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

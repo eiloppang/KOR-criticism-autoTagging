@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import docx; print\\('python-docx OK'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python -m extract_assemble.run --input 비평문/고봉준2013.txt --out mirea_results/고봉준2013_v2.xml --title '2000년대 문학이 말한 것 — 지난 10년, 한국문학은 무엇을 말해왔는가' --author 고봉준)",
+      "Bash(python -m extract_assemble.batch_run)",
+      "Bash(python -m extract_assemble.cid_run --dry)"
+    ]
+  }
+}

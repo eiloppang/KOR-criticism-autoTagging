@@ -1,0 +1,999 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>콘돔으로 부풀린 미래파와 냉커피의 미학</title>
+        <author>한태호</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>콘돔으로 부풀린 <term type="movement">미래파</term>와 냉커피의 미학한 <persName role="other" xml:id="p-x">태 호</persName> (문학비평가)1	.</s>
+          <s>접근나는 지금 냉커피를 마시고 있다.</s>
+          <s>마음을 냉정 하게 식히고 쌉쓰름한 내용을 평가하기 위해서 냉커피를 마신다.</s>
+          <s>우선 사유의 냉매제인 냉커피 를 냉철하게 바라본다.</s>
+          <s>조금 전에 인스턴트 커 피에 뜨겁게 달군 정수된 물을 조금 넣고, 엑기 스 크림을 잘 섞은 다음, 혹설탕을 적당히 맞춘 후, 냉동실에서 꺼낸 큐빅 얼음을 잔뜩 넣는다.</s>
+          <s>뜨거운 커피 상태에서는 얼음이 무한히 녹을 듯 빨리 수용되며 사라진다.</s>
+          <s>그러나 차가와진 커피 에 얼음이 더 이상 빨리 녹지 않는 둔화된 융해 점이 나타난다.</s>
+          <s>바로 그 시점이 조용히 보이지 않는 녹은 그라뇰(granfiol) 입자를 기리는 시 간.</s>
+        </p>
+        <p>
+          <s>이때부터 나는 천천히 냉커피를 마시기 시작한다.</s>
+          <s>이것이 본디 쓴 커피를 맛있게 마시는 과정인 듯싶다.</s>
+          <s>오늘 사유의 닻을 어디에 내릴까?</s>
+          <s><term type="concept">서구 밀레니엄</term>의 호들갑이 어느 정도 식어가기 시작할 무렵부터.</s>
+          <s>우리 시단에서 <term type="concept">젊은 목소리</term>가 늙은 타성 （타조의 聲?）을 조금씩 누르기 시작하였지?</s>
+          <s>그 변화와 태동을 알리는 목소리가 대학 강단 이외에는 거의 없었는데, <persName role="poet" xml:id="p-x2">권 혁웅</persName> 씨의 저서 f미래피수새로운!</s>
+          <s>산% 시인4 위하여j（<orgName xml:id="org-x">문학과 지성사</orgName>- <date when="2005">2005</date>）에서부터 그나마 체계있게 <term type="concept">젊은 시인들</term>의 시류를 소개하는 듯 하 든데.</s>
+          <s>
+            <interp value="affirmative" ana="미학">어느 정도 과장된 호응과 토론의 실마리가 되긴 했지만, 최초의 공 개적 토론의 장을 제공한 현장 비평문이 된 점과 그 집필 상의 색다른 특 성, 즉사유의 폭과 깊이 보다는 서구 비평 이론을 고요히 가미하는 맛이 있어서 읽기에 좋더군.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그 시적 사유의 깊이나 정도는 논외 하더라도* 그 선언문적인 가치, <interp value="affirmative" ana="미학">서구적 어휘와 감수성을 도입한 현장 비평적 사유 및 시도 면에서 고려할 시론적 가치가 있다.</interp></s>
+          <s>그래.</s>
+          <s>오늘은 <term type="movement">미래파</term>라는 시류 에서부터 생각을 걷게 해볼까?</s>
+          <s>우선 <term type="movement">미래파</term>라는 용어부터 정리해보자.</s>
+          <s>과연 <term type="movement">미래파</term>라는 의미가 무엇일까?</s>
+          <s>단순히 <term type="concept">미래지향적 시 성향</term>을 지 향하고자 하는 <term type="concept">젊은 시인들</term>의 시적 언어적 욕망의 표현인가?</s>
+          <s>아니면 진 정한 서구 시 예술 역사에서 명명하였던 <term type="movement">미래파</term>（<term type="movement">Futurism</term>）를 재구성하 기 위한 의도적 사유의 성명서인가?</s>
+          <s>
+            <interp value="critical" ana="문학관">단순히 미래지향적 또는 자기 표현 적 의도라면, 해당 시인들의 자기 주장적 어휘이기에 그다지 큰 의미를 부여할 여건이 없다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그러나 <term type="concept">비평가</term> 및 지적 시인의 입장에서 특정 시 비 평 용어를 기초해서 주장하였다면, 더 나아가서 한국적 시 현실에 맞는 대안 제시적 가치 주장이라면, 이는 분명히 그 주장의 근간이 되는 <term type="concept">시적 사유</term>가 존재할 것이다.</s>
+          <s>그 사유의 뒤안길을 서구적 지성으로 같이 산보 하는 것도 의미가 있으리라.</s>
+          <s>먼저 <term type="movement">미래파</term>라는 용어 및 속성을서구 시 및 예술사에서 살펴보자-° 이 용어는 서구 지적 산물이기에 국내 자생적 어휘는 아닌 듯하다.</s>
+          <s>（국내 정 치사회는 물론 시단에서조차, 해당 정신의 미래지향적 가능성 아니 그 담론은 아직 존재하지 않는 듯하다.） 따라서 서구 정신사에서 한국적 미 래파의 근간을 연계 사유해본다.</s>
+          <s>만약에 <term type="movement">미래파</term> 주장자들이 순수 국내적자생적 아이디어라고 옹호하는 점이 있다면.</s>
+          <s>앞으로의 비교연구를 통해 서 그 내용의 단초라도 발견할 수 있으리라.</s>
+          <s><term type="movement">미래파</term>는 <date when="1907">1907년</date> 이태리 작곡자 <persName role="foreigner" xml:id="p-x3">부조니</persName> （Femiccio Busoni）가 °<title level="a" type="foreign" xml:id="t-x">음악 의 신 미학 소묘</title>（Sketch of a New Aesthetic of Music）” 에서 최초로 사 용된다.</s>
+          <s>그 후 이 예술 운동은 이태리와 러시아에서 다양하게 확산된다.</s>
+        </p>
+        <p>
+          <s><date when="1909">1909년</date>에 이태리 시인 <persName role="foreigner" xml:id="p-x4">마리네띠</persName>（Filippo Tbmmaso Marinetti）가 미래 파 성명서를 발표하면서 그 예술정신을 문학에서 본격적으로 천명하게 된다.</s>
+          <s>그 기본 주장은 기타 유럽문학과 비교해서 비교적 낙후된 이태리 문학의 부흥을 주장하기 위해 과거의 정치 예술 전통을 부정하고, 새로 운 시대의 문화성（산업기술과 <term type="concept">속도의 미학</term> 인식）을 옹호하는 것이었다.</s>
+          <s>이것은 자연히 <term type="concept">현대산업사회</term> 특성의 선호이며 , 자연보다는 문명 존중 경 향을 보여준다.</s>
+          <s>이러한 일세대 <term type="movement">미래파</term>들은 과거 및 전통의 타파, 신문명 의 숭배에 몰입하면서, 차후 <term type="movement">실험주의</term> 작가들（지적 <term type="movement">아방가르드</term>）에게 영 향을 강하게 준다.</s>
+          <s>이 운동은 20세기 초의 <term type="movement">모더니즘</term> 예술 및 문학의 근 인返因 요소로 작용한다.</s>
+          <s>미술에서는 <term type="movement">큐비즘</term>과 <term type="movement">미래파</term>가 합성되고.</s>
+          <s><date when="1920">20〜30년대</date>의 예술 정신의 근간을 이룬다.</s>
+          <s><title level="m" type="other" xml:id="t-x2">미래파 선언문</title>의 주 내용은 20세기 초의 전환기에서 미래 문명（특히 자동차와 스피드의 변화）의 발전에 따른 모든 정신구조 및 예술의 실험 적 변화를 강조하고 있다.</s>
+        </p>
+        <p>
+          <s>십여 조항으로 구성된 선언문은 내용상으로는 조금 과격하리만치 자기주장적인 면이 있으며, 이태리의 국수적인 내용 （<term type="movement">파시즘</term>의 정신기초）도 포함되어 있다.</s>
+          <s>기본적으로, 문명화되는 현대사 희 발전에 편승할 수 있는 새로운 정신, 문학관을 주장하였다.</s>
+          <s>특히 시는 영혼의 목소리를 들려주는 장르이기에 새로운 <term type="concept">미학성</term>을 제시할 수 있는 <term type="concept">영혼성</term>이 내재하기를 희망했다.</s>
+          <s><term type="movement">미래파</term>와 문학과의 연계성은 <term type="movement">모더니즘</term> <term type="concept">시문학 운동</term>의 발전에서 어느 정도 구체화 된다.</s>
+          <s><term type="movement">모더니즘 시 운동</term>은 결국 엘리트적 요소가 강하지만 현대문화의 변화성에 특정 관점을 표현한 <term type="concept">실험성</term>을 근간으로 하기에 그렇다.</s>
+          <s><term type="movement">모더니즘</term>은 결국 19c말까지의 전통 문학에 대한 <term type="concept">실험성</term>의 반기이 며, <term type="concept">새로운 감수성</term>의 표현이다.</s>
+          <s>특히 현대예술과 연관해서 <term type="movement">상징주의</term>, 인 상주의, <term type="movement">표현주의</term>, <term type="movement">큐비즘</term>, <term type="movement">구성주의</term>, <term type="movement">초현실주의</term>, <term type="movement">다다이즘</term>, <term type="movement">미래주의</term>, <term type="movement">야수파</term>(Fauvism), <term type="movement">대중예술</term>(Pop Art), <term type="movement">추상표현주의</term>, <term type="movement">추상예술</term>, 미니 멀주의, <term type="movement">서정적 추상주의</term> , <term type="movement">장식적 예술</term> 등의 <term type="movement">포스트모던</term> 예술로 발전되 는 역사적 과정 또한 연계해서 인식해보면, <term type="movement">미래파</term>를 포함한 <term type="movement">모더니즘</term>의 전체구조를 동일 범주로 구상할 수 있다.</s>
+          <s><term type="movement">포스트모더니즘</term>이 결국 시대변 화에 따른 모더니즘의 연속성이며 새로운 변화성이라고 인식하면 더욱 그렇다.</s>
+        </p>
+        <p>
+          <s>미술상의 <term type="movement">미래파</term>와 <term type="movement">모더니즘</term> 연관성에 대해 좀 더 언급하자면, <term type="movement">러시아 미래파 미술운동</term>2’이나 20세기 초의 다양한 모더니즘 시 정신과 실험정 신의 의식구조를 같이 이해하면 더욱 이해가 빨라진다.</s>
+          <s><date when="1920">1920~40년</date> 사 이에 <term type="movement">미래파</term>에 대한 반작용과 긍정성을 바탕으로 <term type="movement">모더니즘 시운동</term>은 더 욱 발전하는 계기를 맞는다.</s>
+          <s><date when="1944">1944년</date>에 미래파 좌장 격인 <persName ref="#p-x4">마리네띠</persName>가 사 망하면서, 그 예술 반향이 어느 정도 사양단계에 들지만, 그 과정에서 문 학 정신의 여파는 영국의 <term type="movement">소용돌이파</term>(Vorticism), <term type="movement">데코 아트</term>(Art Deco), <term type="movement">구성주의</term>(Constructivism), <term type="movement">초현실주의</term>, <term type="movement">다다이즘</term> 운동으로 계 속된다.</s>
+          <s>여기서 <term type="movement">모더니즘</term>과 <term type="movement">포스트모더니즘</term>의 상호연계성을 더 이상 언 급할 수 없지만, 그 지속성과 상호반작용성에 대해서는 너무나 회자되기 에 일반 자료로서 충분하리라 본다.</s>
+          <s>다만 여기서는 <term type="movement">미래파</term>의 사상성이 환경호르몬처럼 후대 시인들의 체내에 고여 가면서 호르몬 지수를 높여 갔을 가능성을 환기시켜본다.</s>
+          <s><term type="movement">포스트모던</term>한 현대사회에서 <term type="movement">미래파</term>의 여파는 자명하다.</s>
+          <s>국내에서도 서구 <term type="movement">모더니즘</term>의 도입과 확장, <date when="1990">1990년</date> 이후부터의 <term type="movement">포스트모더니즘</term>의 활용과 침윤 현상을 보면.</s>
+          <s>물 흐르듯 연계되는 사유의 근본 유사성을 발 견하게 된다.</s>
+        </p>
+        <p>
+          <s>초기 <term type="movement">미래파</term>의 <term type="concept">산업사회적 탈피성</term>과 당시 시대적 여건은 .</s>
+          <s>현대 <orgName xml:id="org-x2">한국시단</orgName>의 여건이나 상황과 유사한 점이 많다.</s>
+          <s>상업사회의 풍요성을 어느정도 누리게 되면서, <term type="concept">퇴폐적 자본주의</term> 특성을 최초로 경험한점.</s>
+          <s><term type="concept">전통과 변화</term>의 와중에서 <term type="movement">새로운 사조</term>를 추구하는 외향성 및 몰자아정체 성 등 기본 유사성이 많다.</s>
+          <s>예술 및 문학의 사유나 <term type="movement">사조</term>는 근본적으로 높 은 곳에서 아래로 흘러내린다.</s>
+          <s><term type="concept">서구 문학</term>의 흐름이 <term type="concept">문학적 영향성</term>2로 내습자=는 것은 당연하다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">이러한 영향성과 유사력 속에서 이미 우리 시단의 미래파 논란을 예측할 수 있다.</interp>
+          </s>
+          <s>초기 <term type="movement">미래파</term>의 특징은 본래부터 젊은이의 문화적 특성을 강조한다.</s>
+        </p>
+        <p>
+          <s>그 들은 <term type="concept">청춘</term>, <term type="concept">속도감</term>, 힘, 기술.</s>
+          <s><term type="concept">영화</term>와 같은 문화를 숭배한다.</s>
+          <s>이러한 전통 은 <term type="movement">히피문화</term>, <term type="concept">대중문화</term>.</s>
+          <s><term type="movement">포스트모던 문화</term>로 계승된다.</s>
+          <s><term type="movement">미래파</term>의 <term type="concept">노동자</term> 중심의 인적구성과 강철(금속) 문화성은 <term type="concept">사이버 문화</term>, <term type="concept">로봇 문화성</term>과 대 중지향성과도 연결된다.</s>
+          <s>문학적으로 현대 <term type="movement">사이버펑크 문학</term>, 즉 <term type="concept">인터넷 문학</term>으로 연계될 수 있는 성향도 이미 발견된다.</s>
+          <s><term type="concept">인터넷 문화</term>는 형질적 으로 지적문화성이 중심되기 보다는 <term type="concept">대중</term>의 낮은 문화성을 내포한다.</s>
+          <s>이 러한 특성은 <date when="1988">1988년</date>에 <orgName xml:id="org-x3">시카고</orgName> 연극계의 <term type="movement">신미래파</term>(<term type="movement">Neo Futurist</term>)의 현 대문화적 <term type="concept">속도</term>와 <term type="concept">간결성</term>의 강조에서 되살아나기도 한다?</s>
+        </p>
+        <p>
+          <s>샌프란시스코 의 <term type="movement">후기미래파</term>(Post-Futurist) 밴드의 노래에서도 많이 발견된다.</s>
+          <s>이들 은 이미 <term type="movement">후기모더니즘</term> 문화성을 대변하고 있다.</s>
+          <s>이들의 <term type="movement">절충주의</term> 문학관 과 <term type="movement">현실주의</term>적 환상 문학성은 이미 한국의 <term type="movement">미래파</term>.</s>
+          <s><term type="concept">젊은 시인들</term>의 추구 성향을 웅변해준다.</s>
+          <s>이렇게 <term type="movement">미래파</term>라는 기치를 내세운 시대적 예술정신을 살펴보면.</s>
+          <s>초기 <term type="movement">미래파</term>의 쌍곡선 정신을 가진 예술 사조, 특히 <term type="movement">큐비즘</term>이나 <term type="movement">입체파</term> 성향 도 이해할 필요가 있다.</s>
+          <s>현대문화에 대한 지배력이 보다 큰 두 미술 사조 를 이해하면.</s>
+          <s><term type="movement">모더니즘</term> 이후의 문학성과 <term type="movement">미래파</term>의 현대적 의미를 보다 쉽게 파악할 수 있다.</s>
+        </p>
+        <p>
+          <s>잘 알다시피, <term type="movement">큐비즘</term>은 20세기의 새로운 문화적 경험, 즉 복잡하고 파편적인 인생경험을 드러내기 위해서 <term type="concept">복수적인 관 점, 면面의 중층화, 파편화, 질량의 일직선화</term> 등을 강조하였다.</s>
+          <s>이러한성 향은 곧 만물의 이미지를 기하학적인 형상으로 분해시키고, 세포분열을일으키면서 더 <term type="concept">추상화</term>된다.</s>
+          <s>대상의 이미지를 변곡變曲 또는 확장시키면 서 <term type="concept">다원적 시각현상</term>을 시공간상으로 표현해내려 한다.</s>
+          <s><persName role="foreigner" xml:id="p-duchamp">뒤샹（Duchamp）</persName> 의 “<title level="a" type="foreign" xml:id="t-x3">계단을 내려오는 누드</title>”에서 보듯이.</s>
+          <s>이들은 <term type="movement">미래파</term>처럼 일상을 반들 반들하게 빛나는 타일（목욕탕의 타일）처럼 표출해낸다.</s>
+          <s>이들의 타일 성향（파리마저 미끄러질 듯한 매끄러운 표면성）에서 이 미 모든 서구 <term type="movement">미래파</term> 예술가나 시인들의 시 성향을 암시 받는다.</s>
+          <s>이들은 사물을 단곡선보다는 쌍곡선으로 접근한다.</s>
+          <s>대상의 영상을 수직적으로 명쾌하게 통시적으로 정의 및 묘사하기 보다는 수평적으로 퍼트리기를 더 좋아한다.</s>
+        </p>
+        <p>
+          <s>이들의 영상은 자연히 수평적 확산.</s>
+          <s>즉 시적 용어로 표현하 면.</s>
+          <s><term type="concept">환유적 확산</term>으로 전개된다.</s>
+          <s>이들은 타일 하나하나를 똑같이（또는 다 르게） 제조하는 데는 능하다.</s>
+          <s>또한 그 틈을 충전재로 잘 메꾸는 데에는 매우 능하다.</s>
+          <s>（<term type="movement">한국의 미래파</term>도 이런 <term type="concept">충전재적인 글쓰기</term>를 많이 보여준 다.） 그러나 정신적 메타포나 이미지의 틈은 본래 메우기가 쉽지 않기에, <interp value="critical" ana="미학">대개 이런 사조의 시인들은 반복적 , 동의어 반복적 성향을 많이 보여준 다.</interp></s>
+          <s>또한 <interp value="critical" ana="미학">이들은 고전적 지식이나 주제를 많이 숙지하기 보다는 자신이 아는 범위 내의 지식이나 이미지에 깊이 천착하기（매달리기?）를 좋아한 다.</interp></s>
+          <s>
+            <interp value="critical" ana="미학">이는 주제의 깊이와 높이를 바로 세우기보다는 특정 이미지를 밀도 있게 몰아붙이는 식의 표현을 말한다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>아직 분명한 형태가 없지만, 가물 가물하게 다가오는 인상을 강하게 드러내려고 노력한다.</s>
+          <s>이는 지적 적확 성이나 품격을 보장하지 못하기에, 자연히 <term type="concept">감성적 직관</term>이나 얇은 느낌의 바닥을 중시하기 쉽다.</s>
+          <s>이런 악영향이 표면화 되면 거품 같은 느낌, 엉성 한 조직력.</s>
+          <s>구성도를 보여주며.</s>
+          <s>조금 세련되게 포착되면 고기비늘처럼 반짝반짝 빛날 수 있다.</s>
+          <s>이러한 양면성이 많이 노출되는 것이 서구 <term type="movement">입체 파</term> 취향 시인들의 결과물이다.</s>
+          <s>이러한 시 성향은 정통 <term type="movement">모더니즘</term>보다도 후대의 <term type="movement">포스트모더니즘</term>에서 더욱 많이 차용된다.</s>
+          <s>특히 표현의 밀도/강도 면에서, 보여주고 싶은 것만 보여주는 <term type="concept">선택성</term>과 <term type="concept">절충성</term>을 자연스레 갖게 되며, 보여주는 부분만 확대: 과장 표현되는 <term type="concept">비정형성</term>, <term type="concept">변화성</term>, <term type="concept">이탈성</term> 현상이 나타난다.</s>
+        </p>
+        <p>
+          <s>달리 말 하면, 선택된 감성의 범주를 <term type="concept">자기중심적</term>으로 두껍게 쌓아간다.</s>
+          <s>비유적으 로 말하면, <term type="concept">시적 감수성</term>의 강도剛度를 타인의 것에서 뺏어올 밖에 없는 지적 강도*가 되기도 한다.</s>
+          <s>이를 반어적으로 말하면 자기와 다른 것 (보여주고 싶지 않은 것)은 배척하는성향도 된다.</s>
+          <s>이러한 집적 효과, 자 기중심적 포화성이 강한 표현력은 사진의 <term type="concept">모자이크</term> 성격, <term type="concept">몽타쥬</term> 성향을 갖게 된다.</s>
+          <s>전체를 보고 이해하는 <term type="concept">전인격성</term>, <term type="concept">통합성</term>.</s>
+          <s><term type="concept">보편성</term> 보다는 부분 성.</s>
+          <s><term type="concept">파편성</term>, <term type="concept">자기주장성</term>이 전면으로 강조된다.</s>
+          <s><term type="concept">전체성</term>/<term type="concept">보편성</term>을 추구하 지 않기에 어느 면에서 쉽게 부분으로 <term type="concept">모자이크</term> 할 수 있는 유연성이 있 다.</s>
+        </p>
+        <p>
+          <s>쇠 모든 것을 자기 것으로 변성시킬 수 있는 지적 조작술이 발달하고, 자신이 모르는 것을 타인으로부터 차용하거나 밀수해오는 <term type="concept">지적 노략질</term> 이 빈번해진다.</s>
+          <s>더욱 지나쳐서 자신이 사용하는 언어가 자기 것인 양 착 각하고, 어디에서 꿔온 것인지도 모른다.</s>
+          <s>즉 자신은 지금 지식을 검색하 는 사용자(UCC?)에 불과한데도, 마치 새 언어를 창조하는 창작자인 것 으로 오해한다.</s>
+          <s>이러한 시적 문화의 변화 시대에 <term type="movement">한국 미래파</term>가 등장한 다.</s>
+          <s>지금까지 <term type="movement">미래파</term>의 용어 및 내용을 <term type="concept">서구 예술 및 문학사</term>에서 잠시 반 추하면서.</s>
+          <s>다음 장의 국내 <term type="movement">미래파</term> 시인의 성향을 재는 가늠자로 예시하 였다.</s>
+          <s><interp value="neutral" ana="미학">초기 미래파의 성격을 후기현대성의 문학성과 같이 연계해서 너무 간단하게 살펴보았지만, 이런 개략적 서술에서 이미 서구 미래파와후기 모더니즘 일반 성향이 한국적 미래파의 변주곡에 이미 새로운 악상으로 변주됨을 예견할 수 있다.</interp>2	.</s>
+          <s>흔듬나는 냉커피 잔을 조금 더 흔든다.</s>
+        </p>
+        <p>
+          <s>갈색 커피가 점점 줄어든다.</s>
+          <s>얼음이 하얀 섬처럼 들어난다.</s>
+          <s>유리컵에 낙지 빨판처럼 눌러 붙어서 하얀 투명성을 더욱 드러낸다.</s>
+          <s>아직 녹지 않은 얼음 큐빅이 더 많다.</s>
+          <s>얼음이 녹지 않으면 내가 마실 수 없다.</s>
+          <s>이때부터 나는 커피를 더 자주 흔든다.</s>
+          <s>어서 얼음이 녹아서 커피 양을 더욱 늘리려는 듯 잔을 더 혼든다.</s>
+          <s>그 속에 열 량 변화가 일어나기를 기도하듯이.</s>
+        </p>
+        <p>
+          <s><term type="concept">서구 사상</term>의 유입현상도 이와 같을 까?</s>
+          <s>우리 것도 잘 섞으면, 마실 정도는 되겠는가?</s>
+          <s>이제부터 서구 예술사의 <term type="movement">미래파</term> 사조를 바탕으로, 국내에 차용된 <term type="concept">미래 파 시인의 성명서</term>를 흡입해보자.</s>
+          <s>먼저 <term type="concept">미래파 시인</term>에 대한 지금까지의 설왕설래를 정리해본다.8우선 <term type="movement">국내 미래파</term>는 아직 <interp value="critical" ana="사상">자생적 사유와 문화구조를 갖지 못하고 있 다</interp>.</s>
+          <s>이는 서구 <term type="movement">미래파</term>의 빨판을 이용한 오징어 먹물 뿜기 식의 표현력을 암시받는다 그들의 먹물 속에 미래파（이래파?）나 <term type="movement">입체파</term>의 시상이 잠 재하고 있으리라 믿는다.</s>
+          <s>그 유입효과 중에서 <term type="concept">시점 고정의 반발성</term>,® <term type="concept">잔상 麥#효과</term>, 다수 시적 관점이란 <term type="concept">복수 의식</term> 면面의 <term type="concept">상호 침투성</term>, <term type="concept">물리적 초 월주의</term>（즉 <term type="concept">현실 일탈적 쾌락적 환상주의</term>）, <term type="concept">시각주의</term>.</s>
+          <s><term type="concept">촉각주의</term> 등이 대 표적 성향임을 예상할 수 있다.</s>
+          <s>이것은 곧 <term type="concept">전통적 시성</term>이나 언어사용.</s>
+        </p>
+        <p>
+          <s>일 반 시론의 유지보다는 <term type="concept">비이성적 언어사용</term>, <term type="concept">언어의 자유</term>.</s>
+          <s>비논리적 문장 구조 및 발화성, <term type="concept">무정형적인 내러티브</term>의 도입 등을 암시한다.</s>
+          <s>이러한 현 상은 이미 <term type="movement">모더니스트</term>의 글에서 많이 사용된 것이기에 새로운 현상은 아 니지만, 시대적 변화와 착생되는 지역적 여건 차이 속에서 더욱 새로운 현상（한국적 모양）으로 설정되었을 것이다.</s>
+          <s><interp value="critical" ana="학문·비평">이러한 서구 사조의 유입 현상에 대해 국내 비평계에서는 아직 그 뿌 리에 대한 MRI 촬영도 못하고 있다</interp> 아직도 <orgName xml:id="org-x4">국내시단</orgName>이 학문적 비평 조 류보다는 <term type="concept">현장비평</term>적 밀착현상이 더 강하여서 그렇기는 하지만, <interp value="critical" ana="학문·비평">서구 비 평사를 더욱 족보 캐기 하면서 한국적 유입 현상과 그 지류에 대한 지적 수색작업이 더 필요하다</interp>.</s>
+          <s>
+            <interp value="critical" ana="문학관">현재 한국 시단에서는 미래파라는 작은 수제비 띄운 물살에 너무 감성적인 작용과 반작용의 분리선만 번지고 있다.</interp>
+          </s>
+          <s>이성적.</s>
+          <s>
+            <interp value="critical" ana="문학관">논리적 담론보다는 양극의 설전만 오가는 듯하다.</interp>
+          </s>
+          <s>시론에 대한 설 전은 항상 선호도와 가치관의 차이에서 비롯되는 것이며.</s>
+        </p>
+        <p>
+          <s>극단적인 경우 에는 자기 한계성에 따른 <interp value="critical" ana="문학관">자기중심적인 평</interp>이나 고집이 되기도 한다.</s>
+          <s>잘 못하면 <interp value="critical" ana="문학관">전통과 실험의 객관적 비교나 평론이 되기보다는 문학적 정치성 이나 고지 선점 전투에서 방패막이나 하는 경우가 많다.</interp></s>
+          <s>따라서 본고에 서는 황모파黃毛派나 적모파赤毛派에 상관하지 않고, 객관적 거리에서 그 들 음성의 데시벨（dB）을 측정 해본다.</s>
+          <s>그 양 진영을 잠시 조망해본다.</s>
+          <s>먼저 <term type="movement">미래파</term> 주장의 총론을 나열해본 다.</s>
+          <s><term type="movement">미래파</term>는 모든 기존성에 반발하며 공격명령을 기다리는 젊은 창기병 들과 같다.</s>
+          <s>그들은 비교 우위적인 기성세대나 전통주의자들이 향유하던 <term type="concept">진정성</term>.</s>
+          <s><term type="concept">주체성</term>（<term type="movement">정통주의</term>）, <term type="movement">리얼리즘</term>（<term type="movement">현실주의</term>）, <term type="movement">민족주의</term>, <term type="movement">도덕주의</term> 성 향을 거부하면서.</s>
+        </p>
+        <p>
+          <s><term type="concept">후기 현대성</term>의 문화현상에 유폐幽閉되어 간다.</s>
+          <s>그들은 진정한 가치의 부재, 객관적으로 설정할 수 없는 <term type="concept">자아성의 상실</term>, 중심적 정전이나 정신의 소멸성 , 찰라적인 물질 및 정신의 현상 등에 물든다.</s>
+          <s>그 들은 모든 <term type="concept">후기현대사회</term>의 특징 속에서 자라고 익숙해진다.</s>
+          <s>그들은 형이 상학적 지성 및 감성을 존중하거나, 민족적 가치관등을 공경하지 않는 다.</s>
+          <s>그들은 <term type="concept">세계주의적</term> 시각을 수용하는 성향이 있다.</s>
+          <s>그들의 창작 효과 는자유성, 순간성.</s>
+          <s>자기 감성의 충실성, 지식화 된 시 표현성, 등을실현 시키려 노력한다.</s>
+          <s>가 이와 반해서.</s>
+        </p>
+        <p>
+          <s><term type="movement">미래파</term>의 <term type="movement">실험적 포스트모던</term> 시성을 반 대하는 목소리도 있다.</s>
+          <s>이 비판은 <term type="concept">젊은 시인들</term>의 <term type="concept">다성성</term>, <term type="concept">환상성</term>.</s>
+          <s><term type="concept">자학 성</term>, <term type="concept">자폐성</term>, <term type="concept">폭력성</term>.</s>
+          <s><term type="concept">쾌락적 지껄임</term>.</s>
+          <s>악플과 같은 글투.</s>
+          <s>인터넷에 창궐하 는 <term type="concept">바이러스적인 언어성격</term>, 번역 시구에서 감동해서 퍼올린 글투.</s>
+          <s>외래 어 다용.</s>
+          <s>해독불가피한 기호적 은어나 비어의 도용.</s>
+        </p>
+        <p>
+          <s>외계행성어적인 <term type="concept">전 자기호의 쾌락</term>이나 <term type="concept">컴퓨터적인 의사소통 언어</term> 사용.</s>
+          <s>등의 시 성향을 격 하시키고 있다.</s>
+          <s>이들의 글은 마치 현대문화의 저속한 <term type="concept">잡종성</term>.</s>
+          <s>설익은 <term type="concept">통 섭현상</term>을 반영해주는 글에 불과하며.</s>
+          <s>
+            <interp value="critical" ana="미학">단지 젊은 기질의 빠른 수용성과 부족한지식의 범주 때문에 시대 조류적인 현대 문화상을 강하게 대변하는 것뿐이라고 한다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">이들의 시 성질은 지적 응찰과 사유의 결과라기보 다는 촉각적, 시각적 반응이라고 한다.</interp>
+          </s>
+          <s><interp value="critical" ana="미학">즉 본능적 반응일 뿐 깊은지식과 사유의 결과물인 직관적 반응에 미치지 못한다고 한다.</interp>S 이러한 시감은 단순한 <term type="concept">시대적 감각의 변화</term>이지 시 자체의 변화가 아니라고 주장한다.</s>
+          <s>구체적으로 양 진영의 대표적 언사를 잠시 더듬어 본다.</s>
+        </p>
+        <p>
+          <s>고봉준은 미 래파의 시 성향을 “자폐적 이기성의 산물’’이라고 격하시킨다.</s>
+          <s>혀 이에 반 해 신형철은 “<quote type="direct" genre="critic">나가 없이 타인의 타자성을 동일화 하는 서정적 메카 니즘을 거부하면서 타자와의 진정한 만남을 위해 방법적 갈등을 격렬히 모색</quote>"1®하는 것이 목적이라고 옹호한다.</s>
+          <s>전자는 객관주의, 전통주의.</s>
+          <s>서 정주의, 의식중심주의, 조화주의의 소산이며, 후자는 주관주의, 신서정 주의나 해체적 서정주의.</s>
+          <s>무의식 및 초현실, 환상주의, 일탈주의, 등의 결과라고 하겠다.</s>
+          <s>이러한 비평의 두 축을 중심으로 미래파에 대한 비평 의 리트머스 시험지는 다양하게 채색을 달리하고 있다.</s>
+          <s>그 비평의 중심에는 미래파라는 용어의 제안자인 권혁웅 씨의 글이 존 재한다.</s>
+          <s>그는〈미래파: 새로운 시와 시인을 위하여〉라는 현장 비평서에 서 일련의 새로운 시적 감성을 표면화 시킨 젊은 시인들을 중심으로 현 장 비평하고 있다.</s>
+        </p>
+        <p>
+          <s>이 비평선집은 자기 돌아보기 식의 <term type="concept">추상적</term>推想的 글쓰 기를 한다.</s>
+          <s>그의 논지는 <term type="concept">현장 비평</term> 자료를 바탕으로, 퇴고적으로 범주화 되고 분류된 <term type="concept">시성</term>을 새로운 차원으로 승화시키는 글쓰기로 나타난다.</s>
+          <s>이 는 <term type="concept">현장 실증적 방법론</term>을 통해 잡지적 언사에 걸맞는 <term type="concept">추상적</term>抽新a 어휘 로 적확한 규정이 없이 <term type="concept">비평 범주화</term>한 산물이다.</s>
+          <s>
+            <interp value="critical" ana="미학">그의 글투는 명확한 산 호초에 닻을 내리기 보다는 흐르는 물에 경쾌하게 노를 저으며 스치는 표면성.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">비평언어의 가벼움에 일관한다.</interp>
+          </s>
+          <s>이는 곧 <term type="movement">포스트모던적</term> 사유에 익숙한 <term type="concept">가벼움</term>에 조각나면서 위로 떠오르는 듯한 <term type="concept">부유성</term>을 준다.</s>
+          <s>한편으 로는 <interp value="affirmative" ana="미학">해학적 재치나 번뜩이는 기지로 발견되는 통찰력도 엿보인다.</interp></s>
+          <s>이러 한 시 잡지를 통한 시류적.</s>
+        </p>
+        <p>
+          <s>현장적, 통관적 기술 특성은 그의 <term type="movement">포스트모던</term> 적 문화의 표현성을 대변해준다.m그의 <term type="concept">현장비평</term>적인 글쓰기는 차치하고.</s>
+          <s>그의 선언문적인 내용이 담긴 제 1부 “<term type="movement">미래파</term>’ 편（148-1 기쪽）을 좀 더 응시해본다.</s>
+          <s>그는 1장 "<quote type="direct" genre="critic">달리는 말의 다리는 네 개가 아니라 스무 개다</quote>”에서 현대 <term type="concept">젊은 시인들</term>에 대한8 개 반대 의견을 예든다.</s>
+          <s>이것은 <term type="concept">시 내용 부재</term>, <term type="concept">장시 성향</term>, <term type="concept">음악의 결여성</term>.</s>
+          <s><term type="concept">이미지 부조화성</term>, <term type="concept">화자의 혼돈성</term>, <term type="concept">탈역사/사회성</term>.</s>
+          <s><term type="concept">진정성의 결여</term>, <term type="concept">천박성</term> 으로 정리할 수 있다" <interp value="critical" ana="문학관">이러한 부정적 비평은 결국 젊은 시의 특성을 제 대로 읽어내지 못하는 기존 비평의 오류라고 저자는 지적하고 있다 （148）.</interp></s>
+          <s>
+            <interp value="critical" ana="문학관">이는 젊은 시인들의 지적 깊이나 변화에 눈높이를 맞춘 객관적 비평의 부재를 나무라는 듯하다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="문학관">일리 있는 논리다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>정말로 현대 젊은이 들의 생활태도를 부모들이 이해 못해서일까?</s>
+          <s>자녀에 대한 부모의 지적 이해부족의 경우에는 더 이상 언급할 가치가 없다.</s>
+          <s>그러나 대개는 감각 적으로 그것에 가까이 갈 수 없는 정황, 상태가 있기에 그러함을 이해해 야 할 것이다.</s>
+          <s>이는 부모의 무지 때문일 수도 있지만, 자녀의 의식적 거 부감에 따른 소원함, 친숙하지 않음이 의사소통의 부재가 될 수도 있다.</s>
+          <s>결국 지적 무지나 부족감도 원인이지만, 상호 감성적 교류의 단절현상이 주원인이다.</s>
+          <s>혼히 말하듯 감각의 차이일 뿐이다.</s>
+          <s><persName role="critic" xml:id="p-x5">권은</persName> <term type="concept">미의 변화성</term>, <term type="concept">미적 관점의 유동성</term>을 더 언급한다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이는 너무나 당 연한 이치다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>어느 시대나 미에 대한 고정적 관점을 거부하면서, <term type="concept">실험예 술</term>이 반발적으로 등장하게 된다.</s>
+          <s>그는 <term type="movement">입체파</term>의 <term type="concept">복수시점</term>을 강조하는 미 학의 예를 들면서, 말의 다리를 바라보는 잔상 효과의 미학성을 제시한 다.</s>
+          <s>여기서부터 현대 <term type="movement">포스트모던이론</term>이나 <term type="movement">탈/해체론</term>의 근본 미학성을 엿 보게 된다.</s>
+          <s>
+            <interp value="neutral" ana="미학">미의 중심, 단원성，절대성은 이미 현대 사유에서 권위 상실 중이다.</interp>
+          </s>
+          <s><term type="concept">특수성</term>이 왜곡성으로 치부되지 않고, 새로움을 <term type="concept">보편성</term>이나진리 에 위배된다고 보지도 않는다.</s>
+          <s>본래 진리는 인식되는 것이지 , 고정된 가 치나 존재로 강요되는 것이 아니다.1® 현대 비평가는 모두 <term type="concept">탈진리성</term>, <term type="concept">해 체성</term>, 주객관의 와해 등을 친숙하게 접하고 있다.</s>
+          <s>（물론 아는 것과 실천 성은 다르기에 시로 나타나는 시성은 서로 다른 궤도를 취할 수 있다.）<interp value="affirmative" ana="미학">이런 지적 상황에서 그가 젊은 시인들의 시 성격을 긍정적으로 이해해달 라고 요구하는 것은 당연하다.</interp></s>
+          <s>이미 해외 및 국내 시에서도 시대적 <term type="concept">미학 변화</term>를 충분히 감지하고 이런 시적 표현을 강조하고 있다.</s>
+        </p>
+        <p>
+          <s>그의 변화적 추세를 충분히 긍정하기에, 그가 고쳐주기를 요구하는 <term type="concept">긍 정적 비평의 언사</term>(149)에 대해 좀 더 생각해본다.</s>
+          <s>이는 <term type="concept">젊은 시인들</term>의 시적 장점에 대한 열거와 같다.1.</s>
+          <s>(<term type="concept">젊은 시인들</term>의 시는) <quote type="direct" genre="critic">"중언부언을 주요 발화 방식으로 채택하였 다.</quote></s>
+          <s>” 이는 <term type="movement">전통주의 비평</term>이 주장하던 <term type="concept">사유의 명확성, 간결성, 적확도</term>에 대한 감각 차이를 대변한다.</s>
+          <s>물론 <term type="concept">중언부언</term>의 시적 깊이나 차용정도, 시 적 가치에 대해서는 더 논의되어야 할 것이다.</s>
+          <s>시의 소재로서 <term type="concept">언어의 난 삽함</term>은시적 본래 용도에 대해서 논쟁거리가된다.2.</s>
+          <s>“시 한편에 넣을 <term type="concept">전언</term>(message?)이 너무 풍부하다.</s>
+          <s>’’ 이는 <term type="concept">교화성</term> 과 <term type="concept">감동성</term>, 강요성과 단순 제시성 , 내용과 재미 사이의 갈등과 같다.</s>
+        </p>
+        <p>
+          <s>시 를 <term type="concept">내용, 의미, 주장을 담아내는 표현수단</term>으로 보면, 전하고자 하는 말이 자연히 많아진다.</s>
+          <s>그 <term type="concept">시적 깊이</term>와 성공도는 <term type="concept">사유와 명상</term>의 깊이와 층위 에 따라서 다를 것이다.</s>
+          <s>그 성공도에 따라 표현되는 시어의 총 개수는 달 라질 수밖에 없다.</s>
+          <s>전통적으로 <term type="concept">시적 성공</term>은 <term type="concept">어휘의 간결성, 적확성, 밀도</term> 등에 두어왔다.</s>
+          <s>그러나 <term type="movement">후기모더니즘</term>의 <term type="movement">사실주의</term> 시 성향에서 <term type="concept">메시지</term>의 중요성이 다시 부각되고 있는 것도 사실이다.</s>
+          <s>이러한 사용 어휘의 차이 도 결국은 <term type="concept">시적 사유</term>의 깊이와 기호의 차이로 귀결된다.3.</s>
+          <s>“<term type="concept">음악</term>보다 <term type="concept">전언</term>이 더 중요하다.</s>
+          <s>’’ <interp value="critical" ana="문학관">여기에서 시를 교화의 목적이나 작가 중심적인 의식의 표출성으로 이해하는 면이 드러난다.</interp></s>
+        </p>
+        <p>
+          <s>시 낭송이나 음악적 교감을 통해 독자가 홍얼거리며 따라 와주기를 기대하지 않고, 전면에 서서 메시지를 전하며 지적 강요를 설파하는 <term type="concept">젊은 심리구조</term>를 발 견하게 된다.</s>
+          <s>시적 음악성이나 운율성은 오랜 수련의 기간을 요구하지 만.</s>
+          <s>그런 <term type="concept">운율(prosody)</term> 학습에 몰입할 시간이 없다는 강변이기도 하다.</s>
+          <s>이런 시 쓰기의 편리성은 이미 일반화된 현상이기도 하다.</s>
+          <s>편리성은 대중화, 보편화를 가능케 하지만.</s>
+          <s><interp value="critical" ana="미학">저급화도 동시에 수반한다.</interp>4.</s>
+          <s>
+            <quote type="direct" genre="critic">"이미지가 풍요롭다.</quote>
+          </s>
+          <s>" 여기서 <term type="concept">이미지</term>에 대한 정의가 중요하다.</s>
+        </p>
+        <p>
+          <s>만 약에 <persName role="foreigner" xml:id="p-croce">크로체（Croce）</persName>처럼 <term type="concept">이미지</term>를 <term type="concept">표상（representation, 대개 표현으로 번역）</term>과 동일어 취급되고.</s>
+          <s>감각이나 지성적 개념도 아닌 어떤 것으로 이 해된다면, <term type="concept">젊은 시인들</term>이 주장하는 <term type="concept">이미지</term>란 결국 수많은 시어를 감각적 으로 그러나 아직은 지성적 맥락을 갖추지 못한 감성적 상태가 된다.</s>
+          <s>즉 아직 제대로 인식된 직관이 아닌 것이다.</s>
+          <s>감각이라는 심리적 기반에서 나오는 표현이라면, 그러한 <term type="concept">이미지</term>는 대개는 그냥 생각 없이 나오는 대 로 쓰는 경우가 많다.</s>
+          <s>
+            <interp value="critical" ana="미학">너무 감각적인 무의미한 표현이 되고 만다.</interp>
+          </s>
+          <s>그렇지 않고 （<term type="concept">젊은 시인들</term>이 항변하듯이） 단순 감각보다는 그래도 조금 진보된 다음 단계의 심적 생산물로서 <term type="concept">이미지</term>를 강조한다면, 그 두 번째 단계의 이미지란 무엇을 의미하는가?</s>
+          <s>
+            <interp value="critical" ana="미학">과연 그러한 이미지가 존재하는가?</interp>
+          </s>
+          <s>질과 양 면에서 보다 풍요한 무엇이 있다고 강변하는 것인가?W <interp value="neutral" ana="미학">이에 대한 구 분이 가능한지 자문해야 할 듯하다.</interp>5.</s>
+        </p>
+        <p>
+          <s>"<term type="concept">다성적 화자성</term>.</s>
+          <s><term type="concept">현대사회의 시각주의, 영화적 관점</term>” 등을 많이 고 려한다.</s>
+          <s>시대적 변화추세이니 어쩔 수 없다.</s>
+          <s>다만 영화처럼 수많은 페르 소나를 동시에 출연시키려면 좀 더 넓은 공간/장（소설, 회곡 등）에서 마 음껏 펼치지 않고, 왜 제한된 짧은 표현의 시공간인 시 양식을 굳이 이용 해야 할까?</s>
+          <s>
+            <interp value="critical" ana="미학">시의 존재성이 혼들린다.</interp>
+          </s>
+          <s>이런 현상（시 아닌 것을 시에다 집 어넣는 <term type="concept">프로크루스테스（Procrustes） 식의 자기중심적 행위</term>）은 잘못하면 삼국지 같이 대하적 또는 서사적이지도 못하고.</s>
+          <s>단시（<title level="m" type="foreign" xml:id="t-x4">하이꾸</title>.</s>
+          <s><term type="concept">선시</term> 등） 처럼 밀도적이지도 못한 어중간한 태도로 시인의 자리매김을 희망하는 문학 재능일 수도 있다.</s>
+        </p>
+        <p>
+          <s><term type="concept">영화적 시각성</term>.</s>
+          <s><term type="concept">감각적 변화성</term>은 곧 일반 시적 관찰이나 응시의 부족을 야기할 수 있다.</s>
+          <s>자연히 <term type="concept">카메라 옵스큐라</term>처럼 스윽 지나가며 보여주는 <interp value="critical" ana="미학">조망적인 관찰에 불과할 수 있다</interp>.</s>
+          <s><term type="concept">미래시</term>가 모 든 독자의 호응에 맞추어서 그렇게 변해갈 수도 있다.</s>
+          <s>하지만 현재까지 의 시 양斗 시적 목적, 존재이유에 따른 시라면, <interp value="neutral" ana="미학">이런 현상은 장점인 동 126시에 곧 단점이 된다</interp>.</s>
+          <s>（구체적 비평은 추후에 다시 해본다.）6.</s>
+          <s>"<term type="concept">존재론적 사회 역사관</term>’’이 있다.</s>
+          <s>무엇이 <term type="movement">미래파</term>의 <term type="concept">존재론</term>인가?</s>
+        </p>
+        <p>
+          <s>존 재론（ontology）이란 인간 본연의 존재성을 통찰, 확인하는 <term type="concept">형이상학적</term> 사유론이다.</s>
+          <s>이는 보통 <term type="concept">본체론</term>.</s>
+          <s><term type="concept">실체론</term>이라고도 한다.</s>
+          <s>때로는 그런 존재 （본체）를 어떻게 인식하느냐 하는 <term type="concept">인식론</term>이나 존재자（자연/인간）의 현 세적 현상에 대한 <term type="concept">현상론</term>을 의미하기도 한다.</s>
+          <s>따라서 "<term type="concept">존재론적</term>’’이란 용 어는 <term type="concept">본체론적 존재론</term>인지, <term type="concept">인식/현상학적 존재론</term>인지 구분이 필요하다.</s>
+          <s>쉽게.</s>
+          <s><persName role="foreigner" xml:id="p-x6">하이데거</persName>는 “<term type="concept">존재론적（ontologisch）</term>”이란 용어로 주체적인 철학적 자각적 입장을 말하고.</s>
+          <s>"<term type="concept">존재적 （ontisch）</term>”이란 말로 철학적 자각 이전의 객관적 대상적인 태도를 의미한다（철학사전 998이）.</s>
+        </p>
+        <p>
+          <s>더 쉽게 말하면, 존 재론적이란 （객관적 대상인 절대 존재에 대한 존재적 사유가 아니라） 현 세상의 모든 존재자（존재 일반, 우리의 일상, 현실 자체）에 대한 사유를 말한다.</s>
+          <s>하이데거는 존재론적이란 존재（리얼리티） 의미를 질문할 때에 사용되는 것이라고 한다.</s>
+          <s>따라서 ”사회 역사에 대한 통찰을 존재론적 통 찰에 물려주어야 한다‘,（149）는 권의 정의는 약간 애매하기에 명확한 정 의가 필요한 듯하다.</s>
+          <s>물론 일반적으로 현 실상에 대한 의미 파악 정도로 사용하였을 것으로 추측된다.</s>
+          <s>과연 가벼운 후기모던니티 시 성격을 강하 게 표출하는 이들의 시가 인간의 운명과 존재 그 자체를 고뇌하는 존재 론이 될 수 있을까?</s>
+          <s>이들의 시에서 우리의 현존재, 즉 우리가 살고 있는 현실（reality）을 시적으로 또는 철학적 의미로나마 표출하고 있을까?</s>
+          <s>어 느 시인이나 빈약하지만 나름대로 존재론적인 고뇌의 시를 쓰려고 할 것 이다.</s>
+          <s>그러나 그러한 고뇌는 오히려 기존 전통 시에서 더 많이 발견되는 것이 사실이다.1S 어느 면에서 이들의 시는 이러한 존재론적 고뇌에 반대 해서 가벼운 쾌락적 글쓰기인 듯하다.</s>
+        </p>
+        <p>
+          <s>오히려 이들의 시는 <term type="concept">인간 본연의 가치</term>나 <term type="concept">최고 존재자</term>.</s>
+          <s>일반 존재에 대한 탐구, 즉 <term type="concept">존재론적 탐구</term>에 더욱 몰입해야 한다.</s>
+          <s>그래야만 그들이 생각하는 차별화된 시나 좋은 시.</s>
+          <s>즉 현 실에 충실한 시가 나올 것이다.7.</s>
+          <s>“<term type="concept">미추美醜의 동일 미학성</term>”이 있다.</s>
+          <s>이것은 <date when="1800">19C</date> <term type="movement">낭만주의</term> 시대부터 꾸준히 주창되어 온 관점이다.</s>
+          <s>악마나 대중이 신이나 철인보다 많둣이, 이 세상에는 추한 것이 아름다운 것보다 훨씬 많다.</s>
+          <s>따라서 <interp value="neutral" ana="미학">전통적으로 문학에서는 귀한 미, 즉 현실에서 좀 더 귀한 아름다운 미를 문학의 중심 과제로 여겨왔다.</interp></s>
+        </p>
+        <p>
+          <s>이런 <term type="concept">전통적 미학관</term>이 현대 <term type="concept">대중사회</term>로 들어서면서 고 귀하고 <term type="concept">귀족적 취향</term>의 미보다는 조금 못난 미, <term type="concept">추의 미</term>도 추구하게 되었 다.</s>
+          <s>시대별로 <term type="concept">전통적 미학관</term>（아름다운 미 중심）이 우세를 가졌기에.</s>
+          <s>이 탈적/실험적 시학에서는 당연히 못난 것이 시적 관찰과 표현의 대상이 될 수도 있다.</s>
+          <s>육체적 미나 정신적 미 관점에서, 노년기（<term type="concept">전통적 시학</term>）는 주로 미를 추구하는 편이고, 청년기는 지배적 주류의 미학을 이탈하려는 경향을 보인다.</s>
+          <s>이는 각 시인의 <term type="concept">계급적</term>.</s>
+          <s>연령적.</s>
+          <s>층위적 일반성에 따른 선호도의 차이지.</s>
+          <s><term type="concept">미추 미학</term>에서 어느 요소의 우수성을 반영하는 것은 아니다.</s>
+        </p>
+        <p>
+          <s>누구나 아름다워지기 위해 성형수술할 수 있고, <term type="concept">미의 상승욕구</term> 와<term type="concept">지위 상승 욕망</term>을 갖고 있다.</s>
+          <s>자기 취향대로 추함을 얼마든지 표현하 고 향유할 수는 있다.</s>
+          <s>그러나 <term type="concept">추함의 미학</term> 추구가 신체적 또는 정신적 추 함으로 바뀌어 갈 때, <interp value="critical" ana="미학">그런 미학성을 좋아할 사람이 정말 있을까?</interp></s>
+          <s>고급 와인과 아름다운 여인을 욕망하지 않는 노년이 없듯이, <interp value="neutral" ana="미학">젊은 시인들의 시적 욕망도 결국은 전통적 미학과 다르지 않게 될 수도 있다.</interp></s>
+          <s>자신들의 육체적, 정신적 시공간이 변화되면, <interp value="neutral" ana="미학">그들 또한 전통적 시 감각이나 미학 성을 추구할 가능성이 높다.</interp></s>
+          <s>그것이 시의 현재요 미래이며.</s>
+          <s>현재 <term type="concept">실험성</term> 의 특성인 동시에 미래의 <term type="concept">전통적 귀착</term>이다.</s>
+          <s>따라서 <interp value="critical" ana="미학">현재 차별화된 자신 의 것이 최고의 미학추구가 아님을 겸허하게 인정해야 한다.</interp></s>
+        </p>
+        <p>
+          <s><persName ref="#p-x2">권혁웅</persName> 씨는 계속해서 <date when="1980">80년대</date>를 <term type="concept">역사와 시대에 대한 채무 의식</term>의 시 대, <date when="1990">90년대</date>를 “<quote type="direct" genre="critic">그럴 듯한 서정</quote>’’16）의 시대라고 정의한다.</s>
+          <s>이에 대안으로 <term type="concept">젊은 시인</term>의 시를 “<term type="concept">재미</term>”라는 화두로 제시한다.</s>
+          <s>그는 <persName role="poet" xml:id="p-x7">장석원</persName>, <persName role="poet" xml:id="p-x8">황병승</persName>.</s>
+          <s>김 민정의 <term type="concept">감각</term> 시를 감각적으로 읽기를 권한다.</s>
+          <s>그리고 6장에서 "<quote type="direct" genre="critic">새로운 세대가 생산하는 시들은 결코 요령부득의 장광설이거나 경박한 유희의산물이 아니다.</quote></s>
+          <s>
+            <quote type="direct" genre="critic">그들에게서도 시는 여전히 생생한 체험의 소산이며, 감 각적 현실의 표명이며, 진지한 고민의 토로다.</quote>
+          </s>
+          <s>”(171)라고 정의한다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">분 명한 사실이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>모든 시인은 최선을 다해 시를 쓴다.</s>
+          <s>서로 다른 경험과 지식을 바탕으로 서로 다른 길로 세상과 진리에 접근하고 있다.</s>
+          <s>진지하 고 성실하지 못한 시인은 생존할 수 없다.</s>
+          <s>세대가 바뀌면 <term type="concept">미학</term>도 바뀐다.</s>
+          <s>그러나 (지구/자연/환경이 변하지 않는다면) 근본 <term type="concept">미학성</term>, <term type="concept">존재성</term>은 변 하지 않기에, 그 기본을 고수하려는 사람은 언제든지 존재한다.</s>
+          <s>그들이 <term type="movement">전통주의자</term>이며 기성세대일 가능성이 높다.</s>
+          <s>그에 반해서 권력향유자들 을 격파해야만 위로 상승할 수 있는 <term type="concept">하위/신진/실험 시인들</term>은 항상 새로 운 <term type="concept">미학성</term>을 추구하게 된다.</s>
+          <s>이것이 시의 창조적 발전 사이클이다.</s>
+        </p>
+        <p>
+          <s>마지막으로 <persName role="other" xml:id="p-x9">권</persName>은 “<quote type="direct" genre="critic">이들의 작품이 가까운 미래에 우리 시의 분명한 대 안</quote>”이라고 예측한다.</s>
+          <s>이 성향은 다음 장에서 <persName role="foreigner" xml:id="p-x10">플라톤</persName>과 <persName role="other" xml:id="p-x11">소피스트</persName>, <persName role="foreigner" xml:id="p-x12">헤겔</persName>의 <term type="concept">시학 이론</term>을 통해서 비평해보자.</s>
+          <s>어느 주장에 대한 과거의 시 정신이나 이론에 대한 주요 화석 층을 되파는 작업은 항상 필요하다.3	.</s>
+          <s>흔적냉커피를 다 마시도록 얼음이 더 이상 녹지 않는다.</s>
+          <s>나는 노란 색이 사 라진 유리컵을 바라보며 계속 글을 써나간다.</s>
+          <s>하얀 얼음이 더욱 청결하 게 다가온다.</s>
+          <s>상당한 양의 글을 쓰고 난 이후에도 남아있는 얼음덩어리 는 입으로 설컹설컹 씹어 먹는다.</s>
+          <s>그러나 대개는 밋밋하게 다 녹은 물자 욱 만이 커피 유리잔 아래에 고여 있다.</s>
+        </p>
+        <p>
+          <s>칙칙하게 자욱만 남은 듯한 잔을 굽어보면서, 내가지금까지 즐기며 마셨던 냉커피 입맛이 씁쓸하게 느껴 진다.</s>
+          <s>모든 글과 언어란 항상 이런 찌끼를 남기는가 보다.</s>
+          <s>이러한 혼적을 깨끗이 지울 수 있는 <term type="concept">사상적 배경</term> , 현재의 고뇌를 극복시켜 줄 수 있는 지적 지주支柱는 없을까?</s>
+          <s>그러면 양 진영의 견해에 대한 공정한 <term type="concept">비평</term>의 무게 추를 찾기 위해서지혜로운 고전의 광맥을 파고 들어가보자.</s>
+          <s>우선 <title level="m" type="other" xml:id="t-x5">시학</title>의 원전인 아리스토 텔레스를 뒤적이기 전에, 현시대에서 <term type="movement">미래파</term>와 <term type="movement">전통주의자</term>의 견해 대립 을 먼저 보여주었던 과거 <persName ref="#p-x10">플라톤</persName>과 <term type="movement">소피스트</term>와의 관계성을 주유舟遊해본 다.</s>
+          <s>일반적으로 <persName ref="#p-x10">플라톤</persName>은 시인을 부정적 시각으로 바라보는 철학관의 소 유자라고 한다.</s>
+          <s>분명히 “<title level="m" type="other" xml:id="t-x6">공화국</title>” 10편에서 시인을 공화국에서 축출해야 할 인물로 규정하고 있기에, <interp value="affirmative" ana="미학">이러한 견해는 충분히 타당성을 갖고 있 다.</interp></s>
+          <s>패 그런데 그가 시인 부정론을 전개시킨 배경에는 당시에 성행하던 <term type="movement">소 피스트</term> 성향 때문에 더욱 반발적으로 시적 부정 성향을 표출하였을 것이 다.1® 이는 <persName ref="#p-x10">플라톤</persName>의 <term type="concept">이데아론</term>, 관념적 최고성, 중심 있는 본체성 등의 이 치를 이해하면.</s>
+        </p>
+        <p>
+          <s>당연한 것이다.</s>
+          <s>이러한 이성적, 감성적, 주체적 관념 존 재에 대한 믿음은 자연히 <term type="concept">절대주의</term>로 정의할 수 있다.</s>
+          <s>이러한 <term type="concept">절대성의 이념론</term>（<term type="concept">형이상학론</term>）은 자연히 그 당시 변혁기의 그리스 폴리스 국가에 서 현실주의자와 상대적 대립을 갖게 되었을 것이다.</s>
+          <s>그와 대립각을 이 루는 <term type="concept">소피스트</term> 철학자들과 대조 비교하면, <term type="movement">한국 미래파</term>와 <term type="concept">전통주의자</term>에 대한 현재 시적 논쟁에 대한 혜안을 얻을 수 있을 것이다.</s>
+          <s><term type="concept">소피스트</term>는 어떤 존재였을까?</s>
+          <s>흔히 <term type="concept">소피스트</term>를 <term type="concept">궤변론자</term>로 번역하고, 부정적 이미지를 부과하고 있다.</s>
+          <s>대개 그들은 진지한 사상가가 아니며.</s>
+          <s>지혜보다는 지식을 추구하고, 비도덕적 행위자, 철학성이 부족한 인물로 표현된다.</s>
+        </p>
+        <p>
+          <s>그러나 최근에는 <term type="concept">후기 자본주의</term> 시대적 상황에 더욱 적합한 철학관을 지닌 인물들로 묘사되고 있다.19} 이에 대한 <persName role="foreigner" xml:id="p-keiford">커포드（Keiford）</persName>의 논지를 간단히 소개한다.</s>
+          <s>그는 <term type="concept">소피스트</term>에 대한 최초의 긍정적 평가자는 <persName ref="#p-x12">헤겔</persName>이라고 한다.</s>
+          <s><persName ref="#p-x12">헤겔</persName>은〈<title level="m" type="other" xml:id="t-x7">철학사 강의</title>〉에서 <term type="concept">정반합正反合의 변증법</term>을 <persName role="foreigner" xml:id="p-x13">소크라테스</persName>（정）, <term type="concept">소피스트</term>（반）, <persName ref="#p-x10">플라톤</persName>과 <persName role="foreigner" xml:id="p-x14">아리스토텔레스</persName>（합）의 철학 전 개과정으로 이해한다.</s>
+          <s>그 후 <term type="concept">소피스트</term>에 대한 새로운 해석이 등장하고 긍정적으로 재평가 되는 것이 사실이다.</s>
+          <s>이런 현상은 <term type="movement">포스트모더니즘</term>의 현상에 어울리는 재평가이며, 더 나가서 <term type="movement">한국 미래파</term>에 대한 평가 작업의 기초가 될 수 있다.</s>
+          <s>그리스 <term type="concept">소피스트</term>와 <term type="movement">한국 미래파</term>의 시대성은 어느 면에서 많은 유사성 을 갖고 있다.</s>
+          <s><term type="concept">소피스트</term> 주요 활동시대는 <term type="concept">펠로폰네소스 전쟁</term> 전후시대 다?</s>
+          <s>거의 반세기 이상의 긴 전쟁기간 동안의 역경과 사회 정치적 변화 속에서, 전쟁 전과 다른 새로운 철학, 의식구조가 발전된 것은 당연하다.</s>
+        </p>
+        <p>
+          <s>아테네 패망에 따른 스파르타 식의 삶의 방식이 강요되었을 것이므로, 새로운 <term type="concept">민주주의</term> 속에서 생존 처세술이 발전하였을 것이다.</s>
+          <s>그 후 그리 스가최고로 번영하던 시기 에 <term type="concept">실용주의적</term> , <term type="concept">물질주의적</term> 관점이 중시되었 을 것이다.</s>
+          <s>이러한 변화를 주도하는 새로운 <term type="movement">철학 사조</term>가 <date when="0380">BC 380년경</date>까 지 70여년 동안 그리스 철학사를 <term type="concept">현세주의적</term>으로 주도하던 소피스트 사 상이다.</s>
+          <s>여러 면에서 한국의 정신구조와 흐름도 이와 유사한 경로를 갖고 있 다.</s>
+          <s>36년간의 긴 <term type="concept">일제압제</term> 정치, 3년간의 참혹한 <term type="concept">한국동란</term>을 경험하고 난 이후에, 국가수립 초기 단계의 십여년간에 정치 경제적 혼란시기를 맞게 된다.</s>
+          <s>그 이후에, <persName role="other" xml:id="p-x15">박정희</persName> 정권의 경제적 발흥단계를 거치면서 민주 주의로 향하는 인권 시련 시기를 경험하게 된다.</s>
+          <s>경제적 풍요와 민주주 의 정착 단계가 어느 정도 완성되는 <date when="1990">90년대</date>부터는 <term type="concept">후기 자본주의</term> 특성 이 한국시단에도 강하게 출현하게 된다.</s>
+          <s>
+            <interp value="affirmative" ana="사회">80년대부터 수입된 포스트모던 이론이 구체적으로 미래파적 시로 착생되기 시작한 것은 물질적 풍요와 삶의 질의 변화에 따른 당연한 정신구조이며 표현력이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>두 시대의 공 통점은 새로운 정신/사회/정치적 흐름에 따른 기존가치나 의미가 <term type="concept">해체</term> 되며, 과거와 다른 새로운 양식.</s>
+          <s>신념, 가치가 주장되는 것이다.</s>
+          <s>이러한 변화는 전쟁이나 정치적 대변혁을 경험한 이후의 당연한 공통적 시대 변 화라고 할수있다.</s>
+          <s>이러한 변화의 시대에는 스포츠, 연예 같은 오락적 인생.</s>
+          <s>쟁론적 놀이 문화가 득세하게 된다.</s>
+          <s>（한국시에서도 <interp value="critical" ana="사회">진정한 사유보다는 오락적 쾌락의 표현시가 강화된다</interp>.） 아테네의 <term type="movement">소피스트</term> 철학도 이런 실존 현상의 외적표현이다.</s>
+          <s>당시의 쟁론의 수단인 언어 구사력을 향상시키기 위해서는자 연히 <term type="concept">수사학</term>, <term type="concept">논리학</term> 같은 교육이 요구되며 , 그 교육 결과로 <term type="movement">소피스트</term>적 인 교사와 제자들이 양육된다.（<interp value="critical" ana="사회">한국 교육도 논술 교육에 따른 기계적 수 사적 글쓰기, 표현 연습과 같은 교육이 일반화되고, 그 교육을 받은 시인 들이 증가되고 있다</interp>.） 이들은 <term type="concept">현실적 문제, 현시대적 고뇌에 직면하는글 쓰기</term>를 선호한다.</s>
+          <s>당시 상황을 고려할 때, <term type="concept">현실적 구체적 문제의식</term>이 가 미되지 않은 글쓰기는 어려웠을 것이다.</s>
+        </p>
+        <p>
+          <s>두 시대의 특성 비교를 위해서, 당시의 <term type="movement">소피스트</term>의 철학 과제를 약술해본다.</s>
+          <s><term type="movement">소피스트</term>들은 종전의 철학문제에 대해 새로운 관점을 표현한다.</s>
+          <s>그중 에서도 변화된 사회적 조건 속에서 <term type="concept">지식의 사회화</term>를 주장한다.</s>
+          <s>진보와 발전에 대해 <term type="movement">진보주의</term> 믿음을 갖고, 새로운 미래를 믿는다.</s>
+          <s>신도 인간의 마음에만 존재하는 인간 발명품이라는 <term type="concept">인간 중심 종교성</term>, 이론보다는 실 천성을 강조하는 <term type="concept">실천 철학성</term>, 관념적 정의보다는 실용 구체적 응답이 있는 <term type="concept">현실적 정의</term> 선호, 도덕 교육을 포함한 모든 영역에서 <term type="movement">상대주의</term>를 주장하고.</s>
+          <s>인간 삶은 논증을 통해 충분히 이해할 수 있다는 <term type="concept">논증 우월주 의</term>를 강조한다.2a 이러한 견해는 <term type="movement">미래파</term> 성향의 시인들 시성에도 유사하 게 잠재해있다.</s>
+          <s>현대사회의 철학적 쟁론이 주로 <term type="concept">진리 합의설</term>, <term type="concept">사회계약 설</term>, <term type="movement">윤리적/인식론적 상대주의</term> 입장에 있다면, 현대 <term type="concept">젊은 시인들</term>의 사유 와 시성도 이와 유사할 것이다.= 그들이 특히 <term type="movement">불란서 철학</term>, <persName role="foreigner" xml:id="p-x16">데리다</persName>의 <term type="movement">해 체주의</term>나 <persName role="foreigner" xml:id="p-x17">라깡</persName>의 <term type="movement">심리주의</term> 이론, <persName role="foreigner" xml:id="p-x18">보드리야르</persName>의 <term type="concept">반영이론</term>, <persName role="foreigner" xml:id="p-x19">푸코</persName>의 <term type="concept">권력이 론</term> 등에 몰입할수록.</s>
+          <s>이러한 <term type="movement">소피스트적인 인식의 상대주의</term>, <term type="concept">인간중심</term> （몸.</s>
+        </p>
+        <p>
+          <s>정신 포함）의 사유가 더욱 두드러질 것이다.</s>
+          <s><term type="movement">소피스트 이론</term>은 <term type="movement">현실주의</term>, <term type="movement">절대 회의주의</term>, <term type="movement">상대주의</term>, 사회적 관습과 전통（법）의 불신, 절대 가치와 기준의 완전 부재성을 강조하기에, 이들 은 비도적주의자, 전통 파괴자, 지혜와 정의에 대한 <term type="movement">냉소주의</term>자로 이해 되기 쉽다.</s>
+          <s>이들의 철학적 사유는 오로지 경험과 행위, 몸에 의존하기 쉬 우므로, 단순히 불안한 사회체제, 현상에 대한 반발적 의식으로 치부되기 쉽다.</s>
+          <s>이러한 사유와는 달리, 철학은 본질적 깨달음을 추구하는 학문 이기에 너무 가치 부정적, <term type="concept">회의적</term>, <term type="movement">비합리적 경험주의</term> 등을 거부하고, 절 대가치와 기준을 선호하는 경향이 있다.</s>
+          <s>이러한 요구의 선봉에 <persName ref="#p-x10">플라톤</persName>이 존재한다.</s>
+          <s>물론 <persName ref="#p-x13">소크라테스</persName>나 <persName ref="#p-x10">플라톤</persName>도 <term type="movement">소피스트</term>들의 <term type="movement">경험론</term>, <term type="movement">현실론</term>에 서 많은사유를 공감, 차용하긴 하지만, 너무 지나친 부정적 요소들을 제 거하기 위하여 소피스트들을 격하시키고 있다.</s>
+          <s>이런 반발적 내용은 한국 시단에서 <term type="movement">전통주의</term>와 <term type="movement">미래파</term>와의 상관적 대립성에도 접목할 수 있다.</s>
+          <s><persName ref="#p-x10">플라톤</persName>의 반대논리를 전부 열거할 수는 없지만.</s>
+        </p>
+        <p>
+          <s>간단히 비판을 정리해 본다.</s>
+          <s>우선 그는 <term type="concept">전통</term>에 대한 <term type="movement">소피스트</term>의 공격에 반감을가진다.</s>
+          <s>지적 깊 이가 안정되지 못한 당시 청년들이（전통 타도를 위해） <term type="movement">소피스트</term>의 <term type="concept">이성 적 논증술</term> 사용에 매력을 느끼는 건 당연한 일반 현상이라고 이해하지 만, <interp value="critical" ana="사상">너무 젊은 세대를 호도하는 듯한 느낌을 버릴 수 없었다.</interp></s>
+          <s>더욱이 당 시의 특수한 정치상황 때문에, <interp value="critical" ana="사상">젊은이들의 방황하는 마음에 회의주의와 비절대주의의 불길을 부추키는 것은 철학자로서 가치있는 일이라고 생 각하지 않았다.</interp></s>
+          <s><persName ref="#p-x10">플라톤</persName>도 기존 가치를 교정, 변호하기 위해서는 <term type="concept">소피스 트적인 이성적 논증</term>이 필요했고, <term type="movement">소피스트</term>가 주장하는 <term type="concept">민주주의</term> 정체에 긍정적 요소를 공감하고 수용하기도 한다.</s>
+          <s>다만 <term type="concept">진리</term>를 중요시 하지 않 고.</s>
+          <s><interp value="critical" ana="사상">논쟁 상의 승리만 가르치는 기술/기능적 부분을 강하게 질타한다</interp>.28 <term type="concept">진리</term>나 현상세계에도 반논리적인 면이 있고.</s>
+          <s>철학의 기본단계로 <term type="concept">반논리</term> 가 필요하지만, <interp value="critical" ana="사상">타인의 논리에 말꼬투리（논쟁）나 거는 철학은 좋지 않다 고 평가한다.</interp></s>
+        </p>
+        <p>
+          <s><term type="concept">철학</term>이란 단순히 타철학에 반증하거나 대응적으로 이론 제 시하는 것보다는 깊은 인생문제에 대해 스스로 해답과 명상을 제공할 수 있어야 한다고 여긴 듯하다.</s>
+          <s>이러한 <term type="movement">소피스트</term>와 <persName ref="#p-x10">플라톤</persName> 철학의 상관성을 최초로 명문화시킨 철학 자가 <persName ref="#p-x12">헤겔</persName>이다.</s>
+          <s><persName ref="#p-x12">헤겔</persName>은 <term type="movement">소피스트</term> 이전의 철학（<persName ref="#p-x13">소크라테스</persName> 포함）에서는 철학하는 관찰자/주체자가 제외된 체, 자연 즉 현상세계 자체만 진리대 상으로 인식되었다고 한다.</s>
+          <s>이것은 자연 외부대상 중심으로 사유할 때.</s>
+          <s>자연만이 실재하는 것처럼 느껴지지만, 관찰자가 빠진 대상은 오히려 실 재하지 하지 않는 것처럼 느껴진다.</s>
+          <s>즉 자연/외부 현상이 비실재하는 것으로 배제되기 쉽다.</s>
+          <s>관찰자가 제외되는 철학이 가능한가?</s>
+          <s>인간이 제외 된 자연이 무슨 소용인가?</s>
+        </p>
+        <p>
+          <s>인간이 제외된 인식론은 잘못하면 외부 진리 는 진리가 될 수 없다는 <term type="concept">회의주의</term>에 빠지게 된다.</s>
+          <s>이런 <term type="concept">객관주의</term>자（<term type="concept">자연 우선주의</term>자）의 사상（<persName role="foreigner" xml:id="p-x20">탈레스</persName>, <persName role="foreigner" xml:id="p-x21">헤라클레이토스</persName>, <persName role="foreigner" xml:id="p-x22">파르메니데스</persName> 등）이 정립 한 <term type="movement">물리적 자연주의</term> 전통에 반대하여 <term type="movement">소피스트</term> 사상이 반정립을 세운다.</s>
+          <s><term type="movement">소피스트</term>들은 <term type="concept">주관적 관념론</term>자들이기에 주체가 첨가된 인식만을 중시한 다.</s>
+          <s>그 결과가 너무 <term type="concept">인간중심적</term>, 기교적, 상대적 가치에 빠져버리기에, <persName ref="#p-x10">플라톤</persName> 이후의 철학이 전대의 두 조류（<term type="concept">자연 객관주의</term>와 <term type="concept">인간 주관주의</term>） 를 종합 정립시키고 있다.</s>
+          <s>잠시 <persName ref="#p-x12">헤겔</persName>의 <term type="movement">소피스트</term> 재발견 의미와 그가 경고하는 시 （예술）의 소멸 론을 살펴보자.</s>
+          <s>이것은 <term type="movement">소피스트</term>적인 철학（시）의 <term type="concept">변풍變風</term>에 대한 그 나 름대로 <term type="concept">정풍正風</term>의 인식이며, <term type="movement">한국 미래파 시</term>에 대한 대안이 될 수도 있 다.</s>
+          <s>그는 <term type="movement">소피스트</term> 철학 내용을 <persName ref="#p-x10">플라톤</persName>의 종합 정립에 필요한 기초요소 로 제시한다.</s>
+          <s>이는 <term type="movement">소피스트</term> 이론보다는 <persName ref="#p-x10">플라톤</persName>의 통합된 가치의 우수성 을 인정하는 것과 같다.</s>
+        </p>
+        <p>
+          <s>다만 그는 <term type="movement">소피스트</term> 철학의 가치를 <term type="concept">주관주의</term>로 의 이행과정, <term type="concept">인간 중심의 인식론</term>, <term type="movement">경험주의</term>와 <term type="movement">현실주의</term> 인식 등이라고 한다.</s>
+          <s>이러한 <term type="movement">소피스트</term> 가치는 분명히 현대 <term type="concept">후기 자본주의</term> 사회에서는 새로운 가치로 인식 부각될 수 있다.</s>
+          <s>현대사회는 분명히 신이나 최고 존재자에 대한 이성적 논증을 필요로 한다.</s>
+          <s>고대의 감성적 교류 및 수용보다는 분명히 무언가 증명해서 알고 싶어 한다.</s>
+          <s>현대인은 이성논리적 순응이나 무조건적인 감성적 수용보다 는 진리에 대한 （<term type="movement">소피스트적</term>） <term type="concept">반논리적</term> 현상, 즉 정반합의 논증적 논리 학을 선호한다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">시대적 조류를 크게 벗어나지 않은 현대 시인들도 반논 리적 성향이 강하다.</interp>
+          </s>
+          <s>신의 존재에 대한 <term type="concept">인식론</term>이 변해가면서.</s>
+          <s>자연 대신 에 인간 자체에 대한 관심이 집중되고, 결과적으로 <term type="concept">주관적 관념론</term>이나반대로 <term type="concept">주관적 경험론</term>자로 발전해간다.</s>
+        </p>
+        <p>
+          <s>이것은 인간마다 다르기에 <term type="concept">상대 적 가치</term>와 <term type="concept">복수 가치</term>를 존중하게 된다.</s>
+          <s><term type="concept">형이상학적 절대가치</term>가 부정되면 서, <term type="concept">다성론（polyphony）</term>적인 삶의 방식이 중시된다.</s>
+          <s>이것은 통합적, 대 국적 견해보다는 부분적 , <term type="concept">파편적</term>, 소국적 , 개인적, <term type="movement">미니멀리즘</term>으로 발전 하게 된다.</s>
+          <s>개인이 분자처럼 깨어질수록 <term type="concept">소외현상</term>이 강화되고, <term type="movement">현상론적 현실주의</term>자들이 득세한다.</s>
+          <s>이런 가치와 관점에 따른 비평/시 이론이 현 시대의 <term type="concept">후기자본주의</term>적 평론이며 시론이다.</s>
+          <s>이러한 현대 비평이론을 종합 서술할 여유가 없어 중략하지만.</s>
+          <s><term type="movement">포스트 모더니즘</term>의 일반 문화현상에서 현대시의 제반 특성을 암시받을 수 있다.</s>
+          <s>
+            <interp value="neutral" ana="사회">이러한 후기 자본주의의 문화적 특성이 전통주의와 크게 상충되는 면이 많기에, 전통시와 미래파 시에도 갈등이 존재할 것이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>여기서는 단지 미래 시의 방향성을 가늠하기 위해서 <persName ref="#p-x12">헤겔</persName>의 <term type="concept">시의 소멸론</term>을 간단히 서술 한다.</s>
+          <s><persName ref="#p-x12">헤겔</persName>에 따르면, 시를 포함한 “<quote type="direct" genre="other" source="헤겔">모든 예술작품은 특정 대지에 세워지고 뿌리박히는 세계, 즉 육화된 의미</quote>”를 갖는 정신 산물이다.* 예술/시는 <term type="concept">국가 정체성</term>과 <term type="concept">민족성</term>을 기초로 육화, 성장된다.</s>
+          <s><term type="movement">소피스트</term>는 그리스의 뿌리 속에서 영글고, <term type="movement">미 래파</term>는 한국적 토양 속에서 열매 맺는다.</s>
+          <s>이 부정 할 수 없는 시적 운명이 바로 <term type="concept">시의 존재론</term>이다.</s>
+          <s>이런 <term type="concept">국지적 존재론</term>을 초 월하기 위하여 <term type="concept">범세계적인 존재론</term>을 수입, 승화시키기도 하지만, 역시 궁극적 시의 수월성은 국지적 운명 즉 개별적 국가나 문화의 특성을 전 면화, 보편화시킬 때 가능하다.</s>
+          <s>이런 <term type="concept">존재론</term>에 충실하기 위한 묘사는 대 개 내용과 형식, <term type="concept">시니피에</term>（기의）와 <term type="concept">시니피앙</term>（기표）을 통합시키는 것이 다.</s>
+          <s>이는 곧 외부적 요소와 자국적 특성의 조화이기도 하다.</s>
+          <s><persName ref="#p-x12">헤겔</persName>은 기본 적으로 이런 사유의 통합성을 중시한 철학가다.</s>
+        </p>
+        <p>
+          <s><term type="movement">소피스트</term>와 <persName ref="#p-x10">플라톤</persName>의 <term type="concept">철 학</term>을 종합하려 한 것이 좋은 예다.</s>
+          <s><persName ref="#p-x12">헤겔</persName>의〈<title level="m" type="foreign" xml:id="t-x8">미학</title>〉에 나타난 예술적 전제 와 <term type="movement">소피스트</term>적 <term type="concept">형이상학성</term> , 그와 비교되는 시의 미래성을 살펴본다.</s>
+          <s><persName ref="#p-x12">헤겔</persName>의 <term type="concept">예술적 형이상학</term>의 첫째 전제는 “<quote type="direct" genre="foreign" source="헤겔 미학">예술 속에는 절대 정신의 인식이 존재한다.</quote></s>
+          <s>” 예술（시）은 <term type="concept">직관적 인식</term>을 통해 <term type="concept">절대 진리</term>에 도달하려 하지만, 대개 그 과정이나 내용을 이해할 수는 없다.</s>
+          <s>종교와 철학은 그 과정을 이해할 수 있는데 반하여, 예술은 <term type="concept">감각적인</term>.</s>
+          <s><term type="concept">직관적 지식</term>으로존 재하는 경우가 많다（<persName role="foreigner" xml:id="p-x23">미셀 아르</persName>48~56）.</s>
+          <s>둘째 전제는 “<quote type="direct" genre="foreign" source="헤겔 미학">예술은자연과정 신, 안과 밖.</quote></s>
+          <s><term type="concept">감각과 정신의 통합</term>이다.</s>
+        </p>
+        <p>
+          <s>” <quote type="direct" genre="critic">예술은 감각 형태로 사고 내용을 구체화하는 것이다.</quote></s>
+          <s><term type="concept">시가 본질적인 것을 직관적으로 느끼는 것</term>도 같은 이치다.</s>
+          <s>셋째, "<quote type="direct" genre="critic">예술의 내용은 종교다.</quote></s>
+          <s>’’ <persName ref="#p-x12">헤겔</persName>은 예술의 중심에 <term type="concept">신성</term>이 있 다고 여긴다.</s>
+          <s>이는 <term type="concept">기독교적 내재성</term>을 중시하는 사상이며, 서구적 형이 상학의 본질이다.</s>
+          <s>동양에서는 <term type="concept">자연종교</term>가 강하므로 <term type="concept">영적 내용</term>（종교적 이 념）을 적절히 표현하지 못한다고 한다.</s>
+          <s><term type="concept">인간 정신</term>은 <term type="concept">내면성</term> 안에 존재하 는 <term type="concept">영적 내용</term>（<term type="concept">무한성</term>）을 제대로 인식하지 못한다.</s>
+          <s>이런 무지 때문에 인 간의 몸을 통한 <term type="concept">감각적 형태</term>와 （신과 같은） <term type="concept">정신 내용</term> 간에는 항상 불이 치 현상이 나타난다.</s>
+        </p>
+        <p>
+          <s>그리스 같은 <term type="concept">고전 예술</term>은 신이 하나의 <term type="concept">이데아</term>（위엄, 힘, 미 등）로 표현되기에, 추상적 의미만 갖고.</s>
+          <s>구체적 육체 형태로 형상 화가 되지 못한다.</s>
+          <s>그는 <term type="movement">낭만주의</term> 문학을 “마음속에서 움직이는 모든 것.</s>
+          <s><quote type="direct" genre="critic">행위 속에서 외형화 되려는 모든 것을 표상하는 문학</quote>이라고 한다.</s>
+          <s>” <quote type="direct" genre="critic">예술 은 자신의 특수성 안에서 주관적인 것을 객관화시키려는 정신표현 활동</quote> 이라고 본다.</s>
+          <s>그런데 이런 내용을 감각적 표상을 피해서 너무 내면적인 것으로 들어가면 <interp value="critical" ana="미학">예술이 종교화 되어버리기 쉽다.</interp></s>
+          <s>이때 <interp value="critical" ana="미학">예술이 너무 종 교적 교조성을 가져도 예술성이 소멸될 가능성이 있다.</interp></s>
+          <s>이러한 예술의 죽음에 대한 공포감에서 <term type="movement">해체주의</term>, <term type="movement">탈기독교주의</term>, <term type="movement">비종교주의</term> 성향이 나 타날 수도 있다.</s>
+        </p>
+        <p>
+          <s>현대 예술에서 이런 현상이 더욱 <term type="concept">긴장력</term>을 갖는 듯하다.</s>
+          <s>예술은분명히 종교적 성령화작업은아니다.</s>
+          <s>넷째, "<term type="concept">예술의 과거성</term>"과" <quote type="direct" genre="critic">예술은 진리를 추구하는 최상위의 표현 형태가 아니다</quote>“라고 전제한다.</s>
+          <s>예술은 이미 <term type="concept">형이상학적 기능</term>을 소실했다.</s>
+          <s>
+            <interp value="neutral" ana="미학">예술은 죽었으며, 과거 작품 으로서의 연구대상일 뿐이다.</interp>
+          </s>
+          <s>그는 예술보다는 <term type="concept">철학적 추구</term>가 미래 정신 발전, <term type="concept">내재적 진보</term>의 원동력으로 보는 듯하다.</s>
+          <s>이렇게 예술의 <term type="concept">절대정신</term> 표현성, <term type="concept">이원론적 원리</term>의 통합성, 예술의 종 교성（<term type="concept">숭고성</term>）, 예술의 시간적 과거성과 <term type="concept">형이상학성</term>의 기능 소멸성이 예 술의 전제 조건이라고 할 때, <interp value="neutral" ana="미학">이러한 전제성을 충족하지 못하는 예술은 자연히 고사하게 된다.</interp></s>
+          <s>객관적으로 너무 <term type="concept">종교화</term>되어도 안 되고, 그렇다 고너무 <term type="concept">주관화</term> 되도 안 됨을 알 수 있다.</s>
+        </p>
+        <p>
+          <s>이렇게 <term type="concept">예술</term>의 기능이 더 이상 발전논리를 가지지 못하고.</s>
+          <s>자신의 특수성 속에만 몰두할 때에 너무 부 수적이고, 너무 부분적인（세부적인） 특성에만 관심을 갖게 된다.</s>
+          <s>“<quote type="direct" genre="critic">보편 적 이해력이나 관점을 잃어버린 가장 불경스럽고도 가장 불결한 세부사 항</quote>"만 관심을 갖게 된다.</s>
+          <s>이때가 바로 <term type="concept">예술이 스스로 소멸되는 시기</term>, 존 재의 이우를 상실하는 시기 라고 한다.</s>
+          <s>
+            <interp value="critical" ana="미학">예술가가 내용보다는 자신의 주관 성을 더 표현하려 하고, 자신의 재주나 재능만 보여 주려하고, 단시 대중 의 인기나 칭송을 얻기 위해서 대중에게 강한 인상만 주려고 노력할 때 예술은 죽고 만다.</interp>
+          </s>
+          <s>시는 타 예술 매체와 달리, 언어라는 광범위하고 추상 적 기호（즉 구체적, 물질적 소재나 손으로 만지고 느낄 수 있는 표현 재 료가 아닌 정신적 추상적 기호）를 사용하기 때문에, 이러한 <term type="concept">파편적 특성</term> 만을 추구하게 되면.</s>
+          <s>
+            <interp value="critical" ana="미학">시는 제일 먼저 소멸할 가능성이 높다고 한다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="미학">보편 성을상실한 시나 예술은 정신학으로서의 입지를 상실하게 되면서, 자연 고사될 것으로 인식하는 듯하다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><persName ref="#p-x12">헤겔</persName>의 <term type="concept">소멸론</term>을 다시 언급한다.</s>
+          <s>예술은 <term type="concept">절대정신</term>의 산물.</s>
+          <s>직관적 소 통을 통한 내외 또는 자연과 인간 등의 통합이 주요해지고, 예술의 궁극 적 세계를 종교로 채우며, 사후에 평가받는 것이라고 한다.</s>
+          <s>이러한 전제 를 충족시키지 못할 때, 시를 포함한 모든 예술이 <term type="concept">주관성</term>, <term type="concept">특수성</term>, 부수 적 요소, 세부성（<term type="movement">minimalism</term> 요소）에만 매달리게 되고.</s>
+          <s>자연히 언어적 재주나 인기 취득 목적의 글쓰기만 유행하며.</s>
+          <s>자기 스스로 소멸되는 길 을 걷는다는 것이다.</s>
+          <s>물론 <persName ref="#p-x12">헤겔</persName>의 <term type="concept">예술 소멸론</term>은 <date when="1800">19C</date> 시대의 기독교 중 심 사상, <term type="concept">형이상학성</term>의 우위론.</s>
+          <s><term type="concept">물질보다 정신의 우위성</term> 등의 사회정치 적 기본 가치가 융성하던 시기의 철학적 사유다.</s>
+        </p>
+        <p>
+          <s>그 시기의 가치와 현대<term type="concept">후기 자본주의</term> 가치와 수평비교하기 란 보는 관점에 따라 이견이 나올 수 있다.</s>
+          <s>그러나 <persName ref="#p-x12">헤겔</persName>의 <term type="concept">예술 소멸론</term>은 곧 예술에 대한 재조명의 기틀이 될 수 있다.</s>
+          <s>불란서 철학이 주도하는 <term type="movement">해체주의</term>, <term type="movement">탈중심주의</term>, 기존가치의 전 복順m, 전체보다는 부분의 중시 둥의 예술관.</s>
+          <s>
+            <interp value="neutral" ana="사상">달리 말하면 포스트모더니 즘 예술관점에서 보면, 헤겔의 철학관이나 예술관은 반발 대상이 될 수 도 있다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="사상">한국의 미래파 성향 시에 대한 찬반 여부는 바로 헤겔의 견해와 그에 반대하는 견해의 대립과 같다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="사상">미래파 주장자들은 헤겔의 반대 입장을 알게 모르게 선택하고 있다.</interp>
+          </s>
+          <s>그들은 비기독교적 성향이 강하고, 보편성 보다는 <term type="concept">개별성</term>/<term type="concept">주관성</term>/<term type="concept">특수성</term>이 강하고, 통합주의보다는 세부주의/부수 주의/주변주의/<term type="movement">해체주의</term>를 선택하고 있다.</s>
+          <s>그들이 “<term type="concept">재미</term>”라는 명제로 전 면 강조하는 가치는 정신적 가치나 이론적 요소보다는 행위적, 반사적 결과로 나타나는 현상이 강하다.</s>
+        </p>
+        <p>
+          <s>즉 <term type="concept">시론적 가치</term>나, <term type="concept">내재적 진보 가치</term>나.</s>
+          <s><term type="concept">내면의 표현</term> 등과 같은 원칙보다는 아직 완성되지 못한 성향, <interp value="critical" ana="미학">결과적 스 타일만 강조하는 듯하다.</interp></s>
+          <s>이들은 <term type="concept">심오한 진리를 표현하겠다는 의지</term>, 즉 <interp value="critical" ana="문학관">심각한 정신적 노력을 기우리지 않음을 공공연히 드러내고 있다.</interp></s>
+          <s>그러나 일반 예술 행위는 <interp value="neutral" ana="미학">특정 내용이나 표현을 분명히 천명하는 것이다.</interp></s>
+          <s><persName ref="#p-x12">헤겔</persName> 처럼 <term type="concept">예술의 진보원칙</term>을 강조하진 않더라도, <term type="concept">작품의 완성도</term>를 반대하고.</s>
+          <s><term type="concept">관념적 내용의 깊이</term>를 경시하고 <term type="concept">감각적 표현형태</term>에 치중하더라도, 또는 <term type="concept">시어의 기호성</term>과 내용의 일치에 충실하지는 않더라도, <interp value="critical" ana="문학관">헤겔을 위시한 일 반 시적 책임성을 잠시만이라도 생각할 필요는 있지 않을까?</interp></s>
+          <s>예술은 <term type="concept">자 기 내면화와 개별화</term>, 즉 자신이 깨달은/지각한 <term type="concept">주체성</term>（감성이든 이성적 표현이든）을 나름대로 표현해내는 작업이다.</s>
+          <s>더욱이 시는 언어라는 값싼 재료로 어떤 감정이나 생각이라도 표현해내는 아주 편리한 창조활동, 쉽 게 <term type="concept">자기 정신을 드러내는 예술행위</term>다.</s>
+        </p>
+        <p>
+          <s>쫘 예술이 감각 형태에 몰입하는 정 도에 따라서, <term type="concept">추상화</term> 과정과 <term type="concept">구체화</term>/물질화/속화 괴정을 갖는다.</s>
+          <s>전통예 술은 정신화, 가치화, <term type="concept">추상화</term> 과정을 선호하고, <term type="concept">현대 실험시</term>/<term type="movement">미래파시</term>는비추상화 과정을 지향한다.</s>
+          <s><term type="concept">감각성</term>을 더 중시하는 시는 자연히 전통적 화석층, 즉 전통적으로 주장되어 온 모든 성향을 벗어나려 한다.</s>
+          <s>이는 시 대적 조류나 각 시인의 기질적 차이에서 자연히 발생되는 현상이기도 하 다.</s>
+          <s>그러나 분명한 것은 시를 포함한 모든 예술은 <term type="concept">내용과 감각 형태</term>, 즉 안과 밖（내용과 형식, 의미와 형태 등） 사이에 <term type="concept">긴장력</term>이 사라지면.</s>
+          <s>자연 히 소멸하게 되어 있다.</s>
+          <s>이는 굳이 강조하지 않아도 <term type="concept">현상학적</term>으로 피부 적으로 느껴지는 만고의 진리이다.</s>
+          <s>왜냐하면 （시에만 한정해서 말하면） 이념이든 감정이든 시는 <term type="concept">이미지화</term> 되고, 구체적으로 （독자와 시인 간에） 연속되는 정신의 실재이기 때문이다.</s>
+        </p>
+        <p>
+          <s>즉 시는 어떤 형태로든지 간에 언 어로 써지는 것이다.</s>
+          <s>언어는 실체가 아니다.</s>
+          <s>실체가 아닌 것으로 실체인 양 다가오는 정신이나 인생현상을 표현해내자면 <term type="concept">추상적, 언어적 내재성</term> 을 추구할 수밖에 없다.</s>
+          <s>시를 써야할 당위성이 있다면.</s>
+          <s>이러한 <term type="concept">긴장력</term>을 멋있게 보여주는 것이 기본 존재이유가 될 것이다.</s>
+          <s>시를 시인 중심의 기 호성만 강조하여서 독자와의 의사소통을 중요시하지 않고 시인의 개성/ 주관을 마음껏 표현하는 <term type="concept">기호성</term>으로만 인식할 수도 있다.</s>
+          <s>그렇지 않고 시는 시인이 떠올린 관련을 이미지화하고 그 이미지를 구체적으로 제공 하는 언어의 표현 장이라고 주장할 수도 있다.</s>
+          <s>어떤 입장이든, 그 공통점 이 있을 것이다.</s>
+        </p>
+        <p>
+          <s>수많은 질곡과 변형의 시 역사 중에서도.</s>
+          <s>시라는 예술은 <term type="concept">이념</term>（내용, 정신, 내재성 등）과 <term type="concept">감각</term>（형식.</s>
+          <s>표피성, 기교성, 기호성 등） 형태의 융합이 중요시 되어왔다.</s>
+          <s>이러한 두 요소 간의 통일성이 깨지기 시작하면서, 시/예술의 <term type="concept">소멸</term>이 가속화된다.</s>
+          <s>이러한 <term type="concept">이념</term>과 <term type="concept">형식</term>의 일치 성.</s>
+          <s><term type="concept">추상</term>과 <term type="concept">구체성</term>의 융화, 외재적 형상과 내재적 의미작용 간의 통일성 등에 내용은 구체적 시론의 내용이기에 여기서는 더 이상 언급을 멈춘 다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">다만 여기서는 내외, 좌우, 상하의 조화가 흔들리면, 그 바탕이 오래 가지 못함은 순수한 진리라고 생각한다.</interp>
+          </s>
+          <s>그에 대한 생각은 결론으로 넘 긴다.4	.</s>
+        </p>
+        <p>
+          <s>나감나는 얼음이 다 녹은 멀컹한 맹물을 싱겁게 마신다.</s>
+          <s>노란 색이 회색으 로 변한 상태다.</s>
+          <s>녹은 냉커피를 다 마시고 나니 참으로 맥 빠진 맛이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">이런 비평을 한다는 자체가 맥 빠진 행동이 아닐까?</interp>
+          </s>
+          <s>그 때 직관의 제비 가 내 머리를 스치듯 지나간다.</s>
+          <s>그가 떨어트리는 호박씨 껍질에 들어있 는 생각의 파편이 문득 떠오른다.</s>
+          <s>“<term type="movement">미래파</term>는 <interp value="critical" ana="미학">래파 래파（rapper wrapper）의 기질이 다분하다</interp>.</s>
+          <s>랩의 리듬이 강조되고, 멜로디의 고움 （美）을 돌아보지 않는 면에서, 이들은 미의 래파인가 아닌가?</s>
+        </p>
+        <p>
+          <s>내파인가 저파인가?</s>
+          <s>쪽파인가 대파인가?</s>
+          <s>” 쪽파든 대파든 맛만 좋으면 그만인가!</s>
+          <s>이래서 래파인 이래파인가?</s>
+          <s>지금까지 <persName ref="#p-x2">권혁웅</persName> 씨의〈<title level="m" type="critic" xml:id="t-x9">미래파</title>〉저서에서 주장하는 미래 시인의 성격 과 현상을 <persName ref="#p-x10">플라톤</persName>과 <term type="movement">소피스트</term>의 철학관점을 바탕으로 시작해서 <persName ref="#p-x12">헤겔</persName>의 <term type="concept">예술 소멸론</term>의 기본 전제를 통해 대조.</s>
+          <s>통찰해보았다.</s>
+          <s>먼저 한국시단에서 <term type="movement">미래파</term>에 대한 논의는 이미 논제의 차이에서 기인 된다.</s>
+          <s>쬬 <persName ref="#p-x10">플라톤</persName>과 <term type="movement">소피스트</term>, 도덕과 예술, <term type="concept">본체론</term>과 <term type="concept">인식론</term>, 이성과 감성.</s>
+        </p>
+        <p>
+          <s>정신과 몸, <term type="concept">보편중심주의자</term>와 <term type="concept">탈중심주의자</term>, 전통과 혁신, 기득권과 신 진세력 .</s>
+          <s><term type="concept">서정우선주의자</term>와 <term type="concept">비서정옹호론자</term>, 내용과 형식 , 지혜와 지식.</s>
+          <s>근엄과 쾌락.</s>
+          <s>고급과 저급, 진정한 기쁨과 쾌락적 즐거움, 창조적 성향과 과 기능적 성향.</s>
+          <s>진선미의 통합성과 분리성, <term type="concept">관념론자</term>와 <term type="concept">경험론자</term>.</s>
+          <s><term type="concept">초월 론자</term>와 <term type="concept">현실론자</term>, <term type="concept">실재론자</term>와 <term type="concept">실증주의자</term>（<term type="concept">언어분석주의자</term>）.</s>
+          <s><term type="concept">동양적 수 양론</term>과 <term type="movement">서양적 주지주의</term> 등과 같은 <term type="concept">이원적 대립항</term> 속에 이미 내재하고 있다.</s>
+          <s>
+            <interp value="critical" ana="미학">이런 대립항은 지적 영역의 분야이지, 감성학學 분야가 아니다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>고 로 서로 대비적 탑 쌓기보다는 객관적으로 양자를 이해 분석해야 한다.</s>
+          <s>이 대립항은 영원히 상호 공존하면서 서로 예각銳角을 세우게 되어있다.</s>
+          <s>따라서 서로 자기 주장적, 타자 비하적 논쟁이 되지 않도록 주의해야 한 다.</s>
+          <s>감성의 장에서만 담론하면, 서로 다른 입장만 주장하게 된다.</s>
+          <s>이성적비판 충위에서 직관적 비유로 반조하면, <term type="movement">미래파</term>의 특성은 너무 <term type="concept">감성주의</term> 적 극지極地에 머무는 이끼생물 같고, 반대자의 언사는 너무 이성적 반대 입장에 줄다리기 하면서 연결 끈을 끊으려 하는 듯하다.</s>
+          <s>이들은 처음부 터 줄다리기 쟁투를 위해 반대 진영에 대치하고 있는 선수처럼, 자기 진 영으로 줄을 더 끌어당기려는 소모선수 같이 느껴진다.</s>
+          <s><term type="concept">미래파 시인들</term>은 비늘 반짝이듯이, 영상으로 떠오르는 물상을 있는 그 대로, 마치 비디오 픽셀로 잡아 올리는 아이디어처럼 , 시적 묘사와 시상 을 전개하면서 .</s>
+          <s>자신이 사실적으로 접근하고 묘착W해내는 대상을 빗 자루로 쓸어내듯이 시를 잘 그려낸다.</s>
+        </p>
+        <p>
+          <s>" 그러나 이러한 <term type="concept">직선적 감정의 쓸 어버림</term> 효과는 결국 <term type="concept">기성 시단</term>의 구도에 <term type="concept">이원적 대립항</term>을 세우게 되고, <term type="concept">전통 시 창작 양식</term>을 분할시키는 현상을 가져다준다.</s>
+          <s><term type="concept">이원적 구도 분할</term> 이란 <term type="movement">미래파</term>들이 주장하는 <term type="concept">시적 리얼리티</term>（사실성/진실성/실재성?）에 근 거한다.</s>
+          <s>이 <term type="concept">리얼리티</term>의 외연이 어떠하던 간에, <interp value="neutral" ana="사상">그들은 결국 사실/현실주 의자（realist）다.</interp></s>
+          <s>자연히 이들의 시는 <term type="concept">현실 참여적</term>.</s>
+          <s><term type="concept">노동자</term>/<term type="concept">서민</term> 중심적, <term type="concept">일상적 가치</term> 중심 , 사유보다는 행동성을 더 강조하는 <term type="movement">행동주의</term>적 성향도 보여준다.</s>
+          <s>한국적 현상의 <term type="concept">사실적 묘사</term>는 결국 <term type="concept">비디오 이미지</term> 형성과정과 비슷하게 드러나고 사라진다.</s>
+          <s>즉 시인의 인식능력의 크기에 따라서 요 철.</s>
+          <s><term type="concept">음양의 부조화</term> 현상이 강해진다.</s>
+        </p>
+        <p>
+          <s>이 때 이들의 시적 이미지는 아직 <term type="concept">2 차원적인 상</term>, 한 편의 시 속에 타일처럼 반짝이며 붙어있는 고기미늘마 냥 빛나는 동시에 2.5 평정도 공간에 형성된 <term type="concept">단절</term> 현상을 느끼게 해준 다.</s>
+          <s>이들은 시어의 상호 교차로를 많이 만들어 놓고 있어서, 사거리 교통 의 소통 현상을 보여주지만, 의외로 자기 방향등만 강조하는 <term type="concept">자기 감성 중심주의</term>를 벗어나지 않은 듯하다.</s>
+          <s>죄이들의 감성과 의식이 쓸어버리는 공간은 곧바로 미정제되듯이 한편 의 시가 된다.</s>
+          <s>이들의 시 창작 기법은, 미술적으로 말한다면, 단순히 몇 개의 직선을 서로 엇가게 그어버 리면서 장소 및 시간을 분할하는 <term type="concept">드로잉 기법</term>과 유사하다.</s>
+          <s>이들은 그 직선을 자신의 조망（시공간의 상황）에 엇가게 얼기설기 겹치면서 시적 상황을 분할한다.</s>
+          <s>이런 상황의 조각화가심 해지면서 <term type="concept">파편적 이미지</term>가 되기도 한다.</s>
+          <s>
+            <interp value="neutral" ana="미학">어느 면에서는 몰이지적沒理智的 표현이 의미 없는 시적 신비성을 가질 수도 있다.</interp>
+          </s>
+          <s>제 이런 성향（<term type="concept">시창작의 사진화 현상</term>, <term type="concept">영화적 시 쓰기</term> 등）은 비디오 영상 제작 기술과 유사하다.</s>
+        </p>
+        <p>
+          <s>사진 한 장을 가져다 놓고, <orgName xml:id="org-x5">포토샵</orgName>의 기술적 변화를 주면서 몇 개의 줄이 나 공간 분할로 전체 영상을 깨트리면서 새로운 사진 한 징을 만드는 기 능에 불과할 수 있다.</s>
+          <s>잘못하면 이런 <term type="concept">기능적 글쓰기</term>에서는 손재주가 더 욱 중시되지.</s>
+          <s><term type="concept">지적 통합성</term>이나 영적, 지적 작용이 많이 요구되지 않기도 한다.</s>
+          <s>이들 시의 절단면, 즉 시의 깊이.</s>
+          <s>층위, 이성 및 감성의 <term type="concept">추상화지도</term>는 <interp value="critical" ana="미학">시어의 울림이 단지 기호로 제한되는 경향이 있다.</interp></s>
+          <s>즉 <interp value="critical" ana="미학">이념이나 감정에 대한 상징으로 사용되지 못하는 듯하다.</interp></s>
+          <s><term type="concept">기호</term>는 도로 표지판 처럼 내용 과 연결되는 내재적 관계성도 없이 임의적으로 내용만 표현하는 단순한 약속의 도구이다.</s>
+          <s><term type="concept">기호</term>는 의식의 강압성을 갖는다.</s>
+        </p>
+        <p>
+          <s>오랜 세월의 압력에 의해 친숙해지고 강요될 때에는 새로운 상징으로 정착될 수도 있지만, 그러기 전에는 낯선 갈등으로 남을 수 있다.</s>
+          <s>그러나 <term type="concept">상징</term>은 법의 여신을 상징하는 저울처럼 곧바로 떠오르는 관념이 있고, 그 관념이 이미지화 되고.</s>
+          <s>구체적으로 삶 속에서 연속되는 실재성을 갖는다.</s>
+          <s><persName ref="#p-x12">헤겔</persName>이 주장하 듯이 <quote type="paraphrase" genre="critic" source="헤겔">이념과 감각형태가 융합되지 못할 때는 시가 더욱 약화</quote>.</s>
+          <s>소멸된다.</s>
+          <s><term type="movement">미래파</term>의 시는 행 분열（아니면 <term type="concept">산문시</term>처럼 행 연장）이 심하고, 오목렌즈 적인 다각형多角形 형성 효과를 많이 보여준다.</s>
+          <s>
+            <interp value="critical" ana="미학">이들의 시는 전체적으로 줌인 효과를 많이 사용하는데 , 아주 클로즈업하거나 아니면 밋밋하게 전 체 조망을 단순히 보여주는 정도에 끝나고 마는 경우가 많다.</interp>
+          </s>
+          <s>이 두 방향 이 모두 조화있게 이루어지면 좋은 시가 될 가능성이 높다.</s>
+        </p>
+        <p>
+          <s>이러한 조합 능력은 곧 전통적으로 시 창작에서 항상 강조하는 <term type="concept">내용과 형식</term>.</s>
+          <s>전체와 부분의 조하 등과 별다르지 않다.</s>
+          <s>이러한 기법에 실패하면.</s>
+          <s>어떠한 <term type="concept">이데 올로기</term>를 주장하던 간에 좋은 시라고 보긴 어렵다.</s>
+          <s><persName ref="#p-x2">권혁웅</persName> 씨의 비평서는 현장비평을 통해 접한 많은 <term type="concept">젊은 시인들</term>의 시에 서.</s>
+          <s>각 시의 실질 내용을 제거하고 <term type="concept">형식화</term>/범주화 하면서, 모든 시에 공 통되는 일반 형식과 의미를 찾아낸 듯하다.</s>
+          <s>이러한 실질 또는 현장 비평 법이 <persName role="foreigner" xml:id="p-x24">후설</persName>의 <term type="concept">형식적 존재론</term> 성격과 유사하다（철학사전 997）.</s>
+          <s>그는 각 시 인의 제목에 사용된 <term type="concept">추상어휘</term>（감각.</s>
+        </p>
+        <p>
+          <s><term type="concept">환상</term>, <term type="concept">상사</term>, <term type="concept">유비</term>, <term type="concept">연대</term>.</s>
+          <s><term type="concept">승화</term>, <term type="concept">왜곡</term>, <term type="concept">분절</term>.</s>
+          <s>연장）와 표제어로 사용한 어휘（구멍들, 흔적들, 사이들, 내통들） 등에서 <term type="concept">시적 존재론</term>의 층위（지위）를 발견하려 한다.</s>
+          <s>즉 존재자의 일반 형식을 발견하기 위해 혼히 사용되는 관계, 성질, 다多, 일一 같은 철학 어휘처럼 시 한편의 <term type="concept">존재론</term>에 나타나는 일반 시형식의 본질이 무엇인지 찾고 있다.</s>
+          <s>
+            <interp value="critical" ana="미학">이러한 비평 관점은 자연히 자신도 모르게 형이상학적 사유 를 하게 되며, 확산보다는 응축의 용어 정리를 겨냥한다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="문학관">이는 곧 자신이 주장해온 젊은 시인들의 확산적 이미지나 자유 표현법과는 상반되는 사 유가 되기도 하다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="문학관">비평가는 본래 많은 것을 함축해서 표현해내는 응축 능력을 요구받기에 자신이 발굴해낸 시인들의 머리위에 새로운 용어의 왕관을 씌워야 한다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">이러한 긴축법은 결국 정언적, 목적론적, 전통적 사 유를 넘어설 수 없다는 모순에 빠지게 된다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>즉 <term type="concept">새로운 것은 결국 있는 것의 변형이며 새로 드러냄일 뿐임</term>을 스스로 자각하게 된다.</s>
+          <s>따라서 그의 비평법은 <term type="concept">현상학적 형식론적 관점</term>을 드러낸다.</s>
+          <s>즉 그는 시라는 <term type="concept">존재자</term> 자체의 <term type="concept">존재구조</term>나 <term type="concept">존재근거</term> （이유） 등을 문제 삼지 않는 다.</s>
+          <s>그는 그가 의식하고 있지 않은 <term type="concept">존재자</term>（시）로부터 눈길을 돌려서 , 자 신이 바라보는（의식하는） <term type="concept">시 의식</term> 속으로만 들어간다.</s>
+          <s>그 시 의식 속에 서 자신이 선택한（인지한） <term type="concept">젊은 시인들</term>의 시를 형식적으로（현상학적 인 식으로） 기술記述, 요약하고 있다.</s>
+          <s>그에게 <term type="concept">젊은 시인들</term>의 시는 그 존재 의 미를 물을 필요가 없다.</s>
+          <s><term type="concept">존재에 대한 비평</term>은 시인 또는 비평가 자신이 인 식할 수 없는 본질이며 자기 영역 밖일 수 있기에.</s>
+          <s>처음부터 있는 현상 （사실）을 있는 그대로 진술하는 것에 만족한 듯하다.</s>
+        </p>
+        <p>
+          <s>그의 저서는 <term type="movement">미래 파</term>라는 최초의 비평 언어를 생산 전파（최초의 정언.</s>
+          <s>용어 제시）한 점에서.</s>
+          <s>이런 사실 진술적 가치와 형식적 방법론에서 큰 의미를 갖는다.</s>
+          <s>전체 적으로 개관할 때, 권이 주장하는 <term type="concept">젊은 시인들</term>의 시적 공통점을 <term type="concept">감각시</term> （poetry of sensibility） 라고 할 수 있겠다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">끝으로 미래파의 시성이 새로운 실험시적 조류로 성장하기를 기대해 본다.</interp>
+          </s>
+          <s>그리스 문학에서 <term type="movement">소피스트 운동</term>이 <date when="0100">BC 1세기</date> 이후에 쇠퇴하다가 다시 <date when="0100">AD 1세기</date>경에 등장하고, 그 후 <date when="0300">3세기</date>경에 완전 소멸한 예에서 보 듯이, <interp value="critical" ana="문학관">단순히 표현과 기교 중심의 제2차 소피스트 운동처럼 사라지면 안 된다.</interp></s>
+          <s><term type="movement">2차 소피스트운동</term>은 전 세대의 소피스트（현자?） 정신을 퇴행 적으로 모방한 운동이었기에 정신과 내용의 상호보완적 발전보다는 <term type="concept">수 사학</term>, 응변술적 글쓰기.</s>
+          <s><term type="concept">산문성</term>으로 일관하였다.</s>
+        </p>
+        <p>
+          <s><term type="concept">소피스트적 글쓰기</term>는 1 세대에서부터 <persName ref="#p-x10">플라톤</persName>과 같은 <term type="concept">전통주의자</term>에 의해 배척받게 되었다.</s>
+          <s>이런 역사적.</s>
+          <s>문학적 흐름을 잊지 않고, <interp value="critical" ana="문학관">서구적（특히 불란서 철학） 사상이나 비평이론에 너무 퇴행적 모방에 급급하지 말고, 새로운 한국적 자생 이 론에 철갑 두른 정신 이론이 되기를 회망해본다.</interp></s>
+          <s>끝으로 본인의 글쓰기 에 나타난 시적 암시와 상징성을 잘 이해해주길 바란다.1）<term type="movement">미래파</term>（<term type="movement">Futurist</term>,<term type="movement">futurism</term>）라고하면 미래예언 역사학자, 경영상의 미래예측자,종교적 미 래예언가, 회곡 상의 미 래파（<persName role="foreigner" xml:id="p-ddustyhughes">Ddusty Hughes</persName> 회곡）, 미패파 건축운동, 미 래파음악가 둥을 복합적으로 암시하지만, 여기서는 예술과 문학 분야에 국한한다.hup：/7en.wikipedia.org6viki/FuturistSL2）<date when="1913">1913년</date>부터 발흥하는 <term type="movement">러시아 미래파</term>（<persName role="foreigner" xml:id="p-mayakovsky">Mayakovsky</persName>, <persName role="foreigner" xml:id="p-buriyuk">Buriyuk</persName> 같은 시인》는 미술보다는 문 학에 더욱 관심이 많아서 전통적 문학가인 <persName role="foreigner" xml:id="p-x25">푸쉬킨</persName>, <persName role="foreigner" xml:id="p-x26">도스토예프스키</persName> 같은 작가를 극복해야 한다고 주장한다.</s>
+          <s>그들은 시와 미술을 접목해서 새로운 이미지를 찾곤 했다.</s>
+          <s>그러나 러시 아 혁명이후에 이들이 해외 추방되면서 <term type="movement">러시아 미래파 운동</term>은 변화를 맞게 된다.</s>
+          <s>그 후 이 태리에서 <term type="movement">미래파</term>의 폭력과 전쟁 옹호적인 강령 때문에 <term type="movement">파시즘 운동</term>과 결탁된 근본 성질이 변질되듯이, <term type="movement">러시아미래파</term> 성격도 <term type="concept">러시아 혁명</term>과 함께 많이 변성된다.3）<term type="movement">신미래파</term>는 <persName role="foreigner" xml:id="p-gregallen">Greg Allen</persName>이 <date when="1988">1988년</date>에 시카고에서 발족한 실험 극단인데, 이들은 <term type="movement">이태리 미 래파운동</term>을 답습하여서 <term type="concept">정직, 속도, 간결성의 미학</term>을 주장한다.</s>
+          <s>이들의 기본 미학은 <term type="concept">환상 의 편재성</term>«街t 옹호다.</s>
+        </p>
+        <p>
+          <s>무대에서 공연하는 것은 모두 실존할 수 있다고 말한다.</s>
+          <s>발생（실 존）한 것은 재발생 할 수 있다.</s>
+          <s>즉 <term type="concept">실존의 재생</term>은 가장 진솔한 믿음이요 사실이다.</s>
+          <s>" 이러한사유에는 실패와 성공을 공유하기에, 자연히 취사선택적이며 절충적 <term type="concept">미학성</term>을 갖는다.</s>
+          <s>이 <term type="concept">절충성</term>이 <term type="movement">다원주의</term>, <term type="concept">패스티쉬</term> 성향을 가지면서, 그들의 정치적, 풍자적, 개인주의적, 비극 적이면서 동시에 희극적, 추상적, 뮤지컬적, 초현실적이며 시적인 분위기를 반영해준다.</s>
+          <s>그돌은 <term type="movement">낭만주의</term> 시론인 “<quote type="direct" genre="critic">불신의 유예성 （suspension of disbelief）</quote>" 을 현시대적 추세에 맞게 수응한다.</s>
+          <s>즉 그들의 환상은 <term type="concept">환상문학</term>적 환상성（현재가 아닌 다른 시점이나 장소로 인물을 분리시키는 구성의 문학성）을 추구하지 않고, 바로 현재의 이 시간에 몰입하는 인간형과 감성을 중시한다.</s>
+          <s><interp value="affirmative" ana="미학">이러한 신미 래파의 감수성은 이미 한국적 미 래파의 감성과 시성향올 모 두 대변한다고 할 수 있다.</interp>4）<interp value="neutral" ana="미학">유연성은 현대시의 최대장점이기도 하지만, 부정적 요소도 담고 있다.</interp></s>
+        </p>
+        <p>
+          <s><term type="concept">지적 유연성</term> 또는 <term type="concept">지식의 비고정성</term>은 이미 인터넷 상의 지식 검색, 차용, 무단 복제, 편리한 지적 소유와 나 눔,조각난 지식, 비일관성, 가벼움, 비고정성, 자기 것의 부재, 정신보다는 <term type="concept">육체성</term> 강조, 중 의 성질을 잉태하고 있다.</s>
+          <s>이를 더욱 조명하면 <term type="movement">후기모던</term> 사회의 특성이 발견된다.5）<term type="movement">미래파</term>라는 용어에 대한 진정성은 논의하지 않겠다.</s>
+          <s>비평용어로 대상화하기에는 아직 일천한상태이지만, 편의상 이 용어를 그대로 인정 수용한다.0<term type="movement">입체파</term>는 시점 고정을 선행시켰지만, <term type="movement">미래파</term>는 <term type="concept">복수시점</term>과 움직임을 더욱 강조하였다.</s>
+          <s><term type="concept">시점 고정</term>은 웅시와 사유의 천착, 주제의 일관성 둥을 암시해준다.</s>
+          <s>누구나 을바른 시인이 라면 이러한 시 창조의 기초과정을 직관적으로 설파하고 있겠으나, 그렇지 않은 시성이 발 견되기에 상호 폄하적인 비평문이 오가는 듯하다.7）이러한 <term type="movement">미래파</term> 옹호적인 글은 <persName ref="#p-x2">권혁웅</persName>, <persName role="critic" xml:id="p-x27">김형중</persName>.</s>
+          <s><persName role="critic" xml:id="p-x28">김수이</persName>, <persName role="poet" xml:id="p-x29">이장욱</persName> 둥에서 발견된다.</s>
+          <s>이들글 의 선악, 정오를 논하기 이전에 <term type="concept">선언문</term>적 차이에 우선권을 주며 이 글의 논지를전개한다.8）직관과본눙의 차이는 <persName role="foreigner" xml:id="p-x30">베네디토 크로체</persName> 저서《<title level="m" type="foreign" xml:id="t-x10">크로체의 미학: 표현력과 일반 언어학으로 서의 미학</title>〉, <persName role="scholar" xml:id="p-x31">이해완</persName> 역, <orgName xml:id="org-x6">예전사</orgName>, <date when="1994">1994</date> 참조.</s>
+          <s>간단히 <term type="concept">본능</term>은 <term type="concept">직관</term>에 미치지 못하는 하위 감성 적 작용으로 규정된다.</s>
+        </p>
+        <p>
+          <s>미 래파 반대성향은 대개 <term type="movement">포스트모던</term>적 기질을 싫어하는 시인들의 보편적 반웅이다.9）<persName role="critic" xml:id="p-x32">고봉준</persName>, “<quote type="direct" genre="critic">개인이라는 척도, 혹은 나’ 라는자폐적 이기성,</quote>" <title level="j" type="journal" xml:id="t-x11">실천문학</title>, <date when="2006">2006년 여름호</date>10）<persName role="critic" xml:id="p-x33">신형철</persName>, “<title level="a" type="critic" xml:id="t-x12">문제는서정이 아니다</title>," <title level="j" type="journal" xml:id="t-x13">문학동네</title>, <date when="2005">2005년 가을호</date>11＞특히 2부 후반 “<quote type="direct" genre="critic">실험에 관하여</quote>" 에서 현대문학적 이미지를 많이 차용하는 점에서, 각 비 평대상 시인들에게 접목시키는 비평의 고깔모자에서 <term type="movement">후기모던</term> 문학적 글/읽기를 가늠하게 된다.</s>
+          <s>그러나 <interp value="critical" ana="미학">잡지에 발표된 글의 특성 때문에 학구적 깊이나 논증을 발견하기가 어렵다.</interp></s>
+          <s>이러한 직관적 글의 특성 때문에 상호 논박이 많은 듯하다.12）권이 언급한 표현을 그대로 옮기지 않고, 말을 바꾼 이유는 반대자들의 감각을 보다 극 명하게 대조, 제공하기 위해서다.</s>
+          <s><term type="concept">기성시인</term>과 <term type="concept">젊은 시인들</term>의 감각적 대립각은 결국 시에 대한 선호도, 이해도, 습관성의 차이일 뿐임을 언어의 치환을 통해 감득!</s>
+          <s>히5시키려는 불순 한의도가 비춘다?13）이러한 진리의 본체성/실체와 인식적 가변성에 대한 견해는 양극으로 궤를 달리하며 철 학사나 미학사에서 전개되어 왔다.</s>
+          <s>진리적 본체성이 존재한다고 보는 측이나 그런 진리적 본성은 없다고 믿는 측, 모두 논리적 근거가 존재하기에 양비적 부정론을 펼칠 필요가 없 다.</s>
+          <s>다만 본인은 지성적 종교성이나 미학성을 바탕으로 <term type="movement">해체주의</term>나 <term type="movement">탈모더니즘</term> 성향의 자 기정체성을 발굴하기 위하여 자신을 먼저 소멸시키는 듯한 반어적 사유성을 지적으로 이 해하고 동감한다.</s>
+          <s>종교적 마음으로는 근본 지성이나 본체성을 존재하는 것으로 믿는다.</s>
+        </p>
+        <p>
+          <s>젊은 시절의 지적 회의성을 넘어서는 <term type="concept">노년의 종교적 안정감</term> 속에서 <term type="concept">진리적 본원성</term>을 보담는 <term type="concept">미학</term>이 더욱 아름답게 인식될 때 있을 것이다.14）<term type="concept">직관</term>과 <term type="concept">이미지</term>의 관게는 <persName role="foreigner" xml:id="p-x34">크로체</persName>, ‘‘<title level="m" type="foreign" xml:id="t-x14">크로체의 미학.</title></s>
+          <s><title level="m" type="foreign" xml:id="t-x15">표현력과 일반언어학으로서의 미학</title>’, <persName ref="#p-x31">이해완</persName> 역, <orgName ref="#org-x6">예전사</orgName>, 19어, 32소2 쪽 참조.15）<term type="concept">전통시</term>에 대한 정의, 각 시양식의 <term type="concept">존재론적 사유</term>정도는 추상적 가치이고, 계량적일 수 없기에 더욱 깊은 논의가 선행되어야 한다.16）이게 무엇인지 명확히 의미 규정할 필요가 있다.</s>
+          <s>일반 <term type="concept">서정성</term>을 폄하하는 것인지, 별다 른 특성이 없는 중간지대적인 평범성（neutrahty）을 의미하는지, 저자의 차후 설명이 필요하 다.17）그의 예술에 대한 존채론적 평가절하는 미메시스（모방） 이론에 근거한다.</s>
+          <s>그의 형상/이 데아 중심 철학은 자연히 진실된 현상을 재현하지 못하는 <term type="concept">가상</term>（598b）이나 <term type="concept">이미지</term>의 재현 （모방）을 비난한다.</s>
+          <s>특히 저급 예술은 <term type="concept">가상의 가상</term>이 되면서, 진리로부터 서너 단계씩 떨어 져 있기에,부자연스럽고 허위적 유사성일 수도 있다고 경멸한다.18＞<persName ref="#p-x10">플라톤</persName>은 대화편 （<title level="a" type="foreign" xml:id="t-x16">소피스테스</title>〉221c에서 소피스트를 7개의 부정적 이미지로 묘사하 고 있다.</s>
+          <s>기본 논지는 <term type="concept">소피스트</term>들이 지식으로 돈 버는 인간, <term type="concept">지식의 상품화</term>, <term type="concept">쟁론술</term> （eristicke）, <term type="concept">논박술</term>（elen사ios）적인 <term type="concept">궤변술</term>（sopisticke）, 제대로 알지도 못하면서 실재보다는 현상적 의견에 기준을 두는 낮은 철학자라고 공격한다.19）이러한 견해의 대표 저서는 George B.</s>
+          <s><persName role="foreigner" xml:id="p-kerferd">Kerferd</persName>, <title level="m" type="foreign" xml:id="t-thesophisticmovement">The Sophistic Movement</title>, <persName role="scholar" xml:id="p-x35">김남두</persName> 역, 대 우학술총서, <date when="2003">2003</date>.</s>
+          <s>이다.</s>
+        </p>
+        <p>
+          <s>그는 이 저서에서 <term type="concept">소피스트</term>룔 새로운 긍정적 철학의 위치로 격상 시키고 있다.20）이 전쟁은 아테네와 스파르타간의 30 여년 간의 전쟁（BC 431-404）.</s>
+          <s>물론 BC 44 5년에 30 년 휴전 협정 맺은 1차 전쟁까지 포함하면 반세기 이상의 전쟁이 된다.</s>
+          <s><term type="concept">소피스트</term> 할동 시기 는 대개 BC 5스 세기로 보는데, 그 이전의 7’6c의 그리스 7현인도 소피스트로 포함시키기 도한다.21）이것은 <persName role="foreigner" xml:id="p-x36">커포드</persName>의 교재 전체 내용을 필자가 대략 정리한 것이다.22）커포드（G.</s>
+          <s>B.</s>
+          <s><persName ref="#p-kerferd">Kerferd</persName>） =5, 역자인 <persName ref="#p-x35">김남두</persName> 교수도 소고］스트 정신과 현재 우리시대의 유사성을 강조하고 있다.23）일례로 소리스트의 논쟁술에서, 어떤 논중이 참이 아님을 중명하기 위해서, 참이라고 주장되는 논술에 반대논중을 제시하면, 두 논증이 모두 참이 된다고 <term type="concept">소피스트</term>들이 주장한 다.</s>
+          <s>그러나 <interp value="critical" ana="사상">이것은 단순히 논리적 증명일 뿐, 실제 가치가 없는 언어작용일 뿐이다.</interp></s>
+          <s>따라서 <persName ref="#p-x10">플라톤</persName>은 이런 주장을 <interp value="critical" ana="사상">반논리（反#理）, 즉 논리를 위한 논리일 뿐이며 실생활적 가치가 없 는（비경험적） 사유일 뿐이라고 평가 절하한다</interp>.24）<persName ref="#p-x23">미셀 아르</persName>（<persName role="foreigner" xml:id="p-michelhaar">Michel Haar</persName>）, <title level="m" type="foreign" xml:id="t-x17">예술작품</title>（L’ ?uvre d art）, 공정아 역, 예술, 2006,96쪽25）여기서 <term type="movement">포스모던</term> 사상 식으로 반발할 수도 있다.</s>
+          <s>자기 정신 자체도 드러낼 것이 없다고 한다면, 시 창작을 왜 하는지 이유가 없어진다.</s>
+        </p>
+        <p>
+          <s>물론 예술 자체가 이유 없는 창작이라고 전 제하면서, 그냥 뇌깔이고 적고 읊어내는 것이 시적 행위라고 강변한다면, 더 이상의 이성적 의사소통은 불가능해진다.25）<term type="movement">미래파</term>라는 용어 자체의 인정 및 수용 여부, 해당 시의 비평적 가치 여부에 대해서는차 제 기회로 돌린다.</s>
+          <s>다만 권이 선정한 좋은 <term type="movement">미래파</term> 계열의 시는 새로운 지적 감흥과 반옹을 제공할 수 있음을 강조한다.27）이 감상은 <persName role="poet" xml:id="p-x37">권혁응</persName> 저서에 수록된 시에 대한 일반 감성을 본인의 비유적 직관으로 표현 한 것이다.28）이런 시적 비평은 여기에서 멈춘다.</s>
+          <s>차기에 좀 더 비평할 기희를갖고자한다.29）물론 시적 성공을 거두었을 때만 신비적 미로 이해 가능하다.</s>
+          <s>
+            <interp value="critical" ana="미학">대다수는 그렇지 못한 듯 하다.</interp>
+          </s>
+          <s>물론 해학적, 재미적,오락적 쾌감의 제공 면에서는다른 평가가가능하다.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

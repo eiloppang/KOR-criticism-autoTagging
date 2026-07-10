@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>시와 정치</title>
+        <author>유성호</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>시와 정치<persName role="critic" xml:id="p-x">유성호</persName>‘최근 들어 활발하게 이루어진 ‘<term type="concept">시（詩）</term>’의 본질적, 수행적 기능에 대한 논 의는, 시의 존재 방식과 역할에 대한 메타적 담론의 진경들을 연출해냈다.</s>
+          <s><persName role="foreigner" xml:id="p-x2">플라톤</persName>과 <persName role="foreigner" xml:id="p-x3">아리스토텔레스</persName>라는 기원으로부터 시작하여 ‘<quote type="direct" genre="poet">시（적인 것）</quote>’에 대한 각양의 해석적 견해들이 그야말로 백가쟁명으로 전개되었다.</s>
+          <s>그 세목을 여 기서 다 요해하기란 쉽지 않다.</s>
+          <s>다만 우리는 그 논의의 결과, ‘<term type="concept">시</term>’의 근대적 규정들.</s>
+          <s>이를테면 그것이 독백적이고, 자기 표현적이고, 정서적이고, 함축적 인 양^이라는 생각을 훌쩍 뛰어넘어, 시가 ‘<term type="concept">감각적인 것</term>’과 ‘<term type="concept">정치적인 것</term>’을 결속하며 전개된 역사적 구성물이라는 것을 알게 되었다.</s>
+          <s><persName role="foreigner" xml:id="p-x4">사르트르</persName>, <persName role="foreigner" xml:id="p-x5">바디우</persName>, <persName role="foreigner" xml:id="p-x6">랑시에르</persName>를 집중적으로 호출하면서 이루어진 이 같은 시와 ‘<term type="concept">정치（성）</term>’에 논 의 과정에서, 우리는 <term type="concept">자율성</term>을 <term type="concept">근대성</term>의 핵심으로 보고 예술에서 정치성을 소거하려 했던 힘과 가파르게 맞선 역사를 ‘시’가 가지고 있다는 점에 상도 （想到）하게 된 것이다.</s>
+          <s>이 과정에서 가장 커다란 비중으로 원용된 이가 <persName ref="#p-x6">랑시에르</persName>(J.</s>
+          <s><persName role="foreigner" xml:id="p-ranciere">Ranciere</persName>)일 것이다.</s>
+        </p>
+        <p>
+          <s>그에 의하면, ‘<quote type="direct" genre="poet">정치</quote>’와 어원을 같이 하는 ‘<term type="concept">치안(police)</term>’은, <term type="concept">감각적인 것</term>을 구획하여 볼 수 있는 것과 볼 수 없는 것을 분배하는 위로부터의 힘이다.</s>
+          <s>반 면 ‘<term type="concept">예술</term>’은 감각을 분배하는 ‘<term type="concept">치안</term>’과 감각을 해체하고 재분배하는 ‘<term type="concept">정치</term>’ 가 마주치는 현장이다.</s>
+          <s>그 점에서 모든 ‘<term type="concept">예술</term>’은 본질적으로 <term type="concept">정치적</term>이다.</s>
+          <s>그 런데 ‘<term type="concept">문학</term>’이 <term type="concept">정치적</term>인 것은 그것이 세계에 참여(engage)하기 때문이 아니 라, 사물들에 다시 이름을 붙이고 단어들과 정체성 사이의 틈을 만듦으로써 그 안에 <term type="concept">해방 가능성</term>을 개입시키기 때문이다.</s>
+          <s>이는 기존의 지배 담론 안에 서 특정 <term type="concept">이데올로기</term>를 옹호하거나 공격하는 ‘<term type="concept">정치</term>’가 아니라, 그 체계를 파 열시켜 새로운 <term type="concept">감성적 분배</term>를 이루어내는 ‘정치’를 뜻한다.</s>
+          <s><persName ref="#p-x6">랑시에르</persName>가 던진 이러한 ‘<term type="concept">정치성</term>’ 화두들은 <term type="concept">공통 세계</term>를 재편성하는 여러 지표들을 포괄적으 로 함의한다.</s>
+          <s>물론 이러한 논의의 후경(後景)에는, 최근 우리 사회의 정치적 지형 변화와 함께 작가 선언 같은 외적 표지(標識)도 존재한다고 할 수 있을 것이다.</s>
+          <s>그런데 이렇게 어떤 정점에 올라서 있는 시와 <term type="concept">정치성</term> 논의에는 두 가지 홍미로운 점이 있다.</s>
+        </p>
+        <p>
+          <s>그 하나는, 이 논의가 혼히 말하는 <term type="movement">리얼리즘</term>이나 <term type="concept">현실 참여</term>를 미학적 본령 으로 삼아왔던 이들의 자기 갱신 의지에서 촉발된 것이 아니라는 것이다.</s>
+          <s>오 히려 세대론적 경험이나 미학적 견지에서 볼 때, 아직 <term type="concept">정치적 요소들</term>을 적극 실현하거나 본령으로 삼아온 적이 없는 시인과 비평가들에 의해 논의가 진 행된 것이다.</s>
+          <s>그 점에서 <interp value="neutral" ana="문학관">최근 논의는 경험적 자기 반성의 요소보다는 세대론 적 자기 개진의 요소가 강했다고 할 수 있다.</interp></s>
+          <s>다른 하나는 <interp value="critical" ana="문학관">이러한 일련의 논의들이, 구체적 시편들을 대상으로 하는 실 제 비평이 아니라, 다분히 담론 비평의 형식에 가까웠다는 점이다.</interp></s>
+          <s>게다가 논자들마다 혹은 개별 아티클마다 전혀 다른 ‘<term type="concept">정치성</term>’ 개념을 상정하고 논 의를 이끌어간 사례도 적지 않았던 터라.</s>
+          <s>
+            <interp value="critical" ana="문학관">외연적 활황에 비해 작품적 논쟁은 매우 빈곤한 편이었다고 할 수 있다.</interp>
+          </s>
+          <s>이는 <date from="1990" to="1999">1990년대 초반</date> ‘<term type="concept">시와 리얼리즘</term>’ 논의가 구체적 실물들을 둘러싼 첨예한 논쟁이었다는 점과는 현저하게 구별된다.</s>
+          <s>따라서 <interp value="neutral" ana="문학관">앞으로 시와 정치성 논의는, 이러한 점들을 감안하여, 더 구체 적이고 분화된 실물적 논의로 이어져야 하는 과제를 안고 있다고 할 수 있 을 것이다.</interp></s>
+        </p>
+        <p>
+          <s>‘2.</s>
+          <s>문학과 정치의 함수 관계를 다룬 글을 묶은 책으로 우리는『<title level="m" type="other" xml:id="t-x">文學과 政治</title>』 （<orgName xml:id="org-x">민음사</orgName>, <date when="1980">1980</date>）를 기억할 수 있다.</s>
+          <s>이 책의 편자인 <persName role="critic" xml:id="p-x7">유종호</persName> 교수는 머리말에 서 “<quote type="direct" genre="critic">터놓고 정치적인•문학이 있는가 하면 전면적인 정치적 무관심을 통해서 정치적 성격을 드러내놓고 있는 문학도 있다.</quote></s>
+          <s><quote type="direct" genre="critic">그 정치적 의도가 민망할 정도 로 드러나 있는가 하면 그것을 쉬 눈에 뜨이지 않게 교묘히 덮어두고 있는 문학도 있다</quote>”면서 <interp value="affirmative" ana="문학관">문학에서의 정치적 속성이 매우 편재적（fi在的）인 것임을 강조한 바 있다.</interp></s>
+          <s>아닌 게 아니라 우리는 우리의 시사（詩史）를 통해 <term type="concept">시와 정 치가 분리되지 않은</term> 구체적 장면을 여러 차례 그리고 지속적으로 보아왔다.</s>
+          <s>그만큼 <term type="concept">근대 시인들</term>은 개별 시편들을 통해 <term type="concept">권력의 호명을 거부</term>하기도 하고, 기존의 <term type="concept">지배 담론</term>을 풍자하기도 하고, 삶의 구체적 장면들을 비극성의 시선 으로 바라보는 <term type="concept">정치적 상상력</term>의 극점을 보여주기도 하였다.</s>
+          <s>그 점에서 최근 씌어지고 있는 우리 시단의 시편들은, <persName role="foreigner" xml:id="p-x8">벤야민</persName>（W.</s>
+          <s>Benjamin）o] 말한 ‘<quote type="indirect" genre="foreign" source="벤야민">제의적（W的） 가치</quote>’로부터의 엄연한 퇴행이요, 무책임 한 장르 이완에 가까운 모습을 많이 보여주고 있다.</s>
+        </p>
+        <p>
+          <s>시가 오래도록 ‘<term type="concept">예언자</term>’ 의 목소리를 발해왔던 점에 비추어볼 때도, ‘<term type="concept">정치적인 것</term>’의 소진과 ‘<term type="concept">감각적 인 것</term>‘의 과잉 혹은 편향이 두드러지게 드러난 사례라고 해도 크게 틀리지 않을 것이다.</s>
+          <s>따라서 노골적이지 않으면서도 우리 시의 <term type="concept">정치적 상상력</term>을 징 후적으로 드러내는 최근 시편들을 만나는 것은, 그것이 희귀한 만큼, 소중한 일이 아닐 수 없다.</s>
+          <s><quote type="direct" genre="poet" source="호시절"><lg type="stanza"><l>그때는 좋았다</l></lg><lg type="stanza"><l>모두들 가난하게 태어났으나</l></lg><lg type="stanza"><l>사람들의 말 하나 하나가</l></lg><lg type="stanza"><l>풍요로운 국부（國富）를 이루었다</l></lg><lg type="stanza"><l>살아간다는 것은 정말이지</l></lg><lg type="stanza"><l>무엇이든 아무렇게나 말할 권리를 뜻했다</l></lg><lg type="stanza"><l>그때는 좋았다</l></lg><lg type="stanza"><l>사소한 감탄에도 은빛 구두점이 찍혔고</l></lg><lg type="stanza"><l>엉터리 비유도 운율의 비단옷을 걸쳤다</l></lg><lg type="stanza"><l>오로지 말과 말로 빚은</l></lg><lg type="stanza"><l>무수하고 무구한 위대함들</l></lg><lg type="stanza"><l>난쟁이의 호기심처럼 반짝이는 별빛</l></lg><lg type="stanza"><l>왕관인 척 둥글게 잠든 고양이</l></lg><lg type="stanza"><l>희미한 웃음의 분명한 의미</l></lg><lg type="stanza"><l>어렴풋한 생각의 짙은 향기</l></lg><lg type="stanza"><l>그때는 좋았다</l></lg><lg type="stanza"><l>걱 렬한 낮은 기어이</l></lg><lg type="stanza"><l>평화로운 밤으로 이어졌고</l></lg><lg type="stanza"><l>산산이 부서진 미래의 조각들이</l></lg><lg type="stanza"><l>오늘의 탑을 높이 높이 쌓아 올렸다</l></lg><lg type="stanza"><l>그때는 좋았다</l></lg><lg type="stanza"><l>잠이 든다는 것은 정말이지</l></lg><lg type="stanza"><l>사람이 사람의 속삭임에 귀 기울이며</l></lg><lg type="stanza"><l>사람이 사람의 여린 눈꺼풀을</l></lg><lg type="stanza"><l>고이 감겨준다는 뜻이었다</l></lg><lg type="stanza"><l>그러니까 그때는</l></lg></quote>— <persName role="poet" xml:id="p-x9">심보선</persName>, r<title level="a" type="poem" xml:id="t-x2">호시절</title>j（r<title level="j" type="journal" xml:id="t-x3">시인세계</title>j <date when="2009">2009년 여름호</date>）“그때는 좋았다”라는 여러 차례의 표현이 시편의 내용을 분절하고 있고, 마지막의 “그러니까 그때는’’이라는 표현에서는 ‘좋았다’는 말을 생략함으 로써 그 표현조차 반어적이고 나아가 ‘호시절’이라는 제목도 그러할 것임을 암시하고 있다.</s>
+          <s>화자는 그 좋았던 ‘<quote type="direct" genre="poet">그때</quote>’를 상상적으로 조감（鳥«할 수 있 도록, 일정한 내러티브를 내장한 이미지를 순서대로 나열한다.</s>
+          <s>먼저 화자는 현실적 ‘<term type="concept">가난</term>’과 말의 ‘<term type="concept">풍요</term>’를 대립시키면서, 비록 모두 가난하게 태어났지 만 사람들의 말 하나하나가 풍요로웠고 “아무렇게나 말할 권리’’를 가졌던 시절이 좋았노라고 말한다.</s>
+          <s>그러면 그 좋았던 시절이 지난 ‘<quote type="direct" genre="poet">지금</quote>’은 어떠할 까?</s>
+          <s>유추해보면, 화자는 지금이 ‘<quote type="direct" genre="poet">가난</quote>’은 넘어섰을지 몰라도 “<term type="concept">말할 권리</term>"는 현저하게 상실한 때임을 암시한다.</s>
+          <s>이러한 논리로 화자는 좋았던 ‘<quote type="direct" genre="poet">그때</quote>’를, <term type="concept">부재와 단절과 결핍</term>의 ‘<quote type="direct" genre="poet">지금</quote>’과 확연하게 대비하고 있는 것이다.</s>
+        </p>
+        <p>
+          <s>이렇게 지속되는 과거 예찬의 <term type="concept">역（逆）유토피아니즘</term>을 두고, 우리는 <interp value="critical" ana="미학">낭만 적이고 퇴행적인 상상력이라고 치부할 수도 있다.</interp></s>
+          <s>과연 우리 경험에, 그렇 게 말과 생각의 권리가 살아 있었고, 사람의 위엄과 가치가 온전히 보장되었 던 때가 있기는 있었던가.</s>
+          <s>오히려 ‘<quote type="direct" genre="poet">그때</quote>’가 재현되기라도 한다면, ‘그때’ 역 시 <interp value="critical" ana="미학">결핍과 부재로 가득했던 때였음이 곧바로 입증되지 않을까?</interp></s>
+          <s>그러나 우리 는 화자가 안간힘을 다해 “그때는 좋았다”라는 <term type="concept">반어</term> 아닌 반어로 과거를 회 억（回憤）하면서, 마지막에 “그러니까 그때는”이라는 말을 배치한 것을 눈여 겨보아야 한다.</s>
+          <s>순간 우리는 화자가 ‘그런데 지금은?</s>
+          <s>’이라는 복선을 감추어 놓았다는 사실을 알게 된다.</s>
+          <s>그렇게 화자는 ‘<quote type="direct" genre="poet">지금</quote>’이, 온전하지 못했던 과거 의 시간마저 “그때가 좋았다”라고 회상하게끔 할 정도의, <term type="concept">불모와 폐허의 시 대</term>임을 선명하게 증언한다.</s>
+          <s>또 우리는 화자가 “사소한 감탄”과 “엉터리 비유"를 ‘‘무수하고 무구한 위 대함들"로 본다는 사실에 주목한다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet">희미한 웃음의 분명한 의미</quote>”나 “<quote type="direct" genre="poet">어렴 풋한 생각의 짙은 향기</quote>"도 그 위대한 세목들을 확장한다.</s>
+          <s>말하자면 그가 위 대하다고 믿는 것은, 아무렇게나 말할 권리 속에 담겨 있었던 사소하고도 엉 터리없는 그리고 희미하고도 어렴풋한 생각과 언어였을 따름이다.</s>
+          <s>이렇게“<quote type="direct" genre="poet">사람이 사람의 여린 눈꺼풀을/ 고이 감겨준다는 뜻</quote>"에 담겨 있는, 강하지 않고 여린 것들의, 선명하지 않고 어렴풋한 것들의, 분명하고도 짙은 의미와 향기를 통해 우리는, 우리 시대에 대한 <term type="concept">묵시록적 접근</term>과 함께 사회에 대한 <term type="concept">환멸의 에너지</term>를 무겁지 않은 <term type="concept">잠언（策言）</term>들로 전화하는 시인의 여유로움과 만나게 된다.</s>
+          <s>그 안에서 시인은 ‘<term type="concept">아이러니</term>’야말로 우리 시대를 견디는 유일 한 미학적 방책임을 선언하면서, 그 선언으로 하여금 우리 시대의 <term type="concept">우수（憂 愁）</term> 어린 <term type="concept">묵시록</term>이 되게끔 하고 있는 것이다.</s>
+          <s>
+            <quote type="direct" genre="poet" source="오래된 이야기">
+              <lg type="stanza">
+                <l>옛날에는 사람이 사람을 죽였대</l>
+              </lg>
+              <lg type="stanza">
+                <l>살인자는 아홉 개의 산을 넘고 아홉 개의 강을 건너</l>
+              </lg>
+              <lg type="stanza">
+                <l>달아났지 살인자는 달아나며</l>
+              </lg>
+              <lg type="stanza">
+                <l>원한도 떨어뜨리고</l>
+              </lg>
+              <lg type="stanza">
+                <l>사연도 떨어뜨렸지</l>
+              </lg>
+              <lg type="stanza">
+                <l>아홉 개이 달이 뜰 때마다 쫓던 이들은</l>
+              </lg>
+              <lg type="stanza">
+                <l>푸른 허리를 구부려 그가 떨어뜨린 조각들을 주웠다지</l>
+              </lg>
+              <lg type="stanza">
+                <l>조각들을 모아</l>
+              </lg>
+              <lg type="stanza">
+                <l>새하얀 달에 비추면</l>
+              </lg>
+              <lg type="stanza">
+                <l>빨간 양귀비꽃밭 가운데 주저앉을 둣</l>
+              </lg>
+              <lg type="stanza">
+                <l>모두 쏟아지는 향기에 취해</l>
+              </lg>
+              <lg type="stanza">
+                <l>그만 살인자를 잊고서</l>
+              </lg>
+              <lg type="stanza">
+                <l>집으로 돌아갔대</l>
+              </lg>
+              <lg type="stanza">
+                <l>그건 오래된 이야기</l>
+              </lg>
+              <lg type="stanza">
+                <l>옛날에 살인자는 응감한 병정들로 살인의 장소를 지키게 하지 않았다</l>
+              </lg>
+              <lg type="stanza">
+                <l>그건 오래된 이야기</l>
+              </lg>
+              <lg type="stanza">
+                <l>옛날에 살인자는 아홉 개의 산.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>들, 강을 지나달아났다 ’횐 밥알처럼 흘어지며 달아났다그건 정말 <title level="a" type="poem" xml:id="t-x4">오래된 이야기</title>달빛 아래 가슴처럼 부풀어오르며 이어지는 환한 언덕 위로 나라도,법도, 무너진 집들도 씌어진 적 없었던 옛적에— <persName role="poet" xml:id="p-x10">진은영</persName>,「오래된 이야기」(r<title level="j" type="journal" xml:id="t-x5">창작과 비평</title>』<date when="2009">2009년 겨울호</date>)진은영의 시편은 현실을 환기하는 고유한 힘과 시의 핵심에 육박해 들어 가는 가독성이 잘 구현된 사례로서, ‘오래된 이야기’를 통해 ‘지금 여기’의 내러티브를 환기하고 ‘지금 여기’의 삶의 조건을 우회적으로 사유할 수 있 게 한다는 점에서.</s>
+          <s><persName ref="#p-x9">심보선</persName> 시편과 상통한다.</s>
+          <s><persName ref="#p-x10">진은영</persName>은 첫 시집에서부터 <term type="concept">비선 형적 언어</term>와 <term type="concept">동화적 상상력</term>을 다양한 형식으로 보여주었는데, <interp value="affirmative" ana="미학">이 시편은 여 기서 한 걸음 더 나아가, 일종의 신화적 상상력을 겨냥하고 있는 사례이다.</interp></s>
+        </p>
+        <p>
+          <s>사실 ‘<quote type="indirect" genre="poet">오래된 이야기</quote>’ 자제가 <term type="concept">신화</term>(myth)를 환기하고 있지 않은가.</s>
+          <s>r<title level="a" type="poem" ref="#t-x4">오래된 이야기</title>」는 그 <term type="concept">신화적</term> 요소가 강렬한 현실 환기의 힘과 결합하고 있는 시편 이다.</s>
+          <s>시 안에는 ‘<quote type="direct" genre="poet">살인자</quote>’가 나오고, ‘<quote type="direct" genre="poet">아홉</quote>’이라는 숫자가 반복되면서, 특유의 주 술성이 점증(W)한다.</s>
+          <s>물론 살인의 내력은 알 수 없다.</s>
+          <s>다만 “<quote type="direct" genre="poet">옛날에는</quote>" 사람이 사람을 죽이고 달아나면서 원한도 사연도 모두 떨어뜨렸고, 그들이 띨어뜨린 조각들을 모아 횐 달에 비추면 모두 취할 정도의 강렬한 향기가 쏟아졌을 따름이다.</s>
+          <s>그러면 사람들은 살인자를 잊고 돌아가는데.</s>
+          <s>바로 그게 “<quote type="direct" genre="poet">그건 오래된 이야기</quote>’’이다.</s>
+          <s>화자는 “<quote type="direct" genre="poet">정말 오래된 이야기</quote>”라면서 이렇게 “<quote type="direct" genre="poet">나 라도./ 법도.</quote></s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="poet">무너진 집들도 씌어진 적 없었던 옛적</quote>”을 새삼 기억함으로써,‘<term type="concept">오래된 이야기</term>’에 일정한 신성성과 <term type="concept">숭고미</term>（崇古美）를 부여하고.</s>
+          <s>그와 마찬 가지로 ‘<term type="concept">지금 여기</term>’의 현실을 끊임없이 환기하면서 현실을 유추케 하고 있 다.</s>
+          <s>결국 우리는 ‘<term type="concept">살인/원한/사연/달아남/쫓음/잊음/돌아감/흘어짐/무너짐</term>’ 의 역동적 연쇄 속에서 ‘<term type="concept">오래된 이야기</term>’와 ‘<term type="concept">지금 여기의 이야기</term>’가 겹치고 갈라서고 다시 결속하는 절묘한 힘을 만나게 되는 것이다.</s>
+          <s><persName ref="#p-x9">심보선</persName>과 <persName ref="#p-x10">진은영</persName> 시편은 모두 ‘<term type="concept">기억</term>’의 차원을 전혀 다른 방식으로 다루 고 있다.</s>
+          <s>말하자면 ‘<term type="concept">그때는 좋았다</term>’와 ‘<term type="concept">오래된 이야기</term>’는 모두 과거의 어느 한때를 말하고 있지만, 그것은 ‘<term type="concept">지금 여기</term>’의 충실한 역상（逆像）으로 존재하 고 있는 것이다.</s>
+          <s>이때 <persName role="foreigner" xml:id="p-x11">랭거</persName>（S.</s>
+          <s>Unger）의 견해처럼, ‘<term type="concept">현재</term>’는 ‘<term type="concept">기억</term>’과 ‘<term type="concept">예기</term> （prophecy）’ 사이의 강렬한 <term type="concept">긴장</term>（tension）으로 나타나게 된다.</s>
+          <s>물론 <date from="1970" to="1979">1970년대</date>산（産） 시인들의 시편에 나타나는 이러한 <term type="concept">묵시록적</term>이고 시 화적인 혹은 현실을 징후적으로 환기하는 시편들을 일러 ‘<term type="concept">정치시</term>’ 일반; 문법으로 규정할 필요는 없다.</s>
+        </p>
+        <p>
+          <s>왜냐하면 ‘<term type="concept">정치시</term>’의 외관과 내질은 참으로 다양한 것이고, 우리 시대에 씌어지는 시편들 역시 중층적이고 다채로운 음 역 （音域）을 가지고 있기 때문이다.</s>
+          <s>그 점에서 우리는 과거 <term type="concept">노동시편</term>의 전위였던 <persName role="poet" xml:id="p-x12">백무산</persName> 시편을 중요하게 성 찰해볼 필요를 느낀다.</s>
+          <s>물론 지난 시대의 우리 <term type="concept">노동시</term>는 <term type="concept">계급 모순</term> 극복 에 대해서는 첨예한 문제의식을 가졌지만, <interp value="critical" ana="사회">근대 자체의 내파（內破）나 대안 적 근대의 구축에는 매우 소홀하였다.</interp></s>
+          <s>그럼에도 불구하고 사적（私的） 차원 에 존재를 드리우고 있던 시의 영역을 공적 영역으로 확장하면서, <interp value="affirmative" ana="미학">정치적 상 상력과 미적 감각을 결합한 것은 근대 노동시가 거둔 긍정적인 의의가 아닐 수 없다.</interp></s>
+          <s>그 가운데 <persName ref="#p-x12">백무산</persName>은, <interp value="affirmative" ana="문학관">시가 권력이나 자본과 길항하는 속성을 가지 고 있음을 선명하게 증언해온 대표적 시인이다.</interp></s>
+          <s>그런 그의 시가 여전히.</s>
+          <s>우 리 시에 드리워진 <term type="concept">정치적 상상력</term>의 결여 현상에 대한 강력한 반례가 되고 있기 때문이다.</s>
+          <s><quote type="direct" genre="poet" source="백무산"><lg type="stanza"><l>나는 바람의 말을 알아들을 수 있었습니다</l></lg><lg type="stanza"><l>내가 계산이 되기 전에는</l></lg><lg type="stanza"><l>나는 비의 말을 새길 줄 알았습니다</l></lg><lg type="stanza"><l>내가측량이 되기 전에는</l></lg><lg type="stanza"><l>나는 별의 말을 이해할 수 있었습니다</l></lg><lg type="stanza"><l>내가 해석이 되기 전에는</l></lg><lg type="stanza"><l>나는 대지의 말을 받아 적을 수 있었습니다</l></lg><lg type="stanza"><l>내가부동산이 되기 전에는</l></lg><lg type="stanza"><l>나는 숲의 말을 알아들을 수 있었습니다</l></lg><lg type="stanza"><l>내가 시계가 되기 전에는</l></lg><lg type="stanza"><l>이제 이들은 까닭 없이 심오해졌습니다</l></lg><lg type="stanza"><l>그들의 말은 난해하여 알아들을 수 없습니다</l></lg><lg type="stanza"><l>내가 측량된 다음 삶은 터무니없이</l></lg><lg type="stanza"><l>난해해졌습니다</l></lg><lg type="stanza"><l>내가 계산되기 전엔 바람의 이웃이었습니다</l></lg><lg type="stanza"><l>내가 해석되기 전엔 물과 별의 동무였습니다</l></lg><lg type="stanza"><l>그들과 말 놓고 살았습니다</l></lg><lg type="stanza"><l>나도 그들처럼 소용돌이였습니다</l></lg></quote>— <persName ref="#p-x12">백무산</persName>.</s>
+        </p>
+        <p>
+          <s>r<title level="a" type="poem" xml:id="t-x6">나도 그들처럼</title>j（『<title level="m" type="other" xml:id="t-x7">거대한 일상</title>』, <orgName xml:id="org-x2">실천문학사</orgName>, 2008）시인은 자신이 ‘<quote type="direct" genre="poet">계산/측량/해석/부동산/시계</quote>’에 의해 존재를 전환한 후,자연 사물들이 수런대는 언어를 듣지 못하게 된 과정을 노래한다.</s>
+          <s>말하자면 바람의 말을 알아들을 수 없고, 비의 말을 새길 줄 모르고, 별의 말을 이해할 수 없고, 대지의 말을 받아적을 수 없고, 숲의 말을 알아들을 수 없게 된 것 인데, 이는 사물의 ‘말’이 심오해지고 난해해졌기 때문이다.</s>
+          <s>그 사물들과 이 웃이자 동무였고 그들과 말 놓고 살았던 기억은.</s>
+          <s>한때 그들처럼 “<quote type="direct" genre="poet">소용돌이</quote>" 였던 시절로 이어지면서, 이제는 온갖 <term type="concept">자본</term>의 마술 속에서 알아듣지 못하게 된 언어에 대해 비판적으로 사유하게끔 한다.</s>
+          <s>따라서 시편 안에는 그야말로 <term type="concept">미학의 감각적 분배</term>가 <term type="concept">자본의 감각적 분배</term> 체계 안에서 이루어지는 ‘<term type="concept">지금 여기</term>’의 시대적 맥락이 깊이 녹아 있다.</s>
+          <s>그래서 이 시편은 다시 한 번 ‘<term type="concept">현재</term>’ 는 ‘<term type="concept">기억</term>’과 ‘<term type="concept">예기</term>’ 사이의 강렬한 긴장임을 증언한다.</s>
+          <s>그만큼 시인은 그렇게 “<quote type="direct" genre="poet" source="생의 다른 생">온몸이 통과해왔건만 낯선 생이/ 불쑥 낯익은 바람에 타인의 것인 양 흩어 지고</quote>”（'"<title level="a" type="poem" xml:id="t-x8">생의 다른 생</title>」） 있는 장면을 고백하면서, 그럼에도 “<quote type="direct" genre="poet" source="기대와 기댈 곳">꿈꾸지 않는 자 의 절망은 절망이</quote>”（「<title level="a" type="poem" xml:id="t-x9">기대와 기댈 곳</title>」） 아니라고 말하는 것이다.</s>
+          <s>이처럼 과거（‘<quote type="direct" genre="poet">그때</quote>’/‘<quote type="direct" genre="poet">오래된</quote>’/‘<quote type="direct" genre="poet">알아들을 수 있었던</quote>’）와 ‘<term type="concept">지금 여기</term>’의 선명 한 대비와 겹침을 통해 우리 시대의 현실을 환기하는 시편들을 통해 우리는, 그간 이루어진 <term type="concept">시와 정치</term> 담론의 구체적이고 실물적 사례에 접하게 된다.</s>
+        </p>
+        <p>
+          <s>이 들 시편은, <interp value="critical" ana="미학·문학관">감각과 사적 기억 편향으로 가고 있는, 혹은 성적（性的） 그로테 스크와 장광설을 결합시키는 쪽으로 가고 있는 최근 우리 시에 강력한 반성 적 항체로 존재할 것이다.</interp>3.</s>
+          <s>우리의 현실 속에는 수많은 <term type="concept">정치성</term>의 양태들이 존재한다.</s>
+          <s>국가와 국가 사 이에 개재하는 권력 위계를 조정하는 정치 범주로부터, 한 나라를 이끌어가 는 현실 정치에 이르기까지 그것은 다양한 양상으로 펼쳐진다.</s>
+          <s>인간의 삶에 지속적이고 전면적인 영향을 끼치는 이러한 ‘<term type="concept">정치</term>’ 양상들은, 우리 <term type="concept">근대시</term>가깊이 관심을 기울여온 문제 가운데 하나이다.</s>
+          <s>말할 것도 없이, 시는 우리의 삶 속에 편만（週滿）해 있는 <term type="concept">현실 권력</term>에 우회적으로 저항하고, 그 환부를 드 러내고 치유의 상상력을 발휘함으로써 부당한 정치가 초래한 상처들을 폭로 해왔기 때문이다.</s>
+          <s>그리고 <term type="concept">소수자</term>들을 옹호하고 궁극적으로는 <term type="concept">타자성</term>을 통해 서로 이해하고 돕는 상태의 회복을 꿈꾸어왔기 때문이다.</s>
+          <s><term type="concept">시의 정치성</term>은 이 러한 과정으로 발원하고 현상하고 귀결된다 할 것이다.</s>
+          <s>그런가하면, 가정이나 학교생활에서 행사되는 다양한 <term type="concept">미시 정치</term> 또한 만 만치 않은 실재라고 할 수 있다.</s>
+        </p>
+        <p>
+          <s>근대 이후 각성된 개인들이 자기 권리를 확 보하고 권력의 간섭에 저항하는 분위기가 일반화되면서, 생활 가운데 행해 지는 <term type="concept">미시 정치</term> 문제는 <term type="concept">근대시</term>의 중요한 관심사가 되었다.</s>
+          <s>전통적으로 인정 되던 <term type="concept">가부장적 권력</term>, 관습적으로 굳어 있던 <term type="concept">남성 중심주의</term>, 장애인이나 외국 인 노동자 둥 <term type="concept">사회적 소수자</term>들에게 가해지는 유형, 무형의 폭력 둥 많은 영 역에서 이러한 <term type="concept">미시 정치</term>의 문제가 대두하게 된 것이다.</s>
+          <s>이렇게 한 사회에 불가피하게 발생하는 다양한 갈등과 충돌을 조정하고 통합하는 과정으로서 의 ‘<term type="concept">정치</term>’는.</s>
+          <s>시의 장（場）으로 끊임없이 들어와 중요한 모티프로 작용하고 있는 것이다.</s>
+          <s>우리는 이러한 <term type="concept">시와 정치의 새삼스런 관계론</term>을, 최근 들어 실 로 오랜만게.</s>
+          <s>마주하고 있다 할 것이다.</s>
+          <s>우리가 잘 알거니와, 시의 일차적 동기는 주체의 <term type="concept">나르시시즘</term>에 있고, 독 자들의 시적 발화와의 동일화 욕망에 있다.</s>
+          <s>이러한 ‘<term type="concept">나르시시즘</term>’과 ‘<term type="concept">동일화</term>’ 를 넘어 시의 발화와 수용이 타자들의 정치적, 역사적 경험을 포괄할 수 없 다면.</s>
+        </p>
+        <p>
+          <s>그것은 사면이 거울로 이루어진 방에 갇혀 무한 반사를 하는 <term type="concept">자기 충 족적이고 회귀적인 양식</term>에 불과하게 될 것이다.</s>
+          <s>그 점에서 <term type="concept">타자의 삶에 대한 관심</term>, 그것을 <term type="concept">공통 세계</term>의 차원에서 <interp value="affirmative" ana="문학관">정치적으로 사유하는 것은 시의 심층적 동기이자 존재 이유가 된다</interp>.</s>
+          <s>궁극적으로 우리는 이를 <term type="concept">시의 정치성</term>이라고 말 할 수 있을 것이고, <interp value="affirmative" ana="미학">이러한 탐색은 우리 시의 쇄말성과 감각 편향을 넘어설 가능성을 적극 제공하게 될 것이다.</interp></s>
+          <s>여기에 중요한 하나를 더 얹어보자.</s>
+          <s>최근 이루어진 <term type="concept">시의 정치성</term> 논의는, 어떤 현실 정치적 맥락을 환기하는‘<term type="concept">정치적인 것</term>’이 얼마나 낡은 것인가 하는 쪽으로 수행적 효과를 발휘할 위 험이 있다.</s>
+          <s>말하자면 시의 외연에 <term type="concept">정치적 기표</term>가 등장하거나 현실 정치 속에 서 어떤 특정 경험을 담은 시편 대신에, <interp value="critical" ana="미학">암시적이고 상징적인 맥락을 산포 한 시편들이 더 세련된 미학적 산물인 것처럼 오도될 가능성이 있는 것이다.</interp></s>
+          <s>그래서 <interp value="affirmative" ana="문학관">우리는 시와 정치 논의에서 현실적 기표를 은폐하면서 현실과 맞서 는 시편들만 담론화하지 말고, 백무산으로 표상되는 구(舊)정치시의 전위들 이 치러내는 자기 갱신의 장면들 혹은 우리 시대의 맥락과 양상을 비판적으 로 사유하고 있는 사례들도 적극 점검하고, 송경동, 문동만, 김해자 같은 이 들을 논의의 장으로 적극 포괄해야 한다.</interp></s>
+          <s>현실 정치에서 첨예하게 벌어지는 담론적 경쟁과 충돌을 외면한 채, ‘<quote type="direct" genre="poet">정 치</quote>’ 개념을 <term type="concept">감각 차원</term>에 국한하거나 아니면 오히려 <term type="concept">자본 운용 방식</term>에 대해 괄호를 치는 포추상적 상상력으로는, <persName role="foreigner" xml:id="p-u">벡(U.</persName></s>
+        </p>
+        <p>
+          <s>Beck)이 지적하듯 전통을 빠져 나와 시장의 종복이 되거나, <persName ref="#p-x8">벤야민</persName>이 시사하듯 실내의 <term type="concept">반체제주의자</term>에 머 물 수밖에 없을 것이기 때문이다.</s>
+          <s><persName ref="#p-x">유성호</persName> I 문힉평론가.</s>
+          <s><orgName xml:id="org-x3">한양대</orgName> 국문과 교수.</s>
+          <s><date when="1999">1999년</date> <orgName xml:id="org-x4">대한매일</orgName> 신춘문예로 등단.</s>
+          <s>저서r<title level="m" type="critic" xml:id="t-x10">상징의 숲 율 가로질러</title>』r<title level="m" type="critic" xml:id="t-x11">침묵의 파문</title>흐『<title level="m" type="critic" xml:id="t-x12">현대시 교육론</title>』등.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

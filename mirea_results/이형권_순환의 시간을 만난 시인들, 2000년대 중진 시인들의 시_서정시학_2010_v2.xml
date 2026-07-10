@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>순환의 시간을 만난 시인들, 2000년대 중진 시인들의 시</title>
+        <author>이형권</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>순환의 시간을 만난 시인들— <date from="2000" to="2009">2000년대</date> 중진 시인들의 시<persName role="critic" xml:id="p-x">이형권</persName></s>
+        </p>
+      </div>
+      <div type="section">
+        <head>1. 새로운 밀레니엄의 시사적 맥락</head>
+        <p>
+          <s><date from="2000" to="2009">2000년대</date>가 시작된 지도 벌써 10년이 흘러갔다.</s>
+          <s>새로운 밀레니엄을 맞이하면서 세상에 대한 희망과 우려를 말했던 것이 엊그제 같은데, <date from="2000" to="2009">2000년대</date>도이젠 <term type="concept">현대문학사</term>의 오랜 습관처럼 10년 주기의 한 단위가 되어 버렸다.</s>
+          <s>그동안 10년 주기로 <term type="concept">현대문학사</term>를 분절하여 논의하는 것이 설득력을 발휘했던 것은, 문학적 특성이 그 역사적 단위와 밀접하게 연관되어 왔기에 가능한 일이었다.</s>
+          <s>특히 광복 이후 <date when="1950">50년대</date>의 <term type="concept">6・25전쟁</term>, <date when="1960">60년대</date>의 <term type="concept">4・19혁명</term>, <date when="1970">70년대</date>의 <term type="concept">유신헌법</term>, <date when="1980">80년대</date>의 <term type="concept">광주민주화 운동</term>, <date when="1990">90년대</date>의 <term type="concept">문민정부</term> 등장 등은, 그 10년 단위의 출발선상에서 일어난 역사적 사건들로서 문학의 흐름에도 커다란 영향을 끼쳤다.</s>
+          <s>그러면 <date from="2000" to="2009">2000년대</date> 문학에 영향을 준 시발점(始發點)이 되는 사건은 무엇인가?</s>
+          <s><date from="2000" to="2009">2000년대</date>는 사실 새로운 세기, 새로운 밀레니엄의 출발 지점이라는 그 자체로 역사성을 부여받는다.</s>
+          <s>또한 신세기 10년은<orgName xml:id="org-x">참여정부</orgName>의 등장으로 우리 사회에 미만했던 <term type="concept">권위주의</term>를 청산하는 계기를 마특집연속기획 | 이형권 123련했고, 그러한 사회 분위기 속에서 문학은 이전에 비해 <term type="concept">탈정전화</term>, <term type="concept">탈권력화</term>, <term type="concept">탈정치화</term>의 길로 나아갔다는 점에서도 문학사적 의미를 부여받는다.<date from="2000" to="2009">2000년대</date> 시단에서 중진들의 활동은 다양하고 활발하게 전개되었다.</s>
+          <s>중진(重鎭)은 특정 분야에서 지도력을 행사하는 중요한 인물을 지시하는 용어로서 연령상으로는 대개 중년의 나이와 관련된다.</s>
+        </p>
+        <p>
+          <s>날로 고령화되어 가는 이즈음의 우리 시단에서 <term type="concept">중진</term>이라는 범주를 설정하기가 애매하기는 하지만,이 글에서 중진이라는 용어는 일단 <date from="1950" to="1959">1950년대</date>에 태어난 시인들 가운데 20년이상의 시력을 갖춘 시인들을 지칭하고자 한다.</s>
+          <s>40대나 60대의 시인들 가운데 일부는 중진의 범주에 포함시킬 수 있지만, <date from="2000" to="2009">2000년대</date> 초반을 기준으로보면 지금의 40대는 30대의 청년 시인이었고, 60대 후반은 이미 원로 시인그룹에 속했었다는 점에서 소속이 애매하다.</s>
+          <s>그래서 이 글은 <date from="2000" to="2009">2000년대</date>에 한권 이상의 시집을 발간한 50대의 시인들을 대상으로 그들의 시가 어떠한 <term type="concept">문학사적 의미</term>를 지니는 것인지 살펴보려 한다.</s>
+          <s>특히 <term type="concept">새로운 감수성</term>과 <term type="concept">실험적언어</term>를 보여준 <persName role="poet" xml:id="p-x2">최승호</persName>・<persName role="poet" xml:id="p-x3">김혜순</persName>・<persName role="poet" xml:id="p-x4">박남철</persName>・<persName role="poet" xml:id="p-x5">김기택</persName>, <term type="concept">현실에 대한 성찰</term>과 <term type="concept">생태적 인식</term>을 통해 <term type="movement">민중시</term>의 시대 적합성을 제고한 <persName role="poet" xml:id="p-x6">백무산</persName>・<persName role="poet" xml:id="p-x7">김사인</persName>・<persName role="poet" xml:id="p-x8">고재종</persName>・<persName role="poet" xml:id="p-x9">이재무</persName>, <term type="concept">순수서정</term>과 <term type="concept">전원적 상상</term>의 세계를 형상화한 <persName role="poet" xml:id="p-x10">정호승</persName>・<persName role="poet" xml:id="p-x11">장석주</persName>・<persName role="poet" xml:id="p-x12">송찬호</persName>・<persName role="poet" xml:id="p-x13">이문재</persName> 등의 시를 주목해 보고자 한다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>2. 새로운 감수성과 실험의 언어</head>
+        <p>
+          <s><date from="2000" to="2009">2000년대</date> 중진 시인들의 새로운 감수성은 대개 <term type="movement">모더니즘</term>적 사유에 의지하면서 지성적인 태도나 <term type="concept">전위적</term> 감각을 지향하는 것으로 나타난다.</s>
+          <s>다만 그들의 새로운 감수성에는 <term type="concept">젊은 시인들</term>의 시에서 보이는 <term type="concept">도시적 세련미</term>, <term type="concept">감각적 유희</term>, <term type="concept">환상적 이미지</term>, 도발적인 <term type="concept">해체</term> 정신 등이 빈도 높게 드러나지는 않는다.</s>
+          <s>오히려 중년의 나이에 어울리게 차분하고 냉철한 지성을 바탕으로 삶의 본질 문제를 파고드는 시세계를 개진하는 것이 일반적이다.</s>
+          <s>이러한 특성124은 <date from="2000" to="2009">2000년대</date> 들어서 우리 시단의 뜨거운 논란거리였던 이른바 ‘<term type="movement">미래파</term>’ 시인들이 보여주는 감각적, 환상적 특성과 구별되는 지점이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">새로운 감수성을 지향하는 중진 시인들은 관습적 언어를 거부하는 취향 면에서는 젊은 시인들과 공유하면서도 그들이 결핍하고 있는 시대와 인간에 대한 성찰적 인식이나 사유의 깊이를 확보하고 있다.</interp>
+          </s>
+          <s><persName ref="#p-x2">최승호</persName>(<date when="1954">1954</date>~ )는 <date from="2000" to="2009">2000년대</date> 들어서 『<title level="m" type="poem" xml:id="t-x">모래인간</title>』(2000), 『<title level="m" type="poem" xml:id="t-x2">아무 것도 아니면서 모든 것인 나</title>』(<date when="2003">2003</date>), 『<title level="m" type="children" xml:id="t-13">말놀이 동시집 1~3</title>』(<date when="2005">2005</date>~<date when="2007">2007</date>), 『<title level="m" type="poem" xml:id="t-x3">고비</title>』(2007) 등의 시집을 간행했다.</s>
+          <s>이 시집들(『<title level="m" type="children" xml:id="t-x4">말놀이 동시집</title>』을 제외하고)에공통적으로 나타나는 특성은 <term type="concept">허무의식</term>인데, 이는 새로운 세기의 초반에 나타났다는 점에서 <term type="concept">죽음의식</term>을 동반하고 <term type="concept">세기말</term>에 나타나는 허무의식과는 다른 차원의 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그의 허무의식은 집착을 버림으로써 더 큰 세계를 바라보기 위한 정신적 깨달음의 경지로 진입하는 문이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><term type="concept">허무의식</term>은 다른 말로 <term type="concept">공(空)</term>이나 <term type="concept">무(無)</term>의 경지라고 할 수 있는데, 『<title level="m" type="novel" xml:id="t-x5">회저의 밤</title>』(<date when="1993">1993</date>)에서부터 등장하기 시작한 이러한 의식은 <date from="2000" to="2009">2000년대</date> 들어서면서 더 구체적인 형상과 더 본질적인 의미를 획득한다.</s>
+          <s>그러나 공의 형상을 유지하면서 공은 찢어진 채 너덜너덜 굴러다닌다.</s>
+          <s>그 방향들, 얼크러진 선, 공의 방향이 바람 방향과 같다고 말할 수 있을까.</s>
+          <s>그렇지 않다.</s>
+          <s>때로 공은 바람과 다른 방향으로 굴러간다.</s>
+          <s>공터 한 구석에 처박힐 때도 있다.</s>
+          <s>그걸 다시 물고 나오는 건 개다.</s>
+          <s>공은 물어뜯기고 개침에 젖지만 완전히 찢어지지 않는다.</s>
+        </p>
+        <p>
+          <s>공은 의외로 질기다.</s>
+          <s>다른 공, 제로(zero)는 더 질기다고 할 수 있다.</s>
+          <s>그 공은 물어뜯을 수 없고 입에 물 수조차 없다.</s>
+          <s>공터에 밤이 온다.</s>
+          <s>공에도 밤이 있다.</s>
+          <s>너덜너덜 찢긴 공 안에 어둠이 들어앉는다.</s>
+          <s><quote type="direct" genre="poet" source="모래인간"><lg type="stanza"><l>그 어둠은 공 밖의 어둠보다</l></lg><lg type="stanza"><l>조금 더 어둡다.</l></lg></quote>— 「<title level="a" type="poem" ref="#t-x">모래인간</title>」 부분, 『<title level="m" type="poem" xml:id="t-x6">공터의 공 하나</title>』“공”은 하나의 “<term type="concept">형상</term>”이지만 그 이상의 철학적 의미를 내포한다.</s>
+          <s>장난감특집연속기획 | <persName ref="#p-x">이형권</persName> 125으로서의 “공”은 단순한 사물이 아니라 “<quote type="direct" genre="poet">다른 공, 제로(Zero)</quote>”인 <term type="concept">공(空)</term>을표상한다.</s>
+        </p>
+        <p>
+          <s>이때의 “<term type="concept">공(空)</term>”은 언젠가 사라지거나 죽음을 맞이할 수밖에 없는 존재의 본성이다.</s>
+          <s>인간을 포함한 모든 존재들은 결국 “<term type="concept">공(空)</term>”으로 돌아가는 것인데, 다만 인간이 다른 존재들과 다른 것은 “공(空)” 자체를 인식할수 있다는 점이다.</s>
+          <s>이 시는 이전에 <term type="concept">자동판매기, 변기, 통조림, 냉장고, 정육점, 수족관</term>(이상 세속적 세계), <term type="concept">북어, 오징어, 쥐, 독수리</term>(이상 세속적 존재)등을 통해 <interp value="neutral" ana="미학">세계를 비판적으로 바라보던 것과는 상당히 다른 모습을 보여준다.</interp></s>
+          <s><persName role="poet" xml:id="p-x14">시인</persName>은 이제 눈, 재, 모래, 사진기, 빈 건물, 조개껍질, 지하주차장 등과같이 <term type="concept">비우고 소멸하는 것들</term>을 통해 그 존재의 의미를 발견한다.</s>
+          <s>예컨대 “<quote type="direct" genre="poet" source="모래인간"><lg type="stanza"><l>모</l></lg><lg type="stanza"><l>래에서 끝나는 육체, 모래에서 다시 시작하지 못하고 모래로 흘러 다니는 육</l></lg><lg type="stanza"><l>체, 더 쪼갤 수 없이 잘게 쪼개져서 사막을 흘러 다니고 바람에 불려 다니는,</l></lg><lg type="stanza"><l>더 이상 육체라고 부를 수 없는 육체</l></lg></quote>”(「<title level="a" type="poem" ref="#t-x">모래인간</title>」)를 발견한다.</s>
+          <s><persName ref="#p-x14">시인</persName>은 이러한 사라짐을 통해 <term type="concept">무(無)/공(空)</term>의 상태에 돌아가는 것이 존재의 본성임을깨닫는 것이다.</s>
+          <s>이러한 인식을 바탕으로 하여 <persName ref="#p-x2">최승호</persName>는 방법적 측면에서도 <interp value="affirmative" ana="미학">그동안의 시와는 다른 시도를 보여준다.</interp></s>
+          <s>그 첫째는 「<title level="a" type="poem" ref="#t-x">모래인간</title>」에 나타나듯이 한 작품 내에서 <term type="concept">산문시</term>와 <term type="concept">자유시</term>, 혹은 산문과 시의 형식을 함께 섞어보는 <term type="concept">혼합시</term> 형식을 시도한다는 점이다.</s>
+        </p>
+        <p>
+          <s>이전의 아홉 번째 시집까지 주로 <term type="concept">자유시</term> 형식만을활용해 왔던 것과 대비되는 이러한 <term type="concept">형식 실험</term>은, “<quote type="direct" genre="poet">모래</quote>”로 상징되는 “<quote type="direct" genre="poet">인간</quote>”의 소멸 속성에 대한 성찰을 통해 <term type="concept">존재의 본질</term>을 찾아보려는 의지와 밀접히연계된다.</s>
+          <s><term type="concept">산문(시)</term>의 형식은 차분한 <term type="concept">성찰</term>의 과정을 표현하는 데 알맞으며,(자유)시 형식은 삶의 본질에 대한 <term type="concept">직관</term>을 드러내는 데 효과적이다.</s>
+          <s>이처럼<interp value="affirmative" ana="미학">성찰과 직관이라는 시의 방법을 산문과 시라는 형식과 연계함으로써 내용과형식의 일체화를 추구한 것은 흥미로운 시도라고 할 수 있다.</interp></s>
+          <s><persName ref="#p-x2">최승호</persName>는 또한 『<title level="m" type="children" ref="#t-x4">말놀이 동시집</title>』에 드러나듯이 말놀이를 통해 동화적 상상의 세계를 개척하고 있다.</s>
+          <s>이 점은 그동안 세속 도시의 문제적 부면들을 성인의 시각으로 비판해 왔던 시인의 이력에 비추어볼 때 특이한 모습이다.</s>
+          <s>그126렇지만 동시에 대한 그의 관심이 <term type="concept">문명 비판의식</term>과 무관한 것은 아니다.</s>
+          <s>동시의 대상이자 독자인 어린이의 세계는 <term type="concept">문명 이전의 순수한 세계</term>라는 점에서<term type="concept">타락한 문명의 대안적 세계</term>에 해당한다고 볼 수 있기 때문이다.</s>
+          <s>또 하나 <persName ref="#p-x2">최승호</persName>는 『<title level="m" type="poem" ref="#t-x3">고비</title>』에 나타나듯이 새로운 <term type="concept">기행시</term>의 세계를 개척하고 있다.</s>
+        </p>
+        <p>
+          <s>이 시집에서 여행지의 문물들은 시인의 내면세계와 삶의 본질을 발견하는 통로로 기능한다는 점에서 그의 <term type="concept">기행시</term>는 단순한 기행의 기록 이상의 의미를 지닌다.</s>
+          <s>따라서 이 시집은 죽음과 소멸의 땅인 고비 사막이라는 특정한 공간을매개로 시상을 전개함으로써 <term type="concept">패키지적 기행시집</term>—아름다운 풍광을 주마간산처럼 둘러보면서 평면적인 묘사와 낭만적 감상을 드러내는 기행시집—의성격을 벗어난다.</s>
+          <s><persName ref="#p-x3">김혜순</persName>(1955~ )도 <date from="2000" to="2009">2000년대</date>에 들어서도 활발한 활동과 새로운 변화를보여준다.</s>
+          <s>그녀는 <date when="2000">2000</date>년대 들어서 일곱 번째 시집인 『<title level="m" type="poem" xml:id="t-x7">달력 공장 공장장님보세요</title>』(2000)로 시작하여 『<title level="m" type="poem" xml:id="t-x8">한 잔의 붉은 거울</title>』(<date when="2004">2004</date>), 『<title level="m" type="poem" xml:id="t-x9">당신의 첫</title>』(<date when="2008">2008</date>)등의 시집을 발간했다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 시집들은 이전의 페미니즘 시가 보여주지 못했던, 타자의 가치에 대한 인식을 통해 상상의 스케일을 더욱 확장시켜 나간다.</interp>
+          </s>
+          <s>주지하듯 <date from="1990" to="1999">1990년대</date> 전후의 <term type="movement">페미니즘 시</term>는 여성적 삶의 고난을 호소하거나 여성의 권리장전을 내세우거나 <term type="concept">여성(성)</term>의 가치를 고양하는 데 열중하면서 <term type="concept">남성(성)</term>에 대한 배타적 인식을 바탕으로 삼았었다.</s>
+          <s>그러나 <interp value="affirmative" ana="미학">2000년대 김혜순의 페미니즘 시는 여성(성)과 남성(성)뿐 아니라 정신과 몸, 영혼과 사물, 삶과 죽음, 생성과 소멸 등을 아우르는 조화와 균형의 시학을 구축한다.</interp></s>
+          <s>또한 <interp value="affirmative" ana="미학">김승희(1952~ )도 『빗자루를 타고 달리는 웃음』(2000), 『냄비는 둥둥』(2006) 등의 시집을 발간하여 여성, 약자, 변방, 소수자와 같은 타자의 가치를 열정적으로 변호하였고, 김언희(1953~ )는 『앵두나무 아래 잠자는 저 여자』(2000), 『뜻밖의 대답』(2005) 등의 시집에서 남성성에 대한 적나라한 희화와 비판을 통해 페미니즘 시의 새로운 국면을 열어 주었다.</interp></s>
+        </p>
+        <p>
+          <s><persName ref="#p-x4">박남철</persName>(1953~ )은 『<title level="m" type="poem" xml:id="t-x10">바다 속의 흰머리뫼</title>』(2005), 『<title level="m" type="poem" xml:id="t-1">제1분</title>』(2009)을 통해여전히 <term type="concept">실험시인</term>으로서의 면모를 보여준다.</s>
+          <s><date from="2000" to="2009">2000년대</date>에 보여주는 그의 실특집연속기획 | 이형권 127험성은 <date when="1980">80년대</date>의 <term type="concept">해체시인</term> 시절의 <term type="concept">실험성</term>과는 매우 다른 양상으로 나타난다.</s>
+          <s>컴퓨터 언어를 활용하면서 인터넷 블로그나 이메일의 내용 등을 직접적으로 인유하여 최소한의 가공을 통해 시를 생산하는 그의 창작 방법은 <interp value="affirmative" ana="미학">디지털 시대의 흥미로운 시적 이벤트이다.</interp></s>
+          <s>또한 <persName ref="#p-x5">김기택</persName>(1957~ )은 『<title level="m" type="poem" xml:id="t-x11">소</title>』(2005),『<title level="m" type="poem" xml:id="t-x12">껌</title>』(2009) 등의 시집을 통해 2000년대에도 여전히 <term type="concept">섬세한 관찰의 시학</term>을추구하는 모습을 보여주었고, <persName role="poet" xml:id="p-x15">채호기</persName>(1957~ )는 『<title level="m" type="poem" xml:id="t-x13">수련</title>』(2002), 『<title level="m" type="poem" xml:id="t-x14">손가락이뜨겁다</title>』(2009) 등의 시집에서 고감도의 <term type="concept">관능</term>과 감각을 통해 <term type="concept">실재</term>의 세계를드러내고자 했으며, <persName role="poet" xml:id="p-x16">박주택</persName>(1959~ )은 『<title level="m" type="poem" xml:id="t-x15">카프카와 만나는 잠의 노래</title>』(2004),『<title level="m" type="poem" xml:id="t-x16">시간의 동공</title>』(2009) 등의 시집에서 <term type="concept">실존</term>의 내면에 드리운 <term type="concept">불안</term>과 그림자의세계를 수준 높게 형상화했다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>3. 현실에 대한 성찰과 생태적 인식</head>
+        <p>
+          <s><date from="2000" to="2009">2000년대</date> 들어서서 <date when="1980">80년대</date> 작품 활동을 시작한 <term type="concept">민중 시인들</term>은 <date when="1990">90년대</date>에시작한 <term type="concept">민중시</term>의 <term type="concept">내면화</term>와 <term type="concept">서정화</term> 작업을 본격적인 궤도에 올려놓는다.</s>
+          <s>그들은 <date when="1980">80년대</date> <term type="concept">민주화 운동</term>의 차원에서 표출했던 <term type="concept">시대 의식</term>을 간접화하는 한편, <date when="1990">90년대</date> <term type="concept">민중 의식</term>의 <term type="concept">내면화</term>와 <term type="concept">서정화</term> 과정을 이어받으면서 새로운 관점을 마련한다.</s>
+          <s>그들의 새로움이란 시대에 대한 <term type="concept">내면적 성찰</term>이나 그 연장선상에서 <term type="concept">생태적 인식</term>을 강화하는 것이라 할 수 있다.</s>
+          <s>특히 <date when="1980">80년대</date> <term type="concept">민중 시인들</term>이 <date from="2000" to="2009">2000년대</date> 들어서 <term type="concept">생태시</term>에 많은 관심을 갖는 것은 <date when="1990">90년대</date> <persName role="poet" xml:id="p-x17">김지하</persName>의 <term type="movement">생명시 운동</term>을 이어받으면서도 그와는 다른 시도를 하는 것으로 이해할 수 있다.</s>
+          <s>그 다른 점이란 <term type="concept">동양적 초월의식</term>과 연관된 <term type="concept">생태의식</term>이 아니라 시대에 대한 <term type="concept">성찰적 인식</term>을 동반하는 생태의식을 추구했다는 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">그들의 시에 드러나는 생태적 인식은 인간의 세계에 머물러 있던 민중시를 자연과 우주의세계로 확장시켜 주었다는 점에서 중요한 의미를 부여받는다.</interp>
+          </s>
+          <s><persName ref="#p-x6">백무산</persName>(<date when="1955">1955</date>~ )은 <date from="1980" to="1989">1980년대</date> <term type="concept">민중시인</term>의 <date from="2000" to="2009">2000년대</date>적 변모의 양상을 가128장 단적으로 보여주는 시인이다.</s>
+          <s>그는 『<title level="m" type="poem" xml:id="t-x17">초심</title>』(<date when="2003">2003</date>), 『<title level="m" type="poem" xml:id="t-x18">길 밖의 길</title>』(<date when="2004">2004</date>),『<title level="m" type="poem" xml:id="t-x19">거대한 일상</title>』(<date when="2008">2008</date>) 등의 시집을 통해 <interp value="affirmative" ana="미학">시적 진화라고 불러야 할 정도로 고도의 문학성을 획득해 나간다.</interp></s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="문학관">그는 80년대의 민중 시인들이 시대의 변화에적응하지 못하고 교조적 민중 의식에 머물러서 결국은 작품다운 작품을 생산해 내지 못하는 시인들과 대비된다.</interp>
+          </s>
+          <s>80년대 「<title level="a" type="poem" xml:id="t-x20">만국의 노동자여</title>」를 기점으로 하여 노동의 전위에서 펼쳐진 그의 시세계는, 90년대 발간된 『<title level="m" type="poem" xml:id="t-x21">인간의 시간</title>』(<date when="1996">1996</date>), 『<title level="m" type="poem" xml:id="t-x22">길은 광야의 것이다</title>』(<date when="1999">1999</date>) 등에서는 인간에 대한 성찰과 내면적 <term type="concept">서정</term>의 길로 나아갔다.</s>
+          <s>그 이후 2000년대에 들어서면서 <persName ref="#p-x6">백무산</persName>은 자연과<term type="concept">생명</term>(<term type="concept">민중</term>)에 대한 성찰적 인식을 기반으로 하는 <term type="concept">생태적 상상</term>의 세계를 선보였다.</s>
+          <s>80년대의 그가 <term type="concept">노동자</term>의 해방을 위해 시를 썼다면, 90년대의 그는인간의 발견을 위해 시를 썼다고 볼 수 있다.</s>
+          <s>그런데 2000년대에 들어서면서 그는 자연과 <term type="concept">생명</term>의 상생을 위한 시를 쓰고 있다.</s>
+          <s><quote type="direct" genre="poet" source="초심"><lg type="stanza"><l>야생에는 식물성 냄새가 난다/ 야생의 들짐승/ 야생의 날짐승/ 그리고 야생의</l></lg><lg type="stanza"><l>여자/ 야생의 수생짐승/ 그들을 안아볼 때마다/ 야생에는 식물성 냄새가 난다//</l></lg><lg type="stanza"><l>어두운 밤길에서 만나는/ 산짐승의 사나운 눈빛도/ 밤의 숲 속에 짐승들의 거친</l></lg><lg type="stanza"><l>교미도/ 저들끼리 싸워 피 흘릴 때도/ 나무들이 뿜어대는 뜨거운 열기인 양/ 야</l></lg><lg type="stanza"><l>생에는 식물성 냄새가 난다// 저들이 분리되지 않은,/ 그리고 분화되지 않은,/</l></lg><lg type="stanza"><l>무수한 촉수와 날카로운/ 긴장의 그물도 가졌다/ 대상과도,/ 자신의 몸과도// 동</l></lg><lg type="stanza"><l>물은 사람뿐이다.</l></lg></quote>— 「<title level="a" type="poem" ref="#t-x17">초심</title>」 전문, 『야생』이 시에서 말하는 “야생”은 원시적 자연이 살아있는 건강한 세계이다.</s>
+          <s>그곳에 존재하는 “<term type="concept">야생</term>”에서 만나는 “<quote type="direct" genre="poet">들짐승</quote>”, “<quote type="direct" genre="poet">날짐승</quote>”, “<quote type="direct" genre="poet"><lg type="stanza"><l>여</l></lg><lg type="stanza"><l>자</l></lg></quote>”, “<quote type="direct" genre="poet">수생짐승</quote>”등을 “<quote type="direct" genre="poet">안아볼 때</quote>”나, “<quote type="direct" genre="poet"><lg type="stanza"><l>짐승들의 거친</l></lg><lg type="stanza"><l>교미</l></lg></quote>”를 하거나 “<quote type="direct" genre="poet">싸워 피 흘릴 때</quote>”에도“<quote type="direct" genre="poet">식물성 냄새가 난다</quote>”고 한다.</s>
+          <s>그 이유는 “<term type="concept">야생</term>”의 세계가 “<quote type="direct" genre="poet">분리</quote>” 혹은 “<quote type="direct" genre="poet">분화</quote>”가 되지 않은 채 온 <term type="concept">생명</term>이 어우러져 살아가는 “<quote type="direct" genre="poet">긴장의 그물</quote>”을 가졌기특집연속기획 | 이형권 129때문이다.</s>
+        </p>
+        <p>
+          <s>이때 “<term type="concept">그물</term>”은 생태학자인 <persName role="foreigner" xml:id="p-x18">카프라</persName>가 말한 ‘<quote type="indirect" genre="other" source="카프라">생명의 그물</quote>’과 흡사하다.</s>
+          <s>온갖 생명들은 그물 전체를 구성하는 하나하나의 그물코처럼 <term type="concept">생태계</term> 전체를 구성하기 위한 필수적인 요소인 것이다.</s>
+          <s>또한 <term type="concept">생태계</term>의 모든 존재(“<quote type="direct" genre="poet">대상</quote>”)들은 그들 “<quote type="direct" genre="poet">자신의 몸</quote>”과도 하나의 <term type="concept">전일체</term>(全一體)로 존재한다.</s>
+          <s>문제는이 “<term type="concept">식물성</term>”의 세계에 동참하지 못하는 존재가 있는데 그것은 “<term type="concept">동물</term>”의 세계에 속하는 “<quote type="direct" genre="poet">사람뿐</quote>”이라는 점이다.</s>
+          <s>이때 “<term type="concept">동물</term>”은 “<term type="concept">식물성</term>”의 세계와 반대되는 상극적, <term type="concept">반생태적</term> 세계를 상징한다.</s>
+          <s>
+            <interp value="affirmative" ana="생태·미학">따라서 이 시는 인간 세계에 대한 비판적 인식을 동반하는 건강한 생명 세계를 지향하는 생태시의 전형을보여준다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="문학관">백무산의 이러한 시세계는 그가 아직도 저항시인으로서의 면모를일관되게 견지하고 있음을 증명한다.</interp>
+          </s>
+          <s>과거 <term type="concept">노동시</term>가 비정상적인 노동 현실에 대한 저항의 산물이라면 <term type="concept">생태시</term>는 생태계 파괴에 대한 저항이라고 볼 수있기 때문이다.<date from="2000" to="2009">2000년대</date> <term type="concept">민중시</term>와 관련하여 <persName ref="#p-x7">김사인</persName>(<date when="1956">1956</date>~ )의 귀환은 세간의 주목에값한다.</s>
+        </p>
+        <p>
+          <s>그의 귀환은 80년대 ‘<term type="concept">노동해방문학</term>’을 이끌었던 시인이자 <persName role="poet" xml:id="p-x19">박노해</persName>와 <persName ref="#p-x6">백무산</persName>을 우리 문단에 소개했던 이력을 떠올리게 하는 문단사적 관심사였다.</s>
+          <s>그가 한동안의 침묵을 깨고 다시 창작 활동을 재개했다는 것은 <term type="concept">민중시</term>가 다시 활성화되고 그것의 시대적 의미가 제고된다는 의미를 부여받기 때문이다.</s>
+          <s>시집 『<title level="m" type="poem" xml:id="t-x23">가만히 좋아하는</title>』(<date when="2006">2006</date>)에는 세상에서 소외되고 가난한 사람들에 대한 따뜻하고 진지한 애정이 고샅고샅 배어 있다.</s>
+          <s>이 시집에서 <term type="concept">민중</term>은보통의 <term type="concept">민중시</term>나 <term type="concept">노동시</term>에서 보이듯이 현실을 구성하는 행동의 주체로 등장하기보다는 시인의 내면 풍경으로 의식화되는 경우가 많다.</s>
+          <s>이런 점은 80년대의 이 땅에 실천적 <term type="concept">노동시</term>를 하나의 문학적 사건으로 우뚝 서게 했음에도불구하고 스스로는 그러한 노동시를 창작하는 데 적극적이지 않았던 <persName ref="#p-x7">김사인</persName>의 시적 이력을 떠오르게 한다.</s>
+          <s>그의 이러한 창작 태도는 이념적, 논리적 내용보다는 인간적, 감성적 동질감을 통해 <term type="concept">민중적 연대감</term>을 조용히 추구해 가려는 그의 시적 지향과도 연관된다.</s>
+          <s>그는 항상 감각적, 과장적 표현을 절제하면서 세상의 불의에 조용히 <term type="concept">분노</term>하면서 가난하고 소외된 <term type="concept">민중</term>들에 따뜻한130시선을 보낸다.</s>
+          <s>이를테면 “<quote type="direct" genre="poet" source="노숙"><lg type="stanza"><l>차라리 이대로 너를 재워둔 채/ 가만히 떠날까도</l></lg><lg type="stanza"><l>싶어 묻는다/ 어떤가 몸이여</l></lg></quote>”(「<title level="a" type="poem" xml:id="t-x24">노숙</title>」)라는 시구에 보이듯이, <interp value="affirmative" ana="미학">세상에서 버림받은 자들과 하나가 되어 그들을 보듬어주려는 휴머니즘 정신은 그의 시가지니는 특장이다.</interp></s>
+        </p>
+        <p>
+          <s><persName ref="#p-x9">이재무</persName>(1958~ )의 시가 보여주는 <term type="concept">일상적 삶</term>에 대한 비판적 관심도 <term type="concept">시대에 대한 성찰</term>을 기반으로 삼는다.</s>
+          <s>그는 『<title level="m" type="poem" xml:id="t-x25">위대한 식사</title>』(<date when="2002">2002</date>), 『<title level="m" type="poem" xml:id="t-x26">푸른 고집</title>』(<date when="2004">2004</date>), 『<title level="m" type="poem" xml:id="t-6">저녁 6시</title>』(<date when="2007">2007</date>) 등의 시집을 통해 <term type="concept">민중적 삶의 일상성</term>을 비판하고 성찰하는 작업을 지속적으로 전개해 왔다.</s>
+          <s>그는 <term type="concept">일상적 삶</term>의 현실과 자연의 풍경을 대위시킴으로써 비루한 생활의 차원을 정서적으로 순화, 정화하고자 하는 것이다.</s>
+          <s>나아가 도시의 공간에서 펼쳐지는 <term type="concept">속된 일상</term>을 날카롭게풍자하는 한편 진실한 사랑에 대한 갈구도 <persName ref="#p-x9">이재무</persName> 시의 시심을 구성한다.</s>
+          <s>그리하여 <interp value="affirmative" ana="문학관">이재무는 80년대 이후 여전히 현실 비판적이면서 가차 없는 부정의언어를 과감하게 구사할 줄 아는 열혈 시인이다.</interp></s>
+          <s>또한 <persName role="poet" xml:id="p-x20">이은봉</persName>(<date when="1954">1954</date>~ 은 『<title level="m" type="poem" xml:id="t-x27">내몸에는 달이 살고 있다</title>』(<date when="2002">2002</date>), 『<title level="m" type="poem" xml:id="t-x28">책바위</title>』(<date when="2008">2008</date>) 등을 통해 <term type="concept">민중성</term>을 기반으로 <term type="concept">서정성</term>과 <term type="concept">생태적 인식</term>을 강화하는 시편들을 선보였으며, <persName ref="#p-x8">고재종</persName>(<date when="1957">1957</date>~)은 『<title level="m" type="poem" xml:id="t-x29">그때 휘파람새가 울었다</title>』(<date when="2001">2001</date>), 『<title level="m" type="poem" xml:id="t-x30">쪽빛 문장</title>』(<date when="2004">2004</date>) 등의 시집에서 남도 정서와 <term type="concept">민중 의식</term>과 <term type="concept">자연 서정</term>의 조화를 보여주었다는 점도 기억하지 않을 수 없다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>4. 순수서정과 전원적 상상의 세계</head>
+        <p>
+          <s><date from="2000" to="2009">2000년대</date>의 중진 시인들 가운데는 <term type="concept">순수서정</term> 혹은 ‘<term type="concept">오래된 새로움</term>’의 세계를 찾아 전원적, 농경적, 귀거래사적 상상의 세계로 나아간 사례가 많다.</s>
+          <s>그들이 전원으로 돌아간 것은 첨단의 문명 현실을 온몸으로 체현하려는 <term type="movement">모더니즘</term>적 감각의 시인들과 대비되는 특성이다.</s>
+          <s>20세기의 첨단 문명 세계를 벗어나 느리게, 찬찬히 살아가려는 그들의 태도 이면에는 <term type="concept">탈문명적</term> 의지가 내특집연속기획 | 이형권 131장되어 있다.</s>
+          <s>그 철학적 배경으로서는 <term type="concept">무위자연</term>을 강조하는 <term type="movement">노장사상</term>이나서구의 <term type="movement">탈문명적 사상</term>의 유행—<persName role="foreigner" xml:id="p-x21">피에르 쌍소</persName>의 『<title level="m" type="foreign" xml:id="t-x31">느리게 산다는 것의 의미</title>』가<date when="2000">2000년</date>부터 우리나라에 번역 소개되었다는 점을 참조할 만하다—을 들 수있다.</s>
+          <s>문명 너머를 꿈꾸는 전원적 상상은 <persName role="poet" xml:id="p-x22">문태준</persName>이나 <persName role="poet" xml:id="p-x23">손택수</persName>와 같은 <term type="concept">젊은 시인들</term>의 시에도 나타나지만, 그들에 비해 중년 시인들의 시에는 <interp value="affirmative" ana="미학">전원적 상상의 절실함과 체험적 진정성이 더 분명하게 드러난다.</interp></s>
+          <s><persName ref="#p-x11">장석주</persName>(<date when="1954">1954</date>~ )는 <date from="2000" to="2009">2000년대</date> 들어서 <interp value="affirmative" ana="미학">느림과 비움의 시학을 순수서정의 차원에서 형상화한 대표적인 시인이다.</interp></s>
+          <s>『<title level="m" type="poem" xml:id="t-x32">간장 달이는 냄새가 진동하는저녁</title>』(<date when="2001">2001</date>), 『<title level="m" type="poem" xml:id="t-x33">물은 천개의 눈동자를 가졌다</title>』(<date when="2002">2002</date>), 『<title level="m" type="poem" xml:id="t-x34">붉디붉은 호랑이</title>』(<date when="2005">2005</date>), 『<title level="m" type="poem" xml:id="t-x35">절벽</title>』(<date when="2007">2007</date>), 『<title level="m" type="poem" xml:id="t-x36">몽해항로</title>』(<date when="2010">2010</date>) 등의 시집에는, 서울 생활을 청산하고 낙향한 금광저수지라는 전원 공간에서 살아가면서 자연의 세계와 혼연히 일체화되고 싶은 시인의 마음이 빈도 높게 드러난다.</s>
+          <s><quote type="direct" genre="poet" source="간장 달이는 냄새가 진동하는 저녁"><lg type="stanza"><l>침울한 저녁이면 금광저수지는/ 저를 굽어보고 선 나무들을/ 말없이 비춰내</l></lg><lg type="stanza"><l>는 어둡고 아득한 거울이 되기도 한다// 저 물의 어둡고 깊은 마음을 헤아리지</l></lg><lg type="stanza"><l>못한 것은/ 내가 아직 달의 이면을 갖지 못했기 때문이다/ 가만히 들여다보면</l></lg><lg type="stanza"><l>거울 속에는 옛날이 있다/ 옛날은 내가 돌아갈 수 없는 시간이다.// 이윽고 물가</l></lg><lg type="stanza"><l>에 도열해 있는 나무의 어깨를 짚고/ 달이 뜬다/ 청과일보다 크고 싱싱하다.//</l></lg><lg type="stanza"><l>부엽토 깔린 축축한 땅에 뿌리를 내려/ 잎 달고 꽃 피우고 싶은 열망에/ 저 혼자</l></lg><lg type="stanza"><l>부쩍 몸이 단 저녁이다.</l></lg></quote>— 「<title level="a" type="poem" ref="#t-x32">간장 달이는 냄새가 진동하는 저녁</title>」 부분,『<title level="m" type="poem" xml:id="t-x37">저녁마다 거울이 되는 금광 저수지</title>』“나”는 “금광저수지”의 수면을 바라보면서 “나무들을/ 말없이 비춰내는 어둡고 아득한 거울”이라고 상상한다.</s>
+        </p>
+        <p>
+          <s>“<quote type="indirect" genre="poet">거울</quote>”은 <term type="concept">반사성</term>을 속성으로 하므로 존재의 그 깊은 내면을 드러내지는 못한다.</s>
+          <s>저수지의 물이 “<quote type="indirect" genre="poet">거울</quote>”이라고한 것은, 그러므로 자신의 삶이나 존재의 깊이(“<quote type="indirect" genre="poet">달의 이면</quote>”)를 깨닫지 못하132고 살아가는 자신의 삶에 대한 <term type="concept">반성적 자각</term>을 동반하는 것이다.</s>
+          <s>그러나 <term type="concept">반성적 성찰</term>(“<quote type="direct" genre="poet">가만히 들여다보면</quote>”)은 “<quote type="indirect" genre="poet">거울</quote>”의 속성을 변화시킨다.</s>
+          <s>“<quote type="indirect" genre="poet">거울</quote>”은 반사적인 것을 넘어 새로운 세계를 상상한다(“<quote type="direct" genre="poet">옛날이 있다</quote>”)고 한다.</s>
+          <s>이때 “<quote type="indirect" genre="poet">옛날</quote>”과 “<quote type="indirect" genre="poet">달의 이면</quote>”은 <term type="concept">전원적 이상향</term>의 시간과 공간이다.</s>
+          <s>이 시공간에 대한깨달음과 함께 <term type="concept">전원적 공간</term>에는 “<quote type="direct" genre="poet">나무의 어깨를 짚고/ 달이 뜬다</quote>”는 것이다.</s>
+          <s>그래서 결국 “<quote type="indirect" genre="poet">저</quote>”는 이 아름다운 <term type="concept">이상향</term>을 배경으로 “<quote type="direct" genre="poet">땅에 뿌리를 내려/잎 달고 꽃 피우고 싶은 열망</quote>”에 사로잡히는 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이것은 생명력이 넘치는 전원적 이상 세계를 향한 시인의 열망과 다르지 않다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><persName ref="#p-x12">송찬호</persName>(1959~ )는 <date from="2000" to="2009">2000년대</date>에 두 권의 시집 『<title level="m" type="poem" xml:id="t-x38">붉은 눈, 동백</title>』(2000)과『<title level="m" type="poem" xml:id="t-x39">고양이가 돌아오는 저녁</title>』(<date when="2009">2009</date>)을 발간했다.</s>
+          <s>이 시집들에 실린 시에서는이전에 강조하던 <term type="concept">실존적, 형이상학적 사유</term>가 한 발 물러서면서 <term type="concept">심미적 이상</term>과 자연의 본성을 탐구하려는 시심이 전경에 배치된다.</s>
+          <s>앞의 시집이 (동)식물적 상상을 매개로 한 <term type="concept">신화적 자연</term>의 세계를 그리고 있는 데 비해, 뒤의 시집은 동화적 상상을 바탕으로 한 <term type="concept">탈일상적 자연</term>의 세계를 그리고 있다.</s>
+          <s>사실<term type="concept">신화적 자연</term>과 <term type="concept">탈일상적 자연</term>은 현실에 대한 태도로 볼 때는 이질적인 세계(초월/극복)이지만, 이들을 탐구하는 목적이 <term type="concept">정신적 이상향</term>에의 도달이라는점에서 동질적인 지향점을 갖는다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이러한 세계를 형상화하는 데 바쳐진 밀도 높은 서정과 미세한 언어 감각, 그리고 독특한 상상 능력과 날카로운 현실 감각 등의 조화는 2000년대 중진 시인들이 이루어낸 탁월한 업적 가운데하나이다.</interp>
+          </s>
+          <s>이를테면 “<quote type="direct" genre="poet" source="고양이가 돌아오는 저녁"><lg type="stanza"><l>입안의 비린내를 헹궈내고/ 달이 솟아오르는 창가/ 그</l></lg><lg type="stanza"><l>의 옆에 앉는다/ 이미 궁기는 감춰두었건만/ 손을 핥고/ 연신 등을 부벼대</l></lg><lg type="stanza"><l>는/ 이 마음의 비린내를 어쩐다?// 나는 처마 끝 달의 찬장을 열고/ 맑게 씻</l></lg><lg type="stanza"><l>은/ 접시 하나 꺼낸다</l></lg></quote>”(「<title level="a" type="poem" ref="#t-x39">고양이가 돌아오는 저녁</title>」)는 시구는 독특하다.</s>
+          <s>문명의 “<quote type="direct" genre="poet">비린내</quote>”를 <term type="concept">서정</term>의 “달”로써 정화하려는 바람을 형상화한 이 시구는, <interp value="affirmative" ana="미학">현실 감각과 서정 세계를 오묘하게 결합시킬 수 있는 송찬호만의 개성적인 표현이다.</interp></s>
+          <s>또한 <persName ref="#p-x10">정호승</persName>(1950~ )은 『<title level="m" type="poem" xml:id="t-x40">풀잎에도 상처가 있다</title>』(<date when="2003">2003</date>), 『<title level="m" type="poem" xml:id="t-133">이 짧은 시간 동특집연속기획 | 이형권 133안</title>』(<date when="2004">2004</date>), 『<title level="m" type="poem" xml:id="t-x41">포옹</title>』(<date when="2007">2007</date>), 『<title level="m" type="poem" xml:id="t-x42">외로우니까 사람이다</title>』(<date when="2008">2008</date>) 등의 시집을 발간했다.</s>
+        </p>
+        <p>
+          <s>이 시집들은 이전의 시들보다 <term type="concept">사회의식</term>을 약화시키는 대신 순정한 사랑이나 <term type="concept">순수한 자연서정</term>의 세계와의 동일시를 강화하는 모습을 보여준다.</s>
+          <s>색다른 점은 그가 <term type="concept">동심</term>의 세계에 관심을 보이면서 적지 않은 동화를 창작했다는 점인데, 이는 속악한 성인 세계에서 일탈하기 위한 대안적 세계의 상상이라는 점에서 <persName ref="#p-x2">최승호</persName>나 <persName ref="#p-x12">송찬호</persName>의 경우와 유사한 일면이 있다.</s>
+          <s>한편 <persName role="poet" xml:id="p-x24">송재학</persName>(1955~ )도 『<title level="m" type="poem" xml:id="t-x43">기억들</title>』(<date when="2001">2001</date>), 『<title level="m" type="poem" xml:id="t-x44">진흙 얼굴</title>』(<date when="2005">2005</date>)을 간행하면서 자연물들을 매개로 한 섬세한 감각의 세계를 펼쳐보였으며, <persName ref="#p-x13">이문재</persName>(1959~ )는 『<title level="m" type="poem" xml:id="t-x45">제국호텔</title>』(<date when="2004">2004</date>), 『<title level="m" type="poem" xml:id="t-x46">산책시편</title>』(<date when="2007">2007</date>) 등을 간행하여 전원의 건강함과 대비되는<interp value="affirmative" ana="사회">문명의 타락상을 비판적 언어로 형상화했다</interp>.</s>
+          <s>이외에 <persName role="critic" xml:id="p-x25">김완하</persName>(1958~ )는 『<title level="m" type="poem" xml:id="t-x47">네가 밟고 가는 바다</title>』(<date when="2002">2002</date>), 『<title level="m" type="poem" xml:id="t-x48">허공이 키우는 나무</title>』(<date when="2007">2007</date>) 등을 통해 <interp value="affirmative" ana="미학">자연 친화적인 시세계를 일관되게 추구했다는 점도 2000년대 중진들의 시세계에서기억할 만한 업적에 해당한다</interp>.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>5. 중진의 무게감과 순환의 시간</head>
+        <p>
+          <s><term type="concept">중년</term>이라는 생물학적 나이, <term type="concept">중진</term>이라는 사회학적 가치는 한 시인으로서의삶에서 매우 중요한 변곡점이다.</s>
+          <s>돌아보니 <term type="concept">청춘</term>은 이미 지나가 버렸고, 내다보니 노년의 쓸쓸한 얼굴이 기다리는 <term type="concept">중년</term>, 그것은 시적 생애의 막다른 골목일 수도 있다.</s>
+          <s>그러나 그 골목은 자신의 시가 처한 문제 해결을 위한 중요한계기가 된다는 점에서 한 시인의 일생에서 소중한 결절 단위이다.</s>
+          <s>시적 표현을 빌리면 중년의 시인들은 “<quote type="direct" genre="poet" source="박주택, 강남역"><lg type="stanza"><l>순환하는 인간들, 청춘은 중년이 되고 또 다른</l></lg><lg type="stanza"><l>청춘은/ 이곳을 가득 메우며 노년에 이르게 됨을 눈치 채지 못한다</l></lg></quote>”(<persName ref="#p-x16">박주택</persName>,「<title level="a" type="poem" xml:id="t-x49">강남역</title>」)고 할 때의 “순환”의 중간 단위이다.</s>
+          <s>“<term type="concept">중년</term>”은 스스로 그것을 “<quote type="direct" genre="poet">눈치 채지 못</quote>”할지라도 “<term type="concept">청춘</term>”의 열정과 “<quote type="direct" genre="poet">노년</quote>”의 지혜를 함께 아우를 수 있는 시간이다.</s>
+          <s>따라서 진정한 “<term type="concept">중년</term>”의 시는 그러한 시간에 피동적으로 “<quote type="direct" genre="poet"><lg type="stanza"><l>순</l></lg><lg type="stanza"><l>134</l></lg><lg type="stanza"><l>환</l></lg></quote>”되는 시가 아니라 그러한 시간을 능동적으로 “<term type="concept">순환</term>”시키는 시일 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">요컨대 시간을 순환시켜 온 2000년대 중진 시인들은 그 무게감에 어울리는 시적 성과를 축적하면서 시단을 풍요롭게 했다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">최승호는 허무의식을 통해 존재의 본질을 발견하기 위해 혼합시 형식을 선보였을 뿐 아니라 동시와기행시를 시도하여 우리시의 새로운 감수성을 선도했다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>또한 <persName ref="#p-x6">백무산</persName>은 <term type="concept">민중의식</term>의 간접화와 <term type="concept">생태의식</term>을 추구하면서 <term type="concept">민중시</term>의 <date from="2000" to="2009">2000년대</date>적 버전을 개척했으며, <persName ref="#p-x11">장석주</persName>는 문명의 상처를 극복하기 위해 <term type="concept">귀거래사적인 상상</term>을 배경으로 <term type="concept">자연서정</term>을 발견하는 데 열중했다.</s>
+          <s>그리고 <persName ref="#p-x3">김혜순</persName>의 성숙한 <term type="movement">페미니즘</term> 시, <persName ref="#p-x4">박남철</persName>의 실험적인 블로그 시, <persName ref="#p-x7">김사인</persName>의 <term type="concept">휴머니즘</term> 시, <persName ref="#p-x9">이재무</persName>의 일상적 <term type="concept">민중시</term>, <persName ref="#p-x12">송찬호</persName>의 심미적, 동화적 상상의 시 등도 <interp value="affirmative" ana="미학">2000년대 중진 시인들이 성취한 소중한 성과였다.</interp></s>
+          <s>다만 <date from="2000" to="2009">2000년대</date> <term type="concept">중진 시인들</term>은 ‘<term type="movement">미래파</term>’ 논의를 유발했던 <term type="concept">젊은 시인들</term>에 비해 첨예하고 <term type="concept">전위적인</term> 쟁점을 생산하는 데는소홀했다는 점을 적어두지 않을 수 없다.</s>
+          <s>덧붙여 <interp value="critical" ana="문학관">황지우(1952~ )와 박노해(1958~ )의 창작활동이 부진했다는 사실도 2000년대 우리 시단의 커다란아쉬움으로 남는다.</interp></s>
+          <s><persName ref="#p-x">이형권</persName> | 문 학평론가.</s>
+          <s><orgName xml:id="org-x2">충남대</orgName> 국문과 교수.</s>
+          <s>저서 『<title level="m" type="critic" xml:id="t-x50">현대시와 비평정신</title>』 『<title level="m" type="critic" xml:id="t-x51">타자들, 에움길에 서다</title>』『<title level="m" type="critic" xml:id="t-x52">한국시의 현대성과 탈식민성</title>』 등.</s>
+          <s>제20회 <orgName xml:id="org-x3">편운문학상</orgName> 본상(평론) 수상.</s>
+        </p>
+        <p>
+          <s>특집연속기획 | <persName ref="#p-x">이형권</persName> 135</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

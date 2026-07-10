@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>미상</title>
+        <author>김문주</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>28力/ ＜、弟匕一2上（詫12汾［탐구와전망 ■	）:김京죽:二'미래'의 폭력과 시의 미래<quote type="direct" genre="foreign">모든 언어 투쟁의 목적은 이 최고의 자리를 차지하는 데 있다 최후의 결정 적인 말로 나는 상대방에게 치명적인 상처를 가하여（나르시스적인 생각이긴 하지만） 그를 혼란시키며, 해치워 버리려는 것이다.</quote></s>
+          <s>
+            <quote type="direct" genre="foreign">혹은 그를 침묵 속으로 몰아넣어 모든 말로부터 그를 거세하려는 것이다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="foreign">언쟁은 이런 승리를 목적으로 전개된 다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="foreign">그러나 각각의 대꾸가 어떤 진실의 승리를 위해 이바지한다거나 그 진실 을 조금씩 구축하려는 것은 전혀 아닌, 다만 마지막 대사가 훌륭한 것이면 그 것으로 족하다.</quote>
+          </s>
+          <s><quote type="direct" genre="foreign">중요한 것은 마지막 주사위이다</quote>-<persName role="foreigner" xml:id="p-x">롤랑 바르트</persName>『<title level="m" type="foreign" xml:id="t-x">사랑의 단상</title>』에서계간지들의 봄호 특집 원고들을 통독하면서 나는 심한 갈증에 시달렸 다.</s>
+          <s>익속하기나 한 듯이 자신에게 쏟아진 비판들에 대해 오랫동안 준비한 듯 한 칼을 꺼내 보인 글들을 보면서, <interp value="neutral" ana="사상">비평적 논쟁에서 하나의 입장이란 이데올 로기에 가까운 것임을 재삼 확인했다</interp> 애들은 싸우면서 큰다고 했던가 그러 나 그것은 애들에게나 해당되는 일이다.</s>
+          <s>어른들의 싸움은 대체로 서史｝ 화 해할 수 없는 상대임을 확인하는 것으로 끝나고 만다.</s>
+          <s>이른바 '<term type="concept">미래파 논쟁</term> 의 불씨를 제공했던 <persName role="poet" xml:id="p-x2">권혁웅</persName>1）이 논쟁의 의의를 다음과 같이 말할 띠］, “이 소권혁웅,「미래파2j, r<title level="j" type="journal" xml:id="t-x2">문예중앙</title>3 <date when="2007">2007</date>.</s>
+        </p>
+        <p>
+          <s>븜.</s>
+          <s>동을 통해 많은 이들의 <term type="concept">미학적</term> 입지가 분명히 드러났다는 점이 더 중요하다 고 생각한다7', 그것은 이 논쟁의 끝을 선언하는 것이다 논쟁의 진정한 의의 가 명확해진 분할선에 있다면 그 논쟁은 더 진행될 이유가 없다 <persName ref="#p-x">롤랑 바르 트</persName>의 말처럼, 언쟁이 “<quote type="direct" genre="critic" source="롤랑 바르트">어떤 진실의 승리를 위해 이바지한다거나 그 진실을 조금씩 구축하려는 것과 전혀 무관하고 궁극적으로 승리를 목적으로 하는 순수한(?) 것이라면</quote>, 더욱이 흥행의 불씨가 희박해지는 우리 문학판의 현실을 고려한다면, 지금 벌이고 있는 논쟁에는 휴식이 필요해 보인다최근의 논쟁을 <interp value="neutral" ana="문학관">갈등의 진정한 차원을 전치하는 기만적인 스캔들로 규정한 권혁웅의 진단은, 이 논쟁의 성격을 매우 분명하게 보여 준다</interp> 그것 은 이 논쟁이 보고 싶은 것만을 보고 말하는 다시 말해 지극히 <term type="concept">나르시시즘</term> 적인 방식으로 진행되고 있음을 뜻하는 것이다 <interp value="critical" ana="문학관">그러나 이는 권혁웅에게도 동일하게 해당된다</interp> 자신의 글에 관해서는 맥락과 의도를 주장하면서도 공격 의 발톱은 상대의 가장 약한 지점을 항해 있기는 매한가지다 물론 논쟁은 자신을 방어하는 방식으로 개진되기 마련이고 그러한 이유로 모든 입장은 나 름대로 일리가 있는 것이지만 논쟁의 주체들이 실체가 없는 가사논쟁임을 주장하는 이번 논쟁은 한국 문단을 위해 별반 소득이 없는 듯하다 이를테면 권혁웅이 제기했던 '<term type="concept">소통</term>'의 경우, 그는 '미래파 시'들이 누구에게는 지극히 쉽거나 지겨운데 또 다른 누구에게는 소통 자체가 불가능한 이러한 사태의 내면에 대해 말하지 않고 '<term type="concept">난해함</term>을 '<term type="concept">자폐</term>라고 말하는 사람들의 무능력만을 문제 삼는다.</s>
+          <s>'미래파' 시는 그 내면과 달리 잘 제작되어 있으며 <term type="concept">전복력</term>이 결 여되어 있다는 비판이 물었던 것은, '미래파 시인으로 지목된 <persName role="poet" xml:id="p-x3">진은영</persName>이 “<quote type="direct" genre="poet" source="진은영">우 린 다소 지겹다</quote>.</s>
+          <s><quote type="direct" genre="poet" source="진은영">지나치게 전복적인 것이 아니라 다소 빤하고 몇 가지 문학 적 수사에만 능숙하다 우린 너무 쉽다</quote>.</s>
+          <s><quote type="direct" genre="poet" source="진은영"><lg type="stanza"><l>(••…•) 몇몇 인디 밴드 음악이나 일 본만화, 퀴어 문화 등등 특정한 문화적 코드에 지나치게 의존하기 때문에 사실은 누군가를 감염시키는 데 실패했다 그 문화적 코드는 아는 이들에게 는 (가끔 신나기도 하지1㊉ 너무 쉽거나 지겹고 전혀 모르는 이들에게는 (간 흑 감탄을 자아내기도 하지만 너무 어렵고 고통스럽匸F고 했던 고백과 다르</l></lg><lg type="stanza"><l>지 않은 것이었다</l></lg></quote>.</s>
+          <s><interp value="neutral" ana="미학">'미래파 시들에서 학습된 가상현실의 혐의를 발견하거나 하위문화적 상상력의 문학적 수용을 지적2)하는 비판은 단순히 시의 난해함 만을 말한 것은 아니었다</interp>.</s>
+          <s><interp value="critical" ana="문학관">진은영의 솔직한 고백을 '미래파의 시가 결코 난 해하지 않고 소통될 수 있는 것임을 보이기 위해 인용하는 권혁웅의 태도는, 그가 비판하는 논자들의 태도와 근본적으로 다르지 않다</interp>이 점은 자신에 대한 비판을 반박하는 <persName role="critic" xml:id="p-x4">이광호</persName>의 논지에서도 유사하게 나타난다 그는 작금의 논쟁이 “<quote type="direct" genre="critic" source="이광호">문학 텍스트에 대한 내재 분석과 그 맥락화 방식을 놓고 벌어지는 논쟁적 비평</quote>”이어서 “<quote type="direct" genre="critic" source="이광호">문학을 다시 무대의 중심에 놓이 게 만들지도 모른中3</quote>)고 주장한다.</s>
+          <s><interp value="critical" ana="문학관">그러나 이는 그와 반대편에 놓여 있는 비평이 문제로 삼는 '자폐적 문학주의'를 역설적인 방식으로 망각하는 태도 이다</interp> 논쟁의 상대가 우려한 것은 그 ‘문학주의'가 우리의 문학을 순수한 미 학의 영역으로만 한정시킴으로써 문학이 특정 독자들에게만 허용되는 대상으 로 유폐될 수 있다는 사실이었다 문학 텍스트를 그 안쪽에서 바라보아야 한 다는 것은 <persName ref="#p-x4">이광호</persName>와 <persName ref="#p-x2">권혁웅</persName>의 주장에 공동으로 전제되어 있는 내용인데 그 같은 주장에 대한 가치 판단을 떠나서 <interp value="critical" ana="문학관">이들이 자신들을 향한 비판과 조우할 수 있는 지점을 모색하지 않는다는 점에서는 공히 문제적이다</interp> 물론 그들만 이 그러한 것도 아니며, 그들의 주장이 설득력이 부족한 것도 아니다.</s>
+        </p>
+        <p>
+          <s>오히 려 그들의 견해는 구체적인 작품과 섬세한 감식안의 지원을 받고 있어 옹색 한 상황에 처해 있는 상대편의 비평적 입장들보다 훨씬 유리한 싸움을 펼치 고 있는 것이 사실이다 <interp value="critical" ana="미학">이른바 '미래파 시'들을 비판하는 비평들의 가장 큰 문제점은 비판만 있지 대안이 될 만한 시편들을 보유하고 있지 못하다는 사 실이다.</interp></s>
+          <s>이들의 비평을 향해 “<quote type="direct" genre="critic">비난과 공격을 위한 비평이 아니라 진정한 소 통을 위한 비평</quote>”을 요구하는 것이 가능한 이유는 이들에게 '여기-지금을 성 찰하게 하는 미학적 자원이 결여되어 있기 때문이다 이 점은 '<term type="concept">미래파 논쟁</term> 을 생산적으로 만들 수 없는 본질적인 한계이기도 하다 미학적 수준은 높아<persName role="critic" xml:id="p-x5">이경수</persName>, 门n벨의 후예들 폐허를 걷다■』, <orgName xml:id="org-x">서정시학</orgName>, <date when="2006">2006</date>.</s>
+          <s><persName ref="#p-x4">이광호</persName> ”<title level="a" type="critic" xml:id="t-000">000년대 문학 논쟁을 넘어서</title>」,『<title level="j" type="journal" xml:id="t-x3">문학과 사회</title>』, <date when="2007">200Z봄</date>.</s>
+          <s>졌는데 과거의 시학을 새롭게 갱신하는 작품들이 부재한 상황 바로 이 점이 <term type="concept">미래파 시</term>‘들을 비판하는 비평들의 입지점이면서 동시에 그러한 비평들의 치명적인 한계인 것이다.</s>
+          <s>'온몸'으로 전복적인, 도래하지 않은 시들을 한국의 시단이 갈급하고 있는 셈이다*최근 2-3년간 시단에서 개진되고 있는 논쟁들과 작품들을 지켜보면 서 우리 시에 무엇인가 확실한 단절이 진행되고 있다는 생각이 든다 서로 다른 문학적 신념이 빚어 놓은 분할선이 좀 더 선명해지고 그것의 교차 가능 성이 점점 희박해지는 느낌，그것은 별로 유쾌한 일은 아닌 듯하다 상대편 의 의도를 읽어 주고 그것과 겨루려는 큰 싸움이 더 이상 불가능한 지점, 이 편과 저편 사이에 가로놓인 크레바스를 함께 보면서 마주하고 있는 듯한 황 량한 풍경이 우리 시단의 현재의 모습인 듯하다 나는 이러한 상황을 <term type="concept">비평의 욕망이 시와 결별하는 국면</term>이라고 진단한 바 있다<quote type="direct" genre="critic">종전의 서정시들이 대상을 통해 자아에게 돌아오는 전언의 강도를 시적 감 흥의 주요 근거로 삼은 데 반해, 최근의 젊은 시편들은 귀환할 자아나 전언 자 체를 욕망하지 않는다는 점에서 탈-계몽적이다</quote> 어찌 보면 이 시편들은 서정 의 꿈인 시적 감동을 폐기하려는 미학적 욕망의 산물이라 할 수 있다 (••…•) <quote type="direct" genre="critic">시가 사회적으로 의미 있는 제도라고 생각했던 것은, 개인의 내밀한 사유가 시 를 통해 공동체의 윤리적 비전과 소통한다는 믿음 때문이었다.</quote></s>
+          <s>우리 시의 심층 을 흐르는 <term type="concept">사회학적 상상력</term> 혹은 <term type="concept">정치적 욕망</term>이야말로 시를 의미 있는 제도로 인식하게 만든 발원지인 것이다.</s>
+          <s>최근의 <term type="concept">젊은 시편들</term>올 비판하거나 옹호하는 비평들이 이 지점을 공유하고 있다는 사실은 눈여겨볼 만하다 아울러 이들과 전혀 다른 지점에서 <term type="concept">젊은 시인들</term>의 시를 바라보는 비평의 주체가 대체로 시인 들이라는 점은 더욱 주목할 만한 대목이다 이들에게 시는 좀 더 순수한 미학 적 대상으로 사유되는 듯하다: 한 비평가에게 비장한 문학적 현실(“<quote type="direct" genre="critic">이미 빛나는 문 학의 시대는 지나갔다 할지라도 오랜 세월 장구한 항배畳 계속해 은 문학이라는 거대한 함정!筑이 고 요히 침믆해 가는 모습을 지켜보고 기록하는 것은 물론이고 침몰윱 막기 위한 마지막 싸음에 자신율 거는 일 역시 비평가외 몫이 되어야 할 것이기 따문이다.</quote></s>
+          <s>비목 아^도 지켜봐 주지 않는다 해도 누구도 기억해 주지 않는다 해도 말이다”, 이경쉬이 어떤 시인(“<quote type="direct" genre="critic">지겨움 만큼 많이 언급되어 은 것이지 만 지금</quote> ”1'라는 장르가 처한 상황은 역설적이다 요약하면 대개 이렇다 문화의 머나먼 변방인데도 이 변방의 거畀민들은 넘쳐난다.</s>
+        </p>
+        <p>
+          <s>아무도 읽치 않지만 누구나 쓴다.</s>
+          <s>이런 상황온 확실히 좀 '이상한 것 이기는 하지만, 그렇다고 해서 그것이 '극복해야 할 문제인 것은 아니다.</s>
+          <s>(……) <term type="concept">동호회로서의 시단</term>은 나쁜 것인가?</s>
+          <s>(……) 시가 쉬워지면 대증이 시를 읽을 것이라는 추측은 착각이다.</s>
+          <s>문제는 장르의 '매력' 이지 '난해함이나 '쉬움P1 아니다 덧붆여야 할 각주가 많은 말이지만 역설척으로 시는 더 '<term type="concept">전문화</term>되 어야 한다.</s>
+          <s>이건 '프로페셔널한 동호인'이라는 이상한 모순어법이 가능하다는 뜻이기도 하다二 <persName role="poet" xml:id="p-x6">이장욱</persName>) 에게는 전혀 문제가 되지 않는 상황이야말로 오늘의 문학의 자리를 웅변하는 풍경이라 할 수 있다 문학을 통해 문학의 너머를, 개인을 넘어 공동체의 비전 을 꿈꾸던 <term type="concept">비평의 욕망</term>이 <term type="concept">미학적 욕망</term>과 분리되려는 풍경이 바로 오늘의 우리 시가 맞고 있는 현실인 것이다 (…•••) 지구촌 어디에서도 목격할 수 없는 시의 사회라는 한국의 시적 동력이 내부에서 해체되는 이러한 장면은, 한 몸이었던 비평의 욕망을 폐기하고 <term type="concept">미학적 독립</term>을 도모하려는 미학적 의지의 산물이다 시에 과도하게 지워졌던 <term type="concept">사회학적 상상력</term>이나 그 한끝에 매달려 있던 미학적 무지와의 결별이 우리 시에서 비로소 시작되고 있는 셈이다.</s>
+          <s>그것이 축복인지 저주인지는 결국 신념이 판단할 문제인 듯하다4)언급한 비평가와 시인의 발언을 담아내느라 다소 길어진 인용 글에서 눈여겨보아야 할 대목은 '<term type="concept">동호회로서의 문학</term>을 바라■보는 서로 다른 태도이 다.，동호회로서의 문학에 대해 비장한 결의를 다지는 입장이 “<quote type="indirect" genre="critic">빛나는 시대</quote> 에 정초하고 있는 데 반해 그와 반대편에 놓인 <term type="concept">창작의 욕망</term>은 자유 그 자체 를 목적으로 삼고 있다.</s>
+          <s>어떠한 것에도 구속되지 않으려는 시인의 태도와 달 리 전자의 비평이，지키고자 하는 것은 현실의 중력을 담아내려는 문학적 태 도이다 여기에서 <term type="concept">비평의 욕망</term>이 보고 있는 "<quote type="direct" genre="critic">거대한 함정</quote>艦掘'이 “<quote type="direct" genre="critic">빛나는 시 대어】 활약했던</quote> "함정'이라면, 후자의 시인은 이 함정을 버리는 것이 어떻겠 느냐고 말하고 있는 셈이다.</s>
+        </p>
+        <p>
+          <s>이쯤 되면, 논쟁은 불가능할 뿐만 아니라 불필김문주,「이동하며 지워지는 경계境界: 치명적일 수도 있는, 그러나 매흑적안厶 ‘딩아돌 하亂 200Z 봄.</s>
+          <s>요한 것이다.</s>
+          <s>서로가- 갈 수밖에 없는 길을 가면 되는 것인데 논쟁은 여전하 다 그것은 미학적 욕망의 편에 선 비평 역시, “거대한 함정艦研에 승선했던 과거를 생생하게 기억하고 있기 때문이다 젊은 작품들을 “새로운（시소卷 정 치성'（이광호）이나 “<quote type="direct" genre="critic">'환상적 외양을 지닌 '사실성</quote>”（권혁웅으로 명명하는 내면 은 “<quote type="direct" genre="critic">빛나는 시대</quote>”로부터 완전히 자유롭지 못하다 '현실이 아니면 어떻고 망 상이면 어떠한가!</s>
+          <s>' 적어도 서로 다른 비평적 입장들은 무중력의 작품에 대해 말하더라도 무중력의 태도를 취하지 않는다 비평이란 본질적으로 작품을 통 해 그 너머를 바라보는 욕망이다.</s>
+          <s>“<quote type="direct" genre="critic">아무도 읽지 않지만 누구나 쓰는 상황</quote>” 을 비평이 어떻게 견딜 것인가2'소통에 대해 말하면서, '소통'의 내면을 고민한다 오늘의 시는 무엇 과 스통해야 한다고 나는 말하고 있는가; '현실?</s>
+          <s>사회?</s>
+          <s>독자?</s>
+          <s>' 그 목록들은 소통의 욕망이 힘에 대한 동경임을 보여 준다 곰곰이 생각해 보면 그 소통 의 목록들이 출발하고 귀결되는 지점은 독자이다 현실이든 사회든 그것들이 구체화되는 장소는 독자이며, 시는 그 안에서 자신의 삶을 살아간다 시가 사회에서 어떤 자리에 놓이는가 하는 점은 시가 어떠한 독자와 어떻게 관계 를 맺는가에 달려 있다.</s>
+        </p>
+        <p>
+          <s>최근의 시 비평들이 분기하는 지점은 바로 여기에 있다 문제는 문학의 독자를 누구로 설정하는가 하는 점이다<date when="1970">1970,80년대</date> 사회학적 상상력이 충천했던 시대에 수많은 논자들이 자신의 이론을 펼치기 위해 설정했던 <term type="concept">민중</term>이라는 개념처럼 최근 문학판에 서 진행되는 논쟁의 내부에는 <term type="concept">가상의 독자 개념</term>이 전제되어 있다 후자가 전 자와 다른 점이 있다면, 논쟁의 대상에서 직접적인 의제로 구체화되지 않고 있다는 점이다.</s>
+          <s><term type="concept">문학의 위기</term>를 넘어 <term type="concept">문학의 종언</term>이 선언된 이후 불거진 오늘 의 논쟁은, <date from="2000" to="2009">2000년대</date> 산産 작품들을 대상으로 한 것이지만 논쟁의 실제적인 내면이 문학의 위기나 종언을 고민하던 의식의 연장이라는 점은 기억할 円요가있다문학이 사회적 윤리나 가치로부터 좀 더 자유로워지고 그래서 더욱 순수한 <term type="concept">언어 미학</term>의 영역으로 진입하는 풍경을 일부의 평자들은 <term type="concept">근대문학의 종언</term>으로 보았다 문학의 것이라고 생각했던 내용물들이 문학으로부터 하역 되는 풍경은, 문학에서 문학의 너머를 꿈꾸었던 욕망이 문학의 몸으로부터 이탈종｝는 장면이라고 할 수 았다.</s>
+          <s>이른바 '<term type="concept">비평의 욕망</term>'으로부터 분리되어 좀 더 협소한 문학으로 내려앉는 현상이 최근 문학판에서 벌어지고 있는 풍경인 셈이다.</s>
+          <s><term type="concept">비평의 욕망</term>이 몸을 틀 수 있는 작품의 부재 그것이 근대문학의 종 언이다.</s>
+          <s>그렇다면 문제는 간단하다 '<term type="concept">비평의 욕망</term>은 자신이 깃들 수 있는 영 역을 찾으면 될 것이고 제도로서의 문학은 협소해진 영역 안에서 자유를 구 가하면 될 터인데 문제는 문학과 한 몸이던 '비평의 욕망'이 깃들 곳이 없다 는 데 있다 떠나지 못하는 '비평의 욕망이 자신을 부릴 몸도 없이 싸움을 걸고 있으니 그 형국이란 비장하고 쓸쓸할 수밖에이 지점에서 한국문학의 독자를 구체적으로 분석한『<title level="j" type="journal" xml:id="t-x4">세계의 문학</title>!</s>
+          <s>（203.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">봄）의 특집은 매우 시사적이다.</interp>
+          </s>
+          <s>그것은 엇갈리며 반복되는 문학판의 지 루한 논쟁과 달리 <interp value="affirmative" ana="문학관">매우 구체적이며 실증적이다.</interp></s>
+        </p>
+        <p>
+          <s>'<quote type="direct" genre="critic">누가 문학을 읽는가</quote>라는 기 획 하에 전자문화 시대의 독자의 성격과 독자층（<term type="concept">한국소설</term>）을 분석한 주제 글들 은 충분하지는 않지만 한국문학의 실제적인 방향을 생각하는 데 중요한 단서 들을 제공해 준다.</s>
+          <s>아울러 독자 분석은 한국문학의 현단계 환경에서 지속과 변화의 항목들을 구체적으로 확인하게 해 준다.</s>
+          <s>그것은 현단계 문학에서 구 심과 원심의 국면들이 무엇인지를 돌아보게 한다한국소설의 독자 분석을 수행한 <persName role="scholar" xml:id="p-x7">천정환</persName>（「<title level="a" type="critic" xml:id="t-280">280년대의 한국소설 독자</title> 山）과 <persName role="scholar" xml:id="p-x8">백원근</persName>통겨로 본 소설 독자）의 글을 통해 확인할 수 있는 몇 가지 점들을 정리 해 보면, 우선 독서 경향이 문학 중심에서 실용서 쪽으로 옮겨 가고 있다는 점, 둘째 그럼에도 불구하고 젊은 세대의 소설 선호도는 여전히 강세라는 점 셋째, 하위 계급의 대부분의 독자와 상층 계급 남성 독자의 상당 부분이 이 탈했다는 점, 넷째, 중간 계급과 남녀 대학생들이 중요한 독자로 여전히 남아 있다는 점, 그리고 문학 독자들은 비교적 왕성한 문화 향유자들이라는 점 등이다 이러한 분석 결과에서 눈여겨볼 만한 진단은 1990년대 이후 가장 중요한 특징으로 <term type="concept">마니아 독자층</term>이 부상하고 있다는 점과 <term type="concept">청년 독자들</term>이 사회 적 윤리와 <term type="concept">도덕 감정</term>에 뜨겁게 반응한다는 사실이다 이 두 가지 점은 한국 문학비평이 두 가지로 분기하는 대목과 관련되어 있다.</s>
+          <s>문제는 전자의 경우 지극히 개별적이며 소집단으로 존재하지만 '<quote type="paraphrase" genre="critic">비평가 이상의 안목을 지니고 있다</quote>는 점이고 후자는 종전의 협소한 <term type="concept">본격문학</term>과 거리가 있는 작품들이나 영화를 비롯한 여러 문화 장르에 반응하는 욕망과 관련되어 있다는 점이다이러한 구체적인 분석들이 시사하는 사실은 한국문학의 현단계와 관 련된 문학 논쟁이 지나치게 무겁거나 혹은 지나치게 협소한 입장에 근거하고 있다는 점이다.</s>
+          <s>시대가 변화했는데 <term type="concept">사회학적 상상력</term>이 지배했던 관점을 고수 하는 것은 과도할 뿐만 아니라 공허하며, 협소한 독자층을 대상으로 하는 문 학이라면 그것을 인정하는 게 필요할 것이다.</s>
+          <s>문제는 후자가 아니라 전자의 경우일 텐데, 현실의 측면을 존중한다면 비평의 영역을 넓혀서 <term type="concept">사회적 윤리</term> 나 <term type="concept">정의의 감정</term>을 성찰하는 글쓰기를 생각해 볼 만하다.</s>
+          <s>좀 더 <term type="concept">현실 윤리학</term> 적인 관점에서 문학, 혹은 문화적인 장르들에 접근하는 방법을 적극적으로 고려할 필£7〉 있다는 것이다 후자의 경우에는 자신의 독자가 지극히 예외 적인 대상들이거나 후대의 작가들임을 인정하면 될 것이다 이는 현단계 문 학을 둘러싸고 있는 환경을 고려한 대응 방법이다여기에서 생각해 볼 만한 대목은 전자문화 시대에도 지속되는 독서 의 욕망, 독서의 내면 구조에 기초하여 근대적 글쓰기를 강화하는 방법이다 이는 전자문화 시대에도 소멸하지 않는 종이책에 대한 욕망을 신념하는 태도 에서 기원할 것이다.</s>
+          <s><persName role="critic" xml:id="p-x9">이남호</persName>5)의 지적대로 전자적인 것과 내면적인 것은 양 립할 수 없다.</s>
+        </p>
+        <p>
+          <s>온라인에 존재한다는 것과 실존적 깊이에 대한 주관적 체험을 갖는다는 것은 전혀 별개의 차원이다 <term type="concept">전자문화</term> 시대라고 하더라도 후자의 욕망이 폐기되는 것이 아니라면 문학의 가치는 이 지점에서 지속될 수 있다<persName ref="#p-x9">이남호</persName>「<title level="a" type="critic" xml:id="t-x5">우리시대의 독자는 누구인가</title>」, ?</s>
+          <s><title level="j" type="journal" xml:id="t-x6">세계의 문학齡</title> <date when="2007">2007</date>•봄앞의 내용들과 다소 상이한 차원이지만 <term type="concept">전자문화</term> 시대를 거스르는 문학적 대응이 방법일 수 있다 전자문화 시대에도 변함없이 지속되는 <term type="concept">실존</term>의 문제 이것을 경험하고 성찰할 수 있는 영역은 문학만한 것이 없다 <interp value="affirmative" ana="문학관">전자문화 시대 :가 이러한 욕망을 완전히 휘발시키지 않는다면 문학은 개인의 내면적인 것들 속에서 생명력을 이어갈 수 있을 것이다.</interp></s>
+          <s>물론 이러한 욕망이 휘발된다면 문 학은 소멸될 것이지만3처음으로 돌아가서, 이른바 '<term type="movement">미래파</term> 시들은 하위문화에 많이 노출되 었던 젊은이들에게는 별로 어렵지도 그다지 재미있지도 않은 작품일 수 있지 만 기성의 문학 독자들에게는 낯설어서 매력적이기도 하고 반대로 소통 불 능이어서 던져 버리고 싶은 작품이기도 하다 물론 여기에는 서로 다른 미학 적 충돌이라는 국면이 자리 잡고 있다.</s>
+          <s>우리 시단을 휩쓸고 있는 논쟁을 멈 추어야 하는 이유는 이 논쟁이 궁극적으로 신념의 문제라는 점, 그리고 이 논쟁이 지속되는 동안 수많은 시인들의 작품이 비평의 대상에서 배제되었다 는 점에 있다 '<term type="concept">미래파 논쟁</term>을 유발했던 주체들에게 <term type="concept">세대론</term>의 혐의가 부여된 다면 이 점과 깊이 관련되어 있다.</s>
+          <s>'<term type="concept">미래파 논쟁</term>은 결과적으로 비평의 텍스 트가 되었던 대상 시인들과 그것을 적극적으로 부각시키거나 비판했던 평자 들만이 생존한 <term type="concept">인정 투쟁</term>의 장으로 귀결되었다.</s>
+          <s>많은 시인들이 <term type="movement">미래파</term>가 되 려고 했고 많은 비평가들이 미래파에 대해서 발언하려고 했다.</s>
+          <s>
+            <interp value="critical" ana="문학관">다른 논의들 새로운 모색들이 차단된 이 풍경이 한국 시단의 현주소이다.</interp>
+          </s>
+          <s>사회학적 상상 력으로 들끓었던 시편들이 <term type="movement">현실사회주의</term>의 붕괴와 더불어 종적을 감추고 모 두 자연과 환경을 노래하는 <term type="movement">생명파</term>가 되더니, 이제 몸을 바꾸어 '<term type="movement">미래파</term>가 되려고 한다 이것을 '<term type="concept">시대정신</term>스］라고 한다면 우리는 참으로 '영리한 정신의 시대를 살고 있는 셈이다 <interp value="neutral" ana="문학관">문학은 선언보다 주저함이나 머뭇거림에 좀 더 가깝다고 나는 생각한다.</interp></s>
+        </p>
+        <p>
+          <s>물론 <term type="concept">선언</term>이 더 문학적일 수 있다 그러나 <interp value="critical" ana="문학관">선언에집착하거나 무엇인가를 과도하게 주장하는 일은 결코 문학적이지 않다.</interp></s>
+          <s>거스 르는 일은 문학의 중요한 기능이지만 그것이 유행으로 전화되는 순간 상투가 된다 <term type="concept">전복</term>W은 내부의 시선이 작동할 때만 진정한 전복이 된다 '<term type="movement">미래파 시</term>‘들이나 <interp value="critical" ana="문학관">미래파 논쟁은 더 이상 전복력이 없다</interp> 그것이 진정한 것이었다면 다른 시선을 참조할 수 있어야 했다<quote type="direct" genre="poet" source="극빈"><lg type="stanza"><l>열무를 심어 놓고 게을러 뿌리를 놓치고 줄기를 놓치고 가까스로 꽃을 얻었다 공중에 횐 열무꽃이 피다하다 채소밭에 꽃밭을 가꾸었느냐 사람들은 묻고 나는 망설이는데 그 문답 끝에 나비 하나가 나비가 데려온 또 하나의 나비가 흰 열무꽃잎 같은 나비 떼가 횐 열무꽃에 내려앉는 것이었다 가녀린 발을 딛고</l></lg><lg type="stanza"><l>3초씩 5초씩 짧게짧게 혹은</l></lg><lg type="stanza"><l>그네들에겐 보다 느슨한 시간 동안 날개를 접고 바람을 잠재우고 편편하게 앉아 있는 것이었다 설핏설핏 선잠이 드는 것만 같았다 발 딛고 쉬라고 내줄 곳이 선잠 들라고 내준 무릎이 살아오는 동안 나에겐 없었다 내 열무밭은 꽃밭이지만 나는 비로소 나비에게 꽃마저 잃었다</l></lg></quote> T태준,「<title level="a" type="poem" xml:id="t-x7">극빈</title>j 전문「<interp value="affirmative" ana="미학">극반J 의 아름다움은 망설이고 머뭇거리는 데서 탄생한다.</interp></s>
+          <s>“<quote type="direct" genre="poet" source="극빈">열무를 심어 놓고 게을레뿌리를 놓치고 줄기를 놓치고/가까스로 꽃을</quote>” 얻은 영혼은 “<quote type="direct" genre="poet" source="극빈">채소밭에 꽃밭을 가꾸었느냐</quote>는 사람들의 물음 앞에서 망설인다.</s>
+          <s>실용과 이 득에 빠르지 못한 비현실적인 영혼에게 이 물음이 없었다면, 작품은 그저 자 연을 노래하는 시편에 머물렀을 것이다 시인은 꽃밭에서 재차 묻는다 '열무 꽃의 무릎은 이렇게 재차 묻는 영혼에게서 탄생된 풍경이다 <interp value="affirmative" ana="미학">자연을 소재로 한 수많은 시들이 전락해 버린 미학적 최면, 자위적이고 위장된 미학적 허영 으로부터 이 시를 구한 것은 망설임 속에 깃든 고요한 윤리적 성찰이다</interp> 그 윤리란 미학적 감성을 평면적인 차원에서 입체적인 것으로 만든 데 기여한 다.</s>
+          <s>미학적 감성을 거스르는 투명한 윤리의 내면으로 인해 시인은 “<quote type="direct" genre="poet" source="극빈">선잠 들 라고 내준</quote>” '열무꽃의 무릎을 본다 미학적 감성 속게 내장된 이 윤리적 역 란逆鱗이야말로 한때 우리 시단을 휩쓸었던 '<term type="movement">자연-서정시</term>로부터 이 시가 분 기되는 지점이다 미학적 자기 허영에 도취된 시인이라면 꽃밭을 얻었다고 자랑할 상황에서 <persName role="poet" xml:id="p-x10">문태준</persName>은 “<quote type="direct" genre="poet" source="극빈">꽃마저 잃어</quote>'버린 도저한 가난을 경험하게 되는 것이다 시인이 경험한 이 상황은 자발적인 가난도, 더구나 자랑할 만한 가 난도 아니다.</s>
+          <s>그것은 망설임 속에 고요하게 찾아온, 한없이 비천한 가kl이다.</s>
+          <s>
+            <interp value="critical" ana="사회">시를 읽는 사람은 없지만 시인은 넘쳐나고 독자는 없지만 시 잡지는 늘어나는 한국적 현실은, 참으로 기이하다.</interp>
+          </s>
+          <s>그런 가운데서 '<term type="movement">미래파</term> 광풍이 지나가고 있다.</s>
+        </p>
+        <p>
+          <s><term type="movement">미래파</term> 논의가 그야말로 우리 시의 미래에 대한 충정 어린 비평이었는지 아니면 반대편의 주장대로 <term type="concept">세대론</term>이었는지는 확인할 길이 없지 만 그 광풍이 남긴 상처는 적지 않은 듯하다 의도와 맥락을 읽어 주는 큰 싸움이 진행되었다면 좀 더 생산적일 수 있었을 터이고 이러한 생각을 갖는 것부터가 소박한 것이겠지만 아무튼 방법은 작품으로 돌아가는 수밖에 없을 것이다 그리고 그것은 역린을 확인하는 이중의 작업이어야 할 것이나 <interp value="affirmative" ana="문학관">창작 의 욕망에 자리 잡고 있는 상투와 도취를 감시하고 비평의 욕망에 내장된권력의 의지를 성찰하는 작업에서 우리 시의 미래는 올 것이다</interp> 그것은，미 래를 잠시 밀어 놓는 일 흑은 '<quote type="paraphrase" genre="critic">미래에 잠시 휴식을 주는 일</quote>에서부터 시작 될 것이다감문주 12001년 ?</s>
+          <s><orgName xml:id="org-x2">대한매일</orgName>式현 <orgName xml:id="org-x3">서울산훈</orgName>） 신춘문예를 통해 평론 둥단, 2007넌 ?</s>
+          <s><orgName xml:id="org-x4">불교신문</orgName>/ 신춘문예를 통해 시 둥단.</s>
+          <s>저서로『<title level="m" type="critic" xml:id="t-x8">소통과 미吼</title>『<title level="m" type="critic" xml:id="t-z">형상과 전통z</title> 등이 있음.</s>
+          <s><orgName xml:id="org-x5">서울산업대</orgName> 문창과 강사</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

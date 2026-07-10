@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>미상</title>
+        <author>박대현</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>&lt;£능이 6 쪠山쪵&gt;医式/제 ©殳 尸 々缈6<term type="movement">미래파</term>의 상상력과 윤리적 지평박대 현1 '미래파와 근대시학의 간극: <term type="concept">주체의 분열</term>，미래파，와'<term type="concept">새로운 서정</term>，에 대한 말들이 무성하다】 <term type="concept">주체 중심의 동일 자적 시선</term>을 벗어나지 못한 <term type="concept">전통 서정</term>의 한계를 비판하고 최근 새로운 상상력의 시인들을 옹호하는 과정에서, 서정의 개념을 확장하거나 심지 어 전래의 서정에 사망선고를 내리기도 한다.</s>
+          <s>하기야, 여전히 <term type="concept">서정시</term>는 구래（舊來）의 방법으로 쓰여지고 있고，독자들은‘오래된 서정시，를 매우1），<term type="movement">미래파</term>'는 <persName role="critic" xml:id="p-x">권혁웅</persName>이《<title level="j" type="journal" xml:id="t-x">문예중앙</title>》<date when="2005">2005년</date> 봄호에서 처음 명명한 것으로, 90년 대와는 다른 <term type="concept">새로운 상상력</term>을 가진 일군（一群）의 시인들을 지칭한다.</s>
+          <s>젊은 시인 들의 <term type="concept">새로운 상상력</term>을 옹호하는 담론은 이후《<title level="j" type="journal" ref="#t-x">문예중앙</title>》을 중심으로 <date when="2006">2006년</date> 여름호까지 지속적으로 이어져 왔으며, 마침내，<term type="movement">미래파</term>'를 문단의 이슈로 떠오 르게 하였다 이러한 비평적 작업은 <persName ref="#p-x">권혁웅</persName>, <persName role="poet" xml:id="p-x2">이장욱</persName>, <persName role="critic" xml:id="p-x3">김수이</persName>, <persName role="critic" xml:id="p-x4">김형중</persName>, <persName role="critic" xml:id="p-x5">심진경</persName> 둥 《<orgName xml:id="org-x">문예중앙</orgName>》의 편집동인들이 이끌어왔으며, 이들이 옹호하는 시인들（미래파） 의 범주는 제한적이지 않고, <term type="concept">전래 서정</term>의 일인칭 시점을 파괴한 새로운 상상력 의 시인들이라면 모두 포함된다.</s>
+          <s><persName role="poet" xml:id="p-x6">황병승</persName>, <persName role="poet" xml:id="p-x7">김민정</persName>, <persName role="poet" xml:id="p-x8">이민하</persName>, <persName role="poet" xml:id="p-x9">김언</persName>, <persName role="poet" xml:id="p-x10">유형진</persName>, <persName role="poet" xml:id="p-x11">김행숙</persName>, <persName role="poet" xml:id="p-x12">진은영</persName>, <persName ref="#p-x">권혁웅</persName>, <persName ref="#p-x2">이장욱</persName> 등이 주로 언급된다.</s>
+          <s>심상하게 읽거나 지루해하면서 새로운 시를 갈망할지도 모른다.</s>
+          <s>새로운 시에 대한 욕망（<term type="movement">아방가르드</term>적 욕망）은 항상 잠재된 것이기에 파격성을 지 닌 시가 출몰할 때마다 본능적으로 눈길이 쏠리게 마련이다.</s>
+          <s>아니나 다를 까 최근의 <term type="concept">젊은 시인들</term>은 과격한 ，<term type="concept">미적 균열</term>'을 전략적으로 드러내며, 우 리가 흔히 믿어왔던 시적인 것과의 결별을 선언한다.</s>
+          <s>당혹과 매혹이 교차 하는 가운데서도 이들 시인을 옹호하는 평자들의 주장은 의외로 단순하 다 <term type="concept">서정</term>을 공격하고‘<term type="movement">미래파</term>“를 옹호하는 무성한 논의（편의상‘미래파 비 평，이라고 부르기로 한다）의 핵심에는 두 가지 논점이 작용한다.</s>
+        </p>
+        <p>
+          <s>우선, <term type="concept">서정</term>의 인공성과 권위이다.</s>
+          <s>그들은 <term type="concept">서정</term>의 기원과 권위를 부정하 고 파괴한다.</s>
+          <s><term type="concept">서정</term>은 이미 사라지고 없다.</s>
+          <s>‘<quote type="indirect" genre="critic">세계와의 조화로움</quote>'이 전통 서 정의 이념이라면, 그러한 <term type="concept">서정</term>은 이미 실재하지 않는 인공적인 것이다.</s>
+          <s>“<quote type="direct" genre="critic">전통적인 서정이 기대고 있는 자연은 사실 죽은 자연</quote>%（<persName ref="#p-x">권혁웅</persName>）이며, “<quote type="direct" genre="critic">삶에 대한 낭만적 환상과 욕망의 결정체</quote>”로서 "<quote type="direct" genre="critic">자연과 유사한 자연의 매 트릭스</quote>”3）（<persName ref="#p-x3">김수이</persName>）이기 때문이다.</s>
+          <s>따라서 죽은 자연에 기대고 있는，인공， 적 <term type="concept">서정</term>의 시적 군림은'<term type="movement">미래파 비평</term>'의 전열（戰尹D을 가다듬게 한다 다 른 하나는, 주체의 분열과 해체이다.</s>
+          <s>많은 시인들에게 <quote type="direct" genre="critic">해체와 '균열은 이상적 상태를 전제로 한 결여의 상태가 아니라 그저 삶의 당연한 조건</quote>”幻 （<persName ref="#p-x2">이장욱</persName>）이다.</s>
+          <s><term type="concept">주체</term>가 와해된 마당에 <term type="concept">세계인식</term>과 미적 인식에 있어서 주 체의 기능은，이론상 마비되어 버린다.</s>
+        </p>
+        <p>
+          <s>그러니 <term type="concept">주체의 균열</term> 속으로 낯선 ，<term type="concept">타자</term>，들의 귀환은 당연한 수순이다.</s>
+          <s>이들의 <term type="concept">기이한 스타일</term>과 이미지는 중심의 상실로 인한 온갖 <term type="concept">타자들의 무질서한 혼종성</term>에서 비롯되는 것으 로, <term type="concept">근대</term>에서 <term type="concept">탈근대</term>로 넘어가는 <term type="concept">서정시</term>（<term type="concept">서정적 주체</term>）의 새로운 운명을 예견하게 한다<persName ref="#p-x">권혁웅</persName>,「<title level="a" type="critic" xml:id="t-2005">미래파一2005년, 젊은 시인들』</title>,《<title level="j" type="journal" ref="#t-x">문예중앙</title>》2005년 봄호 p.</s>
+          <s>79.</s>
+          <s><persName ref="#p-x3">김수이</persName>,『<title level="m" type="critic" xml:id="t-x2">서정은 진화한다</title>&amp; <orgName xml:id="org-x2">창비</orgName>, <date when="2006">2006</date>, p 21.</s>
+          <s><persName ref="#p-x2">이장욱</persName>,「<title level="a" type="poem" xml:id="t-x3">꽃들은 세상을 버리고</title>」,《<title level="j" type="journal" xml:id="t-x4">창작과비평</title>》<date when="2005">2005년</date> 여름호 p.</s>
+          <s>80.</s>
+          <s><term type="concept">서정적 주체</term>의 <term type="concept">동일자적 시선</term>（<term type="concept">동일성의 욕망</term>）은 누누이 지적되어 왔다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">서정적 주체의 동일자적 시선이 근대의 위기와 본질적으로 맞물리고 있 다는 문제의식은 근대시학에 대한 새로운 천착을 가능하게도 했지만, 서 정을 공격하는 구실이 되기도 했다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="critic">전래의 서정이 전제로 삼는 '시인'이 란 어쩔 수 없이 왜소할 수밖에 없는 현대적 실존을 벗어나 모종의 '전 체，에 투신한 자의 이름</quote>”5）이라거나, “<quote type="direct" genre="critic">아무리 겸손한 어조를 지니고 있더 라도, 서정성은 어쩔 수 없이 권위적</quote>”6）이라는 진술은 <term type="concept">서정적 주체</term>의 권위 와 위계에 대한 혐오와 반감이 짙게 배어 있다 이와 같은 부정과 반감은 <term type="concept">전통 서정</term>이 주체의 <term type="concept">동일자적 시선</term>의 숙주가 되고 있다는 판단 때문이며, <term type="concept">주체의 분열</term>과 <term type="concept">해체</term>를 경험적 실재로 받아들이는‘태도에서 비롯된다.</s>
+          <s>무엇보다 <term type="concept">주체의 분열</term>은 <term type="concept">서정적 주체</term>를 와해시키고‘<term type="movement">미래파</term>“의 시를 옹호 하는 중요한 <quote type="direct" genre="critic">이론적</quote> 근거가 된다.2 분열의 상상력과 경험적 실재: <term type="concept">오인주체</term> 이론은 <term type="concept">탈주체</term> 이론이기도 하다 무의식적 혹은 사회적 구성물에 지나지 않는 주체의 기원과 자명성은“이론적"으로 해체되어 버린다.</s>
+          <s>그 러나 <interp value="neutral" ana="미학">균열과 해체를 경험적 실재로서 감지하기란 힘든 일이다.</interp></s>
+          <s>무엇보다 주체는 무의식적 차원에 내재된 해체와 균열을 도약하여 경험의 지속성 과 단일성을 형성하며, 이는 <term type="concept">주체의 자명성</term>을 이룬다.</s>
+          <s>따라서 <interp value="critical" ana="미학">주체의 균 열과 해체는 경험적 실재가 아닌, 상상 작용에 지나지 않는다.</interp></s>
+          <s>해체와 균 열이 정말 <term type="concept">상징계</term>의 질서 내에서 현실화된다면, 인간의 주체는 실제로 균 열되는 동시에 휘발해버릴 것이기 때문이다 말 그대로，<term type="concept">정신분열</term>’의 상태 다 그러나 다행스럽게도“<term type="movement">미래파</term>，비평의 중요한 근거인 <term type="concept">주체의 분열</term>과<persName ref="#p-x2">이장욱</persName>, 앞의 글, p.</s>
+          <s>70.</s>
+          <s><persName ref="#p-x2">이장욱</persName>, 앞의 글* p.</s>
+        </p>
+        <p>
+          <s>73.</s>
+          <s><term type="concept">해체</term>는 개념적 구성에 의한 상상적 진리일 따름이다.</s>
+          <s><term type="concept">주체의 분열</term>에 대한 ，이론적 상상，과‘실재적 경험'은 삶과 죽음의 간극만큼이나 큰 것이다인간은 늘 자기 자신을 갈망한다 그 욕망에 의해 자명성을 향한 주체 의 도약이 가능해진다 그래서 통일성을 이룬 주체는 <term type="concept">자기동일성</term>의 세계 에서 결코 벗어날 수 없으며, 주체의 자명성은 견고해진다.</s>
+          <s>물론 <term type="concept">타자</term>의 고통을 자기화함으로써 주체의 타자지향적 변형이 일어날 수 있지만 그 것마저 <term type="concept">자기동일성</term>의 타자지향적 형질 전환에 지나지 않는다 타자를 인 식하는 일, 그것은 곧 주체와 타자의 <term type="concept">윤리적 관계</term>를 모색하는 일일 뿐, 주 체의 자기동일성을 전적으로 파괴함으로써 타자의 실재를 파악하는 일은 되지 못한다.</s>
+          <s>이는 <term type="concept">서정적 주체</term>의 본질이기도 하다.</s>
+          <s><term type="concept">서정적 주체</term>는 자기중심성에서 벗어나지 못한 채 以k屮라는 필터를 거쳐 <term type="concept">타자</term>를 이해하고 동일화하기 에, 근원적인 자기 동일성에서 벗어날 수 없다.</s>
+          <s>이질적이고 낯선 <term type="concept">타자</term>들 은 <term type="concept">동일성</term>의 욕망 속에 융해되어버리거나, 아니면 영원히 추방되어버린 다.</s>
+          <s>따라서 <interp value="neutral" ana="문학관">시문학은 본질적으로 자기도취의 문학이자, 나르시시즘의 표 현이라고 할 수 있다.</interp></s>
+        </p>
+        <p>
+          <s>이처럼 서정을 향한 공격의 표적이 되는, <term type="concept">주체의 동 일성 욕망</term>은 <term type="concept">시문학</term>의 본질이다 그러므로 <term type="concept">서정시</term>의 근간을 뒤흔드는 <interp value="critical" ana="문학관">미 래파 비평의 공격은 놀랍게도 시문학의 오랜 시원과 본질을 전복하고자 하는 것이나 다름없다.</interp></s>
+          <s>더 나아가 주체와 세계의 자명성조차도 부정한다‘<quote type="direct" genre="critic">서정적 자기동일성의 해체를 통한 근대의 극복</quote>，이라는 <interp value="critical" ana="문학관">우리 시대의 낡 은 명제를 반복하는 것은 이제 지루한 일이다.</interp></s>
+          <s>지금 많은 시인들에게，<term type="concept">해 체</term>'와 균여은 이상적 상테를 전제로 한 결여의 상태가 아니라 그저 삶의 당연한 조건이다.</s>
+          <s>무엇보다도, 그들은 <term type="concept">해체</term>를 해체로 의식하지 않으며, <term type="concept">균 열</term>올 균일로 의식하지 않는다.</s>
+          <s>그런 의미에서는，해체，도，균열，도 없다.7)<persName ref="#p-x2">이장욱</persName>, 앞의 글, p.</s>
+          <s>응。.</s>
+          <s>
+            <interp value="critical" ana="문학관">이장욱은 보다 급진적이고 과격하다.</interp>
+          </s>
+          <s>그의 세계는 주체의 통일성이 사 라진, <term type="concept">해체</term>와 <term type="concept">균열</term>의 <term type="concept">탈주체적</term> 세계다.</s>
+        </p>
+        <p>
+          <s>아니, 세계가 이미 해체와 균열로 이루어졌으니 해체와 균열이라는 의식조차도 없다.</s>
+          <s>이장욱의 진술은 탈 주체의 시학을 선언함으로써 전래의 서정적 주체를 부정하기 위한 도발 적 전략으로 기능한다 그러나 해체와 균열이 “그저 삶의 당연한 조건이 라는 매우 과장된 진술은，담론“차원의 현실일 뿐이다 물론 주체의 왜소 화 현상은 최근의 문학에 나타나는 두드러진 특징이다.</s>
+          <s>시와 소설을 가릴 것 없이 주체가 왜소해지거나, 아예 사라져버리는 현상이 빈번하다.</s>
+          <s>주체 의 왜소화는 소설에서 서사성을 약화시키고, 시에서는 의미의 유기적 통 일성을 파괴한 채, 비유기적 환유체계로 뻗어나가는 양상을 보인다.</s>
+          <s>그러 나 이것은 오직 글쓰기 내에서 이루어진 상상적 체험일 뿐, 주체의 균열 과 해체라는 경험 적 실재를 사실적으로 재현한 것은 아니다.</s>
+          <s>따라서 균열 된 현상적 화자를 조정하고 통제하는，함축적 시인“과，실제 시인'의 주체 는 여전히 그대로 존재한다.</s>
+          <s>고진은 주체의 분열에 대한‘상상적 경험，과‘실재적 경험'의 차이를 현상학적 환원과 분열병의 차이로 설명한다.</s>
+          <s>현상학적 환원은 방법적으 로 '자명성'을 ‘판단중지의 괄호 안에 넣을 뿐이므로 언제라도 자연적인 자명성의 세계로 회귀할 수 있으나, 분열병자는 그렇지 못하다는 것이다・ 분열병자는 자명성의 세계에서 이탈하여, 자신의 주관에 의해 구성되지 않은，타자，혹은，실재，와 마주보게 된다.8） 그것은 무질서한 어둠의，실 재계，다.</s>
+        </p>
+        <p>
+          <s>이는 말 그대로 <term type="concept">분열병</term>（schizophrenia）의 상태이다.</s>
+          <s>그렇다면 이들 <term type="concept">젊은 시인들</term>은 삶의 당연한 조건으로서 <term type="concept">분열</term> 증세를 앓고 있는 것일까?</s>
+          <s>그들이 말하는 <term type="concept">주체의 분열</term>은 자명성（매트릭스） 내의，상상，적 현실에 불 과하다 그래서 “<quote type="direct" genre="critic">근대적 이성이 상상에 의지하는 산물인 것과 마찬가지로</quote>，<persName role="foreigner" xml:id="p-x13">가라타니 고진</persName>, <persName role="translator" xml:id="p-x14">송태욱</persName> 역,『<title level="m" type="foreign" xml:id="t-1">탐구 • 1</title>』（<orgName xml:id="org-x3">새물결</orgName>, 1998）, pp.</s>
+          <s>78〜79 및『<title level="m" type="foreign" xml:id="t-x5">트랜스크리 틱</title>』（<orgName xml:id="org-x4">한길사</orgName>, 2005）, p 158 참조.</s>
+          <s><quote type="direct" genre="critic">그 체계의 밖으로 나가고자 하는 사유의 모험 역시 상상적인 것이 될 가능 성이 높</quote>*）다는 <persName ref="#p-x3">김수이</persName>의 진술은 <term type="concept">자명성</term>（매트릭스）의 강력한 현실효과를 의식한 결과이다.</s>
+          <s><term type="concept">상상적 분열</term>에 전혀 의미가 없는 것은 아니다 <term type="concept">주체</term>의 ，상상적，분열은 주체 바깥의 <term type="concept">타자</term>와 <term type="concept">실재</term>를 향한 무한한 실문을 낳기 때 문이다’상상적，분열을 통해 자명성의 바깥에 존재하는 타자와 실재에 무한한 질문을 던질 수 있는 것이다 이것이 상상적 寻열의 미학적 역능 이다 이제 그들의 말은 수정되어야 한다 아니, 이미 누군가 고쳐 말했다.</s>
+          <s>
+            <quote type="direct" genre="critic">인간중심주의와 주체중심주의의 감옥에서 벗어나는 일, 타자들로 하여 금 말하게 하고 타자성을 있는 그대로 수락하는 일은 정말이지 우리에겐 불가능하다고 해야 할 만큼이나 어려운 일이다.</quote>
+          </s>
+          <s>이를 위한 가장 적극적인 실천은 글쓰기의 영역에서나 가능한 것이 아닐까가어<persName role="critic" xml:id="p-x15">박진</persName>의 진술처럼 <term type="concept">젊은 시인들</term>의 새로운 시세계는, <term type="concept">주체의 균열과 해체</term> 가 고착화된 현실의 자연스러운 반영이 아니라, “인간중심주의와 주체중 심주의의 감옥에서 벗어나，기 위한 전략일 때 오히려 더 큰 공감을 얻을 수 있다.</s>
+        </p>
+        <p>
+          <s>그것은 <term type="concept">타자성</term>을 수락하는 일로서 불가능에 가까운 작업이지만 타자를 향한'<term type="concept">윤리적 상상</term>의 도전이기 때문이다 <interp value="affirmative" ana="미학">그래서 시인들은 이 불 가능의 작업을 글쓰기를 통해 행하고 있노라는 박진의 말은 강한 설득력 을 얻는다.</interp></s>
+          <s>그래서 <interp value="critical" ana="사회">균열과 해체가 지금 이 시대의 당연한 삶의 조건이라 는 성급한 판단은 조심스러울 필요가 있다.</interp></s>
+          <s><quote type="paraphrase" genre="critic" source="이장욱">균열과 해체가 삶의 당연한 조건이라는</quote> <persName ref="#p-x2">이장욱</persName>의 진술은 <interp value="critical" ana="사상">주체의 어떠한 이념적 좌표설정도 삶의 정 향점도 무화시키는 파괴의 힘을 지니기 때문이다.</interp></s>
+          <s>
+            <interp value="critical" ana="문학관">그것은 우리 시단에 균 열과 해체의 아비투스를 형성함으로써 그들만의 자폐적 영역을 확장하는 동시에 서정의 가능성을 차단하는 전략적 담론으로 기능한다.</interp>
+          </s>
+          <s>뿐만 아니<persName ref="#p-x3">김수이</persName>, 8■<title level="m" type="critic" ref="#t-x2">서정은 진화한다</title>』, <orgName ref="#org-x2">창비</orgName>, <date when="2006">2006</date>, p.</s>
+          <s>66.</s>
+          <s><persName ref="#p-x15">박진</persName>,『<title level="a" type="critic" xml:id="t-x6">달아나는 텍스트들</title>』,《<title level="j" type="journal" ref="#t-x">문예중앙</title>》<date when="2005">2005</date>년 가을호, p.</s>
+          <s>62.</s>
+        </p>
+        <p>
+          <s>라 근대적 주체 혹은 민족 주체의 재구성과 형이상학적 담론까지도 근원 적 공허에 시달리게 한다卩）3 분열의 상상력과 '그냥의 시학: 미래 없는 '미래파' 비평80년대，대타자의 붕괴, 이념적 주체의 분열 그리고 주체의 자명성에 대한 의심（분열의 상상력）은 주체의 재구성에 대한 노력과 함께 탈주체의 허무주의를 끈질기게 불러왔다.</s>
+          <s>그럼에도 불구하고，의식의 의식'을 끊임 없이 순환하는 주체의 폐쇄회로는 자명성의 강력한 자장（磁場）을 형성한 다 “<quote type="direct" genre="critic">자기 분열 가운데서 '자기'를 통해 분열을 극복하려는 운동이 현대성 의 두드러진 특징</quote>”⑵이기 때문이다.</s>
+          <s>따라서 탈주체 이론이 비등한 탈근대 의 현실에서 젊은 시인들의 시적 전략은 크게 두 가지로 나뉠 것이다 첫 째, 주체의 재구성을 통한 탈근대 허무주의의 극복.</s>
+          <s>이는 근대적 주체의 폭력에 신음했던 타자지향적 주체의 재구성으로서, 근대의 위기를 극복 하고자 하는 윤리적 고투에 해당한다.</s>
+          <s>둘째, 분열의 징후를 극단적으로 밀고 나가는 것* 이것은 주체의 극단적 해체를 통해 상징계적 질서（자명11）《실천문학》2006년 여름호의 특집주제인，탈주체론을 넘어서'는 이런 우려 에 대한 대항담론이다.</s>
+          <s>이를테면, ①（민족 개념이나 민족주의가 안고 있는 모순 을 비판하고 보다 더 열린 태도를 요구하는 것과 민족 개념 자체를 완전 폐기 처분하는 것과는 서로 다른 문제다'라고 주장하는 송두율L탈현대“: 한국적 맥 락 그리고 그 빛과 그림자』）, ②호미 바바의“혼종적 저항，은 피식민 주체의 능 동성을 제대로 보지 못하는 치명적 결함을 안고 있으며, 이는 주체를 구조의 효과로 보는 해체론의 영향으로 보인다는 하정일（「탈식민의 역학） ③'대추리 농민들의 고통은 민족과 국가 단위로 매개되고 있다는 이 엄연한 현실을 부정 할 수 없다 （-） 그렇기에 근대적 주체들의 소멸을 서둘러 단언하지 않기로 하 자./ 중요한 건 담론 그 자체가 아니다.</s>
+          <s>중요한 건 담론과 현실세계와의 관계이 다”라는 양진오（「근대적 주체에 대한 명상」）, ④채광석을 통해 민족주체의 아시 아적 연대 가능성을 타진한 오창^（「아시아의 재발견」）의 글은 모두 담론적 차 원의 탈주체와 해체론에 대항하는“실천적' 담론의 성격을 지닌다.</s>
+          <s>강영안, 1■주체는 죽었는가』, 문예출판사, 1996, p.</s>
+        </p>
+        <p>
+          <s>100.</s>
+          <s>성） 바깥의 그 무엇（실재）를 보고자 하는 불가능한 미학적 분투로 나아가 거나, 자기멸각의 마조히즘적 쾌락에 빠져들기도 한다.</s>
+          <s>이처럼 최근의 시 는 극과 극의 좌표를 분명히 설정하고 있다*‘미래파'는 후자를 지향하고 있음이 분명하다.</s>
+          <s>그러나 문제는 M미래파，의 시적 경향보다도“미래파 비평，의 주체，관， （觀）이다.</s>
+          <s>그들은 균열과 해체가 “삶의 당연한 조건，이라는 식의 극단적인 발언을 서슴지 않음으로써, 그들 스스로의 허무주의적 탈주체 전략에 정 당성을 부여하는 역할을 하며, 근대적 주체의 재구성에 분투하는 비평가 들의 노력을 무력화시킨다.</s>
+          <s>‘미래파'가 지니고 있는“<quote type="direct" genre="critic">부정성의 시학</quote>"3）으 로서의 가능성에도 불구하고, 이들의 행보에 우려의 눈길을 보내지 않을 수 없는 것은 바로 이런 사정에서다.</s>
+          <s>최근 우리 시단에서 기존 질서를 파괴하고자 하는 하위문화의 반란과 전복, 그리고 억압된 욕망의 분출은 주로 비현실적이고 기괴한 환상으로 표출되는 경우가 대부분이다.</s>
+          <s>널리 알려진 것처럼 환상은 ♦전복의 문학， （로지 잭슨）으로서, 정치적 • 사회적 맥락에서 자유롭지 않다.</s>
+        </p>
+        <p>
+          <s><term type="concept">환상</term>은 기존 현실의 <term type="concept">이성</term>, 위계, 질서, 권위, <term type="concept">억압</term>에 대한 <term type="concept">저항</term>과 위반, 더 나아가 <term type="concept">전복</term> 하고자 하는 상상력의 미적 기능을 수행한다 <persName ref="#p-x2">이장욱</persName>의 <term type="concept">환상성</term>이 “현실 속에 감춰진 존재의 부분, 혹은 무의식의 풍경이 현실의 표면적 논리와필자는 다른 글에서 <persName ref="#p-x6">황병승</persName>, <persName ref="#p-x8">이민하</persName>, <persName ref="#p-x7">김민정</persName>.</s>
+          <s><persName ref="#p-x10">유형진</persName>, <persName role="poet" xml:id="p-x16">이영주</persName>의 시집을 검토하 면서, 이들의 시세계의 가능성을 높게 평가한 바 있다.</s>
+          <s>이들의 전반적 시적 지 향점온 <term type="concept">시뮬라크르</term>의 자전을 통해 <term type="concept">상징적 질서</term>를 교란하고, 시의 형식을 파괴 함으로써, 무한한 실재에 다가가고자 하는 <persName role="foreigner" xml:id="p-x17">아도르노</persName>의 <term type="concept">부정성의 미학</term>을 지닌다 고 판단하였다.</s>
+          <s>무엇보다 무의미한 이미지들의 '포괄적 결속'을 통해 개별적 부 분들의 총화 이상, 다시 말해 결코 전체상에 이를 수 없는 <term type="concept">파편적 개별자</term>들의 끝없는 증식과 확장을 통해 거대한 기계로서의 이 세계의 전체상을 역설적으 로 표상한다고 보았으며, 이는 <term type="concept">부정성의 시학</term>으로서 <interp value="affirmative" ana="미학">현대시의 새로운 미학적 가능성이라 평가하였다.</interp></s>
+          <s><persName role="critic" xml:id="p-x18">박대현</persName>,「<title level="a" type="critic" xml:id="t-x7">시뮬라크르의 칼날 환유적 몽타주와 부정성 의 시학</title>」,《<title level="j" type="journal" xml:id="t-x8">비평과전망</title>》<date when="2005">2005년</date> 하반기, p・ 294.</s>
+          <s>상투성을 뚫고 어렵게 나타난 진실의 모습일 수 있다门办는 <persName role="critic" xml:id="p-x19">오생근</persName>의 평 가 역시 예의 <term type="concept">환상</term>과 현실의 관계성에 근거한다 하지만 <term type="movement">미래파</term> 비평의 진앙지가 되는《<title level="j" type="journal" ref="#t-x">문예중앙</title>》（<date when="2005">2005년</date> 가을호은 <term type="concept">젊은 시인들</term>의 새로운 상 상력을 아예，，<quote type="direct" genre="critic" source="문예중앙">외계로부터의 타전</quote>，，으로 규정한다.15） 이를 개념 규정이 아 닌 수사적 차원으로 받아들일 수도 있지만, <interp value="critical" ana="미학">그 내용을 들여다보면 단순한 수사로만 보기 힘들게 하는 비평적 태도가 발견된다.</interp></s>
+          <s>
+            <interp value="critical" ana="문학관">오생근의 예（例）의 호의적인 평가를 이장욱은 다음과 같이 배반（?）한다.</interp>
+          </s>
+          <s>그렇다.</s>
+        </p>
+        <p>
+          <s>그들은 이기적이다 이것은 물론 윤리적 맥락의 애기가 아니다.</s>
+          <s>그들은 그들 자신이 속한 삶의 감각에 한없이 충실하다.</s>
+          <s>그 밖에 대해서는 별로 관심이 없다.</s>
+          <s>그렇기 때문에, 그네들은 <term type="concept">기성세대</term>를 부정하는 '<term type="concept">반항아</term>' 들이 아니다.，반항아，야말로 실은 기성세대의 가치 체계를 중심으로，배 치된 존재일 뿐이기 때문이다.</s>
+          <s>（…） 하지만 우리 시의 이기적인 아이들은<persName ref="#p-x19">오생근</persName>「<title level="a" type="critic" xml:id="t-x9">서정시의 해체 혹은 새로운 서정의 탐구</title>」,《<title level="j" type="journal" xml:id="t-x10">문학과사회</title>》2005년 여 름호 p 234*15）《문학과사회》의 <persName role="critic" xml:id="p-x20">이광호</persName> 역시, 이들의 상상력의 새로움이 “<quote type="direct" genre="critic" source="이광호">역사적 트라우마 와 공동체의 모럴의 강박으로부터 상대적으로 자유로운 세대의 존재를 암시하</quote>” 며, “<quote type="direct" genre="critic" source="이광호">저항과 위반의 전선 자체가 필요가 없는 그런 문학</quote>”의 도래라는 평가를 내 린다 '<term type="concept">인디</term>，의 하위문화가 지닌 “<quote type="direct" genre="critic" source="이광호">저항은 개별화되고 고립되어 *스타일，의 문제 로 변환되므로 억압에 대항하는 진정한 저항의 동일성을 만들기 어렵다</quote>”는 것 이다 그야말로 젊은 작가들의 새로운 상상력은 “<quote type="direct" genre="critic" source="이광호">무중력의 공간</quote>”에서 “<quote type="direct" genre="critic" source="이광호">유령처 럼 다른 미래를 사는 방식</quote>”일 뿐이다 <interp value="critical" ana="비평적 태도">정작 놀라운 것은 그들 스스로 내린 이 런 평가에도 불구하고, 그것은 비판의 대상이 아니라 문학의，다른 시간，,，다른 미래꼼으로 자연스럽게 받아들이는 비평적 태도이다</interp> 그，다른 시간，은 “<quote type="direct" genre="critic" source="이광호">주체 화의 근거를 무너뜨리는 위태로운 미학적 모험</quote>”으로 진술될 뿐, 이에 대한 비 평적 가치판단이 전혀 개입되지 않는다.</s>
+          <s>다만, “<quote type="direct" genre="critic" source="이광호">냉소와 위악</quote>”, “<quote type="direct" genre="critic" source="이광호">내향성과 위선</quote>” 의 <term type="concept">90년대 문학</term>이 “<quote type="direct" genre="critic" source="이광호">80년대 문학에 대한 역방향적 자기동일성의 추구</quote>”라고 진술 함으로써 결국 80년대의 이념적 주체와 90년대에도 지속되었던 그，유령^ 대 한 환멸을 드러내고 있을 뿐이다 <persName ref="#p-x20">이광호</persName>,「<title level="a" type="critic" xml:id="t-x11">혼종적 글쓰기 혹은 무중력 공간의 탄생</title>」（《<title level="j" type="journal" ref="#t-x10">문학과사회</title>》<date when="2005">2005년</date> 여름호）과 入<title level="a" type="critic" xml:id="t-x12">인디라는 유령의 시간</title>」（《문학과사 회》<date when="2006">2006년</date> 여름호） 참조.</s>
+          <s>특별히 '<term type="concept">반항</term>'같은 것을 할 생각이 없으며, 이를 통해 모종의 종합에 도달 할 생각도 없다.</s>
+          <s>(...) 그네들은 그네들의 감각 이외에 어떤，<term type="concept">저항</term>，이나，<term type="concept">이 상향</term>“도 꿈꾸지 않으며, 기성의 언어에 의해 대해 어떤 <term type="concept">메타언어</term>도 꿈꾸지 않는다.</s>
+        </p>
+        <p>
+          <s>(…) <quote type="direct" genre="critic" source="이장욱">그들은 그냥 다른 제국을 건설한다</quote>, 고 말하는 편이 나을 것 이다•⑹ (강조: 인용자)<persName ref="#p-x2">이장욱</persName>은 <term type="concept">젊은 시인들</term>의 <term type="concept">상상력</term>을 더 이상 현실의 자장 속에 두지 않 는다.</s>
+          <s><term type="concept">현실의 부정, 전복, 파괴, 위반</term>을 통해 현실과 대립함으로써 가치 체계 속에 배치되는 것을 거부한다.</s>
+          <s>이들의 새로운 상상력은，<term type="concept">저항</term>，혹은 ，<term type="concept">이상향</term>，조차 꿈꾸지 않으며, '그냥，그들만의 다른 제국을 건설한다* 이장 욱은 <term type="concept">새로운 시</term>를 옹호하면서,，그냥，이라는 부사를 교묘하게 사용한다.</s>
+          <s>이는 앞서 <term type="concept">해체</term>와 <term type="concept">균열</term>을 말하면서 사용했던 그저와 같은 맥락의 부사 다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">우연으로 보기에는 이 두 부사는 이장욱의 시학을 너무나도 잘 대변 해준다.</interp>
+          </s>
+          <s>그저“와 그냥，은 어떤 목적이나 의도도 없는 <term type="concept">무지향</term> • <term type="concept">무정향</term>을 드러낸다.</s>
+          <s><persName ref="#p-x2">이장욱</persName>에게 闺肉“와'<term type="concept">균열</term>은 그저 삶의 당연한 조건”이며, 새 로운 <term type="concept">상상력</term>은 그냥 다른 제국을 건설”할 뿐이다.</s>
+          <s>그들의 시에 드러나는 <term type="concept">해체</term>와 <term type="concept">균열</term>, 그리고 <term type="concept">다른 제국</term>은 어떤 목적이나 의도도 없다.</s>
+        </p>
+        <p>
+          <s>오직 “감 각만이 존재한다.</s>
+          <s>그 “감가조차도 현실의 재현이나 전복적 힘을 가진 환상이 아닌, 균열된 주체의 감관에'그냥', ‘그저' 흘러 들어온 무질서한 이미지이다.</s>
+          <s>현실과의 어떤 연계고리나 긴장 관계도 부정되는 것이다(“그 밖에 대해서는 별로 관심이 없다)그럼에도 불구하고〉이장욱은 이를 두고 “<quote type="direct" genre="critic">세계인식에 대한 미적 지각의 승리</quote>”라고 말하고 싶어한다.</s>
+          <s>그가 말하는 세계 인식은 “<quote type="direct" genre="critic">인간의 언어로 번역 가능한 세계</quote>”이며, 미적 지각은 “<quote type="direct" genre="critic">이 인 간의 언어 체계를 넘어선 곳에서 발원하는 불가능의 세계</quote>”이다.</s>
+          <s>이처럼 인간의 언어체계를 뛰어넘은 곳에 내장된 “<quote type="direct" genre="critic">무한한 질문</quote>”의 형식인 그들 의 환상이 과연 현실과 무관하게‘그냥，이루어질 수 있는 일일까?</s>
+          <s>그리이장욱,「외계인 인터뷰」,《문예중앙》2005년 가을호, pp.</s>
+          <s>24-25.</s>
+          <s>고 주체의 균열과 해체가 삶의 조건으로서 '그저' 존재할 수 있을까?</s>
+        </p>
+        <p>
+          <s>그 속에는 치열한 <term type="concept">현실적 통각</term>과 고투가 핏물처럼 스며 있지 않겠는가.</s>
+          <s>무 한한 질문에의 접근은 결단코 <term type="concept">현실</term>과의 팽팽한 긴장과 대립의 불가능한 한계선을 관류하는 <term type="concept">시적 의지</term> 속에서 어렵게 배어나오는 육（肉）의 언어 가 아니고서는 힘든 일이다，그저1，그냥，생겨나는 것은 아니다.</s>
+          <s><persName ref="#p-x2">이장욱</persName>의，<term type="concept">이기성</term>，（利리生）은 <persName ref="#p-x">권혁웅</persName>에게 오면,，<term type="concept">감각의 논리</term>'로 변환된 다 <persName role="critic" xml:id="p-x21">권혁응</persName>은 텍스트의 의미망보다 오직“감각，이 중요하다.</s>
+          <s><persName ref="#p-x">권혁웅</persName>은 말 한다.</s>
+          <s>”<quote type="direct" genre="critic">시적 자아는 그 모든 것들을 지배하는 실재의 주체가 아니라; 그것 들을 단지 문법적으로만 연계하는 가상의 주체일 뿐이다.</quote></s>
+          <s>끼7） <interp value="affirmative" ana="문학관">옳은 말이 다</interp> 텍스트를 재구성하는 주체는 저자가 아니라 독자라는 사실, 따라서 시 텍스트 내에 존재한다고 믿었던 시적 주체 역시 가상에 지나지 않는 다는 사실은 널리 수용되는 이론이자 실제이다 더 나아가 모든 텍스트의 의미망 역시 허구와 가상이라는 주장마저도 수용된다 그래서 <persName ref="#p-x">권혁웅</persName>은 ，<term type="movement">미래파</term>，의 시에서 텍스트의 의미보다，<term type="concept">감각</term>，이 중요시되어야 함을 역설 한다.</s>
+          <s>시에는 오직 의미를 탈각시킨 파편화된 <term type="concept">감각</term>만이 남는다.</s>
+          <s>
+            <interp value="critical" ana="문학관">그러나 이들의 비평은 정확히 여기까지다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>미래파 시인들의 탈주체와 감각이라 는 새로움의 역장（力場）만 높게 평가할 뿐, 이들 미래파의，미래'는 의식 하지 않는다.</s>
+          <s>그래서 미래파“의 미학적 혹은 비평적 자의식은 매우 우려스럽다，외 계로부터의 타전，이라는 미래파에 대한 명명법이 “<quote type="direct" genre="critic">그들은 이기적이다</quote>”（이 장욱）라는 말로 요약되듯이, 구체적 현실을 탈각시키는 전략의 일환인 점 에서는 더욱 그렇다 권혁웅 또한 최근 몇몇 젊은 시인들의 시세계를 일 컬어 그들만의 “상사（相似）의 놀이들로 규정하고 있는데, 전대 미학과의 단절을 적시하기 위한 수사（修辭）이지만, 탈주체와 탈현실을 함의한 말임권혁웅,「감각의 논리」,『미래파乐 문학과지성사, 2006, p.</s>
+          <s>17.</s>
+          <s>에 틀림없다* 상사（相似）, 즉 시뮬라크르（simulate）의 놀이로서 시는 실재 와의 관계를 단절한 채 순식간에 휘발해버리는 기표들의 놀이에 불과하 기 때문이다.</s>
+          <s>그럼에도 불구하고 이들의 시는 “<quote type="direct" genre="critic">재미있다</quote>”幻라는 말로 칭 송받는다이들의 주장을 따른다면, 미래파의 상상력은'감각，적‘재미“<quote type="direct" genre="critic">라는 말로 요약되고 그들의 즐김은 확실히‘변태，가 된다.19）그러나 이들의 변태적 위반과 저항은 이중의 균열을 안고 있다.20） 주체의 분열을 통해 억압적인 상징계적 질서를 교란하는 데 멈출 뿐, 새로운 현실을 꿈꾸지 않을 뿐더 러, 주체의 분열이라는 상상적 현실을 즐길 뿐이다 그들은 주체의 분열 을 통해 현실적 책무로부터 해방된 자유를 만끽한다 그럼에도 불구하고 이중으로 균열된 변태적 ♦재미</quote>”를 승인하는，미래파 비평，온 젊은 작가들 의 자폐적 쾌락과 탈주체의 허무주의를 정당화하는 기틀을 마련한다.</s>
+          <s>그 렇다면 상징계적 질서를 전복하는 힘을 지닌 젊은 작가들의 엽기적이고 발랄한 상상력은 어떤 지향점도 없는 자폐적 환각에 지나지 않을 뿐더러,권혁웅, 앞의 글, p.</s>
+          <s>67.</s>
+          <s>신형철은 롤랑 바르트의 개념을 빌려 이들의 시세계를 '변태，라고 말하기도 한다.</s>
+        </p>
+        <p>
+          <s>아그 공간 속에서 주체는 무언가를 '<term type="concept">즐기고</term> 있다.</s>
+          <s><term type="concept">'정상적인' 주체</term>라면 불 편해하거나 끔찍해할 만한 것들 앞에서 그들은 태연작약하다.</s>
+          <s>배려없이 묘사하 고 집요하게 반복한다.</s>
+          <s>일반적인 의미에서 그들은，<term type="concept">변태</term>笛七” <persName role="critic" xml:id="p-x22">신형철</persName>,「<title level="a" type="critic" xml:id="t-x13">앓는 세 대의 난경（難境）과 난무（亂舞）</title>」,《<title level="j" type="journal" ref="#t-x">문예중앙</title>》<date when="2006">2006년 봄호</date> p.</s>
+          <s>94.</s>
+          <s><persName role="foreigner" xml:id="p-x23">롤랑 바르트</persName>는 텍스트를 '<term type="concept">즐김의 텍스트</term>와'<term type="concept">즐거움，의 텍스트</term>로 구분했다得 즐 거움의 텍스트는 만족, 포만, 행복의 문화에 참여하는 문화적 <term type="concept">쾌락주의</term>와 관계 하고,，즐김，의 텍스트는 상실의 상태를 통해 독자의 역사적 • 문화적 • 심리적 토대와 가치관을 위태롭게 한다.</s>
+          <s>그러나 하나의 텍스트 속에서 <term type="concept">즐거움</term>과 <term type="concept">즐김</term> 의 고삐를 불잡고 있는 주체는 <interp value="critical" ana="미학">시대착오적이고 이중으로 균열된, 이중으로 변 태적인 주체로 비판한다.</interp></s>
+          <s>
+            <interp value="critical" ana="사상">이는 텍스트를 통해 고정된 위계, 질서, 가치규범에 저항하는 동시에 스스로를 윤리적 주체로 변형시키지 못한 것에 대한 비판을 함의한다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그것은 거電게 말해 삶과 문학의 일치, 윤리적 태도에 대한 요구이 다 롤랑 바르트, 김회영 역,『텍스트의 즐거움j（동문선, 1997）, p 61 참조.</s>
+          <s>전복의，포즈，만을 취하는 사이비 일탈일 가능성이 크다.</s>
+          <s>젊은 작가들의 상상력을 “<quote type="direct" genre="critic">탈주 혹은 자유의 상상력</quote>”으로 규정하지만 “<quote type="direct" genre="critic">치명적이지 못한 탈주</quote>”1)로 비판하는 이경수의 날카로운 지적 역시 이들의 사。】비 일탈을 감지한 결과이다 전복적 일탈과 상상력의 에너지를 현실의 역장으로 변 환시키지 못하는 한계를,，미래파 비평은 오히려 새로운 정체성으로 용 인하고 있는 셈이다.4 가상의 역설, 환상의 윤리학: 심화적 극복(Verwindung)미래파를 옹호하는 비평은 그들의 새로움에 지나치게 집착함으로써 그 들의 공과(功過)를 심층적으로 검토하지 못한 측면이 있다.</s>
+          <s>권혁웅 스스 로 고백하듯이, 미래파란 말은 “사실 실정적인 내용을 가지고 있지 않은 “텅 빈 명명“22〉에 지나지 않는다* 그러나 그도 말했듯이,，텅 빔'은 새로 움의 가능성이다 젊은 시인들의 새로운 상상력은 시적 스펙트럼을 드넓 게 분사함으로써, 시의 새로운 영토를 개척하고 있는지도 모른다.</s>
+          <s>억압된 시적 잠재태의 거침없는 현실화는 당혹스럽지만,《텅 빔，속에 채워질 미 학적 혁신은 그들의 분명한 가능성으로 남아 있다.</s>
+          <s>반복하지만, 문제는 이들 상상력에 대한 비평의 태도이다.</s>
+          <s>이들에 대한 비평의 책무는 고스란히 제자리에 남아 있다 고명철은 다음과 같이 말한 다 “이장욱과 권혁웅의 비평에서는 젊은 시의 새로운 자질과 그 미학적 성취에 대한 친절한 해명이 뒤따를 뿐, 급변한 현실 속에서 젊은 시들이 부딪치는 삶과 현실과의 관계 속에서 젊은 시들에게서 보이는 시적 주체 의 <quote type="direct" genre="critic">미적 고투</quote>에 대한 성찰은 결여되어 있다『23) 고명철의 “미적 고투”는이경수,「재현의 위기와 전략으로서의 마조히즘」,《작가세계》2006년 여름 호 p.</s>
+          <s>336.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x">권혁웅</persName>,「<title level="a" type="critic" xml:id="t-x14">내력(來歷)의 시</title>」,《<title level="j" type="journal" xml:id="t-x15">시와사상</title>》<date when="2006">2006년 여름호</date>, pp.</s>
+          <s>19~26<persName role="critic" xml:id="p-x24">고명철</persName>,「<title level="a" type="critic" xml:id="t-x16">탈주체 비평을 ◎어서야 하는 이유들</title>」,《<title level="j" type="journal" xml:id="t-x17">실천문^</title>》<date when="2006">2006년 여름호</date><persName role="foreigner" xml:id="p-x25">부르디외</persName>의 표현을 응용하자면, “<quote type="direct" genre="foreign">말해야 할 것과 그 장을 구성하는 외적 구속 사이의 타협의 결과</quote>”24）를 거부하는 행위이다.</s>
+          <s>그들의 시적 결과물이 전혀 다른 DNA를 지닌，외계，의 것일 리는 없다.</s>
+          <s><term type="concept">문화의 장</term> 내에서 의식 적이든 무의식적이든 그들의 시적 행위에는‘문화적，검열을 관통해온 미 적 고투가 뒤따랐음이 틀림없다 <term type="concept">미적 고투</term>의 중심에는 <term type="concept">시적 주체</term>가 있고 시인이 있다.</s>
+          <s>그렇다면 이들이 현실과 길항하는 방식을 살펴보는 일은 중 요하다이들의 시적 상상력을，<term type="concept">가상</term>飞imuhcre）으로 규정하든‘<term type="concept">환상</term>，으로 규정 하든 <interp value="neutral" ana="미학">현실과의 관계를 떠나서 생각할 수 없다</interp> 실재와 단절한 무중력의 '가상'이나 현실을 전복하고자 하는 환상 모두 현실의 장에서 사고할 수 밖에 없기 때문이다 <interp value="affirmative" ana="미학">현실의 이성적 질서, 위계, 권위 등을 전복하고자 하 는 환상은, 새로운 이상적 현실을 꿈꾸거나 결핍과 자유를 의식한다는 점 에서 윤리적이다.</interp></s>
+          <s>실재와 단절된 채 무의미한 기표들 사이로 한없이 미끄 러지는 <term type="concept">가상［simulacre）</term>조차도 무한한 자기증식을 통해 <term type="concept">상징계</term>의 경계를 넘어 <term type="concept">실재계</term>의 심층에 닿고자 하는 점에서 <interp value="affirmative" ana="미학">'부정'과 '역설'의 미학일 수 있다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="미학">이는 하나의 가능성이자, 젊은 시인들의 상상력이 이룰 수 있는 미 학의 최대치（그러나 수많은 균열이 주름 접힌）이다.</interp>
+          </s>
+          <s>그러나《<term type="movement">미래파</term>‘의 일 부는 여전히 <term type="concept">주체의 분열</term>이라는 '상상'의 <term type="movement">탈근대</term>적 현상에 목을 맨다.</s>
+        </p>
+        <p>
+          <s>이 는 <term type="concept">환상의 윤리학</term>도 가상의 역설적（부정성） 미학도 탈각시켜 버리는 '<term type="concept">미 적 방기</term>，（<persName ref="#p-x2">이장욱</persName>）의 정당성을 강화해나간다시인 <persName ref="#p-x11">김행숙</persName>이 “<quote type="direct" genre="poet">오늘날 환상은 주체의 균열과 분산이라는 탈근대적 현 상을 현시</quote>”하는 것이라고 설명하며, 다그것을 환상이라고 별로 생각하지도 않는 세대들에게 이제 환상은 무엇이고 시는 무엇일까”하고 자문하고 “이P- 197.</s>
+          <s><persName role="foreigner" xml:id="p-x26">피에르 부르디외</persName>,『<title level="m" type="foreign" xml:id="t-x18">혼돈을 일으키는 과학</title>내, <orgName xml:id="org-x5">솔</orgName> <date when="1994">1994</date>, p.</s>
+          <s>156.</s>
+          <s><quote type="direct" genre="poet">환상은 주체의 타자성과 복수성을 과시하고 나아가 시의 비전을 그 근본 에서 다시 묻게 할지도 모른다</quote>”2&gt;시인 <persName ref="#p-x11">김행숙</persName>의 말을 인용힘으로써, <interp value="critical" ana="사상">주체의 분열과 해체를 그대로 인정 하는 듯한 조강석의 진술도 어쩌면 담론의 과잉에서 빚어진 오류일지도 모른다</interp> 무성한 <term type="movement">탈주체</term> 이론들은 주체의 분열을 담론무의식）적 층위가 아닌 현실（의식）적 층위의 것으로 오인하게 만든다.</s>
+          <s><interp value="critical" ana="사상">환상이 주체의 균열 과 해체라는 탈근대적 현상의 현시（現示）라는 주장도 담론의 과잉이 조장 한，상상'적 현실에서 비롯된다</interp> 따라서 <term type="movement">미래파</term>의 상상력에서 발견할 수 있는 <term type="concept">주체의 분열</term>은 현실태가 아닌 잠재태로서, 젊은 작가들이 <term type="concept">상징계</term>를 분쇄하고자 채택한 하나의 전략이 아니라, 담론의 과잉에서 빚어진 해프 닝에 지나지 않을 딜레마에 빠지고 만다.</s>
+          <s>담론의 과잉에 오염된 시인들, 그리고 이를 전폭적으로 지지하는 비평가들 <persName role="critic" xml:id="p-x27">이경수</persName>의 말대로 “<quote type="direct" genre="critic">시의 언어 는 담론을 추종하는 언어가 되어서는 안</quote>也6）됨에도 불구하고, <interp value="critical" ana="문학관">미 래파의 시 는 그런 한계를 노출하고 있으며, 비평마저 이를 부추긴다</interp>.</s>
+          <s>
+            <interp value="critical" ana="문학관">주체의 분열 이라는 담론의 과잉을 좇아가는 시의 언어들, 그리고 그들을 좇아가는 비 평의 언어들이야말로 쓸쓸한 환영이 아니겠는가.</interp>
+          </s>
+          <s><term type="concept">젊은 시인들</term>의 상상력에서 지금 우리 문학이 필요로 하는 것은, <term type="concept">주체의 분열</term>이라는‘상상적，과잉에서 비롯되는 <term type="concept">마조히즘</term>적이고 <term type="concept">허무주의</term>적인 쾌락（<term type="concept">미적 방기</term>）에의 함몰이 아니라, 주체의 분열이라는 상상적 현실을 통해 <term type="concept">상징계</term>의 질서를 교란 • 전복하고 <term type="concept">실재계</term>로 탈주하거나, 불가능한 무한한 전체상에 닿고자 하는 미학적 전략^다.</s>
+        </p>
+        <p>
+          <s>주체의 균열과 해체라는 <term type="movement">탈근대</term> 담론에 기댄 단순한 <term type="concept">자폐적</term>‘재미'와‘감각，에의 탐닉은“예술의<persName role="critic" xml:id="p-x28">조강석</persName>,「<title level="a" type="critic" xml:id="t-x19">말하라 그대들이 본 것이 무엇인가를</title>」,《<title level="j" type="journal" ref="#t-x">문예중앙</title>》<date when="2005">2005년</date> 가을호 p 113.</s>
+          <s><persName ref="#p-x27">이경수</persName>, 앞의 글, p 3%.</s>
+          <s>죽음'이라는 풍문을 강화해 나갈 뿐이다.</s>
+          <s>그래도 여전히 <term type="concept">주체</term>는 없는 것 이 아니냐고?</s>
+          <s>너라는 인간도 나라는 인간도 사실은 영원히 미끄러지는 <term type="concept">기표</term>의 <term type="concept">환영</term>에 불과하지 않느냐고?</s>
+          <s>
+            <interp value="affirmative" ana="사상">슬프게도 옳은 말이다.</interp>
+          </s>
+          <s>우리가 사는 이곳은 <term type="concept">실재계</term>가 아닌 <term type="concept">상징계</term>라는 <term type="concept">매트릭스</term>, 허상의 세계일 뿐이니까.</s>
+          <s>이 미 <persName role="other" xml:id="p-x29">붓다</persName>가 말한 바 있는 자아（<term type="concept">주체</term>）의 실상（實相）을 우리는 이제야 이론적 으로 가까스로 가늠할 수 있다 하지만 여전히 우리의 주체는 경험의 단 일성과 지속성으로 존재하고 있으며, 털어낼 수 없는 우리의 주체가 발붙 일 곳은 <term type="concept">실재계</term>가 아닌 <term type="concept">상징계</term>라는 현실이다 <term type="concept">자명성</term>이란 현실효과가 거 대한 기계처럼 자율적으로 작동하는 <term type="concept">매트릭스</term>.</s>
+        </p>
+        <p>
+          <s>이곳을 <persName ref="#p-x29">붓다</persName>는‘<term type="concept">고해</term>'（苦 海라고 불렀다.</s>
+          <s>그러니 우리는 이곳을 무던히도 하지만 치열하게 살아 갈 수밖에.</s>
+          <s>그리고 우리의 <term type="concept">근대적 주체</term>가 <term type="concept">이분법적 폭력</term>의 원인이라면, 숱 한 <term type="concept">타자</term>를 억압한 내적 원흉이라면, <term type="concept">주체의 분열</term>을 삶의，당연한 조건으 로 ’상상중）■고 기표의 환각 속으로 사라질 것이 아니라, <term type="concept">주체의 재구성</term>을 삶의 '당위적' 조건으로 받아들일 일이다 <persName role="foreigner" xml:id="p-x30">쟌니 바티모</persName>는 <term type="movement">탈근대</term>（주체） 문 화의 <term type="concept">허무주의</term>를 경계하며, 다음과 같이 말한 바 있다<quote type="direct" genre="foreign">우리 시대에서 사고는 형이상학에 대해 심화적 극복（Verwindung）의 입 장에 서 있다.</quote></s>
+          <s>즉, <term type="concept">형이상학</term>은 낡고 남루한 저고리처럼 포기되지 않는다.</s>
+          <s>왜냐하면 <term type="concept">형이상학</term>은 여전히 운명적인值改打&amp;反h） 측면에서 우리의 인간 성을 형성하기 때문이다.</s>
+          <s>우리는 <term type="concept">형이상학</term>에 양보하고, 형이상학에 의지 하여 우리를 전유하며, 우리에게 운명지어진 어떤 것처럼 형이상학에 우 리를 위임하는 것이다27〉<persName role="foreigner" xml:id="p-x31">쟌니 반티모</persName>의 <term type="concept">심화적 극복（Verwindung）</term>은 <term type="concept">근대적 주체</term>의 재구성을 의 미한다.</s>
+          <s><term type="concept">근대적 주체</term>를 이탈하면서 치유하는 것, 혹은 근대적 주체에 계 속 의지함으로써 그것을 와해시키는 것* 이것은 근대적 주체의 강도를 줄2 7） <persName ref="#p-x31">쟌니 반티모</persName>, <persName role="critic" xml:id="p-x32">박상진</persName> 역,『<title level="m" type="foreign" xml:id="t-x20">근대의 종말</title>』, <orgName xml:id="org-x6">경성대학교 출판부</orgName>, 2003, pp・ 1M〜0 5.</s>
+          <s>이는 “<quote type="paraphrase" genre="critic">주체의 다이어트 치료와 같은 작업</quote>이다.</s>
+        </p>
+        <p>
+          <s>반티모의 심화적 극복 （Ven而dung）이란, 달리 말해서 <term type="concept">근대적 주체</term>에 대한 반성을 통한 극복이라 할 수 있으며, 결국 <term type="concept">탈주체</term>를 지향하더라도 주체로부터 이탈할 수 없는 인 간의，운명을 받아들인 결과이다.</s>
+          <s>아무리 <term type="concept">탈주체</term>와 <term type="concept">탈형이상학</term>을 외친다 하더라도 그것은 인간의 운명성의 범주（한계） 내에 있는 것이므로 오히려 그것을 더욱 심화함으로써 극복할 수밖에 없는 것이 아닐까?</s>
+          <s><interp value="affirmative" ana="미학">이때 가상의 역설적 미학이 가능해지며, 동시에 환상의 윤리학이 보증될 것이다</interp>5 <term type="concept">서정적 주체</term>의 재구성: 예술의 책임<quote type="direct" genre="critic">서정은 진화한다</quote> 라는‘<term type="movement">미래파</term>，의 말은 맞다 그렇다 서정적 주체는 변화한다.</s>
+          <s>그러나 <term type="concept">주체의 균열과 해체</term>라는‘<term type="movement">미래파</term>，식만 있는 것은 아니 다 <term type="concept">서정적 주체</term>의 <term type="concept">동일성 욕망</term>이 지닌 이중성을 감안하면, 더욱 그렇다.</s>
+          <s><term type="concept">타자</term>를 억압하고 자기화하는 폭력적 <term type="concept">동일성의 욕망</term>이 있는가 하면, 타자 의 고통과 상처를 공유하고 자기화하는 화해와 조화의 동일성 또한 있다.</s>
+          <s>전자에 가까운 <term type="concept">동일성의 욕망</term>은 바로 폭력적 시선으로 귀착되며，<term type="concept">근대적 주체</term>를 비판하는 주된 근거가 된다.</s>
+          <s>그러나 역설적으로 <term type="concept">근대적 주체</term>의 치 유 가능성 역시 <term type="concept">동일성의 또 다른 욕망</term>에 있으니, 그것은 바로 서정적 주 체의 낮아짐，28）（<persName role="critic" xml:id="p-x33">김경복</persName> <persName role="critic" xml:id="p-x34">송기한</persName>）이다.</s>
+          <s><term type="concept">타자</term>를 향해 열린 <term type="concept">동일성</term>은 자기중 심적인 동일성이 아닌 타자의 상처를 자기화하는 동일성이다.</s>
+        </p>
+        <p>
+          <s>구모룡 역시,，근대시학 극복을 위한 시학적 개념，에 대해 오랫동안 비 판적으로 천착해왔는데, 그 비판의 대상은 짐작하듯이, 자아중심주의, 동 일성, 은유이다.</s>
+          <s>그에 따르면 “유기론적 지평에서 시는 세계의 자아화가 아니，旧, “<quote type="direct" genre="critic">자연과의 교섭을 통해 우주적 마음을 표현</quote>”하는 것으로 정의된 다.</s>
+          <s>자아（주체）중심주의는 “시의 자기표현성을 부정하는 것이 아니며김경복, 以|정의 귀환』（좋은날, 2000）, pp.</s>
+          <s>32〜34 참조근 • 현대시의 자아중심성을 비판“한 것이다 구체적으로 말해, “<quote type="direct" genre="critic">자기표현 이 아니라 근대시에 나타나는 과잉된 자기표현</quote>”이 비판의 대상이 된다 그에게 있어서 “<quote type="direct" genre="critic">자기에서 비롯하되 궁극적인 도道）를 지향하는 시적 방 향과 자기만을 표현하기 위해 시적 전통을 부정하고 개성을 과장하는 시 적 방향은 서로 다</quote>”른 것이다.29） 그의 유기론에서 “시는 자기를 극복하고 궁극적인 조화에 이르는 과정，이므로 시는 근대적 의미의 동일성과 무관 하며, 조화，를 지향하는 것으로 파악된다.</s>
+          <s>마찬가지로 동일성의 수사학인 은유마저도 제유의 시학을 통해 극복하고 있다.</s>
+          <s>제유는 “<quote type="direct" genre="critic">새로운 관계를 꿈 꾸는 사유형태</quote>”로서, “<quote type="direct" genre="critic">은유가 닫아버린 의미의 동일성을 열면서 환유가 흩 어 놓은 무차별을 연결시</quote>”킴으로써 근대시학의 새로운 대안이 된다36재구성된 서정적 주체의 가능성을 보여주는 시를 일일이 열거할 수는 없고 한 편의 예만 들어보자.</s>
+          <s>마당귀에 풀이 우북하다모처럼만에 작심하고뽑아내려는데,뿌리 쪽에서 제법 힘이 느껴진다가문 여러 날타들어가는 혀 끝에감질나는 이슬방울 몇굴리며 건너온 자의 저력이 만만치 않다뿌리를 꽈악 물고 뻣세게 버티는 힘그런 점에서 젊은 시인들（미래파）의 상상력은 주체의 분열을 지향하지만 오히 려 자기분열이라는 ‘자기표현，의 과잉에 빠져 있다는 비판으로부터 자유로울 수 없다* 이는 매우 역설적이게도, 이들의 시가 자기중심성을 더욱 심화하는 결 과를 초래하고 있음을 말해준다.</s>
+          <s>시적 주체로부터 벗어나고자 하는 동시에 시 적 주체로의 귀환은 자동화되며, 자아중심성은 기형적으로 강화된다.0） 구모룡,『제유의 시학』（좋은날, 2000）, pp.</s>
+        </p>
+        <p>
+          <s>39〜51 및r<title level="m" type="critic" xml:id="t-x21">시의 옹호</title>』（<orgName xml:id="org-x7">천년의시작</orgName>, <date when="2006">2006</date>）, pp.</s>
+          <s>20~29 참조<quote type="direct" genre="poet" source="푸른 밧줄"><lg type="stanza"><l>풀잎 가운데 불끈</l></lg><lg type="stanza"><l>도드라진 잎맥을 타고 올라와</l></lg><lg type="stanza"><l>은근히 내 힘줄을 당긴다</l></lg><lg type="stanza"><l>어디 줄다리기라도 한 번 해 보자는 것인가</l></lg><lg type="stanza"><l>저 푸르른 근력으로 나를</l></lg><lg type="stanza"><l>땅겨보겠다는 것인가</l></lg><lg type="stanza"><l>줄을 쥔 손목에 바짝 힘이 들어간다</l></lg></quote>T<persName role="other" xml:id="p-x35">택수</persName>,「<title level="a" type="poem" xml:id="t-x22">푸른 밧줄</title>j （《<title level="j" type="journal" xml:id="t-x23">현대시학</title>》<date when="2006">2006</date>년 6월호） 전문이 시는 기존의 <term type="concept">서정시</term>와는 궤를 달리 한다 <term type="concept">서정적 주체</term>의 권위적인 ，동화，나，투사"에 의한，일방적인，<term type="concept">동일화</term>（물론, 이 시는 <term type="concept">동일성</term>의 원리가 분명히 작용하지만, 동일자적 시선의 자기반성 • 자기성찰의 과정을 거친 다는 점에서 기존의 동일성과 차이를 보인다.</s>
+          <s>이런 용어가 허락될지 모르 겠으나, <term type="concept">메타-동일성</term>，의 성격이다）를 자행하지 않을 뿐더러, 과잉된 자기 표현도 드러나지 않는다.</s>
+          <s><term type="concept">서정적 주체</term>는 마당귀에 우북한 풀을 뽑아내려 한다.</s>
+          <s>그러나 풀은 더 이상 <term type="concept">서정적 주체</term>에 투항하는 <term type="concept">동일성</term>의 대상이 아니 다 풀의 뿌리 쪽에서 제법 힘이 느껴지”는 것이다 그것은 <term type="concept">동일자적 시선</term> 을 거부하는 역동적 힘이다* 그래서 서정적 주체의 일방적 풀 뽑기는 어느 새 풀과의 팽팽한 줄다리기가 된다.</s>
+          <s><term type="concept">서정적 주체</term>는 줄다리기를 통해 풀과 의 새로운 관계 정립을 모색한다.</s>
+          <s>그것은 “<quote type="direct" genre="poet" source="푸른 밧줄">내 힘줄을 （잡아）당기</quote>”는 풀의 “<quote type="direct" genre="poet" source="푸른 밧줄">저 푸르른 근력</quote>을 확인하는 일이고 풀 아래 존재하는 생명의 본체, 혹은 〈<term type="movement">미래파</term>' 식으로 말해 주체의 분열 아래 존재하는 그 어떤‘<term type="concept">실재</term>'를 감지하 는 일이다치） 이 시를 통해 우리는 동일자적 시선을 지닌 <term type="concept">서정적 주체</term>가최근 <term type="concept">젊은 시인들</term>의 환상 속에서 생명의 본성을 읽어내려 하는 시도가 있어 흥미롭다.</s>
+          <s>“<term type="concept">생명</term>이라거나 <term type="concept">생태</term>라는 문제의식과는 거리가 먼 듯한 일군의 <term type="concept">젊은 시인들</term>에게서 두드러지는 <term type="concept">환상성</term>이 풍부한，<term type="concept">환상•시</term>，의 경우에도 이 생명의 문 제는 표면적으로 담론화되고 있지 않지만, 이들 시의 궁극적인 지향점을 염두 에 둔다면 생명의 문제에 대한 보다 깊이 있는 천착을 보여준다고 말할 수 있 다.</s>
+        </p>
+        <p>
+          <s>왜냐하면 이들 젊은 시인들이 관심을 집중하고 있는 무의식, 환상, 꿈의 영아닌, “<quote type="direct" genre="critic">푸르른 근력</quote>”의 힘으로 타자지향적으로 재구성된 서정적 주체의 가 능성을 확인할 수 있다.</s>
+          <s>서정의 가능성은 여전히 존재하고, 그것은 주체의 분열이나 해체가 아닌 재구성을 통해서도 이루어질 수 있는 것이다32）그렇다고 해서‘미래파，가 주장하는 새로운 서정을 놀란 눈으로 부정 할 이유는 없다.</s>
+          <s>“미래파“의 시가 우리 시단에 몰고 온 긍정적인 파장 역 시 무시할 수 없기 때문이다 그들은 분명 우리 시단의 시적 상상력의 보 폭을 넓힌 것만은 분명하며, 주체의 자명성 배후에 숨어 있는 세계의 실 재에 다다르고자 하는 미학적 분투의 새로운 가능성을 개척한다 문제는 주체의 분열을 당연한 현실로 받아들이는 태도와, 이를 통해 근대적 주체 의 재구성을 무력화하는 전략이다.</s>
+          <s>이는 미래파의 상상력을 오히려 악의 적으로 왜곡하는 결과를 초래할 수도 있다.，미 래파，비평은 그런 과오로 부터 자유롭지 않다.</s>
+          <s>'미래파，의 시는 시어의 유기적 통일성이라는 한계 내에 머물러 온 시 의 관습을 과감히 파괴하고, 탈주를 시도한다.</s>
+          <s>그들의 상상력은 매우 자역은 바로 자연과 생명의 본원적 자리이기도 하기 때문이다./ 생명이란 근본적 으로 인간 본성의 자연적 측면, 즉 무의식적 측면을 의미한다고 말할 수 있다* 생명의 본성은 자연의 본성이며, 자연의 본성은 또한 무의식적이기 때문이다 그것은 우리의 의식이 이해할 수 있는 영역이 아니다」김진수「시, 혹은 본원 적 생명의 노래」,《문학/판》2006년 여름호이장욱은「꽃들은 세상을 버리고」（《창작과비평》2005년 여름호）에서 문태준 의「개복숭아나무」를 분석하면서, 재구성된 서정적 주체일지라도 서정의 권위 라는 근원적인 한계를 벗어나지 못한다고 비판한다.</s>
+          <s>문태준의 시가 전통 서정 의 문법과는 다른 면을 보여줌에도 불구하고, “서정적 권위의 규율'을 넘어서 지 못하고 있음을 지적하고 있다.</s>
+          <s>그러나 주체의 권위가 없는 시란 존재할 수 있을까?</s>
+        </p>
+        <p>
+          <s>현상적 화자가 분열된 시라 할지라도 <term type="concept">함축적 화자</term>（시인）의 권위는 살 아있으며, 함축적 화자（시인）마저 분열되었을지라도 실제 시인의 권위는 여전 히 남아 있다.</s>
+          <s>실제 시인조차도 분열되는 지점에서는 시는 불가능해진다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">결국 모든 시는 주체의 권위로부터 자유롭지 못한 것이다.</interp>
+          </s>
+          <s>그렇다면, 문제는 <term type="concept">주체의 절대적 분열과 해체</term>가 아니라，<term type="concept">주체의 재구성과 반성</term>이다유분방하다.</s>
+          <s>파괴된 <term type="concept">아버지의 법</term>으로 인해 분열하는 <term type="concept">주체</term>의 내적인 상처 를 매우 핍진한 <term type="concept">파토스</term>로 자유롭게 드러내기도 하고 상처를 은폐하고자 하는 <term type="concept">억압</term> 역시 제거함으로써 <term type="concept">환상</term> 혹은 가상의 이미지가‘활달'과，끔찍 의 극단을 달리기도 한다.</s>
+          <s>아예 분열된 <term type="concept">주체</term>의 횡설수설도 시적 자장에 포함될 정도로 <interp value="neutral" ana="미학">이들의 시는 발랄의 강도를 더해가고 비평가들의 역량은 점점 부족해 보인다.</interp></s>
+          <s>아니, 어쩌면 이들의 작품은 이미 비평과 해석이라 는 <term type="concept">상징계</term>적 질서를 넘어선 것이기에, 비평의 언어는 이들 <term type="concept">상상력</term>의 발뒤 축을 핥거나, 불평하고 투덜대는 역할에 머물러야 할지도 모른다.</s>
+          <s>“비평 은 늘 작품보다 늦되데»）라는 <persName ref="#p-x">권혁웅</persName>의 말도 일리는 있다 그러나 <interp value="affirmative" ana="문학관">늦된 비평은 둔하기는 하지만, 왜곡하지 않을 뿐더러 더구나 윤리적이다.</interp></s>
+        </p>
+        <p>
+          <s>'<term type="movement">미래파</term>，의 새로운 <term type="concept">상상력</term>과 비평은 <term type="concept">윤리학</term>의 갈림길에 서 있다.</s>
+          <s><term type="concept">윤리 학</term>은 특별하지 않다.</s>
+          <s>텍스트가 형성하는 의미의 자장에 대한 최소한의 관 심과 자의식을 조건으로 한다.</s>
+          <s><term type="concept">윤리</term>는, 그들이 혐오해 마지않는 <term type="concept">이데올로 기</term>의 감옥이 아닌, 스스로 자유롭게 변화하고 생성하는 <term type="concept">미적 자의식</term>에서 비롯된다.</s>
+          <s>그리고 무엇보다 <term type="concept">윤리</term>는‘<term type="concept">진리</term>‘가 아닌, <term type="concept">책임</term>을 위해서 존재한 다 그것은 자신이 쏟아내고 즐긴 언어의 자리를 진지하게 되돌아보는 일 이다.，<interp value="critical" ana="미학">그저:，그냥，식의 무책임한 태도는</interp>, 아마도 <persName role="foreigner" xml:id="p-x36">바흐친</persName>의 말처럼 “<quote type="direct" genre="foreign">삶에 대해 책임을 지지 않고 창조하는 것이 더 쉽고, 예술을 염두에 두지 않고 사는 것이 더 쉽기 때문</quote>”일지도 모른다.</s>
+          <s>그리고 이어지는 다음 말을 음미 하는 것으로 이 글을 맺자.</s>
+          <s>예술과 삶은 하나가 아니다.</s>
+          <s><quote type="direct" genre="foreign">그러나 그것들은 내 안에서, 나의 책임의 통일 안에서 하나가 되어야 한다</quote>A）豳圖3 3） <persName ref="#p-x">권혁웅</persName>,「<title level="a" type="critic" xml:id="t-x24">미래파</title>」,《<title level="j" type="journal" ref="#t-x">문예중앙</title>》<date when="2005">2005년 봄호</date> p.</s>
+        </p>
+        <p>
+          <s>84.34）<persName role="foreigner" xml:id="p-x37">미하일 바흐친</persName>, 8■<title level="m" type="other" xml:id="t-x25">말의 미학</title>』, 길, <date when="2006">2006</date>, p.</s>
+          <s>26.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

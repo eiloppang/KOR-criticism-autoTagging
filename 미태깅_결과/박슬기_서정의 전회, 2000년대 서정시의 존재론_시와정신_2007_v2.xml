@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>서정의 전회, 2000년대 서정시의 존재론</title>
+        <author>박슬기</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>서정의 전회, <date from="2000" to="2009">2000년대</date> <term type="concept">서정시</term>의 존재론<persName role="critic" xml:id="p-x">박슬기</persName>비평, 오늘의 서정시를 이해하기 위하여“<quote type="direct" genre="critic">찰나적인 세계의 타오름</quote>”, <persName role="foreigner" xml:id="p-x2">에밀 슈타이거</persName>는 서정시를 이렇게 표현했 다.</s>
+          <s>세계와 <term type="concept">서정적 자아</term>가 만나서, 어느 한쪽도 그 자신을 지키지 못하고 융화되는 한 순간, 그 타오르는 불꽃의 순간이 서정의 가장 빛나는 순간 인 것이다.</s>
+          <s>그것은 한 순간에 타오르는 것이기 에, 지속되지 못한다.</s>
+          <s>세계 와 <term type="concept">서정적 자아</term>는 다만 불꽃이 타오르는 짧은 순간에만 마치 영원히 그러 했다는듯이 융화된다.</s>
+          <s>그러므로, <term type="concept">서정시</term>에는<quote type="paraphrase" genre="critic">자아와 세계와의 거리가 없 으며, 대상과 주관의 영원한 융화의 순간만이 표현된다</quote>는 말은 서정시의 본질을 가리키고 있다.</s>
+          <s>하여, 우리가 어떤 시가 서정적인가를 판단할 수 있기 위해서는, <persName role="foreigner" xml:id="p-x3">슈타 이거</persName>의 표현에 기댈 수밖에 없을 것이다.</s>
+          <s><term type="concept">서정시</term>란 대상과 주관 사이에 거리가 없는 상태, 대상도 주관도 오로지 ‘<term type="concept">정조의 상태</term>’ 로만 존재하는 형식이기 때문이다.</s>
+          <s>그러므로 오늘의 세계에서 과연 <term type="concept">서정시</term>가존재할수 있 느냐의 문제는 어떻게 서정의 가장 빛나는 순간이 현현되느냐에 달려있 다.</s>
+        </p>
+        <p>
+          <s><term type="concept">서정시</term>의 이론은 이 문제를 주관의 측면에서 파악했다.</s>
+          <s>말하자면, 서 정시의 성패는 <term type="concept">서정적 자아</term>가 어떻게 대상 세계를 자신의 내면으로 끌여 들여 ‘<term type="concept">주관화</term>’ 를 할수 있느냐의 문제와 연결된다,<persName role="foreigner" xml:id="p-x4">헤겔</persName>이 <term type="concept">서정시</term>를 “<quote type="direct" genre="critic" source="헤겔">주관 그 자체</quote>”로 정의한 이래, <term type="concept">서정시</term>는 오래도록 “<quote type="direct" genre="critic" source="골드만">주관의 세계화</quote>"（<persName role="foreigner" xml:id="p-x5">골드만</persName>）라는 이념으로 이해되어 왔다.</s>
+          <s>여기에는 대상을 해석하고 끌어들이는 <term type="concept">서정적 자아</term>의 우위성이 전제되어 있다.</s>
+          <s>그러나, 많 은 철학자들이 지적했듯 이 <interp value="neutral" ana="사회">주체의 우위성은 현대 사회에서는 지켜지기 어렵다.</interp></s>
+          <s>그렇다면, 현대 사회에서 <term type="concept">서정시</term>는 불가능한 것인가?</s>
+          <s>미리 말하 면 그렇지 않다.</s>
+          <s>
+            <interp value="critical" ana="문학관">우리는 다만, 서정의 빛나는 순간을 지나치게 주체의 입 장에서 해석해 왔을 뿐이다.</interp>
+          </s>
+          <s><persName ref="#p-x3">슈타이거</persName>가 대상과 주관이 ‘상태’ 로만 존재 한다고 했을 때, 그는 주관과 객관이 다만 ‘소멸’ 된다고 말했다.</s>
+        </p>
+        <p>
+          <s>거기에 는 <term type="concept">주관성</term>도 <term type="concept">객관성</term>도 없다.</s>
+          <s>다만 <term type="concept">서정</term>의 빛나는 순간만이 있을 뿐.</s>
+          <s>아름 다운 <term type="concept">서정시</term>는 오늘날에도 씌어진다.</s>
+          <s>다만 <term type="concept">서정적 자아</term>가 현저히 약화된 채로.</s>
+          <s>장미가 아름답다고 말할 때, 우리는 어떻게 장미가 아름다운지 알 수 있는가?</s>
+          <s>그것은 대상이 우리에게 그 아름다움을 불러일으키기 때문이다.</s>
+          <s>우리의 <term type="concept">주관</term>이 선행하여, 장미를 아름답다고 ‘<quote type="direct" genre="poet">규정</quote>’ 하는 것이 아니라, 아 름다운 장미가나의 <term type="concept">감수성</term>을 자극하여 아름다움을 ‘<quote type="direct" genre="poet">느끼게</quote>’ 만든다.</s>
+          <s>즉, 판단을 강요하는 대상의 출현이 내가 판단을 하도록 만드는 것이다.</s>
+        </p>
+        <p>
+          <s>여기 에서 전희가 일어난다.</s>
+          <s>지금, 우리에게 <term type="concept">서정시</term>가 가능하다고 판단하기 위 해서는 <term type="concept">칸트적 전회</term>를 따라 대상과 주관의 자리를 바꾸어 놓을 필요가 있 다.</s>
+          <s>지금 이 시대에 씌어지는 많은 아름다운 <term type="concept">서정시</term>는 이 대상을 흡수하 는 것이 아니라, 대상 자체가 말하는 자리에서 그 빛나는 순간이 현현되 고 있기 때문이다.</s>
+          <s>그러므로, 우리는 지금의 <term type="concept">서정시</term>를 이해하기 위해서 주관과 대상의 거 리를 다시 가늠해 보아야만 한다.</s>
+          <s><quote type="direct" genre="poet">나를 부르는 검고 고요한 저 소실점의 목소리</quote>r<title level="m" type="poem" xml:id="t-x">당신은 어딘가로가려한다</title>j（<orgName xml:id="org-x">문학동네</orgName>, <date when="2003">2003</date>）와『<title level="m" type="poem" xml:id="t-x2">바람의 사생활</title>』（<orgName xml:id="org-x2">창비</orgName>, <date when="2006">2006</date>）에실린<persName role="poet" xml:id="p-x6">이병률</persName>의많은시들은 <term type="concept">서정시</term> ‘<quote type="direct" genre="poet">답지</quote>’ 않게 길이가 긴시들 이 많다.</s>
+          <s>명징한 비유법으로 짧은 몇 줄에 찰나의 순간을 형상화하는 것 이 <term type="concept">서정시</term>의 주된 형식이라 한다면, <interp value="critical" ana="미학">이병률의 시는 길이에서부터 서정시 에서 일탈하고 있는 셈이다.</interp></s>
+          <s>뿐만 아니라, 그의 시에는 언제나 <interp value="critical" ana="미학">좋은 서정 시가 경계하는 감정의 과잉이 종종 드러난다.</interp></s>
+          <s>말하자면, <interp value="neutral" ana="미학">그는 늘 슬퍼하 는 시인이다.</interp></s>
+        </p>
+        <p>
+          <s>그는 좋은 <term type="concept">서정시인</term>의 직분을 모른 체라도 하는 듯이, <quote type="paraphrase" genre="poet">쓸쓸 하다고, 울고 싶다고, 외롭다고 고백한다</quote>.</s>
+          <s>그러나 <interp value="affirmative" ana="미학">이렇게 솔직한 시들이 잔잔하고도 먹먹하게 존재를 울린다</interp>.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그의 슬픔은 과장되어 있지 않고, 깊은 공감을 불러일으킨다.</interp>
+          </s>
+          <s><quote type="direct" genre="poet" source="장도 열차">이번 어느 가을날, / 저는 열차를 타고 / 당신이 사는 델 지나친다고 / 편지를 띄웠습니다//5시 와분에 도착했다가/6시 14분에 발차합니다//하지만플랫폼 에 나오지 않았더군요 / 당신을 찾느라 차창 밖으로 목을 뺀 십오 분 사이 / 겨울 이 왔고/가을은 저물 대로 저물어 / 지상의 바닥까지 어둑어둑했습니다</quote>-<persName ref="#p-x6">이병률</persName>/<title level="a" type="poem" xml:id="t-x3">장도 열차</title>」<interp value="affirmative" ana="미학">이 소박한 시에는 깊은 슬픔이 배어나온다</interp>.</s>
+          <s>내가 보고 싶어 하는 당신 이 나를 보러 나와 주지 않았기 때문만은 아니다.</s>
+          <s>그것은 내가 당신을 기 다릴 수 있는 시간이 15분 밖에 되지 않기 때문이다.</s>
+          <s>그리고, 나는 다시 대 륙을 횡단하는 열차를 타고 오래도록 여행을 계속해야만 하기 때문이다.</s>
+          <s>나와 당신의 사이에 놓인 이 15분의 시간은 그러므로, 당신과 내가 만날 수 있을지도 모르는 아주 짧은 순간인 동시에 영원히 만날 수 없는 헤어 짐의 시간인 것이다.</s>
+        </p>
+        <p>
+          <s>이는 인간 존재의 근원적인 <term type="concept">슬픔</term>이다.</s>
+          <s>인간과 인간 사이에 놓인 15분의 거리는, 모든존재에게 동일한 만남과 헤어짐의 거리 인 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">5시 多분과 6시 14분의 사이, 늦가을의 짧은 해가 지고 어두움 이 깔리는 이 시간은 서정적 자아의 어두워지는 내면을 훌륭하게 표현한다.</interp>
+          </s>
+          <s>그러므로 당연히, 어둑어둑해지는 지상의 바닥은 서정적 자아의 어두 워지는 내면일 것이다.</s>
+          <s>이토록 이 두 시집에 실린 시들의 정조는바로 이러한 ‘<term type="concept">어긋남의 순간</term>’ 에 놓여있다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 어긋남이 필연적으로 인간 존재의 근원적 슬픔이기에, 이 서정적 자아의 슬픔은 보편적 공감을 얻는다.</interp>
+          </s>
+          <s>그러나, <persName ref="#p-x6">이병률</persName>의 시가 더욱 ‘<term type="concept">슬프다</term>’ 라고 느껴지는 것은 서정적 자아가 이 본원적 거리를 메우 기 위해 지독하게도 애를 쓰고 있기 때문이다.</s>
+          <s>이 서정적 자아는 당신을 향해 목을 길게 뺀 자아, 그럼으로써 내리는 어둠을 온 몸으로 감내하고 있는 자이다.</s>
+        </p>
+        <p>
+          <s>내가 밀어내거나, 혹은 당신이 밀어내거나, 이 어긋남의 공간 속에 서 <term type="concept">정적 자아</term>는 위태롭게 놓여있다.</s>
+          <s>나는 “<quote type="direct" genre="poet" source="관계의 사전">게걸스럽게 당신을 다 발라먹어 도 / 난 당신을 온전히 살려낼 수 있을 듯한데</quote>" 도, 이런 나를 <quote type="direct" genre="poet" source="관계의 사전">銅사코 나 를 이불 밖으로 밀며 콧김조차 주지 않는</quote>’’ （「<title level="a" type="poem" xml:id="t-x4">관계의 사전</title>」） 당신의 뒷모습 만 바라보며 그 거리를 좁히려 애쓰는 자아이다.</s>
+          <s>
+            <interp value="critical" ana="미학">그러나 정말 그러한가.</interp>
+          </s>
+          <s>옮겨놓은 다음 시를 읽으면 고개를 갸우뚱하게 된다.</s>
+          <s>나에겐 <quote type="direct" genre="poet">쉰이 넘은 형</quote>이 하나 있다/그가 사촌인지 육촌인지 혹은 그 이상인지 모른다// 태백 어디쫌에서, 봉화 어디쯤에서 돌아갈차비가 없다며 /돈을 부치 라고 하면 나에게 돌아오지도 않을 형에게 / 삼만원도 부치고 오만원도 부친다/ 돌아와서도 나에게 전화 한통하지 않는 형에게 / 또아주 먼 곳에서 돈이 떨어졌 다며 /자신을 데리러 와달라는 말을듣고 싶은 것이다, 나는//나는그가 관계인 지 높이인지 혹은 그 이상인지 잘 모른다//단지 그가 더 멀리 먼 곳으로 갔으면 하고 바랄 뿐 / 그래서 오만원을 부치라 하면 부치고 / 십만원을 부치라 하면 부 치며 /그의 갈라진 말소리에 대답하고 싶은 것이다// 그가 어느 먼 바닷가에서 행 려병자 되어 있다고 / 누군가 연락해왔을 땐 그의 낡은 지갑 속에 / 내 전화번 호 적힌 오래된 종이가 있더라는 것 / 종이 뒤에는 내게서 받은 돈과 날짜 들이 / 깨알같이 적혀 있더라는 것 // 어수룩하게 그를 데리러 가는나는 도착하지도 않 아/그에게 종아리이거나 두툼한 옷이거나 /그도 아니면 <title level="a" type="poem" xml:id="t-x5">겹</title>이라도 됐으면 하는 바람이 간절할 뿐/ 어디 더 더 먼 곳에서 자신을 데리러 와달라고 했으면 하고/ 자꾸 바라고또바랄뿐—<persName ref="#p-x6">이병률</persName>,「겹」이 “쉰이 넘은 형”은 무례할 뿐 아니라, 야박하기까지 한 형이다.</s>
+          <s>마치 맡겨놓은 돈을 찾아가는 듯한 태도도 태도려니와 별다른 교류도 없는 동 생에게 매번 도움을 청하면서도, 정작 돌아와서는 전화 한 통도 하지 않 는 것이다.</s>
+          <s>
+            <interp value="neutral" ana="미학">이상한 것은 화자의 태도다.</interp>
+          </s>
+          <s>이 무례하고도 야박한 형이, 더군 다나 딱히 관계랄 것도 없는 이 형이 아주 먼 거 리에서 나를 찾는 목소리 를 듣고 싶어한다.</s>
+        </p>
+        <p>
+          <s>그러고도 그 형이 행려병자가 되었다고 하자, “<quote type="direct" genre="poet">어수룩 하게</quote>"도 그를 데리러 그에게 찾아간다.</s>
+          <s>그러면서도 그는 그 형이 어디 더 먼 곳에서 자신을 찾기를 바란다.</s>
+          <s>
+            <quote type="direct" genre="poet">나는 그와의 거리가 가까워지기를 원하 지 않는다.</quote>
+          </s>
+          <s>형과나사이의 거리가소멸되면, 형은나를 더 이상 ‘부르지’ 않을것이므로.</s>
+          <s>화자는 형을 돌보는 위치에 있지만, 그의 위치를 가능하게 하는 것은 형의 *<term type="concept">목소리</term>’이다.</s>
+          <s>아주먼곳에서자신을부르는형의 ‘<term type="concept">목소리</term>’가화자 를 존재하게 하는 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">나를 부르는 타자의 목소리가 나를 존재하게 한다는 것, 바로 여기에 극적으로 수동적인 주체가 존재한다.</interp>
+          </s>
+          <s><persName ref="#p-x6">이병률</persName>의 많은 시가 타인의 대화를 “<quote type="direct" genre="poet">엿듣는</quote>” 상태에서 시작하는 것은 우연한 일이 아닐 것이다.「<title level="a" type="poem" xml:id="t-x6">절벽 갈래 바다 갈래</title>」에서는 옆 테이블에서 술을 마시던 한 무리의 사람들 속에서 들리는 말을 듣고 나서 시적 화자의 사유가 시 작되고, 장님부부의 대화를 엿듣고 슬픔이 시작된다던가（「<title level="a" type="poem" xml:id="t-x7">파도</title>」）, 시골 아낙의 대화를 엿듣는「<title level="a" type="poem" xml:id="t-x8">미행</title>」등 많은 시가타인의 <term type="concept">목소리</term>에 기대어 시작 된다.</s>
+        </p>
+        <p>
+          <s>혹은 편지를 받거나, 전화를 받고 시가 시작된다.</s>
+          <s>즉, 이러한<term type="concept">타인의 목소리</term>가 비로소 주체의 사유가 시작되게 한다.</s>
+          <s>다른 사람들의 목소리가 시인의 내면 속으로 들어와 파문을 일으키고, 이 응답을 통해 비로소 <term type="concept">서 정적 자아</term>는 존재할 수 있다.</s>
+          <s>그러나 이러한 <term type="concept">타자의 목소리</term>에 응답하는 주체는 타자와의 거리를 계 속 유지하고자 할 뿐, 타자를 향해 적극적으로 다가가지 않는다.</s>
+          <s>
+            <quote type="indirect" genre="poet">마치 사 내가 있는 여자를 집에 들여 같이 살면서도, 오직 여자의 사내 이야기만 듣는 것처럼.</quote>
+          </s>
+          <s>（「<title level="a" type="poem" xml:id="t-x9">인디언 썸머</title>」） 왜냐하면, ‘‘<quote type="direct" genre="poet" source="아무도 모른다">알게 되면 그것을 잃는 일</quote>”（「아 무도 모른다’」）이기 때문이다.</s>
+          <s><term type="concept">타자</term>를 ‘<quote type="direct" genre="poet">아는</quote>’ 순간 소유하게 될 것이라는것을, 그렇다면 지금 목소리에 응답하는 <term type="concept">서정적 주체</term>는 소멸할 뿐만 아니 라 동시에 타자 역시 소멸하게 될 것이라는 사실을 이 서정적 주체는 잘 알고 있는 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 간극을 알면서도 소멸시키지 않는 것, 그러므로 영원히 만날 수 없 는 존재 사이에 자신을 위치시킨 서정적 주체는 바로 그 순간에 서정적으 로 현현한다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그 순간은 1인칭의 내면으로 대상을 환원하지 않는 <term type="concept">소실점</term>, 오직 그 영원의 거리만이 존재하는소실점이다.</s>
+          <s>그러므로,<term type="concept">서정적 주체</term>가 할 수 있는 일은 다만 “<quote type="direct" genre="poet" source="봉인된 지도">허나 내가 지켜야 할 약속은 / 검고 고요한 저 소실 점을 향해 가는 일</quote>” （r<title level="a" type="poem" xml:id="t-x10">봉인된 지도</title>」） 일 수밖에 없는 것이다.</s>
+          <s>청둥오리떼가 파다닥 멀어지기 직전<persName role="poet" xml:id="p-x7">손택수</persName>의 두 시집,『<title level="m" type="poem" xml:id="t-x11">호랑이 발자국</title>j（<orgName ref="#org-x2">창비</orgName>, <date when="2003">2003</date>）, r<title level="m" type="poem" xml:id="t-x12">목련전차</title>』（창비, <date when="2006">2006</date>） 에서도 <term type="concept">서정적 주체</term>와 <term type="concept">타자</term>의 위치가 반전된다.</s>
+          <s>다만, <persName ref="#p-x6">이병률</persName>의 시 에서 이 대상이 주로 인간적 존재들이었다면, <persName ref="#p-x7">손택수</persName>의 시에서는 자연과 사물의 풍경이다.</s>
+          <s><quote type="direct" genre="poet" source="폭포">벚꽃이 진다 피어나자마자/ 태어난 세상이 절벽이라는 것을/ 단번에 깨달아 버 린 자들, 가지마다 충충 / 눈 질끔 감고 뛰어내 린다 / 안에서 바깥으로 화르르 / 자신을 무너뜨리는 나무, / 자신을 무너뜨린 뒤에야 /절벽을 하얗게 쓰다듬으며 떨어져내라는 / 저 소리없는 폭포// 벚꽃나무 아래 들어 / 귀가 얼얼하도록 매를 맞는다/폭포수아래 득옴을 꿈꾸던 옛 가객처럼 / 머리를짜개버릴 듯쏟아져내 리는/꽃의 낙차에 시퍼렇게 멍이 들어서</quote>—<persName ref="#p-x7">손택수</persName>,「폭포」벚꽃이 지는 풍경을 묘사한 이 시는 전형적인 <term type="concept">서정시</term>처 럼 보인다.</s>
+          <s>태어 난 세상이 절벽 이라는 것을 단번에 깨달아버 린 자들인 벚꽃은 기실 <persName role="other" xml:id="p-x8">시인</persName> 자신일 것이다.</s>
+          <s>그러므로, 절벽에서 떨어지는 꽃잎은 시인의 마음이다.</s>
+          <s>그러나 <interp value="neutral" ana="미학">이 시의 묘한 구도는 지레 벚꽃이 시인의 마음의 은유라는 것을거부하고 있다.</interp></s>
+        </p>
+        <p>
+          <s>벚꽃은 태어나자마자 떨어진다.</s>
+          <s>그러나 그것이 자신의 마 음이라는 것을 깨닫게 되는 것은, 이 서정적 자아가 "<quote type="direct" genre="poet">귀가 얼얼하도록 매 를 맞</quote>”는 순간에 이르러서다.</s>
+          <s>태어난 세상이 절벽이라는 것을 깨닫게 되 는 것은 폭포처럼 떨어지는 꽃잎을 맞으면서이고, 그 꽃잎이 주체의 머리 를 짜개버릴 듯이 떨어져 와 그 깨달음을 얻게 하는 것이다.</s>
+          <s>이 서정적인 풍경에도 불구하고, 벚꽃은 서정적 주체에게 폭력적으로 다가온다.</s>
+          <s>머리가 짜개지는 <term type="concept">득음</term>의 순간, 이 순간을 열어주는 것은 이미 투사된 시인의 내면이 아니라 그 대상 자체의 본질인 것이다.</s>
+          <s>이렇게 풍 경과주체의 풍경이 전회되는순간, 이에 속절없이 내맡겨버리는 서정적 주체가 비로소 부상하는 것이다.</s>
+          <s><quote type="direct" genre="poet" source="방심"><lg type="stanza"><l>한낮 대청마루에 누워 앞뒤 문을 열어놓고 있다가, 앞뒤 문으로 나락드락 불 어오는바람에 겨드랑 땀을 식히고 있다가, // 스윽, 제비 한 마리가, / 집올 관통 했다//그하얀 아랫배,/내 낯바닥에 / 닿을듯 말듯, / 한순간에, / 스쳐지나가 버렸다沙 집이 잠시 어안이 벙벙 / 그야말로 무방비로/ 앞뒤로 뻥 /뚫려버린 순 간, // 제비 아랫배처럼 하얗고 서늘한 바람이 사립문을 빠져 나가는 게 보였다 내 몸의 숨구멍이란 숨구멍올 모두 확 열어젖히고</l></lg><lg type="stanza"><l>-</l></lg></quote> <persName ref="#p-x7">손택수</persName>/<title level="a" type="poem" xml:id="t-x13">방심</title>」이렇게 서정적 주체는자연의 풍경이 침입하는 데 어찌할 도리가 없다.</s>
+          <s>제비 한 마리가 관통하는 순간, 정말로 한 순간에 주체는 개방된다.</s>
+        </p>
+        <p>
+          <s>잠시 어안이 벙벙한 사이, 무방비로.</s>
+          <s>약간 느린 듯한 어조로 시작되어, 제비가 통과하는 순간 시적 호흡이 가빠지다가, 띄어쓰기도 무시한 채 “<quote type="direct" genre="poet">스쳐지 나가버렸다</quote>”라고 말하는순간, 이 시의 공간 자체도 제비의 침입에 속수 무책이 된다.</s>
+          <s>어찌할도리 없이 제비에게 몸을 내어주는 이 주체의 모습 은, <persName ref="#p-x7">손택수</persName>의 시에서 <term type="concept">서정적 주체</term>의 일반적인 모습을 보여준다.</s>
+          <s><persName ref="#p-x7">손택수</persName>의 <term type="concept">서정적 주체</term>는 이렇게 만상을 받아들이는 ‘<term type="concept">빈 공간</term>’ 으로서의 주체이다.</s>
+          <s>거기에는 “<quote type="direct" genre="poet" source="제비에게 세를 주다">달빛이 두루마리 화장지를 들고 와 하룻밤 묵어가</quote>”（「<title level="a" type="poem" xml:id="t-x14">제비에게 세를 주다'</title>」）고, 제비가 세를드는, 만상이 거주하는 빈 집일 뿐이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">손택수의 많은 좋은 시들이 , 그렇게 주체를 속절없이 내맡기게 하는 풍 경을 묘사하고 있음은 우연한 일이 아니다.</interp>
+          </s>
+          <s>쓸쓸한 마음에 밤길을 걷는 주체의 내면 속에 열 개의 달이 뜨고, 다만그 달이 뜨고 지는 리듬에 마음 을 맡기는 주체는 비로소 그제서야, "<quote type="direct" genre="poet" source="十月, 내 몸속엔 열 개의 달이 뜬다">여린 귀에 대고 뭐라고, 뭐라고속삭 이는 바람소리를 듣는다</quote>’’（「<title level="a" type="poem" xml:id="t-x15">十月, 내 몸속엔 열 개의 달이 뜬다'</title>」） 달의 리 듬에 맡겨 둔, 그 마음의 빈 자리에 자연의 풍경은 들어와 “<quote type="direct" genre="poet">자신의 가장 깊은 곳으로 떨어져서 반짝이는 모래 한 알</quote>"과 그 모래의 오랜 시간을 주 체의 마음 속에 부려놓는다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 서정적 순간은슈타이거가 말한그대로의 의미에서 주체와 대상의 융화 상태라고 할 수 있을 것이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그러므로, 이 순간 <term type="concept">서정적 주체</term>는 소멸된다.</s>
+          <s>다만, <term type="concept">서정적 주체</term>의 내면 속에서 출렁이 는 자연의 풍경만이 그 아름다운 순간을 현현한다.</s>
+          <s>그러나, <persName ref="#p-x7">손택수</persName> 시에서 진정으로 <term type="concept">서정적</term>인 순간은 그렇게 자연에 융화 된 상태, <term type="concept">주체의 소멸</term> 상태가 아니다.</s>
+          <s>만일에 그렇다면, 그것은 자연에 거 주하는 시적 자아의 상태를 노래한 전통적 이고 <term type="concept">목가적인 서정시</term>들과 다 르지 않았을 것이다.</s>
+          <s>그것이 주관에 의한 것이든, 대상의 폭력성에 의한 것이든.</s>
+          <s>이렇게 주관 속에 대상이 침입해 들어오기 직전의 순간, 그리고 대상이 침입해 들어오면서 벌려놓는 대상과 주관 사이의 미묘한 틈새가 주는 폭발적인 긴장감이 <persName ref="#p-x7">손택수</persName>의 시를 기존의 <term type="concept">전통서정시</term>와 다른자리 에 놓게 한다.</s>
+          <s>
+            <quote type="direct" genre="poet">절벽 끝에 물수리가 떴다//동력을 꺼버린 목선처럼 꼼짝 않고 물속 동정을 살피고 있는 수리, /7 안으로 움츠린 발톱이 근지러울 것이다 저 발톱 끝이 구름 속의 번개처 럼 좌악 퍼지는 순간 // 후려랏!</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">어로장의 깃발이 을라가리라 신호기 와 함께 수면이 팟 팟 깨어지면서 그물망 위로 파다다닥 은비린내가온통 봄하늘 을 물들이리라 // 그러나 지금은 숨소리 하나도 가만히 눌러 죽여야 할 시간, 일 필휘지 허공을 단숨에 그어내리기 위하여 // 망루에 오른 어로장은 벌써 몇시간 짜!</quote>
+          </s>
+        </p>
+        <p>
+          <s>꿈쩍을 않는다—<persName ref="#p-x7">손택수</persName>/가덕도 숭어잡0L돌끝에 내 손끝이 닿기 직전 잠자코 있던 청둥오리떼는 틀림없이 날개 근육 을 긴장시킬 것이다 당겨진근육속천둥의 힘이 폭발하며 치솟아오를 채비롤마 친 무리들이 일제히 나의 다음 동작을 기다리고 있을 것이다 // 그러나 청둥오리 떼 파다닥 멀어지기 직전, 오오 바로 그 직전 나는 잠시 청둥오리 몸속에 있다 청 둥오리 몸속 가장 깊은 곳에 닿았다 떨어진다—<persName ref="#p-x7">손택수</persName>,「<title level="a" type="poem" xml:id="t-x16">청둥오리떼 파다닥 멀어지기 직전</title>」이 두 시가 사냥의 형식을 취하고 있는 것은 우연한 일이 아니다.</s>
+          <s>사냥 이야말로 대상과 주관 사이에 치 열한 싸움이 벌어지는 생존의 형식이 아 닌가.</s>
+          <s>대상을 붙잡기 위해서, 그리고 대상에게서 벗어나기 위해서 필사적 으로 상대의 동태를 파악하는 순간의 긴장감은 인류의 가장 오래된 기억 속에 남아있는 순간일 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 긴장감의 순간을 이토록 간결한 어휘와 강약을 적절히 조절한 호흡으로 묘사하는 것은 역시 손택수의 장기이다.</interp>
+          </s>
+          <s>각각 물수리와 숭어에서, 나와 청둥오리떼 사이에서 일어나는 긴장감의 순간은마치 영원인 듯 느껴진다.</s>
+          <s>이렇게 대상과 주관 사이에 흐르는 팽 팽한 긴장감의 순간이 <persName ref="#p-x7">손택수</persName>의 시에서 가장 빛나는 서정적인 순간이다.</s>
+          <s>대상 속으로 매몰되지 않고, 또한 대상을 주관화하여 끌어들이지 않는다.</s>
+          <s>다만 그 상태, 폭력적인 대상과 역시 폭력적인 주관 사이에서 벌어져 있 는 이 순간에서 주관은 대상에 닿았다가 곧 미끌어지고, 또 다시 미끌어 진다.</s>
+        </p>
+        <p>
+          <s>이는 <persName ref="#p-x6">이병률</persName>의 시에서 보였던, <term type="concept">대상에 응답함으로써만 존재할 수 있는 주체</term>의 모습과는 또 다른 주체의 모습이다.</s>
+          <s>모든 찰라에 비석을 세워 주다<persName role="poet" xml:id="p-x9">문태준</persName>은 풍경을 발견하는 데 매우 뛰어난 시인이다.</s>
+          <s>그의 첫 시집r<title level="m" type="poem" xml:id="t-x17">수 런거리는 뒤란</title>』에서도그랬지만, 가장 최근 시집인r<title level="m" type="poem" xml:id="t-x18">가재미</title>』에서 그러한 <interp value="affirmative" ana="미학">풍경의 발견은 하나의 경지에 오른 것 같다</interp>.</s>
+          <s>겨울 찬 하늘 한 켜 살껍질을 누가 벗겼나 / 어느 영혼이 지난밤 꽃살문 같은꿈을 꾸었다 / 갓 바른 문풍지 같고 공기로만 빚은 冬天산 첫물 / 사락사락 조리 로 쌀을 이는 소리가 난다—<persName ref="#p-x9">문태준</persName>,「<title level="a" type="poem" xml:id="t-x19">서리</title>』죽은 나무를 / 덩굴이 휘감아 / 끝엘 벼랑까지 올라갔다 / 그 나뭇가지 아래 / 저만치 / 작은 密가 있다/ 물빛 아래 / 벼들치 몇마리/벗은 발로/불은 쌀 같은 살찐 / 그림자 끌고/물때낀 돌의/푸른 이마를 / 천천히 / 짚으며 짚으며 /무심 하다 / 고요하고 한가하다 / 한가하다 화들짝/그림자들이 도망쳤다/물 위에 / 작은 잎 하나/내려앉았다/단풍이었다-<persName ref="#p-x9">문태준</persName>,‘<title level="a" type="poem" xml:id="t-x20">빛깔에 놀라다</title>」「서리」는 더할 나위 없이 명징한 비유로 서리를 그려낸다.</s>
+          <s>서리는 눈처 럼 내리지 않는다.</s>
+          <s>보일 듯 말 듯찬 겨울 하늘에서 조용히 내려오는 서리 를 시인은 하늘의 살껍질에 비유한다.</s>
+          <s>하늘의 살껍질은 어느 영혼의 꿈처 럼, 갓 바른 문풍지처럼 가볍고 하늘하늘하게 떨어진다.</s>
+          <s>드디어 지상에 앉을 때, 시인은 어디선가 쌀을 이는 소리를 듣는다.</s>
+        </p>
+        <p>
+          <s>이 시는 <term type="concept">이미지 조응</term> 으로도 완벽한데, 하얀 서 리는 하얀 살껍질로, 새로 바른 하얀 문풍지로, 그리고 뽀얗게 우러나는 쌀로 이어진다.</s>
+          <s>그리고, 마지막 구절에서 이 시 각적 이미지는 “<quote type="direct" genre="poet">쌀을 이는 소리</quote>”라는 <term type="concept">청각적 이미지</term>로 변화하면서 파격 을 구사한다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">겨울 밤 서리가 내리는 풍경을 두고, 이토록 완벽하게 이미 지화하기는 쉽지 않다.</interp>
+          </s>
+          <s><interp value="neutral" ana="미학">완벽한 이미지화의 이면에서 시적 자아는 철저히 사라진다.</interp>「<title level="a" type="poem" ref="#t-x20">빛깔에 놀라다</title>」도 마찬가지인데, 앞의 시가 서리의 이미지의 발전과 파격을 중심으로 시가 짜여 있다면 이 시는 어느 연못의 풍경을 바라보고 있는 시적 화자의 시선의 움직임을 중심으로 시의 구도가 짜여 있다.</s>
+          <s>죽 은 나무를 감싸고 있는 덩굴을 따라 벼랑까지 올라갔던 시인의 시선은 갑작스럽게’ 급강하여, "<quote type="direct" genre="poet">저만치</quote>” 아래의 작은 소로 이동한다.</s>
+          <s>그 물빛 아래 벼들치 몇 마리가 움직이는 모습을 본다.</s>
+          <s>시 인이 볼 수 있는 것은, 물 빛에 비친 벼들치의 그림자일 뿐일 터이므로 벼들치의 그림자는수면의굴절의 영향을 받아 불은 쌀처럼 살쪄 있다.</s>
+          <s>이동하는 시선이 급한 데 비 해, 벼들치의 그림자가 움직이는 것을 보는 시선은 여유롭다.</s>
+        </p>
+        <p>
+          <s>그것은 벼 들치가 여유롭게 움직이고 있기 때문일 것이다.</s>
+          <s>물의 표면에 비친 벼들치 의 그림자가 돌로 다가가는 것을, 거기서 잠깐 머무르는 것을 시인은 본 다.</s>
+          <s>이 한가로운 이동은 갑작스럽게 깨진다.</s>
+          <s>벼들치가 화들짝 급하게 움 직이는 것을 본 시인의 시선도 화들짝 놀라고, 그 이유를 찾아 황급히 이 동한다.</s>
+          <s>물위에 떨어진 작은 잎, 이 잎의 움직임이 작은소의 평화를깨뜨 리고 벼들치와 벼들치를 보고 있던 시 인의 시선을 깜짝 놀라게 하는 것이 다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 잘 그려진 한 폭의 산수화같은 이 시에서 역시, 이를 그리고 있는 시적 자아는 철저히 숨겨져 있다.</interp>
+          </s>
+          <s>그는 평가하지 않고 섣불리 판단하지 않는다.</s>
+          <s>이러한 풍경들을 과연 우리는 <term type="concept">전래적인 서정시</term>의 어법에 따라, <term type="concept">세계의 주관화</term>라고 말할 수 있을 것인가.</s>
+        </p>
+        <p>
+          <s>그의 시집『<title level="m" type="poem" xml:id="t-x21">맨발</title>』<orgName ref="#org-x2">창비</orgName>, <date when="2004">2004</date>）과 『<title level="m" type="poem" ref="#t-x18">가재 미</title>』（<orgName xml:id="org-x3">문학과지성사</orgName>, <date when="2006">2006</date>）에 실린 많은 시들은 이렇게 명징하고 발랄한 비 유로 풍경을 정교하게 묘사하고 있다.</s>
+          <s>
+            <interp value="neutral" ana="미학">이토록 정교하게 묘사할 수 있다는 것은그만큼이시인。］ 풍경을보는 시선이 예리하다는 점을 의미하는동 시에, 이 풍경이 시인의 내면에 의해 파괴되거나 왜곡되는 것을 극도로 꺼리고 있다는 점을 의미한다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">그런 의미에서 그는 좋은 관찰자이고, 좋 은 화가이지만 좋은 서정시인은 아닌 것 같다.</interp>
+          </s>
+          <s>세계를 주관화하여, 내면 화하는 데 탁월한 시인을 좋은 <term type="concept">서정시인</term>이라고 한다면 말이다.</s>
+          <s>그렇지만, 그는 다만 좋은 관찰자에만 머무르지 않는다.</s>
+          <s>그 정교한 풍 경의 묘사 끝에 의뭉스럽게도 마치 그럴 의도는 없었다는 듯이 한 마디씩 눙치고 있기 때문이다.「<title level="a" type="poem" xml:id="t-x22">꽃잎이 진다</title>」에서는 꽃이 피는 장면을 정교하게 묘사해놓고는 아무렇지도 않다는 듯, “<quote type="direct" genre="poet">그리운 이 만나는 일 저처 럼이면 좋다</quote>”라고 덧붙인다.</s>
+          <s>그러나바로 이 한마디에 의해 꽃이 피는 장면은 그 리운 이를 만나는 장면으로 전화된다.</s>
+          <s>위의「<title level="a" type="poem" ref="#t-x20">빛깔에 놀라다</title>」에서는 시인 의 시선은 그 끝에 이 모든 평화로운 풍경을 깨뜨린 나뭇잎 하나가, 단풍 이라는 것을 발견한다.</s>
+        </p>
+        <p>
+          <s>여기서 비로소 빛깔에 놀라는 시인의 말이 등장한다.</s>
+          <s>이 시에서 정교하게 묘사한 작은 소의 풍경을 관찰하던 시인은 떨어 진 잎이 단풍이라는 것을 발견하고, 깜짝 놀란다.</s>
+          <s>이 놀람은 벼들치의 놀 람이 아니다.</s>
+          <s>마지막에 떨어진 단풍의 빛깔, 그리고 의뭉스럽게도 제목으 로 붙인 이 시인의 마지막 한 마디인 “<quote type="direct" genre="poet">빛깔에 놀라다</quote>"의 한 마디를통해, 작은 소의 풍경은 가을의 풍경으로, 계절의 바뀜에 대한 시인의 찬탄으로 변한다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이토록 마지막에 소소한 둣 덧붙인 한마디로 시인은 그 풍경 전체를 장 악한다.</interp>
+          </s>
+          <s>그러나, 이것이 풍경을 내적으로 전화시킨 것은 아니다.</s>
+          <s>꽃이 피 는 장면은 여전히 꽃이 피는 장면이고, 한가로운 소에서 놀던 벼들치는 여전히 한가로이 놀 것이다.</s>
+          <s>변화하는 것은 시인의 내면이다.</s>
+        </p>
+        <p>
+          <s>시인은 다 만, 여전히 그대로인 그 풍경에 자신만의 주석을 덧붙였을 뿐이다.</s>
+          <s>그럼 으로써, 자신의 내면의 변화를 드러냈을 뿐인 것이다.</s>
+          <s>그러므로, 이 좋은 <interp value="neutral" ana="미학">풍경화가로서의 재능을 지닌 시인은 스스로 애써 그 풍경을 내면화하려 고하지 않는다</interp>.</s>
+          <s>그것은 그 풍경 자체가 압도적인 힘•을 지녔기 때문이다.</s>
+          <s><quote type="direct" genre="poet" source="문태준, 水平">단 하나의 잠자리가 내 눈앞에 내려앉았다 / 염주알 같은 눈으로 나를 보면서 / 투명한 두 날개를 水平으로 펼쳤다/ 모시 같은 날개를 연잎처럼 수평으로 펼쳤 다/ 좌우가 미동조차 없다/물 위에 뜬 머구리밥 같다/ 나는 생각의 고개를 돌 려 좌우를 보는데 / 가문 날 땅벌레가 봉긋이 지어놓은 땅구멍도 보고 / 마당을 점점 덮어 오는 잡풀의 억센 손도 더듬어 보는데 / 내 생각이 좌우로두리번거려 흔들리는 동안에도 / 잠자리는 여전히 고요한 수평이다 / 한 마리 잠자리가 만들 어놓은 이 수평 앞에 / 내가 세워놓았던 수많은 좌우의 병풍들이 쓰러진다/하늘 은 이렇게 무서운수평을 길러내신다</quote>-<persName ref="#p-x9">문태준</persName>,「<title level="a" type="poem" xml:id="t-4">水푸4</title>시인의 눈 앞에 잠자리가 내려 앉았다.</s>
+          <s>잠자리는 단 한 마리, 그러나 그 가 만들어내는 풍경은 만만치 않다.</s>
+          <s>그가 투명한 날개를 수평으로 펼치 자, 좌우가 쥐죽은 듯 고요해진다.</s>
+          <s>이 염주알 같은 잠자리의 눈을 대하고, 斗’ 는 어찌할 바를 몰라 "<quote type="direct" genre="poet" source="문태준, 水平">생각의 고개</quote>’’를 돌려 좌우를 본다.</s>
+        </p>
+        <p>
+          <s>나의 눈에는 땅벌레가 지은 땅구멍도, 마당을 가득 덮은 수풀도 보이지만 내가 두 리번거리는 와중에도잠자리는 “<quote type="direct" genre="poet">여전히 고요한 수평</quote>” 이다.</s>
+          <s>이 거대한 수 평 앞에, 한 마리의 잠자리가 만들어내는 위대한 <term type="concept">고요함</term> 앞에서 시인은 어찌할 바를 모른다.</s>
+          <s>이리저리 생각을 해 보아도, 주위로 눈을 돌려 도움 을요청을해보아도잠자리의 염주알 같은 눈은 화자를 꼼짝도못하게 만든다.</s>
+          <s>이 압도적인 대상 앞에서, 내가 세워 놓았던 세계는 속절없이 “<quote type="direct" genre="poet">쓰 러진다</quote>".</s>
+          <s>나는 다만, 하늘의 탓을 할 수밖에 없는 것이다.</s>
+          <s>
+            <interp value="neutral" ana="미학">이토록 압도적인 대상의 힘은 서정적 자아가 자신의 심미적 권위를 내 세울수 없게 한다.</interp>
+          </s>
+          <s>다만 시인이 할 수 있는 일은 그러므로, 그 <term type="concept">압도적인 풍경이 자신의 내면을 장악할 수 있도록 자신을 내어 주는 것</term>밖에는 없는 것이다.</s>
+          <s>그러므로 시인은 다만, 그 압도적인 위대한 자연의 풍경 속에 들 어가기를 염원하거나 （「<title level="a" type="poem" xml:id="t-x23">思</title>」）, 자연의 풍경에 스며들어 한 몸이 되는 수 밖에 （「<title level="a" type="poem" xml:id="t-x24">小菊을 두고</title>시 없는 것이다.</s>
+        </p>
+        <p>
+          <s>그러나 대개 <persName ref="#p-x9">문태준</persName>의 시는 쉽게 그러 한 <term type="concept">융화</term>의 길을 선택하지 않는다.</s>
+          <s>다만, 그러한 풍경을 정교하게 언어로 드러내고 거기 에 하나의 주석을 다는 것으로 만족한다.</s>
+          <s><quote type="direct" genre="poet" source="찰라속으로 들어가다">벌 하나가 웽 날아가자 앙다물었던 밤송이의 몸이 툭 터지고 // 물살 하나가 스치자 물속 물고기의 몸이 확 휘고/ 바늘만 한 햇살이 말을 걸자 꽃망울이 파 안대소하고// 산까치의 뾰족한 입이 닿자 붉은 감이 툭 떨어진다 // 나는 이 모 든 찰라에게 비석을 세워 준다</quote>—<persName ref="#p-x9">문태준</persName> J<title level="a" type="poem" xml:id="t-x25">찰라속으로 들어가다</title>」자연의 풍경의 모든 것은 이토록 서로 긴밀하게 이어져 있다.</s>
+          <s>그리고 자연의 사물들은 모두 소소하나 위대한 변화를 일으켜 낸다.</s>
+          <s>벌이 날아가 자, 벌은 밤송이를 열기를 의도하지 않았는데도 밤송이의 몸이 툭 터진 다.</s>
+          <s>물살 하나가 스치자, 물살은 그럴 생각이 없었는데 물고기의 몸이 횐 다.</s>
+          <s>햇살을 받자, 꽃망울이 터지고 까치가 입을 대자 붉은 감이 떨어진다.</s>
+          <s>이 아무런 의미도 없고, 아무런 의도도 없는 절대적인 <term type="concept">무의</term> 세계.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="affirmative" ana="미학">이는 숭고함마저 느껴지는 세계이다.</interp>
+          </s>
+          <s>그렇다면, 이러한 풍경에 대해 인간은무엇 을 할 수 있을 것인가.</s>
+          <s>아무것도 할 수 없기 때문에, 그는 “<quote type="direct" genre="poet">이 모든 찰라에 게 비석을 세워</quote>” 줄 수밖에 없다.</s>
+          <s>이토록 몸을 낮추는 이 순간, 자연의 풍 경이 <term type="concept">숭고함</term>의 대상이 되는 순간, <interp value="affirmative" ana="미학">문태준의 서정의 가장 빛나는 순간은 바로 이렇게 대상이 그 숭고함으로 현현하는 순간인 것이다.</interp></s>
+          <s><persName ref="#p-x9">문태준</persName>의 서 정적 자아는 그것을 끌여들여, <term type="concept">내면화</term>하지 않는다.</s>
+          <s>할 생각도 없지만, 거 기에는 아무런 의미가 없기 때문에 아무리 인간이 사유를 해도 결코 사유 될수 없는존재이기 때문이다.</s>
+          <s>다만, 거기에 몸을낮추고그순간올 기록 할뿐.</s>
+          <s>오늘, 압도적 대상 앞에 선 <term type="concept">서정적 주체</term>들.</s>
+        </p>
+        <p>
+          <s>오늘의 <term type="concept">서정</term>이 전래의 서정과는 다르게 이해되어 한다는 것은 최근에 많은 지지를 획득했다.</s>
+          <s>이는 ‘<term type="concept">다른 서정</term>’ 으로 불리워지기도 하였으나 중 요한 것은 이름 붙이기가 아닌 것 같다.</s>
+          <s>확실히 현대 우리 <term type="concept">시단</term>에는 뭔가 ‘<quote type="direct" genre="poet">다른</quote>’ 흐름이 도도하게 물결치고 있다.</s>
+          <s>그 흐름은 2~30대 <term type="concept">젊은 시인들</term>이 주도하고 있는 것으로 보인다.</s>
+          <s>그래서 이 글에서는 부러, <term type="concept">젊은 시인들</term>의 작품을 다루었다.</s>
+          <s><persName ref="#p-x6">이병률</persName>, <persName ref="#p-x7">손택수</persName>, 그리고 <persName ref="#p-x9">문태준</persName>이 보여주는 이 아름다 운 <term type="concept">서정시</term>들에는 <quote type="direct" genre="poet">무엇</quote>인가 전래의 서정시와 미묘하게 다른 ‘무엇’ 이 있 기 때문이었다.</s>
+          <s>그러나 전래의 <term type="concept">서정시</term>와 다르다고 말할 때는 ‘원래’ 의 서 정시와 ‘새로운’ 서정시로 도식화시키는 위험이 있다.</s>
+          <s>‘원래 는 무엇이 고, ‘<quote type="direct" genre="poet">새로운</quote>’ 것은무엇인가.</s>
+        </p>
+        <p>
+          <s><term type="concept">서정시</term>에 대한 오래된 이해는, 서정시가 세계와 대상을 <term type="concept">내면화</term>하여 주 관화한다는 것이었다.</s>
+          <s>그러므로, <term type="concept">서정시</term>에서 그려지는 풍경은 외적 풍경 이 아니라<term type="concept">내적 풍경</term>이다.</s>
+          <s>바람이 불고,꽃잎이 지고, 그리고 계절이 지나 가는모든 것은 <term type="concept">서정적 자아</term>의 내면의 풍경을 드러낸다.</s>
+          <s>그러므로 내면이 쓸쓸할 때, 바람은 쓸쓸히 불고 내면이 괴로울 때, 꽃잎이 진다.</s>
+          <s>세계의 풍 경은 다만 <term type="concept">내면의 풍경</term>일 뿐이다.</s>
+          <s>그러나, 이 글에서 살펴본 <interp value="neutral" ana="미학">이들 시인들은 이러한 내면의 지위를 들먹거리지 않는다.</interp></s>
+          <s>오히려, 그들의 지위란 너 무나 허약해서 대상에 기대지 않고서는 존재할 수 없다.</s>
+          <s>외적 대상이 내 면으로 침입해오자, 비로소 시가 시작된다.</s>
+        </p>
+        <p>
+          <s>주관의 표출인 <term type="concept">서정성</term>이 오히 려, 외적 대상에 의해 강제로 펼쳐지는 것이다.</s>
+          <s>그러므로, 이들은 대상에 게 웅답하는 방식으로만 존재하는 <term type="concept">수동적인 주체</term>들이다.</s>
+          <s>그들은 목소리 에 옹답함으로써만 존재하거나, 가까스로 그 거 리를 유지함으로써만, 또 한 압도적인 풍경 앞에 고개를 숙이고 그를 다만 기록하는 자로서만 존재 할수 있다.</s>
+          <s>그러므로, 이들에게 <term type="concept">시인의 내면</term>은 다만, 풍경이 자유롭게 들 락날락하는 하나의 빈집으로만 기능한다.</s>
+          <s>이러한 <term type="concept">수동적 주체</term>의 모습들 이 오늘의 <term type="concept">서정시</term>에서 ‘새로운’ 것이라고 말할 수 있을 것이다.</s>
+          <s>그러나, ‘원래’ 있던 <term type="concept">서정성</term>이 다른 서정성으로 ‘변했다’라고 말하는 것은아무래도 이상하다.</s>
+          <s>오늘의 <term type="concept">서정시</term>가 예전의 서정시와 다르다면, 그 것은 아무래도 서정시의 환경이 변한 탓일 터이다.</s>
+          <s><term type="concept">서정성</term>의 근원적인 조 건이 그 <term type="concept">주관성</term>에 있다고 할 때, 변했다고 한다면 서정성을 드러내는 주 관성의 지위가 변한 것일 것이다.</s>
+        </p>
+        <p>
+          <s>그러므로, 우리는 이것을 ‘<quote type="direct" genre="poet">다르다</quote>’ 고 할 필요가 없다.</s>
+          <s>오래된 <term type="concept">서정시</term>의 이해를 약간만 변화시킨다면, 우리는 손쉽게 이 새로운 서정의 흐름을 오늘의 흐름으로 승인할 수 있을 것이 다.</s>
+          <s>한순간의 일탈로서가아니라.</s>
+          <s><persName ref="#p-x">박슬기</persName> I 저서r<title level="m" type="critic" xml:id="t-x26">주근옥의 문학세게</title>!, r<title level="m" type="critic" xml:id="t-m">M기 한국시론</title>』둥.</s>
+          <s>현재 <orgName xml:id="org-x4">충북대학교</orgName> 강사.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

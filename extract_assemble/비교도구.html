@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TEI 태깅 비교 도구 (업로드)</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#eef0f4;color:#1f2430;font-family:'Malgun Gothic',system-ui,sans-serif;font-size:14px}
+.bar{position:sticky;top:0;background:#e7e9ef;border-bottom:1px solid #d4d7e0;padding:10px 16px;z-index:5}
+.up{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+.up label{font-size:12px;color:#444;font-weight:700}
+.up input[type=file]{font-size:12px}
+.up button{background:#4C72B0;color:#fff;border:0;border-radius:6px;padding:6px 16px;font-size:13px;cursor:pointer}
+.up button:disabled{background:#aab;cursor:default}
+.stats{display:flex;gap:20px;align-items:flex-end;flex-wrap:wrap}
+.stat .n{font-size:21px;font-weight:800}.stat .l{font-size:11px;color:#666}
+.chips{margin-left:auto;display:flex;gap:7px;flex-wrap:wrap}
+.chip{background:#fff;border:1px solid #d4d7e0;border-radius:14px;padding:3px 9px;font-size:11px}
+.legend{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.legend span{cursor:pointer;color:#fff;border-radius:13px;padding:2px 9px;font-size:11.5px;user-select:none}
+.legend span i{font-style:normal;opacity:.85}.legend span.off{opacity:.32;text-decoration:line-through}
+.hdr{display:grid;grid-template-columns:1fr 1fr;background:#fff;border-bottom:2px solid #d4d7e0;font-weight:700;font-size:12.5px}
+.hdr div{padding:8px 14px;border-left:5px solid transparent}
+.secrow{background:#dfe3ea;font-weight:700;padding:7px 16px;font-size:13.5px;margin-top:2px}
+.row{display:grid;grid-template-columns:1fr 1fr;background:#fff;border-bottom:1px solid #eceef3}
+.row .cell{padding:8px 14px;line-height:1.95}
+.row .cell.a{border-right:1px solid #eceef3}
+.subdiff{grid-column:1/3;background:#fff7e6;border-top:1px dashed #e0c068;padding:4px 16px;font-size:11.5px;color:#7a5a10}
+.empty{color:#bbb;font-style:italic}
+.tg{border-radius:3px;padding:0 1px}.lbl{font-size:8.5px;opacity:.7;margin-left:1px;font-weight:700}
+.hint{padding:40px 16px;color:#888;text-align:center}
+</style></head>
+<body>
+<div class="bar">
+  <div class="up">
+    <span><label>📗 정답(gold) — A</label><br><input type="file" id="fa" accept=".xml"></span>
+    <span><label>📘 비교 대상 — B</label><br><input type="file" id="fb" accept=".xml"></span>
+    <button id="go" disabled>비교</button>
+  </div>
+  <div class="stats" id="stats"></div>
+  <div class="legend" id="legend"></div>
+</div>
+<div id="hdr"></div>
+<div id="body"><div class="hint">두 TEI/XML 파일을 올리고 <b>비교</b>를 누르세요. (A=기준/정답, B=비교 대상)<br>
+브라우저 안에서 처리되며 파일은 외부로 전송되지 않습니다.</div></div>
+
+<script>
+const ENTITY={persName:['#A14B6A','인물'],term:['#3F7A4E','개념어'],quote:['#B07A2A','인용'],
+ title:['#6A4BA1','작품·문헌'],date:['#2E6E9E','연도'],interp:['#9E2E2E','해석'],
+ orgName:['#5A7A2E','기관'],note:['#777777','각주']};
+const RELATTR={persName:['role'],title:['level','type'],term:['type'],quote:['type','genre'],
+ interp:['value','ana'],date:['when','from','to'],orgName:[],note:[]};
+const BADGE={persName:'role',title:'type',term:'type',quote:'genre',date:'when',interp:'value'};
+const COUNT=[...Object.keys(ENTITY),'l','lg'];
+const STATUS={same:['동일','#cfd4dc'],attr:['속성만 다름','#E0A82E'],struct:['태그 구조 다름','#C4351C'],only:['한쪽에만','#3B82C4']};
+
+const esc=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const hard=s=>(s||'').replace(/[「」『』《》〈〉"'“”‘’]/g,'').replace(/\d{1,3}(?!\d)/g,'').replace(/\s+/g,'');
+const light=s=>(s||'').replace(/\s+/g,'');
+
+function relAttrs(tag,el){
+  return (RELATTR[tag]||[]).map(k=>{let v=(el.getAttribute(k)||'').trim();
+    if(k==='role')v=v.split(/\s+/).filter(Boolean).sort().join(' ');
+    return v?k+'='+v:''}).filter(Boolean).join(' ');
+}
+function attrsStr(el){return [...el.attributes].filter(a=>a.localName!=='id').map(a=>a.localName+'='+a.value).join(' ');}
+
+function renderInline(el){
+  let out='';
+  for(const node of el.childNodes){
+    if(node.nodeType===3){out+=esc(node.nodeValue);continue;}
+    if(node.nodeType!==1)continue;
+    const ln=node.localName, inner=renderInline(node);
+    if(ENTITY[ln]){
+      let badge='';const bk=BADGE[ln];
+      if(bk){let v=node.getAttribute(bk)||(ln==='date'?node.getAttribute('from'):'')||'';if(v)badge=`<i class=badge>${esc(v)}</i>`;}
+      out+=`<span class="tg t-${ln}" title="${esc(attrsStr(node))}">${inner}${badge}</span>`;
+    } else if(ln==='lb') out+='<br>';
+    else if(ln==='l') out+=inner+'<br>';
+    else out+=inner;
+  }
+  return out;
+}
+function ancHas(el,name){let n=el.parentElement;while(n){if(n.localName===name)return true;n=n.parentElement;}return false;}
+function sectionOf(el){let n=el.parentElement;while(n){if(n.localName==='div'){for(const c of n.children)if(c.localName==='head')return c.textContent.trim();}n=n.parentElement;}return null;}
+
+function extractUnits(doc){
+  const units=[];
+  for(const el of doc.getElementsByTagName('*')){
+    const ln=el.localName;
+    if(!ancHas(el,'text'))continue;
+    if(ln==='s'||(ln==='l'&&!ancHas(el,'s'))){
+      const recs=[];
+      for(const d of el.getElementsByTagName('*'))
+        if(ENTITY[d.localName]) recs.push({tag:d.localName,text:light(d.textContent),attrs:relAttrs(d.localName,d)});
+      units.push({key:hard(el.textContent),html:renderInline(el),recs,sec:sectionOf(el)});
+    }
+  }
+  return units;
+}
+function classify(a,b){
+  if(!a||!b)return['only',[]];
+  const sa=a.recs.map(r=>r.tag+'|'+r.text).sort().join('#');
+  const sb=b.recs.map(r=>r.tag+'|'+r.text).sort().join('#');
+  if(sa!==sb)return['struct',[]];
+  const ma={},mb={};a.recs.forEach(r=>ma[r.tag+'|'+r.text]=r.attrs);b.recs.forEach(r=>mb[r.tag+'|'+r.text]=r.attrs);
+  const diffs=[];for(const k in ma)if(ma[k]!==mb[k]){const[t,tx]=k.split('|');diffs.push([t,tx,ma[k],mb[k]]);}
+  return diffs.length?['attr',diffs]:['same',[]];
+}
+function align(A,B){
+  const a=A.map(u=>u.key),b=B.map(u=>u.key),n=a.length,m=b.length;
+  const dp=Array.from({length:n+1},()=>new Int32Array(m+1));
+  for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)
+    dp[i][j]=a[i]===b[j]?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);
+  const rows=[];let i=0,j=0;
+  while(i<n&&j<m){if(a[i]===b[j]){rows.push([A[i],B[j]]);i++;j++;}
+    else if(dp[i+1][j]>=dp[i][j+1]){rows.push([A[i],null]);i++;}else{rows.push([null,B[j]]);j++;}}
+  while(i<n)rows.push([A[i++],null]);while(j<m)rows.push([null,B[j++]]);
+  return rows;
+}
+function counts(units){const c={};units.forEach(u=>u.recs.forEach(r=>c[r.tag]=(c[r.tag]||0)+1));return c;}
+
+function compare(docA,docB,nameA,nameB){
+  const A=extractUnits(docA),B=extractUnits(docB),rows=align(A,B);
+  const st={same:0,attr:0,struct:0,only:0};let cur=null,bodyH='';
+  for(const[a,b]of rows){
+    const sec=(a||b||{}).sec;
+    if(sec!==cur){cur=sec;bodyH+=`<div class=secrow>${esc(sec||'(머리말 없음)')}</div>`;}
+    const[status,diffs]=classify(a,b);st[status]++;
+    const color=STATUS[status][1];
+    const L=a?a.html:'<span class=empty>— 없음 —</span>',R=b?b.html:'<span class=empty>— 없음 —</span>';
+    let sub='';
+    if(status==='attr'){const bits=diffs.slice(0,4).map(([t,tx,av,bv])=>
+      `<b class=t-${t}-fg>${esc(t)}</b> "${esc(tx.slice(0,18))}" · A[${esc(av||'—')}] vs B[${esc(bv||'—')}]`).join(' &nbsp;|&nbsp; ');
+      sub=`<div class=subdiff>차이 · ${bits}</div>`;}
+    bodyH+=`<div class=row style="border-left:5px solid ${color}"><div class="cell a">${L}</div><div class="cell b">${R}</div>${sub}</div>`;
+  }
+  const ca=counts(A),cb=counts(B);
+  let statH=`<div class=stat><div class=n>${rows.length}</div><div class=l>정렬된 행</div></div>`;
+  for(const k in STATUS)statH+=`<div class=stat><div class=n style="color:${STATUS[k][1]}">${st[k]}</div><div class=l>${STATUS[k][0]}</div></div>`;
+  let chipH='';for(const t of COUNT)if(ca[t]||cb[t])chipH+=`<span class=chip style="color:${(ENTITY[t]||['#666'])[0]}">${t} <b>A ${ca[t]||0}·B ${cb[t]||0}</b></span>`;
+  document.getElementById('stats').innerHTML=statH+`<div class=chips>${chipH}</div>`;
+  document.getElementById('hdr').innerHTML=`<div class=hdr><div>A · ${esc(nameA)}</div><div>B · ${esc(nameB)}</div></div>`;
+  document.getElementById('body').innerHTML=bodyH;
+}
+
+// 범례 + 동적 스타일
+let css='';for(const t in ENTITY){const c=ENTITY[t][0];css+=`.t-${t}{background:${c}1f;box-shadow:inset 0 -2px 0 ${c}}.t-${t}-fg{color:${c}}.hide-${t} .t-${t}{background:none;box-shadow:none}.hide-${t} .t-${t} .lbl{display:none}`;}
+const sx=document.createElement('style');sx.textContent=css;document.head.appendChild(sx);
+document.getElementById('legend').innerHTML=Object.entries(ENTITY).map(([t,[c,ko]])=>`<span data-t="${t}" style="background:${c}">${t} <i>${ko}</i></span>`).join('');
+document.querySelectorAll('.legend span').forEach(s=>s.onclick=()=>{s.classList.toggle('off');document.body.classList.toggle('hide-'+s.dataset.t);});
+
+// 파일 처리
+let fa=null,fb=null,na='',nb='';
+const parse=t=>new DOMParser().parseFromString(t,'application/xml');
+function read(input,cb){const f=input.files[0];if(!f){cb(null,'');return;}const r=new FileReader();r.onload=e=>cb(parse(e.target.result),f.name);r.readAsText(f,'utf-8');}
+function check(){document.getElementById('go').disabled=!(fa&&fb);}
+document.getElementById('fa').onchange=e=>read(e.target,(d,n)=>{fa=d;na=n;check();});
+document.getElementById('fb').onchange=e=>read(e.target,(d,n)=>{fb=d;nb=n;check();});
+document.getElementById('go').onclick=()=>{
+  if(fa&&fb){try{compare(fa,fb,na,nb);}catch(err){document.getElementById('body').innerHTML='<div class=hint>오류: '+esc(err.message)+'</div>';}}
+};
+</script>
+</body></html>

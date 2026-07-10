@@ -1,0 +1,953 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2000년대</title>
+        <author>김양헌, 김진수, 강계숙</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>I 특별좌담 / 2005 올해의 시를 말한다 I〈젼재시〉vol 从시夂 吝컨 /磔— , &amp;0W<date from="2000" to="2009">2000년대</date> '&amp;로우스U의 좌표와 그 비평적 전망<persName role="poet" xml:id="p-x">김양헌</persName> • <persName role="poet" xml:id="p-x2">김진수</persName>• <persName role="critic" xml:id="p-x3">강계숙</persName>가회）2005년 시단의 동향과 전반적인 흐름웅숭깊은 자기 갱신의 흔적'새로운/^흑3를 위한 치열한 시적宾3-1.</s>
+          <s><term type="concept">새로운 세대군群의 등장</term>3-2.</s>
+          <s>기존 시학과 차이점3-3.</s>
+          <s><term type="concept">다양성</term>과 획일성의 공존3-4.</s>
+          <s>산젚서춘点 한계의 문제国츠!</s>
+          <s>저스살련위 복원을 요청하는비평계의 목소리 /	/厶I태산의 감소와倉시주의/경향의 쇠퇴우리 시에 대한 전망t £弊년 시曲 동향과 전반적 인 흐름<persName ref="#p-x3">강계숙</persName> : 해마다 월간『<title level="j" type="journal" xml:id="t-x">현대시</title>』에서는 그해 시단의 전체 흐름을 조망하고 그에 대해 다각도로 진단하고 평가하는 자리를 마련해 왔습니다" 올해 는 <persName ref="#p-x">김양헌</persName>, <persName ref="#p-x2">김진수</persName> 두 분 선생님과 제가 자리를 함께 하게 되었습니다.</s>
+          <s>외람되게도, 저보다 한참 연장자이신 선생님들을 모시고 사회를 보게 되어서 저로서는 이 자리가 많이 부담스럽습니다만 （웃음）, 두 분의 고A 때 : 2005년 11 劉 12일『 장소 : 현대시 회의실견을 직접 들을 수 있는 기회이기 때문에 설레는 마음으로 왔습니다.</s>
+          <s>올해는 다른 해에 비해 유난히 좋은 시집들이 많이 발간되었습니다.</s>
+        </p>
+        <p>
+          <s>좌 담 제의를 받고 인터넷으로 주요 출판사에서 간행한 시집의 목록을 검 토해보니 80여권에 딜하더군요 군소 출판사에서 나온 시집까지 보탠다 면 100 여 권은 넘지 않을까 싶습니다 아무래도 <orgName xml:id="org-x">문예진흥원</orgName>이 문화예 술진흥위원회로 바뀌면서 우수 문학 작품과 작가에 대한 지원이 확대되 고, 그로 인해 출판사들의 출판비 부담이 상대적으로 줄어들면서 그동 안 출간되지 못했던 시집들이 한꺼번에 발간된 것이 아닐까 짐작됩니 다* 문학에 대한 정부 주관하의 제도적 지원에 대해 여러 의견들이 오가 는 것으로 알고 있습니다만, <interp value="affirmative" ana="문학관">독자에게 양질의 문학작품을 선보일 수 있 는 기회가 증대된다는 점에서는 고무적인 일이라고 생각합니다.</interp></s>
+          <s>경제적 도움이 창작자들의 실제 작품 창작에 어느 정도 기여할 수 있을지는 정 확히 알 수 없습니다만, 수혜를 받는 입장에서는 지원이 없는 것보다는숴 <persName ref="#p-x3">강계숙</persName>（사회）최근 <term type="concept">젊윤 시인듈</term>은 *새로운 시푤 창조하기 위한 다채 로운 시적 실험에 몰두하고 있다고 할 수 있습니다.</s>
+          <s>서 두에서 올해 시단의 가장 큰 튝징으로 선］진 시인들에 의 한 새로운 시적 흐晉의 헝성율 지적하였습너다만" 좌담 에 참여한 선생님들께서 주목할 만한 것들로 선정해주 신 대부분의 시집듦이 올해 첫 시집을 낸 <term type="concept">젊은 시인들</term>의 것인 경우가 많습니다* 현재 20대 후반에서 30대 초반 와 나이로 <date from="1970" to="1979">1970년대</date> 생이 태부뿐인 이듥 시언들의 등 장은 <date from="1990" to="1999">1990년대</date> 이후 정치적 이념이 쇠퇴한 뒤, '<term type="movement">신서 정</term>.</s>
+          <s>이라는 이兽으로 다양한 <term type="concept">시적 분화</term>를 이끌었던 일 군의 시인뜰과는 또 다른 면에서 구분횐다고 보입니다 옮해의 시鑑 논하기 위해서는 이듈의 문학적 특징믏 돠 짚어보는 것이 가장 중요한 항목이 됢 듯합니다" 이뜰이 앞으로 우리 시단을 이끎어갈 창잨층이라는 점에서도 이듦의 행보•률 주의 깊게 살펴보는 것은 애우 의미 있는 잁이라 할 수 있습니다.</s>
+          <s>아무래도 낫지 않을까 싶습니다.</s>
+          <s>여러 기획들이 실행되기 시작한 단계이므로 이와 같은 제도적 뒷받침이 기존의 문학작품의 생산과 수요의 체계에 어느 정도의 효과와 영향력을 발휘할 수 있을지는 지켜봐야 할 일이지만, 우리 문학의 독자중을 두텁 게 만들 수 있는 방향으로도 구체적인 계획이 입안되었으면 좋겠다는 개인적인 바람이 있습니다.</s>
+          <s>출판사와 작가에 대한 지원이 문학 생산층을 활성화하려는 목적을 지니고 있다면* 그와 대웅되는 쌍으로서 문학 작품의 수요층을 양적으로, 질적으로 풍부하게 만드는 노력도 필요하다 고 봅니다" 수요층이 빈약하다면, 작품이 양산될지라도 정작 읽는 사람 은 없는 상황이 반복될 수밖에 없습니다.</s>
+          <s>지금 우리 시의 풍토를 보더라 도 시인은 넘쳐나지만, 시의 독자는 갈수록 줄어들고 있지요.</s>
+        </p>
+        <p>
+          <s>문학의 발 전을 추동하는 중요한 한 축이 '<term type="concept">수용</term>'의 축이라면* 그것을 내 적으로 튼 튼하고 단단하게 만드는 노력이 더불어 필요하지 않을까 싶습니다.</s>
+          <s>이 런 맥락에서 <term type="concept">문학교육</term>이 늘 주요 화두로 떠오릅니다만, 이는 문학에 종 사하는 이들 모두가 함께 고민해야 할 문제겠지요.</s>
+          <s>올해 문학계에서 있었던 사건으로 한 가지 더 기억되어야 할 것은 프랑 크푸르트 도서전일 듯합니다.</s>
+          <s>많은 분들이 행사 준비에 애를 쓰셨고, 덕 분에 성황리에 잘 끝마쳤다는 얘기를 들었습니다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">한국문학을 세계에 알리는 일은 하나의 과제처 럼 거론되는 문제 입니다만, 올해는 가시적인 성과가 있었던 해로 기억해야 좋지 않을까 생각됩니다.</interp>
+          </s>
+          <s><interp value="affirmative" ana="문학관">프랑크푸르트 도서전을 계기로 하여 우리 문학을 세계화하는 일이 좀 더 본격화되었 으면 좋겠다는 바람을 가져봅니다</interp>* 그런데 한 가지 아쉬운 점은 국내에 서는 도서전에 대한 보도를 많이 접하지 못했다는 겁니다.</s>
+          <s>혹시 저만 못 본 건가요?</s>
+          <s>
+            <interp value="critical" ana="사회">해외에서 우리 문학이 어떻게 소개 • 전시되고 있는지 정작 국내의 독자들이나 연구자들이 알지 못한다는 점은 문제가 있다고 봅니 다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>정치에만 관심을 쏟고 문화에는 등한한 언론 보도의 문제 때문인지 는 모르겠습니다만, 도서전에 관한 소식을 일반 독자들이 충분히 알 수 없어서 아쉬웠습니다.</s>
+          <s>이제 올 한해 우리 시단의 전체 동향을 돌아보도록 하지요 앞서 을해에 는 좋은 시집들이 많이 나왔다는 말씀을 드렸는데, 특히 <term type="concept">젊은 시인들</term>의 첫 시집이 한꺼번에 쏟아져 나왔습니다.</s>
+          <s>이것만으로도 올해 시단의 쟁 점이 무엇인가가 잘 드러난다고 할 수 있습니다.</s>
+          <s>오늘 좌담에서도 이들 <term type="concept">젊은 신진들</term>의 둥장과 그에 대한 비평적 진단이 주된 논의 대상이 될 것 같습니다.</s>
+          <s>하지만 한편으로 <term type="concept">젊은 시인들</term>의 활발한 움직임만큼 중견 시 인들의 자기 갱신 노력이 꾸준히 전개된 한해이기도 했습니다.</s>
+          <s>신진들 의 시 세계를 검토하기에 앞서 중견 시인들의 문학적 진화에 대해 먼저 살펴보기로 하겠습니다.</s>
+          <s>웅숭깊은 자기 갱신의 흔적<persName ref="#p-x3">강계숙</persName>: 올해 새로 시집을 발간한 중견 시인들로는 <persName role="poet" xml:id="p-x4">성찬경</persName>, <persName role="poet" xml:id="p-x5">김영태</persName>, 박의 상, <persName role="poet" xml:id="p-x6">천양희</persName>, <persName role="poet" xml:id="p-x7">노향림</persName>, <persName role="poet" xml:id="p-x8">김명인</persName>, <persName role="poet" xml:id="p-x9">신현정</persName>, <persName role="poet" xml:id="p-x10">박남철</persName>, <persName role="poet" xml:id="p-x11">장석남</persName>, <persName role="critic" xml:id="p-x12">장석주</persName>, <persName role="poet" xml:id="p-x13">송재학</persName>, 이 경림, <persName role="poet" xml:id="p-x14">오규원</persName>, <persName role="poet" xml:id="p-x15">오세영</persName>, <persName role="poet" xml:id="p-x16">박철</persName>, <persName role="poet" xml:id="p-x17">이숭하</persName>, <persName role="poet" xml:id="p-x18">허수경</persName>, <persName role="poet" xml:id="p-x19">최하림</persName>, <persName role="poet" xml:id="p-x20">이시영</persName>, <persName role="poet" xml:id="p-x21">박형준</persName>, <persName role="poet" xml:id="p-x22">조정권</persName>, <persName role="poet" xml:id="p-x23">김신용</persName>, <persName role="poet" xml:id="p-x24">이건청</persName>, <persName role="poet" xml:id="p-x25">정양</persName>, <persName role="poet" xml:id="p-x26">김언희</persName>, <persName role="poet" xml:id="p-x27">신대철</persName>, <persName role="poet" xml:id="p-x28">이은봉</persName>, <persName role="poet" xml:id="p-x29">이기철</persName>, <persName role="poet" xml:id="p-x30">함민복</persName>, 김 기택 등이 있습니다.</s>
+          <s>이미 많은 주목과 관심을 받았던 시인들이어서 이 자리에서는 몇몇 시인들을 중심으로 이야기를 풀어나가도록 하겠습니 다.</s>
+        </p>
+        <p>
+          <s>먼저 <date from="1990" to="1999">1990년대</date> 초에 등장하여 우리 <term type="concept">시단</term>을 새롭게 변모시켰던, 당시 의 신예들이 이제는 중견의 반열에 올라 그간의 성과물을 묶어 발간하 였다는 것이 주목할 만한 점일 텐데요, 이들의 시적 변모의 내용은 무엇 인지, 이들의 시에서 찾을 수 있는 우리 시의 현주소가" 어디인지 말씀해 주십시오.</s>
+          <s><persName ref="#p-x">김양헌</persName> : 중견 시인들의 시를 읽으면서 느낀 게 있습니다.</s>
+          <s>요즘 시대가 너 무 빨리 변하다 보니 깊이가 부족한 분야가 많은데 , 중견 시 인들은 자기 세계를 꾸준히 탐구하여 깊이를 더하고 있어요.</s>
+          <s>속도와 변화가 곧 새로 움인 것처럼 생각하는 풍조에 '<term type="concept">느림의 미학</term>'이 한때 제동을 걸기는 했지 만 벌써 기억에서 가물가물 사라져가고 있어요.</s>
+          <s><term type="concept">한시의 근체시</term> 양식은 당나라 때 완성되어 천수백 년이 지나서도 생명을 이어왔지 않습니까?</s>
+          <s>속도만이 유일한 살길처럼 생각하는 이 시대에 한 자리에 머물면서 깊 이 파고드는 태도는 그 자체만으로도 <term type="concept">자본주의</term> 에 저항하는 치 열한 정신 이라는 생각이 듭니다.</s>
+          <s>세계가 바뀌면 문학과 예술도 변하게 마련이지 만, 그렇다고 하루아침에 전혀 다른 세계가 형성되는 것은 아니잖아요?</s>
+          <s>이런 점에서 중견 시인들은 여전히 우리 시대의 중요한 측면을 반영하 고 있고, 이 시대의 부정성을 넘어서는 데 중심 역할을 맡고 있다고 생 각합니다"<persName ref="#p-x2">김진수</persName>: 제가 이해하고 있는 예술이라는 것이 그렇긴 하지만, 우리가 사는 삶과 세계라는 것이 근본적으로 변화하는 측면과 변화하지 않는 측면이 있을 텐데, 시 역시도 변화하는 가운데서도 변화하지 않는 어떤 보편적 인 것과 그 보편적인 것이 또한 시대에 따라서 어떤 변화의 양상을 보이 고 있는가 하는 문제 모두를 동시에 감싸 안아야 한다고 생각합니다.</s>
+        </p>
+        <p>
+          <s>다1融0년대 초반의 시인뜰은 어떤 중심 혹은 대상 '세 ' 계의 상실을 경험한 듯싶습니다.</s>
+          <s>추구해야 할 이념 아나 중심 혹은 해체총!!</s>
+          <s>야 할 적들이 사라진 세계曼 살게 된 셈이지요.</s>
+          <s>이 보이지 않는 중심, 언어로써 표 상할수 없는 것을 말할 수 있는 방법은 <term type="concept">침묵</term>과 장광 설뿐이겠지요.</s>
+          <s>제가 보기에 21세기쁠 사는 우리 젊 은 시인들이 경우에는 차라리 <term type="concept">주체의 분열</term>이라거나 쥬｛|의 상실⑵라고 할 만한 사태를 겪고 있는 것이 이닌가 합니다.</s>
+          <s>이들 시인들에게 공통적으로 뚜렷하 게 뜨러나는 ‘<term type="concept">환상성</term>의 특칭이 바로 그 점을 말해줄 듯싶습니다 환상이라는 것은 의식하는 <term type="concept">주체</term> 바깥의 담론이기 때문이지요.</s>
+          <s>이 같은 <term type="concept">타주체적</term>'* '주체 해 제적' 특성이 바로 이 <term type="concept">젊은 시인들</term>에게는 <term type="concept">장광설</term>이 라는 언어적 형식으로 드러나고 있지 않나 생각합니 다시 말해서, 시는 삶의 보편적 조건에 대한 탐구인 동시에 한 시대의 삶 의 초상이기도 하다는 말이지요* 저는 이 같은 삶의 양 측면을 겨냥하는 시적 촉수를 '<term type="concept">감각의 깊이와 넓이</term>*라는 말로 부르고 싶습니다만，이러한 시의 감각은 바로 삶 자체의 깊이와 넓이에서 연유하는 것이겠지요.</s>
+          <s>그 런데, 물론, 정도의 문제이자 각자 살아온 체험의 특정한 부분과 관계되 는 문제겠지만，각 시인마다 자신의 시 세계를 형성하는데 있어서 깊 이와 '넓이' 가운데 대부분 어느 한 쪽 면이 더 우세한 것이 사실인 듯 합니다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x">김양헌</persName> 선생님이 지적하신 <term type="concept">중견 시인들</term>의 *<term type="concept">깊이</term>'에 대해 <interp value="affirmative" ana="문학관">저 역시 전적으 로 공감하면서</interp> , 저는 또한 <quote type="direct" genre="critic">이 중견 시 인들의 깊이가 우리 시의 전체 지 형의 폭을 확장하는데 큰 역할을 하고 있다는 생각을 합니다</quote>* 깊게 패인 구멍의 폭이 작을 리가 없잖습니까?</s>
+          <s>물론 그 반대의 경우도 마찬가지겠 지요.</s>
+          <s><persName ref="#p-x18">허수경</persName> 시인의 경우가 떠오르는데, 잘 아시다시피, 오랜 외국 생 활의 체험으로 시 세계의 변화 폭이 상당히 큰 경우에 속하지요.</s>
+          <s>초기 시들이 지녔던 <term type="concept">질박한 서정적 리듬감</term>이 한 차례 <term type="movement">표현주의적</term> 회화를 연최근 들어 <term type="concept">전망</term>이란 말이 다시 나오고 있는데, 시가 내재한, 시가 담보할 수 있는 <term type="concept">공공의 윤리</term>를 생각해 봐야 합니다, 물론 이런 움직임의 배경에는 중심을 향한 그리움이 은밀하게 깔려 있는지도 몰라요.</s>
+          <s><term type="concept">미시 적 세계관</term>이 <term type="concept">거시적 세계관</term>을 몰아내고 담론의 구조 를 바꾼 지가 10년도 넘지 않았습니까?</s>
+          <s><interp value="critical" ana="문학관">미시 세계에 너무 치우치니 답답하고 허망해요</interp>得 이런 걸 해가지고뭘 어쩌겠다는 거냐 말이죠.</s>
+          <s>어쨌거나 이전처럼 하다 가는 실패할 테니까, 그리고 아직 뚜렷한 돌파구가 보이지 않으니까 다들 조심스러워요* 게다가 정치나 윤리가 따로 노는 것도 아니고 <term type="concept">자본</term>의 문제나 사회와 문화와도 복잡하게 얽혀 있어서 논의의 선을 어디까 지 그어야 할지，그것도 문제죠.</s>
+          <s>상시키는 듯한 *<quote type="direct" genre="critic">끔찍한 화폭</quote>'으로 변화했는데, 최근에 낸 시집을 보니까 이 양자사이에서 어떤 절충점을 찾아낸 듯싶더군요.</s>
+        </p>
+        <p>
+          <s>넓이가 깊이를 담 보하고 있는 경우라고 하겠지요.</s>
+          <s><persName ref="#p-x">김양헌</persName>: <persName ref="#p-x18">허수경</persName>은 이번 시집의 시들을 “<term type="concept">반전쟁시</term>”라고 했어요.</s>
+          <s>외국에 나 가서 고고학을 전공하다 보니까 여러 곳을 다니면서 전쟁 소식을 많이 듣게 되었겠지요.</s>
+          <s><persName role="poet" xml:id="p-x31">허수경 시인</persName>이 <orgName xml:id="org-x2">독일</orgName>로 건너간 지 10여 년이 되었는데 그 동안 유럽과 중동 둥지에 분쟁이 많지 않았습니까?</s>
+          <s>그렇다고 특정한 사건을 내세운 건 아니고, <interp value="affirmative" ana="미학">전쟁으로 인한 상처를 드러냄으로써 인간의 문제가 자연스럽게 시로 녹아들도록 했다는 게 옳을 듯합니다.</interp></s>
+          <s>게다가, <term type="concept">시간의 지층</term>을 다루다 보니 다양한 시간대의 삶을 현재의 삶과 겹쳐놓 으면서 <term type="concept">존재의 본질</term>에 관해 더욱 깊이 웅시하게 되었을 테고요.</s>
+          <s>이번 시집에서 또 하나 흥미로운 것은 1부의 구성입니다* 표준어로 시 를 한 편 쓰고 똑 같은 내용을 진주 사투리로 써서 또 한 작품을 만들거 든요.</s>
+          <s><persName role="poet" xml:id="p-x32">허 시인</persName>이 쓴 진주 사투리는 지금도 사용하는 말이겠지만 표준말에 편입하지 못했으니 <term type="concept">언어의 고고학</term>이라 해야 할까요?</s>
+        </p>
+        <p>
+          <s>고고학의 지충 을 파듯이 <term type="concept">언어의 지층을 파는 작업</term>이라는 생각이 듭니다.</s>
+          <s>돌칼이나 빗 살무늬토기가 우리 시대와는 다른 그 시대의 문화와 삶의 인식을 보여 주는 것처 럼, 사투리의 지충도 새로운 맛을 주고 있어요.</s>
+          <s>재미 있습니다.</s>
+          <s><persName ref="#p-x2">김진수</persName>:「<title level="m" type="poem" xml:id="t-x2">내 영혼은 오래되었으나</title>』가 출간된 지 얼마 되지 않은 시점으로 기억하는데, 시인과 필담으로 대화를 하면서 들었던 얘기입니다만, 자 기 시의 <term type="concept">리듬감</term>의 감소를 그때부터 아마도 의식하고 있었던 게 아닌가 싶습니다.</s>
+          <s><persName ref="#p-x">김양헌</persName>: 그렇군요* 아까 질박한 리듬이 '<quote type="direct" genre="poet">끔직한 화폭</quote>‘과 만났다고 지적하 셨는데, <term type="concept">리듬감</term> 감소는 그런 문제와 연관이 있겠지요.</s>
+          <s><persName ref="#p-x18">허수경</persName> 시인은 첫 시집부터 <interp value="affirmative" ana="미학">농익은 언어의 흐름을 보여주었는데</interp>, 이런 변화에 관해서는 더 탐색을 해봐야겠네요.</s>
+          <s><persName ref="#p-x2">김진수</persName>: <persName ref="#p-x13">송재학</persName> 시인의 경우에는 초기 시집에서부터 유달리 <term type="concept">감각의 절제</term> 가 선명하게 드러나지 않습니까?</s>
+          <s>이 같은 강한 <term type="concept">절제</term>가 이 시인의 시 세 계에서 느끼게 되는 <term type="concept">시적 긴장</term>의 핵인 것 같습니다.</s>
+        </p>
+        <p>
+          <s>변함없이 <term type="concept">긴장</term>올유 지하는 걸 보면 존경심이 들기도 합니다.</s>
+          <s><persName ref="#p-x">김양헌</persName>: 그렇지요.</s>
+          <s><term type="concept">감각</term>을 생생하게 유지하는 <term type="concept">인식</term>의 깊이와 <term type="concept">긴장</term>이 중요 하지요.</s>
+          <s><persName ref="#p-x13">송재학</persName>은 언뜻 보면 <term type="concept">감각</term>을 앞세우는 듯 하지만 <term type="concept">정신의 극지</term>를 탐구하려는 의식이 강합니다.</s>
+          <s><term type="concept">인식</term>이 먼저지요.</s>
+          <s>그것을 아주 작은 사물 이나 사건에서 발견하기 때문에 읽는 이에겐 쉽게 <term type="concept">관념화</term>가 안 될 때가 많아서 <term type="concept">감각</term>만 읽고 지나치기 십상이지요.</s>
+          <s><term type="concept">감각</term>과 <term type="concept">정신</term>이 뒤얽혀 있다 고 할까요.</s>
+          <s>그렇게 뒤엉킨 <term type="concept">이미지</term>의 덩어리가 <term type="concept">긴장</term>을 고조하고 있어요* 이번에 발간한「<title level="m" type="poem" xml:id="t-x3">진흙 얼굴</title>JI도 이런 점에서는 이전 시집과 동일선상에 있습니다.</s>
+        </p>
+        <p>
+          <s>내면과 격렬하게 싸웠던 초기시『<title level="m" type="poem" xml:id="t-x4">얼음시집</title>」과1r<title level="m" type="poem" xml:id="t-x5">살레시오네집</title>』에 비해『<title level="m" type="poem" xml:id="t-x6">푸른빛과 싸우다</title>』이후부터 최근 시에는 고요가 많이 들어 섰지만, 외국의 풍광을 접하면서 <term type="concept">사막과 오지의 삶 같은 데서 흘러나온 극단의 정신</term>이 이번 시집을 지배하고 있어요.</s>
+          <s><persName ref="#p-x3">강계숙</persName>: 제가 보기엔 <persName role="poet" xml:id="p-x33">김기택</persName> 시인에게서도 이전과 다른 차이점을 발견할 수 있습니다.</s>
+          <s><interp value="neutral" ana="미학">지난번 시집『사무원』이 그의 시적 변모를 예시하는 일종 의 전환점이었다고 할 수 있는데</interp>, 이번 시집『<title level="m" type="poem" xml:id="t-x7">소</title>』에서 그 변화의 양상이 구체적으로 드러나고 있습니다.</s>
+          <s><persName ref="#p-x33">김기택</persName> 시인의 시적 상상력을 가리켜 <term type="concept">해부학적 상상력</term>이라 칭합니다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">대상에 대한 냉정하고 치밀한 투시가 그의 시의 특장이라는 뜻이지요.</interp>
+          </s>
+          <s>그런데 <interp value="neutral" ana="미학">최근 시에는 이러한 해부학적 투시력에 원근법적 시선이 교차되고 있다는 인상을 받습니다.</interp></s>
+          <s><interp value="neutral" ana="미학">두 개의 시선이 중첩되고 있다는 표현이 더 정확하지 않을까 싶습니다만</interp>…….</s>
+          <s><persName ref="#p-x2">김진수</persName>: 용어의 문제일 것 같은데요, 제가 이해하기로는 '<term type="concept">원근법적 시선</term> 이라고 하는 것이 사실은 하나의 중심 혹은 <term type="concept">소실점</term>을 향해 있는 단일한 시선의 지배를 말하는 것이지요.</s>
+        </p>
+        <p>
+          <s>그렇다면 두 개의 시선이라는 것은 어 떤 것인지요?</s>
+          <s><persName ref="#p-x3">강계숙</persName>: 부연하자면, 대상의 표면 층위를 관통하여 그 이면을 파헤치는 현 미경 렌즈와 같은 시선이 우선 작동하고 있고, 이렇게 파악된 대상을 주 변 풍광과 함께 전체 공간에 위치 짓는, 3차원적 공간감이 풍부한 시선 이 또한동시에 작동하고 있습니다.</s>
+          <s>즉 대상을 '원遠-거리/근접一거리 라는 공간적 차이 가운데 인식하고 그것을 전체 속의 부분으로 자리매 김하고 있다는 뜻에서 <term type="concept">원근법적</term>이라는 표현을 쓴 것입니다.</s>
+          <s>가령 시집 「<title level="m" type="poem" ref="#t-x7">소</title>」의 마지막 시인「<title level="a" type="poem" xml:id="t-x8">어떻게 기억해냈을까</title>」를 보면, 시인의 시선은 고 충빌딩 사무실 안에 있는 한 여성에게로 가까이 다가갑니다.</s>
+          <s>그녀의 웃 음을 감각할 수 있을 만큼의 거리로 이동하지요.</s>
+          <s>그리고 그 웃음을 '사 과로 비유합니다.</s>
+          <s>그런데 그녀를 보던 이 시선은, 흡사 카메라가 뒤로빠지듯, '그녀一*건물一＞건물이 놓인 공간'을 하나의 전체로 조망하면서 시의 공간을 입체적으로 만듭니다.</s>
+          <s>그리고 다음과 같이 말합니다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet">어 떻게 기 억해냈을까 지금 디 딘 고충 빌딩 이 땅이라는 것을/뿌리처 럼 발 바닥이 숨 쉬어온 흙이라는 것을/흙을 공기처럼 밀어올린 풀이라는 것 을.</quote></s>
+          <s>” 고충빌딩이 땅과 연결되면서, 그녀, 그녀의 웃음, 사과, 공기, 햇빛 등등은 지상으로부터 붕 떨어져 있으면서도, 보이지 않는 원리에 의해 다시 고층빌딩—땅'의 방향으로 연결됩니다.「<title level="a" type="poem" xml:id="t-x9">우글우글하구나 나무여</title> ，의 경우에도 형상화의 주 대상은 ‘나무'지만, 시 전체에 걸쳐 표현된 나무는 땅 속으로, 하늘 높이로, 수직 하강 • 수직 상승하는 존재로 나 타납니다.</s>
+          <s>공간적 거리가 더 넓게 확장된 셈이지요.</s>
+          <s>이러한 특징은 '나 무를 자연 전체와 연관시켜 상상하지 않고는 나타나기 힘든 것입니다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이러한 거리감은 그동안 김기택의 시에서 찾아보기 힘든 것이었다는 점 에서 그의 시 의 새로운 변화가 아닐까 싶습니다.</interp>
+          </s>
+          <s><persName ref="#p-x">김양헌</persName> : 그렇게 보는 방법도 있군요.</s>
+          <s>저는 화자의 위치와 주체의 개입에 * 신경을 쓰고 있었어요.「<title level="a" type="poem" xml:id="t-x10">소냐</title> 같은 작품은 화자가 대상을 가까이서 바라 보는 위치에 있는데, 그러니까「<title level="a" type="poem" xml:id="t-x11">상계동 비둘기</title>」같은 경우는 화자가 안 드러나고 사건 묘사만 꼬집어서 하고 있는데,「소」에는 화자가 개 입하 여 주관성을 슬쩍 비 춰 주거든요*「<title level="a" type="poem" xml:id="t-x12">풀벌레들의 작은 귀롤 생각함</title>」은 내 용은 물론 제목에도 주체의 움직임이 드러나잖아요?</s>
+          <s>“<quote type="direct" genre="poet">생각함</quote>”의 주체' 가 은밀히 움직이고 있어요.</s>
+        </p>
+        <p>
+          <s>이런 건 <persName ref="#p-x33">김기택</persName>이 별로 쓰지 않던 방법이지 요『<title level="m" type="poem" xml:id="t-x13">사무원</title>』에서 익 히 보았듯이 서술 주체를 감추고 끝까지 <term type="concept">객관 묘사</term> 로 가는 게 김기택의 방법론이잖아요.</s>
+          <s>이번 시집의 작품들도 대개 이런 방향이긴 하지만.</s>
+          <s><persName ref="#p-x2">김진수</persName> : <persName ref="#p-x33">김기택</persName> 시인에게는 그것이 사•소한 변화가 아니라 아주 커다란 변 화일 수도 있겠지요.</s>
+          <s>
+            <interp value="affirmative" ana="미학">시선의 폭이 확대되었다고 생각할 수도 있겠고.</interp>
+          </s>
+          <s><persName ref="#p-x">김양헌</persName> : 그렇죠* <term type="concept">3인칭 시점</term>과 <term type="concept">1인칭 시점</term>은 그 의미가 많이 다르니까.</s>
+          <s>그 런데 겉보기론 아직 <term type="concept">객관성</term>에 크게 기대고 있어서, 시인은 어떻게 생각 하는지 모르겠어요.</s>
+          <s>별 변화가 없다고 느끼는지, 자신의 작업이 지겨워 서 살짝 비틀어본 건지.</s>
+          <s>
+            <interp value="critical" ana="미학">객관 묘사라는 게 방법상 상투성에 빠질 위험도 있고 기계적이라는 느낌을 줄 때도 있지요.</interp>
+          </s>
+        </p>
+        <p>
+          <s><persName ref="#p-x2">김진수</persName> : 그 동안 <term type="concept">구조적으로 완결된 시</term>를 써 온 시인으로 널리 알려져 있 는데, 그렇다면 지금의 이 변화는 그 구조에다가 어떤 <term type="concept">시간성</term>, 즉 역사 를 보태고 있는 것은 아닌가 하는 생각이 드는군요.</s>
+          <s><persName ref="#p-x">김양헌</persName> : 그럴 가능성도 있어요.</s>
+          <s>어쨌든 <persName ref="#p-x13">송재학</persName>과 <persName ref="#p-x33">김기택</persName>, <persName ref="#p-x18">허수경</persName>의 경우는 미묘한 변화가 있긴 하지만, 바로 앞에 나온 시집과 견줘보면 <interp value="neutral" ana="미학">차이보다 연관성이 더 크다는 생각이 듭니다.</interp></s>
+          <s><persName ref="#p-x3">강계숙</persName> : 앞서 <persName ref="#p-x">김양헌</persName> 선생님께서 <persName ref="#p-x18">허수경</persName> 시인이 언어 자체를 <term type="concept">고고학적</term>으 로 탐구하고 있다는 말씀을 해 주셨는데요, 저도 비슷한 인상을 받았습 니다.</s>
+          <s><quote type="direct" genre="poet">진주 말로 혹은 내 말로</quote>'라는 제명으로 묶은 1부의 시들은 내용 이 같은 시인데, 한번은 표준어로, 한번은 진주 방언으로 쓴 뒤 나란히 병렬시켜 놓았습니다.</s>
+          <s>왜 이런 시도를 했을까 궁금해지는데, <persName ref="#p-x18">허수경</persName> 시 인이 최근 인류사에서 '폭려의 문제에 관심을 집중하고 있다는 점과 깊 이 연관된 것이 아닐까 짐작됩니다* 시인 스스로가 시집에 실린 시편들 을 '<term type="concept">반反전쟁시</term>'로 읽어주길 요청했는데, 표준어로 쓰인 시와 사투리로 쓰인 시가 '반反전쟁‘과 무슨 관련이 있는 것일까요?</s>
+          <s>제 생각에는 문명 에 내재된 '<term type="concept">폭력</term>'의 논리가 언어의 역사와 관련되어 있음을 암암리에 드 러내는 시적 실험이 아닐까 싶어요.</s>
+          <s>요컨대 <interp value="neutral" ana="사상">표준어는 근대의 산물로서 과학적으로 가공된 인공어입니다.</interp></s>
+        </p>
+        <p>
+          <s>그것은 마땅히 지키고 준수되어야 하 는 <term type="concept">규범적인 언어</term>이며, 규칙에 따라 사용되는 <term type="concept">당위적 언어</term>입니다.</s>
+          <s>자연 발생적인 언어가 아니라는 뜻이지요.</s>
+          <s>그에 반해 <term type="concept">사투리</term>는 기원을 알 수없을 만큼 오래된 <term type="concept">자연어</term>입니다.</s>
+          <s><term type="concept">근대 문명사회</term>가 '<quote type="indirect" genre="other">낡은 것</quote>'으로 치부하 고 배제한 언어이기도 하구요.</s>
+          <s>그래서인지, <term type="concept">사투리</term>는 태초의 <term type="concept">원시성</term>을 보존하고 있는 언어로 다가옵니다.</s>
+          <s><term type="concept">표준어</term>를 <term type="concept">공적 언어</term>, <term type="concept">제도어</term>, <term type="concept">중심어</term> 로 삼는 <term type="concept">언어의 위계화</term> 과정이 <term type="concept">사투리</term>를 배척하고 소외하는 과정임을 상기한다면, 이는 <interp value="critical" ana="사회">근대가 근대 아닌 것을 삭제하고 은폐하는 폭력이 언 어 체계에 가해진 것이라고 할 수 있습니다.</interp></s>
+          <s><persName ref="#p-x18">허수경</persName> 시인이 같은 내용의 시를 한 번은 <term type="concept">표준어</term>로, 한번은 <term type="concept">진주 사투리</term>로 표기한 까닭은 언어로서 의 한국어의 현재, 그리고 한국어 형성의 역사에 내포된 <term type="concept">폭력</term>의 흔적을 고고학적으로 탐사하면서, <term type="concept">언어 기원</term>에 대한 고찰을 통해 <term type="concept">자기 기원</term>에 대한 성찰이 가능하도록 언어와 자기 현존간에 <term type="concept">순환적 시간의 지층</term>을 가로놓고 있기 때문이라고 풀이됩니다.</s>
+          <s>“<quote type="direct" genre="poet" source="허수경">뒤로 가는 실험을 하는 것이 앞으로 가는 실험과 비교해서 뒤지지 않을 수도 있다</quote>”는 <persName ref="#p-x18">허수경</persName> 시인의 말은 이런 맥락에서 보면, 현재의 언어를 뒤로 가게 하는 실험과 과거 의 언어‘인 “<term type="concept">진주말</term>”을 <term type="concept">재再一현재화</term>하는 실험은 동일한 의미를 지니는 작업이 되겠지요.</s>
+        </p>
+        <p>
+          <s>어쩌면 그것은 <term type="concept">근대</term>의 '<term type="concept">폭력</term>'이 매장시킨 과거의 지층 을 새롭게 복원하는 일이자, 동시에 그러한 폭력의 결과물인 '지금 여 기'를 반성하는 일이기도 할 것입니다.</s>
+          <s><persName ref="#p-x18">허수경</persName>의 시집을 읽으면서 놀란 점이 있는데, <term type="concept">경상도 사투리</term>로 쓰인 시들이 제겐 외국어로 쓰인 시처럼 보였다는 겁니다.</s>
+          <s>우리말 시 같지 않았습니다.</s>
+          <s>분명 우리말의 하나인데 말이지요.</s>
+          <s>그래서 오히려 <term type="concept">표준어</term>로 쓰인 시편들을 다시 유심히 볼 수밖 에 없었습니다.</s>
+          <s>‘이것이 시의 언어로서 정말 적합한 언어일까?</s>
+          <s>그 뜻을 정확히 알 수 없는 <interp value="affirmative" ana="미학">진주 방언이 오히려 시의 언어로서 더 근원적이고본 질적인 것이 아닐까?</interp></s>
+          <s>' 라는 생각을 하면서 말이지요.</s>
+        </p>
+        <p>
+          <s>특이한 독서 체험 이었습니다.</s>
+          <s><persName ref="#p-x">김양헌</persName>: <persName ref="#p-x18">허수경</persName>의 <term type="concept">사투리</term> 시는 <term type="concept">몸말</term>입니다.</s>
+          <s>일부러 만든 말이 아닙니다.</s>
+          <s><persName ref="#p-x2">김진수</persName>; 우리말의 특장이라는 게 조사와 어미의 다양한 변용에 있지 않습니까?</s>
+          <s>이번 시집에서는 그런 면에 많이 신경을 쓰지 않은 걸 의미하는 건가요?</s>
+          <s><persName ref="#p-x">김양헌</persName>: 물론 신경을 썼겠지요.</s>
+          <s>글말보다 <term type="concept">입말</term>에서 조사와 어미의 변화가 훨씬 많으니, 발화 상황을 면밀히 검토하여 선택을 했을 겁니다.</s>
+          <s>조사와 어미도 <term type="concept">사투리</term>에 오면 상당히 달라지는데, 그렇다고 아무렇게나 갖다 붙일 수는 없어요.</s>
+        </p>
+        <p>
+          <s>사투리는 사투리 나름으로 일정한 규칙, 언어 체계가 있거든요" 그 동안 사투리를 단어 수준에서 사용한 경우는 많았지만 문 장 전체를 사투리로 쓴 건 <persName role="poet" xml:id="p-x34">정숙</persName>의 r<title level="m" type="poem" xml:id="t-x14">신처용가</title>』（<orgName xml:id="org-x3">시와시학사</orgName>, <date when="1996">1996</date>） 정도 인데, 시집의 작품들 전부를 경상도 경산 사투리（경산 사투리라는 게 따 로 있는 게 아니라 경주와 대구 사투리가 뒤섞인 것이라 할 수 있는데） 로 썼거든요.</s>
+          <s>어미와 조사 사용을 제어하는 화용론적 정황, 소리말와 표기（글）의 간극 같은 것이 문제가 되었지만 <interp value="affirmative" ana="미학">흥미로운 시집이었죠.</interp></s>
+          <s><persName ref="#p-x34">정숙</persName> 의 사투리가 대구와 경주 사이에서 실제로 사용할 수 있는 말이듯이, 허 수경의 사투리도 진주 토박이가 실제로 쓸 수 있는 말일 겁니다.</s>
+          <s>적어도 <persName ref="#p-x18">허수경</persName>의 삶 인근에서 사용할 수 있는 입말의 형태라는 것이지요.</s>
+          <s>표준 어가 사투리를 억압하는 폭력성이 너무나 심각한 지경에 이른 오늘날, <interp value="affirmative" ana="사회">이런 입말 형태의 '사투리시'는 중요한 의미를 지닌다고 생각합니다.</interp></s>
+          <s>표 준어의 폭력성과 권력은 <term type="concept">자본주의</term> 체제가 전 지구를 뒤덮으며 탄탄해지 는 만큼 점점 더 힘을 얻을 겁니다.</s>
+          <s>지금 세계에는 대략 6천 개 정도의 언어가 있다고 하는데, 10만 명 이상 이 사용하는 언어는 600개밖에 안 된답니다.</s>
+          <s>나머지는 곧 사라질 위기 에 빠져 있어요 <term type="concept">자본</term>의 힘이 커질수록 효율성을 더 높이려 할 테고 그 러면 언어 수는 급속히 줄어들겠지요.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="사회">강한 언어는 약한 언어들을 무차 별 살해할 겁니다.</interp>
+          </s>
+          <s>결국엔 우리말조차 사라지고 한 가지 말만 남는 날이 올지도 모릅니다.</s>
+          <s>지구인 전체가 영어만 쓴다고 생각해보세요.</s>
+          <s>그런 잔 인한 <term type="concept">파시즘</term>이 어디 있겠습니까?</s>
+          <s>사투리는 같은 언어 체계 안에 있으면 서 사용자가 줄어들어 없어지는 경우인데, 이것은 곧 한 언어 공동체에서 <term type="concept">문화의 다양성</term>이 감소한다는 의미가 됩니다.</s>
+          <s>각 언어는 세계를 보는 그 언어만의 눈이 있어요.</s>
+          <s>사투리도 표준어와 다른 눈을 가졌지요 그러 니 표준어를 사투리로 옮겼을 때, 작품에 나오는 사투리를 실제로 사용 하지 않더라도 문화적 의미는 매길 수가 있지요.</s>
+          <s>그렇다고 사투리만 고 집하는 것도 문제가 있어요.</s>
+        </p>
+        <p>
+          <s>지역 사투리 중에는 말의 결이 시어로 적합 하지 않는 것도 많거든요.</s>
+          <s>특히 경상도 말은 거센소리와 된소리가 많아 아주 거세거든요, 표기가 불가능한 성조도 남아 있고요.</s>
+          <s>사투리를 많이 쓰면, 한쪽으로만 쓰다 보면, 소통의 문제에 부딪히는 것도 생각해야 되 겠지요김진수: 자연스럽게 <term type="concept">젊은 시인들</term>의 시 세계로 넘어가야겠군요.</s>
+          <s>소통의 문 제와 부딪히게 되니까.</s>
+          <s><persName ref="#p-x">김양헌</persName>: 예, 이밖에도 <persName role="poet" xml:id="p-x35">천양회</persName>, <persName ref="#p-x8">김명인</persName>, <persName ref="#p-x14">오규원</persName>, <persName ref="#p-x10">박남철</persName>, <persName role="poet" xml:id="p-x36">하종오</persName>, <persName ref="#p-x12">장석주</persName>, 맹 문재 등 많은 시인들이 올해 시집을 출간했는데, 앞서 얘기했다시피 <interp value="affirmative" ana="미학">이 들은 모두 자기 세계를 깊이 파고 들어간다는 점에서 눈여겨볼 만합니 다.</interp></s>
+          <s>요즘 새로운 세대의 시를 읽다 보면 분방한 상상력과 역동적인 언어 에 놀랄 때가 많지만, <interp value="critical" ana="미학">이들이 사용하는 방법론으로 과연 깊이 있는 천착 이라는 게 가능할까 싶은 생각이 들기도 해요.</interp></s>
+          <s>
+            <interp value="neutral" ana="미학">예술가라면 모름지기 자 신의 세계를 평생토록 파고드는 끈기와 열정이 있어야 하지 않겠습니 까?</interp>
+          </s>
+          <s>깊고 넓은 물에 큰 물고기가 살 텐데, 큰 사상이 없어 뚜렷한 지향점 이 없는 요즘, <interp value="critical" ana="미학">젊은 세대는 감각이 너무 성한 듯하여 은근히 노파심이 생깁니다.</interp></s>
+        </p>
+        <p>
+          <s><term type="concept">새로운 세대들</term>은 이미 <interp value="neutral" ana="미학">언어를 극단으로 몰아붙이고 있다는 느낌 이 들어요.</interp></s>
+          <s>그러면 그 다음에는 어디로 갈 것인가 말이죠.</s>
+          <s><persName ref="#p-x3">강계숙</persName>: <persName ref="#p-x">김양헌</persName> 선생님께서 중견 시인들과요즘'<term type="concept">젊은 시인들</term>의 시를 비교해서 말씀해 주시니, 자연스럽게 다음 논의로 넘어가도록 하겠습니다.</s>
+          <s>‘<term type="concept">새로운 시</term>'의 창조를 위한 치열한 시적 고투3-1.</s>
+          <s>새로운 세대군群의 등장<persName ref="#p-x3">강계숙</persName>: <term type="concept">중견 시인들</term>이 자기 고유의 시 세계를 더욱 깊고 넓게 확장하는 방향으로 갱신을 모도하고 있다면, 최근 <term type="concept">젊은 시인들</term>은 '<term type="concept">새로운 시를 창조하기 위한 다채로운 시적 실험</term>에 몰두하고 있다고 할 수 있습니다.</s>
+          <s>서두에서 올해 시단의 가장 큰 특징으로 <term type="concept">신진 시인들</term>에 의한 새로운 시 적 흐름의 형성을 지적하였습니다만, 좌담에 참여한 선생님들께서 주목 할 만한 것들로 선정해주신 대부분의 시집들이 올해 첫 시집을 낸 <term type="concept">젊은 시인들</term>의 것인 경우가 많습니다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">현재 20대 후반에서 30대 초반의 나이 로 1970년대 생이 대부분인 이들 시인들의 둥장은 1990년대 이후 정치 적 이념이 쇠퇴한 뒤, '신서정'이라는 이름으로 다양한 시적 분화를 이 끌었던 일군의 시인들과는 또 다른 면에서 구분된다고 보입니다.</interp>
+          </s>
+          <s>올해 의 시를 논하기 위해서는 이들의 문학적 특징을 되짚어보는 것이 가장 중요한 항목이 될 듯합니다.</s>
+        </p>
+        <p>
+          <s>이들이 앞으로 우리 시단올 이끌어갈 창작 층이라는 점에서도 이들의 행보를 주의 깊게 살펴보는 것은 매우 의미 있는 일이라 할 수 있습니다.</s>
+          <s>올해 주목할 만한 첫 시집으로는 <persName role="poet" xml:id="p-x37">박진성</persName>의『<title level="m" type="poem" xml:id="t-x15">목숨</title>』, <persName role="poet" xml:id="p-x38">류인서</persName>의『<title level="m" type="poem" xml:id="t-x16">그는 늘 왼쪽에 앉는다</title>』, <persName role="poet" xml:id="p-x39">이성미</persName>의『<title level="m" type="poem" xml:id="t-x17">너무오래 머물렀을 때</title>』, <persName role="poet" xml:id="p-x40">김민정</persName>의『<title level="m" type="poem" xml:id="t-x18">날으는 고슴도치 아가씨</title>』, <persName role="poet" xml:id="p-x41">이창수</persName>의「<title level="m" type="poem" xml:id="t-x19">물오리 사냥</title>事, <persName role="poet" xml:id="p-x42">고영</persName>의『<title level="m" type="poem" xml:id="t-x20">산복도로에 쪽배 가 떴다</title>』, <persName role="poet" xml:id="p-x43">이기인</persName>의 1r<title level="m" type="poem" xml:id="t-x21">알쏭달쏭 소녀백과사전</title>』, <persName role="poet" xml:id="p-x44">이영주</persName>의 电<title level="m" type="poem" xml:id="t-08">08번째 사내</title> J, <persName role="poet" xml:id="p-x45">신해욱</persName>의『<title level="m" type="poem" xml:id="t-x22">간결한 배치</title>」, <persName role="poet" xml:id="p-x46">유형진</persName>의 1r<title level="m" type="poem" xml:id="t-x23">피터래빗 저격사건</title>』, <persName role="poet" xml:id="p-x47">황병승</persName>의 『<title level="m" type="poem" xml:id="t-x24">여장남자 시코쿠</title>』, <persName role="poet" xml:id="p-x48">이민하</persName>의『<title level="m" type="poem" xml:id="t-x25">환상수족</title>』, <persName role="poet" xml:id="p-x49">고영민</persName>의『<title level="m" type="poem" xml:id="t-x26">악어</title>』, <persName role="poet" xml:id="p-x50">문성해</persName>의 「<title level="m" type="poem" xml:id="t-x27">자라</title>』, <persName role="poet" xml:id="p-x51">이세기</persName>-<title level="m" type="poem" xml:id="t-x28">먹염바다</title>』, <persName role="poet" xml:id="p-x52">진수미</persName>의『<title level="m" type="poem" xml:id="t-x29">달의 코르크 마개가 열릴 때까 지</title>』, <persName role="poet" xml:id="p-x53">김이듬</persName>의 |*<title level="m" type="poem" xml:id="t-x30">별 모양의 얼룩</title>力 <persName role="poet" xml:id="p-x54">장무령</persName>의 1r<title level="m" type="poem" xml:id="t-x31">선사시대 앞에서 그녀를 기 다리다</title>」, <persName role="poet" xml:id="p-x55">김언</persName>의『<title level="m" type="poem" xml:id="t-x32">거인</title>」, <persName role="poet" xml:id="p-x56">김근</persName>의「<title level="m" type="poem" xml:id="t-x33">뱀소년의 외출</title>』, <persName role="poet" xml:id="p-x57">최치언</persName>의『<title level="m" type="poem" xml:id="t-x34">설탕은 모든 것을 치료할 수 있다</title>』, <persName role="poet" xml:id="p-x58">이재훈</persName>의「<title level="m" type="poem" xml:id="t-x35">내 최초의 말이 사는 부족에 관한 보고서</title>』등이 있습니다.</s>
+          <s>이 자리에서 이들의 작품 세계를 모두 언급 하기란 어려운 일이기 때문에, 몇 가지 범주로 나누어서 질문을 드릴까 합니다.</s>
+          <s>우선, 이들에게서 동일 <term type="concept">세대</term>로서의 공통된 특징이 나타난다면 어떤 점이 있을까요?</s>
+          <s>이들이 스스로를 이전 세대와 구분 지으려는 뚜렷 한 <term type="concept">세대 의식</term>을 표방하고 있는 것은 아니지만, 제 생각에는, 이들의 시 는 바로 앞 세대인 <persName ref="#p-x33">김기택</persName>, <persName ref="#p-x30">함민복</persName>, <persName role="poet" xml:id="p-x59">이윤학</persName>, <persName ref="#p-x11">장석남</persName>, <persName ref="#p-x18">허수경</persName>, <persName ref="#p-x21">박형준</persName> 등 — 이들 모두 올해 새 시집을 상재했지요* — 과 비교해 보아도 이들만 의 공통된 특징이 있지 않은가 싶습니다.</s>
+          <s><persName ref="#p-x2">김진수</persName>: <persName ref="#p-x3">강계숙</persName> 선생이야말로 이들 세대에 속하는 평론가 아닙니까?</s>
+          <s>이들 의 <term type="concept">감수성</term>에 익숙하고 또 그것을 잘 이해하고 계시지 않을까 싶은 데…….</s>
+          <s><persName ref="#p-x3">강계숙</persName>: （웃음 그래서 이 질문을 첫 질문으로 드린 것이긴 합니다만…….</s>
+        </p>
+        <p>
+          <s>세대론적 단절이라 칭할 정도는 아니지만, 속칭 <term type="concept">386세대</term>라 일컬어지는 세대들이 <date from="1990" to="1999">1990년대</date> 이후 시단의 <term type="concept">신세대</term>층을 이루고 있었다면, 올해는 <date from="1970" to="1979">1970년대</date> 생 시인들이 시단에 새로운 세대로 등장한 해로 기억되지 않 을까 싶습니다.</s>
+          <s>제 생각에 이들 세대의 공통된 특징은 아무래도 대중문 화의 전면적인 영향을 들 수 있습니다.</s>
+          <s><term type="concept">대중문화</term>가 더 이상 생활과 구분 되는 오락과 여가가 아니라 삶의 가장 직접적인 체험으로 감수感受되고 있는 것이지요.</s>
+          <s><persName ref="#p-x2">김진수</persName> : 이 <term type="concept">젊은 시인들</term>이 살고 있는 오늘날의 시대에는 <term type="concept">대중문화</term>야말로 바로 현실 자체이자 또 시의 텍스트인 것이죠.</s>
+          <s>그리고 누구나 자기 현실 을 쓸 수밖에 없을 테고.</s>
+          <s><persName ref="#p-x3">강계숙</persName> : 맞습니다.</s>
+          <s>이들에게 <term type="concept">대중문화</term>는 일상생활과 분리되지 않는 현실 그 자체입니다" 저는 가끔 농담 삼아 대학 학번이 92학번인 친구들을 가리켜 '<term type="concept">서태지 학번</term>‘이라고 표현합니다.</s>
+          <s><persName role="other" xml:id="p-x60">서태지</persName>가 '<title level="a" type="other" xml:id="t-x36">난 알아요</title>'로 공전의 히트를 친 해가 <date when="1992">1992년도</date>인데, 그때 저희가 대학 1학년이었거든요.</s>
+        </p>
+        <p>
+          <s>그 가 1집 낼 때 1학년, 2집 낼 때 2학년, 3집 낼 때 3학년, 4집 내고 은퇴할 때, 저회도 4학년 마치고 졸업을 했지요.</s>
+          <s>'<persName ref="#p-x60">서태지</persName>'의 등장과 그것의 상 징적 의미는 그 당시 대학 문화가 어떻게 해마다 달라졌는가를 몸으로 실감하지 않은 분들은 아마 짐작하기 힘드실 겁니다.</s>
+          <s>이념이나 정치가 아니라 <term type="concept">문화적 아이콘</term>이 기존의 <term type="concept">감수성</term> 자체를 바꾸던 때였습니다.</s>
+          <s>서 태지를 '<quote type="direct" genre="other">문화 대통령</quote>‘이라고 불렀던 것은 결코 과장된 수사가 아닙니다 정치 세력으로서의 <term type="concept">학생 운동</term>이 쇠퇴하고, <persName role="foreigner" xml:id="p-x61">하버마스</persName>와 <persName role="foreigner" xml:id="p-x62">푸코</persName>간의 <term type="movement">포스트 모더니즘</term> 논쟁을 새로운 사조로 배우면서 밀 러miller 맥주 파는 곳을 찾 아다니고, <persName ref="#p-x60">서태지</persName>의 <term type="concept">댄스 음악</term>과 <persName role="other" xml:id="p-x63">듀스</persName>의 <term type="concept">힙합</term> 리듬에 환호하며 문학적 감수성을 키운 이들이 <date from="1990" to="1999">1990년대</date> 문학청년으로서의 습작기를 거쳐 이제 본격적으로 자기 목소리를 내기 시작하였다고 볼 수 있습니다.20대를 이러한 변화 속에서 보낸 한 사람으로서 이들 <term type="concept">신진 시인들</term>이 대 중문화에 깊이 천착하는 사정을 저는 심정적으로 충분히 이해할 수 있 습니다.</s>
+          <s>하지만 이러한 특징이 이들의 문학적 자양과 토대가 부족하다 는 의미로 이해해서는 곤란할 것입니다.</s>
+          <s>이들의 문학 수업은 그 어떤 세 대보다 풍부한 문학사적 전통에 뿌리를 두고 있다는 것이 제 생각입니 다* 요컨대 <persName role="poet" xml:id="p-x64">김수영</persName>, <persName role="poet" xml:id="p-x65">정현종</persName>, <persName role="poet" xml:id="p-x66">황동규</persName>, <persName role="poet" xml:id="p-x67">황지우</persName>, <persName role="poet" xml:id="p-x68">이성복</persName> 등을 거쳐 <persName role="poet" xml:id="p-x69">유하</persName>, 장 정일까지, 그리고 <persName role="poet" xml:id="p-x70">신동엽</persName>, <persName role="poet" xml:id="p-x71">신경림</persName>, <persName role="poet" xml:id="p-x72">김지하</persName>, <persName role="poet" xml:id="p-x73">박노해</persName>, <persName role="poet" xml:id="p-x74">김남주</persName>, <persName role="poet" xml:id="p-x75">백무산</persName>까지, 이들에게 시적 토양을 제공한 문학적 전범典範은 <date from="1920" to="1929">1920년대</date> 근대시 형성 의 초기부터 <date from="1980" to="1989">1980년대</date> <term type="movement">노동문학</term>과 <date from="1990" to="1999">1990년대</date> '<term type="movement">신서정</term>'에 이르기까지 문 학사 전체를 아우르는 것이라 해도 과언이 아닙니다.</s>
+          <s>저는 이들의 시 의 식 이면에 우리 시사詩史가 어떻게 흘러오고 분화되었으며, 자신들의 시 적 실험이 어느 위치에서 분기되고 있는가를 예민하게 자의식하는 날카 로운 감각이 숨어 있다고 생각합니다.</s>
+          <s>그런데 <term type="concept">대중문화</term>가 새로운 <term type="concept">시적 상상력</term>의 발생과 어 떻게 상관되는가를 고심하면서 이들의 시를 살펴보면, 이들 간에도 각기 다른 차이점을 발견하게 됩니다.</s>
+        </p>
+        <p>
+          <s>예컨대 <persName role="critic" xml:id="p-x76">권혁웅</persName>의 시와 <persName role="poet" xml:id="p-x77">황병숭</persName>, <persName ref="#p-x46">유형진</persName>, <persName ref="#p-x40">김민정</persName>의 시는 <term type="concept">대중문화</term>의 하위 장르를 시의 모티브로 활용한다는 점에서 동일하지만, 그것을 다루는 방식은 전혀 다릅니다.</s>
+          <s>비슷한 연배이지만, <persName ref="#p-x76">권혁웅</persName>은 <term type="concept">386세대</term>의 마지막 주자라는 점이 이들과 다른 차이점일 텐데, 이는 <persName ref="#p-x40">김 민정</persName> 등의 <term type="concept">수사학</term>과 권혁웅의 수사학을 다르게 만든 주요 요인이라고 생각합니다.</s>
+          <s>좀 더 부연하자면,『<title level="m" type="poem" xml:id="t-x37">마징가 계보학</title>』에 실린 <persName ref="#p-x76">권혁웅</persName>의 시편 들은 <term type="concept">대중문화</term> 약사略史라 해도 과언이 아닐 만큼 많은 문화적 소재를 차용하고 있습니다.</s>
+          <s>그런데 이 러한 차용은 <term type="concept">유년의 복원</term>으로 전경화되는 지리멸렬하고 누추한 일상의 단면을 비유하고 환기하는 매개 수단으로 기능합니다.</s>
+          <s>즉 마징가 제트, 선데이 서울, 애마부인 등은 모두 '<term type="concept">은유</term>로 서 활용되고 있습니다.</s>
+          <s>
+            <interp value="neutral" ana="미학">이는 이러한 매개체들보다 그 너머의 취지(원관 념tens)를 암암리에 수사학적으로 가치 우위에 놓는 방식이라 할 수 있 습니다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="문학관">그런 점에서 권혁웅의 시는 대중문화의 실제적인 영향력이 아 니라 더 근본적인 삶의 영역으로서의 가난의 현실과 그로 인한 서글픔, 각 개인들의 슬픈 내력에 초점을 맞추고 있습니다.</interp>
+          </s>
+          <s>그에게 <term type="concept">대중 문화</term>적 요소는 시의 소재로서 취급되고 있는 셈이지요.</s>
+        </p>
+        <p>
+          <s>반면 <persName ref="#p-x47">황병승</persName>과 <persName ref="#p-x46">유형진</persName>， <persName ref="#p-x40">김민정</persName>의 경우는 <term type="concept">대중문화</term>의 하위 장르가 이들 시의 시적 자아를 구성 하는 핵심 기제로서 기능합니다.</s>
+          <s>비유컨대' 이들은 <term type="concept">대중문화</term>라는 산소 를 들이마시고 내쉽니다.</s>
+          <s>이들에게 그것은 생래적인 유희이자 그 자체 로 진지한 일(work)입니다.</s>
+          <s>그러니 이들의 수사학은 유사성이 아니라 인 접성의 원리에 따라 현실과 만화, 동화, 영화 등의 경계를 무화시키면 서, <term type="concept">기표</term>의 층위를 끊임없이 미끄러지는 놀이를 반복하는 것입니다.</s>
+          <s>이 는 그 자체로 중요한 시적 작업인 것이지요.</s>
+          <s><persName ref="#p-x2">김진수</persName>: 충분히 공감합니다.</s>
+          <s>이들에겐 분명 어떤 공통된 특징 이 있다고 생 각합니다.</s>
+          <s>저는 이 <term type="concept">젊은 시인들</term>의 시 세계를 특징짓는 것이 <term type="concept">대중문화적 감수성</term>이라기보다는오히려 더 아래의 어떤 '<term type="concept">하위문화적</term>', 혹은 '<term type="concept">매니아 문화적</term>' 감수성이라고 부르고 싶은데요.</s>
+        </p>
+        <p>
+          <s>사실상 일찍이 우리 시 에 <term type="concept">대중문화적 감수성</term>을 끌어들인 시인은 <persName role="writer" xml:id="p-x78">장정일</persName>일 것 같습니다.</s>
+          <s>곧이어 <date from="1990" to="1999">1990 년대 초</date>의 <persName ref="#p-x69">유하</persName>를 통해 이 감수성이 본격적으로 하나의 형식을 갖게 되 었던 것 같습니다.</s>
+          <s>오늘날의 <term type="concept">젊은 시인들</term>의 <term type="concept">대중문화적 감수성</term>이 앞 세 대의 시인들과 다른 점이 있다면, 그 당시에는 이 감수성이 제도권 문화 자체에 대한 비판의 요소로 작용하면서 <term type="concept">위반과 전복</term>의 기제로 작용했다 는 것입니다.</s>
+          <s>그런데, <date when="2000">21세기</date>를 사는 현재에는 <term type="concept">대중문화</term> 자체가 바로 제 도의 다른 이름입니다.</s>
+          <s>'<term type="concept">한류 열풍</term>‘을 생각해보세요.</s>
+          <s><term type="concept">젊은 시인들</term>에게 <term type="concept">대중문화</term>는 이제 현실이자 제도 그 자체가 되었습니다.</s>
+          <s>그래서 제가 이 <term type="concept">젊은 시인들</term>의 감수성을 <term type="concept">대중문화적 감수성</term>이 아니라 하위문화적 감수 성으로 부르는 이유는 이 시인들의 시 세계가 드러내고 있는 어떤 '<term type="concept">불온 한 위반과 전복의 비판적 특성</term>을 염두에 두었기 때문입니다.</s>
+          <s>사실상 이 <term type="concept">젊은 시인들</term>의 시적 어조와 문법적 형식은, 예전의 한 글에서 제가 <date from="1990" to="1999">1990년대 초</date>의 시인들에게 적용했던 용어 그대로, ’<quote type="indirect" genre="critic">요설과 장광설</quote>' 입니다.</s>
+        </p>
+        <p>
+          <s>말하자면, 이 <term type="concept">젊은 시인들</term>의 어법은 90년대 초의 <persName role="poet" xml:id="p-x79">김중식</persName>이나 진 <persName role="poet" xml:id="p-x80">이정</persName> 혹은 <persName ref="#p-x69">유하</persName>나 <persName role="poet" xml:id="p-x81">함성호</persName>와 별반 다를 게 없는 듯싶습니다.</s>
+          <s>그런데 중 요한 차이가 있습니다.</s>
+          <s>그 차이를 이렇게 말씀드리고 싶네요.</s>
+          <s>가령, <date from="1990" to="1999">1990년대 초반</date>의 시인들은 어떤 중심 혹은 대상 ‘<term type="concept">세계의 상실</term>'을 경험한 듯싶습니다.</s>
+          <s>추구해야 할 <term type="concept">이념</term>이나 중심 혹은 해체해야 할 적들이 사라 진 세계를 살게 된 셈이지요.</s>
+          <s>이 보이지 않는 중심, 언어로써 표상할 수 없는 것을 말할 수 있는 방법은 침묵과 장광설뿐이겠지요.</s>
+          <s>말할 수 없는 것을달리 어떻게 말하겠습니까?</s>
+          <s>시인이 침묵할 수는 없는 법이고.</s>
+        </p>
+        <p>
+          <s>제가 보기에 21세기를 사는 우리 <term type="concept">젊은 시인들</term>이 경우에는 차라리 주체의 분 열이라거나，<term type="concept">주체의 상실</term>‘이라고 할 만한 사태를 겪고 있는 것이 아닌가 합니다* 이들 시인들에게 공통적으로 뚜렷하게 드러나는 <term type="concept">환상성</term>의 특 징이 바로 그 점을 말해줄 듯싶습니다.</s>
+          <s>두 분 선생님들도 아시다시피, <term type="concept">환상</term>이라는 것은 의식하는 주체 바깥의 담론이기 때문이지요.</s>
+          <s>이 같은 '<term type="concept">탈주체적</term>'，'<term type="concept">주체 해체적</term>' 특성이 바로 이 <term type="concept">젊은 시인들</term>에게는 <term type="concept">장광설</term>이 라는 언어적 형식으로 드러나고 있지 않나 생각합니다.</s>
+          <s>결국 이 <term type="concept">장광설</term>의 형식은 <date from="1990" to="1999">1990년대</date>의 시인들에게나 이 시인들에게나 모두 어떤 '<term type="concept">상실</term>' 의 체험과 관계된다는 것입니다.</s>
+          <s><persName ref="#p-x">김양헌</persName> : 문장 구조상으로도 그렇습니다.</s>
+          <s>주어나 주체가 빠져버 리고, 주어 가 있다 하더라도 물질이 주어로 나섭니다.</s>
+          <s>피동이나 수동을 쓰면서 움 직이는 주체를 없애버려요.</s>
+          <s>이런 현상은 시뿐만 아니라 공식 언어에도 나타납니다.</s>
+        </p>
+        <p>
+          <s>아니, 공식 언어와 일상 언어생활에서 그러니까 시에도 이 런 문장이 둥장하는지 모르겠군요.</s>
+          <s>TV 일기예보를 보면 어느 방송사나 날마다, “<quote type="direct" genre="other">내일 날씨는 맑을 것으로 전망됩니다</quote>”라고 말합니다.</s>
+          <s>전망이 라는 게 하는 것이지 결코 되는 것은 아니거든요.</s>
+          <s>“<quote type="direct" genre="other">내일은 매우 추워질 것이니 각별한 주의가 요구됩니다</quote>; 같은 문장은 도대체 어느 나라 말 인지 알 수가 없어요.</s>
+          <s>날씨가 추우면 （사람들이） 주의해야 하는 것이지 주의가 요구되다니, 요구는 하는 것이지 되는 것은 아니잖아요?</s>
+          <s>
+            <interp value="critical" ana="문학관">뉴스를 보면 정말 기가 막힙니다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="문학관">소리만 우리말 소리지, 문장은 영어나 일본 어, 잡탕말이 90%는 되지 싶어요.</interp>
+          </s>
+          <s>외래어, 외국어 어휘 들여오는 건 문 제도 아니에요.</s>
+        </p>
+        <p>
+          <s>문장 구조가 삐걱거리니.</s>
+          <s>우리 사회 전체가 이런 식의 언어를 쓰고 있습니다.</s>
+          <s><term type="concept">수동태</term> 아니면 <term type="concept">피동형</term>이 우리 일상생활을 지배 하여, <term type="concept">자본주의</term>가 낳은 <term type="concept">물질성</term> 언어가 판을 치고 있어요 인간이란 <term type="concept">주체</term> 는 사라지고 <term type="concept">상품</term>과 관념 이 그 자리를 차지한 셈이죠.</s>
+          <s>이 런 관점 에서 본 다면, <term type="concept">주체의 상실</term>은 일부 세대나 <term type="concept">신세대 시인들</term>만의 특성이 아니고 우 리 시대 전체의 문제가 아닌가 싶어요.</s>
+          <s>차이점이 있다면 <term type="concept">기성 세대</term>는그 런 현상을 비판적으로 바라보고 있는 정도고, <term type="concept">새로운 세대</term>는 <term type="concept">대중문화</term> 를 통해 몸에 각인한 상태라고나 할까.</s>
+          <s><persName ref="#p-x2">김진수</persName> : <interp value="neutral" ana="미학">김양헌 선생님은 젊은 시인들의 시적 어조나 문법적 형식에 대해 다소 비판적인 입장에 서 계신 듯하네요.</interp></s>
+          <s>저는 그 문제를 이렇게 생각하 고 싶습니다.</s>
+          <s>우리의 일상어나 공적 언어가 우리에게 믿음을 주지 못할 때를 흔히 겪지 않습니까?</s>
+        </p>
+        <p>
+          <s>다른 대담 자리에서 이미 예를 든 것이긴 한데, ‘<term type="concept">미림팀 사건</term>을 생각해보기로 하지요 제 생각에는 아마도 미림이 란 말이 '<quote type="paraphrase" genre="other">아름다운 숲</quote>을 의미하는 것 같습니다.</s>
+          <s>그런데 이 <quote type="direct" genre="other">'아름다운 숲'</quote>에서 실제로 벌어진 일을 생각하면, 그 말은 정확히 '추악한 숲‘을 의 미한다고 해야겠지요.</s>
+          <s>이처럼 우리는 <interp value="critical" ana="사회">언어에 대한 신뢰를 잃어버린 현 실을 살고 있는 것 같습니다.</interp></s>
+          <s><term type="concept">젊은 시인들</term>은 그러한 상황에 훨씬 더 민 감하게 반응하는 것이고요.</s>
+          <s><persName ref="#p-x">김양헌</persName> : 그렇죠, <interp value="critical" ana="미학">주체가 흐려지면서 말의 지시적 의미가 이상하게 비틀려 요.</interp></s>
+          <s>거 왜, <persName role="poet" xml:id="p-x82">조세회</persName> <term type="concept">소설</term>에도 나오잖아요.</s>
+          <s>주인공 영수가 사는 동네 이름 이 “<quote type="direct" genre="novel">행복동</quote>”이지요 도시 이름도낭만적이죠, “<quote type="direct" genre="novel">은강</quote>”이라고.</s>
+          <s>
+            <interp value="neutral" ana="미학">이거야 뭐 명명법을 빌린 야유지요.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그런데 실제 현실에서 이런 일이 다반사니 원 말도 변하는 것이긴 하지만, 이런 변화는 자연스러운 당위라 하기 어렵 겠지요<persName ref="#p-x3">강계숙</persName>: 두 분의 말씀을 듣다보니, 한 가지 짚고 넘어가야 할 것이 있다는 생각이 듭니다.</s>
+          <s>다름 아니라, 언어관과 관련된 것인데요, 이들은 기본적 으로 <term type="concept">언어의 투명성</term> 자체를 불신하는 세대 입니다.</s>
+          <s>기존의 언어가 <term type="concept">타락</term> 해 있기 때문에 <interp value="neutral" ana="언어관">언어를 통한 사실의 재현 가능성을 믿지 않습니다</interp>.</s>
+          <s>언어 와 주체가 <term type="concept">동일성의 원리</term>에 따라 상호간에 필연적으로 연관되어 있다는 는 믿음이 한낱 허구에 지나지 않는다고 생각합니다.</s>
+          <s>이러한 언어 의식 이 <interp value="neutral" ana="미학">소통의 가능성을 불신하는 결과를 낳는다는 점에서 , 이들의 시를 폐 쇄적으로 만든다는 비판도 없지 않습니다만, 이러한 내용은 일종의 전 제로 놓고 이들의 시를 이해해야 하지 않을까 싶습니다.</interp></s>
+          <s><persName ref="#p-x">김양헌</persName> : 저도 그런 면에는 공감합니다.</s>
+          <s>젊은 세대들이 언어를 다루는 방식 이나 <term type="concept">소통 불능</term>의 인식을 문제삼는 게 아니고, 우리말의 기본 구조가 혼 들리고 있다는 점을 생각한 거죠.</s>
+          <s><date from="1970" to="1979">1970년대</date> 생 시 인들의 작품을 보면 오 히려 <interp value="affirmative" ana="미학">역동성이 흘러넘쳐요</interp>.</s>
+        </p>
+        <p>
+          <s><term type="concept">언어의 투명성</term>을 불신하다 보니 <interp value="affirmative" ana="미학">언어 자체의 지시적 의미는 약해졌지만, 이미지의 흐름이 독특하고 실험이 대담 해요.</interp>3-2.</s>
+          <s>기존 시학과 차이점<persName ref="#p-x3">강계숙</persName>: 이들 시에서 나타나는 언어의 특징을 주로 말씀해 주셨는데, 논의 를 좀 더 확장시켜서 이들 <term type="concept">젊은 시인들</term>의 시가 기존의 시학과 구별된다 면, 어떤 점에서 그러한지 두분의 생각을듣고 싶습니다.</s>
+          <s><persName ref="#p-x2">김진수</persName>: <persName ref="#p-x47">황병승</persName>의 시「<title level="a" type="poem" ref="#t-x24">여장남자 시코쿠</title>」중에 이런 구절이 있습디다.</s>
+          <s>“<quote type="direct" genre="poet" source="여장남자 시코쿠">진 실을 말하려고 할수록 나의 거짓은 점점 더 강렬해지고</quote>라는 구절이지 요.</s>
+          <s>진실을 말할 수 있는 언어가 없는 현실을 살고 있다는 뜻이겠지요.</s>
+          <s>그러니 진실을 말하기 위해서는 거짓을 말하는 수밖에 없겠고.「<title level="a" type="poem" xml:id="t-x38">에로틱 파괴어린 빌리지</title>」라는 시에서는 “<quote type="direct" genre="poet" source="에로틱 파괴어린 빌리지">이제 비유 없이는 한 발짝도 전진할 수 없는 계절</quote>”이라는 표현도 나옵니다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이런 인식이 젊은 시인들의 시 세계를 잘 말해주고 있는 듯합니다.</interp>
+          </s>
+          <s>이들 <term type="concept">젊은 시인들</term>의 시가 지니고 있는 내용적인 측면에 주목해보기로 하겠습니다.</s>
+        </p>
+        <p>
+          <s><term type="concept">이성 중심적인 근대성</term> 담론이 지배적일 때에는 의식하는 자아로서 <term type="concept">주체</term>는 유일하고도 견고한 것으로 믿었습니다.</s>
+          <s>그런데 이 <term type="concept">젊 은 시인들</term>의 시 세계에서 <term type="concept">주체</term>는 견고한 것이 아니라 끊임없이 유동하 고 있는 것처럼 보입니다.</s>
+          <s>근대적인 의미의 주체로부터 벗어나는 ‘<term type="concept">탈주 체적</term>' 경향이 뚜렷하게 드러난다고 하겠습니다.</s>
+          <s><persName ref="#p-x47">황병승</persName>의 경우가 아니 더라도, <term type="concept">그로테스크</term>한 정신의 풍경을 보여주고 있는 <persName ref="#p-x40">김민정</persName>이나 <persName ref="#p-x48">이민하</persName> 의 시가 그렇고, 신화적인 우주적 상상력을 복원하고 있는 <persName ref="#p-x56">김근</persName>의 경우 가 그렇습니다.</s>
+          <s><persName ref="#p-x37">박진성</persName>의 경우에는 아예 정신병이라고나 해야 할 질병 을 앓고 있는 몸의 현실이 아주 구체적인 실감을 가지고 등장합니다.</s>
+          <s>그 래서 전통적인 시의 ‘<term type="concept">서정성</term>'에 대비해서 하는 말이지만, <interp value="neutral" ana="미학">저는 이 시인 들의 시 세계를 특징짓는 것이 '환상성'이 아닐까 생각하는 편입니다.</interp></s>
+          <s>환상성의 요소는 없지만, <persName ref="#p-x43">이기인</persName>의 시에서는 <term type="concept">노동하는 자아</term>로서의 <term type="concept">집단 적 주체</term>의 상실을 목격할 수도 있지요.</s>
+          <s><term type="movement">포스트모더니즘</term>적 사유의 영향 때문인지, <interp value="neutral" ana="미학">이제 젊은 시인들의 시 세계에서는 견고한 주체에 대한 믿음 이 존재하지 않는, 어떤 탈주체적 사유의 경향이 공통적으로 보인다고 할수있겠습니다.</interp></s>
+        </p>
+        <p>
+          <s><persName ref="#p-x">김양헌</persName>: 그렇지요.</s>
+          <s>굉장히 실험적이라고 생각하는데, <term type="concept">주체</term>는 허공올 떠돕 니다.</s>
+          <s>그런데, 이렇게 <term type="concept">주체</term>가 약하기 때문에 역으로 주체를 찾고 싶어하 는 반작용이 <term type="concept">역동성</term>을 낳은 게 아닌가 싶기도 합니다.</s>
+          <s>그런 까닭에 작품 안을 떠도는 <term type="concept">흐릿한/왜소한/분열된 주체</term>가 수많은 곳을 다니고 많은 것 을 <term type="concept">욕망</term>하며, 산문투에다 긴 문장을 쓰며 <term type="concept">환상</term>의 세계에 표류하는 형태 로 드러나는 게 아닐까 싶어요.</s>
+          <s><persName ref="#p-x2">김진수</persName>: <interp value="affirmative" ana="미학">존재의 끊임없는 생성과 변모의 과정 자체가 삶의 실상이라고 한 다면, 이 환상성의 요소를 갖는 탈주체적 경향의 시들은 존재하는 그대 로의 세계와 삶을 잘 드러내고 있는 셈이지요.</interp></s>
+          <s><persName role="foreigner" xml:id="p-x83">데카르트</persName>의 사유하는 존 재로서의 <term type="concept">주체</term>와는 달리 이 주체의 초상은 관념이 아니지요.</s>
+          <s><persName ref="#p-x">김양헌</persName> 그래요, 이들에겐 그게 삶이겠죠.</s>
+          <s>중심을 이루는 <term type="concept">주체</term>가 사라진 자 리에 <term type="concept">타자</term>가 주체로 들어서는 게 아니라 산산조각이 난 그대로, 그런 지 리멸렬한 삶이죠.</s>
+        </p>
+        <p>
+          <s>올해 결실을 맺어 시집이 많이 나와서 그렇지, 이들이 몇 해 전 등장하여 발표할 때부터 그랬거든요.</s>
+          <s>이들은 단어의 <term type="concept">지시적 의 미</term>를 거의 버렸어요.</s>
+          <s>그래서 특정 주제로 관념화하는 게 불가능해졌어 요 예전 식으로 읽다보면 의미가 보이지 않습니다.</s>
+          <s>의미라는 게 별반 역할을 못해요.</s>
+          <s><term type="concept">이미지</term>의 덩어리가 흘러가고 뒤틀리는 상황, 그 자체가 곧 시의 내용이 되었어요.</s>
+          <s>게다가 <term type="concept">형식의 불완전함, 부조리함</term>이 바로 이 세계의 존재방식임을 보여주고 있지요.</s>
+          <s>최근 <persName ref="#p-x57">최치언</persName> 시집의 해설을 썼 는데, <interp value="neutral" ana="미학">한두 구절씩 해석해서는 아무 것도 얻을 수 없고 복합적으로 바라봐야 되더라고요.</interp></s>
+          <s>여러 감각들이 혼재되어 <term type="concept">혼수상태</term>를 이루고 있어요.</s>
+        </p>
+        <p>
+          <s>이미지가 급박하게 흐르고 사건이 갑작스럽게 튀어나오려니 <term type="concept">명사</term>가 별 힘을 못 쓰고 <term type="concept">동사</term>들이 우루루 몰려다니며 시의 흐름을 주도하고 있어 요.</s>
+          <s><persName ref="#p-x2">김진수</persName>: 또 <persName ref="#p-x47">황병승</persName>의 시 구절이 생각납니다.</s>
+          <s>“<quote type="direct" genre="poet">우리는 그것들을 그냥 나무 숲 호수라고 불렀다.</quote></s>
+          <s><quote type="direct" genre="poet">이름을 지우고</quote>라는 구절인데요, 여기에서 드러나 듯이, 이제 존재들은 이런 식의 <term type="concept">비인칭</term> 혹은 <term type="concept">익명</term>으로 드러나고 있는 듯 합니다.</s>
+          <s>어떤고정된 의미도 부여하지 않겠다는뜻이겠지요.</s>
+          <s>'<term type="concept">시코쿠</term>'가 사실상 그런 아무런 고정된 의미도 없는 <term type="concept">비인칭</term> 아닌가요.</s>
+          <s>여자도 아니 고 남자도 아니고, 소년도 소녀도 어른도 어린이도 아닌 <term type="concept">비인칭</term>의 기호 로만 주어져 있지요.</s>
+          <s><persName ref="#p-x">김양헌</persName>: 그렇지요.</s>
+        </p>
+        <p>
+          <s><term type="concept">비인칭</term>, <term type="concept">익명</term>, 기호는 <term type="concept">부유하는 주체</term>의 희미한 얼굴이 지요 예전에 <persName ref="#p-x30">함민복</persName>은 <term type="concept">주체가 명사에 짓눌린 모습</term>을 보여주었는데, 지 금도 실제로 많은 사람들이 그런 삶을 살고 있어요.</s>
+          <s><persName ref="#p-x30">함민복</persName>의「<title level="a" type="poem" xml:id="t-x39">자본주 의의 약속</title>』을 보면 상품 이름들, 명사를 죽 나열해 놓고 다 사라고, <term type="concept">욕망</term> 하라고 그러지 않습니까?</s>
+          <s>주체나 용언이 나오더라도 <term type="concept">명사의 물질성</term>에 종속되어 있었어요.</s>
+          <s>이후 <persName role="poet" xml:id="p-x84">차창룡</persName>이 쟁기질을 하여 동사를 살리면서 활 력을 불어넣어 주었지요.</s>
+          <s>그런데 <persName ref="#p-x84">차창룡</persName>이 동사를 사용하는 방식과 지 금 <term type="concept">신세대</term>의 방식은 다릅니다.</s>
+          <s><persName ref="#p-x84">차창룡</persName>은 <term type="concept">생명의 활력과 생명성</term>을 용언 의 역동성을 통해 드러냄으로써 <term type="concept">이상주의자</term>의 모습을 어느 정도 내포하 는 데 반해, <term type="concept">신세대 시인들</term>은 <interp value="neutral" ana="미학">비관도 아니고 유토피아도 아닌, 그냥 이 렇다，하고 보여주기만 하는 것 같아요</interp><persName ref="#p-x2">김진수</persName>: 그런 점이 이들 <term type="concept">젊은 시인들</term>의 <term type="concept">시적 전략</term>이 아닐까요?</s>
+          <s>시가 한 시 대의 초상이라면, 이러한 전략 속에서 어쩌면 <term type="concept">21세기적 삶의 초상</term>을 보 게 되는 것도 같습니다.</s>
+          <s><persName ref="#p-x3">강계숙</persName>: 저는 평론 활동을 시작하면서부터 <term type="concept">젊은 시인들</term>의 <term type="concept">시학</term>에 대해 관 심을 갖고 그에 대해 분석하고 진단하려는 노력을 해왔습니다.</s>
+        </p>
+        <p>
+          <s>여러 글 에서 그에 대한 단편적인 견해를 간간히 피력해 왔습니다만, 저는 이들 의 시작詩作이 어떤 상황에서 시작始作되고 있는가를 먼저 살펴볼 필요 가 있다고 생각합니다.</s>
+          <s>세 가지 정도로 정리할 수 있겠는데요, 우선 주 체의 상실 혹은 소멸이 <term type="concept">서정시</term>라는 장르의 붕괴와 밀접히 관련되어 있 다는 것을 들 수 있습니다.</s>
+          <s><term type="concept">서정시</term>는 근대 문학의 한 장르로서, 낭만주 의 미학에 근거한 시의 정의에서 볼 수 있듯, 통일된 단일한 목소리로서 의 <term type="concept">시적 주체</term>를 창작자의 근본 조건으로 전제합니다.</s>
+          <s>이를 가리켜 바흐 친은 <term type="concept">서정시</term>를 <term type="concept">다성악적</term>인 소설과 달리 <term type="concept">단성악적</term> 장르라고 표현하기도 했습니다.</s>
+          <s>그런데 하나의 전체로서 통일된 주체에 대한 신뢰가 붕괴되 는 상황은 장르로서의 <term type="concept">서정시</term>를 더 이상 미학적 전통으로 고수할 수 없 게 만듭니다.</s>
+          <s><term type="concept">주체</term>가 상실되어 가는 마당에 <term type="concept">세계와 자아의 동일화</term>를 꾀 하는 기존의 <term type="concept">시학</term>은 자기표현의 방식으로 적합지 않다고 판단하는 것이 지요 둘째로 고려해야 할 것은 이러한 주체의 붕괴를 가속화시키는 지 금 여기'의 상황에 대한 시인들의 강고한<term type="concept">부정 의식</term>입니다.</s>
+          <s><persName ref="#p-x2">김진수</persName>: 그렇죠, 그러한<term type="concept">부정의 의식</term>이 이 시인들의 윤리적 준거점이겠지 요.</s>
+          <s>♦<persName ref="#p-x">김양헌</persName> : 그 말은 약간 이상한 점이 있는데요.</s>
+        </p>
+        <p>
+          <s>비슷한 맥락인지 모르겠는 데, 예전에도 부정은 많이 했습니다.</s>
+          <s>그런데 그때는 <term type="concept">부정</term>을 하면 힘이 생겼는데, 지금은 모든 걸 다 부정해 버 리니까 그런지 힘이 없어졌어요.</s>
+          <s><persName ref="#p-x3">강계숙</persName>: 사실 <term type="concept">세계를 부정하는 의식</term>은 이들만의 특징 이라고 할 수는 없습 니다.</s>
+          <s>그러나 이들이 놓인 국면은 이전과 다릅니다.</s>
+          <s>요컨대 '<term type="concept">세계를 부 정한다</term>'는 것이 더 이상 <interp value="critical" ana="문학관">시작詩作의 윤리적 정당성을 보증하는 알리바이 로서 기능하지 않는다는 것입니다.</interp></s>
+          <s>
+            <interp value="critical" ana="문학관">세계를 부정함으로써 자기의 현존과시쓰기를 정당화시킬 수 있었던 때는 지나갔습니다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="사회">세계의 부정은 이 제 상식이며 자연입니다.</interp>
+          </s>
+          <s>아마도 이들에게는 <term type="concept">세계를 긍정한다</term>는 것은 있을 수 없는 어불성불語不成說로 여겨질 겁니다.</s>
+        </p>
+        <p>
+          <s>그런데 문제는 세계를 부정하더라도 이 세계의 '너머 혹은 '다른 생'을 꿈꿀 수 있었던 이전 세대와 달리, 이들에게는 <term type="concept">바깥에의 상상력</term>이 없다는 점입니다.</s>
+          <s>이를 <term type="concept">유토피아니즘Utopianism의 소멸</term>이라고 칭할 수 있겠는데, 이는 <term type="concept">전지구적 자본주의화</term>라는 현재 상황과 밀접히 연관되어 있습니다.</s>
+          <s>즉 세계는 <term type="concept">자 본주의</term>라는 내재적 전체로서만 존재합니다.</s>
+          <s><term type="concept">자본주의</term>의 '바깥'이란 없 다고 여기는 것이지요.</s>
+          <s><term type="concept">유토피아니즘</term>이 제시해 주었던 삶의 목적과 전 망이 이전 세대로 하여금 문학적 이념을 형성하고 추구케 하는 중요한 원동력으로 작용하였다면, 이들 <term type="concept">신진 시인들</term>은 그러한 <term type="concept">유토피아니즘</term>이 사라진 곳에서 시작詩作을 시작始作해야 할 상황에 놓인 것입니다.</s>
+          <s>이들 에게 <interp value="neutral" ana="문학관">'전망의 제시'는 회의와 냉소의 대상이거나, 관념의 유회로 비칠 공산이 큽니다.</interp></s>
+          <s>다시 정 리를 하자면 이렇습니다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">세계의 부정은 더 이상 새로울 것이 없는 명제이고, 다른 세상에의 꿈은 봉쇄되었으며, 전통적 인 서정시의 양식으로는 이러한 상태를 표현할 수 없다는 것, 이것이 이 들이 직면하고 있는 '지금 여기'의 문학적 상황입니다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>이러한 상황 인 식은 이들에게는 매우 <interp value="affirmative" ana="사회">절박한</interp> 것일 수밖에 없다고 저는 생각합니다.</s>
+          <s><persName ref="#p-x2">김진수</persName> : 그 점 역시 <interp value="affirmative" ana="사회">충분히 동의할 수 있습니다.</interp></s>
+          <s>지향점이 상실되어 버 린 것이죠.</s>
+          <s><persName ref="#p-x3">강계숙</persName> : 그렇다면 이러한 상황에서 기존의 시와 다른 '<term type="concept">새로운 시</term>‘를 창조 하려는 염원은 커질 수밖에 없는 것 아닐까요?</s>
+          <s>최근 <term type="concept">젊은 시인들</term>이 보여 주는 가장 중요한 공통점은 이들이 <term type="concept">새로운 시적 스타일의 창출</term>에 엄청 난 에너지와 집중력을 보여주고 있다는 점입니다.</s>
+          <s>새로운 스타일의 창 조를 자신들이 당면한 최대의 시적 과제로 인식하고 있는 것이지요.</s>
+          <s>러 시아 영화감독이자 <term type="concept">몽타쥬</term> 이론의 창시자로 유명한 <persName role="foreigner" xml:id="p-x85">아이젠슈타인</persName>의 말중에 다음과 같은 것이 있습니다.</s>
+          <s>“사람은 슬퍼서 우는 것이 아니라 울 기 때문에 슬픈 것이다.</s>
+        </p>
+        <p>
+          <s>” 예술 작품에서 <term type="concept">형식 혹은 양식이 지닌 중요성 과 가치</term>를 이만큼 잘 표현한 경우도 없다고 생각합니다만, <quote type="direct" genre="critic">새로운 형식 과 스타일의 창출은 곧 새로운 내용과 이념의 창출로 이어진다</quote>고 할 수 있습니다.</s>
+          <s>이들 <term type="concept">신진 시인들</term>이 장광설이다, 요설이다, 자폐적이다 라는 일각의 비판에도 불구하고 <term type="concept">형식 실험</term>과 <term type="concept">시적 스타일</term>의 변화에 과도할 정도로 집중하고 있는 것은 기존의 <interp value="affirmative" ana="미학">형식 및 문체를 전복하고 극복하는 방식을 통해 새로운 문학 이념, 새로운 시적 비전의 제출이 가능해질 수 있다</interp>는, 거의 무의식적인 차원에서 촉발된 것이지만, 대단히 예리한 미 적 통찰에 따른 작업입니다.</s>
+          <s>이런 맥락에서 볼 때, 이들에게 자주 나타 나는 '<interp value="affirmative" ana="미학">환상의 수사학은 현실을 현실이 아닌 가상으로, 환상을 환상이 아닌 사실로 만드는 방식을 통해 다른 세계의 가능성을 타진하는 이들 나름의 시적 전략이자 대웅책 이라고 볼 수 있습니다.</interp></s>
+          <s><persName ref="#p-x2">김진수</persName>: <term type="concept">젊은 시인들</term>의 시집을 읽다가 재미있는 사실을 하나 발견했습니 다* 이들의 약력을 보니 거의 모두가 다 대학원 출신들이라는 사실 말입 니다* 그만큼 우리 시사를 잘 알고 있다는 뜻일 둣싶습니다.</s>
+          <s>그래서 이 들 시인들이 혹 우리 시사에서 자신이 어디에 어떻게 자리하게 될지를 미리 염두에 두고 시를 쓰는 게 아닐까 하는 생각도 하게 되었고요 <persName ref="#p-x3">강 계숙</persName> 선생이 말한 대로, 자신만의 <term type="concept">스타일</term>에 대한 자의식이나 집착이 유 난히 강하게 보이는 것도 아마 이 런 사정과 무관하지 않을 듯합니다.</s>
+          <s>이 <term type="concept">젊은 시인들</term>에게 시란 곧 자신이 갖고 있는 <term type="concept">시관</term>이나 시 이론의 직접적 인 표현인 것처럼 느껴지기도 합니다.</s>
+          <s><interp value="critical" ana="문학관">이들에게는 이러한 점이 어쩌면 불행이라고 말할 수도 있을 텐데</interp>, 다시 말해서 이제 <interp value="neutral" ana="문학관">시가 더 이상 자연 스런 감정의 발로로서의 노래로 존재하지 않는다</interp>는 것이지요.</s>
+          <s><term type="concept">스타일</term>이라는 말을 하고 나니 생각나는 점인데, 사실상 스타일이라는 게 자신의 고유한 개성, 즉 <term type="concept">주체성</term>의 표현이잖아요 그런데 <interp value="neutral" ana="미학">자신만의 스 타일에 대한 강한 자의식을 가지고 있는 것으로 보이는 이 젊은 시인들의 시가 내용적으로는 주체의 분열이나 상실이라니 참 재미있다는 생각 이 듭니다.</interp></s>
+        </p>
+        <p>
+          <s><term type="concept">스타일의 창조</term>라고 하면 고유한 주체를 상정하게 되는데, 스 타일의 창조와 <term type="concept">깨어진 주체</term>라……3・3.</s>
+          <s><term type="concept">다양성</term>과 <term type="concept">획일성</term>의 공존<persName ref="#p-x3">강계숙</persName> : 이쯤에서 한 가지 궁금증이 생깁니다.</s>
+          <s>이들 내에서도 다양한 흐름 과 경향이 공존하고 있을 터인데, 우리가 주목해서 본 시집들을 대상으 로 대강의 지형도를 그려본다면 어떨까요?</s>
+          <s><persName ref="#p-x">김양헌</persName> : <term type="concept">주체</term>가 살아 있다면 그 흔적이 있습니다.</s>
+          <s>그러나 지금 그 흔적이 잘 드러나지 않아요.</s>
+          <s>그렇다면 아직 <term type="concept">새 세대 시인들</term>의 <term type="concept">스타일</term>이 서로 비 숫한 게 아닌가?</s>
+          <s>제가 보는차이점이라면 이런 정도인데, <persName ref="#p-x55">김언</persName>이 심각함 이라면 <persName ref="#p-x77">황병숭</persName>과 <persName ref="#p-x48">이민하</persName>는 장광설이고 <persName ref="#p-x40">김민정</persName>은 수다거든요.</s>
+          <s><term type="concept">스타일의 차이</term>라고 본다면 이 정도 차이라 할 수 있습니다.</s>
+        </p>
+        <p>
+          <s>저는 그 차이가 지형 도로 끊을 만큼 크다고 생각하지는 않습니다.</s>
+          <s>지형도로 끊을 때는 비슷 한 부류에 속하는 게 아닌가, 그렇게 봅니다.</s>
+          <s><persName ref="#p-x3">강계숙</persName> ： 저는 <persName ref="#p-x56">김근</persName>의 시는 다른 시인들과 구분되는 면이 있다고 생각합니 다* 제가 김근의 시를 주목해서 본 이유는 그의 시에서 최근의 젊은 시 인들에게서 찾아보기 힘든 <interp value="affirmative" ana="미학">리드미컬한 운율감과 강렬한 파토스를 발견 하였기 때문입니다.</interp></s>
+          <s>전라도 방언을 시어로 적극 차용하고 있다는 점과 관눙적인 이미지에 근거한 신화적 요소는 <persName role="poet" xml:id="p-x86">서정주</persName>를 연상시키기도 합니 다 <interp value="affirmative" ana="미학">그의 시가 보여주는 리듬감의 백미는「江, 꿈」이라는 작품인데, 제가 올해 읽은 시 중 가장 아름다운 시입니다.</interp></s>
+          <s>특히 시의 결말에서 혼몽 간 에 동일시되는 '<term type="concept">누이</term>‘의 이미지는 <term type="concept">남성성</term>과 <term type="concept">여성성</term>의 융화가 어떻게 극 적으로 실현되는가를 <term type="concept">근친상간</term>의 모티브를 통해 보여주는 예인데, 한국 시사에서 '누이'의 모티브가 중요한 전환점마다 둥장하였다는 점을 떠올린다면, <persName ref="#p-x56">김근</persName> 시에 자주 나타나는 누이는 한국시에서의 '<interp value="affirmative" ana="문학관">누이의 계 보학을 재구함으로써 또 다른 의미를 부여받을 수 있으리라 생각합니 다.</interp></s>
+          <s>가령 그의 '<term type="concept">누이</term>'는 근대적 이성 주체로서의 남성이라는 <term type="concept">이데올로기</term> 적 신화가 붕괴되고 <term type="concept">여성성</term>이 새로운 담론적 대안으로 주목받고 있는 시점에서 새롭게 상상된 자기 기원의 창출과 맞물려 있다고 생각됩니 다.</s>
+          <s>잠깐의 단상을 말하자면, <persName ref="#p-x56">김근</persName>의 '<term type="concept">누이</term>'는 어머니와의 상상적 동일 시도, 아버지와의 상징적 동일시도 모두 부정하고 거부하는 과정에서 출현하고 있습니다.</s>
+          <s>
+            <interp value="affirmative" ana="사상">제가 보기에 그의 누이'는 동둥하고 대둥한 동료, 형제애의 공유가 가능한 존재로서, 민주적이고 평등한 형제애를 꿈꾸는 시인의 무의식적 바람이 집약된 이미지로 보입니다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그런데 문제는 누 이와 오라비가 하나가 되는 순간 그들은 흔적도 없이 사라진다는 것입 니다.（「<title level="a" type="poem" ref="#t-x33">뱀소년의 외출</title>」） 현실은 '<term type="concept">누이</term>'와 하나 된 상태로 살아가는 것을 용납하지 않기 때문입니다.</s>
+          <s>
+            <interp value="neutral" ana="사회">그들의 결합은 기존의 사회 질서 내에서는 대단히 불온하고 불길한 것일 수밖에 없습니다.</interp>
+          </s>
+          <s><persName ref="#p-x56">김근</persName> 시에 내재된 깊은 슬픔은 여전히 강한 '<term type="concept">아버지의 이름</term>과 그러한 '아버지의 이름을 숭인 하고 동조하는 어머니의 자리가 <term type="concept">현실 원칙</term>을 이루는 기본 원리로 자리 잡고 있다는 데서 기인하는 것이 아닐까 싶습니다.</s>
+          <s><persName ref="#p-x2">김진수</persName>: 저는 그 강한 <term type="concept">파토스</term>가 <term type="concept">신화적 인 상상력</term> 에서 발원하는 게 아닌가 생각합니다.</s>
+          <s>
+            <interp value="neutral" ana="사상">신화적 상징이 인류의 집단 무의식과 관련된다는 융의 견 해를 빌려온다면, 김근 역시 주체의 문제를 고민하다가 거기에 당도한 것은 아닌가 하는 생각도 드네요.</interp>
+          </s>
+          <s><persName ref="#p-x56">김근</persName>의 시에서 강렬하게 느껴지는 <term type="concept">파 토스</term>는 그런 <term type="concept">집단 무의식</term> 속에 각인되어 있는 어떤 <term type="concept">원형</term>들에 대한 그리 움으로부터 연유하는 게 아닐까 싶기도 하고……<persName ref="#p-x3">강계숙</persName>: 저도 김근의 시적 개성이 <term type="concept">신화적 상상력</term>에 의해 뒷받침되고 있다 고 생각합니다.</s>
+          <s>하지만 이 때 '<term type="concept">신화적</term>'이라는 표현은 그의 시가 과거의 시간을 현재화하며, 그러한 현재화의 과정에서 출생과 기원의 서사를구축한다는 점에서 쓴 표현일 뿐, 그의 시가 과거 지향적이라거나 회귀 적이라는 의미에서 쓴 것은 아닙니다.</s>
+          <s>
+            <interp value="critical" ana="미학">엄밀한 의미에서 김근 시의 신화 적 상상력은 자기 기원을 회복하여 동일성의 고향을 재구축하려는 것과 는 전혀 다른 성격을 지니고 있습니다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>무엇보다 그는 우리에게 익숙한 부르주아적인 가족 서사一강한 아버지와 온화한 어머니一를 완강하게 거부합니다.「헤헤 헤헤헤헤 J와「홀딱 벗는 이 할애비 좀 보아요J는 김근 시인이 상상하는 자기 기원의 서사가 어떠한 형태의 것인지를 대 표적으로 보여주는 예입니다* 전자의 경우 '늙은 어미'는모성애적인 어 머니와의 거리가 멀며, 후자에서 드러나는 하애비'도 부족의 전권을 장 악한 채 아들들 위에 군림하는 원초적 아버지 상像과 다릅니다.</s>
+          <s>그들은 모두 전통적인 어머니의 역할, 아버지의 기능과 무관하게 존재합니다.</s>
+          <s>공동체적 규범으로부터 자유롭게 이탈하여 자기 욕망의 실현에 충실한 존재라 할 만합니다.</s>
+          <s>김근이 이들을 자기의 시원始原으로 새롭게 상상하 려 한다는 것은 기존의 남성성과 여성성의 이분법적 기준을 부정하고 해체하면서 , '지금 여기‘의 문명과 국가와 사회가 강제하는 현실의 규범 적인 원리에 대해 반성하고, 새롭게 추구되고 논구되어야 할 문제인 “<quote type="direct" genre="poet">어 떻게 살아야 할 것인가</quote>”라는 자기 윤리의 정립에 몰두하고 있음을 보여 주는 예라고 생각합니다.</s>
+          <s>김진수: 세계를 '기원 없음‘이라는 관점에서 볼 수는 없을까요?</s>
+          <s>니체가 그 랬듯이 말입니다.</s>
+          <s>기원은 없고 현상 자체가 본질인 그런 세계로.</s>
+          <s>본질이 그 바깥에 따로 존재하지 않는 현상만으로서 의 세계를 인정한다면 기원 이 중요한가요?</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x3">강계숙</persName>: <term type="concept">주체의 상실</term>이 전제되어 있다는 점이 <persName ref="#p-x56">김근</persName> 시인의 경우에도 해당 된다면, 말씀하신 대로 그가 <term type="concept">자기 기원</term>을 새롭게 창출하려 한다는 것은 옳은 표현이 아니겠군요.</s>
+          <s>이렇게 표현하면 어떨까 싶습니다.</s>
+          <s>주체의 상 실이 오히려 역으로 <term type="concept">자기 기원</term>에 대한 상상을 촉발시킬 수도 있다면* <persName ref="#p-x56">김근</persName>의 경우는 <term type="concept">자기 기원을 드러내었다가 다시 지우는 방식</term>을 취하고 있 다고 말이지요.</s>
+          <s>하긴, 그의 시에 나타나는 '<quote type="direct" genre="poet">늙은 어미</quote>'와 <quote type="direct" genre="poet">할애비</quote>'는 모 두 자손을 낳지 않느 생식과 무관한 존재들입니다.</s>
+          <s><term type="concept">시조始祖</term>인데, 시조 始祖로서의 기능과 역할은 전혀 하지 않는 존재들인 셈이지요 음…… 이에 대해서는 좀 더 고민해 봐야겠습니다.</s>
+          <s>홍미진진한 문제 꺼리라는 생각이 드네요.</s>
+          <s><persName role="poet" xml:id="p-x87">감진수</persName>: 그런 면에서 <persName ref="#p-x45">신해욱</persName>의 시는 전부 지우는 방식으로만 존재하고 있 는 듯합니다• 한 권의 시집이 거의 '<quote type="direct" genre="poet">지운다</quote>'라는말로 이루어져 있지요.</s>
+          <s><persName ref="#p-x3">강계숙</persName> 선생이 앞서 지적한 ‘<term type="concept">자기 윤리의 정립</term>'이라는 말에 관심이 가는 데요, <persName ref="#p-x56">김근</persName>의 경우에는 <term type="concept">신화적 상상력</term>이 지니고 있는 인류의 어떤 보편 적 공동체성의 토대가 있기 때문에 그런 게 아닌가 싶네요*<persName ref="#p-x">김양헌</persName> : <persName ref="#p-x56">김근</persName>의 시에는 리듬이 있어요.</s>
+        </p>
+        <p>
+          <s><term type="concept">3음보</term>와 <term type="concept">4음보</term>에 기반을 둔 변형, <term type="concept">통사구조의 반복과 변주</term>, 비슷하거나 같은 어휘를 정교하게 배치하려는 의식이 보여요.</s>
+          <s>이렇게 <term type="concept">리듬</term>이 있다는 게 <term type="concept">공동체 의식</term>이 내재한다는 뜻 이지요.</s>
+          <s><term type="concept">리듬</term>은 <term type="concept">언어 공동체</term>의 동질성을 바탕으로 생겨나니까요.</s>
+          <s><persName ref="#p-x3">강계숙</persName> : 서두에서 <persName ref="#p-x37">박진성</persName>의 시에서는 <term type="concept">정신병적 징후</term>가 농후하다고 하셨 는데, 어떤 의미에서 그렇게 표현하신 것인지요?</s>
+          <s><persName ref="#p-x2">김진수</persName> : 표면적으로는 시집에 자주 둥장하는 어휘들과 관련이 있습니다.</s>
+          <s><term type="concept">분열증</term>, <term type="concept">공황장애</term>, <term type="concept">신경발작</term>, '<quote type="direct" genre="poet" source="박진성 시집">타인과의 병적 동일시</quote>' 등의 어휘들이 그 렇고, 또 아마도 그러한 질병과 관련된 약 이름들일 것 같은데, 많이 등 장하지요.</s>
+          <s><persName ref="#p-x37">박진성</persName>의 시에는 <term type="concept">의식하는 자아</term>로서의 주체는 그런 질병과 동거를 하고 있는 것처럼 보입니다.</s>
+          <s>물론 시를 쓸 때나 그런 약 이름을 정확히 적을 때에는 <term type="concept">의식하는 자아</term>가 주체의 자리에 들어서 있는 때이 겠지요웃음）.</s>
+        </p>
+        <p>
+          <s>시인은 그런 질병이 <term type="concept">주체</term>의 자리를 대신하고 있을 때를'<quote type="direct" genre="poet">아라리가 났네</quote>로 표현하고 있습니다.</s>
+          <s>말하자면 이 '<term type="concept">아라리</term>'의 상태가 바로 저 병의 상태인 것이지요.</s>
+          <s>거기에서 <term type="concept">주체</term>는 하나의 겹이 아니라 다 중적으로 분산되어 몇 개의 겹을 가지고 있습니다.</s>
+          <s>아주 구체적으로, 몸 으로 쓴 시 같아요.</s>
+          <s>병 자체가 <term type="concept">육체성</term>을 획득하고 있는 게 느껴집니다.</s>
+          <s><persName ref="#p-x3">강계숙</persName>: 병 자체가 <term type="concept">주체</term>라 할 수 있지요<persName ref="#p-x2">김진수</persName>: 그래요, '<persName role="foreigner" xml:id="p-x88">고흐</persName>' 연작의 작품들이 있잖아요, 거기에서 시인의 <term type="concept">주체</term> 는 <title level="a" type="poem" xml:id="t-x40">고흐</title>와 <term type="concept">병적 동일시</term>를 이루고 있습니다.</s>
+          <s>시인 속에 또 다른 인물인 <persName ref="#p-x88">고흐</persName>가 들어 있는 셈이지요.</s>
+          <s><persName ref="#p-x3">강계숙</persName>: 올해는 <term type="concept">여성 시인들</term>의 활약이 특히 주목된 한해였는데, 이들 시의 특징은 무엇이며 이전의 <term type="concept">여성시</term>들과는 어떤 점에서 변별될까요?</s>
+        </p>
+        <p>
+          <s>제가 지금 ‘여성人］‘라는 표현을 쓰긴 했습니다만, <persName ref="#p-x40">김민정</persName>, <persName ref="#p-x45">신해욱</persName>, <persName ref="#p-x44">이영주</persName>, 이 성미, <persName ref="#p-x48">이민하</persName>의 시들을 과연 <term type="concept">여성시</term>라 칭할 수 있는지 제 스스로 의구심 이 들긴 합니다.</s>
+          <s><persName ref="#p-x2">김진수</persName>: 이들 시인들에게는 '<term type="concept">여성성</term>‘에 대한 강렬한 자각 같은 것은 전혀 보이지 않는 것 같습니다.</s>
+          <s>사실상 <term type="concept">여성성</term>이라는 것도 <term type="concept">근대적 주체</term>라는 관점에서 보자면, <term type="concept">주체 중심주의적 사고</term>의 결과가 아닐까요?</s>
+          <s>그런 점에 서 이 젊은 여성 시인들에게도 어떤 <term type="concept">탈주체적 경향</term>이 두드러지게 드러 나고 있다고 할 수 있겠지요.</s>
+          <s>제가 보기에는 특히 <persName ref="#p-x40">김민정</persName>의 시가 그렇지 만.</s>
+          <s><persName ref="#p-x">김양헌</persName>: 앞 시대 시인들과 달리 이들은 여성보다 개성으로 남고 싶어하는 것 같아요.</s>
+          <s><term type="concept">젊은 시인들</term>에게는 여성과 남성이라는 구분이 별 의미가 없 는것같아요.34 시적 성취와 한계의 문제<persName ref="#p-x3">강계숙</persName>: <term type="concept">젊은 시인들</term>의 시 세계에 대한 진단과 평가는 올해 시단의 활발한 논의 중 하나였습니다.</s>
+          <s>대부분은 유보적인 자세를 취하는 경우가 많습 니다만, 앞으로 이들의 시적 실험이 우리 시를 이끌어 가는 중요한 흐름 이 되리라는 점은 분명합니다.</s>
+        </p>
+        <p>
+          <s>이들 시가 보여주는 긍정적 측면은 무엇 인지, 혹 아쉬운 점은 없는지 말씀해 주십시오*<persName ref="#p-x">김양헌</persName>: 예전에는 분명한 <term type="concept">자기 세계</term>를 확보한 시인들이 많았습니다.</s>
+          <s>가령, 앞서 언급한 <persName ref="#p-x33">김기택</persName>과 <persName ref="#p-x13">송재학</persName>은 별다른 설명 없이도 다르다는 걸 느끼 잖아요?</s>
+          <s><persName ref="#p-x10">박남철</persName>과 <persName ref="#p-x23">김신용</persName>을 봐도 그렇고, <persName role="poet" xml:id="p-x89">송찬호</persName>나 <persName role="poet" xml:id="p-x90">나희덕</persName>은 또 다른 자 리에 있어요.</s>
+          <s><persName ref="#p-x30">함민복</persName>과 <persName role="poet" xml:id="p-x91">박상순</persName>을 비슷하다고 말할 사람은 없을 겁니다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">현실 인식도 그렇고 언어를 다루는 방식의 차이가 다양성을 낳으면서 시의 지형도를 풍성하게 했어요.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">이에 비한다면 신세대는 오히려 서로 간에 유사성이 더 많은 듯합니다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">특히 언어를 사용하는 방법이 그러한 데, 자칫하면 획일성, 상투성에 빠질 가능성이 크지요.</interp>
+          </s>
+          <s>큰 도시 안에서 살다 보니 <term type="concept">감수성</term>이 서로 엇비슷한 때문이겠지만, <persName role="poet" xml:id="p-x92">문태준</persName>처럼 도시에 있더라도 전혀 다른 감수성을 보여주는 경우도 있잖아요?</s>
+        </p>
+        <p>
+          <s>물론 이들도 세부에서는 나름대로 개성을 드러낸 측면이 분명 있긴 하 지만, 큰 맥락에서 볼 때 이전 세대에 비해 각 <term type="concept">시인들</term> 간의 차이가 오히 려 좁아지지 않았나 싶어요.</s>
+          <s>물론 이런 문제가 인식의 부족 때문은 아닌 것 같아요 세계의 <term type="concept">부조리</term>나 <term type="concept">환멸</term> 자체가, 시인들의 경험과 상상 세계가 일정한 틀 안에 있으니 그런 게 아닐까 싶어요.</s>
+          <s>다른 길이 없다는 거죠.</s>
+          <s>길이 보이지 않으니 세부 문제를 더 극단으로 밀고나가야 하겠죠.</s>
+          <s>그러 니 전체 파도는 일정한 영역 안에 있는데 한 사람 한 사람의 작업은 펑 장히 실험적입니다.</s>
+          <s>시의 내부에서 꿈틀거리는 <term type="concept">언어의 역동성</term>이 시를 폭발시켜 버릴 듯해요.</s>
+          <s>“<quote type="indirect" genre="poet">환상수족</quote>”처럼 상상력이 팔방으로 뻗어나가 요.</s>
+          <s>하지만, 빅뱅처럼, 무한이지만 유한한 우주처럼, 일정한 규칙과 영역 안에 있다는 느낌이 강합니다.</s>
+        </p>
+        <p>
+          <s>또 하나 문제, 말이 많으니까 읽기가 힘든 부분이 있습니다.</s>
+          <s><term type="concept">소통 가능 성 부정하기</term>, <term type="concept">기성 언어의 의미 지우기</term> 같은 것은 좋은데, 말의 구조를 잘 모르고 쓰는 경우가 있어요.</s>
+          <s><term type="concept">말의 공공성</term>과 다른 차원에서 말이죠, <term type="concept">기충 민중</term>이 쓰는 입말을 바탕으로 뒤집든지 비틀든지 해야 하는데, 논 문투나 번역투의 글말들을 작품에 그대로 끌고옵니다.</s>
+          <s>
+            <interp value="critical" ana="문학관">이것은 시의 성 패 여부나 특정 경향을 떠나서 심각한 문제라고 생각합니다.</interp>
+          </s>
+          <s>자기 창조 에 몰두하다 보니 <interp value="critical" ana="사회">말 자체가 지닌 사회적 기능에 책임을 지려는 의식이 희미한 것 같아요</interp><persName ref="#p-x3">강계숙</persName> : 저는 <term type="concept">언어의 공적 기능</term>에 대해 관심을 기울여야 한다는 <persName ref="#p-x">김양헌</persName> 선 생님의 지적을 다른 방향에서 생각해 보면 어떨까 싶습니다.</s>
+          <s>앞의 논의 중 잠깐 얘기가 나왔습니다만, <interp value="neutral" ana="문학관">이들 대부분이 세계의 부정성을 드러내 는 데만 머물러 있다는 지적은 주목을 요하는 대목이라 생각합니다.</interp></s>
+          <s>
+            <interp value="critical" ana="문학관">제 가 이들 젊온 시인들의 시에서 느끼는 아쉬움은 부정성을 현상으로 드 러내는 데 능한 반면, 그 이후의 문제, 가령 '그렇다면 이러한 세계에서 어떻게 살아야 할 것인가'에 대한 고민은 결여되어 있다는 점입니다.</interp>
+          </s>
+          <s>‘어떻게 살아야 할 것인가'라는 이 물음이야말로 <term type="concept">개인으로서의 자기 삶 의 윤리</term>, <term type="concept">문학의 윤리</term>, <term type="concept">공공의 윤리</term>와 직결되는 중요한 물음이라 할 수 있습니다.</s>
+        </p>
+        <p>
+          <s><term type="concept">시적 비전</term>의 제시나 미래에의 전망이 지금 시점에서 다소 어 려운 일이라면, 적어도 '그렇다면 나는 어떻게 살아갈 것인가?</s>
+          <s>'를 스스 로에게 묻고 그에 대한 답을 찾으려는 노력은 필요하다고 봅니다.</s>
+          <s><title level="m" type="other" xml:id="t-x41">그리 스 비극</title>의 대사 중 “<quote type="direct" genre="other" source="그리스 비극">인간에게 가장 큰 행운은 태어나지 않는 것이고, 그 다음 행운은 빨리 죽는 것이다</quote>”라는 말이 있습니다만，이 세계에 "던져 졌고' 빨리 죽을 수도，없는 노릇이라면, 그리고 <term type="concept">공동체</term>를 만들어 살아 가야 하는 것이 인간의 운명이라면, 삶의 형태를 '어떻게' 이룰 것인가 는 진지하게 고민해야 할 대상이라고 생각합니다.</s>
+          <s>공공의 것에 대한 성 찰은 이렇듯 <term type="concept">자기 윤리</term>를 세우는 것으로부터 출발해야 합니다.</s>
+          <s><term type="concept">언어의공공성</term>을 '어떻게’ 회복할 것인가라는 문제도, 제가 보기엔, <term type="concept">자기 윤리</term> 에 대한 성찰이 먼저 선행되지 않는 한은 기존의 제도가 이들에게 요구 하는사회적 당위 이상의 의미를 지니지 못할 겁니다.</s>
+          <s>사실, '어떻게 살 아야 하는가‘라는 문제는 인문학을 업業으로 삼은 후부터 제가 제 자신 에게 던지는 질문이기도 합니다.</s>
+          <s>하지만 제 생각엔, <interp value="neutral" ana="문학관">이것야말로 새로운 문학 세대가 짊어지게 될, 짊어져야 할 가장 어려운 숙제가 아닐까 싶습 니다</interp>*<persName ref="#p-x2">김진수</persName>: 지난 세기 <date when="1990">19%년대</date>의 시적 경향들을 분류하고자 했던 범주들과 분류법이 이제는 거의 무의미해진 것 같습니다.</s>
+          <s><term type="concept">서정시</term>는 별도로 해야 겠지만, 좀 전에 말한 <term type="concept">여성시</term>를 포함해서 <term type="concept">도시적 일상시</term>, <term type="concept">생태/환경시</term> <term type="concept">민중시</term>, <term type="concept">정신주의시</term> 둥둥의 분류법이 유효성을 상실한 것으로 보일 만 큼, 최근 <term type="concept">젊은 시인들</term>의 시 세계는 오직 '<term type="concept">환상성</term>‘의 특징만이 두드러지 게 드러나고 있습니다.</s>
+        </p>
+        <p>
+          <s><date from="1990" to="1999">1990년대</date>의 분류법에 따른 그 같은 경향의 시들 은 이 같은 전반적인 특징 아래 약간의 변별성만을 가진 채 포괄될 수 있을 것 같습니다.</s>
+          <s><persName ref="#p-x">김양헌</persName> : <interp value="affirmative" ana="문학관">그 말에 공감합니다.</interp></s>
+          <s>
+            <interp value="neutral" ana="문학관">새 세대의 시는 기존 서정시와 다른 새로운 갈래인지도 모릅니다.</interp>
+          </s>
+          <s><term type="concept">동일성</term>이 흐려진데다 <term type="concept">교술적 성격</term>이 커졌어요 <term type="concept">세계의 자아화</term>가 무너지고 있어요 방법론도 <term type="concept">은유</term>보다 <term type="concept">환유</term>에 기대고 있고요.</s>
+          <s>정치적 상상력의 복원을 요청하는 비평계의 목소리<persName ref="#p-x3">강계숙</persName>: 올해 주요 <term type="concept">계간지들</term>에 중요하게 다루었던 비평적 쟁점 중 하나는 <term type="concept">문학과 정치</term>, <term type="concept">문학과 윤리</term>의 새로운 만남에 대해 다시금 성찰해야 한다 는 것이었습니다.</s>
+          <s>우리 문학이 <term type="concept">개인의 폐쇄적인 내면세계</term>를 다루는 데 만 치중하고 있다는 비판은 간간히 제기된 문제이긴 합니다만, 최근 <term type="concept">시비평</term> 쪽에서 그에 대한 구체적인 진단이 나오고 있는 듯합니다.</s>
+          <s>이와 관 련하여 근래 우리 시의 경향과 특징을 살펴볼 수 있지 않을까 싶습니다.</s>
+          <s>그래서 다음의 몇 가지 질문올 드립니다.</s>
+        </p>
+        <p>
+          <s><term type="concept">문학과 정치의 새로운 결합</term>에 대해 모색해야 한다는 평단의 요구가 등장하게 된 이유와 배경은 무엇 일까요?</s>
+          <s><persName ref="#p-x23">김신용</persName>, <persName ref="#p-x51">이세기</persName>, <persName ref="#p-x43">이기인</persName>의 시들은 이러한 맥락에서 볼 때, 주목 되는 시집들이라 생각됩니다.</s>
+          <s>특히 이들의 시는 이전의 <term type="movement">민중시</term>들이 보 여준 것과는 다른 지향점을 갖고 있다고 보이는데, 이들 시집에서 주의 깊게 볼 점은 무엇인지, 앞의 질문과 연관시켜 검토할 한만 것은 없는지 말씀해 주시면 좋겠습니다<persName ref="#p-x">김양헌</persName>: 세대와 계층의 차이, 다양한 문화와 가치관의 혼재 때문에 너무 단절되어 요즘은 기본적인 의사 소통도 안 될 지경이니까, 게다가 우리 시대가 바람직하게 움직이는 게 분명 아닌데도 새로운 전망을 제시할 뚜렷한 이슈가 바탕에 깔려 있지 않으니까, 그런 시간이 오래 지속되어 왔으니 이제는 어둠을 걷어내고 새로운 방향에서 <term type="concept">공동체 의식</term>을 되살리 든지 <term type="concept">새로운 정치학</term>을 세우든지 해서 이 시대를 다르게 바라볼 패러다 임이 필요하다는 인식이 커졌어요.</s>
+          <s>이런 기대와 반성 때문에 <term type="concept">정치</term>와 윤 리를 다시 주목하게 된 것 같아요.</s>
+          <s>오늘 다루는 <interp value="critical" ana="미학·사회">젊은 세대의 시인들은 대부분 첨예한 문화적, 사회적 현상을 다루고 있긴 하지만, 상황이 너무 절망적이라는 인식 때문인지 아니면 이렇게 지리멸렬한 삶 자체가 이 시대의 본질이라는 생각 때문인지 새로운 세계로 나아가려는 전망은 없 지 않습니까?</interp></s>
+          <s>최근 들어 <term type="concept">전망</term>이란 말이 다시 나오고 있는데, 시가 내재한, 시가 담보 할 수 있는 <term type="concept">공공의 윤리</term>를 생각해봐야 합니다.</s>
+          <s>물론 이런 움직임의 배경 에는 <term type="concept">중심을 향한 그리움</term>이 은밀하게 깔려 있는지도 몰라요.</s>
+          <s>미시적 세 계관이 <term type="concept">거시적 세계관</term>을 몰아내고 <term type="concept">담론</term>의 구조를 바꾼 지가 10년도 넘 지 않았습니까?</s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="문학관">미시 세계에 너무 치우치니 답답하고 허망해요.</interp>
+          </s>
+          <s>이런 걸 해가지고 뭘 어쩌겠다는 거냐 말이죠.</s>
+          <s>어쨌거나 이전처럼 하다가는 실패할 테니까, 그리고 아직 뚜렷한 돌파구가 보이지 않으니까 다들 조심 스러워요.</s>
+          <s>게다가 <term type="concept">정치</term>나 <term type="concept">윤리</term>가 따로 노는 것도 아니고 <term type="concept">자본</term>의 문제나 사회와 문화와도 복잡하게 얽혀 있어서 논의의 선올 어디까지 그어야 할지, 그것도 문제죠.</s>
+          <s><persName ref="#p-x2">김진수</persName>: 글쎄요, 문학과 <term type="concept">정치</term>나 문학과 <term type="concept">윤리</term>의 관계를 다시 성찰해야 한다 는 문제의식에 대해서 저로서는 잘 납득이 되지 않네요.</s>
+          <s><date from="1990" to="1999">1990년대 초</date>에 어느 문학지의 특집 좌담을 위해 발제문을 쓴 적이 있었는데, 그때 그 특집의 주제가'90년대 시의 <term type="concept">탈정치성</term>‘이었음을 생각하면, 불과 십여 년 을 사이에 두고 있는데도 격세지감을 느끼게 됩니다.</s>
+          <s>어쨌든 저는 시의 존재 자체가 이미 '충분히‘ <term type="concept">정치적</term>이라고 생각하는 편이거든요.</s>
+          <s>제 아무 리 '<term type="concept">탈정치적인</term>' 시라고 할지라도, 그 탈정치성 자체가 정치적이라는 생 각에는 아직도 변함이 없습니다.</s>
+        </p>
+        <p>
+          <s>그러니 <interp value="neutral" ana="문학관">정치적이지 않은 시는 없는 셈</interp> 이지요 저는 오히려 <interp value="critical" ana="문학관">시가 정치성을 표 나게 내세울 때의 위험을 더 경 계해야 한다고 생각합니다.</interp></s>
+          <s>'<term type="concept">문학과 윤리</term>，의 문제도 마찬가지일 듯합니 다.</s>
+          <s>제가 아는 것은 다만 '<term type="concept">문학의 윤리</term>'라는 것뿐입니다.</s>
+          <s>따라서 <interp value="critical" ana="문학관">문학의 윤리에 대해 다시 성찰해보자는 문제의식에는 동의하겠지만, 문학과 윤 리의 관계를 생각해야 한다는 문제의식에는 동의하기가 어렵군요.</interp></s>
+          <s>제가 아는 <term type="concept">문학의 윤리</term>라는 것은 <term type="concept">문학의 진정성</term> 혹은 <term type="concept">문학성</term>을 의미한다는 점을 덧붙이고 싶습니다.</s>
+          <s><persName ref="#p-x3">강계숙</persName>: <persName ref="#p-x23">김신용</persName>, <persName ref="#p-x51">이세기</persName>, <persName ref="#p-x43">이기인</persName>의 시를 보고 제가 느낀 것은 <interp value="critical" ana="사회">이들의 시를 계급의 관점으로 논할 수 없겠다는 것이었습니다.</interp></s>
+          <s><term type="concept">계급</term>의 개념이 아니 라 <term type="concept">하위 계층</term>, 즉 <term type="concept">서발턴</term>subaltern의 개념으로 이들의 시를 본다면 문학 과 <term type="concept">정치적 상상력</term> 간의 관계에 대해 <interp value="affirmative" ana="사회">좀 더 유연한 관점을 얻을 수 있지 않을까 생각합니다.</interp></s>
+          <s>가령 이 런 점을 생각해 볼 수 있습니다.</s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="other">정치란 각 각의 개인이 자신들이 가진 생각을 자유롭게 표현할 수 있는 공적인 장 場을 마련하는 데서 출발합니다</quote>" 시민 사회의 형성으로부터 한국의 <term type="concept">민주주의</term>가 이전보다 더 발전되었다는 점은 누구나 인정하는 바입니다.</s>
+          <s>그런데 문제는 이러한 공적 장에서의 <term type="concept">의사소통</term>이 <term type="concept">언어</term>를 통해 이루어진 다고 할 때, 과연 이 언어가 각 개인의 의사를 정확하게 전달할 수 있는 수단과 방법으로서 그에 합당한 역할을 제대로 하고 있는가는 따져 물 을 수 있습니다.</s>
+          <s><term type="concept">언어</term>가 <term type="concept">권력</term>의 행사 및 <term type="concept">지배 이데올로기</term>와 불가분의 관 계를 맺고 있음을 상기한다면, 현재 사희적으로 소외된 자의 위치에 있 는 <term type="concept">하위 계층</term>들, <term type="concept">소수자</term>들은 자신들의 의사와 주의 주장을 표현할 수 있 는 '그들만의 언어롤 정당하게 소유하고 있는 것일까요?</s>
+          <s>얼마 전에 이 기인의 시에 대한 서 평을 쓰면서 이 러한 문제와 관련하여 그의 시를 살 펴본 바가 있습니다만, <interp value="affirmative" ana="사회">그의 시는 우리 사회의 상징적 질서를 이루고 있 는 제도권의 언어가 소녀'로 대표되는 노동자 계층, 혹은 성적 착취 계 충의 고통과 절망을 제대로 표현할 수 없다는 점을 환기하고 있습니다.</interp></s>
+          <s>'<term type="concept">소녀</term>‘들은 계속해서 <term type="concept">상처</term>를 입지만, 정작 그들의 상처는 보이지 않습니 다.</s>
+          <s>이는 이들의 상처를 형용할 수 있는 <term type="concept">언어</term>, 구체화할 수 있는 언어가 이들에게는 주어져 있지 않다는 것을 뜻합니다.</s>
+          <s>이들은 '<term type="concept">말할 수 없는</term>‘ 상태로 이 세계를 살아가고 있는 것입니다.</s>
+          <s>그렇다면 말하지 못홍］는' <term type="concept">하위 계충</term>이 ‘그들의 언어'로 말하게 하는 것, 또는 엄연히 사용되고 있 으나 공공의 장場으로 호출되지 못한 '그들의 언어'를 <term type="concept">공적 담론</term> 내로 이입시키는 것은 의미 있는 실천이자 중요한 정치적 가치를 지닙니다.</s>
+        </p>
+        <p>
+          <s>서해 어민들의 생활어를 시어로서 전경화시킨 <persName ref="#p-x51">이세기</persName>의 시와, 삶과 <term type="concept">노 동</term>이 하나로 육화되어 토로되는 <persName ref="#p-x23">김신용</persName>의 시는 이런 맥락에서 볼 때, <term type="concept">하 위 계층</term>의 자기표현이자 제도권의 언어를 '그들의 언어로 형질 전환하 는 <term type="concept">수행적 발화</term>라는 점에서 <interp value="affirmative" ana="사회">정치적 의미를 획득한다고 할 수 있습니다.</interp></s>
+          <s>
+            <interp value="neutral" ana="문학관">저는 이런 이유로 이들의 시를 이전의 민중시와는 다른 차원에서 보아 야 한다고 생각합니다.</interp>
+          </s>
+          <s><persName ref="#p-x">김양헌</persName>: 그렇습니다.</s>
+          <s>공적 담론에서 소외된 <term type="concept">계층</term>의 언어는 확실히 <term type="concept">정치성</term> 이 강하지요.</s>
+          <s><persName ref="#p-x71">신경 림</persName>의『<title level="m" type="poem" xml:id="t-x42">농무</title>』가 처음 나왔을 때 상황을 생각해보면 쉽게 이해가 갑니다.</s>
+          <s>농민들이 쓰는 말이 있었기에 농촌 문제가 제대로 제 기될 수 있었지요 올해 발간된 <term type="concept">정치성</term>이 강한 시집으로 저는 <persName role="poet" xml:id="p-x93">이중기</persName>의 「<title level="m" type="poem" xml:id="t-x43">다시 격문을 쓴다</title>』와 <persName ref="#p-x23">김신용</persName>의「<title level="m" type="poem" xml:id="t-x44">환상통</title>』을 생각했습니다.</s>
+          <s><persName ref="#p-x93">이중기</persName>는 실제로 농민운동을 하면서 농민의 현실을 드러내고 있기 때문에 정치적 으로 예민한 부분을 직접 건드릴 수밖에 없어요 격문이란 제목에서 알 수 있듯 <date from="1980" to="1989">1980년대</date> <term type="movement">민중문학</term>이 보여준 이른바 '<term type="concept">전투적 서정성</term>'이 아직 도 힘을 발휘하고 있어요.</s>
+          <s>
+            <interp value="affirmative" ana="미학">새로운 양식이라 할 순 없지만（그럴 필요가 없기도하고）, 현실에 굳건히 발을 디딘 진정성이 절실한 서정을 자아내 고 있어요.</interp>
+          </s>
+        </p>
+        <p>
+          <s><persName ref="#p-x23">김신용</persName>의 등장인물들은 자기 존재를 드러낼 길조차 없는 <term type="concept">최 하충민</term>이죠.</s>
+          <s>표제작「<title level="a" type="poem" ref="#t-x44">환상통</title>」을 보면 지게가 등뼈에 붙어 접골이 되잖 아요.</s>
+          <s>이 정도면 고생했다 정도가 아니고 그런 삶과 시안/화자가 일체가 되어 있다고 하겠는데…….</s>
+          <s>농민들은 데모라도 하지만 날품팔이들은 데 모도 못하거든요.</s>
+          <s>
+            <interp value="affirmative" ana="사회">이런 부류의 사람들, 이런 소외된 人卜건들, 중심에서 밀려난 이런 것들이 문학의 정치성을 형성하지 않나 싶어요.</interp>
+          </s>
+          <s><persName ref="#p-x3">강계숙</persName> : <persName ref="#p-x23">김신용</persName>, <persName ref="#p-x51">이세기</persName>, <persName ref="#p-x43">이기인</persName>은 모두 현재의 <term type="concept">제도권 언어로는 제대로 말할 수 없다</term>’는 의식이 매우 강한 시인들입니다.</s>
+          <s>그러면서 시 한편 한 편의 <term type="concept">미적 성취</term>를 중시하는 시인들이기도 합니다.</s>
+          <s>이는 <term type="concept">시란 하나의 작 품'으로서 충분히 완성되어야 한다</term>는 점을 이들이 중요하게 생각하고 있음을 반증합니다.</s>
+        </p>
+        <p>
+          <s>아마도 80년대 <term type="concept">노동문학</term>, <term type="concept">민중문학</term>의 한계가 무엇 인가를 이들이 잘 알고 있기 때문에 형성된 특징이겠지요.</s>
+          <s><persName ref="#p-x51">이세기</persName> 시인 이 보여주는 <term type="concept">절제의 미학</term>은 그의 시가 <term type="concept">서정시</term>의 미덕을 잘 갖추고 있음 을 보여줍니다*<persName ref="#p-x2">김진수</persName>: 물론 그 지향성이 전혀 달라 정확한 비유는 아닙니다만, 오늘날 <term type="concept">여성시</term>가 처한 상황과 마찬가지로 <term type="concept">민중시</term>나 <term type="concept">노동시</term> 역시 노동시가 아 니라 그냥 ‘<interp value="critical" ana="문학관">서정시가 된 형국이네요</interp>.</s>
+          <s><persName ref="#p-x">김양헌</persName>: <persName ref="#p-x51">이세기</persName>는 자산/화자가 직접 말하지는 않지만, 동네 어부들의 삶 을 통해 말을 하게 합니다.</s>
+          <s>그것이 <term type="concept">공동체 의식</term>이 드러나는 방식이죠.</s>
+          <s>방법론으로는 그렇습니다.</s>
+          <s><persName ref="#p-x3">강계숙</persName>: 만일 <term type="concept">정치적 상상력</term>, 사희적 상상력과관련하여 <term type="concept">젊은 시인들</term>의 시 세계를 검토한다면, 어떤 특징을 발견할 수 있을까요?</s>
+          <s><persName ref="#p-x2">김진수</persName>: 오늘 좌담에서 중요한 논점이기도 했는데요, <term type="concept">언어의 공공성</term> 혹은 <term type="concept">의사소통성</term>, <term type="concept">공동체성</term>과 관련되는 문제일 것 같습니다.</s>
+          <s>제가 생각하는 것은 <term type="concept">의사소통</term>이 불가능한 것처럼 보이는 시대와 현실을 사는 이들은 과연 어떤 언어를 쓸 것인가 하는 문제입니다.</s>
+        </p>
+        <p>
+          <s>우리의 <term type="concept">젊은 시인들</term>이 처 해 있는 상황과 문제가 바로 그런 것으로 보입니다.</s>
+          <s>앞서 '<quote type="direct" genre="other">미림</quote>'이란 단 어의 예를 들었습니다만, <term type="concept">공적 언어</term>와 <term type="concept">언어의 공공성</term>이 훼손된 시대의 <term type="concept">시인들</term>은 어떤 시를, 어떤 언어를 써야만하는가 하는문제겠습니다.</s>
+          <s>저 로서는 <term type="concept">젊은 시인들</term>의 <term type="concept">무의식</term>과 환상에 가득 찬 <interp value="affirmative" ana="미학">장광설이야말로 바로 이러한 시대와 현실에 대한 불온한 일탈과 해체의 전략으로 읽고 싶습 니다</interp>* 또 한편으로는 이들 시인의 시가오히려 이 시대의 젊은 세대들에 게는 더 잘 소통이 될 수도 있지 않을까 하는 생각을 합니다.</s>
+          <s><persName ref="#p-x">김양헌</persName>: 그런 점이 있지요.</s>
+          <s>젊은 세대들에겐 그들의 언어가 더 잘 소통이 되겠지요.</s>
+          <s>어민들의 말이나 <persName ref="#p-x18">허수경</persName>이 쓴 진주 말이 오히려 이해하기 어 려운 사람들도 많아요.</s>
+          <s>중］지만 이때 소통이 불가능하다는 것은 언어의 지시적 의미에 관한 문제니 해소하기가 쉽지요.</s>
+          <s>영어 안 배운 사람이 영 어를 모르는 것이나 마찬가지죠.</s>
+        </p>
+        <p>
+          <s>하지만, <term type="concept">젊은 세대들</term>이 쓰는 <term type="concept">환유</term>의 방 식은 다른 문제라고 생각합니다.</s>
+          <s>소통이 안 되는 세상에 대응하는, 저항 하는 방식으로 소통이 안 되는 형식을 의도적으로 사용한다는 것이죠.</s>
+          <s><persName ref="#p-x2">김진수</persName>: <term type="concept">젊은 시인들</term>의 시적 특성을 놓고 볼 때, 저는 오히려 <interp value="affirmative" ana="사상">그들의 전략이야말로 정치적이라고 생각하는 편입니다.</interp></s>
+          <s>
+            <interp value="neutral" ana="사상">이미 그들의 시가 정치적인 데, 또 어떤 정치적 상상력을 회복해야 하는 것인지 의문이 들기도 합니 다.</interp>
+          </s>
+          <s><term type="concept">생태시</term>의 감소와<term type="movement">정신주의</term> 경향의 쇠퇴<persName ref="#p-x3">강계숙</persName>: 지난 io여 년 동안 우리 시단의 중심 담론으로 자리 잡고 있던 생 태시와 정신주의 지향의 시들이 올해는 좀 드물게 발표되었다는 인상을 받았습니다.</s>
+          <s>어떤 문학 내적 이유가 있지 않을까 싶습니다.</s>
+          <s>이에 대한 선생님들의 간략한 견해를 듣고 싶습니다.</s>
+          <s><persName ref="#p-x">김양헌</persName> : <term type="concept">생태시</term>와 그 용어가 <date from="1990" to="1999">1990년대</date> 초에 나올 때는 신선했는데, 시간 이 흐르면서 비슷비슷한 작품들이 많이 나오다 보니 문제점도 드러나기 시작했어요.</s>
+        </p>
+        <p>
+          <s>체험이 녹아든 <term type="concept">육성</term>이 나오지 못하고 특이한 생태를 발견 하는 차원에서 그치는 경우가 많았지요: 실제 자연은 무의미한데, 즉 화 학적, 물리적으로 움직이는 건데 시인/인간의 시선으로 해석하고 인간 의 욕망을 불어넣곤 하였죠.</s>
+          <s><term type="concept">교술성</term>, 교훈이 강해요.</s>
+          <s>물론 그런 방법 자 체가 나쁜 건 아니에요.</s>
+          <s>
+            <interp value="critical" ana="미학">그러면서 인간을 슬쩍 옆으로 밀어냄으로써 그 것을 대상화하는 주체/화자를 오히려 자연과 인간보다 우위에 세우는 이상한 파시즘이 작용하는 게 문제지요.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">겸손하게 반성하며 감탄하는 척하지만 사실은 내려다봅니다.</interp>
+          </s>
+          <s>눈높이가 안 맞아요.</s>
+          <s>
+            <interp value="neutral" ana="문학관">이런 문제 때문에 저는 생태시가 인간에게로 돌아가야 한다고 봅니다.</interp>
+          </s>
+          <s>인간만이 의지를 가지고 살아가기 때문에 인간이 개입할 때 오히려 자연과 인간이 <term type="concept">공존</term> 하는 길을 열 수 있다고 생각합니다.</s>
+        </p>
+        <p>
+          <s>요즘 나오는 <term type="concept">생 태시</term>는 <term type="concept">자연 예찬</term>에 가까운 게 많아요.</s>
+          <s>실상은 아니거든요.</s>
+          <s>과학적인 사고방식이 결여되어 있어요.</s>
+          <s>시가 과학에 종속되어서도 안 되겠지만, 자연을 정확하게 바라 보는 노력도 중요합니다.</s>
+          <s><persName ref="#p-x3">강계숙</persName>: 오늘 저희가 주로 논의했던 <term type="concept">젊은 시인들</term>에게서는 그러한 <term type="concept">생태적 경향</term>이 드문 편이지요.</s>
+          <s>아닌가요?</s>
+          <s><persName ref="#p-x2">김진수</persName>: 제가보기에는 <term type="concept">생태시</term>가감소한 것이 아니고, 여러 측면들이 섞여 있어서 그런 것 같습니다.</s>
+          <s>오늘날 올곧게 <term type="concept">생태시</term>만 쓰는 시인은 거의 없 다고 해도 무방하지요.</s>
+        </p>
+        <p>
+          <s><term type="movement">에코-페미니즘</term>이 대표적인 예가 되겠지만, <term type="concept">생태 시</term> 속에 페미니즘이 함께 한다든가 <term type="concept">계급</term>이 페미니즘과 연대한다든가 하 는 방식으로 혼재하여 존재한다는 뜻입니다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">이처럼 다층적으로 여타의 요소들을 함께 감싸 안을 때 각자의 영역에서 시가 풍성해지는 게 아닌 가 생각합니다.</interp>
+          </s>
+          <s>우리는 이미 <persName role="poet" xml:id="p-x94">최승호</persName> 시인의 예를 알고 있지 않습니까?</s>
+          <s>김양헌: <interp value="affirmative" ana="미학">최승호의 시는 발견을 넘어 새로 발명한 것이라고 볼 수 있지요.</interp></s>
+          <s>
+            <interp value="affirmative" ana="미학">고진하에게는 발견과 발명이 적절하게 공존하고 있다는 생각이 듭니다.</interp>
+          </s>
+          <s><term type="concept">젊은 시인들</term> 중에도 <persName ref="#p-x92">문태준</persName> 같은 경우는 <term type="movement">생태주의</term>를 표방하지 않더라도 <interp value="affirmative" ana="문학관">뛰어난 생태주의자라 할 수 있지요.</interp></s>
+          <s>인간의 <term type="concept">노동</term>과 자연의 <term type="concept">생태</term>가 제대• 로 뒤얽혀 있어요.<interp value="critical" ana="미학">「가자미」같은 작품은 인식의 방향이 뻔히 드러나서 오히려 문태준답지 않다는 생각이 드는데</interp>, <interp value="affirmative" ana="미학">그가 자주 구사하는 토속성 이 짙은 직유는 자연과 인간의 삶이 적실하게 어울린 모습을 보여주고 있어요.</interp></s>
+          <s>
+            <interp value="affirmative" ana="문학관">이세기의『먹염바다』도 이런 선상에 있다는느낌이 듭니다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>우리 시에 대한 전망<persName ref="#p-x3">강계숙</persName> : 오랜 시간 열띤 대화를 통해 우리 시의 최근 동향에 대한 이야기 를 나누었습니다.</s>
+          <s>두 분의 말씀을 들으면서, 우리 시에 대한 깊은 애정 과 염려를 함께 느낄 수 있어서 제겐 배운 바가 많은 자리였습니다.</s>
+          <s>이 제 좌담을 정리할 때가 되었습니다.</s>
+          <s>마지막으로 우리 시에 대한 전망을 말씀해 주시면서 오늘의 좌담을 마무리할까 합니다.</s>
+          <s><persName ref="#p-x">김양헌</persName> 선생님부터 말씀해 주시지요.</s>
+          <s><persName ref="#p-x">김양헌</persName>: 시인에게는, 어느 시대나 마찬가지로, 말에 관한 책무가 있다고 생각합니다.</s>
+          <s>말을 비틀고 의미를 버리더라도 말의 구조와 가치를 정확 히 알고 그런 작업을 해야겠지요.</s>
+          <s>비평가 또한 마찬가지죠.</s>
+        </p>
+        <p>
+          <s>작금의 <term type="concept">비평</term> 은 말을 멋대로 부리고 있어요.</s>
+          <s>
+            <interp value="critical" ana="미학">시에 비하면 정말 심각하게 오염된 글이 비평이에요.</interp>
+          </s>
+          <s>논리나 분석 때문에, 그리고 종종 말소리의 속도 때문에 국 적도 없는 문장을 함부로 쓰는 <term type="concept">비평가</term>가 많아요 우리말 문장의 반 이상 올 대학의 논문과 평론이 버리고 있다는 생각이 들기도 합니다.</s>
+          <s>
+            <interp value="critical" ana="미학">번역서 나 평문 중에는 자본주의를 쫓아가는 반생태주의 언어 형식에다 내용만 생태주의를 얹어놓은 기이한 문장을 종종 볼 수 있어요.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">명쾌한 논리와 자명한 본질을 만나는 행복은 드물고 끔찍한 괴물 앞에 선 듯한 느낌이 들 때가 많아요.</interp>
+          </s>
+          <s><persName ref="#p-x55">김언</persName> 시집 뒤에 실린 산문을 보니 젊은 세대들도 말 자체에 예민하게 반 웅하고 있다는 생각이 듭니다.</s>
+          <s>“<quote type="direct" genre="other">불구의 문장</quote>”을 사랑할 수밖에 없는, 어 쩔 수 없이 사용해야 하는 상황도 이해가 되구요, 이런 신세대식 방법으 로 우리말을 실험하는 일이 <term type="concept">왜소하거나 분열된 주체</term> 문제의 근본 원인 을 찾는 한 방법이 아닐까도 싶어요.</s>
+          <s>
+            <interp value="neutral" ana="문학관">새로운 세대의 시인들이 실험성이 강하다 해도 이전 세대와 완전히 결별할 만큼 동떨어진 작품을 내놓고 있다는 생각은 들지 않습니다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>저같이 나이 든⑺ 사람도 아직은 <interp value="affirmative" ana="미학">읽을 만합니다</interp>.</s>
+          <s>
+            <interp value="affirmative" ana="미학">재미있는 작업도 많구요, 인식의 방향도 따라갈 만합니다.</interp>
+          </s>
+          <s>자 세히 보면 <interp value="affirmative" ana="미학">유머도 있고 능청도 있어요</interp>.</s>
+          <s>앞 세대에 비해 지형도를 명확히 긋기가 어렵다 하더라도, 어쩌면 이런 현상이 뭔가 새로운 폭발을 예비 하는 게 아닌가 싶기도 하고 하여간 <term type="concept">1970년대 출생 시인들</term>이 올해 대거 시집을 발간했다는 것은 그 세력이 이미 상당한 영역을 차지하고 있다 는 뜻이기도 한데, <term type="concept">1980년대 생 시인들</term>도 벌써 여럿 둥단하였으니 새로 운 길을 열 가능성은 더 커졌다고봐야 하겠지요.</s>
+          <s>이들의 상상력이 구체 적인 삶의 현장에서 너무 멀리 날아가버 리지 않기를 바랄 뿐입니다.</s>
+          <s><persName ref="#p-x2">김진수</persName> : <term type="concept">의사소통성</term>과 <term type="concept">개별적 내밀성</term>은 시 언어의 두 수레바퀴라고 할 수있습니다.</s>
+          <s>일상어나 학문어의 최대 목적이 <term type="concept">의사소통성</term>일 텐데, 우리는 간혹 이러한 언어가 오히려 사태의 실상을 얼마나 왜곡하거나 관념적인 추상으로 만드는지를 경험적으로 알고 있습니다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">시의 언어는 너무나 자명하게 보이는, 그래서 아무것도 자명하지 않은 언어에 저항하면서 세계와 삶을 다시금 발견하도록 하는 언어입니다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그래서 그것은 차라 리 시인에 의해 발명된 말이라고 할 수 있지요.</s>
+          <s>문제는 '시인에 의해'라 는 말이 함축하고 있듯이, <interp value="critical" ana="미학">시의 언어가 시인의 개별적 내밀성과 감각만 을 담보하게 될 때 그것은 수수께끼 같은 하나의 암호문에 지나지 않을 것이라는 사실입니다.</interp></s>
+          <s>그런 맥락에서 <persName ref="#p-x">김양헌</persName> 선생님이 <term type="concept">젊은 시인들</term>의 시 언어에 관해서 오늘 지적하신 바에 <interp value="affirmative" ana="미학">저 역시 충분히 동의할 수 있습니 다.</interp></s>
+          <s>결국 <term type="concept">젊은 시인들</term>은 시 언어의 <term type="concept">의사소통성</term>과 개별적 <term type="concept">내밀성</term> 사이의 긴장을 충분히 의식해야 할 것이라고 생각합니다.</s>
+          <s>오늘날 우리 시의 지형은 크게 보아 '<term type="concept">서정성</term>'을 그 내적 특질로 하는 전 통적인 <term type="concept">서정시</term>와 오늘 제가 강조한 바 있는 <term type="concept">환상성</term>을 그 시적 특질로 삼는 <term type="concept">탈주체적</term> 경향의 시들로 대별될 수 있을 것 같습니다.</s>
+          <s>문제는 이 <term type="concept">서정성</term>과 <term type="concept">환상성</term>이 하나의 시적 감각 안에서 과연 융해될 수는 없는 것 인가하는 것입니다.</s>
+          <s>다시 말해서, <term type="concept">서정성</term>이 시 속에다주체의 <term type="concept">자기동일 성</term>의 바깥을 끌어들일 수는 없는가 하는 문제인 동시에, <term type="concept">환상성</term>은 장광 설이 아니라 노래로 불리어질 수는 없을까 하는 문제이지요.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 같은 가 능성이 확인될 수 있다면, 그것은 우리 시의 커다란 축복이 될 것입니 다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>감각을 언어화하는 시가, 감각을 지시하는 '<term type="concept">아이스테시스aisthesis</term>' 라는 그리스어의 어원적 의미 그대로 <term type="concept">감각적 인식</term>과 관능적 쾌락을, 정 신과 육체를, 의식과 무의식 모두를 감싸 안을 수 있을 때에야 그런 일 이 가능하게 되겠지요.</s>
+          <s><persName ref="#p-x3">강계숙</persName> : 올해 발간된 시집들을 다시 보면서 , 그리고 올해 제가 썼던 이러 저러한 비평문을 떠올리면서, 저는 개인적으로, 비평가로서 기쁨과 희 망을 느낍니다.</s>
+          <s>그러나 <interp value="neutral" ana="문학관">저의 기쁨과 희망은 비평적 글쓰기의 좌절과 절망에서 비롯합니다.</interp></s>
+          <s>좌절과 절망이 역설적으로 기쁨과 희망으로 전환되 었다는 뜻인데, 특히 <term type="concept">젊은 시인들</term>의 시를 읽고 리뷰하면서 그러한 역설 을 매번 반복해서 체험하였습니다.</s>
+          <s>비평가로서 좌절하고 절망한 이유는 이들의 시를 마주하고 있는 저의 비평 언어가 너무나 무력한 상태에 있 음을 절실히 깨달았기 때문입니다.</s>
+          <s>제가 공부한 개념과 이론이 이들의 시에 적용될 수 없었던 까닭입니다.</s>
+          <s>저의 배움과 학식이 아직 미천한 수 준에 머물러 있는 탓이 크겠으나, 이들의 시가 이미 기존의 <term type="concept">시학</term>과 이론 을 훨씬 넘어선 곳에서 쓰여진다는 데 근본적인 이유가 있습니다.</s>
+          <s>이들 의 시를 적절히 지칭할 수 있는 새로운 비평적 명명과 분석, 진단이 필 요함을 인식하면서도 정작 그에 합당한 비평적 언어를 저는 찾을 수 없 었습니다.</s>
+        </p>
+        <p>
+          <s>가령 다음과 같은 기본적인 질문, '이들의 시는 <term type="concept">서정시</term>인가 아닌가?</s>
+          <s><term type="concept">서정시</term>가 아니라면 시가 아니란 말인가?</s>
+          <s>그렇다면 시란 무엇인 가?</s>
+          <s>'와 같은 질문이 내내 머리에서 떠나질 않았습니다.</s>
+          <s>하지만 저의 비평 언어를 무력하게 만든다는 이유로, 혹은 기존의 담론 으로 설명할 수 없고 우리의 상식이나 시의 관습을 벗어나 있다는 이유 로* 이들의 시에 <interp value="neutral" ana="문학관">섣부른 비판의 잣대를 들이댈 수는 없다고 생각했습니 다.</interp></s>
+          <s>문학사가 우리에게 가르치는 교훈 중 하나는 당대의 "나쁜‘ 문학이 후대에는 '좋은‘ 문학으로 자리바꿈되는 일이 얼마든지 일어난다는 것 이지요.</s>
+          <s>
+            <interp value="neutral" ana="문학관">이들 시에 대한 비평적 평가는 아마도 미래의 몫일 겁니다.</interp>
+          </s>
+          <s>이 는 미래에 이르러서야 적합한 명명이 가능해질 것이라는 뜻이기도 하지 만, 그보다는 이들이 보여줄 다음의 행보가 어떤 형태와 내용을 취할 것 인가에 따라 비평의 작업이 진행되고 완료될 것이라는 의미를 지닙니 다* <interp value="neutral" ana="문학관">이들의 행보가 어떻게 이어질지 저로서는 감히 추측할 수 없지만, 제가 갖는 기대는 바로 저의 좌절과 절망에서 비롯합니다.</interp></s>
+        </p>
+        <p>
+          <s>무슨 의미인 가 하면, 시란, 특히 좋은 시란, <term type="concept">비평의 언어</term>, 다시 말해 <term type="concept">산문의 언어</term>를 무력하게 만드는 데 그 본질적인 힘이 있다고, 저는 생각합니다.</s>
+          <s>
+            <interp value="critical" ana="미학">시에 앞서 비평으로 하여금 더 큰 힘을 발휘하게 만드는 시란 시의 언어로서 도달해야 할 지점에 아직 다다르지 못한 얼치기-시가 아닐까요?</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">진정한시란 비평으로 하여금 더듬더듬, 조심스럽게 말하게 합니다.</interp>
+          </s>
+          <s>제가 뜻한 <term type="concept">비평의 '무력함，</term>은 바로 이러한 상태를 가리킵니다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">저는 이들의 시가 저를 너무나 깊게 절망시켰다는 이유 때문에 거꾸로 이들의 시가 지닌 가치를 믿습니다.</interp>
+          </s>
+          <s>매우 주관적이고 사적인 체험에 근거하여 제 견해를 피력한 꼴이 됐습니다만, 이들 <term type="concept">젊은 시인들</term>의 언어가 저를 괴롭히는 한, 그것은 '<term type="concept">새로운 시</term>‘에 대한 기대 때문에 앓는 몸살일 것이고, 그 괴로움 의 깊이만큼 비평이 해야 할 몫과 기쁨이 커진다고 생각합니다.</s>
+          <s>오늘 참석하신 두 분 선생님의 우리 시에 대한 애정에 동화되어 좌담을 마무리를 하려던 저의 짧은 소견이 이렇게 장황해지고 말았습니다만, 올 한해 제가 했던 글쓰기를 되돌아본 계기가 될 수 있어서 제겐 여러모 로 도움이 많이 된 자리였습니다.</s>
+          <s>우리 시를 지켜보는 많은 분들의 애정 을 자양분으로 삼아 '<term type="concept">새로운 시</term>‘의 힘찬 발흥이 더욱 본격화되기를 바란 다는 말로써 오늘의 자리를 정리할까 합니다" 두 분 선생님 모두 수고하 셨습니다.</s>
+        </p>
+        <p>
+          <s>園</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

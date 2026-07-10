@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>환상과 실재의 스펙트럼</title>
+        <author>오형엽</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><term type="concept">환상</term>과 <term type="concept">실재</term>의 스펙트럼- <date from="2000" to="2009">2000년대</date> <term type="movement">전위시</term>의 지형도</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>1. 전위시의 위상과 계보- 삼각형과 다섯 꼭짓점</head>
+        <p>
+          <s><date from="2000" to="2009">2000년대</date> <term type="concept">전위시</term>의 지형도를 그리기 위해서는 그 전사(前史)로서 한국 현대 전위시의 위상과계보를 살펴볼 필요가 있다.</s>
+          <s><persName role="critic" xml:id="p-x">김인환</persName>은 한국 현대시의 형식을 시조와의 거리를 척도로 규정하여<persName role="poet" xml:id="p-x2">김소월</persName>과 <persName role="poet" xml:id="p-x3">이상</persName>이라는 양 극단 사이에서 위상화하며, 이후의 역사적 전개는 이 두 시인을 준거로파생된 다양한 계보를 보여준다고 파악한다.</s>
+          <s>20세기 후반기의 한국 시는 <persName ref="#p-x3">이상</persName>의 시를 하나의 준거로 삼고 그로부터 시적 직관을 끌어내왔다.1) <persName ref="#p-x">김인환</persName>이 설정한 ‘<term type="concept">이상 시의 계보</term>’를 더 밀고 나간다면, 이상이라는 하나의 꼭짓점으로부터 전개된 한국 <term type="concept">전위시</term>가 <date from="1950" to="1959">1950년대</date> 이후 <persName role="poet" xml:id="p-x4">김춘수</persName>와 <persName role="poet" xml:id="p-x5">김수영</persName>에 의해 확장되면서 세 개의 꼭짓점을 형성한다고 볼 수 있을 것이다.</s>
+          <s>
+            <interp value="neutral" ana="미학">김춘수가 이상 시의 계보를 현실성의 무게를 소거하며 시의 예술성을 강화하는 방향으로 밀고 갔다면, 김수영은 첨단의노래와 정지의 미, 즉 시의 예술성과 현실성을 변증법적으로 종합하는 방향으로 밀고 갔다고 평가할 수 있다.</interp>
+          </s>
+          <s>그런데 지금까지 <persName ref="#p-x4">김춘수</persName>와 <persName ref="#p-x5">김수영</persName>의 관계는 대비적 구도를 통해 차별성이 주로 강조되어 온 반면, <interp value="critical" ana="문학관">그 내면에 숨어있는 중요한 연결고리 하나가 흔히 간과되어 온 듯하다.</interp></s>
+          <s>‘<term type="concept">무의미시</term>’의 차원이 그것인데, 이것은 <persName ref="#p-x4">김춘수</persName>의 ‘<term type="concept">무의미시</term>’뿐만 아니라 <persName ref="#p-x5">김수영</persName>의 ‘<term type="concept">온몸의 시학</term>’에도 중요한 동력원으로 작용한다.</s>
+          <s><persName ref="#p-x4">김춘수</persName>의 경우, 시와 삶을 분리하려는 의식에서 발생한 시/산문의 이분법은 <term type="concept">시의식</term>/<term type="concept">시민의식</term>, <term type="concept">무의미</term>/의미로 전개되면서 ‘시-시의식-무의미’의 극단을 지향하고 ‘산문-시민의식-의미’의 측면을 배제하는 ‘<term type="concept">배제의 방식</term>’을 채택한다.</s>
+          <s>이러한 ‘<term type="concept">배제의 방식</term>’을 밀고나가면서 <persName ref="#p-x4">김춘수</persName>가 소거하고자한 요소는 관념․의미․현실․역사․감상 등이며, 그 결과 도달한 지점은 언어로써 포착되지 않는 무와 공의 표정, 다시 말해 <term type="concept">유희</term>의 차원이며 존재의 차원이다.</s>
+        </p>
+        <p>
+          <s>존재의차원이 지닌 순수한 상태의 <term type="concept">유희</term>는 시의 대상을 제거하는 데 그치지 않고 시를 쓰는 주체를해체하는 양상으로까지 나아간다.</s>
+          <s>그리하여 <term type="concept">자유</term> 혹은 <term type="concept">허무</term>의 상태에 이르러 ‘<term type="concept">무의미시</term>’가형성된다.</s>
+          <s><persName ref="#p-x5">김수영</persName>의 경우, 시의 전개 과정에서 <term type="concept">시/산문, 형식/내용의 이분법</term>을 ‘<quote type="direct" genre="poet"><lg type="stanza"><l>시를 쓴다는</l></lg><lg type="stanza"><l>것-노래-시의 형식-예술성-모호성․혼돈-대지의 은폐</l></lg></quote>’와 ‘<quote type="direct" genre="poet"><lg type="stanza"><l>시를 논한다는 것-산문-시의 내용</l></lg><lg type="stanza"><l>-현실성-모험-세계의 개진</l></lg></quote>’으로 구체화한다.</s>
+          <s>그는 이 양극을 온몸으로 밀고나가는 <term type="concept">자유</term>의이행을 통해 ‘<quote type="direct" genre="critic">내용</quote>’이 곧 ‘<quote type="direct" genre="critic">형식</quote>’이 되는 지점에 이르러 <term type="concept">이분법</term>을 통합함으로써 <persName ref="#p-x4">김춘수</persName>의 ‘<term type="concept">무의미시</term>’와는 다른 차원의 ‘무의미시’에 도달한다.</s>
+          <s><term type="concept">온몸의 시학</term>을 통해 ‘<term type="concept">자유</term>’와 ‘<term type="concept">사랑</term>’과 ‘<term type="concept">혼란</term>’에 도달할 때, 시의 내용과 형식은 서로에 의지하지 않고 시가 그림자조차 의지하지 않는‘<term type="concept">무의미시</term>’가 생성된다.</s>
+          <s>이 차원에 이르러 시는 문화와 민족과 인류를 염두에 두지 않지만그것에 공헌하게 되고, 시의 내용은 형식이 되고 형식은 내용이 되는 것이다.</s>
+          <s><persName ref="#p-x4">김춘수</persName>의 ‘<term type="concept">무의미시</term>’가 의미(현실․역사․관념 등)를 끊임없이 배제하고 소거하는 작업을극단으로 전개하는 데서 생성되는 <term type="concept">유희</term>와 <term type="concept">자유</term>와 <term type="concept">허무</term>의 공간이라면, <persName ref="#p-x5">김수영</persName>의 ‘<term type="concept">무의미시</term>’는의미를 껴안고 들어가 무의미와의 <term type="concept">변증법적 통합</term> 과정을 거쳐 그것을 내면화하여 생성되는1) <persName ref="#p-x">김인환</persName>,「<title level="a" type="critic" xml:id="t-x">이상 시의 계보</title>」,『<title level="m" type="critic" xml:id="t-x2">기억의 계단</title>』, <orgName xml:id="org-x">민음사</orgName>, 2001, 276～299면 참고.- 1 -<term type="concept">자유</term>와 <term type="concept">혼란</term>과 <term type="concept">침묵</term>의 공간이다.</s>
+          <s>우리는 <persName ref="#p-x4">김춘수</persName>와 <persName ref="#p-x5">김수영</persName>이 각자의 시적 전개과정에서 만나는 ‘<term type="concept">무의미시</term>’의 공통점과 차별성을 이해함으로써, <persName ref="#p-x3">이상</persName>으로부터 전개되어온 <term type="movement">한국 현대 전위시</term>의 두 방향성을 설정할 수 있게 된다.</s>
+        </p>
+        <p>
+          <s>이상으로부터 발원된 ‘<term type="concept">무의식</term>’의 세계와 ‘<term type="concept">무의미</term>’의차원은 그것을 <term type="concept">순수 예술성</term>의 차원으로 밀고 나가는 <persName ref="#p-x4">김춘수</persName>의 방향과, 예술성과 현실성을융합하는 차원으로 밀고나가는 <persName ref="#p-x5">김수영</persName>의 방향으로 분화되는 것이다.</s>
+          <s>그리하여 우리는 <persName ref="#p-x3">이상</persName>을 정점으로 <persName ref="#p-x4">김춘수</persName>와 <persName ref="#p-x5">김수영</persName>이라는 밑변의 두 꼭짓점으로 형성되는 삼각형을 <term type="concept">한국 현대 전위시</term>의 위상학과 계보학의 기본 항으로 설정할 수 있게 된다.<date from="1950" to="1959">1950년대</date> 이후 전위시의 흐름은 이 삼각형을 근간으로 다양한 창조적 변주와 변형과 심화가 지속되어 왔다고 볼 수 있다.</s>
+          <s>‘<quote type="direct" genre="critic">이상-김춘수</quote>’의 방향으로 <persName role="poet" xml:id="p-x6">김종삼</persName>․<persName role="poet" xml:id="p-x7">오규원</persName>․<persName role="poet" xml:id="p-x8">이승훈</persName>․<persName role="critic" xml:id="p-x9">남진우</persName>․<persName role="poet" xml:id="p-x10">이문재</persName>․<persName role="critic" xml:id="p-x11">박주택</persName>․<persName role="poet" xml:id="p-x12">송재학</persName>의 시가 창조적으로 계승된다면, ‘<quote type="direct" genre="critic">이상-김수영</quote>’의 방향으로 오규원․<persName role="poet" xml:id="p-x13">황지우</persName>․<persName role="poet" xml:id="p-x14">이성복</persName>․<persName role="poet" xml:id="p-x15">박남철</persName>․<persName role="poet" xml:id="p-x16">최승호</persName>․<persName role="poet" xml:id="p-x17">최승자</persName>․<persName role="poet" xml:id="p-x18">김혜순</persName>의 시가 창조적으로 계승된다.</s>
+          <s>그리고이 두 방향 사이에 다양한 변이들이 생겨남으로써, <term type="concept">무의식</term> 및 <term type="concept">무의미</term>의 차원은 <term type="concept">예술성</term>과 <term type="concept">현실성</term> 사이에서 다채로운 스펙트럼을 형성하게 된다.</s>
+          <s>예를 들면, <persName ref="#p-x7">오규원</persName>은 광고를 비롯한 대중매체를 패러디하는 방식으로 ‘<quote type="direct" genre="critic">이상-김수영</quote>’의 방향을 추구하기도 하지만, 후기 시에서 <term type="concept">날이미지의 시</term>를 통해 ‘<quote type="direct" genre="critic">이상-김춘수</quote>’의 방향으로 이동하는 양상을 보여준다(<persName ref="#p-x14">이성복</persName>과 <persName ref="#p-x16">최승호</persName>도다른 각도에서 유사한 변모를 보여준다).</s>
+          <s>그런데 <date from="1990" to="1999">1990년대</date>에 들어서 이 삼각형의 위상학과계보학은 중요한 변형의 계기를 맞이한다.</s>
+          <s>이것은 <term type="concept">현실사회주의</term>의 몰락과 <term type="concept">소비자본주의</term>의전면화와 전자정보문명의 도래라는 세계사적․문명사적 변화와 맞물려 진행된 한국의 정치적․사회적․문화적 전환과도 밀접히 연관되어 있다.</s>
+          <s>시적 위상학과 계보학에 있어서 변형의 계기는 <term type="concept">세기말적 상상력</term>과 관련된 ‘<term type="concept">죽음의 시학</term>’,여성주의와 관련된 ‘<term type="concept">마녀적 상상력</term>’, <term type="concept">무의식</term>적 욕망과 관련된 ‘<term type="concept">무의식적 타자성</term>’, 소비대중문화와 관련된 ‘<term type="concept">대중문화의 패러디</term>’, 정보기술문명과 관련된 ‘<term type="concept">테크놀로지적 상상력</term>’ 등의 출현이다.2) <persName role="poet" xml:id="p-x19">기형도</persName>․<persName ref="#p-x9">남진우</persName>․<persName ref="#p-x11">박주택</persName>․<persName role="poet" xml:id="p-x20">송찬호</persName>를 비롯하여 <persName role="poet" xml:id="p-x21">진이정</persName>․<persName role="poet" xml:id="p-x22">김태동</persName>․<persName role="poet" xml:id="p-x23">윤의섭</persName>․<persName role="poet" xml:id="p-x24">배용제</persName>․<persName role="poet" xml:id="p-x25">강정</persName>등으로 이어지는 ‘죽음의 시학’은 부패와 소멸과 죽음을 대면하는 시적 제의를 통해 <term type="concept">묵시록적 상상력</term>을 보여주고, <persName ref="#p-x18">김혜순</persName>․<persName role="poet" xml:id="p-x26">박서원</persName>․<persName role="poet" xml:id="p-x27">이경림</persName>․<persName role="poet" xml:id="p-x28">허수경</persName> 등의 ‘마녀적 상상력’은 무의식의 장막을 찢고 유출되는 착란의 어법으로 가학성과 피학성, <term type="concept">에로스</term>와 <term type="concept">타나토스</term>가 얽히는 양상을 보여준다.</s>
+        </p>
+        <p>
+          <s><persName role="poet" xml:id="p-x29">박상순</persName>․<persName role="poet" xml:id="p-x30">이수명</persName>․<persName role="poet" xml:id="p-x31">김점용</persName>․<persName role="poet" xml:id="p-x32">함기석</persName>․<persName role="poet" xml:id="p-x33">성미정</persName> 등의 ‘<term type="concept">무의식적 타자성</term>’은 꿈의 (비)문법을 차용한무의식의 언술로 기존의 시적 문법이나 통사구조를 해체함으로써 주체의 동일성에 의해 억압된타자성을 회복하려는 시도를 보여주고, <persName role="poet" xml:id="p-x34">유하</persName>․<persName role="writer" xml:id="p-x35">장정일</persName>․<persName role="poet" xml:id="p-x36">함성호</persName>․<persName role="poet" xml:id="p-x37">함민복</persName> 등의 ‘<term type="concept">대중문화의 패러디</term>’는 <term type="concept">후기자본주의</term>적 소비문화에 대한 매혹과 반성을 동시에 보여준다.</s>
+          <s><persName role="poet" xml:id="p-x38">성기완</persName>․<persName role="poet" xml:id="p-x39">서정학</persName>․<persName role="poet" xml:id="p-x40">이원</persName> 등의‘<term type="concept">테크놀로지적 상상력</term>’은 메마른 기계와 사물의 언어를 통해 테크놀로지의 메커니즘에 포획되면서 다시 탈주함으로써 <term type="concept">자본</term>과 권력에 오염된 주체로부터의 이탈을 추구한다.</s>
+          <s>그리하여 <date from="1990" to="1999">1990년대</date>에 이르러 <term type="concept">한국 현대 전위시</term>의 위상학과 계보학은 ‘<persName ref="#p-x3">이상</persName>-<persName ref="#p-x4">김춘수</persName>-<persName ref="#p-x5">김수영</persName>’이라는 삼각형을 기본 토대로 삼아 ‘<persName ref="#p-x19">기형도</persName>-<persName ref="#p-x18">김혜순</persName>-<persName ref="#p-x29">박상순</persName>-<persName ref="#p-x34">유하</persName>-<persName ref="#p-x38">성기완</persName>’을 중심으로 하는다섯 꼭짓점으로 분화되는 구도를 형성하게 된다.</s>
+          <s>다시 말해, ‘<term type="concept">무의식</term>’과 ‘<term type="concept">무의미</term>’를 근간으로‘<term type="concept">예술성</term>’과 ‘<term type="concept">현실성</term>’으로 이루어지는 삼각형은 ‘<term type="concept">타나토스적 욕망</term>’, ‘<term type="concept">마녀적 전복</term>’, ‘<term type="concept">무의식적 타자성</term>’, ‘<term type="concept">대중문화의 패러디</term>’, ‘<term type="concept">테크롤로지적 상상력</term>’이라는 다섯 꼭짓점으로 분화되면서 더욱복잡하고 다양한 스펙트럼을 형성하게 된다.</s>
+          <s><date from="2000" to="2009">2000년대</date>의 <term type="concept">전위시</term>는 이러한 기본 삼각형과 다섯꼭짓점의 구도 위에서 이들을 계승하는 동시에 복잡다기한 합종연횡을 이루어 새로운 경작지를2) <date from="1990" to="1999">1990년대</date> 시의 지형도에 대해서는 졸고,「<title level="a" type="critic" xml:id="t-x3">전환기적 모색, 현대와 탈현대의 경계에서</title>」,『<title level="m" type="critic" xml:id="t-x4">신체와 문체</title>』, <orgName xml:id="org-x2">문학과지성사</orgName>, 2001, 62～84면 참고.- 2 -개척하고 있다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>2. 시뮬라크르와 실재- 마녀적 무의식, 환상, 우발성</head>
+        <p>
+          <s><date from="2000" to="2009">2000년대</date> <term type="concept">전위시</term>를 살피는 데 있어서, 우선 <date from="1990" to="1999">1990년대</date>부터 전위시를 지속적으로 생산하고 있는시인들의 양상을 언급할 필요가 있다.</s>
+          <s><persName ref="#p-x9">남진우</persName>는 <term type="movement">허무주의</term>적 파토스를 <term type="concept">숭고</term>한 예언적 어조로 노래함으로써 <term type="concept">묵시록적 허무</term>의 새로운 표현을 얻으며, <persName ref="#p-x11">박주택</persName>은 시간의 운명에 기억과 망각과 미친 피의 노래로 저항하면서 복잡한 시의 주름을 만든다.</s>
+          <s><persName ref="#p-x18">김혜순</persName>은 검은 동굴의 내면적 시선으로부터 점차 벗어나 시간을잉태한 더 큰 <term type="concept">타자</term>의 시선으로 존재의 운명을 바라보고, <persName ref="#p-x28">허수경</persName>은 문명에 대한 비극적 각성을 통해 세계의 모순과 불우를 감싸던 <term type="concept">모성성</term>에서 점차 폭력의 역사에 의해 훼손되어 불모화된 모성의 징후로 옮겨간다.</s>
+          <s><persName ref="#p-x29">박상순</persName>의 시는 명사와 동사의 단순한 결합으로 이루어진 문장을 반복하고 변주하며 <term type="concept">은유</term>와 <term type="concept">환유</term>가 교직된 <term type="concept">무의식</term>의 언어 게임을 보여줌으로써 우리 시대의단면을 예리하게 드러내고, <persName ref="#p-x30">이수명</persName>은 <term type="concept">착란</term>의 어법으로 사물들의 관계에 오독을 부여하여 사회적억압과 <term type="concept">폭력</term>의 메커니즘에 균열을 일으킨다.</s>
+          <s><persName ref="#p-x38">성기완</persName>은 시의 장르 개념을 <term type="concept">해체</term>하여 서사․회화․음악 등 다양한 장르를 혼합하고 소음(noise)을 통해 <term type="concept">우발성</term>을 개입시킴으로써 텍스트의 변혁을시도하고, <persName ref="#p-x40">이원</persName>은 전자문명에서의 <term type="concept">유목</term>의 연장선에서 근원으로의 회귀와 미지로의 비약 사이를왕래하며 사막의 현실 위에서 끝없는 질주를 계속한다.</s>
+          <s>이처럼 <persName ref="#p-x9">남진우</persName>․<persName ref="#p-x11">박주택</persName>․<persName ref="#p-x18">김혜순</persName>․<persName ref="#p-x28">허수경</persName>․<persName ref="#p-x29">박상순</persName>․<persName ref="#p-x30">이수명</persName>․<persName ref="#p-x38">성기완</persName>․<persName ref="#p-x40">이원</persName> 등은 <date from="1990" to="1999">1990년대</date> <term type="concept">전위시</term>의 연장선에서 자신의 시세계를 심화․변주․변신시키며 <date from="2000" to="2009">2000년대</date> 젊은 전위시인들에게 지속적으로 영감을 제공하고 있다.</s>
+          <s>다음으로, <date from="2000" to="2009">2000년대</date>에 새롭게 등장한 <term type="concept">전위시</term>의 유형을 살펴보면, 일차적으로 ‘<term type="concept">마녀적 무의식의시</term>’와 ‘<term type="concept">환상 시</term>’와 ‘<term type="concept">우발성의 시</term>’를 들 수 있다.3)<persName role="poet" xml:id="p-x41">진은영</persName>․<persName role="poet" xml:id="p-x42">김이듬</persName>․<persName role="critic" xml:id="p-x43">이기성</persName>․<persName role="poet" xml:id="p-x44">조말선</persName>․<persName role="poet" xml:id="p-x45">이영주</persName>․<persName role="poet" xml:id="p-x46">정영</persName>․<persName role="poet" xml:id="p-x47">신영배</persName>․<persName role="poet" xml:id="p-x48">강성은</persName> 등의 ‘<quote type="direct" genre="critic">마녀적 무의식의 시</quote>’는꿈의 (비)문법을 차용한 <term type="concept">착란</term>의 어법을 통해 의식의 동일성과 길항하는 <term type="concept">마녀적 타자성</term>을 표출하고, <persName role="poet" xml:id="p-x49">황병승</persName>․<persName role="poet" xml:id="p-x50">김민정</persName>․<persName role="poet" xml:id="p-x51">이민하</persName> 등의 ‘환상 시’는 환상과 향유를 통해 <term type="concept">실재</term>와 <term type="concept">충동</term>의 대상을 포획하면서 <term type="concept">대타자</term>의 <term type="concept">욕망</term>에 대답하는 동시에 자기 욕망을 실현시킨다.</s>
+          <s><persName role="poet" xml:id="p-x52">이장욱</persName>․<persName role="poet" xml:id="p-x53">김행숙</persName>․<persName role="poet" xml:id="p-x54">신해욱</persName>․<persName role="poet" xml:id="p-x55">하재연</persName>․<persName role="poet" xml:id="p-x56">이근화</persName> 등의 ‘<term type="concept">우발성의 시</term>’는 원근법이 제거된 평면적 공간 위에서 인과성이 제거된우발적 사건을 드러냄으로써, 개별자들 사이의 <term type="concept">우연성</term>의 효과와 무관성과 순수한 놀이의 아우라를 발생시킨다.</s>
+        </p>
+        <p>
+          <s>첫째 유형이 <date from="1990" to="1999">1990년대</date> 이후의 ‘<term type="concept">죽음의 시학</term>’과 ‘<term type="concept">마녀적 상상력</term>’과 ‘<term type="concept">무의식적 타자성</term>’의 창조적 계승자라면, 둘째 유형은 ‘<term type="concept">마녀적 상상력</term>’과 ‘<term type="concept">대중문화의 패러디</term>’와 ‘<term type="concept">무의식적 타자성</term>’의 창조적 계승자이고, 셋째 유형은 ‘<term type="concept">테크놀로지적 상상력</term>’과 ‘<term type="concept">무의식적 타자성</term>’의 창조적 계승자라고 볼 수 있다.4)이 세 유형은 기존의 <term type="concept">서정적 자아</term>로부터 이탈한다는 점에서 친연성을 가지지만, <term type="concept">실재</term> 및 <term type="concept">시뮬라크르</term>를 드러내는 방식에서 중요한 차별성을 보여준다.</s>
+          <s>‘<term type="concept">마녀적 무의식의 시</term>’가 <term type="concept">카오스의 무의식</term>이 어떤 고정점을 포착함으로써 <term type="concept">시뮬라크르</term>와 이것을 배반하며 솟아오르는 상징의 틈새에서 실3) 이 세 유형의 특성에 대해서는 졸고,「<title level="a" type="critic" xml:id="t-x5">평면, 혹은 우발성의 시</title>」,『<title level="j" type="journal" xml:id="t-x6">문학수첩</title>』, <date when="2008">2008년 여름호</date>, 404～424면 참고.4) 이러한 설명에서 알 수 있듯, 이 세 유형은 일차적으로 <date from="1990" to="1999">1990년대</date> 전위시의 다섯 꼭짓점과의 계보적 연관성에초점을 맞추어 설정된 것이다.- 3 -재를 드러낸다면, ‘<term type="concept">환상 시</term>’는 환상과 <term type="concept">향유</term>를 통해 <term type="concept">실재</term>를 드러내는 시뮬라크르를 보여주고, ‘우발성의 시’는 <term type="concept">아우라</term>와 <term type="concept">잉여</term>의 감각을 통해 실재를 드러내는 시뮬라크르를 보여준다.</s>
+          <s>우리는 <term type="concept">상상계</term>와 <term type="concept">상징계</term>와 <term type="concept">실재계</term>가 불화를 겪으며 복잡한 관계망(<term type="concept">보로메오의 매듭</term>)을 이루고 내면의 <term type="concept">무의식</term>을 드러낸다는 점에서, ‘<term type="concept">마녀적 무의식의 시</term>’를 ‘<term type="concept">심층의 시</term>’라고 부를 수 있다.</s>
+          <s>그리고 <term type="concept">표면의 시</term>뮬라크르가 우선하지만 심층과의 관계를 내포하고 그것과의 공모․저항․탈주와 관련하여 <term type="concept">환상</term>과 <term type="concept">향유</term>를 표현한다는 점에서 ‘<term type="concept">환상 시</term>’를 ‘표면의 시’라고 부르고, 내면성의 깊이를 제거하는 광학적 시선과 비선형적 서사를 통해 순간적으로 촉발되고 휘발하는 <term type="concept">아우라</term>와 <term type="concept">잉여</term>의 감각을 시뮬라크르로 표출한다는 점에서 ‘<term type="concept">우발성의 시</term>’를 ‘<term type="concept">평면의 시</term>’라고 부를 수 있을 것이다.</s>
+          <s>‘<term type="concept">심층의 시</term>’가 <term type="concept">시뮬라크르</term>의 바다, 즉 심층적 <term type="concept">환유</term>의 연쇄 위로 섬광처럼 솟아오르는 <term type="concept">은유</term>를 <term type="concept">고정점</term>으로 표현하는 데 반해, ‘<term type="concept">표면의 시</term>’는 <term type="concept">시뮬라크르</term>의 환유를 중심으로 상상적 영상이나 환영을 전개하면서 그 아래 숨어있는 <term type="concept">은유</term>를 언뜻 드러낸다는 점에서, ‘<term type="concept">심층의 시</term>’를 뒤집어 놓은 위상학을 보여준다.</s>
+          <s>이 뒤집음으로 인해 <term type="concept">시뮬라크르</term>의 <term type="concept">환유</term>가 전면에 등장하면서 <term type="concept">고정점</term>은 약화되는 반면 <term type="concept">충동</term>과 <term type="concept">환상</term>의 강도가 강해지는 것이다.</s>
+          <s>한편 ‘<term type="concept">평면의 시</term>’는 ‘<term type="concept">표면의 시</term>’에서 심층의 <term type="concept">은유</term>를 제거함으로써 <term type="concept">시뮬라크르</term>의 <term type="concept">환유성</term>이 더 강화되고 <term type="concept">탈주</term>에 가속도가 붙어 <term type="concept">우발성</term>과 <term type="concept">휘발성</term>에도달하는 양상을 보여준다.</s>
+          <s>수사학의 측면에서, ‘<term type="concept">표면의 시</term>’가 <term type="concept">환상</term>과 <term type="concept">향유</term>를 통해 ‘<term type="concept">과잉된 파토스</term>’를 ‘<quote type="direct" genre="critic">과도한 표현법</quote>’으로 표현하는 ‘<term type="concept">플러스(+)의 수사학</term>’을 보여준다면, ‘<term type="concept">평면의 시</term>’는 <term type="concept">아우라</term>와<term type="concept">잉여</term>의 감각을 통해 ‘<term type="concept">희박한 파토스</term>’를 ‘<quote type="direct" genre="critic">절제된 표현법</quote>’으로 표현하는 ‘<term type="concept">마이너스(-)의 수사학</term>’을 보여준다.</s>
+        </p>
+        <p>
+          <s>‘<term type="concept">표면의 시</term>’와 ‘<term type="concept">평면의 시</term>’는 심층과의 관계를 내포하는가 아니면 절개하는가에 따라 구별되지만, <term type="concept">시뮬라크르</term>를 통해 <term type="concept">실재</term>를 드러낸다는 점에서 유사하다.</s>
+          <s><term type="concept">시뮬라크르</term>, 즉 상상적 영상이나가상이 표면이나 평면에 출현할 때 <term type="concept">상징</term>은 약화되고 <term type="concept">실재</term>가 혼재된 양상으로 드러나기 때문이다.</s>
+          <s>‘<term type="concept">표면</term>’과 ‘<term type="concept">평면</term>’은 <persName role="foreigner" xml:id="p-x57">들뢰즈</persName>와 <persName role="foreigner" xml:id="p-x58">가타리</persName>가 말한 ‘<term type="concept">매끄러운 공간</term>’에 해당하며, 이 위에서 <term type="concept">시뮬라크르</term>는미끄러지듯 <term type="concept">탈주</term>하며 <term type="concept">탈영토성</term>을 추구하다가 휘발되기도 하고 새로운 주체화의 점을 찾아 <term type="concept">재영토화</term>되기도 한다.</s>
+          <s>‘<term type="concept">실재</term>’의 유형학을 시도한다면, 왜상적 얼룩이나 원초적 대상을 통해 체계를 파괴하는 심연의소용돌이를 보여준다는 점에서 ‘<term type="concept">표면의 시</term>’는 ‘<term type="concept">실재적 실재</term>’를 표출하고, 불가사의한 미지의 세계,혹은 깨지기 쉬운 순수 외관을 드러낸다는 점에서 ‘<term type="concept">평면의 시</term>’는 ‘<term type="concept">상상적 실재</term>’를 표출하며, ‘<term type="concept">심층의 시</term>’는 이 두 실재에 공식으로 환원된 기표인 ‘<term type="concept">상징적 실재</term>’까지 포함하는 양상을 보여준다.<term type="concept">2000년대 전위시</term>가 <persName ref="#p-x3">이상</persName> 시의 계보를 계승하면서 경작하고 개척한 새로운 시적 차원은, 기본적으로 <term type="concept">무의식적 욕망</term>과 <term type="concept">충동</term>, <term type="concept">환상</term>과 <term type="concept">향유</term>, <term type="concept">아우라</term>와 잉여적 감각의 세계이지만, 더 핵심적인지점은 이처럼 상상 및 상징과 중층적인 관계를 맺으며 복잡하고 다양하게 표출되는 실재의세계라고 생각한다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>3. 환상의 스펙트럼- 유년, 신화, 언어, 사회</head>
+        <p>
+          <s>앞서 언급한 세 유형의 <date from="2000" to="2009">2000년대</date> <term type="concept">전위시</term>가 ‘<term type="concept">탈재현</term>’의 시적 기법을 공유한다는 점을 주목할 필요가 있다.</s>
+          <s>‘<term type="concept">탈재현</term>’은 현실에 대한 모방과 재현으로 대표되는 <term type="movement">리얼리즘</term>적 기법으로부터 벗어나는것을 의미하는데, 우리는 그 대표적인 방식으로 넓은 의미의 ‘<term type="concept">환상성</term>’을 들 수 있다.</s>
+          <s>‘<term type="concept">환상 시</term>’가가장 뚜렷한 경우이지만, ‘<term type="concept">마녀적 무의식의 시</term>’와 ‘<term type="concept">우발성의 시</term>’도 강도와 방식의 차이는 있지만모두 <term type="concept">환상적 요소</term>를 내포하고 있다.</s>
+          <s>따라서 우리는 <date from="2000" to="2009">2000년대</date> <term type="concept">전위시</term>의 가장 전반적인 특성으로‘<term type="concept">탈재현</term>’의 기법으로서 ‘<term type="concept">환상성</term>’을 들 수 있으며, 앞의 세 유형은 그것이 드러내는 <term type="concept">시뮬라크르</term>와- 4 -실재의 방식을 기준으로 구분한 것이다.</s>
+          <s>그런데 시에 있어서 ‘<term type="concept">환상</term>’은 개인적․사회적 ‘<term type="concept">현실</term>’과 이항 대립의 관계가 아니다.</s>
+          <s><term type="concept">환상</term>에는 <term type="concept">현실</term>이 이미 음각으로 새겨져 있으며, 이 현실은 개인적 현실과 사회적 현실을 포함한다.</s>
+          <s>따라서 우리는 ‘<term type="concept">환상성</term>’을 ‘<term type="concept">서정성</term>’이나 ‘<term type="concept">사회성</term>’(정치성)과 이분법적으로 대립시키는 사고로부터 자유로워질 필요가 있다.5) 예를 들면, ‘<term type="concept">마녀적 무의식의 시</term>’는 상상 및 상징과 길항하는 실재를 통해 <term type="concept">무의식적 욕망</term>과 충동을 드러내는 동시에 시대적 현실과불화하는 존재를 상호 주체적 제의(祭儀)로 위무하고, ‘<term type="concept">환상 시</term>’는 왜상적 얼룩을 통해 환상과향유를 드러내는 동시에 사회적 억압의 메커니즘을 폭로하며, ‘<term type="concept">우발성의 시</term>’는 불가사의한 미지의 세계를 통해 <term type="concept">아우라</term>와 잉여적 감각을 드러내는 동시에 개인적 상처와 사회적 <term type="concept">소외</term> 양상을노출시킨다.</s>
+          <s>요약하면, <term type="concept">환상</term>은 개인적 욕망만을 실현하지 않고 사회적 인력을 개입시키는 것이다.</s>
+        </p>
+        <p>
+          <s>이런 사실은 <date from="2000" to="2009">2000년대</date> <term type="concept">전위시</term>의 <term type="concept">환상성</term>이 개인적 경험의 현실에서 사회적 메커니즘의 현실까지, <term type="concept">신화적 상상력</term>에서 <term type="concept">언어적 상상력</term>까지 다양하고 복잡한 스펙트럼을 형성함을 말해준다.</s>
+          <s>따라서 우리는 <date from="2000" to="2009">2000년대</date> <term type="concept">전위시</term>로서 앞의 세 유형 이외에 넓은 의미의 <term type="concept">환상성</term>이 다른영역과 만나는 접면을 기준으로 ‘<term type="concept">유년적 환상</term>’, ‘<term type="concept">신화적 환상</term>’, ‘<term type="concept">언어적 환상</term>’, ‘<term type="concept">사회적 환상</term>’등의 유형을 설정할 수 있다고 생각한다.</s>
+          <s><persName role="poet" xml:id="p-x59">박상수</persName>․<persName role="poet" xml:id="p-x60">박판식</persName>․<persName role="poet" xml:id="p-x61">유형진</persName>․<persName role="poet" xml:id="p-x62">김안</persName> 등의 ‘<term type="concept">유년적 환상</term>’은 유년의 시간을 부유하는 몽상을 <term type="concept">동화적 상상력</term>이나 연금술적 언어 감각으로 형상화하면서 <term type="concept">심리적 외상</term>을 드러내고, <persName ref="#p-x25">강정</persName>․<persName role="poet" xml:id="p-x63">김경주</persName>․<persName role="poet" xml:id="p-x64">이재훈</persName>․<persName role="poet" xml:id="p-x65">박진성</persName>․<persName role="poet" xml:id="p-x66">김근</persName> 등의 ‘<term type="concept">신화적 환상</term>’은 개인의 환상이 가족․전생․신화․우주 등으로 확장되면서 기원을 추적하는 <term type="concept">존재론적</term>이고 형이상학적인 질문의 차원으로 전개된다.</s>
+          <s><persName role="poet" xml:id="p-x67">이준규</persName>․<persName role="poet" xml:id="p-x68">최하연</persName>․<persName role="poet" xml:id="p-x69">정재학</persName>․<persName role="critic" xml:id="p-x70">송승환</persName>․<persName role="poet" xml:id="p-x71">김참</persName>․<persName role="poet" xml:id="p-x72">김언</persName>․<persName role="poet" xml:id="p-x73">오은</persName>․<persName role="poet" xml:id="p-x74">임현정</persName> 등의 ‘<term type="concept">언어적 환상</term>’은 우리 시대가 겪고 있는 실체와 주체와 의미와 시간의 균열을 <term type="concept">아이러니</term>․불협화음․<term type="concept">부조리</term>․<term type="concept">알레고리</term> 등의 방법적 언어의 조직과 균열로 표현하고, <persName role="poet" xml:id="p-x75">장석원</persName>․<persName role="critic" xml:id="p-x76">이승원</persName>․<persName role="poet" xml:id="p-x77">장이지</persName>․<persName role="poet" xml:id="p-x78">김성규</persName> 등의 ‘<term type="concept">사회적 환상</term>’은 <term type="concept">분열증적</term> 언어나 악몽의 드라마나 파편적 이미지의 몽타주를 통해 시스템의 억압과 <term type="concept">자본주의</term> <term type="concept">물신화</term>에 저항하는 사회적 상상력을표출한다.</s>
+          <s>환상의 접면을 기준으로 설정한 이 네 유형의 순서는 <date from="2000" to="2009">2000년대</date> <term type="concept">환상성</term>의 스펙트럼을 ‘<quote type="direct" genre="critic">이상-김춘수</quote>’의 방향에서 ‘<quote type="direct" genre="critic">이상-김수영</quote>’의 방향에 이르는 스펙트럼과 관련시켜 배열한것이다.</s>
+          <s>크게 보아, ‘<term type="concept">유년적 환상</term>’은 ‘이상-<persName ref="#p-x4">김춘수</persName>’의 창조적 계승이라고 볼 수 있는데, ‘유년’과 ‘<term type="concept">몽상</term>’이 김춘수 시의 중요한 모티프에 포함되기 때문이다.</s>
+          <s>‘<term type="concept">신화적 환상</term>’이 ‘<quote type="direct" genre="critic">이상-김춘수</quote>’의 창조적 계승자인 <persName ref="#p-x9">남진우</persName>․<persName ref="#p-x10">이문재</persName>․<persName ref="#p-x11">박주택</persName> 등의 <date from="1980" to="1989">1980년대</date> ‘<orgName xml:id="org-x3">시운동</orgName>’ 동인의 계보에서 파생했다면, ‘<term type="concept">언어적 환상</term>’은 ‘이상-김춘수’ 와 ‘<quote type="direct" genre="critic">이상-김수영</quote>’의 상호 침투적 관계에서 형성되며,‘<term type="concept">사회적 환상</term>’은 ‘이상-김수영’의 창조적 계승자인 <persName ref="#p-x13">황지우</persName>․<persName ref="#p-x14">이성복</persName>․<persName ref="#p-x15">박남철</persName>․<persName ref="#p-x16">최승호</persName>의 계보에서 파생했다고 볼 수 있다.6)5) 이 점은 지금까지 흔히 ‘<term type="concept">은유의 시</term>’와 ‘<term type="concept">환유의 시</term>’가 이분법적으로 구분되는 것처럼 논의되어온 관점을 넘어서야 하는 이유와도 관련된다.</s>
+          <s><term type="concept">은유</term>와 <term type="concept">환유</term>를 이분법적으로 구분하고 이를 담화 구성과 세계 구성의 일반적인 원리로 이해한 <persName role="foreigner" xml:id="p-x79">야콥슨</persName>도 “<quote type="direct" genre="critic" source="언어학과 시학">인접성과 유사성이 중첩되는 시에서는 환유는 모두가 다소는 은유적이며, 은유는 모두환유적 색깔을 갖는다</quote>”(「<title level="a" type="foreign" xml:id="t-x7">언어학과 시학</title>」,『<title level="m" type="foreign" xml:id="t-x8">문학 속의 언어학</title>』, <persName role="scholar" xml:id="p-x80">신문수</persName> 편역, <orgName ref="#org-x2">문학과지성사</orgName>, <date when="1989">1989</date>, 61면)고 언급한다.</s>
+        </p>
+        <p>
+          <s>이처럼 다소 애매한 관점은 <persName role="foreigner" xml:id="p-x81">라캉</persName>에 의해 새로운 정의를 얻게 된다.</s>
+          <s>“<quote type="direct" genre="critic">은유의 창조적 섬광은 (…) 의미화 연쇄 속에서 다른 기표의 자리를 차지함으로써 대체된 하나의 기표와 그 연쇄의 나머지 부분과의 (환유적)관계에 의해 드러나는 숨은 기표 사이에서 빛난다.</quote></s>
+          <s>(…) <quote type="direct" genre="critic" source="Écrits">은유는 무의미로부터 의미가 발생하는 바로 그 지점에자리 잡고 있다</quote>”(<title level="m" type="foreign" xml:id="t-crits">Écrits</title>, trans., Bruce Fink, New York: Norton, 2006, pp.</s>
+          <s>422～423)는 말은, <quote type="paraphrase" genre="critic" source="Écrits">은유가 환유의 흐름 속에서 생겨난다</quote>는 의미로 해석된다.</s>
+          <s>또한 인지언어학자인 <persName role="foreigner" xml:id="p-x82">조지 레이코프</persName>와 <persName role="foreigner" xml:id="p-x83">마크 존슨</persName>은 “<quote type="direct" genre="critic" source="삶으로서의 은유">상징적 환유는 일상생활은 물론 종교와 문화를 특징짓는 정합적인 은유적 체계들 사이의 결정적인 연결 기제</quote>”(『<title level="m" type="critic" xml:id="t-x9">삶으로서의 은유</title>』, <persName role="scholar" xml:id="p-x84">노양진</persName>․<persName role="scholar" xml:id="p-x85">나익주</persName> 역, <orgName xml:id="org-x4">박이정</orgName>, 2006, 85면)라고 말한다.- 5 -이 네 가지 <term type="concept">환상</term>의 스펙트럼과 앞서 설정한 세 가지 <term type="concept">전위시</term>의 유형 사이에는 확연히 경계를 구분하기 어려운 만남과 겹침과 스밈이 있다고 볼 수 있다.</s>
+          <s>다만 여기서는 <term type="concept">환상</term>을 통해<term type="concept">실재</term>와 <term type="concept">시뮬라크르</term>가 발현되는 방식에서 전형적인 차별성을 보이는 세 유형(<term type="concept">마녀적 무의식</term>․환상․<term type="concept">우발성</term>)을 기본적으로 설정하고, 넓은 의미의 환상성이 다른 영역과 만나는 접면을 기준으로 네 유형(유년․신화․언어․사회)을 설정한 것이다.</s>
+          <s>따라서 명민한 독자는 이미감지했겠지만, 후자의 네 유형의 <term type="concept">전위시</term>들은 <term type="concept">서정시</term> 계열이나 <term type="concept">사회적 상상력</term>의 시 계열과도공유 면을 형성할 수 있다.</s>
+          <s>이처럼 환상을 둘러싸고 펼쳐지는 <date from="2000" to="2009">2000년대</date> <term type="concept">전위시</term>는 상상 및상징과 길항하는 복잡다기한 ‘<term type="concept">시뮬라크르</term>’와 ‘<term type="concept">실재</term>’를 ‘<quote type="direct" genre="critic">유년-신화-언어-사회</quote>’의 폭넓은 스펙트럼 위에 방사한다.</s>
+        </p>
+        <p>
+          <s>우리 시대의 <term type="concept">전위시</term>는 <term type="concept">시뮬라크르</term>와 <term type="concept">실재</term>가 투사되는 전방위적 환상의스크린인 셈이다.</s>
+          <s>시사적 측면에서 볼 때, <date from="2000" to="2009">2000년대</date> <term type="concept">전위시</term>가 보여주는 <term type="concept">환상</term>과 <term type="concept">실재</term>의 스펙트럼은 ‘<persName ref="#p-x3">이상</persName>-<persName ref="#p-x4">김춘수</persName>-<persName ref="#p-x5">김수영</persName>’의 삼각형에서 공통분모로 자리 잡고 있던 ‘<term type="concept">무의식</term>’의 세계와 ‘<term type="concept">무의미</term>’의차원이 <date from="1990" to="1999">1990년대</date>의 다섯 꼭짓점을 경유하면서 합종연횡을 거쳐 변주되고 변형되면서 비약적으로심화된 결과로 볼 수 있다.</s>
+          <s>즉 <date from="2000" to="2009">2000년대</date> <term type="concept">전위시</term>의 양상은 <persName ref="#p-x3">이상</persName>에 의해 개척된 <term type="concept">무의식</term>과 <term type="concept">무의미</term>의차원이 <persName ref="#p-x4">김춘수</persName>의 <term type="concept">순수 예술성</term>의 방향과 <persName ref="#p-x5">김수영</persName>의 <term type="concept">현실적 예술성</term>의 방향으로 전개되는 삼각형의구도를 근간으로, ‘<term type="concept">죽음</term>’, ‘<term type="concept">마녀</term>’, ‘<term type="concept">타자성</term>’, ‘<term type="concept">대중문화</term>’, ‘<term type="concept">테크놀로지</term>’ 등의 분광(分光)으로 뻗어 나오는 과정에서 현대화되는 동시에 탈현대화되며 생성된 것이다.</s>
+          <s>우리는 복잡다기한 스펙트럼이투사되는 스크린의 표면뿐만 아니라 카메라의 눈과 영사기의 프레임까지 함께 주시하면서<term type="concept">무의식적 욕망</term>과 충동, <term type="concept">환상</term>과 <term type="concept">향유</term>, <term type="concept">아우라</term>와 잉여적 감각 속에 깃들인 <term type="concept">서정성</term>과 <term type="concept">정치성</term>뿐만아니라 유년과 신화와 언어와 사회의 정체까지도 살펴봐야 할 것이다.</s>
+          <s>이를 위해서는 종종혼재되어 출현하는 <term type="concept">시뮬라크르</term>와 <term type="concept">실재</term>를 분별하는 시야의 확보가 무엇보다도 먼저 요청된다.6) 이러한 설명에서 알 수 있듯, 이 네 유형은 일차적으로 ‘<persName ref="#p-x3">이상</persName>-<persName ref="#p-x4">김춘수</persName>-<persName ref="#p-x5">김수영</persName>’의 삼각형이 <date from="1980" to="1989">1980년대</date>까지 형성한계보들과의 연관성에 초점을 맞추어 설정된 것이다.- 6 -</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

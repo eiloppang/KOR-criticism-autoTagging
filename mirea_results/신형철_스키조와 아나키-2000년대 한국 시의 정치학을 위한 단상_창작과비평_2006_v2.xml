@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>스키조와 아나키-2000년대 한국 시의 정치학을 위한 단상</title>
+        <author>신형철</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>특집 2000년대한국문학이읽은시대적징후스키조와 아나키2000년대한국시의정치학을위한단상│<persName role="critic" xml:id="p-x">신형철</persName>│poetica7@hanmail.net<term type="concept">시적 정치학</term>의 두 층위다시읽는<persName role="poet" xml:id="p-x2">김수영</persName>(�洙暎)의시론들은여전히혼란스럽다.</s>
+          <s>그가<term type="concept">시학</term>과<term type="concept">정치학</term>과<term type="concept">윤리학</term>을별다른배려없이넘나들고있기때문이다.</s>
+          <s>예컨대강연록「<title level="a" type="essay" xml:id="t-x">시여, 침을 뱉어라</title>」(<date when="1968">1968</date>)에서‘, <term type="concept">형식</term>’과‘<term type="concept">내용</term>’에 관한 시학적 해설은 돌연‘<term type="concept">개인적 자유</term>’와‘<term type="concept">정치적 자유</term>’에 관한 정치적 논설로 비약하고,그것은서로먼저침을뱉지않고서는견딜수없는모멸시대의윤리학으로 도약한다.</s>
+          <s>그의 저 유명한‘<term type="concept">온몸</term>’의 시학은 형식의‘<term type="concept">예술성</term>’과 내용의‘<term type="concept">현실성</term>’혹은 <term type="concept">개인적 자유</term>와 <term type="concept">정치적 자유</term>의 분열을 강요했던 외부의 억압을 돌파하여 그 간극들을 끝내 합치기 위한 모험이었고, <term type="concept">무의식</term>(형식)과의식(내용)의일치를추구하는윤리적행위에의호소였다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">시학, 정치학, 윤리학의영역에서끝내완강했던모종의간극을그는봉합하지않았고, 세영역이한몸이라는진실을훼손없이전달하기위해그진실의난맥을정리하지않았다.</interp>
+          </s>
+          <s>간극이초래하는긴장과난맥이뿜어내는에너지가그대로그의전언이었다.</s>
+          <s><term type="concept">시학</term>과<term type="concept">정치학</term>과<term type="concept">윤리학</term>이형성하는삼각형<persName role="critic" xml:id="p-x3">申亨澈</persName> 문학평론가.</s>
+          <s>주요평론으로「<title level="a" type="critic" xml:id="t-x2">문제는서정이아니다</title>」「<title level="a" type="critic" xml:id="t-x3">아포리아의제국</title>」「<title level="a" type="critic" xml:id="t-x4">당신의×, 그것은에티카</title>」등이있음.</s>
+        </p>
+        <p>
+          <s>스키조와아나키 275중에서특정한면만을보기로작정한독자에게그의글은기꺼이명료해질테지만, 아마도그때의<persName ref="#p-x2">김수영</persName>은더이상<persName ref="#p-x2">김수영</persName>이아닐것이다.</s>
+          <s>우리는지금<persName ref="#p-x2">김수영</persName>의시적성공이바로저‘<term type="concept">간극</term>’과‘<term type="concept">난맥</term>’에기반하고있다는점을말하고있다.</s>
+          <s>예컨대그의후기걸작인「<title level="a" type="poem" xml:id="t-2">꽃잎2</title>」와「<title level="a" type="poem" xml:id="t-x5">풀</title>」을감싸고있는미묘한긴장은‘꽃잎’과‘풀’이라는기표가끝내저자신의이타카(ithaca)인 안온한‘<term type="concept">상징</term>’의 세계로 돌아가지 못한다는 데서 발원한다.</s>
+          <s>저 기표들은 기의와 만날 듯 만나지 못하면서 떠다니는데, 이 기표와 기의의 <term type="concept">간극</term> 속에 <term type="concept">개인적 자유</term>와 <term type="concept">정치적 자유</term>의 <term type="concept">간극</term>이 음화(陰畵)로 새겨진다.</s>
+          <s>누군가가 부주의하게도‘<term type="concept">꽃잎</term>’은‘<term type="concept">시(詩)</term>’를 상징하고‘<term type="concept">풀</term>’은 <term type="concept">민중</term>을상징한다고공표하는순간저긴장의세계가허망하게붕괴하고마는것은그때문이다.</s>
+          <s>그의<term type="concept">난맥</term>은<term type="concept">미학</term>, <term type="concept">정치학</term>, <term type="concept">윤리학</term>이동시에뒤엉키면서만들어내는난맥이다.</s>
+          <s>
+            <interp value="critical" ana="미학">그셋을인위적으로분리하는수술은미숙아를낳는다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">남는것은미학적으로거칠고정치적으로모호하며윤리적으로나약한 시다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>말하자면 <persName ref="#p-x2">김수영</persName>의 힘은 그의 삼각형이 형성하는 어떤 <term type="concept">절합</term>(節合)구도에서나온다.</s>
+          <s>그래서그는예의강연록의부제를‘<quote type="direct" genre="critic">힘으로서의시의존재</quote>’라고달아야만했다.</s>
+          <s>그의<term type="concept">힘</term>은표면적인‘<term type="concept">전언</term>’의힘이아니라특정한구도를형성하는그‘<term type="concept">존재(있음)</term>’의힘이기때문이다.</s>
+          <s>그러나오늘날그와같은<term type="concept">긴장</term>은더이상존재하지않는다.</s>
+          <s>그는강연록보다 1년 앞선 한 글에서“<quote type="direct" genre="critic" source="김수영">외부와 내부는 똑같은 것이다.</quote></s>
+          <s>그리고 그것은죽음에서합치되는것이다”1)라고쓰면서‘<term type="concept">온몸</term>’시학을예고했다.</s>
+          <s>
+            <interp value="neutral" ana="사상">외부와내부는 똑같은 것이라는 김수영의 당위명제는 당시에 강력한 윤리적 자극을내장할수있었지만, 오늘날우리는동일한말을사실명제로바꿔서반복할수있다.</interp>
+          </s>
+          <s>즉, 오늘날외부와내부는실제로똑같다.</s>
+        </p>
+        <p>
+          <s><term type="concept">억압과금기</term>가헐거워진 곳에서“<quote type="direct" genre="poet">죽음에서 합치되는</quote>”경지는 <interp value="critical" ana="미학">실종된다.</interp></s>
+          <s>“<quote type="direct" genre="poet"><lg type="stanza"><l>당신의, 당신</l></lg><lg type="stanza"><l>의, 당신의얼굴에침을뱉는</l></lg></quote>”<interp value="critical" ana="미학">모멸의제스처도진정성을갖기어렵다.</interp></s>
+          <s>외1) <persName ref="#p-x2">김수영</persName>「<title level="a" type="essay" xml:id="t-x6">참여시의정리</title>」,『 <title level="m" type="other" xml:id="t-22">김수영전집2: 산문</title>』, <orgName xml:id="org-x">민음사</orgName><date when="2003">2003</date>, 390면.276 특집부와내부는같고, 우리에겐쓰지못할이야기가없다.</s>
+          <s>그리고이것은‘<term type="concept">온몸</term>’의<interp value="critical" ana="문학관">역동성을무력화시키는상황</interp>이다.</s>
+          <s>
+            <interp value="critical" ana="사회">모든것이가능한시대는결국아무것도가능하지않은시대인것이다.</interp>
+          </s>
+          <s>이와더불어시에서<term type="concept">대문자정치</term>는끝났다.</s>
+          <s>그것이불가능하다는것이아니라더이상작동(work)하지않는다는뜻이다.</s>
+          <s>
+            <interp value="critical" ana="미학">대문자정치를직접적으로말하는시들은이상하게도미학적으로퇴행하고만다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>
+            <interp value="neutral" ana="문학관">그리고그것은아마도시인의잘못이아닐것이다.</interp>
+          </s>
+          <s>그렇다면 무엇이 가능한가?</s>
+          <s>오늘날 가능한 것은 <term type="concept">금지에 대한 저항</term>이아니라<term type="concept">유혹에대한거절</term>일것이다.</s>
+          <s>이제<term type="concept">권력</term>은‘<quote type="direct" genre="poet">하지마라</quote>’라고말하지않고‘<quote type="direct" genre="poet">하라</quote>’라고 말하기 때문이다.</s>
+          <s><term type="concept">금지하는 아버지</term>가 폐위된 이후에야우리는 <term type="concept">향유(jouissance)를 권하는 아버지의 심급</term>을 볼 수 있게 되었다.</s>
+          <s>오늘날한국사회에서그‘<quote type="indirect" genre="foreign">외설적인아버지</quote>’(<persName role="foreigner" xml:id="p-x4">지젝</persName>)의가장확실한업적으로보이는것은완강한자기동일성으로무장한<term type="concept">집단주의</term>의양생술과<term type="concept">전체주의적쾌락</term>을조직하는씨스템의유혹술이다.</s>
+          <s><persName role="critic" xml:id="p-x5">강정구</persName>, <persName role="other" xml:id="p-x6">황우석</persName>, 월드컵, 독도등을둘러싸고터져나온그자기확신에찬목소리들의일사불란한의미작용은‘<term type="concept">욕망의 정치학(미시정치학)</term>’이 작동하는 양상을 매우 불쾌한방식으로보여주었다.</s>
+          <s>오늘날‘<term type="concept">시의정치</term>’가개입할수있는영역이있다면, 그것은저<term type="concept">동일성</term>과<term type="concept">전체성</term>의전장(戰場)일것이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">차이의정치</term>, <term type="concept">정체성의정치</term>, <term type="concept">생체정치</term>등이운위되고있고, 과연차이, 정체성, <term type="concept">몸</term>등의주제가 <term type="concept">젊은 세대의 시인들</term>에게서 과거와는 다른 감각으로 사유되고 있는듯 보인다.</s>
+          <s>그러나 그들은 그런 정치를 말하기보다는 차라리 그 정치를살고있다.</s>
+          <s>무슨뜻인가?</s>
+          <s>
+            <interp value="neutral" ana="문학관">한편의 시는 하나의 국가다.</interp>
+          </s>
+          <s>거기에는 권력을 대리하는‘<term type="concept">통치</term>’의 심급이 있고 권력이 운용되는‘<term type="concept">체제</term>’의 심급이 있다.</s>
+          <s>이는 각각‘<term type="concept">화자</term>’의 심급과‘<term type="concept">스타일</term>’의심급에상응할것이다.</s>
+          <s>한편의시를읽는일은특정한‘<term type="concept">통치자(화자)</term>’가 국가를 통치하는 특정한‘<term type="concept">체제(스타일)</term>’의 양상을 확인하는일과 다르지 않다.</s>
+          <s>요컨대 <interp value="neutral" ana="문학관">모든 시는 제 나름의 통치론과 체제론을 머금고있다.</interp></s>
+        </p>
+        <p>
+          <s>어떤세대의시인들은자명한일인칭통치자가일사불란하게의<term type="concept">스키조</term>와<term type="concept">아나키</term> 277미를생산해내는체제에얼마간지친것처럼보인다.</s>
+          <s>그래서그들은자신들에게 거의 체질적으로 내면화되어 있는 어떤 통치와 체제의 메커니즘을 한편의 시에 투영하면서 간접적으로‘<term type="concept">미시정치</term>’에 가담하기 시작했을것이다.</s>
+          <s>대체로 그들은 <term type="concept">통치자의 동일성을 휘발시켜버리고 선형적인 의미생산 체제를 교란하는 방식</term>으로 그들의 국가에 새로운 통치론과 체제론을 도입한다.</s>
+          <s>‘나’의 정체성에 대한 격렬한 질문과 전체로서의 형식에대한해방적교란이‘<term type="concept">다른정치</term>’를향한상상력을촉발한다.</s>
+          <s>권력을행사하(지 않)고 체제를 구축하(지 않)는 새로운 방식, 혹은‘<term type="concept">독재</term>’없는 통치론과‘<term type="concept">전체</term>’없는체제론, 이것이<term type="concept">2000년대시의시적정치학</term>의두층위다.2000년대시인들의정치학을말하기위해먼길을돌아왔지만, 그새로운물결을총체적으로조감할수있는능력이우리에게는없다.</s>
+          <s>주목할만한최근의사례를검토하는것으로또한번숙제를미룬다.</s>
+          <s>통치론, 혹은 <term type="concept">스키조의 시학</term>—<persName role="poet" xml:id="p-x7">강정</persName>의 경우<persName role="poet" xml:id="p-x8">함성호</persName>가“<quote type="direct" genre="critic">강정의 언어는 여성적이고, 강정의 시적 성별은 여성</quote>”이라고 쓰는 동안, <persName role="poet" xml:id="p-x9">성기완</persName>은 강정을 두고“<quote type="direct" genre="critic">남근들이 흐물거리는 시대에 보기드문빳빳한남근이미지를지닌시인</quote>”이라고썼다.2)강정의시적성별은남성인가여성인가?</s>
+          <s>‘<term type="concept">여성적</term>’이면서‘<term type="concept">남근적</term>’일수도있는것일까?</s>
+        </p>
+        <p>
+          <s>말하자면이런질문을던지게하는것이<interp value="affirmative" ana="미학">강정시의힘</interp>이고, 이모순이바로강정이다.</s>
+          <s>하지만 <interp value="critical" ana="미학">이것은 매우 불충분한 문답이다.</interp></s>
+          <s>남녀 운운하는 질문 자체가 이젠 너무 촌스러워졌다.</s>
+          <s>우리는 이미‘<term type="concept">시코쿠 학습효과</term>’를 체험했기때문이다.</s>
+          <s>연전에출간된<persName role="poet" xml:id="p-x10">황병승</persName>의시집『( <title level="m" type="poem" xml:id="t-x7">여장남자시코쿠</title>』)이남성과여성의 경계를 자꾸‘<quote type="direct" genre="poet">의식</quote>’하게 만드는 방식으로 화자의 성별을 교란했다면,2) 강정『<title level="m" type="poem" xml:id="t-x8">들려주려니말이라했지만,</title>』, <orgName xml:id="org-x2">문학동네</orgName><date when="2006">2006</date>.</s>
+          <s><persName ref="#p-x8">함성호</persName>의해설과<persName ref="#p-x9">성기완</persName>의표지글참조.278 특집<persName ref="#p-x7">강정</persName>은남성과여성이라는범주자체를‘망각’하게만드는방식으로성별의 울타리를 초월한다.</s>
+          <s>그래서 <persName ref="#p-x7">강정</persName>의 질문은‘<quote type="direct" genre="poet">남성인가 여성인가</quote>’가 아니다.</s>
+          <s><term type="concept">인간인가짐승인가</term>, 이것이강정의질문이다.</s>
+        </p>
+        <p>
+          <s>그는이를테면“<quote type="direct" genre="poet" source="우주괴물"><lg type="stanza"><l>이제</l></lg><lg type="stanza"><l>다른인간이태어나야한다</l></lg></quote>”「( <title level="a" type="poem" xml:id="t-x9">우주괴물</title>」)고선언하거나“<quote type="direct" genre="poet" source="불가사리"><lg type="stanza"><l>인간이아닌, 괴물</l></lg><lg type="stanza"><l>이어야한단다</l></lg></quote>”「( <title level="a" type="poem" xml:id="t-x10">불가사리</title>」)라고충고하는부류의인간이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그의 난폭하고 아름다운 이종교배의 상상력 앞에서 세간의 안이한 동종교배의자식들은문득왜소해지고만다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="문학관">한국현대시의주류적감각인서정적휴머니즘과지사(志士)적계몽주의를이토록단호하게거절한세계가있었던가.</interp>
+          </s>
+          <s>이렇게어떤시는‘<quote type="paraphrase" genre="other">종(種)의기원</quote>’을새롭게쓰겠다는<term type="concept">불가능한 야심</term>을 장전하기도 하는 것이다.</s>
+          <s>그 야심과 더불어 시인이‘<quote type="direct" genre="poet">인간인가짐승인가</quote>’를물을때독자는세가지를반문하게될것이다.</s>
+          <s>첫째, 지금발화하고 있는‘것’은 무엇인가(누가 말하는가).</s>
+          <s>둘째, 천상의 우주와 지상의짐승사이를분별없이왕래하는이상상력을과연무엇이라명명해야 하는가(무엇을 말하는가).</s>
+          <s>셋째, 이 난폭하면서도 아름다운 문장들의배후에는 어떤 <term type="concept">미학적 준칙</term>이 있는가(어떻게 말하는가).</s>
+        </p>
+        <p>
+          <s>당겨 답하면 이렇다.</s>
+          <s>첫째, 지금 발화하고 있는‘것’은‘<term type="concept">서정적 화자</term>’라는 안온한 심급이아니라어떤<term type="concept">비인간적에너지</term>의덩어리다.</s>
+          <s>둘째, 인간이기를그만두었으므로 인간적 상상은 더러 <term type="concept">우주적 망상</term>에 자리를 내주기도 할 것이다.</s>
+          <s>셋째, 인간 아닌 어떤 것의 <term type="concept">망상적 발화</term>가 아름다운 <term type="concept">모국어</term>일 수 없겠거니와, 실상그의문장들은일종의<term type="concept">외국어</term>에가깝다.</s>
+          <s>다음시를인용할수밖에없는것은그의프로그램이이곳에집약되어있기때문이다.</s>
+          <s><quote type="direct" genre="poet" source="들려주려니말이라했지만,"><lg type="stanza"><l>그가내게처음한말은</l></lg><lg type="stanza"><l>물이모자라거죽이붉게부르튼어느짐승에관한얘기다</l></lg><lg type="stanza"><l>듣고보니말이라했지만,</l></lg><lg type="stanza"><l>그짐승의존재를알게된건사람의입을통해서가아니다</l></lg><lg type="stanza"><l>비이거나혹은바람이거나</l></lg><lg type="stanza"><l>스키조와아나키 279</l></lg><lg type="stanza"><l>아직도살만큼물이충분한내몸에파충류의피륙같은돌기가솟았던</l></lg><lg type="stanza"><l>걸보니</l></lg><lg type="stanza"><l>짐짓실체가없는무슨진동같은거였는지모른다</l></lg><lg type="stanza"><l>말이거나비이거나바람이거나</l></lg><lg type="stanza"><l>생각해보니그것은내촉수를자극해조금씩부풀면서</l></lg><lg type="stanza"><l>존재를확인하려하면사라지고만다</l></lg><lg type="stanza"><l>만져지는대신</l></lg><lg type="stanza"><l>시간과시간사이에서무성생식한우주의굵은탯줄만낡은가구들틈에</l></lg><lg type="stanza"><l>끼여</l></lg><lg type="stanza"><l>목청껏다른말들을웅얼거리는데</l></lg><lg type="stanza"><l>이다른말이라하는것도,</l></lg><lg type="stanza"><l>듣고보니말이라했지만,</l></lg><lg type="stanza"><l>책에쌓인먼지라거나</l></lg><lg type="stanza"><l>같이있다방금자리를뜬사람의미진한온기따위인지도모른다</l></lg></quote>—「<title level="a" type="poem" ref="#t-x8">들려주려니말이라했지만,</title>」부분전문을 대상으로 말하건대, <interp value="affirmative" ana="미학">이 시의 눌변은 매혹적이다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="미학">이 시를 되풀이읽다보면 추상적인 진술처럼 보이는 모든 문장들이 문득 정교하게 계산된감각적달변으로다시읽히는순간이온다.</interp>
+          </s>
+          <s>“<quote type="direct" genre="critic">우리시사에서가장뛰어난 시 중의 하나</quote>”(<persName ref="#p-x8">함성호</persName>)라는 평가에 동의하지 않을 수는 있어도 <interp value="affirmative" ana="미학">이 시가갖고있는은은한격동의호소력을부인하긴어렵다</interp>‘.</s>
+        </p>
+        <p>
+          <s>나’는“<quote type="direct" genre="poet">물이모자라거죽이붉게부르튼어느 짐승</quote>”에관해들었다.</s>
+          <s>“<quote type="direct" genre="poet">물이충분한내몸</quote>”에도“<quote type="direct" genre="poet">파충류의피륙같은돌기</quote>”가솟아나기도했나본데, 이는무슨영문인가?</s>
+          <s>“<quote type="direct" genre="poet">시간과 시간 사이에서 무성생식</quote>”하는 우주의 생성 속으로 휘말려드는‘나’는시의후반부에이르러“<quote type="direct" genre="poet">인간도아니고인간아닌것도아닌</quote>”것이될것이었다.</s>
+          <s>그리고그사태를초래한것은그누군가(무언가)의‘<quote type="direct" genre="poet"><lg type="stanza"><l>말아</l></lg><lg type="stanza"><l>닌말</l></lg></quote>’인데, 그것을다시말로표현하기란지난한일이라서이시의화자280 특집는 주춤거리는 눌변으로 그 사태를 전달하기 위해 애쓰고 있다.</s>
+          <s>물론 이수사학은 비, 바람, 혹은 진동에 가까운 어떤“<quote type="direct" genre="poet">다른 말들</quote>”에의 열망을 반영하고있는것일터다.</s>
+          <s>이독특한상상력과수사학을각각변종(變種)에의 욕망과 변성(變聲)에의 갈망이라고 정리해도 좋겠다.</s>
+          <s>이것은 그의 시집 전체를 지배하고 있는 충동이고, 앞의 시는 그 세계의 창조자가 정색하고쓴서곡처럼보인다.</s>
+          <s>변종의 기획은 들뢰즈(Deleuze)가‘<quote type="direct" genre="poet">생성(becoming, 되기)</quote>’이라는 말로표현하고자했던사태에가까이간다.</s>
+        </p>
+        <p>
+          <s>관습적인<term type="concept">서정시</term>들이대상의<term type="concept">모방</term>,대상과의<term type="concept">교감</term>, 혹은대상과의<term type="concept">상상적동일시</term>등에몰두한다는것은사실이다.</s>
+          <s>그러나<persName ref="#p-x7">강정</persName>은그와같은<term type="concept">서정적메커니즘</term>은진정한<term type="concept">생성</term>의통로가아니라고 생각하는 것 같다.</s>
+          <s>진정한 <term type="concept">생성</term>이란 주체가 어떤 대상과 함께‘<quote type="direct" genre="critic" source="들뢰즈">구별불가능/식별불가능의객관적지대</quote>’로들어서는것이라는<persName role="foreigner" xml:id="p-x11">들뢰즈</persName>의언명은<persName ref="#p-x7">강정</persName>의관점을지지하는것처럼보인다.</s>
+          <s>
+            <interp value="neutral" ana="미학">강정의생성은(자연적이라기보다는) 우주적이고그의상상은(환상적이라기보다는) 망상적이다.</interp>
+          </s>
+          <s>그가 <term type="concept">임신∙출산</term>의 이미지들을 이끌고 <persName role="foreigner" xml:id="p-x12">프로이트</persName>의 <term type="concept">분열증</term> 환자 <persName role="foreigner" xml:id="p-x13">슈레버</persName>(Schreber)처럼 전우주적 <term type="concept">생성</term>의 세계에 기꺼이 몸을 맡겼기 때문에, <interp value="affirmative" ana="미학">이곳에는미증유의풍경이도입될수있었고낯선기운이생동할수있었다</interp>(다시, <persName ref="#p-x11">들뢰즈</persName>라면이를‘<quote type="direct" genre="critic" source="들뢰즈">순수한지각percept과정동affect의세계</quote>’라고명명했을것이다).</s>
+          <s>그것들은인간에의해발견되고감지되는풍경과기운이라기보다는, (앞의 시의 논리가 그렇듯이) 오히려 그것들 스스로가 인간을발견하고포섭한다고해야맞을그런<term type="concept">비인칭적인</term>(impersonal) 힘들에가깝다.</s>
+          <s>예컨대“<quote type="direct" genre="poet" source="한밤의모터사이클"><lg type="stanza"><l>내 몸에서 가장 먼 풍경들을 통하지 않고서는/나는 내</l></lg><lg type="stanza"><l>심장박동을 느낄 수 없</l></lg></quote>”「( <title level="a" type="poem" xml:id="t-x11">한밤의모터사이클</title>」)다고 말하는‘나’는“<quote type="direct" genre="poet" source="알을품은시인"><lg type="stanza"><l>명료하지</l></lg><lg type="stanza"><l>않은,/더깊은세계의포말</l></lg></quote>”「( <title level="a" type="poem" xml:id="t-x12">알을품은시인</title>」)을보고있거니와, 그가“<quote type="direct" genre="poet" source="우주괴물"><lg type="stanza"><l>육신</l></lg><lg type="stanza"><l>의 이형(異形)</l></lg></quote>”「( <title level="a" type="poem" ref="#t-x9">우주괴물</title>」)으로 터져나갈 때 그의 시에서는“<quote type="direct" genre="poet" source="두번째아이"><lg type="stanza"><l>아이는 사실</l></lg><lg type="stanza"><l>아무 말도 않지만/아이의 소리를 옮겨적은 백지 위엔 수시로 광풍이 분</l></lg><lg type="stanza"><l>다</l></lg></quote>”「( <title level="a" type="poem" xml:id="t-x13">두번째아이</title>」)고적었을때의그‘광풍’이분다.</s>
+          <s>이런세계에서‘나’라는<term type="concept">스키조</term>와<term type="concept">아나키</term> 281발화자는‘<term type="concept">식별불가능</term>’하거나‘<term type="concept">구별불가능</term>’하다.</s>
+        </p>
+        <p>
+          <s>이 변종의 기획은 시집후반부에수록된‘<term type="concept">거미인간</term>’연작을통해집요한집중력을얻는다.</s>
+          <s>그의변성의기획은예의변종의기획과불가분의것으로보인다.</s>
+          <s><term type="concept">새로운 종(種)</term>이 인간의 말을 사용할 수는 없는 노릇이니 말이다.</s>
+          <s>“<quote type="direct" genre="poet">듣고 보니말이라 했지만,</quote>”‘나’를 변화시킨 그 힘을 굳이 말이라 할 이유는 없었을것이다.</s>
+          <s>“<quote type="direct" genre="poet">들려주려니 말이라 했지만,</quote>”<interp value="neutral" ana="미학">말 아닌 그 말을 전달하는 일은 말자체의 한계와 대면하는 도전이 아닐 수 없었겠다.</interp></s>
+          <s>실로 이 시집 전체는바로이“<term type="concept">다른말</term>”의세계로가기위해“<term type="concept">인간의말</term>”「( <title level="a" type="poem" xml:id="t-x14">폭우</title>」)과벌이는교전의기록이다.</s>
+          <s>그러니“<quote type="direct" genre="poet">내체온을액면그대로종이위에처바르는</quote>”「( <title level="a" type="poem" ref="#t-x8">들려주려니말이라했지만,</title>」)이작업은불가피하게상식적인<term type="concept">어휘론</term>이나자연스러운<term type="concept">구문론</term>과의격전을요청했을것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이곳은말의조탁이아니라말의발명이, 말의미학이아니라말의배치가문제가되는세계다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그는우리말리듬의자연스러운유로(�路)를꺾고자동화된의미작용을경계하는일에 섬세하다.</s>
+          <s>그의‘<quote type="direct" genre="poet">정상적인</quote>’산문과 대질해보건대 이것은 확실히 의도적인난폭이다.</s>
+          <s>그는옳았다.</s>
+          <s>우리는시와산문을동일한강도(强度)의문장으로쓰는시인을좋은시인이라고생각하지않는다.</s>
+          <s>“<quote type="direct" genre="poet"><lg type="stanza"><l>위대한문학은</l></lg><lg type="stanza"><l>일종의 외국어로 씌어진다</l></lg></quote>”는 <persName role="foreigner" xml:id="p-x14">프루스뜨</persName>(M.</s>
+          <s><persName role="foreigner" xml:id="p-proust">Proust</persName>)의 말은 과연 <interp value="affirmative" ana="미학">시적 언어의 어떤 중핵을 건드리는 바가 있다.</interp></s>
+          <s>사실을 말하자면, 시는 외국어로쓰는것이다.</s>
+          <s>변종과변성을향한이모든모험들은『<title level="m" type="poem" xml:id="t-x15">처형극장</title>』(<orgName xml:id="org-x3">문학과지성사</orgName><date when="1996">1996</date>)이래로<persName ref="#p-x7">강정</persName>의통치론이다.</s>
+        </p>
+        <p>
+          <s>시가아름다움에도달하는특이한통로하나를개척했던그의<interp value="affirmative" ana="미학">초기시들은『들려주려니말이라했지만,』의세계로성공적으로진화해온듯보인다.</interp></s>
+          <s>저통치론에의거하여강정의나라를섭정하는 주체는 우주적인 망상의 세계를 유영하면서 <term type="concept">마이너적인 방식으로 발화하는분열자(schizo)</term>인데, 경박한<term type="concept">테크놀로지</term>의시대에출현한이낯설고 집요한 기운생동은‘<term type="concept">서정적 자아</term>’의 미학적 곤경을 돌파한 독창적인시도중의하나로기억될것이다.</s>
+          <s>단, 그의목소리가그가두번의아름다282 특집운 헌사「( <title level="a" type="poem" xml:id="t-x16">새와 물고기를 닮은 남자</title>」「<title level="a" type="poem" ref="#t-x14">폭우</title>」)를 바친 <persName role="foreigner" xml:id="p-x15">톰 웨이츠</persName>(<persName role="foreigner" xml:id="p-tomwaits">Tom Waits</persName>)의그것을 닮는 것은 기꺼이 환영할 만한 일이지만, <interp value="critical" ana="미학">그가 가끔 초월의 제스처에 다가갈 때 우리는 서먹해진다.</interp></s>
+          <s>앞에서 인용한 시는“<quote type="direct" genre="poet"><lg type="stanza"><l>인간도 아니고</l></lg><lg type="stanza"><l>인간 아닌 것도 아닌 만물이 때 되면 허물 벗어 다른 생을 낳는 그곳을/</l></lg><lg type="stanza"><l>허공이라 한들 어떠리</l></lg></quote>”로 끝나거니와, 여기서‘허공’이라는 시어와‘어떠리’운운은 어쩐지 저 시의 머리와 몸통을 감당하기에는 허약해 보이지않는가.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이런아슬아슬한구절들이결국초월의지평으로탈선하는일만없다면, 우리는그의통치론을기꺼이지지할것이다.</interp>
+          </s>
+          <s>체제론, 혹은 <term type="concept">아나키</term>의 시학—<persName role="poet" xml:id="p-x16">장석원</persName>의 경우장석원(<persName role="poet" xml:id="p-x17">張錫原</persName>)의시어들은대개‘<term type="concept">혁명</term>’과‘<term type="concept">사랑</term>’사이에서진동한다.</s>
+          <s><term type="concept">혁명</term>을<term type="concept">사랑</term>에빗대는의식의버릇과사랑을혁명과함께사유하는의식의버릇은 원래 동전의 양면이다.</s>
+          <s>그 의식은 <term type="concept">혁명</term>을 <term type="concept">사랑</term>의 문법으로 찬미혹은애도하거나, 사랑을혁명의구조에빗대어승인혹은거부하는의식이다.</s>
+        </p>
+        <p>
+          <s>말하자면그것은<term type="concept">혁명</term>이사랑이아니라생존이고사랑이사유가아니라 실천인 <term type="concept">계급</term>의 의식이 아니다.</s>
+          <s><persName ref="#p-x16">장석원</persName>의 시는, 이제는 오히려 신선해져버린, 개종한<term type="concept">지식인계급</term>의<term type="concept">비가</term>(悲歌)다.</s>
+          <s>물론이사랑과<term type="concept">혁명</term>의‘<term type="concept">이중구속</term>’은<persName ref="#p-x2">김수영</persName>과<persName role="poet" xml:id="p-x18">황지우</persName>의 것이기도했다.</s>
+          <s>
+            <interp value="neutral" ana="미학">장석원의 시에서매혹적인구절들은그래서불가피하게선배들의그것을닮는다.</interp>
+          </s>
+          <s>거기서그의시는<term type="concept">혁명</term>의배반과사랑의종말앞에서애도를끝내지못한채허둥대는변심한지식인의<term type="concept">멜랑꼴리</term>한목소리를실어나른다.</s>
+          <s>그목소리의변사가바로<persName ref="#p-x16">장석원</persName>의‘<term type="concept">낙타</term>’다.</s>
+          <s>그렇기 때문에“<quote type="direct" genre="poet" source="낙타에게">나의 낙타는 어디로 갔을까</quote>”「( <title level="a" type="poem" xml:id="t-x17">낙타에게</title>」) 3)라는 물음으로 시작되는 시는 그의 <term type="concept">멜랑꼴리</term>를 아주 편안하게 실어3) 이하의인용은시집『<title level="m" type="poem" xml:id="t-x18">아나키스트</title>』(<orgName ref="#org-x3">문학과지성사</orgName><date when="2005">2005</date>)에준한다.</s>
+          <s>스키조와아나키 283나를 준비를 이미 마친 셈이다.</s>
+        </p>
+        <p>
+          <s>이제“<quote type="direct" genre="critic">사막 하면 낙타가 걸어가고, 사막하면삭막한도시가떠오르고, 사막하면시가생산</quote>”될것이었다.</s>
+          <s>그러나<persName ref="#p-x16">장석원</persName>의“<quote type="indirect" genre="poet">술취한낙타</quote>”보다더매력적인것은그가부리는또하나의짐승인‘<term type="concept">늑대</term>’다.</s>
+          <s>“<quote type="direct" genre="poet">혁명이아름답던은유의날들</quote>”「( <title level="a" type="poem" xml:id="t-x19">젊고, 어리석고, 가난했던</title>」)을 되돌아보는 것이 낙타의 몫이라면, 이제는 다른 혁명과 다른언어를 찾아 어슬렁거리며 <term type="concept">불협화음</term>(wolf’s note)을 만들어내는 것은 <term type="concept">늑대</term>의 몫이다.</s>
+          <s>물론 이 <term type="concept">늑대</term>는“<quote type="direct" genre="poet"><lg type="stanza"><l>나는 우울한 남자, 나는 사냥꾼/원초적인</l></lg><lg type="stanza"><l>생명본능때문에/이성주의자의혓바닥을먹고싶었지만나는무성의바</l></lg><lg type="stanza"><l>위/백년 동안의 비정한 고독 후에 울부짖을 늑대</l></lg></quote>”「( <title level="a" type="poem" xml:id="t-x20">내마음의아나키</title>」)에서그렇듯 대체로 <term type="concept">우울증</term>에 걸린 낙타에 더 가깝다.</s>
+          <s>그러나 그 정념과는 무관하게 이 시집은 <term type="concept">늑대</term>의 생리를 닮아 있다.</s>
+          <s>그의 시는 고행과 순례라는전세대적의미장(場)을벗어나기어려운<term type="concept">낙타</term>를따라가는‘<term type="concept">멜랑콜리맨</term>’의기질과교전과횡단을생리로하는<term type="concept">늑대</term>의<term type="concept">정동</term>(情動)으로충만한‘<term type="concept">아나키스트</term>’의 기질로 분열되어 있다.</s>
+          <s>
+            <interp value="neutral" ana="미학">더 정확히 말하면 그는 전언의 층위에서낙타고스타일의층위에서늑대다.</interp>
+          </s>
+          <s>그리고그의정치학은<term type="concept">늑대</term>와더불어작동한다.</s>
+        </p>
+        <p>
+          <s><persName role="foreigner" xml:id="p-x19">마르크스</persName>와<persName role="foreigner" xml:id="p-x20">레닌</persName>과체의전기가나란히놓여있다.</s>
+          <s>그들은모두수염을길렀다.</s>
+          <s>
+            <interp value="affirmative" ana="사상">부정의멋진상징임에틀림없다.</interp>
+          </s>
+          <s>그런데 나는 춤출 수 없다.</s>
+          <s>모든 사람들이 기회를 지녔으나춤출수없었다.</s>
+          <s>안전한춤이아니었기때문이다.But burn번데기는 우화의 껍질이며 찬란한 전신의 표본이지만 말이 많이 타락했다.</s>
+          <s>번데기만한 놈이 되면 인생이 치졸해지고 만다.</s>
+          <s><term type="concept">혁명</term>과 <term type="concept">반혁명</term>은 종이한장차이가분명하다.</s>
+        </p>
+        <p>
+          <s>배반은장미한송이때문에쉽지않고, 사랑도티슈한장이면 끝난다.</s>
+          <s><term type="concept">혁명</term>?</s>
+          <s>나는 <quote type="direct" genre="poet"><lg type="stanza"><l>불꽃이 되고 싶었으나, 분신자살하는 베트남</l></lg><lg type="stanza"><l>284 특집</l></lg><lg type="stanza"><l>의승려가무서웠고, 죽어불꽃이되는노승이부러웠다</l></lg></quote>.—「<title level="a" type="poem" xml:id="t-x21">동방의서점에는</title>」부분‘<quote type="direct" genre="poet">But</quote>’‘<quote type="direct" genre="poet">burn</quote>’‘<quote type="direct" genre="poet">번데기</quote>’등을나란히이어놓는이말장난이지나치게가벼워 보일 수도 있겠지만 이 말장난이 <persName ref="#p-x16">장석원</persName>만의 것은 아니다.</s>
+          <s>많은 <term type="concept">젊은시인들</term>이기꺼이가벼운말장난에동참하고있다.</s>
+          <s>그리고이말장난에는이전 세대의 그것이 거느렸던‘<term type="concept">정치권력과의 긴장관계</term>’같은 알리바이도없다.</s>
+          <s>그런데왜 하는가?</s>
+          <s><term type="concept">순결한 언어</term>와 <term type="concept">타락한 언어</term>가선명히 분별되던때가있었다.</s>
+          <s>한때<term type="concept">거대담론</term>과결합되어그자체만으로<term type="concept">숭고한아우라</term>를뿜어냈던그기표들은그러나<term type="concept">혁명의담론</term>이붕괴하면서그숭고한기의들을 박탈당했다.</s>
+        </p>
+        <p>
+          <s>시에서 <term type="concept">대문자 정치</term>가 작동할 수 있는 한가지 요건은<term type="concept">언어의순결한힘</term>에대한믿음일것인데, 모욕받은기표들의세월은언어의순결한힘을믿었던많은이들을개종하게했다.</s>
+          <s>우화(羽化)의껍질이며찬란한전신(轉身)의표본인‘<quote type="direct" genre="poet">번데기</quote>’가‘번데기만한놈’의번데기로타락하고만것은차라리사소한일이겠지만, 한시절의숭고한이름들인<persName role="foreigner" xml:id="p-x21">맑스</persName>, <persName ref="#p-x20">레닌</persName>, <persName role="foreigner" xml:id="p-x22">체</persName>등의이름이전기(傳記)속으로들어가고고작“<quote type="paraphrase" genre="other">부정의멋진상징</quote>”인‘<quote type="paraphrase" genre="other">수염</quote>’으로묶이는일은사소한일이아니다.</s>
+          <s>그들의이름은허명(虛名)이 되었고‘<term type="concept">부정(否定)</term>’이라는 말은 공중에 떠버렸다.</s>
+          <s>‘<term type="concept">혁명</term>’이라는말의운명도이와다르지않다.</s>
+          <s><persName ref="#p-x16">장석원</persName>의 시에서 언어의 의미보다 언어의 용법을 주목해야 하는 것은그때문이다.</s>
+          <s>그의시가어떤정치성을갖고있다면그것은‘<quote type="paraphrase" genre="poet"><lg type="stanza"><l>희미한옛사</l></lg><lg type="stanza"><l>랑의그림자</l></lg></quote>’만을남겨두는<term type="concept">기의</term>들의전언때문이아니라모욕당한<term type="concept">기표</term>들을‘<quote type="direct" genre="poet">사용</quote>’하는그의방식때문이다.</s>
+          <s><interp value="neutral" ana="미학">언어의의미보다는용법을더중요한것으로보고</interp>언어의‘<quote type="direct" genre="poet">배치</quote>’를통해‘<term type="concept">시적인것</term>’을발굴한다는점에서그는그의생물학적나이와무관하게최근의<term type="movement">뉴웨이브</term>들과가깝다.</s>
+          <s>그는한편의시를구성하는줄기들을하나의뿌리를중심으로통합하는데별관심이 없다.</s>
+        </p>
+        <p>
+          <s>오히려 그 줄기들에 각각 소제목을 부여하고 기꺼이 방임한스키조와아나키 285다.</s>
+          <s>이점에주목하여그의시에‘<quote type="direct" genre="critic">이미지연방제</quote>’4)라는표현을얹어준평자가 있거니와, 표현의 내용도 내용이지만 우리는 <interp value="affirmative" ana="미학">이 정치적 비유 자체가흥미롭다</interp>.</s>
+          <s>다시, 한편의시는하나의국가다.</s>
+          <s><persName ref="#p-x16">장석원</persName>의국가를움직이는통치론과체제론은각각“<quote type="direct" genre="poet">나는라이팅머쉰이에요</quote>”와“<quote type="direct" genre="poet"><lg type="stanza"><l>모든잡종의계</l></lg><lg type="stanza"><l>보가 여기 있다</l></lg></quote>”「( <title level="a" type="poem" xml:id="t-x22">끈—이론게임</title>」)로 요약된다.</s>
+          <s>그런데 <persName ref="#p-x7">강정</persName>의 경우와는 달리, 그에게서더흥미로운것은아직<term type="concept">낙타의기질</term>을갖고있는그의<term type="concept">통치론</term>이라기보다는 <term type="concept">늑대의 무리</term>처럼 서식하는 시들에 깔려 있는 그의 <term type="concept">체제론</term>이다.</s>
+          <s>그것은 <term type="concept">중앙집권</term>이 아니라 <term type="concept">지방분권</term>을 골자로 한다.『 <title level="m" type="foreign" xml:id="t-x23">천개의 고원</title>』의저자들을 따라 이를 각각 <term type="concept">수목(樹木)형</term>과 <term type="concept">근경(根莖)형</term>이라 불러도 좋다.</s>
+          <s><term type="concept">수목형 체제</term>는 <term type="concept">재현(再現)</term>과 <term type="concept">대의(代議)</term>의 논리에 기초한다.</s>
+          <s>시학의 차원에서전자를극복하는한가지방식이소위‘<term type="concept">환상</term>’이라면후자를극복하는한가지방식은‘<term type="concept">접속</term>’일것이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">환상</term>이내안의<term type="concept">다양체</term>(multiplicity)를찾아가는 방식이라면 <term type="concept">접속</term>은 외부와 더불어 다양체를 형성하는 방법이다.</s>
+          <s><term type="concept">수목형</term>의일사불란을극복하기위해이시인은<term type="concept">접속</term>의원리를도입한다.</s>
+          <s><persName ref="#p-x16">장석원</persName>의 시에서 여러 종류의 텍스트들은‘<term type="concept">다성적</term>으로’5)동원되어 서로<term type="concept">접속</term>하면서<term type="concept">다양체</term>를형성한다.</s>
+          <s>“<quote type="direct" genre="other" source="천개의고원">다양체에는주체도객체도없다</quote>”『( <title level="m" type="foreign" ref="#t-x23">천개의고원</title>』2장).</s>
+          <s>그래서 <term type="concept">탈(脫)의미작용</term>으로 나아간다.</s>
+          <s>최소수준에서는 기표를고립시켜버리는방식으로, 최대수준에서는연과연, 절과절, 시와시사이의인력을제어하는방법으로그것은가능해진다.</s>
+          <s><persName ref="#p-x11">들뢰즈</persName>의말대로스타일이란곧‘<quote type="direct" genre="foreign">발화행위의배치(agencement)</quote>’와다른것이아니라면, <persName ref="#p-x16">장석원</persName>의스타일은그다채로운발화들을공들여배치하는기술에힘입어형성된다.</s>
+          <s>그것이 전부는 아니다.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="affirmative" ana="미학">장석원의 지방분권적 스타일은 다종다양한 발4) 조강석「인식의자동성과이미지연방제」,『 현대시학』2006년3월호.5) 이에대해서는권혁웅의「시와다성성」(장석원, 앞의책, 해설)과이장욱의「태양의언어—장석원의시들」『( 나의우울한모던보이』, 창비2005)에서상세히해명된바있다.286 특집화들이 이합집산하는 와중에 그것들을 어떤 시적인 절합의 순간으로 이끌어가는 데 성공한다.</interp>
+          </s>
+          <s>중요한 것은 바로 그것이다.</s>
+          <s>뿌리를 제거하고 줄기를 늘어놓는 것은 전혀 어려운 일이 아니다.</s>
+          <s>어려운 것은 <term type="concept">발화자의 통치권력으로부터 자유로운</term> 줄기들이 서로 연대하여 모종의‘<term type="concept">시적인 것</term>’에도달하는 일, 혹은 <term type="concept">이질성</term>들이 공존(con-sist)하면서‘<term type="concept">무질서의 질서</term>’라고나해야할어떤<term type="concept">일관성</term>(consistence)에도달하는일, 바로그것이다.</s>
+          <s>그때에만한편의시가성취한<term type="concept">스타일</term>은하나의체제론으로등재될수있을것이다.</s>
+          <s>
+            <interp value="affirmative" ana="사회">이런성공사례는새로운정치적씨스템에대한상상력을간접적으로자극한다.</interp>
+          </s>
+          <s>이체제론을과연<term type="movement">아나키즘</term>이라불러도좋겠지만명칭이야아무래도상관없어보인다.</s>
+          <s>그는‘<quote type="direct" genre="poet">혼란</quote>’을‘<quote type="direct" genre="poet">사랑</quote>’이라고부른<persName ref="#p-x2">김수영</persName>의전례를 따라 이를‘사랑’이라 부르기도 하는데, 물론 그의 <term type="movement">아나키즘</term>은 <interp value="neutral" ana="미학">사랑의내용이아니라사랑의형식이다</interp>.</s>
+        </p>
+        <p>
+          <s>그래서엄밀히말하면<term type="concept">아나키스트</term>인것은발화자도아니고시인자신도아니다.</s>
+          <s><term type="concept">아나키스트</term>인것은그의시집자체다.</s>
+          <s><title level="m" type="poem" xml:id="t-x24">영구혁명, 혹은 전위의 온몸</title>대부분의전위적인시들이그러하듯, <persName ref="#p-x7">강정</persName>과<persName ref="#p-x16">장석원</persName>의시는어떤주의(主義)를설득하려들기보다는그것을살아버린다.</s>
+          <s>시의<term type="concept">정치성</term>은정치를‘말’할 때 발생하는 것이 아니라 정치적으로‘존재’할 때 발생하는 것이다.</s>
+          <s>자명한일인칭의세계를배격하고유기적인전체성의세계를거부하는<term type="concept">젊은시인들</term>의시도는지금과는다른종류의<term type="concept">정체성</term>과체제를찾아헤매는 지난한 모색의 산물로 읽힌다.</s>
+          <s>그러나 <interp value="neutral" ana="문학관">우리는 그 모색의 성공이 아니라실패를기원하고만싶다.</interp></s>
+          <s>모든<term type="concept">전위</term>의운명이그렇듯그들이마침내특정한정체성과체제에도달할때그들의<term type="concept">정치성</term>은소멸될테니까말이다.</s>
+          <s>새로운정체성과체제를구축하는‘<quote type="direct" genre="poet"><lg type="stanza"><l>과</l></lg><lg type="stanza"><l>정</l></lg></quote>’의그격렬함이앞으로도그<term type="concept">스키조</term>와<term type="concept">아나키</term> 287들의알리바이가될것이다.</s>
+        </p>
+        <p>
+          <s>새로운세대가쥐고있는것은, <persName ref="#p-x7">강정</persName>의표현을 빌리자면,“<quote type="direct" genre="poet" source="밤의 저편으로부터 그가">그릴수록 지워지는,/미래의 지도</quote>”「( <title level="a" type="poem" xml:id="t-x25">밤의 저편으로부터 그가</title>」)같은 것일 터다.</s>
+          <s>말하자면 <term type="concept">영구혁명</term>의 상태일 때에만 그것은 혁명이다.</s>
+          <s>그것이우리시대<term type="concept">전위</term>의‘<quote type="direct" genre="poet">온몸</quote>’일것이다.</s>
+          <s>한 시인은 시인이 시만 생각하고 시와 정치의‘사이’를 생각하지 않으면다만‘휴지’가남을뿐이라고썼다.6)<interp value="affirmative" ana="문학관">옳은말이다.</interp></s>
+          <s>그리고시와정치의그‘<quote type="direct" genre="poet">사이</quote>’는아마도‘<term type="concept">정치의시</term>’가아니라‘<term type="concept">시의정치</term>’의어디쯤에있을것이다.</s>
+          <s>시의전언을재구성하여<term type="concept">정치성</term>을운위할때시와소설과에쎄이의경계는 무의미해진다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">시는 오직 시만이 갈 수 있는 길로 정치에 도달할때가장정치적일수있다.</interp>
+          </s>
+          <s>한평론가는“<quote type="direct" genre="critic">시가정말현실과치열하게싸우기위해서는시가정치적현실과밀착할게아니라정치적현실과비교해끊임없이 넘치거나 모자라야 한다</quote>”7)고 썼다.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="affirmative" ana="미학">옳은 말이다.</interp>
+          </s>
+          <s>가령 시가 정치적현실에밀착하여<term type="concept">대문자정치</term>에가담했던시절을추억하는일은물론자유다.</s>
+          <s>그러나모든정치는그시대의정치다.</s>
+          <s><term type="concept">시학적둔감</term>을감추기위해완강한<term type="concept">정치학개론</term>을반복한다면, 우리는‘<quote type="paraphrase" genre="critic">현실보다넘치거나모자라는</quote>’오늘날의 <term type="concept">소문자 정치들</term>의 힘을 적잖이 놓치게 될 것이다.</s>
+          <s>영문법에서<term type="concept">정치</term>(politics)는단수명사이지만시학에서그것은복수명사다.6) <persName role="poet" xml:id="p-x23">김광규</persName>「<title level="a" type="poem" xml:id="t-x26">생각의사이</title>」,『 <title level="m" type="poem" xml:id="t-x27">희미한옛사랑의그림자</title>』, <orgName ref="#org-x">민음사</orgName><date when="1995">1995</date>.7) <persName role="critic" xml:id="p-x24">정과리</persName>「<title level="a" type="critic" xml:id="t-50">해방50년, 한국시에대한단상</title>」,『 <title level="m" type="critic" xml:id="t-x28">문학이라는것의욕망</title>』, <orgName xml:id="org-x4">역락</orgName><date when="2005">2005</date>.288 특집</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

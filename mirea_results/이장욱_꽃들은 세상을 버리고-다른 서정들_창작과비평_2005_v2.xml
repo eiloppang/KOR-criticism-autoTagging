@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>꽃들은 세상을 버리고-다른 서정들</title>
+        <author>이장욱</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>▣특집│갈림길에선한국시와시비평꽃들은세상을버리고다른<term type="concept">서정</term>들이<persName role="poet" xml:id="p-x">장욱</persName>oblako@hanmail.net서정의인공정원흔한말이지만, 지금은서정의시대가아니다.</s>
+          <s>오늘의삶과세계는전래의서정적어법으로는보이지않고, 들리지않고, 만져지지않는다.</s>
+          <s>이제후위((cid:17845)(cid:14281))에남은<term type="concept">서정시</term>가할수있는것은마음의도원((cid:9946)(cid:14247))을이루는것정도인지도모른다.</s>
+          <s>그<term type="concept">서정</term>의공간이도원인것은그곳이무슨이상향이기 때문이 아니라, ‘<quote type="direct" genre="poet">전체</quote>’이자 ‘<quote type="direct" genre="poet">모든 것</quote>’인 <term type="concept">일인칭의 영혼</term>으로 가득하기때문이다.</s>
+          <s><term type="concept">서정</term>은만상을일인칭의내면적고도(高(cid:9940))에걸어두는방식이다.</s>
+          <s>그고도에는시인자신조차없다.</s>
+          <s>왜냐하면전래의<term type="concept">서정</term>이전제로삼는‘<quote type="direct" genre="poet">시인</quote>’이란, 어쩔수없이왜소할수밖에없는현대적실존을벗어나모종의‘<quote type="direct" genre="poet">전체</quote>’에투신한자의이름이기때문이다.</s>
+          <s>그의세계에는파편적이며오염된채존재하는<term type="concept">실재</term>의만상과만상에대한감각이들어설여지가별로없다.</s>
+        </p>
+        <p>
+          <s><term type="concept">서정의어법</term>은끊임없이바깥의세계와바깥의언어를밀어낸다.</s>
+          <s>그것은신화가언제나우주전체를대상으로삼아서제바깥에다른사물과(cid:14618)(cid:14873)(cid:14111) 시인.</s>
+          <s>시집『<title level="m" type="poem" xml:id="t-x">내잠속의모래산</title>』과주요평론으로「<title level="a" type="critic" xml:id="t-x2">오감도들</title>」등이있음.70�특집│갈림길에선한국시와시비평다른신화를상정하지않는것과같다.</s>
+          <s>
+            <interp value="critical" ana="미학">전래의서정은마음의신화를구축하는방법이며, 이것으로는전체나본질같은관념과무관하게스스로천변만화하는오늘의세계와시인자신을보여주기어렵다.</interp>
+          </s>
+          <s>왜서정시가세계와시인을보여주어야하느냐고는묻지말자.</s>
+          <s>여기서우리의관심은시인의개인적의무나의지같은것이아니라, <term type="concept">서정시의미적특성</term>과그풍경이다.</s>
+          <s>이글의목적은오늘의서정이‘<term type="concept">다른서정</term>’에이르는길을따라가는것이다.</s>
+          <s>그러니까이글은‘<term type="concept">반((cid:11249))서정</term>’이아니라‘<term type="concept">다른서정시들</term>’을위해씌어진다.</s>
+        </p>
+        <p>
+          <s>먼저한편의시를인용하고싶다.</s>
+          <s>이시에는<term type="concept">서정</term>의정형과변형이공존한다.</s>
+          <s><term type="concept">서정</term>이자신의‘<term type="concept">도원</term>’을이루자, 그‘도원’을무너뜨리기위한세계의습격이시작되는풍경.</s>
+          <s>목련화그늘아래서아니면,인적이끊긴광화문쯤의오피스환기구였는지도몰라그대와나라고,하면은금방아닌것같은그대들술잔에붉은입술을찍어어린애손바닥만한꽃의육질을열어좋은안주로삼았었지그대는‘깜찍이소다’를마시고짐짓취한척성냥을건네주던그대의손을혹은,라이터스치며지는꽃잎처럼,흐르던穀(cid:14107)(cid:16194)(cid:10997)도지나고(cid:14107)(cid:12711)는이미오래전일그날잊지않으려마음속으로만무수히되뇌던시를취한듯,꿈인듯,끝내적어두지못해다시는꽃이진나무아래를찾지못하는(cid:10089)(cid:15766)(cid:12531)(cid:12390)과(cid:9914)(cid:12390)동안은놀고가장긴밤에나는하염없이꽃들은세상을버리고�71잠든나무의이름을찾아헤매었지잠든나무?</s>
+          <s>
+            <quote type="direct" genre="poet" source="함성호 「꽃들은세상을버리고」">
+              <lg type="stanza">
+                <l>(우리는누구나서로의슬픈미래를본적이있다)</l>
+              </lg>
+              <lg type="stanza">
+                <l>단오에는내가</l>
+              </lg>
+              <lg type="stanza">
+                <l>어떤향기로그대의머리를감겨주었던가?</l>
+              </lg>
+            </quote>
+          </s>
+          <s><quote type="direct" genre="poet" source="함성호 「꽃들은세상을버리고」"><lg type="stanza"><l>바람에꽃잎을날리던(cid:14793)(cid:17102)와(cid:12531)(cid:10829)사이</l></lg><lg type="stanza"><l>(cid:11432)(cid:10480)와(cid:12192)降의햇빛도</l></lg><lg type="stanza"><l>소용없이빈마당에떨어지는가좌아파트베란다</l></lg><lg type="stanza"><l>꽃들은세상을버리고</l></lg><lg type="stanza"><l>봄을잊은나무는괴롭게</l></lg><lg type="stanza"><l>저절로깊은세상을열어두겠지</l></lg></quote>���<persName role="poet" xml:id="p-x2">함성호</persName>「꽃들은세상을버리고」『(<title level="m" type="poem" xml:id="t-x3">너무아름다운병</title>』,<orgName xml:id="org-x">문학과지성사</orgName><date when="2001">2001</date>) 전문작은글씨들을지우고읽는다면이것은<interp value="neutral" ana="미학">전형적인서정시이다.</interp></s>
+          <s>‘<quote type="direct" genre="poet">그대와나</quote>’를둘러싼저‘<term type="concept">목련화그늘</term>’은<term type="concept">서정적우주</term>의다른이름이다.</s>
+          <s>그대를향한나의괴로움과그리움이그대와나로만이루어진이우주의동력이다.</s>
+        </p>
+        <p>
+          <s>아마도정말평화로웠을그대와나의한때를위해, ‘<term type="concept">목련화</term>’와‘<term type="concept">꽃의육질</term>’과‘<term type="concept">곡우</term>’ ‘<term type="concept">청명</term>’ ‘<term type="concept">우수</term>’, 그리고바람에날리는‘<term type="concept">꽃잎</term>’들이호명된다.</s>
+          <s>이아득한만상들은이제<term type="concept">서정적감성</term>이유발하는<term type="concept">일인칭의리듬</term>을통과하면서서서히기화한다.</s>
+          <s>지상의중력이사라지자모든것은화자의리듬안에서몸의무게를잃는다.</s>
+          <s>그것들은휘발된다.</s>
+          <s>마지막연에서화자의괴로움과그리움이잠언적인구절로종결되는순간, 그대와나를둘러싸고있던만상들은드디어이<term type="concept">서정적우주</term>의소품으로완성된다.</s>
+          <s>이제‘<term type="concept">목련화그늘</term>’은꽃의그늘이아니라마음의그늘이며, ‘<term type="concept">곡우</term>’와‘<term type="concept">청명</term>’과‘<term type="concept">우수</term>’는구체적인시간을 흘러가는 것이 아니라 마음의 영원을 흘러간다.</s>
+          <s>결국 모든 것은 저<term type="concept">서정적화자</term>의<term type="concept">내면풍경</term>을대리하기위해인입된것이다.</s>
+          <s>드디어꽃들이“<quote type="direct" genre="poet">세상을버리고</quote>” 떨어지는순간, 꽃에대한<term type="concept">서정적화자</term>(�시인)의압도적인지위는돌이킬수없는것이된다.</s>
+        </p>
+        <p>
+          <s>그저떨어질뿐인꽃잎은화자가부여하는 의미를 대리하는 ‘<quote type="direct" genre="poet">세상의 모든 꽃잎</quote>’이 된다.</s>
+          <s>당연하게도, 세상을72�특집│갈림길에선한국시와시비평버리고떨어진것은꽃잎이아니라화자의마음이며, 이는<term type="concept">서정시</term>의일반적인문법에해당한다.</s>
+          <s><term type="concept">서정시</term>는사물과세계에대한<term type="concept">서정적자아</term>의우위에의해명맥을유지하는것이며, 그래서우리는이시의제목을빌려이렇게말할수있다.</s>
+          <s>‘<quote type="paraphrase" genre="poet"><lg type="stanza"><l>꽃들은세상을버리고, 결국화자의마음속으로떨어</l></lg><lg type="stanza"><l>진다.</l></lg></quote></s>
+          <s>’<interp value="critical" ana="미학">꽃들이세상을버리고떨어지는이마음의우주는지나치게순수한것이어서, 모든순수가그러하듯폭력적인방식으로혼탁한사물성을거세한다.</interp></s>
+          <s>
+            <interp value="critical" ana="미학">이제시는일관된가치와의미와정서를점유한서정시인에의해단하나의지평만을보여준다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">이지평에는하나의가치와하나의세계와하나의전체만이가능하다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">아무리겸손한어조를지니고있더라도, 서정성은어쩔수없이권위적이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>물론 이것은 작은 글자(‘<quote type="direct" genre="poet">소문자</quote>’)를 지웠을 때의 이야기다.</s>
+          <s>당연하게도이시의핵심은저서정적‘<quote type="direct" genre="poet">대문자</quote>’에있지않다.</s>
+          <s>중요한것은저‘<quote type="direct" genre="poet">대문자</quote>’와‘<quote type="direct" genre="poet">소문자</quote>’들이이루는간극이다.</s>
+          <s>첫행에서‘<quote type="direct" genre="poet">목련화그늘</quote>’이라는서정적이며관례적인배경은“<quote type="direct" genre="poet"><lg type="stanza"><l>인적이끊긴광화문쯤의</l></lg><lg type="stanza"><l>오피스환기구</l></lg></quote>”에의해극단적으로취소된다.</s>
+          <s>광화문과오피스환기구가창출하는산문적이며실재적인공간성은 서정적 전언을 위해 대상을 도입하는 일반적인 문법에 균열을부른다.</s>
+          <s>그것은다음행의‘<quote type="direct" genre="poet">그대와나</quote>’역시마찬가지다.</s>
+          <s>‘<quote type="direct" genre="poet">그대와나</quote>’는‘<quote type="direct" genre="poet">그대와 나</quote>’라고 말하는 순간 부정되고, ‘그대’라는 서정시의 어휘는 ‘<quote type="direct" genre="poet">그대들</quote>’이라는 산문적이며 냉소적인 문체의 도전을 받는다.</s>
+          <s>‘<quote type="direct" genre="poet">술잔</quote>’과 ‘<quote type="direct" genre="poet">깜찍이 소다</quote>’,‘<quote type="direct" genre="poet">성냥</quote>’과‘<quote type="direct" genre="poet">라이터</quote>’의대립역시서정성의취소, 혹은약화에기여한다.</s>
+        </p>
+        <p>
+          <s>급기야, “<quote type="direct" genre="poet">잠든나무의이름을찾아헤매었지</quote>”라는서정적어조는“<quote type="direct" genre="poet">잠든나무?</quote></s>
+          <s>”라는직접적인<term type="concept">구어적반문</term>에부딪힌다.</s>
+          <s>이제저대문자의권위는전복된다.</s>
+          <s>완결되었던만상이갑자기지상으로떨어지자,<term type="concept">서정의우주</term>,혹은마음의 <term type="concept">인공정원</term>은 파괴된다.</s>
+          <s>그러자 문득, 그대와 내가 보인다.</s>
+          <s>그대와 나는지상으로추락한시의지평에서‘<quote type="direct" genre="poet">괴롭게</quote>’다시만난다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">나는이시의대문자와소문자를다소도식화하여해석했지만, 이시가서정성의균열안에서다른종류의시적풍요로움을얻고있는것은사실인것같다.</interp>
+          </s>
+          <s>사물과세계를서정적내면의‘<term type="concept">표상</term>’으로환원하는대신, 그서꽃들은세상을버리고�73정의 반대편에 사물과 세계의 ‘<term type="concept">산문적 진실</term>’을 유희적으로 대질시킴으로써, 저것은‘<term type="concept">균열의리얼리즘</term>’이라할만한것에접근한다.</s>
+        </p>
+        <p>
+          <s>그것은<term type="concept">서정</term>의<term type="concept">인공정원</term>에대한<interp value="critical" ana="미학">냉소적</interp>자세를<term type="concept">타이포그래피</term>층위에서드러낸다.</s>
+          <s>사물과사물사이의<term type="concept">유현서정시인</term>이속한일상적이며실재적인세계는<term type="concept">불화</term>와<term type="concept">모순</term>으로가득하지만, 이불화와모순들은<term type="concept">서정적영혼</term>의내부로편입되면서조화롭게‘<term type="concept">승화</term>’된다.</s>
+          <s>이말은<term type="concept">서정시인</term>이현실의<term type="concept">불화</term>에눈감는다는뜻이아니라,현실의불화에대해말할때조차, 그는어쩔수없이하나의가치와체계로밀폐된<term type="concept">서정적우주</term>안에서조화로울수밖에없다는뜻이다.</s>
+          <s>이조화로운<term type="concept">서정</term>의<term type="concept">인공정원</term>을완결시키는계기는다양하다.</s>
+          <s>그것은사랑일수도있고자연일수도있고종교일수도있고이데올로기일수도있다.</s>
+          <s>어느경우이건<term type="concept">서정시인</term>은괴로우면서도아득한마음의<term type="concept">도원경</term>을떠나지않는다.</s>
+          <s>이것은내면의리듬에기초해있는<term type="concept">서정시</term>의운명이라고할수있다.</s>
+          <s><term type="concept">서정시</term>의이오래된운명은대체로만상을자기화하는<term type="concept">서정적전유</term>의힘에의지하고있으며,잘알려져있듯이이전유의힘은<term type="concept">은유적구조</term>와근친관계이다.</s>
+        </p>
+        <p>
+          <s>여기서문제는미시적인<term type="concept">은유</term>하나하나가아니라, 미적‘<quote type="direct" genre="poet">전체</quote>’를관할하는은유적사유와체계이다.</s>
+          <s><term type="concept">서정시</term>가<term type="concept">은유</term>에친화력을보이는것은서정적 어법 자체의 필연적인 산물이다.</s>
+          <s>만상을 하나의 시선 안에 가둔 후의미를풍요롭게하는방법가운데가장오래된것이<term type="concept">은유</term>이므로이것은자연스럽다.</s>
+          <s>하지만<term type="concept">은유</term>와<term type="concept">서정</term>의밀월은이렇게간단히정리되지않는다.</s>
+          <s><term type="concept">은유적어법</term>의내부에서이미벌어지고있는다양한변주의풍경을좀더자세히살펴야한다.</s>
+          <s>아픈아이를끝내놓친젊은여자의흐느낌이들리는나무다처음맺히는열매는거친풀밭에묶인소의둥근눈알을닮아갔다74�특집│갈림길에선한국시와시비평후일에는기구하게폭삭익었다윗집에살던어름한형도이나무를참좋아했다숫기없는나도이나무를좋아했다바라보면참회가많아지는나무다마을로내려오면사람들살아가는게별반이나무와다르지않았다���<persName role="poet" xml:id="p-x3">문태준</persName>「<title level="a" type="poem" xml:id="t-x4">개복숭아나무</title>」『( <title level="m" type="poem" xml:id="t-x5">맨발</title>』,<orgName xml:id="org-x2">창비</orgName><date when="2004">2004</date>)전문「개복숭아나무」의 <term type="concept">서정적 진술</term>은 문태준((cid:11086)(cid:16725)(cid:15605))이 즐겨 쓰는 방식으로이루어진다.</s>
+          <s>개복숭아나무를가운데두고개복숭아나무와유비관계를이루는<term type="concept">은유</term>적대상들이나열된다.</s>
+          <s><term type="concept">은유</term>는하나의사물에대해유사한다른사물을덮어씌우는방식이며,이때두항의사물은바라보는자의의미영역으로 편입된다.</s>
+        </p>
+        <p>
+          <s>언뜻 보면 이 시 역시 이러한 양상에서 벗어나지 않는것같다.</s>
+          <s>하지만 <persName ref="#p-x3">문태준</persName>이 즐겨 쓰는 어법은 대상을 자아의 표상으로 환원하는일반적인<term type="concept">은유</term>와는다르다.</s>
+          <s>개복숭아나무가“<quote type="direct" genre="poet">아픈아이를끝내놓친젊은여자</quote>”와유비적관계를맺는순간, 여자가<term type="concept">보조관념</term>이되고개복숭아나무가 <term type="concept">원관념</term>이 되는 것은 아니다.</s>
+          <s>개복숭아나무의 열매는 또 “<quote type="direct" genre="poet">거친 풀밭에묶인소의둥근눈알</quote>”과<term type="concept">은유</term>적인관계를맺지만, 소의둥근눈알은개복숭아나무의열매를설명한후에도사라지지않는다.</s>
+          <s>그러니까저유비들은 <term type="concept">원관념</term>을 말하기 위해 보조적인 사물들을 끌어들인 후에도 그것들의<term type="concept">사물성</term>을폐기처분하지않는다.</s>
+          <s>젊은여자는개복숭아나무를형용하고사라지는것이아니라, 개복숭아나무곁에서울었던젊은여자로생생히살아있다.</s>
+          <s>마찬가지로소의눈망울은개복숭아나무의열매를설명하기위해헛것으로도입된것이아니라, 개복숭아나무곁에서여전히사실적인소의울음과더불어보존된다.</s>
+          <s><interp value="affirmative" ana="미학">대상들은서정적내면이설정하는소실점으로사라지지않는다.</interp>「<title level="a" type="poem" xml:id="t-x6">비가오려할때</title>」등『<title level="m" type="poem" ref="#t-x5">맨발</title>』의많은시편들이이런맥락에서언급될수있다.</s>
+        </p>
+        <p>
+          <s>산문적인듯가볍게말하면서도잘쓰이지않는한국어의아름다움을활용하여유려한시적리듬을구현하고, 여기에농꽃들은세상을버리고�75경적삶의아스라한풍경을겹쳐놓는것은<persName ref="#p-x3">문태준</persName>의장기이다.</s>
+          <s>이와더불어오래된사물과사물사이의<term type="concept">유현</term>((cid:14297)(cid:17322))을소묘하는저미묘하게‘<quote type="direct" genre="poet">다른</quote>’<term type="concept">서정</term>의어법은,그의시가지닌매력의비밀이기도하다.</s>
+          <s>낡았기때문에오히려낯설어져버린세계는이제저<term type="concept">토속적</term>공동체의감성안에서부드럽게살아난다.</s>
+          <s>물론그의시에는서정적권위의흔적이보일듯보이지않게남아있다.</s>
+          <s>앞에인용한시역시그렇다.</s>
+          <s>“<quote type="direct" genre="poet">바라보면참회가많아지는나무다</quote>”라는매력적인 구절과, “<quote type="direct" genre="poet">마을로 내려오면 사람들 살아가는 게 별반 이 나무와다르지않았다</quote>”는부드러운리듬을이어오면서, 개복숭아나무의사물성은서서히<term type="concept">서정적권위</term>의규율을받게된다.</s>
+          <s>개복숭아나무가결국사람들의삶과등가관계에놓이면서시가종결되는순간, 사물과사물의경계를흐릿하게 만드는 저 <term type="concept">서정적 유현</term>은 약화되고 <interp value="critical" ana="미학">서정의 자기규정은 강화된다</interp>.</s>
+          <s>개복숭아나무는사람들의곁에남아있지만, <interp value="critical" ana="미학">결국에는삶의곡진함을직접적으로유비하는보조적인지위로강등된다고할수있다.</interp></s>
+        </p>
+        <p>
+          <s><orgName xml:id="org-x3">로맨틱클럽</orgName>의<term type="concept">아이러니</term><term type="concept">서정성</term>은근본적으로하나의소실점을설정한다.</s>
+          <s>흔히<term type="concept">서정시</term>가세계를‘<term type="concept">주체의표상</term>’으로변환한다고말할때, 이‘<term type="concept">표상된세계</term>’는단일한시선의단일한 소실점을 중심으로 구획된다.</s>
+          <s>그것은 이른바 ‘<term type="concept">일점원근법</term>’의 세계다.</s>
+          <s>이<term type="concept">일점원근법</term>은가공의시간과공간을구축하며<term type="concept">서정적자아</term>의단일한시선을중개한다.</s>
+          <s>중세적자아의시선이‘<term type="concept">역원근법</term>’, 즉신과만상의자리를시선의출발점으로삼았다면, 그럼으로써인간적시선의부재를현현했다면, 근대 <term type="concept">서정시</term>들은 <term type="concept">일점원근법</term>이 관할하는 ‘시적 소실점’에 의해운용된다.</s>
+          <s>하지만어떤시들은소실점자체를삭제해버린다.</s>
+          <s>가령<persName role="poet" xml:id="p-x4">박정대</persName>((cid:11233)(cid:15237)(cid:9914))의시는<term type="concept">로맨틱한서정</term>의어법을극대화하면서도예의그소실점을설정하지않는다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이것은대단히과격한낭만주의이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>세계를하나의표상으76�특집│갈림길에선한국시와시비평로도입하는대신, <term type="concept">내면적공간</term>으로세계를대체해버린다.</s>
+          <s>그의<term type="concept">낭만적서정성</term>이이룩하는공간은공간성을거의박탈당함으로써만시적인공간이된다.</s>
+          <s>그래서그의시편들은, 흔히그를수식하는그‘<quote type="indirect" genre="critic">광활한공간</quote>’과‘<quote type="indirect" genre="critic">넓은시야</quote>’에의해설명될수는없다.</s>
+          <s>그의시편들은한번도<term type="concept">내면이라는공간</term>을벗어난적이없기때문이다.</s>
+          <s><persName ref="#p-x4">박정대</persName>의<term type="movement">로맨티시즘</term>이이루는광활한이동경로는그런의미에서<term type="concept">마음의지도</term>위에서만그려질수있다.</s>
+          <s>그를이해하는키워드는공간이아니라,다른차원에있는,<term type="concept">내면의음악</term>이다.</s>
+          <s>음악이야말로저<term type="concept">로맨틱한자유</term>의출발점이자종착지이다.</s>
+          <s><title level="a" type="poem" xml:id="t-x7">안녕하세요,투르니에</title>(cid:13093)*<title level="a" type="other" xml:id="t-x8">부에나비스타소설클럽</title>에는글로씌어진음악이있네그음악을따라몇개의階(cid:9863)을밟고오르면그계단의끝에는자작나무가있고자작나무노란잎사귀엔밤마다초생달이뜨네, 밤이면초생달의칼집에서검을꺼내어드는무사들,차가운겨울바람이내는음악소리에무사들은가끔씩가슴을베이기도하지만밤새자작나무작은잎사귀위를뛰어다니던무사들은새벽녘이면지붕위에누워나뭇잎천사들과오래도록, 바람이쓰고가는차가운(cid:12202)의문장에대해이야기하기도하네영혼의무게가사라진세계에서는허공을날아다니는무사들의음악이필요하네악사들,자신들의온몸으로음악을연주하는그들이바로영혼의무사들이지, 그들이연주하는음악은한없이낮고도투명한, 필사적인사랑의음계에닿아있네(…)나의짧은(cid:12202)은그녀에게로망명해가는음악일뿐이어서꽃들은세상을버리고�77수도원의골방에는바다를향한작은창문이하나있고녹슨촛불이있고그촛불아래엔내불멸의아내인아그네스가있네*안녕하세요,투르니에(cid:13093)그냥한번불러봤어요깊은밤에,글을쓰다가깊은밤에���<persName ref="#p-x4">박정대</persName>「<interp value="affirmative" ana="미학">안녕하세요,투르니에(cid:13093)」『( 아무르기타』,문학사상사2004)부분이 음악은 확실히 로맨틱하다.</interp></s>
+        </p>
+        <p>
+          <s><term type="movement">낭만주의</term>와 <term type="movement">상징주의</term>에 관여했던 ‘<term type="concept">음악의정신</term>’은비범한개별자의영혼에서발원하여모종의<term type="concept">내면성</term>, 혹은모종의‘<quote type="direct" genre="poet">본질적</quote>’ 세계에대한희구를동력으로삼는다.</s>
+          <s>그의시가사곶해안을거쳐몽골과하노이를지나아프리카의초원까지를헤맬때,그모든공간들은그의내면이상정하는‘<quote type="direct" genre="poet">본질적초원</quote>’의일부가된다.</s>
+          <s>
+            <interp value="neutral" ana="미학">하지만지금그에게서우리가보아야할것은낭만성과탈낭만성의미묘한긴장이다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="미학">자작나무와초생달과칼든무사들이있는저로맨틱한풍경은유희적맥락안에서스스로위태로운위치에놓이게된다.</interp>
+          </s>
+          <s>그의화자는‘<term type="concept">영혼</term>’의‘<term type="concept">수도원</term>’에기거하지만, 이‘수도원’은엄정한자기검열과<term type="concept">금욕주의</term>를통해영혼의자유를추구하는오래된<term type="movement">낭만주의</term>의수도원이아니다.</s>
+          <s>“<quote type="direct" genre="poet">영혼의무게가사라진세계</quote>”와싸우는그의무사들역시,실은“영혼의무게가사라진” 저음악적허공을날아다닐뿐이다.</s>
+          <s>이극단적인자유는역설적으로<term type="concept">서정</term>의‘권위’조차무력하게만들어버린다.</s>
+          <s>이지점이중요하다.</s>
+        </p>
+        <p>
+          <s>궁극적으로<persName ref="#p-x4">박정대</persName>의<title level="a" type="poem" xml:id="t-x9">수도원</title>은, “<quote type="direct" genre="poet"><lg type="stanza"><l>안녕하세요투르니에(cid:13093), 그냥한번불러</l></lg><lg type="stanza"><l>봤어요</l></lg></quote>”라는 <term type="concept">무책임</term>한 결구로 환원되는 것이다.</s>
+          <s>당연하게도 우리는 이것을<term type="concept">윤리적의미의무책임</term>과혼동해서는안된다.</s>
+          <s>이것은<term type="concept">미적무책임</term>이며그런의미에서감각적인무책임이다.</s>
+          <s>그는자신의<term type="concept">낭만적서정</term>이재현하78�특집│갈림길에선한국시와시비평거나재연하는세계에대해어떤‘책임’도부과하려하지않는다.</s>
+          <s>‘책임’에무심한것이아니라, 적극적으로‘책임’의영역을방기하는것이다.</s>
+          <s>이것은<term type="concept">미적 방기</term>이다.</s>
+          <s>이러한 <term type="concept">미적 방기</term>가 “<quote type="direct" genre="poet">부에나 비스타 소설 클럽</quote>”이라든가“<quote type="direct" genre="poet">로맹가리노가리</quote>”같은맥락없는<term type="concept">언어유희</term>를가능하게만든다.</s>
+          <s>아마도소실점이사라진이<term type="movement">내면적로맨티시즘</term>과‘무책임한’ 유희에대해서는다양한주석이가능할것이다.</s>
+        </p>
+        <p>
+          <s>하지만우리의맥락에서보면,저<term type="concept">영혼의무중력상태</term>는기이하게도서정적인‘권위’의약화를초래한다고말할수있다.</s>
+          <s>이권위의약화가, <persName ref="#p-x4">박정대</persName>특유의<term type="concept">감상적이되유장한리듬</term>과함께넓은의미의<term type="concept">아이러니</term>에도달하는지점을살펴볼필요가있다.</s>
+          <s>그것은<term type="concept">전래의서정</term>과는전혀다른지점에가닿는다.</s>
+          <s><term type="concept">서정</term>바깥의서정전래의서정이라고는했지만<term type="concept">서정시</term>에‘<term type="concept">기원</term>’같은것은없다.</s>
+          <s><persName role="foreigner" xml:id="p-x5">니체</persName>이래‘<term type="concept">기원</term>’이나‘<term type="concept">계보</term>’같은개념들이끊임없이부정되는것은,그것들이규칙과본질과<term type="concept">위계질서</term>를만들어은밀히강요하기때문이다.</s>
+          <s>그개념들은관념과체계안에갇혀있으며그래서변신을제한한다.</s>
+          <s>그것은살아있는것의존재방식이아니다.</s>
+          <s>시와<term type="concept">서정</term>은무한히흔들리며변해왔을뿐‘<term type="concept">기원</term>’ 따위를지니지않는다.</s>
+        </p>
+        <p>
+          <s>이말은‘<term type="concept">전통</term>’ <term type="concept">서정시</term>들을현대한국시의‘<term type="concept">기원</term>’으로설정하는우리의무심결을 부정할 필요가 있다는 뜻이다.</s>
+          <s>‘<term type="concept">기원</term>’을 설정하고 ‘<term type="concept">일탈</term>’의 각도를측정하는순간, 우리는<term type="concept">현대적서정</term>의많은부면((cid:11779)(cid:10894))들을잃게된다.</s>
+          <s>‘<term type="concept">전통</term>’은다양한문학적역학에참조항을이루는문학적기억의일부이지만,복원하거나귀환해야할‘<term type="concept">원형</term>’이나예외적으로존중받아야할‘<term type="concept">근원</term>’이아니기때문이다.</s>
+          <s>그런의미에서<term type="concept">전통</term>의‘<term type="concept">해체</term>’는지금출현하고있는새로운시들의핵심적인과제가아니다.</s>
+          <s>그들은그들의<term type="concept">개별자적감각</term>안에서이미일정한‘<term type="concept">보편적</term>’ 감성을형성하고있으며, 그<term type="concept">당대적감성</term>의지평위에서이합집산하고있기때문이다.</s>
+          <s>그들은‘<term type="concept">기원</term>’이나‘<term type="concept">계보</term>’를의식하거나꿈꽃들은세상을버리고�79꾸지않는다.</s>
+          <s>그러므로‘<term type="concept">서정적자기동일성의해체를통한근대의극복</term>’이라는 우리 시대의 낡은 명제를 반복하는 것은 이제 지루한 일이다.</s>
+          <s>지금많은시인들에게‘<term type="concept">해체</term>’와‘<term type="concept">균열</term>’은이상적상태를전제로한결여의상태가아니라그저삶의당연한조건이다.</s>
+        </p>
+        <p>
+          <s>무엇보다도, 그들은<term type="concept">해체</term>를해체로의식하지않으며<term type="concept">균열</term>을균열로의식하지않는다.</s>
+          <s>그런의미에서는‘해체’도‘균열’도없다.</s>
+          <s>오늘의시인들은그저자연스럽게<term type="concept">서정</term>의영토를넓혀간다.</s>
+          <s>이제많은시인들은본능적으로‘<quote type="direct" genre="poet">자신</quote>’의목소리에염증을느낀다.</s>
+          <s>그래서때로시인들은다른이의목소리를시안으로끌어들이기도한다.</s>
+          <s>시장르는생래적으로‘<quote type="direct" genre="poet">수많은말들</quote>’의물리적현현이지극히제한적으로만가능하다.</s>
+          <s>시의물리적 제한성은 소설처럼 말과 말 사이의 내밀한 <term type="concept">권력투쟁</term>을 허락하지않는다.</s>
+          <s>이경우시의<term type="concept">타자</term>들은<term type="concept">아이러니</term>의지원아래미묘한방식으로시에틈입한다.</s>
+        </p>
+        <p>
+          <s>실습용재료같은사내와여자가나란히검은주유기를제옆구리에꽂고서있다그들은서울의밤이꿈대신에선택한텍스트이다허공의미터기에서그들의몸까지는부패한내장같은검은호스가늘어졌고주유기의금속성손잡이는옆구리앞에서멈추었다그들은두발을각각흰정지선앞에멈추었다오아시스같은붉은간판은허공에있다우리는언제나조금더길을가야한다지도를내장한몸은어둡고뻑뻑하다미터기가쉴새없이돌아가지만사내와여자의주유량은어디에도표시되지않는다80�특집│갈림길에선한국시와시비평판독되지않는그들의그림자가도로로흘러넘쳤다밤의표면은접시처럼미끄럽고불안하다서울은텍스트인사내와여자를퓨즈처럼갈아끼우기시작한다밤의흐린불속에공기가철근처럼삐죽삐죽뽑혀져있다���<persName role="poet" xml:id="p-x6">이원</persName>「<title level="a" type="poem" xml:id="t-x10">서울의밤그리고주유소</title>」『( 야후!</s>
+          <s>의강물에천개의달이뜬다』,<orgName ref="#org-x">문학과지성사</orgName>2001)전문<interp value="critical" ana="미학">이시는환상시가아니다</interp>.</s>
+          <s>사내와여자가주유기를옆구리에꽂고있는것은환상이아니라몸과자동차의의도적혼종에의한‘<term type="concept">시적착란</term>’이다.</s>
+          <s>이는인간의몸에‘<quote type="direct" genre="poet">플러그</quote>’를꽂는<persName ref="#p-x6">이원</persName>특유의시적‘<quote type="direct" genre="poet">(cid:14826)(cid:10247)</quote>’들과같은맥락에있다.</s>
+          <s>작란, 혹은착란과더불어, 시인은도시야경의한장면에확대경을들이대는방식으로<term type="concept">그로테스크</term>한화면을연출한다.</s>
+          <s>이<term type="concept">그로테스크</term>는,서정적진술이아니라건조한이미지에의거하는<interp value="affirmative" ana="미학">이원의집요한시적본능에힘입고있다</interp>.</s>
+          <s><interp value="affirmative" ana="미학">이미지는그가세계를바라보는출발점이자종착지이다</interp>.</s>
+          <s>하지만이시는이런일반적인해석을벗어나는몇가지흥미로운특징을보여준다.</s>
+        </p>
+        <p>
+          <s>우선이것은‘<term type="concept">서정시</term>’가아니다.</s>
+          <s>당연히일인칭화자의<term type="concept">파토스</term>는보이지않고, 부드러운인간의몸을기계의일부로치환하는화자의건조한묘사가지배적이다.</s>
+          <s>그런데이<term type="concept">건조한묘사</term>가‘<term type="concept">유사서정성</term>’에의해혼탁해지는지점이있다.</s>
+          <s>4연첫행부터시작된이오염은미묘하게<term type="concept">서정적</term>이다.</s>
+          <s>“<quote type="direct" genre="poet">우리는언제나조금더가야한다</quote>” 같은구절은주유소에서급유를받는이현대적기계인간들의지극히‘<term type="concept">사실적인</term>’숙명이다.</s>
+          <s>정말이지그들은 주유소에 머물 수 없는 것이다.</s>
+          <s>이 사실적인 관찰이 <term type="concept">복수 일인칭의서정성</term>을 통해 느낌을 확장해가는 지점에 이 시의 ‘<term type="concept">서정적</term>’ 매력이 있다.</s>
+          <s>“<quote type="direct" genre="poet">밤의표면은접시처럼미끄럽고불안하다</quote>”라거나“<quote type="direct" genre="poet">밤의흐린불</quote>” 같은감꽃들은세상을버리고�81상적인표현들은, 저도시공간내부에배치된사내와여자의것이다.</s>
+        </p>
+        <p>
+          <s>이지점에서<persName ref="#p-x6">이원</persName>은<term type="concept">서정적감각</term>을본능적으로타자화하는능력을보여준다.</s>
+          <s>저인물들의<term type="concept">불안</term>은일인칭화자의<term type="concept">서정적불안</term>과달리미묘하게객관화된채독서과정에편입된다.</s>
+          <s>이것은일종의<term type="concept">아이러니</term>라고할수있지만,이아이러니에의해저‘<quote type="indirect" genre="poet">주유소의밤</quote>’이유발하는<term type="concept">불안</term>은우회적으로우리모두의불안과만나게된다.</s>
+          <s>이만남은시의표층이아니라심층, 혹은시의내부가아니라외부에서이루어진다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">아이러니는은밀하게시를풍요롭게만든다.</interp>
+          </s>
+          <s>다음의시역시그예가될수있다.</s>
+          <s><quote type="direct" genre="poet" source="공놀이"><lg type="stanza"><l>아이들공놀이를하고거짓말같이공이떠오르고엄마는멀리그늘에서고</l></lg><lg type="stanza"><l>구마의어린순을다듬고손끝에핏물곱게들고나팔꽃지지배배몰래울고</l></lg><lg type="stanza"><l>지나갈비가지나고거짓말같이옷이마르고</l></lg><lg type="stanza"><l>공원에는시작되는연인들끝나는연인들쌍을지어날아오르고못본척</l></lg><lg type="stanza"><l>즐겁게춤을추다가그대로멈출수있는아이들멈추지않고자라고또자라</l></lg><lg type="stanza"><l>서,내오랜엄마는어둡고</l></lg><lg type="stanza"><l>팬지는차갑게웃고지고</l></lg><lg type="stanza"><l>공놀이에는무엇이필요한가왜필요한가</l></lg></quote>���<persName role="poet" xml:id="p-x7">이근화</persName>「공놀이」『( <title level="j" type="journal" xml:id="t-x11">리토피아</title>』<date when="2005">2005년봄호</date>) 전문풍경들은공놀이와함께흩어져있다.</s>
+          <s>아이들이있고나팔꽃이있고연인들이있고팬지가있다.</s>
+        </p>
+        <p>
+          <s>그들은고구마의어린순을다듬는한여자를‘<quote type="direct" genre="poet">엄마</quote>’라고부르는서정적화자를중심으로배치된다.</s>
+          <s>그리고화자는“<quote type="direct" genre="poet">내오랜엄마는어둡고</quote>”라고적는다.</s>
+          <s>풍경들은금방이라도이<interp value="neutral" ana="미학">애잔한</interp>화자가이루는마음의소실점으로사라져버릴것처럼위태롭다.</s>
+          <s>하지만이시속의만상은끝끝내그서정의블랙홀로사라져버리지않는다.</s>
+          <s>아이들이놀며던지는공은‘<quote type="direct" genre="poet">엄마</quote>’의어둠속으로사라지지않고여전히허공에떠오른다.</s>
+          <s>연82�특집│갈림길에선한국시와시비평인들은 만나고 사랑하고 헤어진다.</s>
+          <s>또 지나갈 비는 지나고, 옷은 마르는것이다.</s>
+          <s>전래의<term type="concept">서정시</term>라면저거짓말처럼마르는옷은엄마를바라보는화자의내면이나생의‘<term type="concept">비의</term>’를가리키고는단일한의미망속으로사라져버렸을것이다.</s>
+        </p>
+        <p>
+          <s>하지만거짓말처럼마르는옷은화자의내면으로환원되지않으면서미묘한<term type="concept">서정성</term>을유지한채그저풍경안에걸려있다.</s>
+          <s>그것은마음의표상으로환원될듯결국환원되지않는다.</s>
+          <s>저사물들과화자의사이에는건널수없는<term type="concept">아이러니</term>적거리가전제되어있는것이다.</s>
+          <s>“<quote type="direct" genre="poet">즐겁게춤을추다가그대로멈</quote>”추는아이들의경쾌한리듬을무심하게흘려보내는이감각은전래의<term type="concept">서정적감각</term>이아니다.</s>
+          <s>모든것을제느낌과깨달음과전언에귀속시키는<interp value="neutral" ana="미학">서정의권위가여기에는없다.</interp></s>
+          <s><interp value="neutral" ana="미학">삶의무게와의미를 전하는 서정시의 소실점은 사라지고</interp>, “<quote type="direct" genre="poet">공놀이에는 무엇이 필요한가왜필요한가</quote>”라는,질문아닌질문의매력적인서정만이남는다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이것은서정바깥에서이루어지는서정이다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">서정은서정의내부로내려가서정자체를넘어선다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그바깥에있는것은물론, ‘<term type="concept">반((cid:11249))서정</term>’이아니라 ‘<term type="concept">다른서정</term>’이다.</s>
+          <s>이제우리는<term type="concept">서정</term>의끝까지가서서정의‘<term type="concept">관례</term>’를극복해버리는풍경을보게된다.</s>
+          <s><quote type="direct" genre="poet" source="거꾸로선꿈을위하여2"><lg type="stanza"><l>미안해,나는성욕을딱잃고말았다</l></lg><lg type="stanza"><l>왜사람들은날걱정할까</l></lg><lg type="stanza"><l>순두부처럼살고싶었다</l></lg><lg type="stanza"><l>말도안돼</l></lg><lg type="stanza"><l>지금부턴너를독점하리라</l></lg><lg type="stanza"><l>랍비가있는풍경이날웃게했다</l></lg><lg type="stanza"><l>공동번역성서를읽고있는평양의인민들,</l></lg><lg type="stanza"><l>나는수령이란낱말을찾아레위기를헤맨다</l></lg><lg type="stanza"><l>누가내몸안에서섹스를하나봐</l></lg><lg type="stanza"><l>헐떡이는소리,세살이후부터끊이지않고있다</l></lg><lg type="stanza"><l>나를사랑하는헬리콥터조종사가머리위에서붕붕거린다</l></lg><lg type="stanza"><l>그는흑인이다</l></lg><lg type="stanza"><l>꽃들은세상을버리고</l></lg></quote>�83편견이곧나다;나를버리기란…그를쫓아주세요외국군대에언제까지의지해야하나미국이잘되는이유는리더스다이제스트에다들어있다나는불타고있는데,아무데도맞불은보이지않아미끼라도물고싶어결혼식장이어물전같아비리지않은여자를만나고싶다기고싶다,비비고싶다,까고싶다내인생은재즈라기보단헤비메탈이다내서정의목은늘쉬어있다���<persName role="poet" xml:id="p-x8">진이정</persName>「<title level="a" type="poem" xml:id="t-2">거꾸로선꿈을위하여2</title>」『( 거꾸로선꿈을위하여』,<orgName xml:id="org-x4">세계사</orgName><date when="1994">1994</date>)부분10년 전에 발간된 시집에서 옮겨적은 이 시는 압축과 절제, 그리고 말의정교한활용같은<interp value="neutral" ana="미학">서정시의관습을온전히무시한자리에서시작된다</interp>.</s>
+          <s>저<term type="concept">파편적인내면성</term>(들)은분별없이쏟아져나와기약없이섞여버린다.</s>
+          <s>맥락을무시하고의식의흐름에의지해문장들을병치하는것은가장손쉬운시작법((cid:12936)(cid:14826)(cid:11458))일수있으며, 그런의미에서저혼돈스러운화자의지껄임을‘<term type="concept">새로운서정</term>’의모범적사례로제시하기는어려울지도모른다.</s>
+          <s>그럼에도불구하고<interp value="affirmative" ana="미학">이내면적카니발리즘의언어들은우리의논의에의미있는시사를던져준다.</interp></s>
+          <s>‘<quote type="direct" genre="poet">성욕</quote>’과‘<quote type="direct" genre="poet">순두부</quote>’와‘<quote type="direct" genre="poet">평양의인민들</quote>’과‘<quote type="direct" genre="poet">레위기</quote>’와‘<quote type="direct" genre="poet">리더스다이제스트</quote>’까지한달음에내닫는저<term type="concept">당대적언어의박물지</term>는그들사이에<interp value="neutral" ana="미학">의미의위계를허용하지않는다</interp>.</s>
+          <s>말들은들끓고, 들끓는말들은<term type="concept">수평적역학관계</term>안에서좌충우돌한다.</s>
+        </p>
+        <p>
+          <s>행과행사이의저좌충우돌을통해서정적발화의권위는극단적으로약화된다.</s>
+          <s>화자의말은화자의말을취소하고, 화자의어휘는화자의어휘와충돌한다.</s>
+          <s>가령“<quote type="direct" genre="poet">편견이곧나다</quote>”라는문장은진리치를내재한잠언이아니며, 시인자신의단순한반성문이 되지 않는다.</s>
+          <s>마찬가지로 “<quote type="direct" genre="poet">외국 군대에 언제까지 의지해야 하나</quote>”라는의문문은단선적인정치적주장과무관하다.</s>
+          <s>그것들은말과말사이에서서로를밀어내고허용하고승화시키면서, 궁극적으로표층의말과는다른84�특집│갈림길에선한국시와시비평잠언, 다른반성, 다른정치학을현시한다.</s>
+          <s>이것은미적인용광로이다.</s>
+          <s>섹스에서정치에이르는이질적인삶의부면들은행과행사이,시인과독자사이에서산문으로는번역불가능한의미망을이루며다시태어난다.</s>
+          <s>강력한일인칭의자아가이보이지않는부활의동력이다.</s>
+        </p>
+        <p>
+          <s>이제저시행들은서로에게절대적입지를허용하지않는<term type="concept">기이한서정성</term>을이룩한다.</s>
+          <s>이<term type="concept">서정성</term>안에서화자는시인이면서시인이아니다.</s>
+          <s>시인은화자(들)의말에자신을투사하지만, 그말들은<interp value="neutral" ana="미학">진리가되기를거부하고역동적인개별자의언어로남는다</interp>.</s>
+          <s>모든발화는그래서‘시인’을부정하는‘타자’의언어가된다.</s>
+          <s>여기서‘타자’의언어는‘<quote type="direct" genre="poet">남의말</quote>’이아니라<term type="concept">서정적독백의권위를버린말</term>을의미한다.</s>
+          <s>이제<interp value="affirmative" ana="미학">저어지러운말들은시를거부하고,이거부에의해역설적으로시에도달한다</interp>.</s>
+          <s>“<quote type="direct" genre="poet">내서정의목은늘쉬어있다</quote>”고화자는말한다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이것은우리에게상징적이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>‘<term type="concept">목쉰 서정</term>’이야말로, 일상어와 시어의 사이, 관례와 새로움의 사이, 개인과사회의사이, 현실과희망의사이에개입하여, 그만상의곡절들을가장시적으로반영하는방법인지도모른다.</s>
+          <s>풍자가아니라자살이다요컨대문제는, <term type="concept">서정</term>자체가아니라서정의‘권위’이다.</s>
+          <s>이것은문체차원에서겸허한어조가중요하다는말이아니다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">사물과의미에대해소실점과위계질서를설정하려는시적무의식을피하는것이중요하다.</interp>
+          </s>
+          <s>이것은‘내용’의문제가아니라<term type="concept">미학</term>의문제다.</s>
+          <s><term type="concept">서정시</term>가마음의‘<term type="concept">도원</term>’을버리고‘<term type="concept">진리</term>’를버리고결국‘<term type="concept">시인</term>’을버린다는것.</s>
+          <s>여기에‘<term type="concept">새로운서정</term>’의미래가있는지도모른다.</s>
+          <s>이제시는개별화된말과감각과<term type="concept">세계관</term>들이이합집산하는공간이된다.</s>
+        </p>
+        <p>
+          <s>여기서<term type="concept">개별화된언어</term>라는것은개인적이거나자폐적이거나암호화된언어라는뜻이아니라, <term type="concept">서정적진리</term>와권위와위의((cid:14268)(cid:14492))를본능적으로거부하는언어를뜻한다.</s>
+          <s>이거부에의해<interp value="affirmative" ana="미학">서정시의완결성과순수함이훼손되는것을궁극적으로용인하는일, 그것이중요하다.</interp></s>
+          <s>꽃들은세상을버리고�85여기에는‘<quote type="direct" genre="poet">미적인</quote>’ 용기가필요하겠지만, 이용기를통해서만, <interp value="affirmative" ana="미학">서정시는비로소진정한자유를누릴수있을지도모른다.</interp></s>
+          <s>이제<term type="concept">보이지않는전체</term>와<term type="concept">개별화된파토스</term>사이에서‘<term type="concept">다른서정시</term>’들이태어난다.</s>
+          <s>그‘<quote type="direct" genre="poet">사이</quote>’로사물들이진입하고 이질적인 자아가 드러나고 다른 세상들이 틈입한다.</s>
+          <s>그제서야시는관례와깨달음이아니라진짜<term type="concept">세계감각</term>들을현시할수있다.</s>
+          <s>이제세계는말하는자의표상이기를멈추고,말하는자가세계의표상이된다.</s>
+          <s>그런의미에서우리는, “<quote type="direct" genre="critic" source="김지하">풍자냐, 자살이냐</quote>”라는<persName role="poet" xml:id="p-x9">김지하</persName>의유명한명제를다른맥락으로전용하여이렇게말할수있다.</s>
+        </p>
+        <p>
+          <s>대상에대한시인의압도적우위를 전제로 하는 ‘<term type="concept">풍자</term>’가 아니라, <term type="concept">서정적 권위</term>를 지닌 시인의 미학적‘<term type="concept">자살</term>’이필요하다.</s>
+          <s>역설적이지만, 삶과세계와자신의감각에충실한시의‘<term type="concept">진정성</term>’과넓은의미의‘<term type="concept">풍자</term>’는, 이러한미적‘자살’에의해비로소성취될는지도모른다.</s>
+          <s>이제시인은언어들을서정적으로규율하여‘<term type="concept">진리</term>’를기술하고자하는‘<term type="concept">권력</term>’을반납하고, 이세계에미만((cid:11197)(cid:10829))한수많은말들가운데 하나인 말을, 힘겹게 발설한다.</s>
+          <s>그는 유일하고 절대적인 말을 버리고,무한히변신하고증식하고경쟁하는말들을허용한다.</s>
+          <s>이‘<term type="concept">자살</term>’을통해서,<term type="concept">서정시인</term>은다시태어난다.</s>
+          <s>어쩌면그경우, 우리는다음과같은시를‘<term type="concept">서정시</term>’로승인하게될는지도,혹시모른다.</s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>태양남자애인하나없이46억년동안하루도빼놓지않고지구를비췄다</l>
+              </lg>
+              <lg type="stanza">
+                <l>왜무엇때문에무슨영화((cid:13672)(cid:17646))를누리겠다고.</l>
+              </lg>
+            </quote>
+          </s>
+          <s><quote type="direct" genre="poet"><lg type="stanza"><l>여름,일년에한번나자신을</l></lg><lg type="stanza"><l>강렬하게책망했다</l></lg><lg type="stanza"><l>늙은나무들과수원바닥에사과배대추감,열매들이떨어질땐너희들이</l></lg><lg type="stanza"><l>먹어도좋다는게아니고우리들이또한번포기했다는뜻이다,가을</l></lg><lg type="stanza"><l>미스터정키어떤계절은남녀를가리지않을정도로뜨겁고또어떤계절</l></lg><lg type="stanza"><l>은순식간에싸늘해져서남자도여자도그어느누구도사랑할수없을정도</l></lg><lg type="stanza"><l>로뿌리부터차가워지지</l></lg></quote>86�특집│갈림길에선한국시와시비평<quote type="direct" genre="poet"><lg type="stanza"><l>힙합소년j친구들은늘우정이어쩌구선후배가어쩌구떠들어대지만스</l></lg><lg type="stanza"><l>윗숍(sweet shop) 앞을지날때면부모형제도몰라봅니다친구들은커서달</l></lg><lg type="stanza"><l>콤한가게의핌프(pimp)가되겠죠</l></lg><lg type="stanza"><l>나는다릅니다나는생각이있어요붓질을잘하면도배사하지만글을배</l></lg><lg type="stanza"><l>워서서기((cid:12218)記)가되지는않을거예요</l></lg></quote><quote type="direct" genre="poet"><lg type="stanza"><l>이소룡청년차력사인아버지의쉴새없는잔소리에머리가늘깨질듯이</l></lg><lg type="stanza"><l>아팠다쌍절곤휘두를힘도없다가끔정키씨를불러리밍을시켰다</l></lg></quote><quote type="direct" genre="poet"><lg type="stanza"><l>저팔계여자벽을따라게처럼걸었어요귀에는이어폰을꽂고볼륨을높</l></lg><lg type="stanza"><l>였지만 녀석들의 킬킬거리는 소리가 땅 파는 기계처럼 내 몸을 흔들었</l></lg><lg type="stanza"><l>죠……</l></lg><lg type="stanza"><l>그러나더는울지않는여자,거리의핌프들에게심한모욕을당한뒤방문</l></lg><lg type="stanza"><l>을걸어잠그고날마다순돈육소시지를먹었다</l></lg></quote><quote type="direct" genre="poet"><lg type="stanza"><l>그리고겨울날개를가진짐승들은모두남부해안으로떠나고이제비유</l></lg><lg type="stanza"><l>없이는한발짝도전진할수없는계절</l></lg><lg type="stanza"><l>깊은밤이었고눈이내렸다</l></lg><lg type="stanza"><l>스윗숍에서부터시작된불길은에로틱파괴어린빌리지전체로번져나갔다</l></lg><lg type="stanza"><l>늙은나무들은포기를모르고맹렬히타올랐다</l></lg><lg type="stanza"><l>힙합소년j는달콤한가게의구석방에서창녀셋과뒤엉킨채숯불구이가</l></lg><lg type="stanza"><l>되었고</l></lg><lg type="stanza"><l>이소룡청년은차력사인아버지를때려눕히고아비요!</l></lg></quote></s>
+        </p>
+        <p>
+          <s>교성을지르며늙은남자의항문에쌍절곤을쑤셔박았다죽음도삶도아닌세계,붉은해초들이피어오르는환각속에서미스터정키는끝없이헤엄쳐나갔고태양남자,언덕위에누워46억년만의휴식처럼<title level="a" type="poem" xml:id="t-x12">에로틱파괴어린빌리지의겨울</title>을내려다보았다꽃들은세상을버리고�87누가만든불일까,잘탄다저팔계여자는순돈육자지를달고불속을걸었다���<persName role="poet" xml:id="p-x10">황병승</persName>「에로틱파괴어린빌리지의겨울」『( <title level="j" type="journal" xml:id="t-21">파라21</title>』<date when="2004">2004년</date>겨울호)전문�<title level="m" type="poem" xml:id="t-x13">목숨</title> <persName role="poet" xml:id="p-x11">박진성</persName>시집`/`<orgName xml:id="org-x5">천년의시작</orgName>`/`값6,000원<title level="m" type="poem" xml:id="t-x14">날으는고슴도치아가씨</title> <persName role="poet" xml:id="p-x12">김민정</persName>시집`/``<orgName xml:id="org-x6">열림원</orgName>`/`값6,000원88�특집│갈림길에선한국시와시비평</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

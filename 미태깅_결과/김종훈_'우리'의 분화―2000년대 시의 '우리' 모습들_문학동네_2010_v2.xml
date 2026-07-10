@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>'우리'의 분화―2000년대 시의 '우리' 모습들</title>
+        <author>김종훈</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>특집 우리는 누구인가?</s>
+          <s>2—<date when="2010">2010년</date>,)<term type="concept">한국문학</term>의 주체‘<term type="concept">우리</term>’의 분화—<date from="2000" to="2009">2000년대</date> 시의 우레 모습들<persName role="critic" xml:id="p-x">김종훈</persName>1나와 '너’가 접촉하며 생겨난 ‘우리 는 뜨겁다.</s>
+          <s>이들은 사랑이라는 이름 아래 ‘<quote type="direct" genre="other">나는 너다</quote>라는 기적의 순간을 체험하는데, 그 순간이 짧은 까닭은 ‘너’가 이내 ‘그’의 위치로 옮겨가기 때문이다.</s>
+          <s>'나'와 ’너’와 ‘그’가접촉하며 생겨난 '우리’ 역시 뜨겁다.</s>
+          <s>이들은 더 나은 미래라는 이름 아래 뭉치고, 서 로의 위치가 바뀔 수 있다는 사실을 인정하며 <term type="concept">공동체</term>를 형성한다.</s>
+          <s>그 시간이 지속되지 않는 경우는 '나의 독단이나 ‘<quote type="direct" genre="poet">그것</quote>’의 출현이 삼각관계의 균형을 무너뜨릴 때이다.</s>
+          <s>시에서 ‘<term type="concept">우리</term>’의 모습은 대개 나를 중심으로 연출된다.</s>
+          <s>좋은시는 ‘나’와 ’너’가 합일하는순간이나 ‘그것’이 출현했을때의 위력이 나 ’나'와 '너/그:가서로 조명하며 생기는 미지의 영역 중 적어도 하나를 그 대로보여준다.</s>
+        </p>
+        <p>
+          <s>그러나평범한시는 ‘나’가 ‘그’를 ‘너’로.</s>
+          <s>‘그것'을 ‘그’로착 각하거나, '너’와 ‘그’의 자리까지 뺏은 모습을 보여준다.</s>
+          <s><term type="concept">평범함</term>은 대개 시 에서 전대의 유산으로 인식된다.</s>
+          <s><persName role="critic" xml:id="p-x2">이광호</persName>는 <persName role="poet" xml:id="p-x3">이근화</persName>의 시집 r우리들의 진회引<orgName xml:id="org-x">문학과지성사</orgName>.</s>
+          <s><date when="2009">2009</date>) 해설에서 전대의 ‘우리’와 <date from="2000" to="2009">2000년대</date> '우리’를 나누고 그 특성을 다소 길게 설명했다;“（이근화 시의） 그 조용한 전위성은 ‘<quote type="direct" genre="critic" source="이광호">우리의 감정</quote>’에 대해 적극적이고 투명하 게 발언함으로써 오히려 그 <term type="concept">집단적 주체화</term>의 무게를 비워버리는 <term type="concept">익명적 차 원</term>을 획득한다.</s>
+          <s>‘<quote type="direct" genre="critic" source="이광호">우리의 서정성</quote>’은 ‘우리’라는 호명의 반복과 무한증식을 통 해 오히려 ‘<quote type="direct" genre="critic" source="이광호">타자와의 차이를 무화시킨다</quote>.</s>
+          <s>그곳에서 일어나는 것은 ‘<term type="concept">우리의 서정성</term>’의 <term type="concept">내파</term>이다.</s>
+          <s>‘<quote type="direct" genre="poet">우리</quote>’와 ‘<quote type="direct" genre="poet">감정</quote>’이라는 <term type="concept">집단적 동일성</term>과 <term type="concept">낭만적 진정성</term> 의 권위는 <term type="concept">비인칭</term>의 공간 속으로 가볍게 흩어진다.</s>
+        </p>
+        <p>
+          <s>거기서 ‘<term type="concept">우리의 감정</term>’은 아주 이상한 방식의 ‘<term type="concept">진화</term>’를 경험한다.</s>
+          <s>그 <term type="concept">진화</term>는 생물학적 의미의 진화가 아니라, <term type="concept">역 （逆） 진화</term>와 <term type="concept">퇴화</term>를 포함하는 진화, <term type="concept">감정의 주체화</term>를 무너뜨리는 ‘<term type="concept">시적인 것</term>’ 자체의 이행이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 진화는 이근화의 진화가 아니라, 2000년대 한국시가 이루어낸 또 한번의 경쾌하고 불길한 도약이다.</interp>
+          </s>
+          <s>”0'<term type="concept">집단적 동일성</term>’과 ‘<term type="concept">낭만적 진정성</term>’의 권위는 사적 전개과정에서 나타난 시의 특성 중 대표적인 것 두 가지로 인식되고 있다.</s>
+          <s>이는 다시 ‘<term type="concept">집단적 주체 화</term>’ ‘<term type="concept">감정의 주체화</term>’로 요약할 수 있는데, 나’의 독단과 나의 착각이 접합하 며 이루어낸 결과 또한 이와 같다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">2000년대 새로운 목소리를 낸 시인들은 거 의 이 특성을 벗어난다.</interp>
+          </s>
+          <s>‘<quote type="direct" genre="poet">아주 이상한 방식의 진화</quote>’가 <persName ref="#p-x3">이근화</persName>의 시에서만 이 루어진 것은 아니라는 뜻이다.</s>
+          <s>이 이상한 방식이 수행되기 위해서는 흐트러 뜨릴뚜렷한 ‘<term type="concept">우리</term>’가 필요하다.</s>
+        </p>
+        <p>
+          <s>그것은 나와 ‘너 /그:가 희미해지는 방식으 로, ‘<term type="concept">우리</term>’가 놓인 세계 또한 모호해지는 방식으로, 지금까지 구분할 필요가 없었던 화자와 ‘나’나 청자와 M’ 사이를 갈라놓는 방식으로.</s>
+          <s>또는 ‘나’와 ‘너’와 ‘그의 위치가 뒤바뀌는 방식으로 분화한다.</s>
+          <s><date from="2000" to="2009">2000년대</date> 시의 ‘<term type="concept">우리</term>’ 는 대개 이와 같은 방식 중 적어도 하나를 택하며 이상한 모습을 보인다.2<date from="2000" to="2009">2000년대 중반</date> 시단에는 모습이 낯선 일인칭이 출현하였다.</s>
+          <s>모든 세계를 빨아들이는 일인칭의 모습에 익숙했는데 , 일인칭의 힘을 누그러뜨리거나 아1）	이광호.</s>
+          <s>r<title level="a" type="poem" xml:id="t-x">진화하는 우리들의</title>.</s>
+          <s><title level="m" type="other" xml:id="t-x2">명랑하고 모호한 감정들</title>丄 r<title level="a" type="other" xml:id="t-x3">우리들의 진화</title>흐 해설, <orgName ref="#org-x">문학과지성사</orgName>.</s>
+          <s><date when="2009">2009</date>,134—35쪽.</s>
+          <s>니면 바깥세계에 뿌려놓는 시들이 나타난 것이다.</s>
+        </p>
+        <p>
+          <s>기존의 <term type="concept">일인칭</term>은 세계로 뻗어나가 <term type="concept">연대</term>를 돈독히 한 반면, 새로운 일인칭은 자기를 지우거나 바깥으 로 투사되어 세계의 모습과 질감을 변화시켰다.</s>
+          <s>앞의 활약무대가 오버그라 운드였다면 뒤의 활약무대는 독립리그였다.</s>
+          <s>앞의 <term type="concept">일인칭</term>은 시의 역사를 튼 튼히 한반면, 뒤의 일인칭은그 주위에 파편이 되어 배치되었다.</s>
+          <s>시가 <term type="concept">일인칭</term>의 장르라서 그랬겠지만 다채로운 모습을 띠었기 때문에 더욱 '나’는 주목받았다.</s>
+          <s>그사이 ‘우리’ 역시 다른 모습으로 나타니기 시작했다.</s>
+          <s>뜨거운 두 사람의 사랑이나 지금보다 좋은 <term type="concept">공동체</term>의 전망을 상징하지 않는 ‘우리’가 출현하기 시작한 것이다.</s>
+          <s>그것들은 대개 <term type="concept">일인칭</term>의 힘이 빠지면서 동시에 힘이 빠지거나, 일인칭이 <term type="concept">삼인칭</term>으로 바뀔 수 있음을 보여주는 방식.</s>
+          <s>으로 열기를 식혔다.</s>
+        </p>
+        <p>
+          <s>이 새로운 ‘우리’가 등장한 시는 여러 시 분석에 그 글 의 의도와는 별도로 끼어들었다.</s>
+          <s>그렇게 ‘우리’는지금 이 세계에 잠입했다.</s>
+          <s>배를 쥐고 구역질을 하는 사람들 때문에 골목이 마구 꿈틀거 렸어요.</s>
+          <s>멀리 있는 강이나 바다를 생각해봤지만 가루비누, 참 아득하게 내렸죠.</s>
+          <s><term type="concept">우리</term>가 순 수에 대해 생각해야 했을까요우 우리는 도무지 웃을 수가 없었어요.</s>
+          <s>가루비누.</s>
+          <s>7일을 내릴 듯이 퍼붓고 군인들이 마침내 물청소를 시작했어요.</s>
+          <s>사람들은 얌전했지요.</s>
+        </p>
+        <p>
+          <s>그런데 더러운 강아지들이 사라지고 우리가 이윽고 발 가벗은 기분이 들면, 거지와 집에서 아침저녁으로 세수하는 사람들을 구별할 수없으면,그때는 <term type="concept">실종된 사람들</term>도 보일까요?</s>
+          <s><quote type="direct" genre="poet" source="대청소의 날들">우린 점점 유리처럼 투명해졌어요.</quote>— <persName role="poet" xml:id="p-x4">김행숙</persName>.</s>
+          <s>「<title level="a" type="poem" xml:id="t-x4">대청소의 날들</title>」 중에서하늘에서 가루비누가 내리고 있고 ‘<quote type="direct" genre="poet">우리</quote>’ 는그 모습을 보고 있다.</s>
+          <s><persName ref="#p-x4">김행숙</persName>은 첫 시집 1<title level="m" type="poem" xml:id="t-x5">시춘기</title>/<orgName ref="#org-x">문학과지성사</orgName>.</s>
+          <s><date when="2003">2003</date>）에서 나의 느낌에 집중했다.</s>
+          <s>기억을 의 심하고 느낌을 신뢰하는 동안 나는 모호하고 불길해졌다.</s>
+          <s>그러다 가끔 ‘<quote type="direct" genre="poet">우리</quote>’가등장하기도 했다.「<title level="a" type="poem" ref="#t-x4">대청소의 날들</title>」에서의 "우리”는 누구일까.</s>
+          <s>이 이상한 세계의 풍경 속에 있는 ‘’우리”의 모습은 <term type="concept">대청소</term> 후에 밝혀질 것 같다.</s>
+        </p>
+        <p>
+          <s>묶은 먼 지를 씻어내면 세계의 본모습이 선명히 드러나기 때문이다.</s>
+          <s>사람들은 이를 "<term type="concept">순수</term>’하다고 여기고 그때가 되면 밖에서 떠도는 거지와 집에서 “<quote type="direct" genre="poet">세수하는 사 람들</quote>"을 구별할 수 없으리라 생각한다.</s>
+          <s>마치 조물주가 칠 일 동안 창조한 세계 의 •최초 모습이 그럴 것이다.</s>
+          <s>하지만 그런 일은 일어나지 않았다.</s>
+          <s>“우리’’의 실 체：가 드러나기는 했는데, 그 모습이 선명해지기는커녕 “<quote type="direct" genre="poet">유리처럼 투명해졌</quote>"기 때문이다.</s>
+          <s><term type="concept">순수</term>의 개념에 대한 불신은 청소를 하는 이들이 군인이라는 점에서 도 환기된다.</s>
+          <s>실체가 투명해지는 곳에서 *今리 의 정체는 불무fl 부쳐진다.</s>
+          <s>‘<quote type="direct" genre="poet">우리</quote>’에 대한물음은 두번째 시집『<title level="m" type="poem" xml:id="t-x6">이별의 능력</title>』（<orgName ref="#org-x">문학과지성사</orgName>.</s>
+        </p>
+        <p>
+          <s>2007）에 적 극적으로 제기된다.</s>
+          <s>그 모습은「<title level="a" type="poem" ref="#t-x4">대청소의 날들</title>」의 연장선상에서 파악할 수 있 는데, r대청소의 날들j에서 “<term type="concept">우리</term>”는 투명해졌으나 이제부터는 회미해지고 모호해진다는 차이가 있기는 하다.</s>
+          <s>하지만 이 두 <term type="concept">우리</term>’는 모두 처음에는 뚜 렷했으나 나중에 회미해지고 있다.</s>
+          <s>이 ‘<term type="concept">우리</term>’의 변화는 자신의 기억을 의심하 는 과정에서 모호해지는 4나’의 모습과 포개진다.</s>
+          <s>r<title level="a" type="poem" xml:id="t-x7">다정함의 세계</title>시에서는 작 은 목소리가 줄어들며 “<quote type="direct" genre="poet">우리는 함께 회미해진다</quote>".「<title level="a" type="poem" xml:id="t-3">한 사람3</title>」에서는 투명테 이프처럼 이름을 "<quote type="direct" genre="poet">붙였다</quote>.</s>
+          <s>뗐다” 하다가 “<quote type="direct" genre="poet">우리들은 사랑스럽고 드디어 모호 해진다</quote>흐.「<title level="a" type="poem" xml:id="t-x8">닭고기 파티</title>」에서는 "<quote type="direct" genre="poet">우리는스며드는 습기처럼</quote>.</s>
+          <s>바다를 건너온바 람처럼.</s>
+          <s>조금 따뜻하고 조금 더러운.</s>
+        </p>
+        <p>
+          <s>우리는 음악처럼.</s>
+          <s>핑크색 봄처럼” 이상 한 나라에서 이상하지 않은 나라로 건너간다.</s>
+          <s>강변에 서 있었네얼굴이 바뀐 사람처럼 서 있었네우리는 점점 모르는사람이 되고친절해지네손님처럼여행자처럼강변에 서 있었네강물이 흐로〒7피부가 약간 얼얼했을 뿐숫자로 헤아려지지 않는 표정들이 부드럽게 찢어지고 빠르게 흩어질 때마다 모르는얼굴들이 태어났네물결처 럼 .</s>
+          <s>아는 이름을 부를 수 없네피부가 펄럭거리고빗방울올 삼키는 얼굴들강변에 서 있었네아무도 같은 얼굴로 오래 서 있지 않네— <persName ref="#p-x4">김행숙</persName>,「<title level="a" type="poem" xml:id="t-x9">모르는 사람</title>］ 전문‘‘<term type="concept">우리</term>”는 ‘<term type="concept">모르는 사람</term>부이 되어간다.</s>
+          <s>존재 자체가 모호해지는 앞의 ‘우리’와 견줘 차이가 있어 보이지만, 이름을 붙였다 뗐다 하며 모호해졌다고 하는 r<title level="a" type="poem" xml:id="t-x10">한 사람</title>3j을 떠올리면 이 둘은 비슷한 성격을 지녔다고 할 수 있다.</s>
+          <s>둘 다 이름과실체를 구별하고 있다는 점에서 그러한데.</s>
+          <s>여기에서 “<term type="concept">우리</term>”는 ‘너’와 ‘나’를 가두고 있는 것으로 상정되어 있다.</s>
+          <s>“<term type="concept">우리</term>’’였던 서로가 모르는 사람 이 되어버리자 서로 친절해진다.</s>
+        </p>
+        <p>
+          <s>‘우리’라는 명칭으로 얼마나 많은 불친절한 일들이 자행되고 있는가.</s>
+          <s>서로의 <term type="concept">이름</term>을 부를 수 없게 되자 매순간 “<quote type="direct" genre="poet">모르는 얼굴</quote>”이 태어난다.</s>
+          <s>‘이름’이라는 명칭으로 얼마나 많은 실체들이 왜곡되고 있는가.</s>
+          <s>
+            <interp value="critical" ana="미학">하지만 모르는 사람이 되는 것이 마냥 좋은 것은 아닌 것 같다.</interp>
+          </s>
+          <s>“<quote type="direct" genre="poet">아 무도 같은 얼굴로 오래 서 있지 않네</quote>’‘라는 말은 무심하게 내뱉어졌지만, 또 한 그것이 <term type="concept">느낌</term>에 대한 <persName ref="#p-x4">김행숙</persName>의 신뢰를 떠올려주지만, <interp value="critical" ana="미학">그 신뢰가 기억이 확 립하는 정체성 대신에 오는 것이라면 안타까움이 없기는 힘들다.</interp></s>
+          <s>그는 <term type="concept">이름</term> 이 사라진 순간을 "<quote type="direct" genre="poet">피부가 펄럭거리고</quote>’’라고 묘사했다.</s>
+          <s>기존의 <term type="concept">기억</term>은 의심을 받고 새로운 <term type="concept">느낌</term>은 신뢰를 받는다.</s>
+          <s><term type="concept">정체성</term>은 모호 해지고 <term type="concept">익명성</term>은 두드러진다.</s>
+        </p>
+        <p>
+          <s>하지만 <persName ref="#p-x4">김행숙</persName>이 이 <term type="concept">기억</term>과 <term type="concept">정체성</term>을 부정하지는 않는다.</s>
+          <s>이는 처음에는 뚜렷했으나 점차 희미해지고 모호해지는 ‘우리’의 모습에서도 확인할 수 있다.</s>
+          <s>또한 •우리’는 그의 시에서 늘 구체성을 띠고 있 다.</s>
+          <s>그것은 ‘우리’를 구성하는 한축에 늘 화자와 포개지는 斗를 염두에 두 고 있기 때문이다.</s>
+          <s>‘斗는 ‘우리’에 소외되지 않으며, 또한 화자를 환기하는 곳에 있다.</s>
+          <s>무엇보다 비록 비눗물이 떨어지거나 이름을 붙였다 뗐다 하는 ‘<quote type="direct" genre="poet">이 상한 세계</quote>’이기는 하지만 그 세계의 모습은 명확하며, 그 안에 ‘우리’가 놓여 있다.</s>
+          <s>‘우리’의 실체는 <persName ref="#p-x4">김행숙</persName>의 시에서 모호해질지라도 그 좌표는 뚜렷하다.</s>
+          <s><persName role="poet" xml:id="p-x5">이장욱</persName>이 •우리’를자주 사용한 것은 두번째 시집『<title level="m" type="poem" xml:id="t-x11">정오의 희망곡</title>■』（<orgName ref="#org-x">문학과 지성사</orgName>.</s>
+        </p>
+        <p>
+          <s>2006）부터이다.</s>
+          <s>그의 ‘우리’는 애초에 모습이 희미하고 모호하다.</s>
+          <s>‘우리’ 뿐만 아니라 ‘너’와 ‘나’의 기억이 없는 것으로 제시되었기 때문이다.</s>
+          <s>과거의 기억이 없는 곳엔 미래의 전망도 없다.</s>
+          <s>미래는 엉뚱하게도 연금을 부 어야만 생기는 것이 되었다.（‘‘<quote type="direct" genre="poet">우리는 엉뚱하게/年金을 부었다/갑자기 미래가 시작되었다</quote>”, 흐엉뚱해」） 현재를 부유하는 ‘우리•는 같은 세계를 공유하지도 않 는다.</s>
+          <s>그곳은 소실점이 사라지고 원근법도 착종된 모습으로 드러난다.</s>
+          <s>단일 한 일인칭의 힘이 사라지면서 나타난결과이다.</s>
+          <s>‘우리’의 한부분인 •나’가화 자를 환기하면서도 의미상 대격에 놓여 있기 때문이기도 하다.</s>
+        </p>
+        <p>
+          <s>보통 나는 시 에서 구문상뿐만 아니라 의미상 주격에 있기 마련인데 <persName ref="#p-x5">이장욱</persName>의 시에서 그것 은 대격으로 밀려나곤 한다.</s>
+          <s>이와 같은 엇갈림 때문에 간혹 ‘우리’는 ‘요괴’로 보이기도 한다.（“<quote type="direct" genre="poet" source="오늘도 밤">우리는 결국 요괴들처럼 눈뜰 것이네</quote>",「<title level="a" type="poem" xml:id="t-x12">오늘도 밤</title>'」）나는코끼리의 귀가되어 펄럭거리고 너는 개의 코가되어 먼 곳을 향하고 우리는 공기 중을 부드럽 게 이 동하였다.活命水를 마시고 있는 약국 안의 사내와 함께 머리를 말리고 있는 여자의 거울 속에서 우리는 우리의 배경이 되어무한히 지나갔다.</s>
+          <s>오늘 아침의 세계는 역사와 무관하고 어젯밤의 세계는 다만 어젯밤의 세계.</s>
+          <s>우리는 어지럽고 아름다웠다 <title level="a" type="poem" xml:id="t-x13">먼지처럼</title>음악처럼— <persName ref="#p-x5">이장욱</persName>, 厂먼지처럼J 중에서‘너’와 斗는 배경이 되고, 약국 안의 사내나 머리 말리는 여자는 “우리’’를 배경으로 도드라져 있다.</s>
+          <s>“역사와 무관’•하게 된 ‘너’와 斗는 뿌리를 잃고 헤매다니고 사내와 여자는 활명수를 마시거나 머리를 말리는 것으로 뚜렷해 져 있다.</s>
+          <s>의미상 ‘<quote type="direct" genre="poet">우리</quote>’는 대격이 되고 •그는 주격이 되는 이 상황에서 구문 은 의미상 대격에 있는 ‘나•가 이끈다.</s>
+          <s>그렇다고 해서 ‘<quote type="direct" genre="poet">우리</quote>’가 익명의 세계 에.</s>
+          <s>‘그:가 기명의 세계에 빠져드는 것은 아니다.</s>
+        </p>
+        <p>
+          <s>‘그:는 클로즈업을 받는 위 치에 있을 뿐, 화자의 위치에는 斗가 있다.</s>
+          <s>즉.</s>
+          <s>‘그’는 의미상 대격에 머물면 서 구문상 주격에 있는 반면 ‘<quote type="direct" genre="poet">우리</quote>’는 의미상 대격에 있으면서 구문상 주격 에 위치한다.</s>
+          <s>
+            <interp value="neutral" ana="미학">온전한 주체의 자리는 비어 있다.</interp>
+          </s>
+          <s>모두가 혼란한 상황이며 ‘<quote type="direct" genre="poet">우 리</quote>’와 •그’의 관계는 끊어져 있다.</s>
+          <s>우리는 "<quote type="direct" genre="poet">먼지처럼/음악처럼</quote>” 떠돌고 있 다.</s>
+          <s>•나’와 •너’의 자리 역시 비어 있어서 누구든지 올 수 있다.</s>
+          <s>이 세계에서 떠돌고 있다는 느낌을 기억하는 사람일 경우에 그렇다.</s>
+        </p>
+        <p>
+          <s>서로 다른 사랑을 하고서로 다른 가을을 보내고서로 다른 아프리카를 생각했다<title level="a" type="poem" xml:id="t-x14">우리는 여러 세계에서</title>드디어 외로운 노후를 맞고드디어 이유 없이 가난해지고드디어 사소한 운명을 수긍했다우리는 마침내 서로 다른 영혼이 되어서로 다른 계절에 돌아왔다무엇이든 생각하지 않으면 물이 돼버려그는 需下의 자세로 정지하고그녀는 간절히 기도를 시작하고 당신은 그저 뒤를 돌아보겠지만성탄절에는 뜨거운 여름이 끝날 거야우리는 여러 세계에서 모여들어여전히 사랑을 했다<quote type="direct" genre="poet" source="우리는 여러 세계에서"><lg type="stanza"><l>외롭고 달콤하고 또 긴 사랑을</l></lg><lg type="stanza"><l>—</l></lg></quote><persName ref="#p-x5">이장욱</persName>,r우리는 여러 세계에서 J 중에서“외롭고 달콤하고 또 긴 사랑’을사랑이라 부를 수 있을까.</s>
+          <s>적어도 "우리”를 조성한 4나’와 M’의 사랑은 아닌 것 같다.</s>
+          <s>그들은 “<quote type="direct" genre="poet" source="우리는 여러 세계에서">서로 다른 사랑</quote>’을 하고 지금 “<quote type="direct" genre="poet">우리</quote>”로 뭉쳐 있다.</s>
+          <s>그들은 여러 세계를 떠돌다 각자 “사소한 운명을 수긍했디2’.『<title level="a" type="poem" ref="#t-x13">먼지처럼</title>j 에서도 그렇지만 여기에서도 ‘우리’의 기억은 삭제되 어 있다.</s>
+          <s>과거가 없는 그들에게 미래는 사소한 운명’을 수긍하는 것으로 겨 우 밝혀진다.</s>
+          <s>함께 꿈꿀 미래가 없으므로 그들이 공유하는 이 세계 또한 없 는 것이다.</s>
+          <s>이 세계는 "<quote type="direct" genre="poet" source="우리는 여러 세계에서">서로 다른 계절에 돌아왔다</quote>고 할 정도로 어긋나 있 다.</s>
+          <s>단일한시점이 낳는 <term type="concept">소실점</term>과 <term type="concept">원근법</term>이 그의 시에서는 무시되고 그 결과 “우리"는 떠돌게 된다.</s>
+        </p>
+        <p>
+          <s>그는 일인칭의 단일한 시선을 뒤집어 이 세계를 재편 한다.</s>
+          <s>거기에서 그는 이렇게 묻기도 한다.</s>
+          <s>'<quote type="direct" genre="poet">우리들은 자란다/(……)/누군가 이해할수없는外國人처럼 묻지.方'지금, 당신들은.</quote></s>
+          <s>어디에, 있습니까?</s>
+          <s>”(r<title level="a" type="poem" xml:id="t-x15">식물성</title>」） <persName ref="#p-x5">이장욱</persName>의 시적 매력은 물론.</s>
+          <s>
+            <interp value="affirmative" ana="미학">세계를 뒤집었기 때문이 아니라 세계를 뒤집은 데에서 발산한다.</interp>
+          </s>
+          <s>자신의 미래가 “<quote type="direct" genre="poet">외롭고 달콤하고 또 긴 사랑</quote>”에 닿 을 것을 알면서도, M下의 자세로 정지히는 자세를 취하거나 “<quote type="direct" genre="poet">간절히 기도 를 시작</quote>"하는 것과 같은 부분에서.</s>
+          <s>‘<quote type="direct" genre="poet">우리</quote>’의 힘이 빠지는 과정은 :<term type="concept">소실점</term>과 <term type="concept">원근법</term>올 상실한 ’나’의 권위 상실 과정을 거의 그대로 따른다.</s>
+        </p>
+        <p>
+          <s>그러나 ‘<quote type="direct" genre="poet">우리</quote>’와 ‘니느｝ 다르기 때문에 이 과정 에서도 •우리’는 자신만의 혼적을 남겨놓는다.</s>
+          <s>‘<quote type="direct" genre="poet">우리</quote>’는 비록 뒤집혀 있더라 도 ‘<quote type="direct" genre="poet">세계</quote>’라는 말을 시에 드러낸다.</s>
+          <s>가령「<title level="a" type="poem" ref="#t-x13">먼지처럼</title>」에서는 비록 “<quote type="direct" genre="poet">역사와 무 관</quote>”하기는 하지만 “<quote type="direct" genre="poet">오늘 아침의 세계</quote>”와 “<quote type="direct" genre="poet">어젯밤의 세계</quote>”로 제시되어 있고, r<title level="a" type="poem" ref="#t-x14">우리는여러 세계에서</title>J에서는 제목에 그대로 노출되어 있다.</s>
+          <s>‘<quote type="direct" genre="poet">우리</quote>’는 이 안 에서 <term type="concept">이상한 연대</term>를 형성한다.</s>
+          <s>이는 “우리”가 등장하는 그의 시에서 비록 “<quote type="direct" genre="poet">운명에 수긍</quote>^’하는 의미와 맥락을 같이하지만 “<quote type="direct" genre="poet">바그다드의 폐허</quote>’’（「<title level="a" type="poem" xml:id="t-x16">여름의 인 상에 대한겨울의 메모</title>시나 “<quote type="direct" genre="poet">부르주아에 대한고전적인 적의</quote>”（「<title level="a" type="poem" xml:id="t-x17">근하신년一코 끼리군의 엽서</title>」）나 “<quote type="direct" genre="poet">강북경찰서</quote>” （「<title level="a" type="poem" xml:id="t-x18">칼</title>」） 등의 공동세계를 환기하는 시어가 등 장하는 것과 무관하지 않다.3<persName role="poet" xml:id="p-x6">진은영</persName>의『<title level="m" type="poem" xml:id="t-x19">우리는 매일매일</title>j（<orgName ref="#org-x">문학과지성사</orgName>, <date when="2008">2008</date>）과 <persName ref="#p-x3">이근화</persName>의 ’’<title level="m" type="poem" ref="#t-x3">우리들의 진화</title>』에 이르러 이상한 우리’는 시집 제목에 등재되기 시작하였다.</s>
+          <s><persName ref="#p-x3">이근화</persName>의 ‘<quote type="direct" genre="poet">우리</quote>’ 는 누구든지 그 자리에 들어갈 수 있다는 점에서 <persName ref="#p-x5">이장욱</persName>의 ‘우리’와 비 슷하지만 확고한 이 세계에 자리잡고 있다는 점에서 갈라진다.</s>
+          <s>또한 이 점 때문에 <persName ref="#p-x3">이근화</persName>의 ‘<quote type="direct" genre="poet">우리</quote>’는 <persName ref="#p-x4">김행숙</persName>의 '우리’와도 갈라진다.</s>
+          <s>확고한 이 세계를 배경으로 <persName ref="#p-x3">이근화</persName>의 '우리’는 있지만, 이상한 세계를 배경으로 <persName ref="#p-x4">김행숙</persName>의 ‘<quote type="direct" genre="poet">우 리</quote>’는 있다.</s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="poet">우리</quote>는 이 세계가 좋아서골목에 서서 비를 맞는다젖을 줄알면서옷을 다 챙겨입고지상으로 떨어지면서 잃어버렸던비의 기억을 되돌려주기 위해홈뼉 젖을때까지흰 장르가‘될 때까지비의 감정을 배운다단지 이 세계가 좋아서비의 기억으로 골목이 넘치고비의 나쁜 기억으로발이 퉁퉁 붇는다외투를 입고 구두끈을 고쳐맨다우리는 우리가 좋을 세계에서흡뻑 젖을 수 있는 것이다행이라고 생각하면서골목에 서서 비의 냄새를 훔친다— <persName ref="#p-x3">이근화</persName>.「<title level="a" type="poem" xml:id="t-x20">소울메이트</title>］ 전문r<title level="a" type="poem" ref="#t-x20">소울메이트</title>J에서 이근화의 ‘우리’는시인을 환기하는 나와 이 세계에 놓 여 있는 익명의 ‘너’ 사이에 있다.</s>
+          <s>’우리’가 끌어들이는 ‘나’는 분명하지만 ‘너’는 불분명하다.</s>
+          <s>시인은 ‘<quote type="direct" genre="poet">우리</quote>’를 매개로 ‘너’를 호명하지만 그 호명의 어 조는 선동이 아니라 단정에 가깝다.</s>
+          <s>시인은 텅 빈 “우리“의 행동뿐만 아니라 그 마음까지도 헤아린다.</s>
+          <s>맞은편 ‘너’의 자리에 있는 누군가는 구두끈을 고쳐 매고 “<quote type="direct" genre="poet" source="소울메이트">우리가좋을세계에서/홈뻑 젖을수있는것이/다행이라고 생각</quote>’하는 것이다.</s>
+          <s>확실한 그의 행동과 마음이 확실하지 않은 ‘너’의 자리와 만나 일으키는 긴장이 시를 이끌고 있다.</s>
+          <s>또한 이 비어 있는 ‘너’의 자리에 주체의 행 동과 마음을 넣음으로써 오히려 그 빈자리가 강하게 노출되기도 한다.</s>
+          <s>왜 이렇게 되었을까.</s>
+        </p>
+        <p>
+          <s>어떻게 빈자리를 환기하면서 동시에 ‘너’의 마음과 행 동을단정할수있게 되었나.</s>
+          <s>'너’가누구이든지 ‘<quote type="direct" genre="poet">우리</quote>’는 공동운명에 처해 있 다.</s>
+          <s>지금 이 세계에는 비가 내리고 있다.</s>
+          <s>그 비는 ‘니와 ‘너’를 가리지 않고 내린다.</s>
+          <s>•나’와 4너’를구별하는 것 중하나인 “<quote type="direct" genre="poet">기억</quote>”과 "<quote type="direct" genre="poet">감정</quote>” 또한 비의 것 이다.</s>
+          <s>“<quote type="direct" genre="poet">우리</quote>”는 •비의 감정을 배”우고, "비의 나쁜 기억으로/발이 퉁퉁’ 불으 며 그것의 잃어버린 기억 속으로 편입된다.</s>
+          <s>“<quote type="direct" genre="poet">구두끈을 고쳐</quote>” 묶는 것과 같은 주체의 결단을 환기하는 말이 등장하지만.</s>
+          <s>그 결과는 비에 “<quote type="direct" genre="poet">흠삑 젗을 수 있 는 것이/다행이라고 생각</quote>"하게 되는 수동적 인식으로 수렴된다.</s>
+        </p>
+        <p>
+          <s>즉 그의 <term type="concept">단 정</term>은 자발적인 것이 아니라떠밀린 것이다.</s>
+          <s>이 세계는 ‘<quote type="direct" genre="poet">우리가 좋아하는/좋아할수 있는 것이 아니라</quote> “<quote type="direct" genre="poet">우리가 좋을7 것</quote> 으로 제시되어 있다.</s>
+          <s>이 “<term type="concept">우리</term>”는 구문상 주격이지만.</s>
+          <s>의미상 거의 <term type="concept">대격</term>에 가 깝다(대격의 위치에 있는 시도 있다 “<quote type="direct" genre="poet">우리를 만들어보자고</quote>r그림자□).</s>
+          <s><persName ref="#p-x2">이광호</persName>는 이 시를 해설하면서 ‘<quote type="direct" genre="poet">비가 온다</quote>’라는 말의 주어는 부정의 대명사를 주체로 하 기 때문에 <term type="concept">비인칭</term>의 영역에 속하며.</s>
+          <s>또한 그 때문에 "<term type="concept">우리</term>”라는 <quote type="direct" genre="critic">취향과 감정 의 공동제는 불안한 지위를 가질 수밖에 없다</quote>고 하였다.2} 영어와 같은 외국어 에서 이 문장의 주어는 <term type="concept">비인칭</term>(It)이지만, 한국어에서는 ‘비가허이다.</s>
+          <s>한국어 에서 •비’를 <term type="concept">비인칭</term>으로 보는 것도 어렵지만, 그렇다고 하더라도 ‘비‘가 부정 의 대명사는 아니기 때문에 곧바로 ‘<quote type="direct" genre="poet">It</quote>’의 세계로 환원되지 않는다.</s>
+          <s>더구나 ‘<quote type="direct" genre="poet">비가 온다</quote>’라는 구문은 시에 없다.</s>
+        </p>
+        <p>
+          <s>시 구문의 주어는 대개 ’우리’이다.</s>
+          <s>구문 상 주격이면서 의미상 대격인 ‘<term type="concept">우리</term>’ 와 구문상 대격이면서 동시에 의미상 주 격인 ‘비’가 엇갈리면서 우리의 운명을 환기하는 것이 <persName ref="#p-x3">이근화</persName>의 ‘우리’이다.</s>
+          <s>‘<quote type="direct" genre="poet">우리</quote>’는 비인칭의 세계에 있기 때문에 모호한 것이 아니라운명을적시는비 의 세계에 있기 때문에 힘이 빠져 있다.</s>
+          <s>‘너’는 비어 있는 자리지만 ‘비’에 의 해 ‘<quote type="direct" genre="poet">우리</quote>’로 결속된다.</s>
+          <s>시의 제목인 ‘<title level="a" type="poem" ref="#t-x20">소울메이트</title>:는 그래서 영혼을 나눌 만큼2)	<persName ref="#p-x2">이광호</persName>.</s>
+          <s>같은글.</s>
+          <s>137쪽 참조.</s>
+          <s>친한 친구가 아니라 영혼을 나눌 수밖에 없는 친구를 뜻한다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x3">이근화</persName>는 ‘<quote type="direct" genre="poet">이 세계</quote>’를 거의 매번 ‘<term type="concept">우리</term>’ 옆에 둔다.</s>
+          <s>인용시뿐 아니라 “<quote type="direct" genre="poet">우리 는 한몸이 아니지</quote>’’라고 강변하는「<title level="a" type="poem" xml:id="t-x21">괴물들</title>」에도 “<quote type="direct" genre="poet">이 세계는 똑같이 푸르게 보 일까</quote>’’라고 하며 ‘세계’가 등장하고, “<quote type="direct" genre="poet">사람들의 팔과 다리를 잡아먹는/프레 스기의 진화에 대해 생각</quote>’’하는r<title level="a" type="poem" ref="#t-x3">우리들의 진화</title>」에도 "<quote type="direct" genre="poet">우리는 세상에서 가장 단단한 동그라미가 되어간다</quote>”라고 하며 그것은 ‘세상’으로 변주되어 나타난 다.</s>
+          <s>‘<term type="concept">세계</term>’ ‘<term type="concept">세상</term>’은 <term type="concept">개별성</term>을 무화시키는 운명의 완강함을 환기한다.</s>
+          <s><persName ref="#p-x5">이장욱</persName> 의 '<term type="concept">우리</term>’는 세계의 소실점을 지워 재편된 세계의 결과로 나타나지만 <persName ref="#p-x3">이근화</persName> 의 ‘<term type="concept">우리</term>’는세계를 뚜렷하게 인식한뒤 그세계의 위력에 압도당한다.</s>
+          <s>당신에게 조금 더 많은 말을 하고가끔은 어깨나 팔꿈치를 툭툭 쳐보기로 할까말을 하면서 마음을 만들고그렇게 만들어진 마음을선물처럼 줄 수 있다면 좋겠지더 자주 더 열심히 생각한다는 것이당신에게 위로가 될까위로의 끝에 새로운 이름이 고개를 들까<quote type="direct" genre="poet">우리는 서로 다른 속도로 취하고</quote>가로등이 두 개로 세 개로 무너지고모서 리가 둥글어지고신발이 숨을 쉰다<title level="a" type="poem" xml:id="t-x22">우리는 같은 이름으로</title> 자전거를 타자바퀴를 굴리면 쏟아지는 달콤한 풍경들이우리를 지울 때까지우리의 이름이 될 때까지—<persName ref="#p-x3">이근화</persName>.「우리는 같은 이름으로」중에서“우리는 서로 다른 속도로 취하고” 있지만 "같은 이름으로 자전거를 타 ＜고 그는 청한다.</s>
+          <s>서로 사랑하기 때문에 각자의 <term type="concept">개별성</term>을 지우자고 하지는 않았을 것이다.</s>
+          <s>시에서는 그 결과가 “<quote type="direct" genre="poet">바퀴를 굴리면 쏟아지는 달콤한 풍경들 이/우리를 지울 때까지/우리의 이름이 될 때까지</quote>’’로 제시되어 있다.</s>
+          <s>풍경이 •<term type="concept">우리</term>‘의 이름이 된다고 했지만 실제로는 ‘우리’의 이름이 풍경으로 용해되 는 것 같다.</s>
+        </p>
+        <p>
+          <s>같은 마음을 확인하는 일은 기쁜 일이지만.</s>
+          <s>같은 이름을 확인하 는 것은 기분 나쁜 일이다.</s>
+          <s>처음의 권유는 그래서 반어로 읽을 수밖에 없다.</s>
+          <s>결국 같은 이름이 되겠지만, 그때까지 그래도 그 상황 안에서 같은 마음이라 도 나누자는 뜻으로.</s>
+          <s>“<term type="concept">풍경</term>”은 ‘<quote type="direct" genre="poet">이 세계</quote>’와뜻을※1한다.</s>
+          <s>‘모든것들이 제자리로돌아가는 바 로 그 풍경이다.</s>
+          <s>인용 부분을 이끄는 말은 생략한 ”<quote type="direct" genre="poet">나는 하나의 이름을 가지 고 있는데/당신도 그렇지 않은가</quote>"란질문이다.</s>
+          <s>‘나'가 있고 ‘나의 이름‘’이 있 으니 •당신’도 ‘당신의 이#이 있지 않겠는가.</s>
+        </p>
+        <p>
+          <s>이 비어 있는 이름의 자리를 채우기 위해 그는 노력하는데, 그 결과 “<quote type="direct" genre="poet">새로운 이름이라는 말로 노력이 보 상될 것도 같은데, 그것마저도 풍경에 용해될 것이라고 예감한다.</quote></s>
+          <s><term type="concept">풍경</term>은 그 래서 여기에서도 완강한 뜻을 가진다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이근화 시의 매력 역시 세계에 대한 부정적 인식과 시의 구도를 파악하는 데에서 직접 오는 것이 아니라 오히려 이를 토대로 발산한다.</interp>
+          </s>
+          <s>실체가 있고 관 계가생기면서 <term type="concept">공동체</term>는 형성된다.</s>
+          <s>‘나’와 M’가 있고 斗’와 너의 이름이 뒤 에 붙으며, 그 이름을 대신한 인칭이 위치에 따라 교환될 가능성을 수긍하면 서 <term type="concept">공동체</term>가 생긴다.</s>
+          <s>그 <term type="concept">공동체</term>는 <term type="concept">개별성</term>을 누락시키고 또다른 개별성을 포 섭하면서 유지된다.</s>
+          <s><persName ref="#p-x3">이근화</persName>는 이를 운명으로 받아들이며 수긍한다.</s>
+          <s>하지만 그는 형성 단계를 뒤집어 인칭과 이름을 토대로 <term type="concept">개별성</term>을 확인하기도 한다.</s>
+        </p>
+        <p>
+          <s>풍경이 ‘우리’를 지우고 같은 이름만 남길지라도.</s>
+          <s>‘우리’는 그 이름을 토대로 마음을 만든다.</s>
+          <s>또한 “<quote type="direct" genre="poet">그렇게 만들어진 마음을/선물처럼</quote>” 줄 수 있다고 하 면서, 그는 “<quote type="direct" genre="poet">새로운 이r을 예상한다</quote>.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이근화는 한계상황속에서 생성된 개 별성이 공유되기를 바란다.</interp>
+          </s>
+          <s>이 상상의 구체성, 서로의 이름을 확인하는 것이 아니라 서로에게 마음을 선물하는 것.</s>
+          <s>
+            <interp value="affirmative" ana="미학">서로를 쳐다보는 것이 아니라 서로의냄새를 맡는 것에 이근화 시의 미덕이 있다.</interp>
+          </s>
+          <s>“<quote type="direct" genre="poet" source="우리의 우정은 언제부터 시작되었는가">거울 속의 나는 항상 모자라거 나 넘친다/부끄럽거나 아름답거나/나는 좀더 친해지기로 마음먹는다/우 리는 서로의 냄새를 오래 맡을 수 있으니까</quote>’.（「<title level="a" type="poem" xml:id="t-x23">우리의 우정은 언제부터 시작되 었는가</title>」） 이를 ‘<term type="concept">우리들의 진화</term>라고 할수 있지 않올까.4제목에 등재되어 있다고 하더라도 <persName ref="#p-x6">진은영</persName>의 ‘우리’는 <persName ref="#p-x3">이근화</persName>와 견줘 덜 눈 에 띈다.</s>
+          <s><persName ref="#p-x3">이근화</persName>가 ‘우리’를 의미상 대격으로 옮겨 궁금하게 하는 반면, <persName ref="#p-x6">진은 영</persName>은 그것을 온전히 주격으로 둔다.</s>
+        </p>
+        <p>
+          <s>‘<quote type="direct" genre="poet">우리들의 진화</quote>는 그 말과 뜻을 헤아리 게 유도하지만.</s>
+          <s>•<quote type="direct" genre="poet">우리는 매일매일</quote>’은 그 ‘우리’의 행동과 느낌을 채우도록 유 도한다.</s>
+          <s><persName ref="#p-x6">진은영</persName>의 ‘<term type="concept">우리</term>’는 <term type="concept">기억</term>과 <term type="concept">역사</term>를 가지고 있어서 뚜렷하다.</s>
+          <s><persName ref="#p-x5">이장욱</persName> 과 <persName ref="#p-x3">이근화</persName>는 우리의 과거를 지우며 느낌을 풀어놓는 한편.</s>
+          <s><persName ref="#p-x6">진은영</persName>은 ‘<term type="concept">우리</term>’에 <term type="concept">기억</term>과 <term type="concept">역사</term>를 기입한다.</s>
+          <s>그래서인지 <persName ref="#p-x6">진은영</persName>의 ‘<term type="concept">우리</term>’는 연애를 말하는 시와 이 세계에 대해 말하는 시로 나뉜다.</s>
+          <s>이는 <persName ref="#p-x6">진은영</persName>의 시가 <term type="concept">일인칭</term>의 힘을 드 러내는 시 장르의 전대의 특성과 포개진다는 뜻으로 읽힐 수 있다.</s>
+          <s>‘<term type="concept">우리</term>’의 한쪽 측인 ‘<term type="concept">너</term>’의 자리가 뚜렷하고, 무엇보다도 ‘<term type="concept">나</term>‘가 뚜렷하기 때문이다.</s>
+        </p>
+        <p>
+          <s>그리고 무엇보다 <term type="concept">한국시</term>가 조성한 ‘<term type="concept">낭만적 진정성</term>’과 ‘<term type="concept">집단적 동일성</term>’의 영 역과 그의 시적 특성이 포개지는 것으로 읽힐 수 있다.</s>
+          <s>연애에 관한 시를 앞 의 것과, 이 세계에 대한 시를 뒤의 것과 연결시켰을 때 그렇다.</s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>너는 나의 목덜미를 어루만졌다</l>
+              </lg>
+              <lg type="stanza">
+                <l>어제 백리향의 작은 잎들을문지르던 손가락으로.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>나는 나의 잠을지킨다</l>
+              </lg>
+              <lg type="stanza">
+                <l>부드러운모래로 갓 지어진 우리의 무덤을 낯선 동물이 파헤치지 못하도록.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">해변의 따스한자갈.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>해초들</l>
+              </lg>
+              <lg type="stanza">
+                <l>입 벌린 조가비의 분홍빛 혀 속에 깊숙이 집어넣었던</l>
+              </lg>
+              <lg type="stanza">
+                <l>하얀 발가락으로</l>
+              </lg>
+              <lg type="stanza">
+                <l>우리는 세계의 배꼽 위를 걷는다</l>
+              </lg>
+              <lg type="stanza">
+                <l>그리고 우리는 서로의 존재를 포옹한다</l>
+              </lg>
+              <lg type="stanza">
+                <l>수요일의 텅 빈 체육관.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">흘로.</quote>
+          </s>
+          <s><quote type="direct" genre="poet"><lg type="stanza"><l>되돌아오는 샌드백을 껴안고 노오란 땀을 흘리며 주저앉은 권투선수처럼</l></lg><lg type="stanza"><l>—</l></lg></quote><persName ref="#p-x6">진은영</persName>,「<title level="a" type="poem" xml:id="t-x24">연애의 법칙</title>」 전문“우리”가걷는 “<quote type="direct" genre="poet" source="연애의 법칙">세계의 배꼽</quote>’’은<persName ref="#p-x3">이근화</persName>가 말한그 ‘세계’와성격이 다르다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x3">이근화</persName>의 ‘<term type="concept">우리</term>’에 모든 이가 들어설 수 있는 것은 ‘<term type="concept">세계의 운명</term>’을 공유하기 때문이다.</s>
+          <s><persName ref="#p-x6">진은영</persName>의 ’<term type="concept">세계</term>’에는 ‘너’와 '나' 단둘만이 있다.</s>
+          <s>사랑하는 모든 사람에게 세계의 중심은 바로 그들이다.</s>
+          <s><persName ref="#p-x3">이근화</persName>의 ‘<term type="concept">세계</term>’는 ‘<term type="concept">우리</term>’를 두르고 있으나 이 시의 “우리”는 ‘•세계"와 같은 뜻이다.</s>
+          <s>사랑하는 사람에게 '너’와 ‘나'가 따로 있을 수 없기 때문에 이 둘의 위치와 특성은 뚜렷하다.</s>
+          <s>마주 보고 있는이 둘은서로를 애무한다.</s>
+          <s>‘너‘<quote type="direct" genre="poet">는 '나</quote>’의 목덜미를 어루만졌고 •나’의 손 가락은 ’너’의 잠을 지키고 그리고 발가락으로는 세계의 배꼽 위를 걷는다.</s>
+          <s>이들은 어루만지고 문지르고 비록 조가비 속이지만 “<quote type="direct" genre="poet">깊숙이 집어넣었던</quote>” 것 으로 <term type="concept">무시간</term>의 영역에 들어서는 것 같다.</s>
+        </p>
+        <p>
+          <s>이와 같은 시간은 <term type="concept">시적 순간</term>과 같아 서 흐르지 않는다.</s>
+          <s><term type="concept">무시간</term>의 영역에 진입한 둘의 사랑에 균열의 흔적이 보이기 시작한다.</s>
+          <s>흘 로 샌드백을 껴안고 주저앉은 권투선수에게서 사랑하는 모습을 그리기는 어 렵다.</s>
+          <s>우리가 포옹하는 것이 실체인 ‘서로’가 아니라 실체에서 빠져나온 “<quote type="direct" genre="poet">서 로의 존재</quote>”였을 때부터 <term type="concept">균열</term>은 시작되었다.</s>
+          <s>아니, <persName role="critic" xml:id="p-x7">신형철</persName>의 말을 따르면 그 앞인 “<quote type="direct" genre="critic">그리고</quote>”부터이다.</s>
+          <s><persName ref="#p-x7">신형철</persName>은 ‘<quote type="direct" genre="critic">그러나 우리는</quote> 이 아니라 “<quote type="direct" genre="critic">그리고 우리 는</quote>”으로 시작하는 것에 주목하여 2연이 1연의 흐름을 전복하는 것이 아니라 완성하고 있으며 , 그렇기 때문에 저 권투선수의 모습에서 쓸쓸한 고독만이 아니라 ‘<quote type="direct" genre="critic">충만</quote>과 ‘<quote type="direct" genre="critic">허망</quote>’이 ‘<quote type="direct" genre="critic">병발</quote>’한다고 읽었다？, 그러고 보니 <persName ref="#p-x6">진은영</persName>은 ‘<quote type="direct" genre="poet">사 랑의 순간</quote>’이 아니라 ‘<term type="concept">연애의 법칙</term>’을 말하고 있다.</s>
+          <s>연애를 개괄하는 그의 시는 <term type="concept">사랑의 순간</term>에 <term type="concept">이별</term>의 기미를 포착한다.</s>
+          <s>1연의 저 에로틱한 장면 속에도 <term type="concept">균열</term>이 나 있는 것 같다.</s>
+        </p>
+        <p>
+          <s>낯선 동물을 경계하면서 나가 지키는 것이 “<quote type="direct" genre="poet">부드 러운 모래로 갓 지어진 우리의 무덤</quote>’’이다.</s>
+          <s>죽고 난 뒤에도 사랑하겠다는 뜻 일까.</s>
+          <s>아니면 연애를 완성하는 이별을 상징하는 것일까.</s>
+          <s>어느 것이라도 상관 없다.</s>
+          <s>뒤의 경우는 물론이고 앞의 경우도 그 다짐은 <term type="concept">무시간</term>의 영역에서 빠져 나온 것이다.</s>
+          <s>그는 <interp value="neutral" ana="미학">사랑의 당사자가 아니라 연애의 개괄자였다.</interp></s>
+          <s>“우리’’의 ‘나‘는 이와 같은 과정을 거치며 화자와 갈라진다.</s>
+          <s><term type="concept">전통적인 동일성의 시</term>의 영역에서 빠져나오는 까닭 역시 이 때문이다.</s>
+        </p>
+        <p>
+          <s>너와나의 인력으로 조^된 ‘<term type="concept">우리</term>’ 이외에도 <persName ref="#p-x6">진은영</persName>의 시에는 ‘<term type="concept">집단적 동 일성</term>’을 환기하는 ’우리’가 있다.</s>
+          <s>역사라고 할 만한 공동의 기억과 미래에 대 한 전망이 그 안에 있다.</s>
+          <s>이 ‘<quote type="direct" genre="poet">우리</quote>’는 앞의 ‘우리’보다 영역이 넓고 뚜렷하다.</s>
+          <s>이 ’우리’에는 ‘너’를 포함하여 •그’도 있고.</s>
+          <s>말하는 이도 ‘나’와 동일시된다.</s>
+          <s>“<quote type="direct" genre="poet" source="70년대産">우리는 목숨을 걸고 쓴다지만/우리에게 /아무도 종을 겨누지 않는다/그것 이 비극이다</quote>’’라고 한「70년대産」에서 ‘우리,는 70년대 ‘産’이라는 공통 역사 를 가지고 있는 이들이다.</s>
+          <s>시인도 여기에 포함되어 있다.</s>
+          <s>더욱이 ‘<term type="concept">우리</term>’는 총 올 겨눌 상대까지 감지하고 있다.</s>
+        </p>
+        <p>
+          <s>명확하게 누구인지 몰라 결국 “<quote type="direct" genre="poet" source="70년대 産">서로 쏘았 다</quote>’ （「<title level="a" type="poem" xml:id="t-70">70년대 産</title>」）고 하지만.</s>
+          <s>다른 시에서 그것은 ‘<term type="concept">이 세계</term>’를 참상으로 물들이 는 이들로 제시된다.</s>
+          <s>가령「<title level="a" type="poem" xml:id="t-x25">문학적인 삶</title>j의 한 구절 “<quote type="direct" genre="poet" source="문학적인 삶">우리를 가르치기 위해?</quote></s>
+          <s>” 의 ‘<quote type="direct" genre="poet">우리</quote>’는 "<quote type="direct" genre="poet">고통 과 비명의 자유로운 확산과 교역</quote>”을 위해 결정을 서두르는 <term type="concept">관료들</term>의 반대편 에 배치되며 뚜렷해진다.</s>
+          <s>r<title level="a" type="poem" xml:id="t-quovadis">Quo Vadis?</title>j도 마찬가지이다.</s>
+          <s><term type="concept">이주노동자</term>가 열 명 사망한 <term type="concept">여수 출입국보호소 화재사건</term>을 굵은 글씨로 시에 삽입한 그는 <interp value="neutral" ana="사회">이 세계를 네로 폭정시대와 겹쳐놓고 있다.</interp></s>
+          <s>따라서 ‘어디로 갔을까?</s>
+          <s>
+            <title level="a" type="poem" ref="#t-quovadis">Quo Vadis?</title>
+          </s>
+        </p>
+        <p>
+          <s>’ 의 주체인 ‘‘<term type="concept">울던 아이들</term>”과 ‘신‘도 겹쳐진다.</s>
+          <s>아이들은 조그만 상실 의 체험에도 눈물을 흘리는데.</s>
+          <s>그것은 따뜻한 <term type="concept">동심</term>의 세계를 완성한다.</s>
+          <s>“<quote type="direct" genre="poet">우 리</quote>”는 그 세계를 잃어버렸다.</s>
+          <s>세계의 폭압과 그에 대한 차가운 시선이 이 세3）	<persName ref="#p-x7">신형철</persName>.「<title level="a" type="critic" xml:id="t-x26">아름답고정치적인 은유의 코뮌</title>j.</s>
+          <s>r<title level="j" type="journal" xml:id="t-x27">문학동네</title>j <date when="2009">2009년</date> 봄호.</s>
+          <s>403쪽.</s>
+          <s>계의 한부분을구성하며 “우리를결속시킨다.</s>
+        </p>
+        <p>
+          <s>그런 남자랑사귀고 싶다.</s>
+          <s>아메리카 국경을 넘다사막에 쓰러진 흰 셔츠 맥시코 청년너와결흔하고 싶다.</s>
+          <s>바그다드로 가서푸른 장미꽃봉오리 터지는 소리가폭탄처럼 크게 들리는 고요한 시간에당신과 입 맞춤하고 싶다,학살당한 손들이 치는다정한 박수를 받으면서크고투명한 물방울 속에우리는함께 누워물을 것입니다지나가는 은빛 물고기에게.</s>
+          <s><quote type="direct" genre="poet" source="러브어페어"><lg type="stanza"><l>학살자의 나라에서도</l></lg><lg type="stanza"><l>시가 씌어지는 아름답고도 이상한 이유를.</l></lg></quote>—<persName ref="#p-x6">진은영</persName>,「<title level="a" type="poem" xml:id="t-x28">러브어페어</title>」 전문자신의 목소리가조금더 좋은세계에 대한믿음과연결된다는점에서, 이 세 계에 놓인 ‘<term type="concept">우리</term>’를 <term type="concept">공동운명</term>으로 묶기보다는 그 안에 폭압적 대상과 ‘우리’를 구분한다는 점에서.</s>
+          <s><persName ref="#p-x6">진은영</persName>의 ‘<term type="concept">우리</term>’는 <persName ref="#p-x3">이근화</persName>의 것과 갈라진다.</s>
+          <s><persName ref="#p-x6">진은영</persName>의 ‘<quote type="direct" genre="poet">우 리</quote>’가저 <term type="concept">집단적 동일성</term>’과 구분되는지점은 그의 시적 개성과 연관되어 있다.</s>
+          <s><persName ref="#p-x6">진은영</persName>은 <interp value="affirmative" ana="미학">이방의 것들과 이방의 환경과 거기에 닿는 시인의 손길을 섬세하게그려낸다.</interp></s>
+          <s>이 점은r<title level="a" type="poem" ref="#t-x24">연애의 법칙</title>」중 백리향의 감촉과 해변의 풍경을 그리는 모 습에서 고스란히 나타났다.</s>
+        </p>
+        <p>
+          <s>그가 이렇게 조성한 세계는 대체로 따뜻한 느낌을 준다.</s>
+          <s>그런데 그는 현실로 불리는 ‘이 세계1와도 접속하기를 원한다.</s>
+          <s>이때의 ‘<quote type="direct" genre="poet">우 리</quote>’가거느린 영역은 앞의 ‘<quote type="direct" genre="poet">우리</quote>’와겹치지 않는다.</s>
+          <s>그는 이 둘을 병치시킨다.</s>
+          <s><persName ref="#p-x6">진은영</persName>은 <interp value="neutral" ana="미학">일인칭이 잇대는 은유의 영역에 세계의 참상을 포함시키기보다 는 그 옆에 나란히 놓아 둘 사이의 긴장을조성한다.</interp></s>
+          <s>「<title level="a" type="poem" ref="#t-quovadis">Quo Vadis?</title>j에서 그는 어린 시절의 추억과 이 시대의 참상을 구별해놓았다.「<title level="a" type="poem" ref="#t-x28">러브 어페어</title>」에서 그는 이 둘을 조금 더 섬세하게 구별해놓았다.</s>
+          <s>1연의 “<quote type="direct" genre="poet">푸른 장미/꽂봉오리 터지는 소리가/폭탄처럼 크게 들리는 고요한 시간에</quote>"와 2연 전체는 이 두세계가얽 혀 있는 것처럼 보인다.</s>
+          <s>1연은 직접 “<quote type="direct" genre="poet">꽃봉오리</quote>”와 “<quote type="direct" genre="poet">폭탄</quote>’이 연결되어 있으며 2연은 “<quote type="direct" genre="poet">은빛 물고기</quote>"에 묻는 방식을 매개로 바닷속 풍경과 학살자의 나라가 연결되어 있기 때문이다.</s>
+        </p>
+        <p>
+          <s>하지만 꽃봉오리는 폭탄의 위력을 끌어들여 전쟁 같은 개화의 모습을 연출하기보다는 폭탄이 터지는 전쟁상황에도 고요한 시 간이 있음을 드러내고 있으며, 바닷속 풍경은 학살자의 나라에 감염되어 폭 풍의 시간을 연출하기보다는 학살자가 침범하지 못하는 “<quote type="direct" genre="poet">크고 투명한 물방울 속</quote>’ <term type="concept">신성한 공간</term>이 있음을 확인시켜준다.</s>
+          <s>온 세상이 살생으로 물들어도 그 세 계 어딘가에 지켜야 할 소중한 시공간이 있다.</s>
+          <s><persName ref="#p-x6">진은영</persName>의 ‘<quote type="direct" genre="poet">우리</quote>”는 여기에서 마땅히 보호받아야 하는 따뜻한 세계와 차가운 세계 사이에 있다.「<title level="a" type="poem" ref="#t-x28">러브 어페어</title>」의 “우리”에는 따뜻한 세계를 일구는 ‘나’와 차가운 세계에 서 버려진 멕시코와 이라크 청년 ‘너’가 있다.</s>
+          <s>‘니는 ‘너’와 연애하고 결혼 하고 싶어한다.</s>
+          <s>
+            <interp value="neutral" ana="미학">하지만 그 욕망이 성취되기는 어려워 보인다.</interp>
+          </s>
+          <s>그들의 만남이 물방울 속에서 이루어졌기 때문만은 아니다.</s>
+          <s>상반된 세계를 배경으로 있는 ‘나’와 ‘너’는 각각의 세계를 등지기 어려울 것 같다.</s>
+          <s><persName ref="#p-x6">진은영</persName>은 "<quote type="direct" genre="poet">학살자의 나 라에서도/시가 씌어지는 아름답고도 이상한 이유</quote>’를 물었다.</s>
+        </p>
+        <p>
+          <s>상호융합이 아 니라 상호존재를 전제로 제기된 이 물음은 시인의 <term type="concept">곤혹스러움</term>을 그대로 드 러낸다.</s>
+          <s>그리고 이 <term type="concept">곤혹스러움</term>이 유지되는 곳에서 <persName ref="#p-x6">진은영</persName>의 시적 개성이 형 성된다.</s>
+          <s>상호융합하는 것이 아니라 거리를 둔 채 상호투영하는 것으로 그의 시는 <term type="concept">집단적 동일성</term>,의 寄fl서 벗어난다.5지금까지 이상한 방식으로 분화하는 <date from="2000" to="2009">2000년대</date> 시의 일부 •우리’를 살펴보 았다.</s>
+          <s><persName ref="#p-x4">김행숙</persName>은 이상한 세계를 배경으로 기억을 의심한 채 모호해지는 ‘<quote type="direct" genre="poet">우 리</quote>’의 모습을 보여주었다.</s>
+          <s><persName ref="#p-x5">이장욱</persName>은 뒤집힌 세계를 배경으로 떠도는 텅 빈 ‘<quote type="direct" genre="poet">우리</quote>’의 모습을 연출했다.</s>
+          <s><persName ref="#p-x3">이근화</persName>는 확고한 세계를 배경으로 공동운명을 견 디는 ‘<quote type="direct" genre="poet">우리</quote>’의 모습을 드러냈다.</s>
+          <s><persName ref="#p-x6">진은영</persName>은 이 세계를 차가운 세계와 따뜻한 세계로 나눠 둘의 긴장속에서 곤혹스러워하는 ‘<quote type="direct" genre="poet">우리</quote>’의 모습을드러냈다.</s>
+          <s>분화는 계속된다.</s>
+        </p>
+        <p>
+          <s><persName role="poet" xml:id="p-x8">신해욱</persName>은『<title level="m" type="poem" xml:id="t-x29">생물성</title>』（<orgName ref="#org-x">문학과지성사</orgName>, <date when="2009">2009</date>）에서 ‘<quote type="direct" genre="poet">우리</quote>’의 이 물감을 가장 첨예하게, <persName role="poet" xml:id="p-x9">김소연</persName>은『<title level="m" type="poem" xml:id="t-x30">눈물이라는 뼈</title>』（<orgName ref="#org-x">문학과지성사</orgName>.</s>
+          <s><date when="2010">2010</date>）에서 ‘<quote type="direct" genre="poet">우리</quote>’의 <term type="concept">연대감</term>을 가장 은밀하게 보여주고 있다.</s>
+          <s><persName ref="#p-x8">신해욱</persName>의 r<title level="a" type="poem" xml:id="t-x31">방명록</title>□이나 r<title level="a" type="poem" xml:id="t-x32">스톱모션</title>J에는 최대한 삭제된 세계를 배경으로 나까지 배제시킨 ‘우리’의 목소리가 <term type="concept">타자</term>의 목소리에 실려 들려온다.</s>
+          <s><persName ref="#p-x9">김소연</persName>의 r<title level="a" type="poem" xml:id="t-x33">식탐을 기리다</title>j r<title level="a" type="poem" xml:id="t-x34">그날 의 일들</title>」「<title level="a" type="poem" xml:id="t-x35">침묵 바이러스</title>」「<title level="a" type="poem" xml:id="t-x36">만족한 얼굴로</title>」등에는 비밀을 공유하는 ‘우리’가 나오는데.</s>
+          <s>고양된 감정으로 누락되었으나 이 세계가 준 상처가 ‘우리’를 감 싸거나 ‘우리’가 공유하는 비밀에 침투되어 있다.</s>
+          <s>다양한 ‘우리’를 하나의 개념으로 묶기는 어렵다.</s>
+          <s>이 ‘우리,는 기존의 ‘<quote type="direct" genre="poet">우 리</quote>’를 제각각의 방식으로 이탈하며 생겨난다.</s>
+          <s>이들은 <term type="concept">새로운 미학</term>을 공유하 는 곳에 수렴되지 않고.</s>
+        </p>
+        <p>
+          <s>기존의 <term type="concept">미학</term>을 부정하는 곳에서 발산한다.</s>
+          <s>하지만 이 ‘<quote type="direct" genre="poet">우리</quote>’가 별개의 것이라고 하더라도 ‘우리’의 ‘<quote type="direct" genre="poet">세계</quote>’가 별개의 것은 아니 다.</s>
+          <s>시인들은 평평해 보이는 이 세계의 안쪽을 탐사한 흔적들로 자신의 ‘<quote type="direct" genre="poet">세 계</quote>’를 일구었다.</s>
+          <s>지금까지 ‘<quote type="direct" genre="poet">우리</quote>’가 지닌 전대의 <term type="concept">미학적</term> 특성에 기대 어떤 시 에는 <term type="concept">미래전망</term>이 보이지 않으며.</s>
+          <s>또 어떤 시에는 이 세계에 대한 인식이 지 워져 있다고 말했지만, 사실 미래를 지운 시에도 전망은 있으며, 이 세계를 지운 시에도 이 세계에 대한 의식은 있는 것이다.</s>
+          <s><persName ref="#p-x">김종훈</persName> <date when="1972">1972년</date> 서울 추생.</s>
+          <s><date when="2006">2006년</date> <orgName xml:id="org-x2">창비신인문학상</orgName>에 평론이 당선되어 등단.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

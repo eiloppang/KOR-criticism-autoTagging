@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>미래파 논쟁과 그 이후─시의 미래와 미래의 시</title>
+        <author>전해수</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>g ■財;也丿20bKINX201 61 10577기획특집 !</s>
+          <s>젊은한국시의 변혁口卜내파논쟁과그 이후——시의 미래와 미 래의 시전 해 수꿘혁웅의，<title level="a" type="critic" xml:id="t-2x5">미래파 一2（X）5년의 젊은 시인들</title>」⑵）05）에 처음 제기된 Fi 나!</s>
+          <s>피: 工一； '!厂나］코: 니？!</s>
+          <s>' K-으： !》'… »）넌디】 시 Y 사 시-…3「工 학적 태도, 언술방식과는 매우 다른 "새로움'의 기표로 우리 我단의 주 목을 받아 왔디、 많은 평론가들이 <persName role="critic" xml:id="p-x">권혁웅</persName>이 제기한 '<term type="concept">미래파</term>' 란 명唱과 진단에 찬동하거나 반론하면서 미 래파를 둘러싼 논의가 볓 해 동안 이‘미래파'는 <term type="concept">새로운 서정</term>（<persName role="poet" xml:id="p-x2">이장욱</persName>）, <term type="concept">환상적 서정</term>（<persName role="poet" xml:id="p-x3">김진수</persName>）, 진화히는 서정명명을 인정하면서 권혁웅이 제시한 미래파 진영에 대한 긍정적인 기 대가 속출되기도 했고, 한편으로 다른 미래（<persName role="critic" xml:id="p-x4">이경수</persName>）를 위한 비판적 담론 이 거론되기도 했다* 이경수, <persName role="critic" xml:id="p-x5">고봉준</persName>, <persName role="critic" xml:id="p-x6">하상일</persName> 둥은、니래파'에 관심이 집중되는 불균둥한 상항을 비반하고 미래파가 “<quote type="direct" genre="critic" source="권혁웅">가까운 비래에 우리 시의 대안이 뇐다</quote>”는 기대치｛긴헉웅）에 대하여우려갑을표명했나.</s>
+          <s>그러나 당시 <term type="concept">미래파</term>를 둘러싼 다양한 의견은 식을 줄 모르며 연이어 발표됐고, 미래파'의 명명 역시 지속적으로사용되는 등 그 영향력은 상당기간 유효하게 작용했다.* 미래파를 중심으호 사회학적 접근을 통 해 진단한 글도 있었으며<persName role="scholar" xml:id="p-x7">김홍중</persName>, <persName role="poet" xml:id="p-x8">심보선</persName>）、최근에는학위논문까지 발표 되는 둥<persName role="poet" xml:id="p-x9">이병철</persName>, 2014） 그 관심은여전히 진행형 이라 할 수 있다*0 기: |・!関파는생 因亭 X此:이 징과했나.」니佔니의 •희 시사으로 데내 屮게 壮한 냉 징한 긴난괴 핑가:: 서 값2 의「T斗 ?.；.-;,- 싱s니 .</s>
+          <s>2m）닌니 에 주목받게 된 소위 <term type="concept">미래파</term>는 <term type="concept">환상성</term>* <term type="concept">혼종성</term>，<term type="concept">그로테스크</term>, 퀴어적 미 학, <term type="concept">서브컨처</term>, <term type="concept">불온함</term>* <term type="concept">자기갱신</term>, <term type="concept">동성애코드</term> 등 모든 林추總）와 불협화 呂” 의 T V 가사㈠必曰이 二 “<quote type="direct" genre="critic">모조단</quote>” 이니- •'닌-해 싱” 의 신인？ 비치 n| 리고, 새로운 麻감각" 의 우위를 보여 주는 미학적 언표로 과연 작용했는 지, 지금노 여전히 그러한지, 다시금 살펴보고자한다*미 래파는 일반적으로 <date from="1990" to="1999">1990년대</date> 후반 이후에 둥단하여 <date from="2000" to="2009">2000년대</date>에 첫 시집을 낸 <date when="1970">197Q년대</date> 출생 시인들이 주류를 이루는 것으로 범박하게 정 의되었다* 한 평론가에 의해 자의적으로 사용된 미 래파는 한국시의 미 래를 짊어질 2（）00년대의 <term type="concept">젊은 시인들</term>로 호명되면서 이들의 시가 표방 하는 전위적 “새로음〕'이야말로 우리시의 대안이 될 冋래형'의 시로최근 넟몇 젊은 시인들의 시를 살펴 우리 시의 미래를 짐작해 보고자 힌디"* <quote type="direct" genre="critic" source="권혁웅">이차피 우리 시의 미래는 이들이 적어 나갈 것이다</quote>（<persName ref="#p-x">권혁웅</persName>, •，미래 파j 15CW） ， ，치음으로 돌아가자.</s>
+          <s>다시 말하지만, <term type="concept">새로운 세대</term>가 생산하는 시들은 결..</s>
+          <s>
+            <interp value="affirmative" ana="미학">코요령부득의 장광설이거나 경박한 유희의 산물이 아니다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>…… 세대가 바뀌면 그 세대에 통용되던 <term type="concept">미학</term>과<term type="concept">세계관</term>이 바뀐다.</s>
+          <s>…… 다르게 말해서 「이들의 착품이 가까운 미래에 早리 시의 분명한 대안이라는 것을 인정할위 인용屮에 시 “<quote type="direct" genre="critic">우디 이의 H</quote>" 나 “<quote type="direct" genre="critic">사까운 니 '小게 ?〃 시门 兴咽한 대인-</quote>”이 一닐 시인3：이 川」二 비비가工 이해뇐디-.</s>
+          <s>슈* 3이i 대&lt;iJ되｝ 비 게과의 새总에-；二 ?</s>
+          <s>디- 이」L 잇는 -储의 <term type="concept">전위</term> 에슬Y.</s>
+          <s>시의 니데파의 속성과는 대부분 일치하지는 않는다, 다만 이에 속하는 <term type="concept">젊은 시인들</term>의 시 경향이 신汴애"）싱弋- SUU L1고 '니레피'마 시 싱지 지이 이^ 깃그러나 유럽의 ‘<term type="movement">미래파</term>'가표방하는 <term type="concept">전위</term>는 매우 징치적인 것으로 한 국시의 전위와는 상당부분 다르디-* 서구의 미래파가 이탈리아 작가들 이 적•丁";이「］빈1가 卜!</s>
+          <s>인세 소i冲 다•袁힌 屮£ 안广丿 ....,.</s>
+          <s>明?a •『사싱 은 매우 미진하다.</s>
+          <s>서구의 <term type="movement">미래파</term>가 일군의 이념적 운동이었다면 한 국의 <term type="movement">미래파</term>눈 비핑에 의해 재단되고 명명되어진 하나의 （는"학적）발상 5^^^^；^다」「「］^^「|^「「|；］「「|； 그러나 시의 위의는 미래파로 불리면서 <term type="concept">시적 모호성</term>과 <term type="concept">난해성</term>이 제 대로 의미규정이 되지 못한 채 “<term type="concept">새로움</term>‘의 코드로 덮씌워져 지나치게 우상화된 점이 있으며, “<term type="concept">새로움</term>”의 의미조차도 과도한 형식적, 언어적 시沙세 내나 " 加 .</s>
+        </p>
+        <p>
+          <s>厂卜印피，小 1 电론에7，시i 淄 抬 -iAV.</s>
+          <s>：1口耳 ；；• 상당3*丁!</s>
+          <s>•工 -I: ： &lt;&gt; •'、；히；기F 니니J”； ■•!</s>
+          <s>기나让;;7V二이 갔다.</s>
+          <s><term type="movement">미래파</term> 용어사용의 旱정확성은 미래파 시에 吐한 찬반양논의 입장 을 떠나서 <persName role="critic" xml:id="p-x10">평론가</persName>와 <persName role="poet" xml:id="p-x11">시인들</persName> 사이에서 인지하고 있었음에도 불구하고 당시에는 크게 이에 대한 논제제기를 강력하게 부각하지는 못했다.</s>
+          <s><term type="movement">미래파</term>는 <date when="2000">2（X）0년대</date> <term type="concept">시문학</term>의 주류가 도］이、문학적 균형감을 잃어버 리고 시안（詩眼）을 흐리게 했다* 십상 이 용이는 상당히 오랫동안 사용되고 （지금도 인정받고 있^ 듯 여겨지는:데） 그 문학적 사회적 파장이 아직도 깊 윺1^^；；［「；1『츹II］营二「；11；」1，1「：1 신矶 니/心上川시胃 好卓에시 윤*하，Y 0행도이.</s>
+          <s>너 신牙운舌이 하 나영으爲.</s>
+          <s>느히 이난니아를 종십으고 ?矶 빈수세에시 눈R시 세 완야 했던 유파였다* <title level="m" type="other" xml:id="t-x">미래파선언</title>을 통해 새로운 예술영역을 확보하고자 했 던 유럽의 예술가들은 아방가르^적 <term type="concept">전위예술</term>을 새로운 예술적 모디브 星 이 기」!</s>
+        </p>
+        <p>
+          <s>에술직 7 신••：: "히」二卜 했디-.</s>
+          <s>이 의，匸니 에순 小・!</s>
+          <s>川*斗三 인 생 이］솔 —넝執二-이円二止?</s>
+          <s>됸 :.</s>
+          <s>$,o : 仪 电 난선 깃을 %히 이 叫岩 의 규칙 또는 <term type="concept">예술</term> 자체를 뚜］어넘으려는 지속적인 노력을 보인다（<persName role="foreigner" xml:id="p-x12">지오 반니 리스타</persName>）.</s>
+          <s>이처럼 <term type="movement">미래파</term>는 일종의 <term type="concept">예술운동</term>을 지칭하는 것으로 작 가들 사이에서 스스로 문제제기 되고 활동되었던 바 유럽의 20세기 예 .-小… -J &gt;!</s>
+          <s>시.</s>
+          <s>치，; l 二.卜二 상낭 “'卜세 니기-바고 있-:: •父屮上그러나 우리의 경우는 좀 달랐다.</s>
+        </p>
+        <p>
+          <s>''<term type="movement">이탈리아의 미래파</term>와 느슨하게 연 결되어 있는 것이기도 하면서 동시에 비래에 우리 시의 대인，으로 삼은 것*'（<persName role="critic" xml:id="p-x13">신형철</persName>）이 <persName ref="#p-x">권혁웅</persName>이 설정한 미래파였다고 말하지만* <term type="movement">유럽의 미래파 운동</term>과는（느슨하게라도） 견주어 보기는 어 렵다, “<quote type="direct" genre="critic">느슨하게 연결 되었다 屮门1七 •川联TJ心- 닌w二차시니- TU안</quote> "이가台에 耍办』2川+ 생각된다.</s>
+          <s>그 개념의 확보가 시의 미래*라는 의미를 언어에 담아 기댄 出 Oil.」二•卜「•” =!%：；-이丫 눈干치/ 니배파 요。】 시'; 이己 신吗工； 占-百 니前	二 파강은• 3날 밴큼 &lt;工/ 壮二； 玄닌것이다.</s>
+          <s>실상 미 래파로 호명 된 시인들조차 미 대파가 무엇인가 어 리둥절해 했 는데, 이를 통해서도 <term type="movement">미래파</term> 용어설정의 모호함과 경개의 부정확성을 지적할 中 읏!</s>
+          <s>다* 二上리에도 불구하고 <term type="movement">미래파</term>는 평론에 의한 핑본의 꼬리눈기匚一 二 사出K 다.卫하川 丁' 圣-채 살다.</s>
+          <s>그러나 결과적으로 <term type="movement">미래파</term>는 한국시의 현역을 담당해 온 기존의 중 긴시인뿐，R 아니나 미 내:/에 포함되 기 所아 소외뇐 지?- •公인汽弋 낭 七 등 이후 *돡새에 또나론 부정적 영한니W 끼：执工 미通斗士 시와 대너하七 '고:•시파-’를 언상시거.</s>
+          <s>진동 시깅시어: 대한 사가잆는- 기•치젇 하고 인길」기인디，.</s>
+          <s>시의 역시-를 담당체 온 시 징시 正은- 川데피-외 대직되 민시 고*기의 유乜-品 전미하고 미々"!• 우니의 녹々리，丄 잉인니.</s>
+          <s>빈번 “<term type="concept">새로움</term>”号 지닌 시인든?： .</s>
+        </p>
+        <p>
+          <s>미래파手—십얌듸잇다.叫내파 上-쟁•은 早징기S" £上가 더 많았다는 것이 픠•々•긔 귀해이14.</s>
+          <s>한국의 비 恥卜; 시 川고一 없잇거니 지금도 없디-.</s>
+          <s>더구나 시즈I 버래글 장 담할 수 인;： ■시屮E기」｝리니 斗J니겁다.</s>
+          <s>정卦히 발해 시의 丨 I順？ 아 지 알 수 어니.</s>
+          <s>⑴ :関는 斗은 미 리 시W 二넜•게 쉬-기 새%햘 十 "가‘L'I<quote type="direct" genre="critic">유럽의 미래파는 그 대상과 분명한 예술적 지표를 가지고•있었던 것 이지만 한국의 미 래파는 과장된 유행 속에 머물러 있을 뿐이다</quote>* <interp value="critical" ana="문학관">미 래파 는 논쟁 아닌 논쟁이 되어 유명무실해 졌다</interp>.</s>
+          <s>과거의 <date when="1980">1980</date>~気)년대 시에 반하며 <term type="movement">미래파</term> 논쟁이 뜨거웠던 만큼 당 시예:) 이떠 시인5 1屮一屮죄- R안＜屮 杏하느니- *하긴 않上二냐가 관심을 끌기도 했으며, 주목할 수 있는 잣대가 되기도 했다.</s>
+          <s>이는 <term type="movement">미래파</term>로 병 胃괴二 갓이，| 서 기 시.:; 인식也干： 싱£上 단다^ 川 시6 紹宀 시이。」 나M 남泞시 口]매기.</s>
+          <s>의 *〉泸이 n이이: 胃七寸 치;: ，、“신힌 二乙二丁삼：； 2 司 헤*小 !.</s>
+        </p>
+        <p>
+          <s>'-;?■].</s>
+          <s>壮｝ 아；『 시-; 二门三 시 .《~ 力 배i•小쳈니：-；■ 个 인나.「卜仙卜『丨 -시 낫扑「』*：；* 시； 力 屮」V!</s>
+          <s>피하는 것이 되었고, 미래의 <term type="concept">한국시</term>는 <term type="movement">미래파</term>에 경도되어 흔들리게 되丫 j L시“.</s>
+          <s><term type="movement">미래파</term> 시인과 미래형 시문학평론가.</s>
+          <s><persName ref="#p-x">권혁웅</persName>이 처음 거론한 <term type="movement">미래파</term> 시인은 <persName role="poet" xml:id="p-x14">장석원</persName>, <persName role="poet" xml:id="p-x15">김민정</persName>, 유 형진, <persName role="poet" xml:id="p-x16">황병숭</persName>이었고, 이후 麻주류 시학의 질서에 편입되지 않은, 그래서 기존 시의 독법으로는 잘 파악되지 않는 <quote type="indirect" genre="critic">새로운 시적 기술론</quote>”으로 그 범주를 넓힌 후에 거론된 시인은 <persName role="poet" xml:id="p-x17">김경인</persName>，<persName role="poet" xml:id="p-x18">김경주</persName>, <persName role="poet" xml:id="p-x19">김근</persName>, <persName ref="#p-x15">김민정</persName>, <persName role="critic" xml:id="p-x20">김병호</persName>， *인.</s>
+          <s>김이*、시한彳.</s>
+          <s>낙단시 <persName role="poet" xml:id="p-x21">송승횐</persName>.</s>
+          <s>이也&amp; 시해육.</s>
+        </p>
+        <p>
+          <s>이징.</s>
+          <s>오% 우항 진.</s>
+          <s>이근화, 이기公、이可히-.</s>
+          <s>이승위.</s>
+          <s>이엇-% *;밈.</s>
+          <s>이준：也 나식윈, 장이시.</s>
+          <s>징재학.</s>
+          <s>•근연흐..</s>
+        </p>
+        <p>
+          <s><persName role="poet" xml:id="p-x22">진수니</persName>.</s>
+          <s>초; <persName role="other" xml:id="p-x23">치헌</persName>.</s>
+          <s><persName role="poet" xml:id="p-x24">최하인</persName>.</s>
+          <s><persName role="poet" xml:id="p-x25">하새언</persName>.</s>
+          <s><persName ref="#p-x16">황병숭</persName> 등이 었다" 그의 포괄적 기준이었던 “<quote type="indirect" genre="critic">새로운 시적 기술론</quote>” 에 의하면 앞으로 “<term type="movement">새토우</term>“ 니래파 시E!</s>
+          <s>은 디욱 *。;나-小」비■길 신방기니.</s>
+          <s>"<term type="concept">새로움</term>*5 이라는 모호한 단어로 묶인 미 래파는 또다른 竦새로움'' 에 의 해 얼마든지 업데이트되거나 제외될 수 있다” <term type="movement">미래파</term> 시로 호출된 시 혹은 시인들은 그 .</s>
+          <s>'<term type="concept">모호함</term>"과 経<term type="concept">난해함</term>' 이 대중과의 소통불가능성을 답 보하고 있었기 에, <interp value="critical" ana="문학관">과연 그 미 래塞 란 지 칭 이 문학 소수자만을 위한 미래 는 아닌가 하는 의문을 품게 한다.</interp></s>
+        </p>
+        <p>
+          <s>그렇다면 새롭다는 그 미래적 혹은 미래헝 시의 기준은 구체적으로 무엇일까*2(X)0년대 <term type="concept">한국시</term>의 변화는 <quote type="indirect" genre="critic">황병숭 현상</quote>(<persName ref="#p-x6">하상일</persName>)을 만나게 되면서 뚜 렷해진 점 이 있다" <persName role="poet" xml:id="p-x26">황병승</persName>의 시를 통해 이를 논해 보겠다.</s>
+          <s>포옹을 할 때마다 나의 등 뒤로 무섭게 달아나는 그대의 시선!</s>
+          <s>그대 어 나에게도 자궁이 있다 그게 잘못인가 어찌하여 그대；는 아직도 나의 이름을 의심하는가II휠흘「시寻쿠I시:豆쿠*: : ”；\；|||||||||||힚II: ■*备82需은입！의도G뱀은电허찌'‘承察6爲‘°“<quote type="direct" genre="critic">■■•tff장문의 편지를 입에 물고불 속으로 사라진 개를 따라쓰러진 저 늙은 여자의 침묵을 타 넘어笺1^^^强^Y工；3「IIB3］；i</quote>"「llilllll「 ）［|；1*^］111「「1^曲?^^처皿^^整；<persName ref="#p-x26">황병승</persName> 시의 힌신看 의미上 ^쉬?</s>
+          <s>화직 상상녀에 刀屮-한 守당고i 니一 电-시 斗치의 위/心； 니이;.!</s>
+          <s>빈-* 미叶예 있니-.</s>
+          <s>나닝승弋若】：힌 인이 지시아 인이3：수의 닌:가^ 里。; 刃山丨 피쇄q 시 의시登 쇄个현 데에 그 특징이 있을 것이다* <interp value="affirmative" ana="미학">이질적인 이미지들의 충돌과 동성애적인 코드 를 통한 혼종성의 실현은 황병승 시의 독특한 성과라 할 수 있다.</interp></s>
+          <s>
+            <interp value="critical" ana="미학">그러 나 연（聯）뿐만 아니라 행 사이에서도 그 간극이 너무 멀다.</interp>
+          </s>
+          <s>상상력을 동 윈하이 "이31 «W1 4：-■；•-■&lt;.</s>
+        </p>
+        <p>
+          <s>여지•난사 시三丄吋引 -上-心产 소d &lt;“해 할 뿐이다* 우리가 종전에 알던 시의 규칙 즉 <interp value="neutral" ana="미학">행과 행의 친밀한 거리나 연과 연의 유대는 이제 좀 머쓱해졌다.</interp></s>
+          <s>평론가의 해설이 필요해진 시는 自』^抻自*^^^菽由^;;&lt;기 *，*；_ 叫게屮二 사시인의 시^ 릉헤 니•신신^ a이 기：넙］：.</s>
+          <s>々屮 幺의 AL；：- 齿해 시의 사耳싱」斗.</s>
+          <s>W니X 인卄인니.</s>
+          <s>5	川门"M.v.</s>
+          <s>'.-i 이砒士 위辻 *七하이킹 한니:서」.</s>
+          <s>2이丁」丁」「I나‘^ 니: 신 미래헝, <term type="concept">미래적</term>이라는 말도 함께 사용한다.</s>
+          <s>그에게 미레파는 이게 ‘<term type="concept">미래적</term>' 이리는 관형구로 바뀐 것이다.</s>
+        </p>
+        <p>
+          <s>환상성, 잔홈성，만화적 상상력 외에도 <persName ref="#p-x26">황병승</persName>의 시에서도 보이시늣 이 서브킬처（stto由比“ <term type="concept">오타쿠</term>（오덕후） 등 21세기를 대변할 시힝 식의 변화 및 새로운 문화적 관심은 다종의 언어적 실험에 의해 시도되었다.</s>
+          <s>그 가운데 기，볍고 자극적인 세부 요소들은 자유로운 것，소수석인 것,하위적인 것으로 인식되어 달권위적인 것과 <term type="concept">탈서정적인 것</term>을 표방하기.</s>
+          <s><title level="m" type="critic" xml:id="t-x2">미래파 이후:시의 미래아 미래의 시</title>.</s>
+          <s>그러나 미 래파 논쟁 이후 <term type="movement">미래파</term> 시와 미 래파 시 인에 대한곽도？한 평 기에는 壮산시 잉어 二?</s>
+          <s>다.</s>
+          <s>미!</s>
+          <s>開파들 옹空机!</s>
+          <s>형S」十 비 通斗비 시이!</s>
+        </p>
+        <p>
+          <s>늘- 인■计하「1.</s>
+          <s>川레파•已느 이습의 시패에 대헤 빈시 시술하口，신딩打 亦小웅-이 내 새® 미 巾니H 시3은 하戸길 千 있는 小; 小」하 ••학3 -'■1- 신니의 증사.</s>
+          <s>川7이아 牛-사의 증가”에 当인 “삼징지 난吋'이난 이다.</s>
+          <s>그는 •才스I；이“들을 미미;파니- E廿한 .父은 초::조의 片게섰；.</s>
+          <s>윽; }^些1^^^叮^^^^1「「1「^^^「11^「 그렇다.</s>
+          <s>미 래파의 ‘"<term type="concept">새로움</term>，은 언제나 다른 새로움에 의해 극복될 수 있는 것이기에 이 <interp value="critical" ana="미학">미래파란 병명은 불완전한 명명에 디름 아니다.</interp></s>
+          <s>아니 다, 애초에 <interp value="critical" ana="미학">미래파란 호명은 불필요하거나 부적절했다</interp>* 미래파가 내세 운 <term type="concept">새로움의 미학</term>은 애매모호한 역설의 새로움을 배태했다, 비평의 잣 대가 모호한 언명으로 시작되었다는 점은 반성적이다* 한 지적처럼 “<quote type="direct" genre="critic">새로워서 좋다</quote>*'가 아닌 “<quote type="direct" genre="critic">좋은데 새롭다</quote>"로 접근해 본다면 “새로움” 의 위상은1달라질 것이다.</s>
+          <s>좋은 시와 <term type="concept">새로운 시</term>는 어떻게 연관되고 연속될 것이냐에 따라서 그 평가는 상당히 달라진다.</s>
+        </p>
+        <p>
+          <s><term type="concept">새로움</term>을 일방적으로 추 수하다 보면 실체를 놓치기 쉽다.</s>
+          <s>시가 서시와 다른 점은 시가 지닌 고 ；^^^서^！*<term type="concept">새로움</term>을 뒤엎는 다른 새로움은 좋음에 힘입어 그 가치를 창출하게 묀다.</s>
+          <s>모누를 들라게 힌、2013년 <orgName xml:id="org-x">미당문학상</orgName> 수상자 <persName ref="#p-x26">황병승</persName>은 이 상을 수상함으로써 자신뿐만 아이다 모든 <term type="concept">전위시</term>는 시 장르의 영역 내에 편 입되는 차원에서의 새로운 것일 뿐임을 증명한 셈이다.</s>
+          <s>个상작「<title level="a" type="poem" xml:id="t-x3">내일 은 프로</title>」는 이별의 시상이 현대적으로 재해석돈!, 기존의 <term type="concept">서정</term>이 작동한 작품이라 할 수 있다" <term type="movement">미래파</term>의 아이콘 <persName ref="#p-x16">황병숭</persName>의 문학상 수상이 의 미하는 32.- 새로；；의 사치荘 기유•片개 장주司•：；： 비?】 十사 — 에 서긴 싱이 이 不!</s>
+          <s>히 丢지가 娥 시의 본위는 L"•七 깅이을 •니 이 주비내니- 논생의 의미^ 비핑의 우으기 시让의 $.七； 뒤흔들 수：仁 이 다-:: 乂-하게의 기긴 나성을딘치 孑다.</s>
+          <s>이 사a尸1 리!</s>
+          <s>니胃 치니广I 비이-에 再햐 남花•으星 남게 뇐다】건 工 뒤•혼「의 실 ?</s>
+          <s>서인 내•汉으-브:「M•나斗 인 시뇟口 호멍되는 규정을 동해 시의 •논•위석 의；：!</s>
+        </p>
+        <p>
+          <s>가 오히딘 斗기되시、으 비, 시장싱을 넌이시 시적인 것의 몬실% 다시 인';해 屏히」辻시丁; 일징이 니대斗 시* 불닌 인년의 시핀들에 내지国어，二니난 싯으」，电 가헤 발 十 있다.</s>
+          <s>시*;- 니리:파타 볼닌 시인*，- ”레나二I 성기； 二建 채 <term type="movement">미래파</term>의 역할을 타의(평톤)에 의해 부여받았던 것이다.</s>
+          <s>돌이키브®」「'』기 힌Y 시-눈학시에 있이 叫 래파 논지2 丁£이 E 요했던 2(XX)년대 문단을 활발한 논의의 장으로 이끈 공적은 있다.</s>
+          <s>2000 년 이후의 시 유형 이 상당히 달라지고 있으며，그 핑가 또한 변화하고 잉나-; •시에시 미매파 •上재？: 二"？•한 '4 ?-&gt; 이 斗WC.</s>
+          <s>비L 卜 星… 시「새다 의나 안게시 項』/| 시 土힌「.</s>
+          <s>닌吁이 一二/ 土다 *!</s>
+          <s>陪二 안 듯 깃으品 보힌디-.</s>
+          <s>시引 니내 斗『H* 不 丁 不2 시에서 인山屮 -if- 딘矶-진 4'- 있£ 싯?: % 川沖•시니【유•으로 可■기니.</s>
+        </p>
+        <p>
+          <s>抬 의 요厶는『잇인外.</s>
+          <s>川即기 冷샌 이•仁 ?-屮『 工-냔 ； 있들- 시이 -손새 ^g*生露^엇！^^^까1「；^]_；111 變 11*；111111；1111111111111笺111曇1电鹏11餐뺿 III희； '「I門니% 이니리-门丄 앙电승，； 善，屮 一—- ?</s>
+          <s>이다.</s>
+          <s>仆，!</s>
+          <s>任工!</s>
+          <s>역시 <persName ref="#p-x15">김민정</persName>이라는 시인의 자싱을 시로 표출하면서 우리와 <term type="concept">소통</term>하게 될 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">궁극의 시적 가치는 소통이다.</interp>
+          </s>
+          <s><term type="concept">소통</term>되지 않는 시에 대한 아미래를 짊어질 '<term type="movement">미래파</term> 시와 시인은 결정되었는가.</s>
+        </p>
+        <p>
+          <s>아니다.</s>
+          <s>그 어떤 시인이라도 미래 시의 수인궁이 될 수 있디-.</s>
+          <s>二것은 시•신의 고유'안 시적 방식과 독자와의 소통으로 그 자리를 얻게 될 것이다.</s>
+          <s>미래는 모든 시이세새 영丁; ?!</s>
+          <s>다.</s>
+          <s>니내-니 “인夫 없나.</s>
+          <s>..Y.-：?，叮寸屮 J；기旧| 있니 면，.</s>
+          <s>어떤 방식으로 그 미래성을 말할수 있는지를 시인（詩人） 스스로 시 3 X게서 짙;치I*헌해B 히니이 걸" •시이 通丄움에는 <term type="concept">소통</term>이 배제되어서는 안 될 것이다.</s>
+        </p>
+        <p>
+          <s>시의 변혁에도 공감할 수 있는 독자는 필 j^^^・；lW¥1*iB^$iii^^^MiillliiJii口||||||「^員1|11^^爲</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

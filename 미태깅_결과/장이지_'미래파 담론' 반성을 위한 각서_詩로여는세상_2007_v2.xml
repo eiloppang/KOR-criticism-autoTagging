@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>'미래파 담론' 반성을 위한 각서</title>
+        <author>장이지</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><term type="concept">미래파</term> 담론 반성을 위한 각서‘미래파’ 에 대한 논의는 이제 그만 했으면 좋겠다.</s>
+          <s>그 용어는 처음에 ’	주:.; <term type="concept">젊은 시인들</term>에 대한 기대를 나타내는 수사적인 차원에서 사용되었다.</s>
+          <s>그런데 이제 그 용어는 <term type="concept">미래파</term>에게는 미래가 없다는 식의 비아냥거리는 뉘 J .</s>
+          <s>&lt; j 앙스와 뒤섞여버리고 말았다.</s>
+          <s>후배들을 격려하는 차원에서 <term type="concept">미래파</term>라는 용어가 쓰이는 것은 사실 크게 문제될 것이 없다.</s>
+          <s>그러나 <interp value="critical" ana="문학관">소통을 거부하 7T l 고 극단적인 개인주의에 함몰된 일군의 젊은 시인들이라는 세대적 함의 서 가 이 용어에 덧씌워질 때는 그 미래파라는 용어로 구분되는 개별 시인들 厂 이 확정적으로 제시되어야 한다.</interp></s>
+          <s>
+            <interp value="critical" ana="문학관">미래파를 자의적으로 젊은 시인들을 통 三 칭하는 용어로 사용한다고 할 때 우리는 우리 시사의 미래를 섣불리 부정 &gt; 하는 것이 될 가능성이 크기 때문이다.</interp>
+          </s>
+          <s><term type="concept">미 래파</term>는 누구인가.</s>
+        </p>
+        <p>
+          <s>어느 누구도 이 문제에 대해 확실하게 말하고 있지 않다.</s>
+          <s><term type="concept">환상</term>을 통해 시를 주조하는 시는 언제고 있어 왔다.</s>
+          <s><persName role="poet" xml:id="p-x">김종삼</persName>에게도 <term type="concept">환상</term>은 있다.</s>
+          <s>
+            <interp value="critical" ana="미학">환상을 실재와 대립시키고 환상이 진지하지 못한 것이라는 식의 논리를 펴는 것은 좀처 럼 이해하기 어렵다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">환상도 실재의 일부라고 보는 것은 말이 안 되는 일인가.</interp>
+          </s>
+          <s><term type="concept">환상</term>에도 여러 종류가 있다.</s>
+          <s>밝고 따뜻한 <term type="concept">환상</term>이 있고 어둡고 차가운 환상이 있다.</s>
+          <s>논리가 없는 망상에 의존하는 <term type="concept">환상</term>이 있는가 하면 체계를 갖춘 환상도 있다.</s>
+        </p>
+        <p>
+          <s>세계 자체를 <term type="concept">환상</term>적 체계 로 재구성하는지 아니면 환상을 세계를 구성하는 요소들 중 부수적인 것 으로 보는지도 차이가 있을 것이다.</s>
+          <s><term type="concept">방법론적 환상</term>이 있는가 하면 <term type="concept">질환적 환상</term>도 있다.</s>
+          <s>간혹 두 가지가 결합하기도 한다.</s>
+          <s>이들은 균질적인가.</s>
+          <s><term type="concept">미래 파</term>는 이 경계들 중 어디에 위치하고 있는가.</s>
+          <s><term type="concept">미래파</term>는 소통을 거부하고 개인적인 은어를 사용한다는 인식도 있다.</s>
+          <s>그런데 <term type="concept">미래파</term>라는 용어를 사용하지 않고 <term type="concept">젊은 시인들</term> 일반의 문제로 돌 아갔을 때 문제가 되는 것은 <interp value="critical" ana="미학">개인적인 은어의 창궐이 아니라 오히려 모두 엇비슷한 은어를 구사한다는 점이라고 생각한다.</interp></s>
+          <s>모두들 줄글 형태를 고 집하며 <term type="concept">성적 금기</term>와 대결하려고 한다.</s>
+        </p>
+        <p>
+          <s>직유보다는 <term type="concept">환유</term>가 더 세련된 것이 라고 생각하고 <term type="concept">감각적 이미지</term>를 착실하게 연마하기보다는 <term type="concept">관념</term>과 직관 그도 아니면 <term type="concept">잠언</term>을 통해 세계의 영웅으로 우뚝 서고자 한다,소통은 일방향적인 것이 아니다.</s>
+          <s><persName role="poet" xml:id="p-x2">백석</persName>의 시어들은 오늘날 우리들에게 매우 낯설게 다가오지만 그것을 <term type="concept">소통</term>의 거부로 보지는 않는다.</s>
+          <s>‘<quote type="direct" genre="poet">라산스 카</quote>’ 가 무엇일까 고민할 때에만 <persName ref="#p-x">김종삼</persName>의 시 세계는 <term type="concept">눌변</term>의 진솔한 이야기 를 들려준다.</s>
+          <s><term type="movement">미래파</term>의 시들은 <persName role="poet" xml:id="p-x3">이상</persName>李1의 시보다 <term type="concept">소통</term>이 어려운가.</s>
+          <s>1950 년대 시들에 비해서는 어떤가.</s>
+          <s><term type="concept">개인적인 은어</term>라고 했지만 <term type="movement">미래파</term>에는 몇 가지 종류의 개인적인 은어가 존재하는가.</s>
+          <s>외래어 편향이나 언더그라운 드 문화의 유입의 표피적인 차원에서만 이 문제를 논한다면 <term type="movement">미래파</term>는 변 명의 여지없이 패퇴하기 십상일 것이다.</s>
+          <s>반향反#과 마력燈方이라면?</s>
+        </p>
+        <p>
+          <s>미래 파는 소위 ‘<term type="concept">암시의 미학</term>’ 이라는 차원에서 자신들의 언어를 밀고 나갈 만 한 감각을 보유하고 있는가.</s>
+          <s>그런데 내가 염두에 두고 있는 <term type="movement">미래파</term>는 도 대체 누구인가.</s>
+          <s><term type="movement">미래파</term>라는 것은 박물관과 도서관으로 표상되는 기존의 전통과 역사를 부정하고 파괴함으로써 새로운 전통을 세우고자 하는 <term type="concept">전위적인 충동</term>이라 고 할 수 있을 것이다.</s>
+          <s>이런 식으로 규정할 때 <term type="movement">미래파</term>의 범주로 묶을 수 있는 <term type="concept">젊은 시인들</term>은 극히 제한적일 수밖에 없다.</s>
+          <s><term type="concept">살부殺% 의식</term>을 표나게 내세운 <persName role="poet" xml:id="p-x4">황병승</persName> 시인이나 독백체로 <term type="concept">여성 망상</term>의 극점을 발설하고 있는 김 민정 시인만이 이 범주로 묶일 수 있는 것은 아닐까.</s>
+          <s>장시에 각주를 붙여 가며 ‘<quote type="indirect" genre="poet">나란한 무덤</quote>’ 이기를 거부하는 <persName role="poet" xml:id="p-x5">김경주</persName> 시인의 <term type="concept">레토릭</term>은 전통에 대 해 반기를 들고 있는 것이지만 낯익은 <term type="movement">로맨티시즘</term>의 피와 뼈를 갖추고 있 다.</s>
+          <s>이들 셋만이 <term type="movement">미래파</term>로서 의미 있는 작업을 보여 주고 있는 것은 아닌 가 싶다.</s>
+          <s>
+            <interp value="critical" ana="문학관">그 외에는 미래파라는 용어를 굳이 고집할 이유가 없다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>따라서 <term type="movement">미래파</term>의 미래를 묻고자 할 때 이들 셋의 미래의 향방을 묻는 것으로 족할 것이다.</s>
+          <s>그런데 이들 셋의 미래는 걱정할 것이 없다.</s>
+          <s>그저 <interp value="affirmative" ana="문학관">이 명민한 시인들의 다음 행보를 기다리는 것이 시인들에 대한 예의일 것이 다.</interp></s>
+          <s>아마 <persName ref="#p-x4">황병승</persName> 시인은 어떻게 아버지를 죽인 자가 아버지가 될 수 있는 가의 질문에 맞닥뜨릴 것이다.</s>
+          <s>아마 <persName role="poet" xml:id="p-x6">김민정</persName> 시인은 위선적인 님성사회에 하이킥을 날리기 위해 더욱 첨예한 <term type="concept">여성주의</term>의 자장을 구축하기 위한 기 획을 고안할 것이다.</s>
+          <s>아마 <persName ref="#p-x5">김경주</persName> 시인은 당분간 자신의 <term type="concept">고독</term>으로 세계를 뒤덮으려는 기투를 계속할 것이다.</s>
+          <s>그리고 ‘<quote type="direct" genre="poet">당분간</quote>’ 이 지나가면 나를 벗어나 세계와 대결해야 할지도 모른다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">이들의 다음 행보를 예측하는 것 은 바둑의 맞수가 다음에 어떤 수를 전개할지 암암리에 예기豫期하는 것 처럼 긴장되고 재미있는 일이 아닐 수 없다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><term type="movement">미래파</term>의 미래에 대해 논하는 것은사실 실례를 범하는 것이다.</s>
+          <s>미래가 어떻다고 예기하는 것은 그저 기대와 설렘에 기반을 둘 때라야 가능한 일 이다.</s>
+          <s>하물며 미래가 없다 미래가 어둡다 <term type="movement">미래파</term>는 미래파이기를 포기해 야 된다는 식의 논란이라면 그것은 몰상식이라고밖에 달리 말할 수 없다.</s>
+          <s>자기 시세계가 소중한 것처럼 다른 사람의 시세계도 소중하다.</s>
+          <s>
+            <interp value="critical" ana="문학관">그 미래를 섣불리 재단하는 것은 얼마나 무모한 일인가.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="문학관">미래파 논의는 미래파와 서정시를 구분지음으로써 환상과 실재를 구분 지음으로써 우리 시의 발전을 저해하고 있다는 생각이 든다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="문학관">결국은 다 서정시를 쓰고 있는데 미래파의 시는 서정시가 아닌 것처럼 말하는 것은 묘한 기만이 아닌가.</interp>
+          </s>
+          <s>이런 생각들을 요즘 <term type="concept">젊은 시인들</term>이 그대로 받아들이 고 있다는 것도 기이하다.</s>
+        </p>
+        <p>
+          <s>그래서 <term type="movement">미래파</term>와 <term type="concept">전통 서정시</term>, <term type="movement">리얼리즘 시</term>가 시단을 삼분할하고 있는 것처럼 이야기하는 경우를 심심치 않게 보았다.</s>
+          <s>
+            <interp value="critical" ana="문학관">그런 구분법 때문에 젊은 시인들의 시적 성취가 모더니즘 계열에 국한해 서만 부각된 혐의가 있다.</interp>
+          </s>
+          <s><interp value="neutral" ana="미학">그 자체로 본받을 만하다고 생각하지는 않지만</interp> <persName role="poet" xml:id="p-x7">박진성</persName> 시인이 끈질기 게 밀고 나간 ‘<term type="concept">지병</term>’ 과 ‘<term type="concept">약</term>’ 의 착종은 <interp value="affirmative" ana="미학">분명히 개성 있는 세계라고 할 수있다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="미학">안현미 시인이 태백이나 사북의 탄광촌에 대해 이야기할 때 그 감 수성의 빛남과 울림은 도대체 어느 지점에서 말해야 하는가.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="문학관">미래파 논의 가지워버리고 있는 것은 이런 지점들이 아닌가.</interp>
+          </s>
+          <s><persName role="poet" xml:id="p-x8">유형진</persName> 시인이나 <persName role="poet" xml:id="p-x9">김중일</persName> 시인의 시에 인상 깊게 놓여 있는 <interp value="critical" ana="문학관">공단 이미지들은 그들 시에 나타나는 언더그라운드 문화나 스타일의 문제에 가려져 제대로 주목되지 못하고 있다.</interp></s>
+          <s>
+            <interp value="critical" ana="문학관">최량의 모더니즘이 최량의 리얼리즘과 만나는 지점을 지우고 우리 는 실체가 없는 미 래파라는 것에 매달리고 있는 것은 아닌가.</interp>
+          </s>
+          <s>나는 근래에 <term type="concept">역사</term>의 문제에 관심을 가지고 있다.</s>
+        </p>
+        <p>
+          <s>통일 시대를 앞두고 <term type="concept">이산가족</term>의 문제를 살핀다든지（「<title level="a" type="other" xml:id="t-x">굳세어라 금순아</title>」연작） 역사의 심판이 계속 유예되고 있는 <term type="concept">위안부</term> 문제를 다룬다든지（「‘좀삐’의 여인들」） <term type="concept">재일 교포</term>의 역사적 위상을 살피는 일（「<title level="a" type="other" xml:id="t-x2">라인</title>」）이 모두 우리 <term type="concept">근현대사의 질곡</term>을 반성하는 일의 일환이었다.</s>
+          <s>그러다가 우리가 당면한 한시적인 시간으로 서의 현재가 아니라 더 넓고 깊은 시간에 대해 생각하게 되었다.</s>
+          <s>그것을 우주적 시간이라고 불러도 좋고 <term type="concept">영원성</term>이라고 불러도 무관하 다.</s>
+          <s>나는 그것을 ‘<term type="concept">구원久遠</term>’ 이라고 부르기로 했다.</s>
+          <s>가령 어느 해질녘에 본 풍경 이야기를 해보고 싶다.</s>
+          <s>하늘은 그야말로 칠보자개 빛깔로 물들어 있 었다.</s>
+          <s>논바닥에 고인 물에 그 하늘이 그대로 비쳐 흐르고 있었다.</s>
+          <s>이런 것 들이 몇 만 년이고 지속되어 왔다.</s>
+        </p>
+        <p>
+          <s>그런데 그 사이에 인간이 있다.</s>
+          <s>모를 심던 노인이 허리를 펴고 일어나 멍하니 지는 해를 보며 땀을 들인다.</s>
+          <s>그 때 노인이 미세한 바람을 느끼는 그 순간을 이미지로 표현한다면 어떻게 될까.</s>
+          <s>장구한 대자연을 느끼는 <term type="concept">유한한 존재</term>의 감각을 이미지로 나타내는 것이다.</s>
+          <s>나는 이 r<title level="a" type="poem" xml:id="t-x3">구원</title>J 연작을 통해 그런 이미지의 트레이닝을 하고 있 다.</s>
+          <s>종국에 나는 <term type="concept">역사</term>의 문제에서 다시 공시적인 공간으로 되돌아와야 할 것이다.</s>
+          <s>그 복귀의 통로로서 구원한 것들에 대한 관심을 택한 셈이다.</s>
+          <s>나는 <term type="movement">미래파</term>를 위시한 <term type="concept">젊은 시인들</term>이 저마다 자기 개성을 가지고 각자 의 자리에서 좋은 시를 써주기를 바란다.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="미학">욕구불만이 상상력으로 포장되 고 자기 연민이 세계에 대한 연민인 것처럼 개침된 시가 아니라 자기가箕窓:費三꾸쯔?：¥=買『꿔'&gt;•'：；*'=서 있는 지점을 진솔하게 탐문하는 그런 시를 보고 싶다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">자기 시의 새로 운 국면을 언어적인 방법으로 타개하겠다는 추상적인 논리를 그럴 듯하 : 게 펼치는 것보다 순우리말을 개척하겠다든지 사투리나 속담을 활용하겠 '다든지 상징이나 암시를 통해 중량감 있는 언어의 세계를 펼치겠다든지 급변하는 세태를 반영하는 언어를 통해 세계의 허위성을 폭로하겠다든지 무언가 구체적 인 방안을 제시하는 시를 보고 싶다.</interp>
+          </s>
+          <s>불교의 경이나 성경을 읽어서 진리의 말을 찾아보겠다고 덤빌 때 덤비 더라도 그것을 시 자체를 위해 덤비기보다는 삶을 위해 덤비는 과정에서 시를 건져내는 시를 보고 싶다.</s>
+          <s>술자리에서만 <term type="concept">FTA</term>에 반대하는 시인보다 는 자기가 생각한 바를 내심內心의 세계인 시를 통해 웅변하는 시인을 보 고 싶다.</s>
+          <s>이런 희망들이 다시 내 시로 돌아오리라는 것을 나는 알고 있다.</s>
+          <s>이런 희망들을 촉구하는 것이 지금의 시단과 평단이 해야 할 공공의 일이 어야 할 텐데 몇 년째 <term type="movement">미래파</term>만 가지고 논란을 하고 있으니 반성할 만한 ，일은 아닌가.</s>
+          <s>^3장이자 <date when="2000">2000년</date>〈<title level="j" type="journal" xml:id="t-x4">현대문학</title>〉신인 추천으로 댱단.</s>
+          <s>시집 r<title level="m" type="poem" xml:id="t-x5">안국동울음상점</title>j.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

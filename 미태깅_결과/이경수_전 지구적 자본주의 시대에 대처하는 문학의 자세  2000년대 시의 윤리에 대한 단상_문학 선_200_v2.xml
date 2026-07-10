@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>전 지구적 자본주의 시대에 대처하는 문학의 자세  2000년대 시의 윤리에 대한 단상</title>
+        <author>이경수</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><term type="concept">전 지구적 자본주의</term> 시대에 대처하는 <term type="concept">문학의 자세</term>-<date from="2000" to="2009">2000년대</date> 시의 <term type="concept">윤리</term>에 대한 단상<persName role="critic" xml:id="p-x">이경수</persName></s>
+        </p>
+      </div>
+      <div type="section">
+        <head>1.	기획된 상품들의 시대</head>
+        <p>
+          <s>한국의 문화계에는 기획 상품이 쏟아져 나오고 있다.</s>
+          <s>아울러 기획 상 품을 성공으로 이끌 스타 마케팅이 한창이다; 이렇게 말할 때의 문화란 암묵 적으로 <term type="concept">대중문화</term>를 가리켜 왔다.</s>
+          <s>적어도 그러한 판단에 대해 별다른 의심의 눈길은 던지지 않았다.</s>
+          <s>그런데, 과연 지금도 그러한7}?</s>
+          <s>유행의 코드를 읽고 거기에 따라 전략적으로 씌어지는 문학이 있다면, 그것 역시 <term type="concept">기획 상품</term>이라 고 불러야 하는 것은 아닌가?</s>
+          <s>문학은 돈이 되지 않는다고 생각했기 때문에 <term type="concept">스타 마케팅</term>이 이루어지지 않았을 뿐 스타를 만들어 내기 위한 기획이나 스 타가 되려는 욕망은 오늘의 문학의 장에서도 이루어지고 있는 것은 아닐까?</s>
+          <s>한 진보적 지식인이 <quote type="direct" genre="other">대한민국은 어디든 연예계 같다</quote>고 말했을 때, 문 학의 장에 있는 비평가의 한사람으로서 <interp value="critical" ana="문학관">나는 '그렇지 않다.</interp></s>
+          <s>봐라, 오늘의 한 국문학을’이라고 반박하고 싶었다; 그러나 = 견해에 반박하기는 쉽지 않 았다 어디서든 유행이 무엇인지 시대의 흐름을 읽기에 급급하고 그것을 따 라가기에 급급하다면 그것은 이미 <interp value="critical" ana="미학">시대를 앞서가는 문화 예술이 아니라 한낱 문화 상품에 불과하다.</interp></s>
+        </p>
+        <p>
+          <s>상품을 생산하는 주체에게도 윤리7} 있기야 하겠지만 그것은 <term type="concept">문학의 윤리</term>와는 다른 차원에 놓인다.</s>
+          <s>상품임을 전제했을 때에는 얼 마나 팔리느냐 판매의 결과 얼마나 이윤을 남기느냐가 가치 판단에 매우 중요한 기준으로 작용할 수밖에 없을 것이다: 그런 점에서 생산자의 윤리라는 것은 구매자를 기만하지 않으면서 양질의 상품을 제공할 윤리라는 차원에서 논의되어야 할 것이다.</s>
+          <s>이때의 양질의 상품에 대한 가치 판단도 구매자의 만 족도와 긴밀히 관련될 것이다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">적어도 내가 이 글에서 논하고 싶은 문학의 윤리는 이런 상품 생산과 판매의 차원과는 다른 것이다.</interp>
+          </s>
+          <s>물론 문학 역시 <term type="concept">후기 자본주의</term> 시대의 산물이 기도 해서, 상품으로서의 <term type="concept">교환가치</term>라는 문제를 전적으로 무시할 수는 없을지 도 모른다.</s>
+          <s>그러나 적어도 내가 이 자리에서 논하려고 하는 <term type="concept">문학의 윤리</term>는 <term type="concept">전 지구적 자본주의</term> 시대에 문학이 지녀야 하는 <term type="concept">저항의 원리</term>로서의 윤리라는 문제이다.</s>
+          <s>그것은 근본적으로 ‘<quote type="direct" genre="critic">무엇에 저항할 것인가?</quote></s>
+          <s>’라는 목표와 ‘<quote type="direct" genre="critic">어떻게 저항할 것인가?</quote></s>
+        </p>
+        <p>
+          <s>’라는 전락에 관한 문제이기도 하다.</s>
+          <s>다시 말해 이 글은 전 지구적 <term type="concept">자본주의</term> 시대에 대처하는 문학의 자세에 관한 논의가 될 것이다</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>2.	시대의 윤리와 미학의 윤리</head>
+        <p>
+          <s>내가 여기서 논하려는 것이 ‘<term type="concept">문학</term>’의 <term type="concept">윤리</term>, 그중에서도 ‘<term type="concept">2000년대 한 국 시</term>’의 윤리라는 문제이므로, 시대의 윤리가 곧 <term type="concept">미학</term>의 윤리가 될 것인가 하는 문제를 짚고 넘어가지 않을 수 없다.</s>
+          <s><term type="concept">미학주의자들</term>은 흔히 말한다.</s>
+          <s>새 로움을 추구하는 것.</s>
+          <s>그것이야말로 <term type="concept">미학의 윤리</term>라고 새로운 시대의 흐름을 읽고 文년 후 100년 후에 어떤 시가 읽힐까?</s>
+          <s>라는 질문을 던졌을 때 떠오 르는 시.</s>
+          <s>그것이야말로 <term type="concept">미학적 숭리</term>라고 말이다.</s>
+          <s>미학주의자가 아니어도 <term type="movement">리 얼리즘</term> 미학이 세계관에 앞서는 힘을 지님을, <persName role="foreigner" xml:id="p-x2">발자크</persName>의 소설을 들어 ‘<quote type="direct" genre="critic" source="엥겔스">세계관 에 대한 리얼리즘의 위대한 승리</quote>’라고 말한 <persName role="foreigner" xml:id="p-x3">엥겔스</persName>도 일찍이 인정하지 않았 던가.</s>
+          <s>그것도 <term type="concept">시대의 윤리</term>를 앞선 <term type="concept">미학적 윤리</term>의 승리라고 이름붙일 수 있을 지 모른다.</s>
+        </p>
+        <p>
+          <s><persName role="poet" xml:id="p-x4">박인환</persName>이 아닌 <persName role="poet" xml:id="p-x5">김수영</persName>이 선택되는 맥락에서라면 <term type="concept">미학의 윤리</term>에 대한 이러한 논의에 <interp value="affirmative" ana="미학">나 역시 동의할 수 있다.</interp></s>
+          <s>그러나 한편으론 <persName role="poet" xml:id="p-x6">김소월</persName>의 시 도 읽히고 <persName role="poet" xml:id="p-x7">백석</persName>의 시도 읽히고 <persName role="poet" xml:id="p-x8">이용악</persName>, <persName role="poet" xml:id="p-x9">윤동주</persName>, <persName role="poet" xml:id="p-x10">천상병</persName>의 시도 읽힌다.</s>
+          <s>다시말해 50년 후, 100년 후에 읽히는 시는 항상 새로운 시라기보다는 시대적 조건을 초월한 <term type="concept">보편성</term>을 지닌 시이기도 하다는 것이다.</s>
+          <s><term type="concept">대중문화</term>가 문학을 포섭하고 장악해 버리는 시대를 향해 우리 시대가” 발 빠르게 달려가고 있는 것은 부정하기 어려운 사실이지만, 그런 경우라면 더더욱 50년 후, 100년 후 에 읽히는 시가 반드시 좋은 시라고 말할 수는 없다.</s>
+          <s>
+            <interp value="neutral" ana="미학">유행의 흐름과는 비껴 가는 시야말로 미학의 윤리를 지닌 시라고 명명할 수 있는 것은 아닐까?</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="문학관">문학은 분명히 시대적 이념을 초월하는 힘을 가지고 있다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="미학">그러나 미 학적 윤리가 그 시대가 요구하는 윤리를 반드시 선취하거나 넘어서는가?</interp>
+          </s>
+          <s>다 시 말해 <interp value="neutral" ana="미학">미학적으로 새로운 시는 2000년대의 시에 요구되는 윤리를 지닌 시 라고 평가될 수 있는가?</interp></s>
+        </p>
+        <p>
+          <s>이에 대해서는 좀 더 복잡한 논의를 필요로 한다1990년대에 <term type="movement">여성주의</term>와 <term type="movement">생태주의</term>와 <term type="movement">탈식민주의</term>는 ‘<term type="concept">타자의 윤리</term>’로 주 목받는다.</s>
+          <s><term type="concept">남성 중심주의</term>와 <term type="concept">성장제일주의</term>와 <term type="movement">식민주의</term>라는 지배 담론에 대항해 서 소외된 <term type="concept">타자</term>의 <term type="concept">타자성</term>에 주목하는 것이야말로 1990년대라는 시대가 요구 하는 사명이자 윤리라는 판단이 그 배후에는 작용하고 있었다 문학도 예외 는 아니어서, 1990년대 시에서 <term type="concept">여성주의 시</term>가 두드러지고 <term type="concept">생태주의 시</term>가 주 목받고 <term type="concept">탈식민주의적 사유</term>가 나타나고 한 데는 이러한 맥락이 작용하고 있었 다.</s>
+          <s>그리고 그것은 2000년대까지 이어지고 있다.</s>
+          <s>
+            <interp value="neutral" ana="사상">여성주의와 생태주의와 탈 식민주의는 기성 담론의 체제 내적 성향에 반기를 던지며 기성 담론에서 주 목받지 못했던 타자들을 호명하는 담론의 진보성을 지닌 것으로 평가받았다 문제는 그것이 새로운 담론으로 떠오르면서 이론화하고 기성 담론에 포섭되 는 변이의 과정을 겪는다는 데 있다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="사상">여성주의 담론은 애초의 문제의식이 가지고 있었던 불온하고 진보적 인 성격을 탈각해 가면서 남성 주체의 자리를 여성 주체로 대체하는 식의 한 계를 종종 노출했다.</interp>
+          </s>
+          <s>물론 <term type="concept">섹슈얼리티</term>로서의 성에서 <term type="concept">젠더</term>라는 사회적 성으로 이동해 가는 담론의 진일보를 이루어내긴 했지만, 실제 비평과 작품 생산에 서는 종종 ‘<term type="concept">남성-여성</term>’의 이분법적 분할의 한계와 주체의 자리 이동이라는 한계를 드러내곤 했다.</s>
+          <s>
+            <interp value="critical" ana="사상">여성주의 담론이 궁극적으로 지향하는 것이 모든 편견과 차별이 무너진 더불어 사는 사회임을 망각할 때, 그것은 소수의 여성을 위한 권리 찾기 운동 정도로 치부될 위험성을 내포하고 있는 셈이다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="사상">그런 점에서 젠더에 주목하는 최근의 여성주의 논의들은 진일보한 면을 보여 주고 있다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><term type="concept">여성/남성의 이분법</term>을 근본적으로 분쇄하지 못하고 자리만 바꾸는 방 식에서 벗어나,, 사회적 악소자로서의 여성의 시선을 통해 대승적 차원에서의 인간에로 나아갈 수 있다면, <interp value="affirmative" ana="사상">여성주의 담론은 새로운 단계로 나아갈 수 있을 것으로 보인다.</interp></s>
+          <s>
+            <interp value="critical" ana="사상">생태주의 담론 역시 전 지구적 자본주의 사회에 근본적으로 저항하는 담론의 진보성을 지니고 있었지만 실제 작품의 생산이라는 문제에 부딪혔을 때는 진보성을 탈각하고 보수적 미학주의와 종종 결합하곤 했다.</interp>
+          </s>
+          <s><term type="concept">낭만성</term>이라 는 신화와 결합하기도 하고 <term type="movement">계몽주의</term>와 결탁하기도 하면서 <term type="movement">생태주의</term>는 운동 으로서가 아닌 문학의 이념으로서는 여러 가지 한계를 노정하게 된다1) 성 장제일주의에 대한 저항의 가능성을 지니고 있다는 점에서 생태주의는 여전 히 매력적이지만, 시를 중심으로 창작된 생태주의 문학은 자기 갱신에 실패 하는 미학적 한계에 부딪힌다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">미학적 추구에 대한 치열한 모색이 이루어질 때 생태주의 시는 초기의 혁명적이고 전복적인 문제의식을 지속시켜 나갈 수 있을 것으로 보인다.</interp>
+          </s>
+          <s>자연을 노래해 온 <term type="concept">전통서정시</term>와 지나치게 밀착되면서 생태주의 시가 타성에 젖어 버린 것은 정말이지 안타까운 일이 아닐 수 없 다문화 다원주의의 일환으로 제기된 <term type="concept">탈식민주의 담론</term>은 힘의 논리에 의 해 지배되어 온 전 지구적 <term type="concept">자본주의</term> 시대의 <term type="concept">패권주의</term>를 겨냥하고 있다는 점 에서 역시 이 시대의 <term type="concept">타자의 윤리</term>라고 일컬어질 만한 면을 가지고 있다.</s>
+          <s>다 만 <term type="concept">탈식민주의 담론</term>이 지나치게 이론 편향적으로 나아가고 있는 점, 아직까 지는 학술적인 차원에서나 문화 연구의 차원에서 제기될 뿐 오늘의 문학과 실질적으로 연계되지 못하고 있는 점 등은 아쉬움으로 남는다 또한 서구의1)이에 대해서는 졸고,「<title level="a" type="critic" xml:id="t-90">신화와 계몽이라는 함장~90년대 생태시</title>」, <orgName xml:id="org-x">작가와비평</orgName> 편, 3•<title level="m" type="critic" xml:id="t-902">비평, 90년대를 묻다</title>丁 <orgName xml:id="org-x2">여름언덕</orgName>, 2TO 참조;자기반성의 차원에서 출발한 탈식민주의 담론을 무비판적으로 수용하고 영향 을 받고 있는 점은 탈식민주의 담론이 처음 제기되었을 때의 혁명적 문제의 식을 놓칠 우려가 있다는 점에서 경계할 필요가 있다:이렇듯 <date from="1990" to="1999">1990년대</date>에 시대를 선도하는 <term type="concept">차이의 담론</term>이자 <term type="concept">차이의 윤리</term>로 각광 받은 <term type="movement">여성주의</term>, <term type="movement">생태주의</term>, 탈식민주의 담론은 1990년대의 문학에도 주 도적인 영향력을 행사해 왔다.</s>
+          <s><date from="1990" to="1999">1990년대</date> 이후 쏟아져 나온 <term type="concept">몸시</term>, <term type="concept">여성주의 시</term>, <term type="concept">생태시</term>, <term type="concept">문화 다원주의</term>를 수용한 시들은 이러한 담론의 직.</s>
+          <s>간접적 영향 권 아래에 있었다고 할 수 있다.</s>
+        </p>
+        <p>
+          <s>그렇다면 <date from="2000" to="2009">2000년대</date>의 시들은 어떠한가?</s>
+          <s><date from="2000" to="2009">2000년대</date> 시에서 요구되는 미학적•시대적 윤리는 어떤 것이어야 하는가?</s>
+          <s>그 것은 일치하는가?</s>
+          <s>또는 불화하는가?</s>
+          <s>여기서 잠깐 우회하여 다른 질문을 던져 보자.</s>
+          <s><date from="1990" to="1999">1990년대</date>의 진보적 담론을 선도한 <term type="movement">여성주의</term>, <term type="movement">생태주의</term>, <term type="movement">탈식민주의</term>：가 겨냥하고 있는 지배 담론 은 어떤 것이었때 그것은 정확하게 <term type="concept">성차별주의</term>, <term type="concept">성장제일주의</term>, 식민주의를 겨냥하고 았었다 이는 오래전부터 있어 온 지배 담론 중 하나이지만 ‘<term type="movement">현실 사회주의</term>’가 붕괴되기 이전의 <term type="concept">냉전</term>의 시대에는 주목받지 못했던 것들이기도 하다.</s>
+          <s><term type="movement">여성주의</term>, <term type="movement">생태주의</term>, <term type="movement">탈식민주의</term> 등이 오랫동안 억압되고 은폐되어 왔 던 낮고 주변적인 목소리들을 수면 위로 끌어올렸다는 점만으로도 의미를 인 정받은 데는 ‘<term type="movement">현실사회주의</term>’의 붕괴라는 시대적 변화가 분명히 배후로 작용 하고 있었던 것이다.</s>
+          <s>새 시대를 선도해 나갈 <term type="concept">차이의 담론</term>으로 주목받은 <term type="movement">여성주의</term>, 생태주 의, <term type="movement">탈식민주의</term> 담론은 기성의 지배 담론 중 저항할 특정한 대상을 타깃으로 심아 자신의 정체성을 세워 나갔다는 점에서 공통점을 가진다.</s>
+        </p>
+        <p>
+          <s>이는 곰곰이 따져 보아야 할 매우 흥미로운 현상이다 주변의 목소리들이 수면 위로 떠오 르면서 동일화의 논리에 희생되어 온 수많은 <term type="concept">차이</term>들이 복권되는 양 보였던 것은 사실이다.</s>
+          <s>그러나 이러한 차이의 담론의 부상과 함께 <term type="concept">신자유주의</term>가 지 지되고 전 지구적 <term type="concept">자본의 세계화</term>가 공공연히 이루어졌다는 사실을 눈여겨볼 필요가 있다<term type="concept">계급</term>의 문제나 정치적 이념의 문제를 떠난 일상의 영역에서 억압받은 개인들의 목소리가 다양하게 들려오기 시작한 것은 거시적인 사회 발전의 차 원에서 보더라도 분명 필요하고 타당한 일이었다.</s>
+          <s>지배 담론에 의해 억압되 고 회생되어 온 개개의 <term type="concept">소수자</term>의 목소리들이 더 이상 지배적인 목소리에 묻 히지 않고 자기 색깔을 드러낼 수 있게 되었으니 말이다.</s>
+          <s>그러나 거시적으로 는 '<term type="concept">파시즘</term>’에 저항하는 맥락의 이런 흐름들은, <term type="concept">계급</term>의 문제와 경제적 토대의 문제에 눈감음으로써 그 밑바탕을 이루는 체제에는 관심을 가지지 않고 소수 자의 인권을 보호하는 차원에서 타협하는 모습을 보여 주기도 한다:거기에는 <interp value="critical" ana="사상">변혁에 대한 뿌리 깊은 불신이 자리 잡고 있는 것처럼 보이 기도 한다</interp>.</s>
+          <s>‘<term type="concept">현실사회주의</term>’의 붕괴를 통해 널리 퍼진 <term type="concept">허무주의</term>와 <term type="concept">냉소주의</term>가 <term type="concept">자본주의</term> 체제 자체를 승인하게 함으로써 그 안에서의 인권의 문제나 환경의 문제나 여성의 문제 등에 괸심을 갖는 방향으로 문제가 축소된 셈이다 <date from="2000" to="2009">2000년대</date>의 한국 사회에서는 자신의 경제적 기반을 위협하지 않을 정도의 소극적인 저항만이 용인될 수 있었는지도 모르겠다.</s>
+          <s>그것은 궁극적으로는 ‘나처럼 되어라.</s>
+          <s>그러면 너의 차이를 존중하겠다’는 <term type="concept">동일화</term>의 욕망으로부터 자유롭지 못하다;<persName role="foreigner" xml:id="p-x11">알랭 바디우</persName>의 말처럼, 도처에서 사람들이 ‘<quote type="direct" genre="critic" source="알랭 바디우">윤리의 회귀</quote>’를 가능케 한 복음처럼 내세우는 ‘<quote type="direct" genre="critic" source="알랭 바디우">이데올로기의 종말이란, 사실상 필연성의 궤변에의 동참 을 뜻하는 것이고, 원칙들의 적극적이고 투쟁적인 가치의 현저한 빈곤화를 뜻하는 것이다</quote>;2) 이러한 현상은 <date from="2000" to="2009">2000년대</date>의 문학에도 영향을 미쳐, 다양성 이라는 이름으로 때로는 <term type="concept">미학적 윤리</term>라는 이름으로 각종 제도에 저항하는 몸짓을 보이는 시들이 대거 씌어진다.</s>
+          <s>
+            <interp value="critical" ana="미학">그러나 그것은 적극적이고 투쟁적인 가치를 지닌 원칙과는 거리가 먼 것이었다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="미학">2000년대 시가 이룩한 최고의 성과는 다양성의 용인이라고 할 수 있을 텐데, 그것은 균등한 차이를 부여한 것일 뿐 질적인 차이는 고려의 대상이 되지 못했다.</interp>
+          </s>
+          <s><interp value="critical" ana="사회">자유와 다양성을 기치로 내세운다는 점에서 그것은 신자유주의의 논리와 닮아 보이기도 했다.</interp>2) <persName ref="#p-x11">알랭 바디우</persName> 저, <persName role="scholar" xml:id="p-x12">이종영</persName> 역,『<title level="m" type="foreign" xml:id="t-x">윤리학</title>』, <orgName xml:id="org-x3">동문선</orgName>.</s>
+          <s><date when="2001">2001</date>, M3.</s>
+          <s>문학의 <term type="concept">다양</term>^은 항상 용인되어야 하는 것이지만, 그것만으로 <term type="concept">미학적 윤리</term>에 도달했다거나 <term type="concept">시대적 윤리</term>에 육박했다고 말할 수는 없다; <term type="concept">새로움</term>을 표방한 문학이 무엇에 저항하고 있는지를 살펴보지 않고는 미학적 윤리나 시 대적 윤리에 대해 논하기가 쉽지 않을 것이다 문학의 새로움은 기성의 <term type="concept">지배 담론</term>에 저항하고 기성의 언어를 갱신하는 데서 성취된다고 볼 수 있겠는데, <interp value="critical" ana="미학">2000년대 시의 새로움은 이미 시대가 용인하는 윤리의 테두리 안에서의 새 로움이라는 한계를 지닌 것으로 보인다.</interp></s>
+          <s>
+            <interp value="critical" ana="미학">2000년대 시가 새로움으로 주목받 았지만 그 미학적 전복성이 미치는 힘이 그리 치명적이지 않았던 이유는 바 로 여기에서 찾을 수 있지 않을까 싶다.</interp>
+          </s>
+          <s>이제 <date from="2000" to="2009">2000년대</date> 들어 새로운 주목의 대상이 된 시 중에서 <term type="concept">젊은 시인들</term>의 새로운 상상력이라는 차원에서 주목받은 시들과 <term type="concept">타자의 윤리</term>라는 관점에서 국경의 경계를 넘는 상상력을 보여 준 시 들을 살펴보고 ‘<term type="concept">문학의 윤리</term>’라는 문제를 본격적으로 고민해 보고자 한다</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>3.	텅 빈 기호로서의 ‘미래파’ 시</head>
+        <p>
+          <s><date from="2000" to="2009">2000년대</date> 상반기의 문단을 뜨겁게 달구었던 ‘<term type="movement">미래파</term>’ 논쟁은 직접적 응전 없이 평행선을 달리며 오래도록 각자의 맡을 쏟아 냈다는 점에서 특이 한 풍경을 이루고 았었다.</s>
+          <s>논쟁의 중심에 있든 주변에 있든 간에 시인들과 평론가들의 속내가 달랐던 점도 특이한 현상 중의 하나라고 할 수 있을지 모 르겠다.</s>
+          <s>최근에『<title level="j" type="journal" xml:id="t-x2">문학과 사회</title>』봄호와『<title level="j" type="journal" xml:id="t-x3">문예중앙</title>』봄호에서 ‘<term type="movement">미래파</term>’ 논쟁에 대한 미학적 차원에서의 불만이 제기되기도 했지만 이것이 논쟁이든 의사논 쟁이든 간에 간과되어서는 안 될 것은 ‘문학이란 무엇인가?</s>
+          <s>’ ‘시란 무엇인가?</s>
+          <s>’ ‘좋은 시란 무엇인가?</s>
+          <s>’라는 근본적 물음을 둘러싼 논쟁이었다는 사실이다 물 론 개개의 시가 다 다르듯이 이 질문에 대한 대답도 저마다 디를 수밖에 없 을 것이다.</s>
+          <s>찬반의 단순 구도로는 ‘<term type="movement">미래파</term> 시를 둘러싼 논쟁의 핵심을 파악할 수 없음에도 불구하고, 논자들 간의 섬세한 차이와 좌표는 지워진 채 찬^이냐반대냐의 입장만 주목의 대상이 된 점은 논쟁에 참여한 논자의 한 사람으로 서 안타깝게 생각하는 일이다: 논쟁이 시작되는 순간 다양한 논의의 가능성 올 A 아니면 B의 자리에 갖다 놓으려는 욕망이 끊임없이 작동한 것은 사실 이지만 ‘<quote type="direct" genre="poet">시란 무엇인가？</quote>’라는 질문을 둘러싸고 벌어진 다양한 견해들을 우리 문학사에서 오랫동안 반복되어 왔던 ‘<term type="movement">리얼리즘</term>■<term type="movement">모더니즘</term>’ ‘모더니즘-전통 서 정’ ‘<quote type="direct" genre="poet">순수참여</quote>’ 식의 이분법적 대립에 귀속시키는 것은 논쟁의 생산성을 가 로막는 폭력적 배치라 하지 않을 수 없다.</s>
+          <s>표면적으로는 이른바 ‘<term type="movement">미래파</term>’ 시들이 새롭냐, 새롭지 않으냐, 그 새 로움이 지니는 가치가 높이 평가받을 만한 것이냐 재고의 여지가 있는 것이 냐가 논점이 되었지만, 그 배후에는 4좋은 시란 무엇인가?</s>
+        </p>
+        <p>
+          <s>’ ‘지금, 여기에서 <term type="concept">시</term>란 무엇인가?</s>
+          <s>’ ‘우리 시의 미래는 어떤 것인가?</s>
+          <s>’라는 질문과 그에 대한 대 답이 숨겨져 있었다.</s>
+          <s>이 논쟁에 참여한 논자들이 어쩔 수 없이 자신의 문학 적 정체성을 드러내야 했던 까닭은 바로 여기에 있다.</s>
+          <s>문제는 그렇게 해서 드러난 <term type="concept">문학적 정체성</term>이 그렇게 단순한 구도로 자리 매겨지는 것은 아니라는 사실이 은폐되거나 망각되었다는 점에 있다.</s>
+          <s>‘<term type="movement">미래파</term>’ 시에 대한 비판이 곧 ‘<term type="concept">전통서정시</term>’에 대한 옹호와 동일시되는 현상은, 여전히 이분법적 논리가 지 배적인 우리 문학의 현주소를 상징적으로 보여 준 사건이 아닌가 싶다.</s>
+          <s><date from="2000" to="2009">2000년대</date> 판 미학 논쟁이 지루한 싸움을 지속해 온 ‘<term type="movement">리얼리즘■모더니즘</term>’의 재탕으로 귀결되는 것은 우리 문학의 미래를 위해서도 그리 바람직해 보이지 않는다;여러 차례 언급했듯이 ‘<term type="movement">미래파</term>’ 시의 대두에는 미학적 갱신에 실패한 것으로 보이는 <term type="concept">전통서정시</term>에 대한 불만이 배경으로써 작용하고 있었으며, 대 중문화의 확산과 지배라는 시대적 흐름의 변화도 작용하고 있었다.</s>
+          <s>그러한 흐름에 예민하게 반응한 <term type="concept">젊은 시인들</term>에게서 세대적 징후를 발견하고 의미 부 여를 하면서 ‘<term type="movement">미래파</term>』논쟁은 점화되었다고 할 수 있겠다 ‘미래파’라는 명명 이 단순한 수사에 불과했다 하더라도 그 명명과 의미 부여에 대한 판단의 차 이가 ‘미래파’ 시들을 논의의 한가운데로 끌어들였다이 글에서 ‘미래파’ 시에 대한 논의를 반복할 생각은 없다 다만 <interp value="critical" ana="미학">새 로움만으로도 이들의 시가 미학적 윤리를 선취했다는 관점에 대해서는 의문 을 제기하지 않을 수 없다.</interp></s>
+        </p>
+        <p>
+          <s>나는 솔직히 새로움에 대한 가치 판단에 있어서 도 이견을 가지고 있지만 그것은 차치하고라도 ‘<term type="movement">미래파</term>’로 지칭되는 <term type="concept">젊은 시 인들</term>의 시가 보여 주는 새로움은 <term type="concept">차이의 윤리</term>에 기반을 두고 있는 것으로 보 인다는 점을 지적해 두고 싶다:물론 이들의 시는 <term type="concept">이데올로기</term>로서의 윤리를 부정하고 거기에 맞서고 있기도 하다 가정, 학교와 같은 규율화 된 제도에 저항하거나 <term type="concept">성차별주의</term>와 <term type="concept">이성애주의</term> 같은 사회적 편견을 허무는 시적 주체들이 이들의 시에는 주로 등장한다.</s>
+          <s>이들의 시가 저항하는 대상은 때로는 국가라는 경계；가 되고, 때로 는 <term type="concept">이성애주의</term>가 되고 때론 정싱/비정상을 기르는 사회적 기준이 되기도 한 다.</s>
+          <s>자유롭게 변이하고 경계를 넘나들며 <term type="concept">이데올로기</term>로서의 윤리를 부정하고 <term type="concept">차이의 윤리</term>를 표방하는 듯 보이는 이들의 시는, <interp value="critical" ana="사상">결정적으로 경제적 토대를 의심하지는 않는 것처럼 보인다.</interp></s>
+          <s>‘<quote type="direct" genre="poet">외계어</quote>’라 불릴 정도로 새로워 보이는 언어 와 상상력을 보여 준 이들의 시가 <interp value="critical" ana="문학관">치명적으로 불온해 보이지 않고 안전장치 위에서 언어의 놀이를 구사하고 있다는 인상을 주는</interp> 까닭은 바로 여기에 있 을 것이다•<term type="concept">전 지구적 자본주의</term> 시대에 씌어지는 시는 <term type="concept">자본의 논리</term>와 <term type="concept">신자유주의 의 이데올로기</term>와 싸울 수밖에 없는 운명을 지니고 있다.</s>
+          <s>그것은 시의 존재 조건과의 싸움이기도 하다.</s>
+          <s>팔리는 상품이 되어 버리지 않기 위한 싸움.</s>
+          <s>
+            <interp value="critical" ana="사회">그 싸움을 시작하지 않고는 시 역시 신자유주의 시대 경쟁의 논리로부터 자유로 울 수 없을 것이다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="사회">모두가 차이를 부르짖는 시대에 차이의 윤리를 표방하며 기성의 제도에 저항하는 것은 생각만큼 치명적이지도 위험하지도 않을 수 있 다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>시 바깥으로 걸어 나가면 일상에서든 사이버 세상에서든 다른 장르나 문 화에서든 기성 제도나 편견에 대한 훨씬 더 노골적이고 과격한 <term type="concept">저항</term>을 목도 할 수 있다.</s>
+          <s>이들이 하나같이 눈감고 있는 것은 오히려 체제의 물질적 토대 이다:‘<term type="concept">현실사회주의</term>’의 붕괴와 함께 <term type="concept">전 지구적 자본주의</term>는 부정할 수 없는 현실이 되었음을 기정사실화함으로써 <interp value="critical" ana="문학관">허무주의적이고 냉소적인 태도로 일관 한다면, 그것은 전 지구적 자본주의 시대에 대처하는 문학의 올바른 자세라 고 볼 수 없을 것이다.</interp></s>
+          <s>문학, 특히 시는 상품으로서의 <term type="concept">교환가치</term>에 전적으로 포섭되지 않는 <term type="concept">잉여</term>를 지니고 있다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">자본의 논리만으로 장악할 수 없는 힘을 문학은 가지고 있었으며, 앞으로도 그럴 것이다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="문학관">전 지구적 자본주의 시대에 문학이 여전히 희망을 가질 수 있다면, 바로 그 잉여의 힘일 것이라고 나는 믿는다.</interp>
+          </s>
+          <s>그 싸움을 포기한다면 희망이라는 말을 입에 올리기 어려울 것이다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>4.	국경을 넘는 상상력과 ‘타자의 윤리’</head>
+        <p>
+          <s><date from="2000" to="2009">2000년대</date> 들어서 부쩍 <term type="concept">국경을 넘는 상상력</term>을 선보이는 시들이 총｝나 의 경향을 이루며 씌어지고 있다.</s>
+          <s>이는 아시아 지역의 <term type="concept">외국인 노동자</term>들을 이 땅에서 흔히 볼 수 있게 되면서 불거지는 외국인 노동자의 <term type="concept">인권</term>의 문제라는 현실이 반영된 결과이자； <term type="concept">민족문학</term>의 대안적 모색으로 떠오르고 있는 <term type="concept">아시아 담론</term>의 영향을 받은 결과라고 할 수 있다.</s>
+          <s>국경과 민족과 인종의 경계를 넘 는 상상력을 통해 <term type="concept">아시아 지역의 연대</term>를 주장하는 작품들은 아직 양적으로나 질적으로 많이 축적되었다고 할 수는 없지만 <persName role="poet" xml:id="p-x13">김정환</persName>, <persName role="poet" xml:id="p-x14">이동순</persName>, <persName role="poet" xml:id="p-x15">하종오</persName> 등의 시인에 의해 꾸준히 씌어지고 있다.</s>
+          <s><persName ref="#p-x13">김정환</persName>의『<title level="m" type="poem" xml:id="t-x4">하노이•서울 시편</title>^ <persName ref="#p-x14">이동순</persName>의『<title level="m" type="poem" xml:id="t-x5">미스 사이공</title>』, <persName ref="#p-x15">하종오</persName>의『반 대쪽 천국』과『<title level="m" type="poem" xml:id="t-x6">지옥처럼 낯선</title>』 그리고 그 이후에 잡지에 발표한 일련의 시 들, <persName role="critic" xml:id="p-x16">곽효환</persName>의『<title level="m" type="poem" xml:id="t-x7">인디오 여안</title>』, <persName role="poet" xml:id="p-x17">허수경</persName>의『<title level="m" type="poem" xml:id="t-x8">청동의 시간 감자의 시간</title>A 등이 국 경을 넘는 상상력을 의미심장하게 보여 주는 시집들이자 시들이다.『문학동 네』<date when="2006">2006년</date> 겨울호 특집 ‘<quote type="direct" genre="poet">길 위의 인생느］동, 탈출, 유목</quote>’에서 <persName role="scholar" xml:id="p-x18">황호덕</persName>, 서동 진, <persName role="essayist" xml:id="p-x19">정여울</persName>, <persName role="critic" xml:id="p-x20">복도훈</persName>은 최근의 <term type="concept">아시아 담론</term>과 <term type="concept">디아스포라 문학</term>에 대해 강도 높게 비판한 바 있다.</s>
+          <s>이들의 주장을 요약하면, <interp value="critical" ana="사상">국경을 넘는 연대라는 것이 현실을 고려하지 않거나 눈감은 환상이자 당위적이고 윤리적인 이데올로기라는 점이다.</interp></s>
+          <s>사실 앞서 예로 든 <term type="concept">탈국가적 상상력</term>을 보이는 시들의 경우, 독일 에서 머물고 있는 <persName ref="#p-x17">허수경</persName>의 경우를 제외하고는 다분히 의도적인 필요와 목적 에 의해 씌어진 것으로 보이는 게 사실이다.</s>
+          <s><persName ref="#p-x13">김정환</persName>의『<title level="m" type="poem" ref="#t-x4">하노이•서울 시편</title>3은 <date when="2000">2000년</date>에 있었던 <orgName xml:id="org-x4">민족문학작가회의</orgName> 의 베트남 방문을 기념하여 결산한 시집으로, 베트남 하노이에 갔다가 서울 로 돌아오는 여정을 충실히 따르고 있다.</s>
+          <s><persName ref="#p-x13">김정환</persName>의 시집은 한국과 베트남 사 이에 청산해야 할 과거의 역사와 새롭게 맺게 될 관계 등에 대해 생각해 보 게 하는 여러 가지 문제의식을 담고 있지만, <term type="concept">아시아적 연대</term>라는 선취된 문제 의식에 의해 기획되어 나온 시집이라고 할 수 있다: = 시에 주로 그려지 는 사람들이 베트남 시인, 작가들인 점은 그7} 베트남에서 주로 만나고 어울 린 사람들이 그들이므로 당연한 일이지만 = 인해 이 시집은 생활공간이 자 현실 공간으로서의 베트남의 모습을 생생히 보여 주기보다는, 한국과 베 트남 사이의 오랜 역사적 관계를 청산하고 새로운 관계의 물꼬를 터야 한다 는 역사의식을 지닌 한국 시인에 의해 보여진 일부의 베트남을 소개하고 있 다는 인상을 준다.</s>
+        </p>
+        <p>
+          <s>베트남으로 향하는 시인의 발걸음은 그만큼 의식적인 것 이었다.『<title level="m" type="poem" ref="#t-x4">하노이•서울 시편</title>^을 꿰뚫고 있는 질문 중 하나가 “<quote type="direct" genre="poet" source="하노이•서울 시편">시는, 자본주의 를 관통할 수 있을까?</quote></s>
+          <s>”（Mn 1奴he 신문사■하노이-서울 시편 10j）라는 것인데, 이렇 듯 <term type="concept">자본주의</term> 시대의 시에 대해 회의적인 전망을 품고 있는 시인의 눈에 베트 남의 모습은 비록 가난하지만 "<quote type="direct" genre="poet" source="하노이•서울 시편">박정희 없는 경제 개발의 뒷골목</quote>”이 살아 있 는 "<quote type="direct" genre="poet" source="하노이•서울 시편">70년대</quote>”（「대핸b=-하노이-서울시편 序0로 비쳐진다.</s>
+          <s>베트남 역사의 비극보 다는 그는 베트남의 가난하지만 건강한 현재를 보고 싶어 한다.</s>
+          <s>그것은 다시 말해『<title level="m" type="poem" ref="#t-x4">하노이•서울 시편</title>胎 베트남 방문기를 쓴 일종의 기행시집이지만, 궁 극적으로 베트남이라는 거울에 비친 오늘과 미래의 한국을 보려 했다는 뜻。］ 다그에 비해 <persName ref="#p-x14">이동순</persName>의『<title level="m" type="poem" ref="#t-x5">미스 사이공</title>』에서 강조되는 것은 베트남의 비극 적 과거와 그것이 오늘에까지 영향을 미치고 있는 슬픈 베트남의 모습이다.</s>
+          <s><orgName xml:id="org-x5">영남대학교</orgName> 해외봉사단을 이끌고 베트남 기술학교에 가서 머물렀던 여행 경 험을 그리고 있는 <persName ref="#p-x14">이동순</persName>의 시집은 <persName ref="#p-x13">김정환</persName>의 여행보= 좀 더 사적인 성격 의 여행을 토대로 씌어졌다.</s>
+          <s><persName ref="#p-x13">김정환</persName>의 시에서 항상 1인칭 화자인 ‘<quote type="direct" genre="poet">나'</quote>’가 중심 이 된 반면 <persName ref="#p-x14">이동순</persName>의 시에서는 1인칭 斗’와 함께 종종 베트남 현지에서 만 난 인물들이 3인칭 화자로 등장한다 3인칭 화자가 등장하는 시들에서 이동 순 시인은 그들의 입을 빌려 스스로 말하게 하려는 의도를 드러낸다.</s>
+          <s>
+            <interp value="critical" ana="미학">그러나 의도와는 달리 그것은 한국 남성의 시선에 의해 타자화된 베 트남 여성의 목소리를 노출하기도 한다.</interp>
+          </s>
+          <s>“<quote type="direct" genre="poet" source="미스 사이공">서러운 라이따이한으로/손가락질 받으며 살아온 지난 수십 년</quote>”의 “<quote type="direct" genre="poet" source="미스 사이공">흥건한 눈물의 세월</quote>”에도 불구하고 “<quote type="direct" genre="poet" source="미스 사이공">김씨라 는 성만 기억</quote>”나는 “그분’’을 원망하지 않으며 “<quote type="direct" genre="poet" source="미스 사이공">언제까지나 돌아오기만 기다</quote>” 리겠다는「<interp value="critical" ana="문학관">미스 사이공j 의 목소리는 진정한 베트남 여성의 목소리라고 보기 는 어렵다.</interp></s>
+        </p>
+        <p>
+          <s>물론 실제로 저런 생각을 가지고 있는 <term type="concept">베트남 여성</term>도 있겠지만 그것은 베트남 여성을 대표하는 목소리는 아니다: 오히려 그 목소리에서는 지난 과오를 어쩔 수 없는 것으로 돌림으로써 면죄부를 받고 싶어 하는 <term type="concept">한국 남성의 시선</term>이 느껴지는 것이 사실이다:<persName ref="#p-x14">이동순</persName>의『<title level="m" type="poem" ref="#t-x5">미스 사이공</title>』은 <interp value="neutral" ana="사회">베트남 현지의 모습을 다양하게 담아내려 애썼다는 점에서 의미 있는 시집이지만 베트남과 한국의 역사라는 문제의식 에서는 김정환의 시집이 좀 더 날카로운 인식을 보여 준다고 평가할 수 있겠 다</interp>『<title level="m" type="poem" xml:id="t-x9">반대쪽 천국</title>』『<title level="m" type="poem" ref="#t-x6">지옥처럼 낯선</title>』을 비롯해서 최근에 발표한 시들에 이 르기까지 우리 안에 들어온 ‘<term type="concept">코시안</term>의 문제를 집중적으로 다루고 있는 하종 오의 시는 바깥으로 나갔다가 돌아오는 여행시의 형식 대신 우리 안에 깊숙 이 들어와 있는 <term type="concept">외국인 노동자</term>들과 그들의 가족, 그들과 한국인 사이에 형성 된 가족 등의 모습을 담담히 그리는 방식을 취한다.</s>
+          <s><persName ref="#p-x15">하종오</persName>의 시는 가급적 객관적으로 그들의 생활을 그리려고 하지만 그 럼에도 불구하고 그들의 삶에 드리워진 어둡고 쓸쓸한 그늘은 종종 포착된 다.</s>
+          <s><term type="concept">코시안</term> 가족의 모습은 행복하기보다는 어딘지 불안하고 외롭고 쓸쓸해보인다.</s>
+          <s>시인은 그 원인을 ‘<term type="concept">국가</term>’ ‘<term type="concept">민족</term>’ ‘<term type="concept">인종</term>’ 등의 경계에 따라 사람살이를 나누고 <term type="concept">이방인</term>을 배척하는 적대적 현실에서 찾는다:<persName ref="#p-x15">하종오</persName>의 시는 <term type="concept">코시안</term> 및 <term type="concept">조선족</term>의 현실을 그리는 데 바쳐지지만 그 것은 궁극적으로 우리 자신의 삶의 문제와 관련을 맺는다.</s>
+          <s>사회적으로 익소 자인 그들의 처지가 우리 사회가 안고 있는 <term type="concept">빈부의 문제</term> 및 <term type="concept">인권의 문제</term>.</s>
+          <s><term type="concept">차 이의 윤리</term>라는 문제 둥을 좀 더 첨예하고 드러낼 뿐 그것은 비단 그들에게만 한정된 문제는 아니다.</s>
+          <s><term type="concept">패권주의</term>와 <term type="concept">자본의 논리</term>에 의해 지배되는 인류의 현 실이 그들에게서 좀 더 첨예하게 맞부딪히고 있을 뿐이다.</s>
+          <s>따지고 보면 현실에서는 이미 물리적인 의미에서의 국경이든 우리 안 에 내면화된 국경이든 그것을 자유롭게 넘나드는 일이 빈번하게 이루어지고 있다 <interp value="critical" ana="문학관">오히려 시가 현실의 뒤꽁무니를 좇고 있는 형국이라고 할 수 있다.</interp></s>
+        </p>
+        <p>
+          <s>그 런데 <term type="concept">국경</term>을 넘어 이르는 곳이 또 하나의 국경이라는 사실을 잊어서는 문제 의 본질을 놓치기 쉽다.</s>
+          <s>머릿속에서는 자유롭게 이루어지던 <term type="concept">탈주</term>와 <term type="concept">유목</term>도 막상 현실의 문제에 부딪히면 정체되기 쉬운 법이다.</s>
+          <s>끊임없는 <term type="concept">영토화</term>와 <term type="concept">재 영토화</term>의 위험으로부터 누구도 자유로울 수 없을 것이다‘나처럼 되어라.</s>
+          <s>그러면 너의 차이를 인정하겠다’는 <term type="concept">동일화의 욕망</term>이 언제 어디서든 작동하고 있는 시대에 ‘<term type="concept">차이의 윤리</term>’를 말하는 일은 자기 현 시의 욕망과 우월감, 영웅주의 등에 빠질 위험을 가지고 있는 것이 사실이다.</s>
+          <s><persName ref="#p-x11">알랭 바디우</persName>가 서구 사회에서 제기된 ‘<term type="concept">차이의 윤리</term>’에 대해 <interp value="critical" ana="사상">위선과 기만이라 고 진단하며 그토록 비판적이었던 이유도 그 안에서 서구 우월주의를 읽었기 때문일 것이다.</interp></s>
+          <s>
+            <interp value="critical" ana="사상">우리 역시 아시아 연대를 말하는 순간 우리를 그들보다 우월 한 자리에 위치시키고 그들을 타자화하는 위선적 배치를 실현하고 있는 것은 아닌지 끊임없이 우리 자신을 돌아볼 필요가 있다.</interp>
+          </s>
+          <s><date when="1900">애국계몽기</date>에 서양인 선 교사들이 우리에게 베풀었던 시혜의 시선을 이제 우리가 지니며 인권의 문제 를 제기하는 차원에서 윤리의 문제를 제기하는 것은 아닌지, <interp value="critical" ana="사상">사회 통합을 위 해 외적으로 부과되는 이데올로기로서의 윤리에 불과한 것은 아닌지 자기반 성의 시선이 한층 더 냉철해져야 하는 때이다.</interp></s>
+          <s>적당한 타협의 차원에서 제기되는 ‘<term type="concept">타자의 윤리</term>’는 <term type="concept">이데올로기</term>로서의 윤리라는 한계를 넘어서기 어려워 보인다.</s>
+        </p>
+        <p>
+          <s><term type="concept">아시아적 연대</term>를 주장하거나 그런 문제의식을 담고 있는 작품들이 종종 <interp value="critical" ana="사상">시혜적 태도를 보이는 까닭도 바로 이 런 한계를 극복하지 못했기 때문일 것이다.</interp></s>
+          <s><persName ref="#p-x11">알랭 바디우</persName>가 <term type="concept">이데올로기로서의 윤리</term>를 날카롭게 비판하면서 <term type="concept">제국주의</term>의 위선을 가로질러 간 것처럼, <interp value="affirmative" ana="사상">우리에 게도 우리 안에 둥지를 튼 제국주의적 시선과 위선을 가로지르는 인식이 필 요해 보인다</interp>: 다만 그것은 <interp value="critical" ana="사상">연대가 위선이며 거짓임을 폭로하는 데 그쳐서는 곤란하다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="사상">폭로의 궁극은 자기 폭발과 괴멸에 있는 것이 아니라, 환상을 넘 어 현실에 이르는 연대를 향해 나아가는 것을 지향해야 할 것이다.</interp>
+          </s>
+        </p>
+      </div>
+      <div type="section">
+        <head>5.	자본의 논리에 포섭되지 않는 실천으로서의 윤리</head>
+        <p>
+          <s>幻00년대의 시는, 적이 사라졌다고 공공연하게 말해지고 다수가 그 말을 믿는 시대에 씌어지고 있다; 사라진 것은 적이 아니라 거대해져 버린 적에게 맞설 용기와 희망이라고 말하는 것이 아마도 더 정확할 것이다 <term type="concept">자본</term> 의 논리가 전 지구적으로 확장되어 버린 시대에 문학은 <term type="concept">자본의 논리</term>에 포섭 되지 않는 유일한 희망이자 가능성이 될 수도 있다.</s>
+          <s>아니, 문학이 <term type="concept">상품화</term> 되 어 가는 <term type="concept">대중문화</term>의 시대에 살아남을 수 있는 길은 <term type="concept">자본의 논리</term>에 어떻게 맞 설 것인가를 고민하는 데 있을 거라 믿는다.</s>
+          <s>상품으로서의 <term type="concept">교환가치</term>가 상대 적으로 약한 시의 경우는 더욱 그러할 것이다.mx）년대 시의 윤리는 시대가 오구하는 <term type="concept">이데올로기</term>로서의 윤리를 넘 어서서 그것에 맞서 싸우는 <term type="concept">해방적 실천</term>의 의미로까지 나아갈 수 있어야 할 것이다.</s>
+          <s>그것은 시대적으로 형성되는 담론을 넘어서는 상상력을 문학이 열어 주어야 한다는 의미와도 통하는 것이다; 그 어느 때보다도 ‘<term type="concept">차이</term>’가 강조되고 타자의 차이를 인정하는 ‘<term type="concept">차이의 윤리</term>’가 강조되는 시대이지만 <term type="concept">자본의 논리</term> 에 위해를 가하지 않는 선에서의 차이만이 겨우 용인될 뿐임을 직시할 필요 가 있다.</s>
+          <s>주체와 타자 사이에 같은 인간으로서의 동등한 가치가 설정되지 않는다면, ‘<term type="concept">차이의 존중</term>’은 동정이나 연민, 또는 무책임한 방기, 더 나이가서는 자기기만에 그칠 위험이 있다.<date from="2000" to="2009">2000년대</date>의 시는 <date from="1990" to="1999">1990년대</date> 시의 연장선 위에 놓이면서 그 어느 때 보다 <term type="concept">차이의 중요성</term>이 강조되어 왔다.</s>
+          <s><date from="1990" to="1999">1990년대</date> 시에 이어지는 <term type="concept">여성주의 시</term>, <term type="concept">생태시</term>의 경우는 물론이고 <date from="2000" to="2009">2000년대</date>에 주로 주목받은 ‘<term type="movement">미래파</term>’ 시와 ‘<quote type="direct" genre="poet">탈국가 적 상상력</quote>’을 보이는 시도 바로 그런 ‘<term type="concept">차이의 윤리</term>’에 바탕을 두고 있다고 할 수 있다 각종 제도에 저항하고, 우리 안에 들어온 아시아를 통해 우리를 다 시 바라봄으로써 <term type="concept">아시아적 연대</term>를 부르짖는 시가 <date from="2000" to="2009">2000년대</date>에 요구되는 ‘<quote type="direct" genre="poet">차 이의 윤리</quote>’를 실현하는 데 얼마간 기여한 것은 사실이다.</s>
+          <s>그러나 그것은 전 지구적 자본주의라는 체제와 경제적 토대를 문제 삼지 않음으로써, 이데올로 기로서의 윤리를 부정하고 그것을 넘어서서 더 나은 삶을 위한 고민으로 나 아가는 데까지 이르지는 못했다.</s>
+          <s>새로움을 추구하는 미학의 윤리만으로 충분 하다고는 말할 수 없다.</s>
+        </p>
+        <p>
+          <s>문학은 시대의 윤리나 <term type="concept">이데올로기</term>로서의 윤리를 넘 어서는 것이어야 하며, <interp value="affirmative" ana="문학관">체제와 제도에 좀 더 치명적으로 저항할 수 있어야 한다.</interp></s>
+          <s>나의 언어가 <term type="concept">체제의 언어</term>를》｝ 있지는 않은지, 방기와 기만이라는 방식으로 적당한 <term type="concept">저항</term>의 흉내를 내고 있는 것은 아닌지, 좀 더 날카롭게 벼 려진 눈길을 우리 자신에게 돌릴 수 있어야 할 것이다.</s>
+          <s>우리 시에 아직 그런 가능성이 남아 있다고 믿는 것은 한 <term type="concept">이상주의자</term>의 착각에 불과한 것일까.</s>
+          <s><persName role="novelist" xml:id="p-x21">이광수</persName>1<date when="1999">1999년</date>『<orgName xml:id="org-x6">문화일보</orgName>। 신춘문예로 둥단 주요 저서로 〒<title level="m" type="critic" xml:id="t-x10">불온한 상상의 축제</title>j『<title level="m" type="critic" xml:id="t-x11">한국 현대시와 반복의 미학</title>,『<title level="m" type="critic" xml:id="t-x12">바벨의 후예들 폐허를 걷다</title>1 등이 있음.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

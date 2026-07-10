@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2000년대의, 시, 그리고 비평-주체,정치,리듬</title>
+        <author>조재룡</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><persName role="critic" xml:id="p-x">조재룡</persName>년대의 시 그리고 비평2000 , ,<term type="concept">주체</term> <term type="concept">정치</term> <term type="concept">리듬</term>— – –비평적환상들의순환을벗어나기위해서는이론적가설을제시해야한다 그것은작품이하나의의미에닫힌것이.</s>
+          <s>아니라는가설이다 작품은하나의의미에완성된형태를.</s>
+          <s>부여하면서가려버리지않는다 작품의필연성은의미의.</s>
+          <s>다수성에근거한다 작품을설명한다는것은그러한다원성의.</s>
+          <s>원칙을인정하고구별하는것이다 이제정도는다르지만어느.</s>
+          <s>비평작업에나깔려있던가설 즉작품이단일성을지닌다는,가설을버려야한다 작품은(객관적이든주관적이든)하나의.</s>
+          <s>의도에의해창조되지않는다.</s>
+          <s><persName role="foreigner" xml:id="p-x2">피에르마슈레</persName>(1)<term type="concept">단절</term>과 위기, 그리고 <term type="concept">세대론</term>년대의시와시단은 다양한차원에서 앞선세대와의단절<date when="2000">2000</date> , ,이나 균열처럼 여겨졌다 그리고 바로 이 단절의 간극과 균열의.</s>
+        </p>
+        <p>
+          <s>틈새로<term type="concept">진단</term>과<term type="concept">위기</term>의담론들이스며들었다 여느시대처럼 년.</s>
+          <s>10(1) <persName ref="#p-x2">피에르 마슈레</persName>, 『<title level="m" type="critic" xml:id="t-x">문학생산의 이론을 위하여</title>』, <persName role="translator" xml:id="p-x3">윤진</persName> 옮김, <orgName xml:id="org-x">그린비</orgName>, <date when="2014">2014</date>, p.</s>
+          <s>118.</s>
+          <s>강조는원저자의 것.</s>
+          <s>문사121_하이픈_최종.indd 123 <date when="2018">2018</date>.</s>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08비평의 역사 124을 주기로 삼은 <term type="concept">세대론</term>이 다양한 차원에서 등장하였다 세대론.</s>
+        </p>
+        <p>
+          <s>은 현황을 진단한 정교한 <term type="concept">비평적 분석</term>과 우려와 탄식으로 위,기를 주장하는 비판적 시선으로 나뉘었다 년을 주기로 시대.</s>
+          <s>10의 특징을 변별하고자 시도된 정치·사회적 분석은 정확성을 기하고자 노력하며 <interp value="neutral" ana="문학관">년대 시를 비평의 대상으로 삼았으며</interp> 동<date when="2000">2000</date> ,시대 현상을 진단하고 그 성과와 한계를 함께 가늠하려는 비평의 지평 위로 시의 특성과 경향을 정리하는 작업을 진행하였다.</s>
+          <s>년을 단위로 삼은 연대의 구분과 <term type="concept">시인들</term> 생년의 분별은 매체10의 직능이나 차이 그 변화를 헤아리는 잠정적 기준이 되었고, ,비평은 사회적 현상과 <term type="concept">시단</term>을 저울의 양쪽에 매달아 각각의 하중을 균형 있게 잴 줄 알고 있었다 년이라는 단위는 자연스.</s>
+          <s>10레 통신 블로그 로 이어지는 매체의 변화와 시의 경향PC – –<term type="concept">SNS</term>을 서로 연관 짓고 나아가 이 매체의 변화와 시의 소통 방식의,변화 사이의 관계를 가늠해보려는 노력으로 이어졌다 년.</s>
+          <s><date when="1990">1990</date>대 년대 년대를 <term type="concept">소통 혼란 자폐</term> 나 <term type="concept">단일성 혼종</term>–<date when="2000">2000</date> –<date when="2010">2010</date> ‘ <quote type="direct" genre="critic">– –</quote> ’ ‘ –성 <term type="concept">무가치성</term>으로 삼분하고 이어 이 각각에 정치 <term type="concept">탈정치</term> 무– ’ , ‘ – –정치라는 또 다른 구분 기준을 부여했다 앞선 시대와 현재 그’ .</s>
+          <s>,리고 진행 중인 지금의 <term type="concept">시단</term> 전반의 특성을 분간하려 한 비평적시도는 <term type="concept">세대론</term> 고유의 불가피한 한계에도 불구하고 여러모로, ,<interp value="affirmative" ana="문학관">유의미한결과를가져왔으며</interp> 이는시단의변화는물론 이변화, ,의핵심을짚어내면서 현황과상황 맥락등 년대시단전반, , <date when="2000">2000</date>의지형도를그려내는데적잖은도움을주었다.</s>
+          <s>문제는이와는사뭇다른 또다른<term type="concept">세대론</term> 그러니까시기적, ,으로는이보다앞서등장한세대론 년대시에대한불신과, <date when="2000">2000</date>부정으로 뒤발한 세대론을 통해 <term type="concept">위기의 담론</term>이 조성되고 비판,을 통해서건 논쟁을 통해서건 시에 대한 다양한 인식들이 차례,로 몸통을 드러내었으며 시와 관련된 근본적인 물음들이 촉발,되었다는데있다 이후자는 년대중반을뜨겁게달구었던.</s>
+          <s>2000문사121_하이픈_최종.indd 124 <date when="2018">2018</date>.</s>
+        </p>
+        <p>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08<persName ref="#p-x">조재룡</persName> 125<term type="concept">미래파 논쟁</term>과연관된다‘ ’ .</s>
+          <s><term type="concept">난해함</term>–<term type="concept">소통의 부재</term>–<term type="concept">반(反)서정</term><term type="movement">미래파</term>가 정확히 그리고 구체적으로 누군가를 호칭한 것은 아‘ ’ ,니었지만 마치 그 목록을 알고 있다는 듯 미래파는 돌올한 그, ,룹처럼입에오르내리고있었다 오가는논쟁속에서 시를둘러.</s>
+          <s>,싼 개념들이 분주히 움직이기 시작했다 혹은 달아오른 논쟁의.</s>
+          <s>열기와그여파로 무엇인가슬그머니뒷전으로사라지기도했으,며 제거의 틈바구니에서 그러니까 시를 둘러싼 어떤 관점 개, , ‘ <quote type="direct" genre="critic">–념 비평은 성급한 대안을 제시하려 서둘렀고 그로 인해 모면–</quote> ’ ,받을 만한 알리바이를 찾아 허둥거리기도 했다 입에 담으면 모.</s>
+          <s>종의 판이 벌어지기 시작했다 대립각을 내세운 진영은 불가피.</s>
+          <s>한현실의산물이었고 이와같은일이잦아질무렵 시를바라보, ,는관점들이속속들이제속내를드러내었다 <term type="concept">미래파논쟁</term>이 의.</s>
+        </p>
+        <p>
+          <s>,도적이건우연적이건 시에관한근본적인관점들을본격적으로,탐구해나갈 공간을 열면서 <term type="concept">년대 새로운 비평 담론</term>을 몰고<date when="2000">2000</date>왔다고한다면 오로지이와같은이유에서만그렇다고할수있,다 가령 아래 좌담의 발췌문에서 사회자가 던진 질문은 살펴볼.</s>
+          <s>가치가있다.</s>
+          <s><term type="concept">원로시인들</term>이이구동성으로우려하며지적했던부분이<term type="concept">소통의부재</term>라는점이었습니다 년대이후<term type="concept">젊은시인들</term>의.</s>
+          <s><date when="2000">2000</date>시가보여주는<term type="concept">난해성</term>은<quote type="indirect" genre="critic">시의함축적본질과관련된난해성이아니라자신의내면에응어리진그무엇을무절제하게토로하기때문에시를쓴시인자신도이해하지못하는감정의분출물이되었다는지적이었습니다</quote> 현실과환상이교차하고불안하고.</s>
+          <s>문사121_하이픈_최종.indd 125 <date when="2018">2018</date>.</s>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08비평의 역사 126혼란스러운내면의<term type="concept">정동</term>(情動)이여과없이표출되기때문에<interp value="critical" ana="미학">부분적인시행의의미는파악할수있지만작품전체의의미를논리적으로이해하기에는어려움이많다는것입니다</interp> 어쩌면.</s>
+        </p>
+        <p>
+          <s><term type="concept">젊은시인들</term>이쉬운시는<term type="concept">보수적인서정</term>의굴레에갇혀있는것이고 쉽게해석되지않는시가새롭고진취적인시라는,생각을가진것은아닌지요 (2)?</s>
+          <s>그러니까 질문은 <term type="concept">원로 시인들</term> 의 우려 를 매우 효율적으로 요“ ” “ ”약하는 동시에 사회자가 바라보는 관점도 담고 있다 두 가지 명.</s>
+          <s>료한구분은<term type="movement">미래파논쟁</term>에서드러난 시에대한통념을날것그,대로보여준다 <term type="concept">쉬운시</term>와 <term type="concept">난해한시</term> <term type="concept">소통</term>과 <term type="concept">불통</term> 외면과내.</s>
+          <s>‘ ’ ‘ ’, ‘ ’ ‘ ’,면 시행 부분과 작품 전체 <term type="concept">보수 서정</term>과 <term type="concept">진취 모험</term> 등은, ‘ – ’ ‘ – ’, ‘ – ’ ‘ – ’시를가장잘요약하는덕목들이었을것이다 사실 시에서는가.</s>
+          <s>,장쉬운물음이실상다루기에가장어려운질문들을낳는다 이.</s>
+          <s><term type="concept">이분법</term>의 짝들은 모두 물음을 머금고 있기에 <term type="concept">규정의 불가능성</term>,의 가능성을 노정할 수밖에 없거나 그 자체로 탐구의 영역으로,남겨진다 시의 역사성을 물리친 자리에 시의 본질을 가정하고.</s>
+          <s>‘ ’소환하거나 고정되고 항구적인 진리를 전제하면서 언제든 원, ‘ ’ ,할때면들고날수있는경첩처럼사안들을배치하는이와같은<term type="concept">이분법</term>은 <interp value="critical" ana="미학">시에 관한 물음을 지워버린다는 조건에서만 물음을,던진다</interp> <term type="concept">난해한시</term>가무엇이냐고물을때 <term type="concept">쉬운시</term>에대한대답을.</s>
+          <s>,갖고 있을 수 없는 것과 마찬가지로 <term type="concept">소통</term> 역시 모든 것이 여하, ‘ ’ ,튼소통의문제라고흔히말할때의바로그소통을의미하는수사의일환이아니라면 <term type="concept">난해</term> 소통과같은개념들은독서의역량, –에대한자문을통해당도한고백인지를스스로에게되묻게만드는<interp value="neutral" ana="미학">자기 비평적지점을생산할수밖에없다</interp>– .</s>
+        </p>
+        <p>
+          <s>(2) <persName role="critic" xml:id="p-x4">이숭원</persName>, 「<title level="a" type="critic" xml:id="t-x2">권두좌담: 젊은 시인들의 도전과 가능성</title>」, <persName role="critic" xml:id="p-x5">신동옥</persName> 외, 『<title level="j" type="journal" xml:id="t-x3">시인수첩</title>』 <date when="2016">2016년 여름호</date>.</s>
+          <s>문사121_하이픈_최종.indd 126 2018.</s>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08<persName ref="#p-x">조재룡</persName> 127그러니이해한다는것은또무엇인가 우리는이해한다고믿?</s>
+          <s>는 것을 이해할 수밖에 없다 시인이 고유한 감정을 표현하는 방.</s>
+          <s>식에 이해 불가능을 앞세워 제동을 걸고 이왕 내친김에 <term type="concept">감정</term>‘ ’ , “<quote type="direct" genre="critic">의 분출물 이라며 고유한 그 방식에 근본적인 이의를 제기하는</quote>” ,이와같은불만은 특히<term type="movement">미래파</term>와맞물려반드시 <term type="concept">서정</term>이라는 단, ‘ ’어를만나한껏격상된어조를띠게된다 서정 진취의이분법.</s>
+          <s>‘ – ’은 이렇게 가동하기 시작한다 부분적인 시행의 의미는 파악할.</s>
+        </p>
+        <p>
+          <s>“수 있지만 <quote type="direct" genre="critic">작품 전체의 의미를 논리적으로 이해하기에는 어려움이많다</quote> 는 <persName role="poet" xml:id="p-x6">원로시인들</persName>의우려역시 시를하나의 <term type="concept">언술 체계</term>로” ‘ ’ , ‘ ’여기고 접근하는 관점에 대한 <interp value="critical" ana="미학">무지를 드러내는 것으로 보인다.</interp></s>
+          <s>이것은 그러니까맥락속에서 언술을구성하는문장들을헤아, ,리고 그 문장들의 관계를 살펴 그러니까 다시 맥락을 따져 문, , ,장들을 구성하는 낱말들의 값을 포착해나가는 독서 그러니까‘ ’ ,<term type="concept">전체에서 부분으로 향하는 독서</term>와는 완전히 상반된 방식으로‘ ’시를 읽어온 자들만이 가질 수 있는 독특한 경험에서 비롯된 것인가 <persName ref="#p-x6">원로 시인들</persName>이 난해하다고 지적한 시들 이 돌발적이고?</s>
+          <s>“ ” “<quote type="direct" genre="critic">비약적인 자유 연상이 주류를 이루고 있어서 외부와의 소통을염두에 두지 않고 내면적 정동의 토로에 치중 한다</quote>는 지적 그” ,러니까 시를 둘러싼 바로 이와 같은 자평들은 오히려 년대, <date when="2000">2000</date>시 특히 <term type="movement">미래파</term>논쟁을통해 다시 수면위로떠올랐던수많은, ‘ ’ ‘ ’시적 문학적 이론적 비평적 개념들이 어디로 향하고 있었는– – –지 또한 그 가치가 어디에 놓여 있는지 전반을 고스란히 드러내,준다.</s>
+          <s>검증되지 않았던 시인들의 시를 읽어내고 그 가치를 가늠,하는 <interp value="critical" ana="문학관">비평 능력이 문단에 새로운 혁신을 가져오는 경우가 드문</interp>것과 대조적으로 통념을 반복하며 생산적 비평과 소모적인 논,쟁의 차이를 구분하지 못하는 저 흔한 경우들이 비난의 형태로년대 시단을 판단하고 규정했다 그렇게 양자의 기이한 논<date when="2000">2000</date> .</s>
+          <s>문사121_하이픈_최종.indd 127 <date when="2018">2018</date>.</s>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08비평의 역사 128쟁적 운동처럼 진행되면서 <term type="movement">미래파</term>를 둘러싼 일련의 <term type="concept">비평 담론</term>,은 역설적으로시가무엇인지를물으며 이질문을동시대에 다, , ‘시 위치시키면서 <term type="concept">인식론적 갱신</term>의 반열에 올려놓았다 즉 (시’ .</s>
+        </p>
+        <p>
+          <s>,적)언어는어떻게작동하는지 시적인것이과연무엇이며 시적, ,언어가왜<term type="concept">갱신</term>의불가피함을전제하는활동인지등의물음들을진지하게탐구할가능성을열었다.</s>
+          <s>년대 이후 <term type="concept">언어의 가능성</term> 그러니까 언어가 할 수 있었<date when="2000">2000</date> , ,던 것들과 언어가 할 수 있는 것들 그리고 언어가 할 수 있었을,것들이 시에서 그리고 비평에서 본격적으로 타진된 것은 우연, , ,이아니다 치열한고민속에서너나할것없이시적언어의개성.</s>
+          <s>적 갱신에 열중하고 있는 년대 시의 현장에는 유독 사랑방<date when="2000">2000</date> ,의옛가락같은충고를늘어놓으며건네는 진단이나 점검이도‘ ’ ‘ ’드라졌으며 <term type="movement">미래파</term>는자주편협하고폐쇄적이며기형적인 <term type="concept">에콜</term>‘ ’ ‘ ’로불렸지만 사실점조직처럼흩어져있다가논쟁을중심으로결,집되고또사라지기를반복하는 비평과비난의왕복운동속에서,생겨난모종의네트워크였다고해야한다 만약 년대시단에.</s>
+          <s>2000서하나의실천적강령이있었다고한다면 <term type="concept">언어의근본적인혁신</term>,을 추구한 <term type="concept">특수성</term>의 실현이자 고유한 <term type="concept">시적 목소리</term>의 고안이었으며 비평은시와함께 시에의해촉발된다양한사유를탐구하고, ,이론들을파고들었으며 시의현재를점검하고미래를향한걸음,을내딛고있었다.</s>
+          <s><term type="concept">주체</term>, <term type="concept">리듬</term>, <term type="concept">정동</term>, <term type="concept">이미지</term>, <term type="concept">취향</term>, 그리고 더 많은 기획들<quote type="direct" genre="critic">순수한작품이란필연적으로화자(話者)로서의시인의소멸을의미하는것이며 시인은낱말들에주도권을양도한다</quote>, .</s>
+          <s>낱말들은하나하나가다르기때문에서로충돌함으로써문사121_하이픈_최종.indd 128 2018.</s>
+          <s>2.</s>
+          <s><date when="2018">22</date>.</s>
+        </p>
+        <p>
+          <s>오후 4:08<persName ref="#p-x">조재룡</persName> 129<term type="concept">동원상태(動員狀態)</term>에놓인다 낱말들은마치보석들취에길게.</s>
+          <s>뻗어있는허상의불빛처럼그상호간의반영으로점화하여,감지될수있는호흡을고대의서정적숨결로 혹은문장을,열정적으로운용하는개인적방향으로대체한다.</s>
+          <s><persName role="foreigner" xml:id="p-x7">스테판말라르메</persName>(3)<term type="concept">언어의 가능성</term>에 대한 모색은 반드시 년대 시와 비평의 특<date when="2000">2000</date>권은 아니었으나 년대 시가 집약해서 발생시킨 문제와 물, 2000음들을수렴해나갈벡터와도같았다 시적인것에대한본격적.</s>
+          <s>‘ ’인 탐구와 맞물려 이 시기에 도드라진 이 현상은 고스란히 비평활동으로 이어졌다 시와 비평은 언어 형식에 대한 고안에 골몰.</s>
+          <s>했으며 쓰는행위와읽는행위자체에던지는물음그자체의언,어를 실험하기도 했다 쓰는 과정만이 아니라 읽는 과정에서도.</s>
+          <s>만나게되는미지의영토를개척하고사유하고자하는활동들이시단 곳곳에서 불거져 나왔으며 <term type="concept">언어의 가능성</term>을 지금 여기에, –서진행중인동시다발적인하나의사건처럼꿰뚫어내는일에몰두했다 시는 무엇인가 같은 물음은 결코 시시한 물음이아니었.</s>
+          <s>‘ ’다 대답을찾아나서는물음이기에당연히문제를촉발했고 언.</s>
+          <s>,어와세계를사유하는방식을근본적인질문의거리로전환해냈다 시를 향한 근본적인 물음을 생산하고 당대에 그 물음의 위.</s>
+        </p>
+        <p>
+          <s>,치를 묻고 물음과 물음을 통해 심화해나가는 작업은 년대, <date when="2000">2000</date>들어 수많은 기획들을 통해 표출되었으며 <term type="concept">비평</term>이 활성화되는 데크게 기여했다 비평의 과잉은 아니었다 그만큼 물음이 차고 또.</s>
+          <s>.</s>
+          <s>넘쳤으나진부하지않았던까닭은이물음들이무엇보다도근본적인 물음들이었기 때문이다 년대 <term type="concept">시</term>와 <term type="concept">비평</term>은 가령 다음.</s>
+          <s><date when="2000">2000</date> ,과같은물음들을제기하였다 몇가지를추려본다.</s>
+          <s>.</s>
+          <s>(3) <persName ref="#p-x7">스테판 말라르메</persName>, 「<title level="a" type="critic" xml:id="t-x4">운문의 위기</title>」, <persName role="critic" xml:id="p-x8">황현산</persName> 옮김, 『<title level="j" type="journal" xml:id="t-x5">포지션</title>』 <date when="2014">2014년 여름호</date>, p.</s>
+          <s>189.</s>
+          <s>문사121_하이픈_최종.indd 129 <date when="2018">2018</date>.</s>
+        </p>
+        <p>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08비평의 역사 130<term type="concept">화자</term> 와 <term type="concept">주체</term> 는어떻게다른가 와 같은 물음은 씌어진 것(언‘ ’ ‘ ’ , ‘<quote type="direct" genre="critic">표) 그러니까시가 주어진낱말들의단순한총체가아니라 그</quote>’, ‘ ’ ,것들의 활동 즉 고유한 질서와 체계를 갖는다는 사실을 고지하,고있었다 문학 시가지금 여기시시각각제경계와영역을확.</s>
+          <s>– –장하거나 조절해나가는 주관적인 언어활동이며 그것은 산물(4), ‘ ’의집합인<term type="concept">텍스트</term>에대해 활동(5)이지속적으로간섭을하는 이‘ ’ ,미 완성된 실체가 아니라 작동 그 자체의 잠재력으로 나타난다,는 인식을 바탕으로 전개된 물음이었다 <term type="concept">주체</term>는 대상과의 이분.</s>
+          <s>‘ ’법을통해규정되는것이아니며 따라서말하는자와동일한지,위를누린다고가정하지않는다 <term type="concept">주체</term>는이런관점에서탐구되었.</s>
+          <s>고 그것은 근본적으로 <term type="concept">시적 화자</term>와는 다른 개념이었다 경험에, .</s>
+          <s>의해유지되는통일성을전제한<term type="concept">서정시</term>의특권이기도한 <term type="concept">화자</term>를‘ ’대신하여 <term type="concept">현대시</term>에서 가장 중요한 개념 중 하나를 시단에서 품,으려 시도한 결과 부각된 것이 바로 <term type="concept">주체</term> <term type="concept">시적 주체</term>와 같은 개‘ ’ ‘ ’념이었다 시에서 화자라는 중력이 느슨하게 풀릴 때 그렇게 구.</s>
+          <s>,심점을 다른 방향으로 돌릴 때 그곳에서 맞닥뜨리게 되는 것은,자아가 오롯이 장악하는 말의 주인이 아니라 언어의 텍스트의, ,차라리독자에게열려있는 <term type="concept">언술</term>의목소리 즉시적주체였다, , .</s>
+        </p>
+        <p>
+          <s><term type="concept">상호텍스트</term>의시적실천은무엇인가 <term type="concept">시적 주체</term>에 관한 물?</s>
+          <s>음은 누가 쓰는가 라는 물음과 관련된 주제들을 도출시켰고, ,년대 시는 <term type="concept">상호 텍스트</term>와 같은 개념들을 두루 실험하였다<date when="2000">2000</date> .</s>
+          <s>비평은 이와 맞물려 시가 <term type="concept">자아</term>를 물리고 <term type="concept">쓰는 주체</term>를 소급하, ,는 과정을 흥미로운 눈을 들어 주시하였다 쓰는 주체를 하염없.</s>
+          <s>이 캐묻는 그렇게 <term type="concept">주체</term>를 다차원에서 궁리하고 궁리하게 하는, –(4) 라틴어 ergon, 그리스어 ἐργον, 프랑스어 produit(생산물).</s>
+          <s>언어상으로는 ‘<quote type="direct" genre="critic">énoncé</quote>’, 발화된것, 즉 <term type="concept">언표</term>.</s>
+          <s>(5) 라틴어 energia, 그리스어 ἐνέργεια, 프랑스어 activité(활동성), force en action(행위/활동하는 힘).</s>
+          <s>언어상으로는 énonciation, ‘<quote type="direct" genre="critic">언표</quote>’의 행위나 과정, 즉 <term type="concept">발화</term>.</s>
+          <s>문사121_하이픈_최종.indd 130 <date when="2018">2018</date>.</s>
+        </p>
+        <p>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08<persName ref="#p-x">조재룡</persName> 131시들이 자주 <term type="concept">산문시</term>의 형태로 실현되었다 곁 텍스트 상위.</s>
+          <s>para ,텍스트 전(前)텍스트등이<term type="concept">모자이크</term>처럼구성되어 안다hyper , ,고 믿고 문을 열었다가 다른 문을 연차적으로 열어야 하는 겹, ,텍스트의 실천이 활성화되었으며 비평의 미로를 파놓았다 모름.</s>
+          <s>지기 창작이 무(無)에서 착수되어야 한다는 고정관념을 시험에‘ ’들게 하는 시들은 창조의 신화를 부수고 <term type="concept">저자의 권위</term>에 도전하는 글이기도 했으나 결국 <term type="concept">타자의 글을 이종(移種)하여 쓰는 주,체</term>를이행시킨다는생각과이를통해누가쓰는지에대한진지한물음을 가시화하였다 타자의 글로 타자의 사유에서 출발하여.</s>
+          <s>, ,타자의 글과 사유를 이어받고 나아가 이를 넘어서는 점에 도달,하려는 실험은 여전히 모호한 지대에 거주하면서(<term type="concept">표절</term> 시비의,원인을 제공하므로) 여전히 비평의 공간을 두드리고 있다 타자, .</s>
+          <s>의것으로내것을궁리한다는사유는<term type="concept">인용</term>이나<term type="concept">차용</term> <term type="concept">콜라주</term>와,<term type="concept">모방</term> 심지어 <term type="concept">표절</term>과 같은 개념들의 현대적 실천이 항상 위험한,것으로여겨지는사유의근간을파고들었으며 년대로접어, <date when="2000">2000</date>들어 전 시대의 그것과는 다른 방식으로 또한 매우 다양한 형, ,태로실험되었다 <term type="concept">시와비평을하나로전제하는글</term> 그러니까 시.</s>
+          <s>, ‘ –비평 혹은 비평 시 도 년 이후 시와<term type="concept">poem-critic</term>’, ‘ – <term type="concept">critic-poem</term>’ <date when="2000">2000</date> ,비평의관계를되묻게하면서 사유의대상으로부각되었다, .</s>
+        </p>
+        <p>
+          <s><term type="concept">정동</term> 은무엇인가 비평은 이와 같은 물음들을 꺼내‘ <term type="concept">affect</term>’ ?</s>
+          <s>들어 시에 대한 근본적인 질문을 던지는 동시에 시가 끊임없이물음을 던지는 언어활동이라는 사실을 증명해나갔다 <term type="concept">정동</term>(情.</s>
+          <s>‘<quote type="direct" genre="critic">動)이라는 번역어가 시학의 개념이 되는 과정을 탐구하는 비평</quote>’의 공간이 여러 차례 마련되었다 시가 첨단의 감각에서 우위를.</s>
+          <s>점해왔던 이유를 감각이나 감정의 극대화에서 찾곤 했던 다소,간추상적인과거의시도에비해 언어의조직과운용 언어의연, ,속적변이와그결들 <term type="concept">리듬</term>이나<term type="concept">이미지</term>등의특수한부림과작동,에서찾으려는<term type="concept">정동</term>은그러니까단순히슬픔이나불안과동의어문사121_하이픈_최종.indd 131 2018.</s>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08비평의 역사 132가 아니었다 <term type="concept">정신분석학자들</term>의 <term type="concept">정동</term>과 <persName role="foreigner" xml:id="p-x9">스피노자</persName>나 <persName role="foreigner" xml:id="p-x10">데카르트</persName>가.</s>
+          <s>감정이나감동과구분해서살피고자한<term type="concept">정동</term>의개념등이고찰되었고 감각과 의미 사이의 심연에 <persName role="foreigner" xml:id="p-x11">들뢰즈</persName>가 내려놓은 <term type="concept">정동</term>에 대,한 논의가 이어졌으며 정동을 근본적인 표상의 한 방식으로 여,기는 <persName role="foreigner" xml:id="p-x12">브라이언 마수미</persName>의 개념에 대한 탐구를 통해 <term type="concept">이미지</term> 연구의새로운장을열려는시도가 년대시단을풍성하게했다<date when="2000">2000</date> .</s>
+        </p>
+        <p>
+          <s>년대 비평은 년대 시를 통해서(혹은 그 이전의 시에2000 2000서 벌써 당도했으나 논의되지 않은 시까지) <interp value="affirmative" ana="문학관">비평의 영역을 확장</interp>,하고있었고 이는추상적인논의라기보다현장의요청에비평이,게으르지않았다는사실을역설적으로보여준다.</s>
+          <s><quote type="direct" genre="critic">리듬은무엇인가</quote> 와 같은 물음은 누구나 알고 있다고 믿고‘ ’있던 시에 대한 개념을 아무도 모르는 미지의 산물로 인식하면서 봇물처럼 터져 나왔다 음성적 조화나 일정한 규칙(박자 템, .</s>
+          <s>,포 강약) 정해진 운율이나 압운을 갖는 <term type="concept">정형률</term> 자연현상(봄, , , –여름 가을 겨울 낮 밤 밀물 썰물)등 규칙성 항구성 고정– – , – , – , , ,성의 개념에 묶여 있던 <term type="concept">리듬</term>을 텍스트의 움직임이자 텍스트를‘ ’ ,구성하는상이하고도다양한언어요소들의관계와그관계들의지형처럼파악하려시도하면서 정형률의감옥에서리듬을탈출,시키려는필요성이대두되었고 이와관련된비평과논문이쏟아,져나왔다 이렇게리듬은 년대시와관련된근본적인사유.</s>
+          <s><date when="2000">2000</date>를 갱신하려는 비평적 지점들 가운데 하나가 되었다 <term type="concept">리듬</term> 목소.</s>
+          <s>,리 <term type="concept">발화</term> <term type="concept">주관성</term> 등과 같은 세기 중후반에 이르러 세계적으, , , 20로차츰시학의중심을차지했던개념들은 년대이후 더는<date when="2000">2000</date> ,형식의사건도그렇게시의반쪽도아니었으며 의미생성의원천,으로 인식되어 나타났다 <term type="concept">리듬</term>은 <term type="concept">정동</term>과 마찬가지로 시의 가치.</s>
+          <s>,를 파악하는 데 소용되는 개념이자 시의 <term type="concept">물질성</term> 즉 언어의 작, ,용전반에서불거져나온<term type="concept">주관성</term>의표식이었다.</s>
+          <s>년대비평은 년대시에힘입어활동을전개했으며<date when="2000">2000</date> <date when="2000">2000</date> ,문사121_하이픈_최종.indd 132 <date when="2018">2018</date>.</s>
+          <s>2.</s>
+        </p>
+        <p>
+          <s>22.</s>
+          <s>오후 4:08<persName ref="#p-x">조재룡</persName> 133시에대한물음을갱신해나갔다 <term type="concept">알레고리</term>와같은개념이 <term type="concept">상징</term>.</s>
+          <s>‘ ’ ‘ ’을 대신해서 좀더 심도 깊게 논의된 것은 그 무슨 유행을 추수, ,한 결과는 아니었다 <term type="concept">알레고리</term>는 흔히 말하듯 <term type="concept">서정시</term>를 쓸 수.</s>
+          <s>, ,없는시대의산물이라고이야기할때만반짝거리며각광을받은것은 아니다 <term type="concept">알레고리</term>는 년대 <term type="concept">한국 시</term>가 천착했던 문법과.</s>
+          <s><date when="2000">2000</date>관련이 있었으며 년대 시가 그러모으고 비끄러맨 그러니, 2000 ,까 변화한 세계의 추이를 담아내고자 던진 시인들의 새로운 시선이자 특수성이었다 또한 지금 여기 저 삶의 양식과 지식의.</s>
+          <s>–점유 방식을 그러니까 <term type="concept">수수께끼</term>와도 같이 점차 분산되는 <term type="concept">사유</term>,의 파편들을 담아내려는 시의 의지인 한편 <term type="concept">화폐</term>처럼 등가의 교,환을 전제로 작동하는 <term type="concept">단일화 보편화의 이데올로기</term>와 그 이면–에 자리 잡은 실질적인 <term type="concept">폭력</term>에 대응하는 시적 방편이기도 했던것이다.</s>
+          <s>년대 시의 특징 가운데 하나라 할 <term type="concept">긴 시</term>나 <term type="concept">산문시</term> 역시<date when="2000">2000</date>새로이 논의되었다 긴 시나 산문시는 잡다한 시들이 부쩍 늘어.</s>
+          <s>‘났다는지적보다는오히려<term type="concept">시의 효율성</term>과<term type="concept">시적언어의 경제성</term>’ ‘ ’ ‘ ’에 관한 질문들을 심화시켜나가며 다양한 비평 활동을 가능하게해준동력이었으며 당연히<term type="concept">운문과산문의이분법</term>에관해 시, ,를 구성하는 외적 요소들에 드리워진 관점들을 심화할 계기들‘ ’이주어졌다 <term type="concept">시의압축성</term>물음을중심으로 길이가짧다는식의.</s>
+        </p>
+        <p>
+          <s>‘ ’양적인 관점에서 근거를 찾아 나선 관점과 발화의 효율성에 근‘ ’거를 둔 관점이 대립하였으며 <term type="concept">산문시</term>에 관한 논의들은 <term type="concept">장르</term>의,문제전반을성찰하는계기가되었다.</s>
+          <s>비평은 시가 <term type="concept">언어</term>로 언어에 의해 언어 안에서 행해지는 다, ,양한변화와변이들에시가위탁하는방식을 년대시와더<date when="2000">2000</date>불어 본격적인 사유의 대상으로 전환해내고자 했다 시에서 언.</s>
+          <s>어는 중요한 일부 요소가 아니라 시의 삶 자체 어쩌면 시의 목, ,줄을 쥐고 있는 최후의 방점이라는 사유와 나란히 <term type="concept">언어</term>를 벗어,문사121_하이픈_최종.indd 133 2018.</s>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08비평의 역사 134난 것으로 판단되는 요소들을 어떻게 마주하고 또 평가할 것인가에 대한 물음들도 제기되었다 가령 <term type="concept">여백</term>이나 <term type="concept">행갈이</term> 구두.</s>
+          <s>, ,점이나 <term type="concept">메타 언어적 기호</term>의 사용(수학이나 아이콘 도식이나 그,림등)등이 년대의지평에서 그러니까 이전에사용되었던<date when="2000">2000</date> , ,(예를 들어 <persName role="writer" xml:id="p-x13">이상</persName>의 시처럼) 맥락 속에서 반복되어 고찰되는 대,신 지금 여기의시적활동들을통해 그활동안에서차지하고, – ,있는자리를묻는방향을취하였으며 이는당연한행보였다 현, .</s>
+          <s>대시에서<term type="concept">구두점</term>이단순한기호일뿐인지 <term type="concept">타이포그래피</term>나<term type="concept">여백</term>,의활용 <term type="concept">행갈이</term>가창출하는시적공간은무엇인지 수학이나과, ,학 등을 위시한 <term type="concept">메타기호</term>들이 백지 위에서 말의 뭉치들과 함께조직될 때 의미의 향방은 어디로 향하며 의미의 자리는 어떻게,타진되는지 각주는 시의 외부인지 내부인지 등등의 물음들은,언어 외적 요소들이 시에 생명을 불어넣고 시적 도약에 어떤 식으로개입하는지여부를묻는 년대시의실천을통해촉구, <date when="2000">2000</date>된 동시에 시의 역사 속에서 제기되었던 물음들을 현재의 물음,으로 전환해내었다 마찬가지로 <term type="concept">시와 스펙터클</term> 같은 주제 역시.</s>
+        </p>
+        <p>
+          <s>,시에 관한 근본적인 물음들을 제기한 것은 마찬가지였다 이미.</s>
+          <s>지가대관절무엇인지 <term type="concept">이미지</term>는어떤방식으로시에서작동하는,지 언어를 벗어난 이미지나 이미지가 결여된 언어는 과연 가능,한지 등의 물음들이 심도 깊게 논의되었으며 <term type="concept">시 비평</term>의 지평을–넓히는데일조했다.</s>
+          <s><term type="concept">년대 시</term>는 당시 가능한 물음들 그러니까 년대 시2000 , 2000와 함께 열리고 닫힌 비평의 지평들 위로 기존의 물음들을 다시불러내고 새로운 물음들을 보탰다 이 물음들은 시라는 활동이.</s>
+          <s><interp value="affirmative" ana="문학관">문제를 제기하고 물음을 촉발하는 글이라는 사실 하나를 증명하는 데 바쳐졌다는 것만으로 충분히 값진 것이었다</interp> 년대.</s>
+          <s>2000시가 던진 그 이후 비평이 탐구하며 지속적으로 제기했던 이러,한 물음들은 그러니까 이미 시작된 것일 수 있다 물음에 대한, .</s>
+          <s>문사121_하이픈_최종.indd 134 <date when="2018">2018</date>.</s>
+          <s>2.</s>
+          <s>22.</s>
+        </p>
+        <p>
+          <s>오후 4:08<persName ref="#p-x">조재룡</persName> 135대답도벌써들었을수도있다 그러나시에서물음과대답이충.</s>
+          <s>분했던적은없었으며 년대는<term type="concept">시</term>의바로이러한특성 시대, <date when="2000">2000</date> ,의지평위에서 언어의변화와언어의작동방식의갱신속에서, ,매번 제기되고 제기하고 다시 묻고 묻게 하고 새로이 답하려– , – ,는 노력을 가능하게 하는 활동이 시라는 사실을 비평은 의식적,으로 무의식적으로 고지하고있었던것이다 년대화두가– , .</s>
+          <s><date when="2000">2000</date>되었던 <term type="concept">시와 정치</term>에 관한 물음도 바로 이러한 문제 제기적 성격을지니고있었다.</s>
+          <s>정치–정치적인 것, 시–시적인 것년대가 끝나갈 무렵 촉발된 <term type="concept">시와 정치의 논쟁</term>은 지난 시대<date when="2000">2000</date> ‘ ’한 번쯤 마무리되었다고 믿었던(적어도 그랬다고 믿었거나 그랬을것이라고여긴)주제를다시꺼내든것과같은기시감을불러일으켰다 <term type="concept">이념</term> 과 <term type="concept">순수</term> 를 문학이라는 전체의 절반 정도로 나.</s>
+          <s>‘ ’ ‘ ’누어 서로 대립각을 세우던 시대와 잠시 포개지는가 하면 하나,의 우위를 진지한 어조로 다투면서 그럴 것이라 믿었던 그 이후,조차 아니 시간이 조금 더 흐른 후 대안처럼 등장한 분석 전, , , ‘ –망주의와 <term type="movement">역사 실천주의</term>의이분법이다시투사되는것과도같’ ‘ – ’아보였다 그러나 년대 <term type="concept">시와정치 논쟁</term>은이전의논의들이.</s>
+          <s>2000 ‘ ’초점을맞추지못하거나누락한 그러니까거개가문학의사회적,효과와행동 즉<term type="concept">참여</term>의여부와그에대한촉구에집중되었던 그, ,렇게 참여와 <term type="concept">자율</term> 사회와 문학 사이의 화해할 수 없는 지경‘ ’ ‘ ’, ‘ ’ ‘ ’에 몰려 결국 양분되고 말았던 <interp value="affirmative" ana="문학관">인식의 공백 지점을 과감히 파고들었다.</interp></s>
+          <s>년대 <term type="concept">시와 정치</term>는 그러니까 <term type="concept">시적인 것</term> <term type="concept">문학적인 것</term><date when="2000">2000</date> , ‘ <quote type="direct" genre="critic">– –</quote><term type="concept">미학적인 것</term> 과 <term type="concept">정치적인 것</term> <term type="concept">사회적인 것</term> <term type="concept">일상적인 것</term>의 분리’ ‘ – – ’문사121_하이픈_최종.indd 135 2018.</s>
+          <s>2.</s>
+        </p>
+        <p>
+          <s>22.</s>
+          <s>오후 4:08<title level="m" type="critic" xml:id="t-x6">비평의 역사</title> 136불가능성을전제하는논리를전개했는데 이는 정치나 시 등과, ‘ ’ ‘ ’같은 용어들이 관점과 맥락에 따라 다양한 의미에서 쓰인다는점을우선적으로경계한결과이기도했다.</s>
+          <s>시와 예술 문학이 기존 세계의 감성적 통념들과 마비된, , ‘ ’감각을 해체하고 이와는 다른 종류의 분배로 변환시킨다는,사유(<term type="concept">감성의 분할</term> 이라고 소개된)에 바탕을 두고 문단에 실‘ ’ ,로 진지한 물음들을 펼쳐 보였다 이러한 실천을 도모할 수행적.</s>
+          <s>이고 주관적 인 예술의 형식과 언어의 고안이performatif subjectif삶의 새로운 형태를 발명할 가능성을 타진하는 행위라는 사유는 결국<interp value="affirmative" ana="미학">예술과정치사이의깊이파인이분법을기계적으로왕,복하던 이전의 논의들에서 한 걸음 앞으로 나아간 것이었다 가.</interp></s>
+          <s>장 시적인 것이 가장 정치적이라는 말은 현실 정치를 겨냥한‘ ’ ‘ ’ , ‘ ’것은 아니었지만(그렇다고 무관하다고 말할 수도 없는) 정치적,인 것을 근본적인 사유의 대상으로 전환해내고자 하는 비평적시도와 맞닿아 있었다 현실 정치가 유달리 <term type="concept">정치적인 것</term>을 고민.</s>
+          <s>‘ ’하는것도 그것을붙들고씨름하는것도아니다 (6)예술과시는, .</s>
+          <s>,경계와 구획 혹은 통념과 도식을 불변하는 진리로 여기는 것들,사회의질서를유지하는견고한패러다임과그담론들을 초월하,거나무시하는것이아니라 그것들과싸우는고유한방식들(예,술)이나 말(시 문학)을 고안하면서 끊임없이 자기 형식을 찾, , ‘아나서는 과정이라는 점에서만 <term type="concept">정치적인 것</term>들을 사유하며 정’ ,치적인 것들에 참여한다 시와 시적인 것 정치와 정치적인 것이.</s>
+          <s>,(6) <term type="concept">평등의 유토피아</term>와 같은 것은 현실에서 존재하지 않지만, 현실 정치에서는 실현 가능한무엇으로 제시된다.</s>
+        </p>
+        <p>
+          <s>정의–평등–자유와 같은 제안을 포기하는 현실 정치가 이 세상에서좀처럼 목격되지 않는 것과 마찬가지로 반복된 도식, 불변의 진리, <term type="concept">민주주의</term>를 선거 철에맞추어 강조하는 일, 그 이상의 언술을 생산하지 않는다.</s>
+          <s>정치는 실제로는 정치적인 것을돌보지 않는다.</s>
+          <s>시는 균등하고도 이상적인 도식 속에 갇힌 언어를 실천의 반열에 올리지않는다.</s>
+          <s>시는 차라리 현실 정치의 담론들이 돌보지 않는 <term type="concept">불균형</term>과 <term type="concept">불평등</term>과 <term type="concept">부조화</term>,비균질적인 것들을 목도하고, 그와 같은 상태를 언어화하여 오히려 이와 같은 것들의 가치를사유하게 한다.</s>
+          <s>문사121_하이픈_최종.indd 136 2018.</s>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08<persName ref="#p-x">조재룡</persName> 137갖는근본적인차이와마찬가지로 시없는정치는 공동체없는, ,<term type="concept">공동체주의</term> 역사성을 결여한 <term type="movement">역사주의</term> <term type="concept">모더니티</term>를 누락한 모, ,더니즘일 뿐이다 우리가 시라 부르는 인간의 활동을 언어의고.</s>
+        </p>
+        <p>
+          <s>안을통한삶의방식의고안이며 삶의방식의고안을통한언어,의고안이라고 여기는 까닭이 어쩌면 여기에 있을 것이며 이는,역사적으로 <term type="concept">시인이 가장 정치적인 존재였기에 정치공동체에서추방을 당했다는 사실</term>을 떠올려볼 이유가 된다 시인이 정치공.</s>
+          <s>동체에서 가장 위험한 존재였다는 것은 시인이 구사하는 말이,정치공동체의 통념과 근간을 가장 정치적으로 그러니까 근본, ,적인 방식으로 비판하는 말이었다는 사실을 암시한다 년.</s>
+          <s><term type="concept">2000대 시와 정치 담론</term>은 철학과 시의 오랜 불화와 같은 해묵은 테, ‘ ’제를 꺼내 든 것이 아니다 <term type="concept">시적인 것의 고안이 정치적인 행위</term>라.</s>
+          <s>는것 이양자의고안이서로맞물려있거나최소한서로가서로,에게 간섭을 한다는 것 이 고안에 의해 이 세계에 당도하여 재, ,생되는 <term type="concept">정치적 통념과 도식들 및 이분법을 넘어서는 가치</term>를 사,유할불가능한여정의가능성이모색될수있다는진지한전망이었다.</s>
+          <s>시, 비평, 독자년대의 시 그리고 비평은 시가 물음을 끊임없이 생산하는<date when="2000">2000</date> ,속성을 지니고 있다는 것을 알려주었고 년대가 저물어갈, <date when="2000">2000</date>무렵 <term type="concept">시적인 것과 정치적인 것</term>이 독자를 찾아가는 방식의 고안,과도 서로 맞물려 있다는 사실을 고지하였다 이 양자의 연대를.</s>
+          <s>모색하고 실천의 반열에 올려놓으려 했으며 아래의 진단과 우려와는사뭇다른현상들이곳곳에서출현하였다.</s>
+          <s>문사121_하이픈_최종.indd 137 <date when="2018">2018</date>.</s>
+          <s>2.</s>
+        </p>
+        <p>
+          <s>22.</s>
+          <s>오후 4:08<title level="m" type="critic" ref="#t-x6">비평의 역사</title> 138무엇이무엇인줄모르고그작품수준의미망속을헤매다가시에환멸을느끼거나실망하여스스로시자체를포기해버리는것입니다 …… 자질이부족한<term type="concept">평론가</term>들이제.</s>
+          <s>[ ]역할을제대로하지못한 혹은하지않은데에도그책임이클,것입니다.</s>
+          <s>셋째<term type="concept">시단</term>혹은<term type="concept">시인</term>들의자가발전입니다 요즘우리시단은.</s>
+          <s><term type="concept">시인</term>이즉<term type="concept">독자</term>이고독자가즉시인입니다 옛날같으면독자로.</s>
+          <s>머무를사람들이거의모두<term type="concept">시인</term>이라는명함을가지고있습니다 말하자면순수한<term type="concept">독자</term>라는개념이사라져버린.</s>
+          <s>것이지요 그러니<term type="concept">시집</term>을출간해도그시집들은대개다른.</s>
+          <s><term type="concept">시인</term>들에게증정되거나 간혹팔리는<term type="concept">시집</term>이있다하더라도그,역시시인들이사는것입니다(7).</s>
+        </p>
+        <p>
+          <s>년대 후반 등장한 서점들은 시에게 입을 달아주는 것이 독2000자의 일이라는 사실을 누구보다도 앞서 깨달은 결과 우리 곁에,당도한 무엇이었다 바로 이 독특한 공간에서 <term type="concept">시적 경험</term>을 공유.</s>
+          <s>하려는 시도들이 탄생하였다 시를 독자와의 대화의 소산으로.</s>
+          <s>전환해내는 일은 현장에서 시집을 읽으며 시인의 낭독을 통해,시집에서무언가를꺼내거나시의더운숨결을내뿜게독자와함께 길을 터나갔다 자료의 제공에 불과했던 시집 인쇄된 활자.</s>
+          <s>‘ ’ ,의형태일뿐이었던물질은서점의독자들앞에첫장을열었고,낭독을 통해 시집의 <term type="concept">물질성</term>을 깨뜨리는 자그마한(그래서 일상,적인) <term type="concept">시적 사건</term>들을 만들어내는 행위에 기꺼이 동참했다 변화.</s>
+          <s>는 공간에서만 이루어지지 않았다 서점과 동시에 등장한 독립.</s>
+          <s>잡지들은 시의 저변을 넓혀갔으며 매우 유의미한 일을 했다 시, .</s>
+          <s>전문 서점의 등장과 시를 게재할 매체의 변화는 시의 <term type="concept">앙가주망</term>에건모종의내기를지성 知 과음성 音 의메아리로화답하면[ ] [ ](7) <persName role="poet" xml:id="p-x14">오세영</persName>, 「<title level="a" type="critic" xml:id="t-x7">권두좌담: 한국 현대시의 반성과 전망</title>」, <persName role="poet" xml:id="p-x15">김남조</persName> 외, 『<title level="j" type="journal" ref="#t-x3">시인수첩</title>』 <date when="2016">2016년 봄호</date>.</s>
+          <s>문사121_하이픈_최종.indd 138 <date when="2018">2018</date>.</s>
+        </p>
+        <p>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08<persName ref="#p-x">조재룡</persName> 139서부지런히시의목소리를울려낼줄알았다 시와비평은쓰는.</s>
+          <s>순간에 대한 궁리가 읽는 방식의 전환을 통한 현장에서의 <term type="concept">낭독체험</term>과이를통한<term type="concept">공동체</term>에서의공유와도맞닿아있다는사실을파악하였다 년대가 저물어가고 있었다 시 전문 서점과 독.</s>
+          <s>2000 .</s>
+          <s>립잡지는 <term type="concept">저자</term>에서 <term type="concept">독자</term>로시집과시의주인을전환해내는과, ‘ ’ ‘ ’감한 일을 매우 활발하게 전개하기 시작했다 년대가 저물.</s>
+          <s><date when="2000">2000</date>어갈 무렵 <term type="concept">시와 비평</term>은 많은 것들을 바꿔나갈 채비를 마친 듯, ,보였고 새로열릴공간을바라보았으며 년이후새로열릴, , <date when="2010">2010</date>시와 비평의 공간을 예비하고 있었다 방금 시작했다고 믿었던.</s>
+          <s>
+            <interp value="neutral" ana="문학관">변화는이후 예상보다훨씬커다란변폭속에서 그래서아무도, ,예견하지못했던형식을통해 전개되어나갈터였다, .</interp>
+          </s>
+        </p>
+        <p>
+          <s><persName ref="#p-x">조재룡</persName>문학평론가, 번역가, <orgName xml:id="org-x2">고려대</orgName> 불문과 교수.</s>
+          <s>지은 책으로 『<title level="m" type="critic" xml:id="t-x8">앙리 메쇼닉과 현대비평</title>』 『<title level="m" type="critic" xml:id="t-x9">번역의유령들</title>』 『<title level="m" type="critic" xml:id="t-x10">시는 주사위 놀이를 하지 않는다</title>』『<title level="m" type="critic" xml:id="t-x11">번역하는 문장들</title>』 『<title level="m" type="critic" xml:id="t-x12">한 줌의 시</title>』, 옮긴 책으로『<title level="m" type="translation" xml:id="t-1">시학을 위하여 1</title>』 『<title level="m" type="translation" xml:id="t-x13">시학 입문</title>』 『<title level="m" type="translation" xml:id="t-x14">앙리 메쇼닉, 리듬의시학을 위하여</title>』 『<title level="m" type="translation" xml:id="t-x15">사랑예찬</title>』 『<title level="m" type="translation" xml:id="t-x16">잠자는 남자</title>』 『<title level="m" type="translation" xml:id="t-x17">사형을언도받은 자/외줄타기 곡예사</title>』 『<title level="m" type="translation" xml:id="t-x18">알 수 없는여인에게</title>』 등이 있음.</s>
+          <s>문사121_하이픈_최종.indd 139 <date when="2018">2018</date>.</s>
+          <s>2.</s>
+          <s>22.</s>
+          <s>오후 4:08</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,821 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>주체에서 주체로 이행하는 목소리의 여행자들―이접하는, 2000년대의 시, 2010년대의 시</title>
+        <author>조재룡</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>이3 /〈纷k%ai〉2o2电 （簪2 鄧/占幺I 흑집 I 오늘의 한국시, 무엇올 이야기할까주체에서 주체로 이행하는<term type="concept">목소리</term>의 여행자들—이접（移接）하는, 200이년대의 시, <term type="concept">2010년대의 시</term>조재룡내 목소리로 닦아놓은 초원과 내 목소리로 쌓아올린 문명 과 내 목소리로 세워놓은 게르와 내 목소리로 마련한 세간 들의 배치가 궁금해지는 것이다.</s>
+          <s>더 오래전 한 시절 네 구불 구불 깊은 귓속을 들고 나며 내 목소리로 그려놓은 벽화가 얼마나 회미해져 있는지.</s>
+          <s>아직도 슬픔의 문양으로 음각되고 있는지, 그 조잡한 문명을 들키고 싶지 않은 밤.</s>
+          <s>나는 잠든 네 위에 올라탄다.—<persName role="poet" xml:id="p-x">김중일</persName>.「<title level="a" type="poem" xml:id="t-x">우리 귓속에서의 거짓 시절</title>」중에서1 .</s>
+          <s>시와 비평의 자리바꿈<term type="concept">세대론</term>은 거개가 십 년 단위로 묶여 나온다.</s>
+          <s>십 년을 주기로 거부할 수 없 는 현상이 도드라지기라도 한다는 것일까?</s>
+          <s>무언가를 주장하려면 붙박인 틀 과 기준을 옹호하거나 부정하는 수밖에 없다.</s>
+          <s>경향을 추려내고 항구적인 실 체를 가정하여 잣대를 드리우는 일은, 진단이나 점검이라는 수식어 없이는 여간해서 설득력을 갖출 수 없다" <interp value="neutral" ana="문학관">시의 특수성과 개별성, 시의 목소리와 시인들의 사유를 단순화나 일반화의 주물에 밀어넣거나, 개별 시로 시집의 대 의（代議）를 붙들어맬 각오를 무릅쓰지 않고는 모색 자체가 타진되기 어렵기 때문이다.</interp></s>
+        </p>
+        <p>
+          <s>나는 기회가 있을 때마다 <term type="movement">미래파</term>라 불린 일군의 시인들의 시를 지지하는 글을 썼지만, 미래파를 단일한 집단으로 생각한 적은 없었다.</s>
+          <s><term type="concept">시단</term> 에 변화를 몰고 온 것은 명백했고, 예기치 못해 새롭다고 부를 만한 출현을 통지했지만, 크들이 하나의 목소리를 낸 적은 없었기 때문이다.</s>
+          <s>크들은 네트 워크처럼, 모이고 흩어지기를 반복하는 가운데, 각자의 길을 뚜벅뚜벅 걸어 갔을 뿐이다.</s>
+          <s>공통점이 존재한다면, 위로하고 다독거리는 시가 아니라.</s>
+          <s>싸우 고 도전하는 시의 주인이었다는 것뿐이다.</s>
+          <s>개념과 언어에 대한 인식과 보조를 맞추면서 .</s>
+          <s>현실 속으로 제 발걸음을 옮 길 때 시 자체에 대한 물음과 의문이 극대화된 것은 따라서 피해갈 수 없는 수순이었다.</s>
+          <s>그들이 <term type="concept">시단</term>에 기투（企投）하는 물음들을 잔뜩 내려놓을 수 있었 던 것은, 시와 시 쓰는 행위.</s>
+        </p>
+        <p>
+          <s>시의 당위와 존재 이유를 캐물으며, 독특한 언 어, 그러니까 <term type="concept">혁신</term>을 경유해서만 가능했던 개별자의 목소리를 내고 있었기 때문이다.</s>
+          <s>그것은 미지（未知）로 기지（旣知）를 비판하는 행위, 물을 수 없었 던 것을 현실로 끌고 와.</s>
+          <s>어렴풋이 답을 쥐고 있던 거개의 통념들을 포섭하 는 행위였으며.</s>
+          <s>따라서 그들이 제기한 개념들이나각각 선보인 언어의 낯선 운용은 시에 대한 물음을 벌써 문제로 전환해낼 운명을 지니고 있는 것이기 도 했다.</s>
+          <s>일련의 논쟁은 그러니까 필연이었던 것이다.</s>
+          <s>시라는 의식과그 근간자체를 흔들어대는 <term type="concept">인식론적 모험</term>과 필요할때 열（리）고 닫고 나면 다시 필연에 파묻히는 개별자들이 제 주관적인 언어로 움켜쥔 <term type="concept">주체</term> 의 탄생을 <date from="2000" to="2009">2000년대</date> 시의 도드라진 징후로, 그것도 막연하게 꼽아볼 뿐이다.</s>
+          <s>고 정된 이름을 획득한 어떤 집단도 전유하지 못하는 지점을 탈취하기 위해.</s>
+          <s>예지 와지성을 바탕으로.</s>
+        </p>
+        <p>
+          <s>그들은 저 자신에게조차 낯선, <term type="concept">고독한 전투</term>를 치러야 했 고.</s>
+          <s>무기를 들고 있었지만.</s>
+          <s>그 무기는 말할 것도 없이 천차만별이었다.</s>
+          <s>사유 와 문화와 언어의 차원에서 규정해낼 어떤 동질성으로도 환원될 수 없는 <term type="concept">개 별자</term>의 목소리에서.</s>
+          <s>각자, 주인공의 자리를 점유해내었다.</s>
+          <s>한 개인이나 집단 의 환회와 <term type="concept">고독</term>.</s>
+          <s><term type="concept">희망과 절망, 삶과 죽음</term>을 시에 결부시키기 전에* 그러니까그들은 벌써 독창적인 개념의 담지자이자.</s>
+          <s>특수한 의미를 천거하는 모험의 전사偉戈士）였으며.</s>
+        </p>
+        <p>
+          <s>그렇기에 <term type="concept">전위</term>를 자청하기도, 전위로 여겨지기도 했다.</s>
+          <s>모두 시의 <term type="concept">골고다</term>로 향했지만, 그곳에서 그들을 기다리고 있는 것은 개별자 의 목소리를 감식하고 자리매김해줄 <term type="concept">비판적 환대</term>가 아니라, <term type="concept">바벨</term>의 제의에 참여하라는 강압이었으며, 그렇게 그들은 제가 쌓은 적이 없었던 그 탑의 주 인으로 둔갑하기도 했다.</s>
+          <s>사실, 목소리는 신의 것이 아니었으뜨로 비극이 제 단의 주위를 떠돌았고, 그것은 누가 보아도 <term type="concept">절망</term>과 <term type="concept">탄식</term>을 불어넣기에 크게 부족하지 않았다" 각각이 유일한 <term type="concept">개별자</term>였으며 .</s>
+          <s>제 언어의 공화국 안에서 신 의 목소리를 내는 주인공이었기 때문이었다.</s>
+          <s>그 목소리는 물론.</s>
+          <s>쌓아올린 적 이 없었기에 <term type="concept">바벨</term>이 붕괴된 이후의 것과 벌써 가까웠다.</s>
+          <s>가령 <persName role="poet" xml:id="p-x2">황병승</persName>은 비평 과 독자의 수다스런 침묵에 대해 이렇게 적는다.</s>
+          <s>
+            <quote type="direct" genre="poet" source="황병승">
+              <lg type="stanza">
+                <l>침묵하거나 침묵하지 않으면서</l>
+              </lg>
+              <lg type="stanza">
+                <l>나는 보여주고자 하였지요.</l>
+              </lg>
+            </quote>
+          </s>
+        </p>
+        <p>
+          <s>다양한 각도에서의 실패를.</s>
+          <s>독자들은 보았을까.</s>
+          <s>내가 보여주고자 한 실패.</s>
+          <s>보지 못했지…… 나는 결국 실패를 보여주는 데 실 패하고 말았다!</s>
+          <s>쓸모없는 독자들이여.</s>
+          <s>당신들은 어디에 있었는가.</s>
+          <s>불빛 속에 서, 아름답게 흐르는강물을, 다리 위에서, 보고 있었지.</s>
+          <s>어둠 속에서.</s>
+        </p>
+        <p>
+          <s>나는 밤 낮으로 출렁거리며.</s>
+          <s>다리 아래서, 보여주고자 하였는데, 괴로워…… 그러게 말입니다.</s>
+          <s>실패한 자로서, 실패의 고통을 안겨주는 이 페이지에서, 딩신들이 수시로 드나들 이 페이지에서 .</s>
+          <s>페이지가 너덜거 리도록 당신들과 만나는 고통 속에서*“<quote type="direct" genre="poet">나는 실패를 보여주고자 하였으나 보기 좋게 실패하고 말했네.</quote></s>
+          <s>
+            <quote type="direct" genre="poet">이거 이거, 실패를 보여주기에는 역시 역부족이란 말인가.</quote>
+          </s>
+          <s><quote type="direct" genre="poet">괴롭습니다, 괴로워요……</quote>”라 고 말이지요찬비가 얼굴을 때리는 새벽 .</s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>나는 누구에게라도 전화를 걸고 싶었습니다</l>
+              </lg>
+              <lg type="stanza">
+                <l>죽은 할머니에게라도 할아버지에게라도</l>
+              </lg>
+              <lg type="stanza">
+                <l>거리의 부랑자들과 매춘부들에게라도</l>
+              </lg>
+              <lg type="stanza">
+                <l>웃거나 울지 않으면서</l>
+              </lg>
+              <lg type="stanza">
+                <l>침묵하거나 침묵하지 않으면서</l>
+              </lg>
+              <lg type="stanza">
+                <l>술집에서 만난 보이와 건달 녀석에게라도</l>
+              </lg>
+              <lg type="stanza">
+                <l>나는 전화기를 들고 아무 번호나 눌러대기 시작했지요</l>
+              </lg>
+              <lg type="stanza">
+                <l>하지만 모두들 이 렇게 말하는 겁니다</l>
+              </lg>
+              <lg type="stanza">
+                <l>누구시죠?</l>
+              </lg>
+            </quote>
+          </s>
+          <s><quote type="direct" genre="poet">누구십니까?</quote>-<persName ref="#p-x2">황병승</persName>.「<title level="a" type="poem" xml:id="t-x2">내일은프로</title>」중에서모두가 목소리의 여행자였지만, 그들은 같은 곳을 향한 적도 없고, 비슷한 행장을 들고 있었던 것도 아니었으며 .</s>
+        </p>
+        <p>
+          <s>제각각 흩어졌지만, 도달점을 공유하 며 서로가 서로를 알아보았을 뿐, 길을 하나로 포갠 것도* 함께 밟아나갈 대 로 하나를 낸 것도 아니었다.</s>
+          <s>그러니까 그들에게는* 너는 누구인가를 묻기 전에 너는 누구라고 명명하고 규정했던 저 <term type="concept">비평</term>으로부터 돌려받을 빚이 있 는 것이다* <term type="movement">미래파</term>는 시뿐만 아니라 비평의 눈을 근본적으로 바꾸라는 요청 이었으며, 따라서 비평에게는 실험과 시험을 동시에 강제하는 낯선 타자의 주문 자체이기도 했다.</s>
+          <s>전유하고 있던 시선을 섬뜩한 불안과 희미한 가능성 으로 전환해야만, 비평은 겨우 제 정체성에 젖줄을 끌어댈 수 있었다는 말이 다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">비평이 시를 자리매김하는 것이 아니라, 시가 비평을 생성하게끔 추동한 것이라면.</interp>
+          </s>
+          <s>상황은 이미 역전된 것이었다.</s>
+          <s><persName ref="#p-x2">황병승</persName>은 제가 마주했던 독자의 무 능함과비평에서 느낀 허탈감을 표출하며，선언에 가까운 다짐을고통스럽게 우리에게 투척한다.</s>
+          <s>어디 <persName ref="#p-x2">황병승</persName>뿐일까.</s>
+          <s><term type="movement">미래파</term>의 운명은 사실 비평의 운 명이기도 했다.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="문학관">실패한적이 없었던 비평이 패배했다면.</interp>
+          </s>
+          <s><term type="movement">미래파</term>는.</s>
+          <s>또 <persName ref="#p-x2">황병승</persName> 은.</s>
+          <s>분명 실패를 거듭하였지만, 단 한 번도 패배한 적이 없었던 것이다.</s>
+          <s>제 시 를 이렇게 마무리하는 시인 앞에서 비평가는 이제 무어라 말할 수 있을까?</s>
+          <s>
+            <quote type="direct" genre="poet" source="황병승">
+              <lg type="stanza">
+                <l>벙어리는 침묵과 절름발이는 목발과</l>
+              </lg>
+              <lg type="stanza">
+                <l>나는 술집 계단 아래 거꾸로 처박힌 채</l>
+              </lg>
+              <lg type="stanza">
+                <l>다짐을 했습니다, 오늘은 무슨 일이 있어도</l>
+              </lg>
+              <lg type="stanza">
+                <l>에이전시에 연락해서 타이피스트를 부탁해야지</l>
+              </lg>
+              <lg type="stanza">
+                <l>머릿속의 구상과 잠꼬대와 헛소리를 정확하고 빠르게,</l>
+              </lg>
+              <lg type="stanza">
+                <l>열정적으로 기록할 수 있는 타이피스트!</l>
+              </lg>
+            </quote>
+          </s>
+          <s>기계와도 같은 타이피스트를 에이전시 .</s>
+          <s>
+            <quote type="direct" genre="poet" source="황병승">
+              <lg type="stanza">
+                <l>타이피스트</l>
+              </lg>
+              <lg type="stanza">
+                <l>에이전시라니 , 타이피스트라니</l>
+              </lg>
+              <lg type="stanza">
+                <l>나는 계속해서 흐르는 코피를 닦으며</l>
+              </lg>
+              <lg type="stanza">
+                <l>절뚝거리는 다리로 술집의 나무 계단을 올라섰습니다</l>
+              </lg>
+              <lg type="stanza">
+                <l>내일은 프로</l>
+              </lg>
+              <lg type="stanza">
+                <l>내일은 프로</l>
+              </lg>
+              <lg type="stanza">
+                <l>중얼거리며•말이지요</l>
+              </lg>
+              <lg type="stanza">
+                <l>각오는 피를 대가로만 단단한 의식이 되고.</l>
+              </lg>
+            </quote>
+          </s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="문학관">불구가 되어서만 다져나갈 수 있는 미래의 기획이라는 것일까.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="문학관">독자와 비평은 기왕에 감은 눈을 뜨지 않은 채 침묵으로 일관했을 뿐이란 말인가.</interp>
+          </s>
+          <s>비평이 제 <term type="concept">논리적 나르시시즘</term>과 관성 에 젖어.</s>
+          <s><term type="concept">통념</term>을 반복하며 답보상태에 머물러 있을 때* 시는 앞을 향해, 절름 거리며, 또 피를 흘리며.</s>
+          <s>전진한다.</s>
+          <s>지금 이 순간에도 말이다.</s>
+          <s>비평을 시험에들게 하고 비평을 시와 함께 실험하는 200이선대 시는 이렇게 <persName role="poet" xml:id="p-x3">이수명</persName>, 함기 석 <persName role="poet" xml:id="p-x4">박상순</persName> 등 <date when="1990">90년대</date> 일군의 시인들이 외로이 갈아놓은, 그러나 우리가 가 까이서 돌보지는 않았던 저 텃밭에서 틔운 싹을* 제 나름의 열정으로 싱싱하 게 큰 결실로 키워낼 줄 알았다고 해야 할 것이다*이러한 맥락 속에서 누군가는 언어의 무궁무진한 힘에 전폭적인 신뢰를 보 내면서 세계를 궁굴리는 독특한 목소리의 주인이 되어갔고, 누군가는 대상의 존재 가능성을 확장하고자 환유의 힘에 주목하여 미니멀리스트의 자격을 획 득해냈으며 .</s>
+          <s>또 누군가는 순간게 포착된 <term type="concept">그로테스크</term>한 이미지를 낯설게 배치 하고 조작해냄으로써 <term type="concept">환상의 현상학적 실험</term>에 참여했고, 누군가는 독백과 대 화로 지어올린 연극의 퍼포먼스를 선보이며 감각의 <term type="concept">시뮬라크르</term>를 시에서 구축해낼 줄 알았으며, 누군가는 과거와 현재를 지금-여기라는 공시적 공간 에 하나로 포개어내면서 가족사를 우화로 변용해내었고, 그렇게 <term type="concept">알레고리의 미학</term>을 낯선 문장을 들고서 실험해나갔다.</s>
+        </p>
+        <p>
+          <s>누구의 것이건* 그들의 목소리는.</s>
+          <s>화자가 아니라 <term type="concept">주체</term>라는 미지의 개념을 끌어안은 상태에서 당도하였으며, <term type="concept">발화자</term>에게 초점을 맞추는 것이 아니라 <term type="concept">발화상황</term>과 <term type="concept">발화행위</term> 전반을 조직하 는 입장에 서고자 했고.</s>
+          <s>고립된 낱말이나 기호가 아니라 <term type="concept">텍스트</term>라는 전체에 올라서서 개별 기호들이 서로 맺어지는 촘촘하고도 허허한 관계를 내려다보 며 돋우어내고 있었다.</s>
+          <s>각자의 문장을 들고 <interp value="neutral" ana="문학관">세계와 역사를 대면하면서, 저만 의 통로를 개척하고자, 제 나름의 목소리를 힘껏 쏟아내고 있었을 따름이었 다 그것은 비평 앞에 내려놓은 요청이기도 했다.</interp></s>
+          <s>그들의 목소리는 <term type="concept">개별화</term> 된, <term type="concept">개인화</term>된, 자기 점유를 거친 것이었던 만큼, <term type="concept">의미의 지평</term>을 새로이 열고 자 하는 목소리 得 그 가능성을 관계와 <term type="concept">타자</term>에 대해 천착하는 방식으로 모색하 는 목소리였으며, 이때 <interp value="affirmative" ana="사회">시의 정치적 지평도 함께 열렸다</interp>.</s>
+          <s>우리의 의식 안으 로 순일하게 포섭되지 않는 성가신 것들을 제 시에서 포기하지 않았고* 따라 서 이것은 저것이다라는 식의 단일한 수식을 포기한 대가로, 말할 수 없는 것 도착하지 않은 것, 장악되지 않는 것을 사유하려고.</s>
+          <s>또, 그것을 담아내는 데 합당한 말과 문법을 고안하려고, 그렇게 <interp value="affirmative" ana="미학">독창적인 시의 목소리를 발명하 려고 몸부림을 쳤다.</interp></s>
+          <s>그들에게 언어는, 목소리는.</s>
+        </p>
+        <p>
+          <s>제 몸의 사건이자, 세계에입사하는 주체의 <term type="concept">정념</term>이었다.</s>
+          <s>문학이 <term type="concept">도전</term>이라는, 시가 그 도전에서 척후이 자 첨병이라는 사실을내면 깊숙이 각인했을 때 토해낼 수 있는 용트림이 그 들의 목소리를 벌써 장악하고 있었다.</s>
+          <s>그 과정에서 그들은, 시에서 어떤 개념 이란 그 개념을 고안하는 과정의 산물일 뿐이라는 사실을 알려주었고* 지금 당도한 곳에서 더 확장해내는 언어가 <term type="concept">비평</term>을 견인하는 힘과 크게 다르지 않 다는 사실을.</s>
+          <s>지난한 <term type="concept">실험</term>을 통해 보여주고자 했으며, 그것은 최소한, 전（前） 세대에 대한, 그 무슨 반성이나 극복 같은 것은 아니었다.</s>
+          <s>그 질긴 싸움 전반 을 지배하고 있었던 것은 <term type="concept">성찰</term>보다는 시와 비평을 하나로 묶어낼 <term type="concept">공동체적 목소리</term>의 고안이었으므로, 그들의 목소리는 <term type="concept">도전과 갱신</term>이 필요하다는 사실 을 증명해내는 데 오롯이 헌정되기도 하였다.</s>
+          <s>누가 사라졌고.</s>
+          <s>누가 살아남았 는가의 문제도 아니었다.</s>
+          <s>나만의 문제도 아니었다.</s>
+        </p>
+        <p>
+          <s>내 목소리 안에서 살고 있는 네 목소리의 문제만도 아니었다* 너와 나 사이에서 <term type="concept">공통분모</term>를 추려내 야 한다는 식의 제안도 아니었다.</s>
+          <s>그것은 <term type="concept">타자</term>의 목소리를 통해 고안된 내 목소리, 타자를 살아내며 내가 울려내는, 그러니까, 타자를 넘어서기 위해서 오로지 타자에게로 입사하는, <term type="concept">주체</term>에서 주체로의 <term type="concept">이행</term>* 바로 이 이행의 목소 리였으며.</s>
+          <s><term type="movement">미래파</term>（명칭의 한계를 埶｝주었으면!）는 이 목소리를 시단에 흩뿌 렸을 뿐이다.</s>
+          <s>이 <term type="concept">주체에서 주체로 향하는 이행</term>은 전 세대에서 벌써 착수된 것이기도 하였다.</s>
+          <s><date from="2000" to="2009">2000년대</date>라는 지표는 여기서 앞선 시대를 말하는 동시에 <date from="2010" to="2019">2010년대</date> 시와의 접점을 구축해낸다.</s>
+          <s>시의 목소리: <date from="2000" to="2009">2000년대</date>와<date from="2010" to="2019">2010년대</date>가서로를 바라보는 얼굴나는 이 <term type="concept">주체에서 주체로의 이행</term>을 <term type="concept">목소리의 여행</term>이라고 생각하며, 이 여 행은 개인적이면서도 항상 <term type="concept">공동체</term>적일 수밖에 없다고 믿고 있다.</s>
+          <s>아니, 그런 데, 시의 목소리는 대관절 무엇인가?</s>
+          <s><term type="concept">여성적 목소리</term>* <term type="concept">남성적 목소리</term>, 젊은 목소리, 성숙한 목소리.</s>
+        </p>
+        <p>
+          <s>노쇠한 목소 리는 성별과 나이의 구분에 따른 것일 뿐이며, 충만한 목소리 .</s>
+          <s>비어 있는 목 소리, 뜨거운 목소리毋 돋은 목소리, 굵은 목소리, 원기 왕성한 목소리.</s>
+          <s>가는목소리도, 신체적이고 생리적인 제 고유의 특징을 반영한 것일 뿐.</s>
+          <s>시의 목소 리는 아니다.</s>
+          <s>거침없는 목소리, 고뇌에 찬 목소리, 가냘픈 목소리, 쉰 목소리, 신선한 목소리, 탁한 목소리, 얼큰한 목소리도 감정의 증후와 추이의 구분에 따른 것일 뿐* 시의 목소리는 아니다.</s>
+          <s>화자가 타인을 받아들이는 관계나 감정 을 적재한 상태에 따른.</s>
+          <s>예컨대.</s>
+          <s>황흘한 목소리, 감동적인 목소리.</s>
+        </p>
+        <p>
+          <s>온화한 목 소리, 탄식하는 목소리.</s>
+          <s>볼멘 목소리, 성마른 목소리, 냉정한 목소리, 빈정거 리는 목소리, 시비를 거는 목소리, 퉁명스러운 목소리, 가슴을 찢는 목소리, 애원하는 목소리, 공손한 목소리, 무례한 목소리도 시의 목소리는 아니다.</s>
+          <s>목소리는 성별과 나이, 신체와 감정의 상태.</s>
+          <s>이 모든 것을 집결시키고 하나로 통합해낸다.</s>
+          <s>이 목소리들은 그러나 시의 목소리이기도 하다.</s>
+          <s>텍스트에서 말 로 재현되는 정도에 따라, 그러니까.</s>
+          <s>제 초상을 언어의 배치와 분배에 맞추어 획득한다는 전제하에 , 이 다양한 목소리들은 시에서 텍스트 분석의 결과로서 도출될 수 있는 최후의 방점이자 소략한 결구일 수는 있는 것이다.</s>
+          <s>눈이나 손 같은 신체기관과 마찬가지로 목소리 안에는 <term type="concept">에로스</term>가 거주할 수도 있다.</s>
+        </p>
+        <p>
+          <s>그러나 <term type="concept">목소리</term>가 <term type="concept">타자</term>와의 관계를 노정하는 것이라고 해도 그것 은 오로지 의미의 요소들이 회전하고 부딪치며 만들어낸 어떤 발화의 장소 로 기능할 때, 시의 목소리로 편입될 수 있을 뿐이다.</s>
+          <s><term type="concept">목소리</term>는 문법의 견고 한 카테고리를 뚫고 범람한 발화의 흔적을 우리에게 제공한다.</s>
+          <s>우리가 무언 가를 들을 때 , 말하는 방식과 별개로 <term type="concept">목소리</term>가 우리에게 느끼게 해주는 모든 것을 우리는 전부 알거나 오롯이 인식할 수 없다.</s>
+          <s><term type="concept">목소리</term>에는 음성을 넘어서 는무언가가 존재하며.</s>
+          <s>그것은.</s>
+          <s>특히 시에서* <term type="concept">주체</term>의 분출구, 주체의 표식이 자, 시의 가장 깊은 곳에 자리한 <term type="concept">독창성</term>의 울림이기도 하다.</s>
+          <s>시의 <term type="concept">목소리</term>는 언어의 조직과 말하는 행위로부터 뿜어나는 강력한 힘이기 때문이다.</s>
+          <s>시의 <term type="concept">목소리</term>는 의미 그 자체：가 아니라.</s>
+        </p>
+        <p>
+          <s>의미의 재료이자 의미의 표식, 대상들이 만나고 부딪쳐 빚어낸 관계의 소산이다.</s>
+          <s>적혀 있는 문자들, 그 요소요소에 대한 문법적 지표들을 우리는 소리내어 읽지만, 그것을 포괄하면서도 한편 으로 넘어서는 논리에 대한 탐구, 그러니까 요소요소가 서로 맺는 관계에서 생성되어, 결국 언표의 상위에 위치하는 <term type="concept">시적 논리</term>에 대한 탐구가, <term type="concept">목소리</term>나<term type="concept">리듬</term> 같은 시학적 개념을 이론의 영역으로 크게 연루시키고 만다.</s>
+          <s>의미와 형 식은 이때 분리될 수 없는 하나이며 , 그렇게 바라봐달라는 비평적 관점을 요 구하기에.</s>
+          <s>하나로 다루어질 수밖에 없는데，이 요구에 따르지 않는다면, 우 리는 여전히 주체니 <term type="concept">목소리</term>니, <term type="concept">리듬</term>이니.</s>
+          <s>저 세련된 말들을 입에 달면서도.</s>
+          <s>
+            <interp value="critical" ana="문학관">구조주의나 형식주의와 같이 낡은 틀로 회귀하고 만다.</interp>
+          </s>
+          <s>시의 <term type="concept">목소리</term>는 심연의 끓어오름을 감당하지 못해 토해내는 구원의 비명이 나 결심의 항변도 아니다.</s>
+          <s>사물의 옹장함과 존재의 경이로움 앞에서 끝내 발 성에 실패한, 침묵하는 <term type="concept">목소리</term>도 아니다.</s>
+        </p>
+        <p>
+          <s>검열하는 목소리.</s>
+          <s><term type="concept">주체</term>를 소멸시키 는 <term type="concept">불연속</term>의 문자들을 제어하고자 하는 윤리의 목소리도 아니다.</s>
+          <s>그것온 가장 분명하게 의미를 구현하기 위해 움직이는 문자.</s>
+          <s><term type="concept">통사</term>, 문장의 운동이자 그 운 동을 조직하고.</s>
+          <s>조직을 만들어내는 과정, 그러니까, 오로지 <term type="concept">텍스트</term>의 목소리 이다.</s>
+          <s>시가 언어의 목소리, <term type="concept">언어의 주체화</term>를 연동시키는 목소리를 저버리고 서, 제 불안을 떨쳐내는 징표로써 <term type="concept">타자</term>를 <term type="concept">향유</term>의 대상으로 삼으며, 어디론가 훌쩍 증발해버리는 법은 없다.</s>
+          <s>시의 목소리는 연극이나 영화배우의 그것도, <term type="concept">낭독</term>(diction)에서 울려나오는 그것도, 라디오에서 흘러나오는 그것도, 내러 티브의 목소리나철학의 목소리, 도덕(훈계나계몽)의 목소리.</s>
+          <s><persName role="other" xml:id="p-x5">잔다르크</persName>가들 었다는 구원의 목소리, 오페라의 목소리도 아니며, 발성이나 발음에 속하는 음성의 그것만도, 광장에서 울려나오는 <term type="concept">민주주의</term>의 목소리도 아니다.</s>
+        </p>
+        <p>
+          <s>그것은 텍스트의 목소리, 보다 정확하게 말해, 오로지 시라는 텍스트에서 의미를 만 들어내는 과정을 더듬거릴 때, 비로소 유추가 가능한 주체의 목소리이다.</s>
+          <s>이 목소리는 주체~형식의 목소리, :의미-형식의 목소리이다.</s>
+          <s>그것은의미의 영 역을 개척해내고 그곳으로 진입하기 위해, 낱말과 문장의 조직을 통해 주체의 감정을 조절하는 경로이며, 따라서 언술(discours)이라는 조직 안에서 대상과 화자를 제어하고 배치한다.</s>
+          <s>그것은 시인의 목소리가 아니 라, 텍스트의 자격으 로 행사하는 시의 목소리이며.</s>
+          <s>화자의 목소리가 아니라, 화자 뒤에 숨어 있는 주체의 목소리이다.</s>
+          <s>시의 목소리는 이렇게 “<quote type="direct" genre="poet">대상을 지배하는 자아나 화자의 문제로 환원하지 말고 대상과의 관련에서 생겨나는 주체의 문제</quote>”“로 여겨질 수밖에 없다.</s>
+          <s>“대상과의 관련'이라는 이 지적에는 명백히 시의 재료인 언어 요소들 사이의 관계라는* 그러니까 우리가 언어의 특수한 구성으로부터 의미의 특수성을 추정한다는 전제가 깔려 있다.</s>
+          <s>2010년대의 다양한 시적 목소리" 가 운데 내가 꼽아볼 네 가지는, 전 세대와의 영향관계에 놓여 있는 것이 아니라, 타자를 극복하기 위해 타자를 받아들일 수밖에 없는, 오로지 타자로만 옳게 설 수 있는 개별 언어의 주체, 그러니까 상호주체성의 흔적들일 뿐이다.</s>
+        </p>
+        <p>
+          <s>대상과 나의, 따로 또 같은 목소리시를 쓴다는 행위가 어떤 기록들에 대한 <term type="concept">재현</term>이자 <term type="concept">재구성</term>의 과정이라면, 구축된 앞의 시를 해체하고 남은 알맹이나, 그 문장 들을 이어가는 일련의 방점들은, 단지 숫자에 불과한 어떤 기록일 것이다.</s>
+          <s>방점과 방점 사이의, 혹 은 방점과 방점 들이 뭉치고 흩어지면서 만들어낸 공간, 바로 이 공간이 시 적 주체가 활보하는 공간이다* <term type="concept">시적 주체</term>의 발현은 이미 점으로 존재하는 과 거의 선택된 방점들을 누락시키거나 포함함으로써, 이전과 다른 선을 긋는 행위를 연동시킨다.</s>
+          <s>문제는 <term type="concept">주체</term>에서 주체로 이행하는 이 목소리의 여행이 현재진행형일 때, 과거의 기록 자체가 과거의 유물이 아닌 현재의 소산으로.</s>
+          <s>지금2여기에, 다시 위치한다는 데서 발생한다.</s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>들은 얼굴이 없고</l>
+              </lg>
+              <lg type="stanza">
+                <l>돌은 심장이며 돌은 허파로 흰 쌀밥 먹다 돌을 씹어 이가 깨졌다 시는 썼다 가 지우는 것으로 얼굴은 하얗고 검은 것은 활자로 그렇게 하기로 하고 그것 을 잊기로</l>
+              </lg>
+              <lg type="stanza">
+                <l>한 번은 물을 마시고.</l>
+              </lg>
+            </quote>
+          </s>
+          <s><quote type="direct" genre="poet" source="시론亂">다른 한 번은 아무것도 마시지 않는다 돌을 혀로 핥으 면 돌의 맛은 알 수가 없고 돌을 핏줄로 생각하는 것은 돌이며 입속의 비린 맛</quote><persName role="critic" xml:id="p-x6">권혁웅</persName>*「<title level="a" type="critic" xml:id="t-x3">시론亂</title> <orgName xml:id="org-x">문학동네</orgName>.</s>
+          <s><date when="2010">2010</date>.67쪽.</s>
+          <s>여기에는 물론<date from="2000" to="2009">2000년대</date>와 <date from="2010" to="2019">2010년대</date> 사이에 포진된 <term type="concept">시인들</term>이 주류가되기도 한다.</s>
+        </p>
+        <p>
+          <s>이렇게 <term type="concept">세대론</term> 은産임없이 변명을요구한다.</s>
+          <s>을 돌로 알기로함께 올랐던 산의 정상은 온통 돌이었고, 그때의 숨가쁜 화이트아웃 속으로 돌아가기로내려오는 길에는하얀 조약돌을 쥐고 숲으로 들어갔다부드러운 돌을 만들기 위해 평생을 바친 노인의 이야기를 안다 어두운 숲에 서 노인의 얼굴이 돌의 형상으로 생각되고.</s>
+          <s>나는 서서히 노인의 얼굴을 갖추고돌을 뚫고 내려가는 나무의 뿌리가 있고.</s>
+          <s>거기서 어떤 돌은 돌의 꿈을 꾸고 나는 이제 움직이지 않기로형태를 잃고.</s>
+          <s>단단함을 잃기로다람쥐가 죽을 것이다 물이 흐를 것이다 새가 울지 않을 것이다어두운 숲에서 부드러운 돌이 생동한다나는 백시 （白視） 속에서 그 모든 것을 볼 수 있었다— <persName role="poet" xml:id="p-x7">황인찬</persName>.</s>
+          <s>二<title level="a" type="poem" xml:id="t-x4">돌이 되어</title>」전문구절과 구절 사이, 연과 연 사이의 간극이 넓어진 것은 <persName ref="#p-x7">황인찬</persName>이 <term type="concept">타자의 목소리</term>로 바로 선 <term type="concept">주체</term>를 노정함으로써.</s>
+          <s>
+            <interp value="affirmative" ana="미학">독창적인 목소리를 내고 있다는사 실을 말해준다.</interp>
+          </s>
+          <s>행과 행은 익숙한 미끄러짐 보다는, <term type="concept">침묵</term>으로 벌어진 틈 사이 에서 의미의 완급을 조절해나간다.</s>
+        </p>
+        <p>
+          <s><term type="concept">말할 수 없는 것</term>에 드리운 사유가 시가 천착해온 주된 개념의 자리를 오롯이 차지하는 것은 아니다.</s>
+          <s>거리를 유지하 며, 사물과 대상을 뛰어놀게 하되 그 폭을 차분하게 다독거리는 문장들이 삶과 늙어감에 대한 이야기를 견인하며 시를 조율한다.</s>
+          <s>대상은 대상대로 자유롭게 제 존재를 보장받으면서도.</s>
+          <s>감정은 감정대로 살려내는 식의 구성을 보여준다고 해야 할까.</s>
+          <s>대상과 감정 사이의 조절은 기실, <term type="concept">각성</term>에서 시작된다.</s>
+          <s>첫 구절 <quote type="direct" genre="poet">돌은 심장이며 돌은 허파로 흰 쌀밥 먹다 돌을 씹어 이가 깨졌다</quote>에 서 시의 태도가* 노출되고 또 결정된다는 사실에 주목해야 한다" 대상으로서 의 ‘1■“과 동사 돌다 사이에서 발생하는 미묘한 중의성에 기대어.</s>
+          <s>사물의 왜곡에 대한 조심스런 경고를 “<quote type="direct" genre="poet">이가 깨졌다</quote>'고, 절묘하게 적어놓았다.</s>
+          <s>이 가 벼운 경고는 사물에게 돌려줄 것은 마땅히 돌려주어야 한다는 식의 정직한 길, 그러니까 “<quote type="direct" genre="poet">시는 썼다가 지우는 것으로 얼굴은 하얗고 검은 것은 활자로 그렇게 하기로 하고 그것을 잊기로</quote>' 하는 방식을 시인이 택하는 동기이기도 하다.</s>
+        </p>
+        <p>
+          <s>이 문장 역시 중의성을 저버리지 않고 있다는 데 주목해야 한다.</s>
+          <s>A는 이렇게 ?</s>
+          <s>는 이렇게' 하기로 했다는 발화는.</s>
+          <s>詈이라는 존재와 돌‘의 삶, 나라는 존재와 나의 삶이, 서로 일정한 간격을 유지한 상태에서 이따금 만나 고 또 헤어지게 할 것이라는, 시인의 의지에 대한 표현에 다름아니다" <quote type="direct" genre="poet">이렇 게 대상과 나 사이에 간헐적인 접점을 만들어내며</quote> ”돌” 자체의 삶을 보존해 내고 “돌'의 활동과 거리를 유지한 채, 저 자신을 투영해내는 일련의 과정이 <term type="concept">백시（白視）</term> 속에서 그 모든 것을 볼 수 있는 절제된 언어의 분배와 조절과 완급을 통해 실현된다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">황인찬의 고유한 목소리는 바로 여기서 도출된다.</interp>
+          </s>
+          <s><term type="concept">공 백</term>.</s>
+          <s><term type="concept">여백</term>, <term type="concept">행간</term>은 급작스레 허무로 낙하하지 않으면서, 목소리를 시에 붙들 어매는 형식인 것이며, 감정을 부여하는 목소리를 시에 안착시키는 원천인 것이다.</s>
+          <s>아주 미세한 감정의 투척, 대상과의 관계에서 최소한의 몫으로 내 감정의 자리도 마련하는 것, <persName ref="#p-x7">황인찬</persName>의 시를 지배하는 <term type="concept">대상의 주체화</term>는 바로 이것이다.「<title level="a" type="poem" xml:id="t-2">개종 2</title>」의 전문이다.</s>
+        </p>
+        <p>
+          <s>물탱크가 있다 환기구가 있다 창문이 있다 오층의 건물이 있다 간판이 있다전신주가그 앞에 있다 내가 있다계단을 걸어올라가는 내가 있다무작정 올라갔더니 옥상으로 통하는 문이 있다 옥상으로 통하는 문을 지나가면옥상이 있다거기에는 물탱크가 있다푸른 물탱크가 있다<interp value="neutral" ana="미학">대상의 거기 있음(Dasein)'을 보존하고자 노력하는 동시에 나의 감정도내 려놓으려고 한다.</interp></s>
+          <s>대상의 *<term type="concept">거기 있음</term>을 최대한 훼손하지 않은 상태를 유지해 내면서, 주관의 영역으로도 포섭하려 시도하는 저 목소리는, <persName ref="#p-x3">이수명</persName>이나 <persName role="poet" xml:id="p-x8">신 해욱</persName>이 기왕에 보여준* 우리에게 그리 낯설지 않은 구성으로부터.</s>
+          <s>자그마한 차이를 만들어내며 <interp value="affirmative" ana="미학">낯설고도 새로운 영역으로 미끄러진다.</interp></s>
+          <s>열번째 행의 “<quote type="direct" genre="poet">옥 상으로 통하는 문을 지나가면</quote>은 따라서 가정법으로 읽을 필요가 있다.</s>
+          <s>중요 한 것은 A가 있다 식의 <term type="concept">비인칭 구문</term>이 연속적으로 전개되는 가운데, 이 대 상A가주체의 사건으로변화되어간다는데 놓여 있다.</s>
+          <s>믈탱크'를내가직접 보고 확인하는 데 필요한 행위는 문을 열고 옥상으로 가는 것이다.</s>
+          <s>그러나 <persName ref="#p-x7">황 인찬</persName>은 그렇게 하지 않는다.</s>
+          <s>“<quote type="direct" genre="poet">옥상으로 통하는 문을 지나가면</quote>이라는 구절이 오로지 가정이라고 전제해야만, 이 “물탱크'는 주관적인 대상, 즉, 내 감정이 적재된 대상으로 거듭나는 것이며, <interp value="affirmative" ana="미학">황인찬은 바로 이와 같은 방식으로, 주체 화된 대상을 적시하는 독창적인 목소리를 획득하는 데 성공하는 것이다.</interp></s>
+        </p>
+        <p>
+          <s>마 지막 행의 <term type="concept">물탱크</term>를 수식하는 형용사 “<quote type="direct" genre="poet">푸言은</quote>" 이와 같이 매우 힘겹게.</s>
+          <s>아 주 조금만, 최소한의 개입으로 감행된, 대상의 주체화의 표식인 것이다.</s>
+          <s>아 무도 주인일 수 없는 객관적인 대상은, 정확히 “<quote type="direct" genre="poet">푸른</quote>'이라는 형용사만큼만 <term type="concept">주관성</term>의 세계로 진입하고 있는 것이며 .</s>
+          <s><persName ref="#p-x7">황인찬</persName>은 대상의 무자비한 포섭이 아니라.</s>
+          <s>
+            <interp value="affirmative" ana="미학">말의 분배와 조절, 그 배치를 통해 대상의 '있음을 보존해내는 동시 에 형용사 하나만큼의 크기로 대상을 제 곁에 끌어올 줄 아는 시인인 것이다.</interp>
+          </s>
+          <s>핀셋을 들고서 아주 조금만 흩뜨리거나 덧붙이고자 했을 뿐이지만, 그의 목소리는 벌써 다른 곳으로의 <term type="concept">이행</term>에 착수하고 있는 것이다.</s>
+          <s>시의 목소리는 <term type="concept">낯선 것</term>이 아닌 무언가에서, 낯선 것을 생성해낸다.</s>
+          <s>앞선 세 대의 시에서 지금의 시로 <term type="concept">이행</term>하는 목소리는 경계도 표식도 없이 흐르기 때 문이다.</s>
+        </p>
+        <p>
+          <s>이 목소리의 여행에서, 시는 공유해야만 하는 것처럼, 무언가를 이어 받고 또 그 무언가로부터 은혜를 입는 것이 아니라, <term type="concept">유（有）에서 유（有）를 만 들어내는 과정</term>.</s>
+          <s><term type="concept">타자의 목소리로 궁굴리는 주체화의 과정</term>에 입사할 뿐이다.</s>
+          <s><persName role="other" xml:id="p-x9">시인들</persName>이 한때, 하얗게 제 젊음을 불태우며 자신의 삶에서 궁리해낸 <term type="concept">독창적 인 목소리</term>는, 타자를 향한 여행자의 자격으로 우리에게 침투하며.</s>
+          <s>우리는 거 기서 타자가 아니라, 결국 우리의 모습을 본다.</s>
+          <s><term type="concept">기존의 판을 흔들려는 목소리</term> 가 함께 흔들리는 것은, 확신을 공유하지 못해서가 아니라, 결국 미지의 모험 에 참여하기 때문이다.</s>
+          <s>목소리의 여행자들이 이고 날라.</s>
+          <s>조절과 분배를 통해 전화（轉化）해낸 것은 그러니까 <term type="concept">주체</term>이며 .</s>
+          <s>이때 시의 목소리는 무언가를 추대 하거나 추앙하는 것이 아니라.</s>
+        </p>
+        <p>
+          <s>오로지 타자로 거듭나는 주체성의 발현에 참 여하는, 그러니까 <term type="concept">상호주체성</term>의 표식으로 살아날 뿐인 것이다.</s>
+          <s>폐허 위에서 폭발하는 <term type="concept">묵시록</term>의 목소리침묵으로 일관한 세상에 대해 신을 탓할 수는 없다는 목소리가 도드라지 고 있다.</s>
+          <s>어쩌면 우리는 모두 엉뚱한 곳에다가 애면글면 고통을 늘어놓고 부 당에 항변하고 있었던 것일지도 모른다.</s>
+          <s>시는 제 생각 속에 꽁꽁 숨어.</s>
+          <s>존재 의 깊이를 융숭케 하는 데 몰두하거나 현실에 극단적인 현미경을 들이대는 것에 만족하지 않고.</s>
+          <s>아예 밖으로 나오라는, 기왕의 <term type="concept">패러다임</term>을 벗어나라는 요청과 당당히 맞선다.</s>
+          <s>백지 위로 나와서 모습을 드러내라고 당당하게 독촉 하는 시.</s>
+          <s>신과 대면하고자 하는 시.</s>
+        </p>
+        <p>
+          <s>비 참한 삶에서 갖출 수 없었던 용기를 죽 음과 재난에 대해서는 꺼내보려고 한다.</s>
+          <s>폐허를 똑바로 주시하면서 , 그 위에 당당히 서서, 해야 할 일을 고지하는 목소리에는.</s>
+          <s>천국이나 지옥에, 공히.</s>
+          <s>안 식 따위는 없다는 확신이 서려 있다.</s>
+          <s>불안하고, 외롭고.</s>
+          <s>불행한 우리들, 현실에서 서로 싸움을 일삼는죄인 같은 우리들이 있을 뿐이다* 이들에게 천국이 나 지옥.</s>
+          <s>현실과 재난은 결국 하나나 마찬가지이다.</s>
+          <s><quote type="direct" genre="poet" source="만년설"><lg type="stanza"><l>백 년 동안 쉬지 않고 눈이 내렸지 눈 속에서 쥐인간들은 굴을 파고 기어다 녔지 온몸에 자라난 털을 끌며 굴속에서 굴속으로 피냄새를 따라 기어가네 눈 속의 마을에서 손가락 발가락이 떨어져나갔네 네발로 기지 못하는 쥐인간들 은 번식하지 못하네</l></lg><lg type="stanza"><l>눈이녹으면우리는멸망한단다눈을뜨면우리는멸망한단다</l></lg><lg type="stanza"><l>털 없은 쥐인간들은 번식하지 못하네 눈덩이는 커다란 바퀴를 굴리듯 굴러 가고 바퀴에 깔린 쥐인간들의 내장이 터질 때 다시 백 년 동안 쉬지 않고 눈이 내렸네</l></lg></quote>一<persName role="poet" xml:id="p-x10">김성규</persName>.「<title level="a" type="poem" xml:id="t-x5">만년설</title>」중에서<quote type="direct" genre="poet" source="들이 말한다"><lg type="stanza"><l>어둠에 갇힌 一</l></lg><lg type="stanza"><l>사막의 고함소리</l></lg><lg type="stanza"><l>나는 안다</l></lg><lg type="stanza"><l>내 삶이 저들로 이루어져 있음을</l></lg><lg type="stanza"><l>쪼개진 빵</l></lg><lg type="stanza"><l>검은 칼의 폭염</l></lg><lg type="stanza"><l>쥐어뜯는</l></lg><lg type="stanza"><l>물과 허공</l></lg><lg type="stanza"><l>밤</l></lg><lg type="stanza"><l>백치</l></lg><lg type="stanza"><l>황폐하게 선</l></lg><lg type="stanza"><l>빛의 탑들</l></lg></quote>—<persName role="poet" xml:id="p-x11">서대경</persName>, <title level="a" type="poem" xml:id="t-x6">口들이 말한다</title>」중에서<quote type="direct" genre="poet"><lg type="stanza"><l>펄펄 들끓는 바다에 빠진 저 생쥐를 봐</l></lg><lg type="stanza"><l>날고 있어 바다 위를</l></lg><lg type="stanza"><l>파고는 바다의 체온계</l></lg><lg type="stanza"><l>고열로 펄펄 끓고 있지 지금</l></lg><lg type="stanza"><l>막울음 터뜨리기 직전의 너의 표정</l></lg><lg type="stanza"><l>막 웃음 터뜨리기 직전의 너의 표정</l></lg><lg type="stanza"><l>막찡그리기 직전의 너의 표정</l></lg><lg type="stanza"><l>막고백하기 직전의 너의 표정</l></lg><note type="ellipsis">(……)</note><lg type="stanza"><l>막 이별을 말하기 직전의 너의 표정</l></lg><lg type="stanza"><l>이틀만에 하루가•가고</l></lg><lg type="stanza"><l>우리의 체온이 두 배로 높았을 때를 기억해</l></lg><lg type="stanza"><l>지구는 또다른 터전을 찾아가기 위해</l></lg><lg type="stanza"><l>인류가 올라탄 한 척의 유랑선, 유령선</l></lg><lg type="stanza"><l>여정이 시작된 후 가장 먼저 생긴 변화는</l></lg><lg type="stanza"><l>바로 망자의 탄생이었지</l></lg><lg type="stanza"><l>그것은 기억해야 할 것들이 생기기 시작했다는 뜻이야</l></lg><lg type="stanza"><l>지구에서 최초의 망자•가 태어난 날을 기억해</l></lg><lg type="stanza"><l>우리는 위로해야 할지 축하해야 할지 몰라서</l></lg><lg type="stanza"><l>그저 악수를 나누듯</l></lg><lg type="stanza"><l>망자와 체온을 절반씩 나눠 가졌던 것을</l></lg><lg type="stanza"><l>함께 잘 살아보자고, 기억하겠어?</l></lg></quote></s>
+        </p>
+        <p>
+          <s>그 <quote type="direct" genre="poet" source="체온의 탄생"><lg type="stanza"><l>뜨겁지도 차갑지도 않았던 새로운 표정</l></lg><lg type="stanza"><l>그 옛날에 무척이나 따뜻했던 온기조차</l></lg><lg type="stanza"><l>이제는 위협적인 열기가 되어버린</l></lg><lg type="stanza"><l>지금의 이상한 체온을 말이야</l></lg></quote>一<persName ref="#p-x">김중일</persName>,「<title level="a" type="poem" xml:id="t-x7">체온의 탄생</title>」중에서자신의 시대를 <term type="concept">결핍된 집적물</term>이자 <term type="concept">결여된 총체</term>라고 파악한 일군의 목소리 는 어떻게 시단에 당도하였는가?</s>
+          <s>
+            <interp value="neutral" ana="사회">위기가 일상적인 것이 되었다는 인식으로 부터, 종말이란 결국 현실에서 몸소 겪어내야만 하고 살아내야만 하는 필연 이라는 생각이 표출된 것은 아닐까?</interp>
+          </s>
+          <s>이때 '<term type="concept">폭로하는 계시（足v&amp;nkm）</term>'는 시 간의 연속성을 저버려야만 가능한 사건이 된다.</s>
+          <s>“<quote type="direct" genre="critic">〜직전의 표정으로만 견뎌 낼 수 있는 현실에서, 폭력의 체험은, 오히려 성스러운 사건* 그러니까, 악을 절멸시키고 죄와 고통을 사하는, 우리의 죄의식을 일시에 쓸어낼 계기로 상 승한다.</quote></s>
+          <s>시의 몸통인 빙하.</s>
+          <s>폭풍.</s>
+          <s>사막, 화재, 암전.</s>
+          <s>해일, 폭발은* <term type="concept">결핍된 현 실</term>, <term type="concept">절망의 현실</term>.</s>
+        </p>
+        <p>
+          <s>고통받는 현실과 그 현실에 자리잡은 모든 악（惡）으로부터 비롯된 행위와 풍경 들을 일시에 날려버리고, 얼려버리고, 태워버리고, 결국 극단적인 부정을 현실에서 겪어내게 하는（그래야 한다는）, 일종의 알레고리 일 뿐이다.</s>
+          <s>거침없는 어휘와 숨가쁜 구문의 나열, 투박한 형식의 선택과 단 호한 호흡의 조절이 , 재난을 파편적으로 그려내는 데 일각을 보태고 있다는 점에 주목한다면, 우리는 이들이, 암울한 목소리가 아니라.</s>
+          <s>오히려 분노의 목소리를 내고 있다는 사실을 알게 된다.</s>
+          <s>파편 같은 기록과 갈피를 잡기 어 려운 진술은 벌써 상반된 문장들을 충돌하게끔 추동하는 알레고리의 장소 로.</s>
+          <s>시의 공간과 시간을 천거하는 데 몰두한다.</s>
+          <s>가령 나는 김성규의 시집 천 국은 언제쯤 망가진 자들을 수거해가나』의 해설에서 “땅속으로 파고들어간 방 한 칸'의 저 가난한 생활과 ''하늘로 솟叩오르는 “<quote type="direct" genre="poet">왕국</quote>” （「천국은 언제쯤 망가진 자들을 수거해가나■」）처럼 .</s>
+          <s>서로 충돌을 야기하는 모순된 문장의 배치 와 끝내 하나로 통합되지 않는 이 모순항들을 서로 이접 （移 搦시켜낸 언어의 운용에 주목하고자 했다.</s>
+          <s>반대편으로 나가가려는 벡터의 향방을 충돌하는 대결구도처럼 마주 보게 돌려놓는 구문과 통사의 구성은 정（正）과 반（反의 거칠고 투박한 대립의 상태를 그대로 보존할 뿌 합（合）의 도출을 낙관하는 것은 아니기 때문이다.</s>
+        </p>
+        <p>
+          <s>이러한 통사적 구성과 배치, 그 상이함과 낯선 접합에서 발생하는 충돌현 상을 나는 <term type="concept">이접</term> （移 接）이라고 부르며, <term type="concept">일군의 시인들</term>에게서 목격되는 바로 이 이접이.</s>
+          <s>형식-의미의 차원에서 구동되는 <term type="concept">묵시록적 목소리</term>를 시단에 불러내었다.</s>
+          <s><term type="concept">폐허</term> 위에서 울려나오는 이 목소리는 문장 사이의 논리적 흐름을 취 하하고, 연달아 토막을 내고, 토해내듯, 거침없이 적어나가는 행위로.</s>
+          <s>시작 이자 끝인.</s>
+          <s>끝이자 시작인 <term type="concept">종말의 서사</term>를 체현하면서, 악몽과 <term type="concept">재난</term>이 시작도 없으며 저 끝도 없이 이어질 것이라는, 지금도 그렇게 계속되고 있다는 생각 을 재난이라는 구체적인 사건을 중심으로 그러모아 시에서 불꽃이 흩날리듯 일시에 집적해낸다.</s>
+          <s><persName ref="#p-x">김중일</persName>의 시「<title level="a" type="poem" xml:id="t-x8">내 꿈은 불면이 휩쓸고 간 폐허</title>」에서 부분 을 인용한다.</s>
+          <s>
+            <quote type="direct" genre="poet" source="내 꿈은 불면이 휩쓸고 간 폐허">
+              <lg type="stanza">
+                <l>거대한 태풍 불면이 1899년 이후 니이가따현 쪽으로</l>
+              </lg>
+              <lg type="stanza">
+                <l>하루에 일 센티미터씩 북상중이다</l>
+              </lg>
+              <lg type="stanza">
+                <l>북상중인 달팽이</l>
+              </lg>
+              <lg type="stanza">
+                <l>태풍의 이동경로를 따라 장거리주자인 나는</l>
+              </lg>
+              <lg type="stanza">
+                <l>불면의 중심에 가건물로 세워진 재해대책본부가 있는</l>
+              </lg>
+              <lg type="stanza">
+                <l>결승점을 향해 오늘밤도 달리는 중이다</l>
+              </lg>
+              <lg type="stanza">
+                <l>누군가내게 묻는다</l>
+              </lg>
+              <lg type="stanza">
+                <l>이봐, 힘들게 너는 왜 하필 지금 잠을 청하려 하지?</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="내 꿈은 불면이 휩쓸고 간 폐허">
+              <lg type="stanza">
+                <l>오늘밤엔 재밌는 일도 많은데</l>
+              </lg>
+              <lg type="stanza">
+                <l>나는 적요한 불면의 눈을 향해 줄곧 달리는 중이다</l>
+              </lg>
+              <lg type="stanza">
+                <l>나는 돌풍이 휘몰아치는 불면 속에서</l>
+              </lg>
+              <lg type="stanza">
+                <l>팥죽 같은 잠을 뚝뚝 흘린다</l>
+              </lg>
+              <lg type="stanza">
+                <l>길가의 창문을티슈처럼 뽑아</l>
+              </lg>
+              <lg type="stanza">
+                <l>모공 속에서 줄줄이 기어나오는 잠을 닦는다</l>
+              </lg>
+              <lg type="stanza">
+                <l>작고 끈적하고 더운 뱀</l>
+              </lg>
+              <lg type="stanza">
+                <l>순간 지진으로 땅이 길게 갈라졌고, 나는놀라서 외친다</l>
+              </lg>
+              <lg type="stanza">
+                <l>아직도 나는 미농지보다 얇은 꿈속을 달린다</l>
+              </lg>
+              <lg type="stanza">
+                <l>내 꿈은 불면이 휩쓸고 간폐허</l>
+              </lg>
+              <lg type="stanza">
+                <l>지금-여기는 폐허일 뿐, 세상의 한복판에 우뚝 서서.</l>
+              </lg>
+            </quote>
+          </s>
+        </p>
+        <p>
+          <s>잠을 이루지 못한 채.</s>
+          <s>어둠의 불꽃을 피워올릴 때, 그의 시는 이 저주받은 세계에서, <term type="concept">역사</term>에 대 한 <term type="concept">각성</term>을 이끌어낸다.</s>
+          <s>그의 시에서 <term type="concept">역사</term>가 희생물이자.</s>
+          <s>제의의 대상이자, <term type="concept">절멸</term>의 궁극적 타깃처럼 그려지는 이유가 여기에 있다.</s>
+          <s>“<quote type="direct" genre="poet">역사는 나이를 거꾸 로 먹는 족속.</quote></s>
+          <s><quote type="direct" genre="poet">그가 우리를 낳고도 아직 살아 있다는 것 자체가 정말 아슬아 슬한 일</quote>'（「<title level="a" type="poem" xml:id="t-x9">거짓된 눈물의 역사</title>□）이라며.</s>
+          <s><term type="concept">역사</term>를 활활 태우고자 할 때.</s>
+          <s>물론 우 리가 자리하고 있는 세상은 벌써 <term type="concept">폐허</term>이거나 폐허일 수밖에 없다.</s>
+        </p>
+        <p>
+          <s>폐허 위에 서 삶의 터전을 새롭게 일구어내기 위해.</s>
+          <s>아니 폐허의 삶을 그리기 위해 <persName ref="#p-x">김 중일</persName>이 향하는 곳은 <term type="concept">꿈의 세계</term>이다.</s>
+          <s>그러기 위해 필요한 것은 세상에서 임의 로 구획된 모든 경계들을 지워내는 일, <term type="concept">합리</term>와 <term type="concept">이성</term>의 기준으로 그어놓은 구 분을 취하하는 일이며.</s>
+          <s>그런 후, 그 자리에 <term type="concept">무의식</term>의 틈새를 열어 새로운 질 서를 심어놓아야 한다고 <persName ref="#p-x">김중일</persName>은 생각한다.</s>
+          <s>현실, 그러니까 우리가 두 발 붙이고 살아가야 하는 <term type="concept">폐허</term>로 다시 되돌아올 수 있는 것은 이와 같은 <term type="concept">제의</term>와 <term type="concept">정화</term>의 작업을 거친 후에야 비로소 가능한 것이고, 이는 <persName ref="#p-x">김중일</persName>의 시가 거의 전 미래의 사건에 전념한다는사실을 알려준다.</s>
+          <s>이렇게 세상에서 역사를 생 각할 수 있는 방법은 세계가 <term type="concept">폐허</term>라는 인식 이후에나 가능한 것이며, 폐허란 결국 <term type="concept">재난</term>을 반드시 필요로 하는 어떤 상태에 대한 요청이기도 한 것이다.</s>
+          <s><term type="concept">재난</term>은 그 원인을 물을 수 없다는 의미에서 사건의 틀을 벗어나는 것이며, 그 원인을 따져묻는 순간이 바로 대답할 수 없는 이유를 사유하는 순간이기 도 하다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">젊은 시인들의 시에서 목격되는 재난의 목소리는 찬란함에서 솟아 오르는 숭고가 아니라, 비참함에서 현현하는 숭고, 주위가 어두워질 때야 비 로소 거울로 변하는 창문과도 같은, 저 실존의 담지자이자 오로지 이 거울로 만 우리의 모습을 비출 수 있다고 힘주어 말하는 이타적 시선의 구체적인 발 화이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><term type="concept">비관</term>이나 <term type="concept">비참</term>과는 한결 다른 목소리, 오히려 딩딩하고 힘이 있는,주저함이 없는.</s>
+          <s>일말의 동정도, 연민도 내걸지 않는.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그래서 성스러운, 그런 목소리라고 불러도 좋을 것이다.</interp>
+          </s>
+          <s>이 성스러운 <term type="concept">숭고</term>의 목소리는 문자에 사로 잡힌 목소리.</s>
+          <s>문장과 낱말이 교차하며 흘려내는 목소리, 시를 충돌과 알레고 리의 사건으로 조직해내는 목소리, 함성과 <term type="concept">분노</term>와 외침을 목이라는 신체기 관에서 벗어나 자율적으로 텍스트가 뿜어내는 구성적 사태로 전환한 목소 리 새로운 말이 고안되고 시가 점유해낸 창의적인 목소리, <term type="concept">시적 자아</term>가 지 배하려는 관성에 제동을 거는 낯선 주체의 언어.</s>
+          <s>그러니까 흩어지는 문장들.</s>
+          <s>충돌하는 통사(syntaxe)들, 버걱거리는 낱말들, 붙잡아두는 순간 이미 빠져 나가는 낯선 언어-<term type="concept">타자</term>로만 바로 설 수 있는 목소리이자, 타자로 제 경험을 벼려내는 주체의 목소리• <term type="concept">시적 주체</term>의 목소리이다.</s>
+          <s>반복, 관계의 목소리모든 시가 제 삶을 누리고자 수많은 낱말을 만나고 그것을 조합하여 문장 을 만드는 일에 몰두하지만.</s>
+        </p>
+        <p>
+          <s>어떤 낱말은 이해의 자장 안에 안착하는 반면, 또 어떤 것은 미지의 세계를 떠돌기도 한다.</s>
+          <s>시는 안착한 말과 떠도는 말과 함께 생명을 얻어내고 제 삶을 살아간다.</s>
+          <s>가장 먼저 내려놓은 단어였지만, 어떤 것은 <term type="concept">망각</term>을 끌어안기도 한다" 무수히 나타났고 무수히 가슴을 울렸던 낱말이지만, 마음속으로 들어오지 못하는 낱말들도 많다* 감정을 읽지 못했 고 뼈를 보지 못했으며.</s>
+          <s>살을 만지지 못했기 때문이다.</s>
+          <s>무미건조한 방식으 로.</s>
+          <s>서술되는 저 껍데기만을 보았기 때문이다.</s>
+          <s>반복현상을 마주하여 우리가 종종 빈손으로 제자리로 되돌아오는 이유이기도 하다.</s>
+          <s>그러나 <term type="concept">반복</term>의 목소 리 역시 <term type="concept">언어의 주체</term>를 세우는 데 몰입하는 주관화된 직조의 산물이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">반복</term> 은 시론을 벌써 내장하는 목소리로 개별화되어 시를 이끌고 가기도 한다.</s>
+          <s><persName role="poet" xml:id="p-x12">이 준규</persName>와 <persName role="poet" xml:id="p-x13">오은</persName>의 시는, 서로 다른 방식으로, <term type="concept">반복</term>에서 무언가 새로운 것을 고 안해낸다,그 사람은 그 사람이다.</s>
+          <s>그 사람은 어떤 술어도 찾지 않는다.</s>
+          <s>그 사람은 그사람이 아니다.</s>
+          <s>그 사람은 그 사람의 신발이다.</s>
+          <s>그 사람은 그 사람의 하늘이 다.</s>
+          <s>그 사림은 그 사람의 눈물이다.</s>
+          <s>그 사람은 그 사람의 바보다.</s>
+        </p>
+        <p>
+          <s>그 사람은 그 사람의 손가락이다.</s>
+          <s>그 사람은 그 사람의 개미다.</s>
+          <s>그 사람은 그 사람의 말이 다.</s>
+          <s>그 사람은 그 사람의 창이다.</s>
+          <s>그 사람은 그 사람의 박차다.</s>
+          <s>그 사람은 안장 이다.</s>
+          <s>그 사람은 우레다.</s>
+          <s>그 사람은 시치미다.</s>
+        </p>
+        <p>
+          <s>그 사람은 그 사람의 속도다.</s>
+          <s>그 사람은 그 사람의 시다.</s>
+          <s>크 사람은 크 사람의 윤리다.</s>
+          <s><title level="a" type="poem" xml:id="t-x10">그 사람</title>은 그 사람의 무 한이다.— <persName ref="#p-x12">이준규</persName>.「그 사람］ 중에서그는 어기기 위해 약속을 하는 사람설거지를 하기 위해 밥을 안치는 사람태어나기 위해 죽기로 마음먹은 사람높은 자리에 오르기 위해 낮은자리에 임하는 사람내공을쌓기 위해 욕먹는 사람명성을 쌓기 위해 욕보는 사람웃기 위해 섣불리 희극을 보는사람울기 위해 스스로 비극이 되는사람극이 되기 위해 기꺼이 삶을 선택한 사람살기 위해 순순히 입을 여는 사람살기 위해 꿋꿋이 입을 다무는 사람살기 위해 묵묵히 입을 채우는 사람어떻게든 입만이라도살기 위해 입을 맞추는 사람.</s>
+          <s>모으는 사람절정에 오르기 위해 몸을 혹사시키는 사람42,195명의 환호를 받기 위해 42.195km를 쉬지 않고 달리는 사람힘이 되기 위해 힘을 다써버리는사람극이 되기 위해 기꺼이 죽음에 선택된 사람얼어붙기 위해 쓸쓸해지는사람녹아 흐르기 위해 얼음이 되는 사람약속 하나를 하기 위해 약속 하나를 취소하는 사람저 하나를위해 이 하나를잊는 사람* 버리는 사람, 잊어버리는사람소싯적에 했던 약속처럼 까마아득해지는사람그 약속을지키기 위해다시 처음부터 쓰기 시작하는 사람또다시 마지막부터 기억을 지우는，사람— <persName ref="#p-x13">오은</persName>.「<title level="a" type="poem" xml:id="t-x11">인과율</title>」중에서（시에서） 반복은 반복이 아니다.</s>
+          <s>아무리 같은 말을 늘어놓는다 해도 시에 서 <interp value="neutral" ana="미학">반복은 존재하지 않기 때문이다.</interp></s>
+          <s><persName ref="#p-x12">이준규</persName>의 경우, <term type="concept">반복</term>은, “<quote type="direct" genre="poet">그 사람</quote>”의 지 평을 넓히기 위해.</s>
+          <s>그 사람”을 축으로 <interp value="neutral" ana="미학">모든 가능성들을 부정하고 덧붙여나 간 결과일 뿐이다.</interp></s>
+        </p>
+        <p>
+          <s>“그 사람'을 A라고 해보자.</s>
+          <s>A는 어떻게 정의되는가?</s>
+          <s>가능 성은 덧셈과 뺄셈.</s>
+          <s>두 가지 방식을 통해 모색될 수 있겠다.</s>
+          <s>예컨대, B가 아 닌, C가 아닌.</s>
+          <s>D가 아닌, E가 아닌, F가 아닌…… 식의, 그러니까 무한의 조 합에서 빚어지는 단어들 간의 차이를 견주며 A의 정체성을 모색해가는 방식이 뺄셈이라면, 비인칭 “사皆에 끄라는 지시성을 살려내기 위해.</s>
+          <s><persName ref="#p-x12">이준규</persName> 느 “<quote type="direct" genre="poet">그 사람을 구성하는</quote> ”그 사皆 주변의 모든 것을 가능한 최대한 동원해 사람에 덧붙이는 방법으로, 그”의 속성을 한정 없이 늘려나가는, 저 덧셈 의 방식을 택한다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">낱말 하나로 이렇게 세상의 온갖 풍경과 경험과 사물을 시에 걸어들어오게 할 수도 있는 것이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>이 경우, <term type="concept">언어와 삶</term>은 <term type="concept">이분법</term> 속에 서만 별개로 가동되는 것이 아니라, 매번 새로운 계약을 맺으며 갱신해야만 하는 관계의 바다 안으로 진입하게 된다.</s>
+          <s><persName ref="#p-x13">오은</persName>의 시에서도 마찬가지이다.</s>
+          <s>“<quote type="commentary" genre="critic">사람을 관형어구로 단단하게 벼려낸 다음, 그 틀을 이리저리 변주하면서 동일한 반복의 원리를 바탕으로, 감정과 경험의 폭을 차츰 확장해나간다 '〜위해 〜하는 사람은 이렇게 불변의 항（項）인 것 같지만* 그러나 단 한 번 도 동일성으로 환원되지 않는다.</quote></s>
+          <s>이 틀을 둘러싸고 있는 다른 낱말들이 틀 자체를 가만히 놓아두지 않기 때문이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">비유와 상징이 시에서 불필요한 것일 수도 있다는 것, 수식과 이미지를 조 작하지 않아도, 곤궁해 보이는 반복만을 가지고도 시를 궁리하는 데 아무런 문제가 없을 수도 있다는 사실을 보여준 시인들이 세상에는 존재하는 것이 다.</interp>
+          </s>
+          <s>이때 <term type="concept">반복</term>은 반복이 아니라, 전진에 필요한 총알이자¥ 걸음 그 자체인데 그것은 아무리 같은 단어와 문장을 반복한다 해도, 전반의 <term type="concept">맥락</term>이 모든 것을 결정한다는, 맥락 속에서 반복된 말은 항상 제 의미를 뒤틀면서.</s>
+          <s>
+            <interp value="affirmative" ana="미학">반복 이상 의 세계를 조직해낸다는 사실을 벌써 시인들이 알고 있기 때문이다.</interp>
+          </s>
+          <s><persName role="poet" xml:id="p-x14">이제니</persName> 의 시에서 부분을 인용한다.</s>
+        </p>
+        <p>
+          <s><title level="a" type="poem" xml:id="t-x12">중국 새</title>를 보러 가자고 했다중국이 아닌 곳에서 중국이 아닌 곳으로작고 예쁜 부리하얗고 노란 깃털귀엽고 총명하고 인상이 좋다고 했다중국 새는 어떤 새일까중국 새도 두려움을 알까초로롱 날아가다포로롱 내 려 앉는 사이발밑에 깊어진 그 어두움을 알까중국 새는 중국새중국 새는 중국새일본 남자는 일본 맥주를 마시고 있었다부드럽고 부드러워 절로 미안해지는탁자 위의 동전은 멈추지 않고 돌고 있었다너는 식기 전에 어서 먹으라고 했다중국 새는 중국새중국 새는 중국새중국 새는 중국에서 오지 않았다고 했다중국새는중국에 간적이 없다고했다一<persName ref="#p-x14">이제니</persName>,「중국 새」중에서<interp value="neutral" ana="미학">반복에 지치지 않는 자•가 성취하는 특정한 세계라도 있다는 것일까?</interp></s>
+          <s><term type="concept">반복</term> 은 변주하는 자의 전략과 그 배치만으로, 동일한 기법임에도, 서로 다른 목 소리를 내는 훌륭한 재료가 된다.</s>
+          <s><persName ref="#p-x14">이제니</persName>의 경우처럼, 시의 연을 단위로 삼 은 <term type="concept">반복</term>* 드문드문 배치된 연 차제의 반복은, 행과 행* 연과 연 사이에 벌려 놓은 큰 폭을.</s>
+          <s>다독거리는 서정적 귀환의 장치로 기능하게 할 힘마저 지니고있는 것이다* 시에서 <term type="concept">반복</term>은 반복이 아니라 목소리를 내장한 <term type="concept">시론</term>의 게토일 수 있는 것이다* 시에서 반복은 흘러나온 소리를 통해 가해진 충격의 물리적 현상이 아니기 때문이다* 반복은 분절된 문자들로 구성된 문장 속에서, 또한 문장들로 구성된 텍스트에 의해.</s>
+          <s>매번 다른 의미를 부여받는, 동일한 <term type="concept">시니피 앙</term>일 뿐이다.</s>
+          <s><term type="concept">반복</term>에서 의미를 조절하고 의미의 성분을 나누어 갖는 비율을 결정하는 것은 전체, 즉 반복된 낱말이나 구절을 둘러싸고 있는 다른 낱말이 나 다른 구절 들이라고 생각하며 시인들은 이렇게 시의 모든 것을 오로지 관 계의 소산으로 돌려놓을 줄 아는 것이다.</s>
+          <s>그러니까 <term type="concept">반복</term>은.</s>
+          <s>말로 세계를 잣 는 인간, 즉 <term type="concept">호모 로퀜스(Homo loquens)</term>의 <term type="concept">정념</term>을 표출하는 개별적인 목소 리 그 자체라고 해야 한다.</s>
+        </p>
+        <p>
+          <s>이들의 시는 이렇게 해서 <quote type="paraphrase" genre="poet">가장 건조한 방식으로, 가장 특이하게 지어올린 기이한 서정시, 가장 냉정한 방식으로 슬픔을 한가 득 머금은 서정시</quote>» 단순한 반복으로 변주된, 그러나 사뭇 복잡하고 그 자장 이 넓은, 다른 서정시의 영토를 향해 뚜벅뚜벅 나아간다.</s>
+          <s>백치에서 시작하는 타자의 목소리<quote type="direct" genre="poet">표적을 꿰뚫은 순간에 총알이 발사되었다.</quote></s>
+          <s>대체 무슨 말인가?</s>
+          <s>
+            <interp value="neutral" ana="미학">인과관계를 가볍게 뒤집는 것만으로 속도감을 느낄 수 있다는 것일까?</interp>
+          </s>
+          <s><term type="concept">전도된 관점</term>과 <term type="concept">어긋난 시간</term>을 주어로, 제 시를 쓰는 시인들이 있다.</s>
+          <s>이들이 말하려는 것은 무엇일까?</s>
+          <s>지금까지 걸어온, 시가 내어온 길을 되돌아가고자 하는 것은 아 니다.</s>
+          <s>화려해 보이는 오늘에서 출발하여 어쩌면 어제의 불안일 수도 있을 원 인* <interp value="affirmative" ana="문학관">시인으로 살아가는 삶의 저 사투하는 기원을 제 시에서 찾고자 할 뿐이 다.</interp></s>
+        </p>
+        <p>
+          <s>나는 지금 어떤 뿌리나 근원을 말하고 있는 것이 아니다.</s>
+          <s>그것은 오히려 <term type="concept">불행한 의식</term>과 <term type="concept">불행의 정념</term>에 관한 것이며, 시 쓰는 자의 <term type="concept">자의식</term>에 관한 것 이다.</s>
+          <s>
+            <quote type="direct" genre="poet" source="당신이라는 세상">
+              <lg type="stanza">
+                <l>술잔에 입도 한번 못 대고 당신이 내 앞에 있다 나는 이 많은 술을 왜 혼자 마 셔야 하는지 몰라 한다 이렇게 많은 술을 마실 때면 나는 자식을 잃은내 부모</l>
+              </lg>
+              <lg type="stanza">
+                <l>를 버리고 형제가 없는 목사의 딸을 버리고 삼치 같은 생선을 잘 발라먹지 못 하는 친구를 버린다 버리고 나서 생각한다</l>
+              </lg>
+              <lg type="stanza">
+                <l>나를 빈방으로 끌고 들어가는 여백이 고맙다고, 청파에는 골목이 많고 골목이 많아 가로등도 많고 가로등이 많아 밤도 많다고.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="당신이라는 세상">조선낫 조선무 조선간장 조 선대파처럼 조선이 들어가는 이름치고 만만한 것은 하나도 없다고.</quote>
+          </s>
+          <s><quote type="direct" genre="poet" source="당신이라는 세상"><lg type="stanza"><l>북방의 굿 에는 옷(衣)이 들고 남쪽의 굿에는 노래가 든다고</l></lg><lg type="stanza"><l>생각한다 버려도 된다고 생각한다 버리는 것이 잘못된 일이 아니라고 생각한 다 버릴 생각만 하는 것도 능사가 아니라는 생각도 한다</l></lg><lg type="stanza"><l>술이 깬다 그래도 당신은 나를 버리지 못한다 술이 깨고 나서 처음 바라본 당 신의 얼굴이 온통 내 세상 같다</l></lg></quote>— <persName role="poet" xml:id="p-x15">박준</persName>,「<title level="a" type="poem" xml:id="t-x13">당신이라는 세상</title>」전문<quote type="direct" genre="poet" source="나는 시인들이다"><lg type="stanza"><l>분흥 테라피 코푸시럽의 계절에는 청유형 눈빛으로 의중을 살피는 눈의 온 도에 익숙해진다 고열의 날이 잦고 약해지므로 여럿의 시인들이 방문하기 때 문이다 나는 어제부터 쓰고 있는데 나는 또 쓰고 텍스트인 나에 대한 자유로 운 내일의 번역은 당신들의 몫이므로 언제나 다르게 쓰는 나는 날마다 시인들 이다</l></lg><lg type="stanza"><l>조율을 반복해야 하는 나는 백지 위에 첫 문장을 꺼낼 때도 검은 보자기 속 에서 마지막 비둘기를 꺼내 날릴 때도 여럿과 협조하고 먼저 협상해야 하는 나는 시인들이다 그것은 나의 시인들의 운명이니까</l></lg><lg type="stanza"><l>(	)</l></lg><lg type="stanza"><l>돌아보니 나는 시인들이다 우리의 동선은 비슷했고 같은 지역에 있거나 비</l></lg><lg type="stanza"><l>슷한 구역을 걸었고 마주쳤을지도 모를 지도 속에 서 있었다 우두커니 지옥이 었니 그러나 얼룩진 것들을 결말짓는 새 힘으로 일어나 나는 시인들이다 돼지 저금통에 반짝이는 오백원짜리 동전들을 성의 있게 밀어넣는 것처럼 나와 나 와 나와 나와 나와 나와 나와••…• 누군가 이 내부에 고이고이 넣어놓은 나는 시인들이다 밖을 알면서도 모른 척하는 나는 겹겹이 껴입었다가 차례차례 벗 어서 개어놓는 나는 안에서 볼 장 다 본 나는 시인들이다.</l></lg></quote>— <persName role="poet" xml:id="p-x16">황혜경</persName>.「나는 시인들이다」중에서<term type="concept">타자의 목소리</term>를 내 시 안에서 점유한다는 것은.</s>
+          <s>결국 <term type="concept">자기 목소리</term>를 시에 투사한다는 것이다.</s>
+          <s>그것은 빌려오는 것이 아니다.</s>
+          <s>함께, 그리고 따로 가는 것이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">독자적인 목소리</term>의 주인은 단순히 주체와 주체 사이의 공배를 연결 하는 것에 만족하지 않는다.</s>
+          <s>공배에서 빈손으로 돌아나오는 시는 없기 때문 이다.</s>
+          <s><persName ref="#p-x16">황혜경</persName>은 “<quote type="direct" genre="poet">언제나 다르게 쓰기 위해 타자에 접사하고</quote>, <persName ref="#p-x15">박준</persName>은 “<quote type="direct" genre="poet">나를 빈방으로 끌고 들어가는 여백</quote>” 위의 작업이 결국 혼자하는 일이 아니었다고 말한다.</s>
+          <s>나의 목소리를 발견하기 위해 <term type="concept">타자의 목소리</term>는 필연이었다는 것인 가?</s>
+          <s>
+            <interp value="affirmative" ana="미학">타자의 목소리로 일어서는 나는 단연코 개별적인 목소리의 주인공이다.</interp>
+          </s>
+          <s>시가 미래를 훔쳐본다는 것은* 시가 어떤 경우건.</s>
+          <s>빈손으로 시작하지 않는다 는 것을 의미한다.</s>
+          <s><term type="concept">개인</term> 안에 <term type="concept">공동체</term>가 존재한다면.</s>
+        </p>
+        <p>
+          <s>그것은 <term type="concept">개인</term>이라는 존재 가 포기될 수 없는 이유가 어쩌면 <term type="concept">타자</term>에게 달려 있다는 것을 인정하는 것이 며, <term type="concept">공동체</term>는 그 개인 안에 자리한 <term type="concept">무의식</term>의 자리이자, 포기될 수 없는 개인 이 되기 위해 타자의 목소리에 지위를 부여한 저 흔적이다.</s>
+          <s>기대감에 부풀어 올랐던 내 여행이 타자의 글 앞에서 부끄러운 자책이 되어.</s>
+          <s>결국 나로 설 수 있는 발판이었다는 사실을 깨달았다고 말하는 것은 부끄러움이 아니라 <interp value="affirmative" ana="미학">독특 한 목소리를 고안하는 계기가 된다</interp>* 내가 밟아온, 밟고 있는 여행지만을 둘 러보고서 내가 전부인 것처럼, 내가 소우주의 조물주라는 생각에서 조금 벗 어나.</s>
+          <s>아주 작은 부분의 일부가 나였음, 내 안에도 <term type="concept">타자</term>의 몫이 있다는 것 <interp value="affirmative" ana="미학">타자를 극복하기 위해 타자 안으로 스며들어야 한다는 사실을 긱성한 시인 들이 내는 새로운 목소리는* 반성이나 고백이 아니라, 타자라는 바깥" 타자라는 외부를 받아들임으로써 타자를 딛고 일어서고자 하는 자기 인식의 소 산에 가깝다.</interp></s>
+          <s>크고 작은 우주는 모두 부분들이 채워져 만들어진 전체이며, 그 부분들은 모두 <term type="concept">타자</term>의 것으로 쌓아올린 관계의 퍼즐들로 버티고 선다는 생각에서 울려나온 목소리들이 여기저기서 출현하였다.</s>
+          <s><date from="2000" to="2009">2000년대</date>와 <date from="2010" to="2019">2010년 대</date>의 접점은 바로 여기에 있는 것일 수도 있다.</s>
+          <s><term type="concept">2010년대 시인들</term>은, 물어보 며 찾아가는 주체의 목소리, <interp value="affirmative" ana="미학">나의 목소리는 너의 목소리와 포개어질 때만 오 로지 시의 목소리가 될 수 있다는 생각</interp>.</s>
+          <s>
+            <interp value="affirmative" ana="미학">대상을 현현하거나 사물을 오롯이 포섭하는 것이 아니라* 시가 결국 관계의 사건이라는 사유를 바탕으로.</interp>
+          </s>
+        </p>
+        <p>
+          <s>시의 목소리로 화자의 자리를 지워내고, <term type="concept">타자</term>의 말을 통해 입사하는 관계에 대한 물음들을 끊임없이 재구성해내는 세계로 우리를 안내한다.</s>
+          <s>시의 목소리 .</s>
+          <s><term type="concept">타자</term>의 목소리.</s>
+          <s><term type="concept">타자</term>로 오롯이 서는 나의 목소리.</s>
+          <s>그것은 <term type="concept">초 자아</term>의 명령이나, 감성의 극대화가 아니라, <term type="concept">언어의 분화와 개별화</term>를 통해서 만 모색되는 <term type="concept">주체</term>의 목소리이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">화자라는 중력을 느슨하게 내려놓으며 말 의 구심점을 다른 방향으로 돌릴 때, 그곳에서 맞닥뜨리게 되는 것은 언어 의, 텍스트의 목소리이다.</interp>
+          </s>
+          <s>그 목소리는 현실에 마냥 붙들려매인 목소리가 아 니라.</s>
+          <s>모르는 목소리, 다가올 목소리, 현재에 끌어다가 풀어놓은 미래의 목 소리이다.</s>
+        </p>
+        <p>
+          <s>이것은 개인의 목소리와는 다른 <term type="concept">익명적인 목소리</term>, 의식과 문법이 오롯이 점령한 목소리와는 다른 세계에 속한 목소리, 정확히 말해.</s>
+          <s>의식과 문법의 세계에서 생성되지만, 그 세계를 구성하는 요소들 간의 차이에 주목 하고 이 차이의 이합과 집산을 주관적으로 포착하는 목소리, 그리하여 언어 의 카테고리를 확장해내면서 의미의 외연도 넓혀나가는 목소리, 그러고자 시도하는 목소리이다.</s>
+          <s><date from="2000" to="2009">2000년대</date>와 <date from="2010" to="2019">2010년대</date>의 <term type="concept">이접</term>의 흔적을 우리는 바로 이 목소리의 이행에서 찾아낼 수 있을지도 모른다.7" <quote type="direct" genre="poet"><lg type="stanza"><l>달아나는 시와 비평의 저공비행</l></lg><lg type="stanza"><l>시라는 바둑판에서, 무릇 시인이라면 저도 모르는 수를 둘 수는 없다고</l></lg></quote>" 흔히들 말한다.</s>
+          <s>더구나 둘 수 없다고 여겨지는 수를 둔 것을 보았다고 생각할 때.</s>
+          <s>패착이거나 실수라며.</s>
+          <s>그 도드라진 행보 앞에서 난감을 표하거나.</s>
+          <s>진 심 어린 충고를 늘어놓기도 한다.</s>
+          <s>그러나 자기 고유의 언어나 사유의 고안 °1, 우리가 패착이나 실수라고 여기는.</s>
+        </p>
+        <p>
+          <s>그러나 한편, 그 자체로는 몹시 순전 하고도 과감할 수 있는 시도, 그러니까.</s>
+          <s>미지의 무엇을 향한 기투（企投에서 비롯되는 경우가 종종 있다.</s>
+          <s>이때, 오히려 패착이나 실수는.</s>
+          <s>둘 수 없는 한 수，내디딜 수 없는 한 걸음이라고 판단했던 자들에게로 고스란히 되돌아간 다.</s>
+          <s>우리는 <date from="2010" to="2019">2010년대</date> 목소리의 여행자들이 제 가방을 꾸리는 데 있어서 어떤 재료를 챙겨넣었는지 궁금해하고* 그 궁금증으로 고민의 대열에 합류할 때.</s>
+          <s><date when="2000">2（X）0년대</date> 목소리의 여행자들과의 흔적을 목격하는 횟수가 늘어난다고 생각 할지도 모른다.</s>
+          <s>그렇다고 해도.</s>
+          <s>그러나 그들의 목소리는 고유한 동시에 공동 체적인 목소리라고 봐야 한다.</s>
+        </p>
+        <p>
+          <s>따라서 어떤 시인과 어떤 시인이 서로 영향을 주고받았는지를 드러내는 것이 중요한 게 아니라* 어떤 목소리가 <term type="concept">타자의 목 소리</term>를 안고서 새롭게 탄생하는지를 유심히 지켜봐야 한다.</s>
+          <s>이것은 이슈를 만들어내는 목소리에 관심을 두는 것과는 다르다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">낯설다고, 난해하다고, 유 회에 불과하다고, 심지어 외계어 같다고 지적받아온 시들이, 더이상 그 수식 어에 붙잡히지 않을 만큼, 회자되고, 읽히고, 구체적이고 개별적인 전략과 맥락 속에 안착되었는지 살펴야 할 의무가 여전히 우리에게 남아 있는 것이 다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="문학관">커다란 담론으로 시를 읽으려는 시도는 시의 입장에서는 족쇄였던 것이 며, 비평의 입장에서는 실패였을 뿐이다.</interp>
+          </s>
+          <s>그 가치를 옹호하고 거부하는 사이 에, 시는 고스란히 남겨지는 것이니까.</s>
+          <s>
+            <interp value="critical" ana="문학관">2010년대의 시에서도 비평이 같은 실 패를 거듭할 수는 없을 것이다.</interp>
+          </s>
+          <s>시인은 누구나.</s>
+          <s>조립에 필요한 부품들을 여기저기서 구입해 끼워맞춰가며 라 디오 한 대를 완성하는 <term type="concept">제작（製作）</term>의 기능공이 아니라, 조립에 필요한 부품들부 터 차례로 고안하여 라디오라는 궁극의 목표물을 완성하고 있는 <term type="concept">제조（製造）</term>의 장인이다.</s>
+        </p>
+        <p>
+          <s>제작이 기존의 부품을 들고서 진행하는 작업이 라면, <term type="concept">제조</term>는 부품이 될 만한 것들에 대해 근본적인 고민을 시작한다.</s>
+          <s>이때 시는 라디오가 이럴 것 이라는 기대치를 배반하는, 따라서 완성을 미리 상정 할 수 없는 미지의 영역 으로 향한다.</s>
+          <s>이렇게 시는 오지 않는 무언가를 실현하려고 내디딘 서투른 발걸음이자, 제가 디디고 있는 삶과 언어와사유에 고민과 성찰을 동반할 수밖 에 없다.</s>
+          <s>그 고민.</s>
+          <s>그 성찰 때문에 우리는 시를 <term type="concept">고통의 언어</term>라고 생각하는 것 이며, 따라서 비평은 시를 마주하여, 위에서 넌지시 내려다보기 전에.</s>
+          <s>
+            <interp value="neutral" ana="문학관">같은 크기의 지평에서 바라보는 것 자체가 벌써 힘에 겨운 일이라는 사실을 먼저 깨닫게 된다.</interp>
+          </s>
+          <s><interp value="neutral" ana="문학관">시를 앞지르는 비평은 존재하지 않는 것이며</interp>, 비평은 그저 목 소리의 여행자들이 남긴 발자취를 따라 그 발자취의 행렬을 추려보거나.</s>
+          <s>발 자취가 향하는 방향을 타진해보거나.</s>
+        </p>
+        <p>
+          <s>그 길 위에 찍힌 발자국의 모양새, 그 특이성과 고유성을 잰다.</s>
+          <s>그뿐이다.</s>
+          <s>그러면 이 목소리의 여행자들은 또다시 어디론가 향할 채비를 꾸릴 것이기 때문이다.</s>
+          <s>여행자들의 행적을 기록하는 것이 <term type="concept">비평의 임무</term>이기도 하지만* 그들의 행장에 들어갈 내용물이 어떠해야 한다거나, 그들이 내디딘 보폭이 가지런해야 한다거나.</s>
+          <s>그들이 도달하고자 하는 장소는 이러저러해야 한다고.</s>
+          <s>통보하거나고지할 수 없는 것이다.</s>
+          <s><term type="concept">비평</term> 은 엎드린 성人｝, 고개 숙인 현미경, 뒤에서 찾아나선 앞의 걸음이다.</s>
+          <s><date from="2000" to="2009">2000년 대</date>의 시가.</s>
+        </p>
+        <p>
+          <s><date from="2010" to="2019">2010년대</date>의 시와 목소리의 여행에 접점이 될 만한 지점들을제공 하면서, 우리에게 내려놓은 것도, 2010년대의 시가 <date from="2000" to="2009">2000년대</date>라는 타자를 딛 고.</s>
+          <s>자신의 목소리를 궁리해내면서 우리에게 요청해올 주문도.</s>
+          <s>바로 이것이 아닐까?</s>
+          <s><persName role="poet" xml:id="p-x17">조재暑</persName> <orgName xml:id="org-x2">성균관대</orgName> 블문과와 <orgName xml:id="org-8">프랑스 파리8대학</orgName>에서 박사학위 취득.</s>
+          <s>현재 <orgName xml:id="org-x3">고려대</orgName> 붙문과 교수로 재직증 20（冷년 <title level="j" type="journal" xml:id="t-i">처I평」</title>에 평론을 발표하면서 <term type="concept">문학비평가</term>로도 활동중.</s>
+          <s>저서로「<title level="m" type="critic" xml:id="t-x14">앙리 메쇼닉과 현대비평: 시학 • 번역 주체』</title>r<title level="m" type="critic" xml:id="t-x15">번역 의 유령들！</title>.</s>
+          <s>옮긴 책으로「<title level="m" type="foreign" xml:id="t-l">시학을 위하여 L</title>「<title level="m" type="foreign" xml:id="t-x16">시학 입문</title>」「<title level="m" type="foreign" xml:id="t-x17">앙리 메쇼닉 리듬의 시학옿 위하여』</title>「<title level="m" type="translation" xml:id="t-x18">스테파니의 비밀노 트</title>/<title level="m" type="translation" xml:id="t-x19">사랑예찬</title>‘등이 있다.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

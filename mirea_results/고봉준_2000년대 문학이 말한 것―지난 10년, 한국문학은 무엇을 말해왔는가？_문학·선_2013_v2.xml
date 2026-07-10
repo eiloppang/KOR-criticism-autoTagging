@@ -1,0 +1,501 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2000년대 문학이 말한 것―지난 10년, 한국문학은 무엇을 말해왔는가？</title>
+        <author>고봉준</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>/	、	KINX2015058324'“"*n廳 m<term type="concept">2000년대 문학</term>이 말한 것一지난 10년，한국문학은 무엇욜 맖해왔三가?R 架•주.</s>
+          <s><term type="concept">문학적 공통감</term>에 대하여한 시대의 문학적 공통감에 대한 질문은 두 가지 형식을 취할 수 있다.</s>
+          <s>먼저， 그 시대의 문학이 애써 대면하기를 거부하여 ‘침묵* 과 공백 으로 남겨놓은 결 핍에 주목하는 질문법이 가능하다.</s>
+          <s><persName role="foreigner" xml:id="p-wg">WG제발트</persName>는 r<title level="m" type="critic" xml:id="t-x">공중전과 문학</title>宙에서 “<quote type="direct" genre="critic" source="공중전과 문학">왜 독 일작가들은 수백만 명이 경험한 독일 도시들의 파괴를 서술하려 하지 않았는 가</quote>”라고 묻는다.</s>
+          <s>무엇을 말하지 않았는가" 이것은 <term type="concept">결핍</term>의 지점을 통해 한 시대 의 문학을 비판적으로 성찰하는 방식이다.</s>
+          <s>하지만 해당 시대의 문학이 지나치 게 자주 말한 <term type="concept">과잉</term>에 주목하는 질문법도 기능하』통계학적인 정보 산출은 정 화히 이 과잉을 수치화하는 작업이다* 모든 의미는 반복으로부터 창출된다고 하지 않는가.</s>
+          <s>두 경우 모두에서 문학적 언표는 <term type="concept">징후</term>적인 성격을 갖지만, 두 가 지 질문법을 통해 도달되는 지점은 조금 다르다.</s>
+          <s>문제는 말해지지 않은 것에 대해 말하기 위해서라도 먼저 말해진 것을 확인하는 일이 필요하다는 점이다.</s>
+        </p>
+        <p>
+          <s>아래에서는 <date from="2000" to="2009">2000년대</date> 문학, 특히 지난 10년간 <term type="concept">한국문학</term>이 말한 것 을 <term type="concept">문예지</term>1&amp;T 집1 举혜密心長확이맚힌女甞하지呢것와 <term type="concept">신춘문예</term>를 중심으로 살핌으로써 한국문학의 현재적 경향을 가늠해보려 한 다.</s>
+          <s>한국문학에서 문학적 변화의 아이콘은 단행본이 아니라 <term type="concept">문예지</term>이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">변화의 바로미터로서의 문예지, 이것이야말로 우리 문학의 부인할 수 없는 특징이 아 닐까.</interp>
+          </s>
+          <s>이는 <term type="concept">문예지</term>에 발표된 작품들이 묶여 단행본으로 출간되는 관행 때문만 은 아니다.</s>
+          <s>한국에서 <term type="concept">문예지</term>는 새로운 문학적 경향에 '이름 을 부여하는 기능 （권위）을 갖고 있다.</s>
+          <s>산발적으로 등장하는 문학적 ・ 문화적 현상들에 시대적 맥 락을 부여하고, 특정 주제나 경향, 논쟁적인 문제에 대한 분석적 읽기를 선도 하며, 나아가 문학적 코드의 변화를 의미화 하는 일이 <term type="concept">문예지</term> 편집자에게 부여 된 임무이다.</s>
+          <s><term type="concept">문예지</term>에서 그것은 주로 특집 을 통해 구현된다.</s>
+          <s>때문에 <date from="2000" to="2009">2000 년대</date> 문학이 말해온 '무엇 은 지난 10년간 발행된 <term type="concept">종합문예지</term>의 특집 란을 비 교하는 방식으로 일별하면 쉽게 확인된다.</s>
+        </p>
+        <p>
+          <s>이 글에서는 <term type="concept">계간지</term> 3종［『창작과비 평』（이하《창비〉）「<title level="j" type="journal" xml:id="t-x2">문학과사회</title>』（이하《문사》）「<title level="j" type="journal" xml:id="t-x3">문학동네</title>」（이하《문동》）］의 특집란 을 ⑴〜2004년, （2）2005〜2010년, （52011년 이후의 세 시기로 나누어 살필 것 이다.</s>
+          <s>이러한 시기 구분은 편의적인 것이지만, 우리가 흔히 <term type="concept">2000년대 문학</term>이 라고 부르는 것이 물리적인 시간과 정확히 일치하지 않기 때문이기도 하다.</s>
+          <s>가 령 소설에서 <term type="concept">2000년대 문학</term>의 특징으로 손꼽히는 경향은 <term type="concept">외환위기</term>（IMF） 이후 에 이미 나타났지만, 시에서 2000년대 문학의 특징은 흔히 시적 문법과 상상 력의 근본적인 변화를 가져온 '<term type="movement">미래파</term>' 의 시집들이 출간된 <date when="2005">2005년</date> 전후에 집 중적으로 나타났다.</s>
+          <s>시기 구분의 자의성은 이러한 불일치를 고려한 결과이다..</s>
+          <s>문예지로 읽는 <term type="concept">230년대 문학</term>의 행방2너.</s>
+          <s><date when="2004">2004년</date> 이전: 근대를 넘는다는 것<term type="concept">한국문학</term>의 <date when="2001">21세기</date>는 <term type="concept">세기말의 종말론</term>을 관통하면서 시작되었다.</s>
+          <s>당시에 발 행된 계간지들을 살펴보면 <date from="2000" to="2009">2000년대</date> 초 <term type="concept">한국문학</term>의 지형은 <term type="concept">생태</term> 와 모더니 티 로 양분되어 있었다.</s>
+          <s>한편에서는 <term type="concept">생태학적 사유</term>의 정당성에 기초하여 근대 적 • <term type="concept">자본주의적 세계관</term>을 넘어서려는 움직임이 있었고, 다른 한편에서는 서 구 근대의 폭력성에 대한 예술적 저항/비판의 가능성을 타진하려는 미적 근대 성 논의들이 있었다.</s>
+        </p>
+        <p>
+          <s>물론 이러한 담론의 양분화가 접점이 없는 평행선을 그리 지는 않았다.</s>
+          <s>이들 두 경향은 서구 근대의 극복/비판을 강조하는 <term type="movement">탈근대</term> 라는 문제의식을 공유하고 있었다.</s>
+          <s><date when="2001">2001년</date>에 발표된 <persName role="critic" xml:id="p-x">윤지관</persName>의 '푸코에 들린 사람 들 이라는 제목을 빌려 말하면, <date from="2000" to="2009">2000년대</date> 초반의 <orgName xml:id="org-x">한국문학</orgName>은 '<term type="concept">근대（성）</term>' 에 들 려 있었다.</s>
+          <s><term type="concept">근대성</term>에 들린 것은 비단 문학만이 아니었다.</s>
+          <s>학계와 출판계 또한 <term type="concept">근대성</term>' 의 정체를 해명하고 넘어서려는 움직 임들에 의해 장악되었고, <term type="concept">국가</term>, <term type="concept">민족</term>, <term type="concept">계몽</term>, <term type="concept">국민</term> 등의 근대적 개념과 가치들의 폭력적 기원을 폭로하는 작■업 들이 줄을 이었다.</s>
+          <s>문학에 있어서 이러한 경향의 확산은 <term type="concept">민족문학</term> 담론의 급속 한 쇠퇴를 동반했다.</s>
+          <s><term type="concept">민족적인 것</term> 은 진보적인 것이 아니라 <term type="concept">근대적인 것</term> 으 로 이해되어 비판과 극복의 대상으로 간주되었다.</s>
+          <s>물론 위에서 언급한 두 흐름은 근대의 실상과 저항의 방식에 있어서 접점을 찾지 못했다.</s>
+        </p>
+        <p>
+          <s>이를테면 전자, 즉 <term type="concept">생태 경향</term>은 <term type="concept">인간과 자연의 유기적 조화</term>, <term type="concept">불 교적 사유</term> 등을 강조하면서 점차 <term type="concept">합일</term>의 세계로 나아간 반면, 후자, 즉 '<term type="movement">모더니 티 경향</term>은 근대적인 지식, 믿음, 관습 등에 저항하면서 소위 <term type="movement">탈근대 사상</term>의 세 례를 적극적으로 받아들였다.</s>
+          <s>이 차이는 사상과 담론의 층위에서는 모르겠으 나 문학 에서 만큼은 분명하게 드러났다.</s>
+          <s>이러한 담론의 차이를 <term type="concept">진영론</term>의 논 리라고 말해도 과장은 아닐 것이다.</s>
+          <s>분명한 것은 <date when="2001">21세기</date>의 시작 지점에서 <term type="concept">한국 문학</term>은 <term type="concept">근대성 의 극복</term>이라는 <term type="concept">시대정신</term>이 연루되어 있었고, 이 때문에 문예지 의 특집란은 <term type="movement">탈근대 철학</term>과 <term type="concept">근대성 비판 담론</term>에 의해 채워졌다.</s>
+          <s><orgName xml:id="org-x2">유럽</orgName>, 특히 <term type="movement">프 랑스의 철학</term>이 본격적으로 소개되기 시작했다.</s>
+          <s>표:!)<date when="2003">2003~2004년</date>（총8회）에 발행된 <term type="concept">문예지</term>들은 무엇을 특집 으로 다뤘을까?</s>
+          <s>이 시기에《<title level="j" type="journal" xml:id="t-x4">문동</title>》과《<title level="j" type="journal" xml:id="t-x5">문사</title>》는 특집에서 문학의 비중이 높았지만,《<title level="j" type="journal" xml:id="t-x6">창비</title>》는 문 학보다는 사회학과 인문학에 많은 관심을 쏟았다.</s>
+          <s>먼저《<title level="j" type="journal" ref="#t-x6">창비</title>》는 전체 8번 중 <date when="2003">2003년</date> 봄호와 <date when="2004">2004년</date> 여름호의 두 번을 문학 특집에 할애했다.</s>
+        </p>
+        <p>
+          <s><date when="2003">2003년</date> 봄호 특집 '지구시대 한국문학의 안과 밖 에서는 <term type="concept">민족문학</term>과 <term type="concept">디아스포라</term> 문제, <term type="concept">근 대성</term>‘ 문제가 시대적 화두로 제시되면서 새롭게 전개된 <term type="movement">리얼리즘</term> ♦ <term type="movement">모더니즘</term> 논쟁 문제 등을 살폈고, <date when="2004">2004년</date> 여름호에서는 한국소설의 새로운 가능성을 찾는다 는 제목으로 당시 문제작으로 주목받은 작품들에 대한 이른바 창비식 독법 을 보여주었다.</s>
+          <s>같은 시기《<orgName xml:id="org-x3">문동</orgName>》의 특집 가운데 눈에 띄는 것은 <date when="2003">2003년</date> 여름호의 '2003 여름 한국 문학의 풍경，<date when="2003">2003년</date> 겨울호의 한국소설의 진 화, <date when="2004">2004년</date> 여름호의 '전환기의 비평/비판 이론, <date when="2004">2004년</date> 가을호의 '문학을 사유하는 윤리 등이다.</s>
+          <s>이들 특집은 한국문학, 특히 동시대 서사의 변화를 의 미화하려는 움직임과 비평과 이론/담론의 관계를 성찰하려는 시도를 보여준 다.《<orgName xml:id="org-x4">문사</orgName>》는 <date when="2003">2003년</date>에는 세계 문학, <term type="concept">국가주의</term> 비판, 남성성의 신화, <term type="concept">민족주의</term>의 비판적 성찰 등을 통해 민족주의 • 국가주의의 외부를 모색했고, <date when="2004">2004년</date>에 는 한국문학 속의 <term type="concept">타자들</term> 이라는 제명 하에 <term type="concept">백수</term>' , <term type="concept">미성년</term> 을 집중적으로 살폈고, 가을호에서는 <term type="concept">장르 문학</term> 을 특집으로 하는 파격을 선보였다.</s>
+          <s>물론 이 기획은 한국문학 속의〜' 라는 제목과 달리 철학, 영화 등을 포함했고, 문학 의 범위 또한 식민지 시대를 포괄함으로써 소위 <date from="2000" to="2009">2000년대</date> 소설의 특징을 부각 시키려는 시도로 평가하기는 어렵지만，<interp value="affirmative" ana="문학관">타매체들과 달리 비교적 이른 시기부 터 2000년대 문학 • 문화의 고유성을 담론화하려 했다는 점이 주목할 만하다</interp>.22 2005년~201 애년 : 2000년대 문학의 르네상스<term type="concept">백수</term> 와 '<term type="concept">미성년</term>' 캐릭터에 주목한《<orgName ref="#org-x4">문사</orgName>》의 <date when="2004">2004년</date> 특집을 제외하면 <date when="2000">2000~2004년</date> 사이에 2000년대 문학을 이전 시기의 문학과 구별하려는 특별 한 움직임은 나타나지 않았다.</s>
+          <s>이는《<orgName ref="#org-x4">문사</orgName>》가 담론의 차원에서 활발한 움직임 을 보였다는 것, 동시에 문예지들이 문화나 인문학처럼 문학 이외의 문제를 중 심으로 <date from="2000" to="2009">2000년대</date>를 고민했다는 것을 말해준다.</s>
+          <s>하지만 <date when="2005">2005년</date>을 지나면서 상 황은 눈에 띄게 달라진다.</s>
+          <s>우선 각 문예지의 특집 에서 문학의 비중이 급증했 다.</s>
+          <s>상대적으로 문학보다 비문학에 더 큰 비중을 두었던《<orgName xml:id="org-x5">창비</orgName>》조차 <title level="a" type="contribution" xml:id="t-x7">갈림길에 선 한국 시와 시 비평</title>' （<date when="2005">2005년</date> 여름호）, '<title level="a" type="contribution" xml:id="t-2000">2000년대 한국문학이 읽은 시대적 징후</title> （<date when="2006">2006년</date> 여름호 • 겨울호）처럼 <interp value="affirmative" ana="문학관">이례적으로 의욕적인 특집을 마련했고</interp>, 문 학의 비중이 점차 늘어나는 현상은 <title level="a" type="contribution" xml:id="t-x8">한국 장편소설의 미래를 열자</title>' （<date when="2007">2007년</date> 여 름호）, <title level="a" type="contribution" xml:id="t-x9">한국문학, 세계와 소통하는 길</title>' （<date when="2007">2007년</date> 겨울호）로 이어졌다.</s>
+        </p>
+        <p>
+          <s>일 년에 1 회 정도였던 '문학' 특집이, 규칙적인 것은 아니었지만, 2회로 늘었다.《<orgName ref="#org-x5">창비</orgName>》 의 문학에 대한 관심은 '<title level="a" type="contribution" xml:id="t-x10">장르문학과 한국문학</title> （<date when="2008">2008년 여름호</date>）과 '<title level="a" type="contribution" xml:id="t-x11">문학이란 무엇인가</title>' （<date when="2008">2008년 겨울호</date>에서 정점을 찍었다.</s>
+          <s>문학의 <term type="concept">계몽적 성격</term>과 리얼리 즘을 중시해왔던《<orgName ref="#org-x5">창비</orgName>》가 <term type="concept">장르문학</term>에 적극적인 관심을 표명할 것이라고 예상한 사람은 거의 없었는데, 특히 이러한 일련의 특집들에《창비》와문학적 입장 이 다른 필자들（<persName role="poet" xml:id="p-x2">이장욱</persName>, <persName role="critic" xml:id="p-x3">김형중</persName>, <persName role="critic" xml:id="p-x4">차미령</persName>, <persName role="critic" xml:id="p-x5">신형철</persName>, <persName role="essayist" xml:id="p-x6">정여울</persName>, <persName role="critic" xml:id="p-x7">박진</persName>, <persName role="critic" xml:id="p-x8">복도훈</persName>, <persName role="critic" xml:id="p-x9">정영훈</persName> 등）이 대거 참여한 것은 <interp value="neutral" ana="문학관">매우 이례적인 일이었다.</interp></s>
+          <s>이후《<orgName ref="#org-x5">창비</orgName>》의 문학 특집 가운데 눈길을 끄는 것은 '<title level="a" type="contribution" xml:id="t-x12">우리 시대 문학/담론이 묻는 것</title> （<date when="2009">2009년 겨울호</date>）, <title level="a" type="contribution" xml:id="t-x13">문학의 정치성을 다시 묻는다</title> （<date when="2010">2010년 여름호</date>）, 2010년대 한국문학을 위하 여' （<date when="2010">2010년 겨울호</date>） 정도이다.</s>
+          <s>문예지들 가운데 비교적 문학에 적은 비중을 두 던《<orgName ref="#org-x5">창비</orgName>》가 이 시기를 지나면서 2000년대 문학을 의미화하려는 작업에 적극 적으로 나섰고, 2010년 즈음에 이르러서는 <term type="concept">문학과 정치</term>' 논쟁을 주도한 것은 <interp value="neutral" ana="문학관">흥미로운 현상이다.</interp>（표2）《창비》는 <date when="2005">2005년~2010년</date>에 총 10번 '문학'을 특집으로 했다.</s>
+          <s>흥미롭게도 이 기간의《<orgName ref="#org-x5">창비</orgName>》특집 가운데 많은 사람들의 주목을 받은 것은 <term type="movement">리얼리즘</term>, <term type="movement">민족 문학론</term> 같은 전통적인《창비〉담론이 아니라 <date from="2000" to="2009">2000년대</date>에 등장한 새로운 문학 적 경향을 조명한 것들이었다.</s>
+          <s>가령 <date when="2005">2005년 여름호</date> 특집 '갈림길에 선 한국시 와 시비평 은 <persName ref="#p-x2">이장욱</persName>의「<title level="a" type="critic" xml:id="t-x14">꽃들은 세상을 버리고 - 다른 서정들</title>」때문에 시인, 평론가들에게 <interp value="affirmative" ana="문학관">엄청난 주목을 받았다.</interp></s>
+          <s><term type="concept">2000년대 시의 특징</term>을 <term type="concept">다른 서정</term> 이라 는 개념으로 설명한 <persName ref="#p-x2">이장욱</persName>의 이 글은 <persName role="critic" xml:id="p-x10">권혁웅</persName>이「<title level="j" type="journal" xml:id="t-x15">문예중앙</title>」<date when="2005">2005년 봄호</date>에 발 표한「<title level="a" type="critic" xml:id="t-2005">미래파 - 2005년, 젊은 시인들</title>」과 함께 2000년대에 등장한 젊은 시인 들의 낯선 문학적 경향에 바쳐진 <interp value="affirmative" ana="미학">대표적 오마주이다.</interp></s>
+          <s>또 하나의 오마주는 <date when="2006">2006년 여름호</date> <title level="a" type="contribution" ref="#t-2000">2000년대 한국문학이 읽은 시대적 징후</title>' 에서 나왔다.《<orgName ref="#org-x5">창비</orgName>》 는 이 특집에《창비》와문학적 입장이 다른 <persName ref="#p-x3">김형중</persName>, <persName ref="#p-x4">차미령</persName>, <persName ref="#p-x5">신형철</persName>을 등장시켜 2000년대 한국문학의 지형도를 그리는 작업을 시도했는데, 이 특집에서 가장 많은 주목을 받은 글은 <persName ref="#p-x5">신형철</persName>의「스키조와 아나키: 2000년대 한국시의 정치 학을 위한단상•」이었다.</s>
+        </p>
+        <p>
+          <s>소설에 대한분석이 없는 것은 아니었으나 이 무렵<orgName xml:id="org-x6">《창비）</orgName>의 <term type="concept">문학 특집</term>은 소설보다는 시에서 더욱 큰 영향력을 행사했다.</s>
+          <s><interp value="neutral" ana="문학관">오랫동안 전통적인 서정성과 계몽성, 자기 성찰의 시화儲化）를 옹호하면서 문학의 사회 성 • 역사성을 주장해온《창비》가 2005년 무렵에 소위 미래파적인 시' 를 적극 적으로 옹호하는 평문에 특집의 많은 지면을 할애한 것은 흥미로운 변화이다.</interp><orgName xml:id="org-x7">《창비》</orgName>는 <date when="2007">2007년</date> 두 차례의 문학 특집을 통해 <term type="concept">장편소설</term> 과 <term type="concept">세계문학</term> 을 강조했다.</s>
+          <s>위의 도표Q표 U ［표 2〕）에 나타나듯이 <term type="concept">세계문학</term> 은 모든 문예지의 공통적인 관심사이다.</s>
+          <s>당시 한국의 문학인과 출판인들 가운데 일부는 프랑크 푸르트 등지에서 개최된 국제도서전을 참여한 후 <term type="concept">한국문학</term>이 세계시장에 진입 하기 위해서는 한국문학, 특히 소설이 단편중심에서 <term type="concept">장편</term>중심으로 바뀌어야 한다고 생각하기 시작했다.《창비》의 특집과 울림을 공유하고 있는 <persName role="critic" xml:id="p-x11">최재봉</persName> 기 자의「<title level="a" type="contribution" xml:id="t-x16">한국소설, 장편으로 진화하라</title>虱「<title level="j" type="newspaper" xml:id="t-x17">한겨레신문</title>」<date when="2007">2007년 8월 15일</date>）라는 기 사 역시 같은 맥락에서 나온 것이었다.</s>
+          <s>하지만 최근 <orgName xml:id="org-x8">（문지〉</orgName>가<orgName ref="#org-x7">《창비》</orgName>의 장편소 설론을 정면으로 비판하고 나온 것처럼 한국소설이 장편을 중심으로 재편되 어야 한다는<orgName ref="#org-x7">《창비》</orgName>의 생각이 일반적인 것은 아니었디二<orgName ref="#org-x7">《창비》</orgName>는 <date when="2008">2008년</date> 여름 호에 '<term type="concept">장르문학</term> 특집을 선보이면서 문학적 경계를 확장하려는 모습을 보였는 데, 이는 <term type="concept">대중문학</term>으로 분류되던 <interp value="affirmative" ana="문학관">장르문학이 2000년대에 접어들어 문학적 시 민권을 획득했음을 보여주는 사례라 할 만하다.</interp></s>
+          <s>
+            <interp value="critical" ana="문학관">하지만 이들 특집의 반향은 생 각보다 작았다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="문학관">반향의 차원에서라면 오히려 2008년~2010년 사이에 연속해 서 제기된 문학에 대한 본질적이고 중요한 문제제기가 한층 중요했던 듯하다.</interp>
+          </s>
+          <s><interp value="affirmative" ana="문학관">특히《창비》2008년 겨울호 특집 '문학이란 무엇인가 에 포함된 진은영의「감 각적인 것의 분배」는 이후《창비〉가 시와 정치 논의의 선편을 쥐는 데 결정적 인 역할을 했다.</interp><orgName ref="#org-x7">《창비》</orgName>는 <date when="2009">2009년</date> 겨울호에서도 '우리 시대 문학/담론이 묻는 것 이라는 제목으로 <date from="2000" to="2009">2000년대</date>의 새로운 문학적 흐름을 맥락화하려는 시도를 보였고, <date when="2010">2010년</date> 여름호에서는 <term type="concept">문학의 정치성</term>을 다시 묻는다 는 제목으로 위 의 특집들에서 제기된 논의를 이어나갔다.</s>
+        </p>
+        <p>
+          <s>이 특집에 포함된 <persName role="poet" xml:id="p-x12">진은영</persName>의「<title level="a" type="critic" xml:id="t-x18">한 진 지한 시인의 고뇌에 대하여</title>」는 이후 <term type="concept">시외 정치</term>' 논의가 문단 전체로 확장될때 중요한 참조점이 되었다.<orgName ref="#org-x7">《창비》</orgName>의 특집이 담론이나 주제 중심이라면<orgName xml:id="org-x9">《문동》</orgName>의 특집은 작가, 작품 그 리고 동시대 <term type="concept">젊은 세대</term>의 문학에 친화적이다.《문동）은 <date when="2005">2005년</date>~<date when="2010">2010년</date>에 발 행된 24권의 계간지 특집 대부분에서 문학을 배제하지 않았다.</s>
+          <s>심지어 문화 적인 현상이나 인문학적 주제를 다루는 특집일 때조차도 그랬다<orgName ref="#org-x9">《문동》</orgName>은 특 집에서 문학을 배제하지 않았을 뿐만 아니라‘문학，특집을 주제나 경향보다는 작가와 작품을 조명하는 방식으로 기획했다.</s>
+          <s>가령 <date when="2005">2005년</date> 봄호 특집은 <quote type="indirect" genre="critic">한국 소설의 새로운 지형</quote>' 이라는 제목 하에 소설의 새로운 경향을 일별하고 있다.</s>
+          <s>그런데 특집의 구체적 내용은 경향을 일별하는 것이 아니디： <persName role="critic" xml:id="p-x13">서영채</persName>가 <persName role="novelist" xml:id="p-x14">천명관</persName> 과 <persName role="novelist" xml:id="p-x15">조하형</persName>의 소설을, <persName ref="#p-x4">차미령</persName>이 <persName role="novelist" xml:id="p-x16">윤성희</persName>, <persName role="novelist" xml:id="p-x17">조경란</persName>, <persName role="novelist" xml:id="p-x18">강영숙</persName>의 소설을, <persName ref="#p-x3">김형중</persName>이 박 완서의 장편과 <persName role="novelist" xml:id="p-x19">공지영</persName>의 소설집을 다루었다.</s>
+          <s>마찬가지로 <date when="2005">2005년</date> 여름호 특집 은 <quote type="indirect" genre="critic">역사를 바라보는 시선</quote> 이라는 제목으로 역사 • 기억 .</s>
+          <s>소설의 상관성을 살 폈는데, 이 특집도 <persName ref="#p-x13">서영채</persName>가 <persName role="critic" xml:id="p-x20">유종호</persName>와 <persName role="other" xml:id="p-x21">조은</persName>의 저서를, <persName role="critic" xml:id="p-x22">김경현</persName>이 영화「<title level="m" type="other" xml:id="t-x19">효자동 이발사</title>」와「<title level="m" type="other" xml:id="t-x20">그때 그 사람들</title>」을 분석하고 있다.</s>
+          <s>이 시기의<orgName ref="#org-x9">《문동》</orgName>특집 가운데 많은 주목을 받은 것은 <date when="2005">2005년</date> 가을호 특집 '<quote type="indirect" genre="critic">지금-여기 비평의 현주소</quote> 와 2005년 겨울호 특집 2000년대 <term type="concept">젊은 세대</term>의 소 설 그 증상 이었다.</s>
+          <s>특히 '지금-여기 비평의 현주소 에 포함된 <persName ref="#p-x5">신형철</persName>의「문 제는 <term type="concept">서정</term>이 아니다 — 웰컴, 뉴웨이브 포-에티카」는 <date from="2000" to="2009">2000년대</date>의 젊은 시, 특 히 <term type="movement">미래파</term> 시를 서정'과분리하여 살핌으로써 <interp value="affirmative" ana="미학">재래의 시적 경향에 정면으로 도전했다</interp>.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x5">신형철</persName>의 글은 <term type="concept">서정</term> 에 대한 논의를 촉발시켰다.</s>
+          <s>한편 '<title level="a" type="critic" xml:id="t-20002">2000년대 젊은 세대의 소설, 그 증상</title> 은 2000년대의 소설을 견인하고 있는 작가들 - <persName role="novelist" xml:id="p-x23">편 혜영</persName>, <persName role="novelist" xml:id="p-x24">백가흠</persName>, <persName role="novelist" xml:id="p-x25">손홍규</persName>, <persName role="novelist" xml:id="p-x26">김종은</persName>, <persName role="novelist" xml:id="p-x27">이기호</persName>, <persName role="novelist" xml:id="p-x28">김애란</persName>, <persName role="novelist" xml:id="p-x29">한유주</persName> - 의 작품세계를 경향 적으로 분류하고 의미화하는 작업으로 <date when="2006">2006년</date> 여름호 특집 <title level="a" type="other" xml:id="t-x21">우리 시대의 새로 운 인간학</title> 에 포함된 <persName ref="#p-x8">복도훈</persName>의「<title level="a" type="critic" xml:id="t-20003">측생, 시체, 자동인형 - 2000년대 젊은 작가 들의 소설에 등장한 캐릭터와 신인류학</title>」과 더불어 <interp value="affirmative" ana="문학관">동시대 소설의 지형도를 그 리는 시도라고 평가할 만하다.</interp></s>
+          <s><term type="concept">젊은 세대의 문학</term>에서 적극적으로 새로움을 발견해내려는<orgName ref="#org-x9">《문동》</orgName>의 노력은 <date when="2007">2007년</date> 봄호 특집 <title level="a" type="other" xml:id="t-x22">한국문학과 하위문화적 상상 력</title> 에서도 반복되었다.</s>
+          <s>즉 몇몇 작가와 작품에서 시작된 젊은 문학에 대한 관 심은 <date when="2005">2005년</date> 가을호에서는 <term type="concept">젊은 비평</term>의 시선으로, <date when="2005">2005년</date> 겨울에서는 <term type="concept">증상</term> 이라는 정신분석적 시각에서 반복되었고, <date when="2006">2006년</date> 여름호에서는 <term type="concept">인간학</term>, 즉 <term type="concept">주 체</term>의 문제라는 관점에서, <date when="2007">2007년</date> 봄호에서는 숭］위문화 와의 연관성 속에서 재검토되었다.<orgName ref="#org-x9">《문동》</orgName>의 특집들은 주제와 담론의 층위에서도 중요한 논점을 외면하지 않았 다.</s>
+          <s><date when="2006">2006년</date> 겨울호 특집 *<title level="a" type="other" xml:id="t-x23">길 위의 인생 - 이동, 탈출, 유목</title> 과 <date when="2007">2007년</date> 가을호 특집 '<title level="a" type="other" xml:id="t-x24">우리 시대의 새로운 빈곤, 새로운 소설</title> 이 대표적이다.</s>
+          <s>전자는 <persName role="novelist" xml:id="p-x30">박범신</persName>, <persName role="novelist" xml:id="p-x31">김재영</persName>, <persName role="novelist" xml:id="p-x32">김연수</persName>, <persName ref="#p-x28">김애란</persName>, <persName ref="#p-x25">손홍규</persName>, <persName role="novelist" xml:id="p-x33">전성태</persName> 등의 소설이 등장시킨 <term type="concept">이주（노동）자</term> 문제와 <term type="concept">다문화</term>, <term type="concept">세계화</term> 등에서 촉발된 월경（越境）의 문제를 다루었고, 후자는 <term type="concept">신자유주의</term> 시대, 즉 외환위기 이후 한국문학의 다수적 경향으로 자리 잡은 <term type="concept">새 로운 빈곤</term> （New poor） 문제를 집중적으로 살폈다.</s>
+          <s>'<term type="concept">이주</term>' 와 <term type="concept">가난</term> 은 2000년 대 한국문학, 특히 소설에서 빠뜨릴 수 없는 문제이고, <interp value="affirmative" ana="사회">시의성이 있는 이 특집 들은《문동》의 특집을 돋보이게 했다.</interp></s>
+          <s>주제와 담론의 차원에서 주목할 또 다른 특집으로는 <date when="2008">2008년</date> 봄호 특집 '<title level="a" type="other" xml:id="t-x25">민주화 이후의 문학과 문화</title>', <date when="2008">2008년</date> 여름호 특집 <title level="a" type="other" xml:id="t-x26">이론의 현실, 현실의 이론</title> , <date when="2009">2009년</date> 여름호 특집 <title level="a" type="other" xml:id="t-x27">폭력의 성찰</title>', <date when="2010">2010년</date> 여름호 특집 <title level="a" type="other" xml:id="t-x28">우리는 누구인가?</title></s>
+        </p>
+        <p>
+          <s>~ <date when="2010">2010년</date>, <term type="concept">주체의 성찰</term>, 2010년 가을호 특집 우리는 누구인가?</s>
+          <s>2 - <date when="2010">2010년</date>, <term type="concept">한국문학의 주체</term>, 2010년 겨울호 특집 <term type="concept">생명 의 정치와 인간의 윤리</term> 등이다.</s>
+          <s>우선 이들 특집이 주목하고 있는 <term type="concept">폭력</term> , <term type="concept">주 체</term> , <term type="concept">윤리</term> , '<term type="concept">생명</term> 등은 <term type="movement">현대철학</term>의 핵심적인 관심들이기도 하다.</s>
+          <s>즉<orgName ref="#org-x9">《문동》</orgName> 은 <term type="movement">현대 정치철학</term>의 화두에 매우 많은 관심을 갖고 있었고, <term type="concept">정치철학적 화두</term>와 문학의 흐름 사이의 연관성을 포착하려는 노력을 놓지 않았다.</s>
+          <s>아마도 특집 '<quote type="direct" genre="other">이론의 현실, 현실의 이론</quote>' 은 이런 맥락에서 기획되었을 것이다.</s>
+          <s>조금 다른 맥 릭•이지만, 특집 '<quote type="direct" genre="other">민주화 이후의 문학과 문화</quote> 의 문제의식은 한층 도발적이다.</s>
+          <s>표면적으로는 <date when="1987">1987년</date> 이후 문학의 변화를 살피겠다는 취지를 내세우고 있지만, 실상 이 기획은 최근의 한국문학을 소위 <term type="concept">87년 체제</term>와분리시키려는 목적을 갖고 있다* 즉 87년 이후의 문화변동을 <term type="concept">진정성의 에토스</term>로부터 벗어나는 과정, 즉 <term type="concept">탈진정성 체제</term>(post-authencity regim샤)'로 설명하려는 것이다.</s>
+          <s>이러한 시각이<orgName ref="#org-x7">《창비》</orgName>가 강조하는 ‘<term type="concept">87년 체제</term>' 를 겨냥한 것임은 의심의 여지가 없다.</s>
+        </p>
+        <p>
+          <s>한편<orgName ref="#org-x9">《문동》</orgName>의 특집 중에는 <term type="concept">한국문학</term>에 대한 근본적인 물음을 함축한 논쟁적 인 특집도 있었다.</s>
+          <s><date when="2009">2009년</date> 봄흐 특집 2009.</s>
+          <s><title level="a" type="contribution" xml:id="t-x29">문학성의 새로운 구성</title>, <date when="2009">2009년</date> 가을호특집 <title level="a" type="contribution" xml:id="t-x30">한국문학의과잉과결핍</title>',그리고<date when="2010">2010년</date>봄호특집 <title level="a" type="contribution" xml:id="t-x31">소설존재, 윤리</title> 가 대표적이다.</s>
+          <s>'<date when="2009">2009</date>.</s>
+          <s><title level="a" type="contribution" ref="#t-x29">문학성의 새로운 구성</title> 에는 <persName role="poet" xml:id="p-x34">심보선</persName>, <persName role="scholar" xml:id="p-x35">서동욱</persName>, 김행 숙, <persName ref="#p-x5">신형철</persName>이 참여한 좌담「<title level="a" type="contribution" xml:id="t-x32">감각적인 것과 정치적인 것</title>」이 붙어 있는데, 이는 이 기획이 <term type="concept">근대문학</term>에 대한 <persName role="foreigner" xml:id="p-x36">가라타니 고진</persName>의 <term type="concept">종언론</term>과 <term type="concept">감각적인 것의 분배</term>에 대한 <persName role="foreigner" xml:id="p-x37">랑시에르</persName>의 주장, 특히 그것들을 원용한<orgName ref="#org-x7">《창비》</orgName><date when="2008">2008년</date> 겨울호 특집에 대 한<orgName xml:id="org-x10">《문동)</orgName>의 웅답으로 이해할수 있다.</s>
+          <s>실제로 이 특집에 포함된 <persName ref="#p-x13">서영채</persName>의「<title level="a" type="critic" xml:id="t-2009">역 설의 생산: 문학성에 대한 성찰, 2009</title>」은 <interp value="critical" ana="문학관">고진의 주장을 그대로 수용하는 입장 의 순진성을 비판하면서</interp> <term type="concept">문학성 의 죽음</term>을 어떻게 사고해야 할 것인가에 대한 입장을 제시하고 있다.</s>
+          <s>또한 <persName ref="#p-x4">차미령</persName>의「<title level="a" type="critic" xml:id="t-x33">소설과 정치: 소설은 무엇을 할 수 있 는가 에 대한 단상</title>:！은 <term type="concept">감각적인 것의 분배</term>라는 <persName ref="#p-x37">랑시에르</persName>의 관점을 <date from="2000" to="2009">2000년대</date> <term type="concept">한국소설</term>에 적용하려는 시도였다.</s>
+          <s>이 특집에 참여한 <persName ref="#p-x13">서영채</persName>, <persName role="scholar" xml:id="p-x38">김홍중</persName>, <persName ref="#p-x4">차미령</persName>, 그리고 좌담의 사회자 <persName ref="#p-x5">신형철</persName>이 모두<orgName ref="#org-x9">《문동》</orgName>의 편집위원임을 감안하면 이 특집 은 <term type="concept">문학과 정치</term> 에 대한<interp value="neutral" ana="문학관">《문동》의 공식적인 입장으로 간주해도 좋을 듯하다</interp>.<interp value="neutral" ana="문학관">《창비》특집이 대개 사회적 ・ 정치적인 것에 비중을 두고,《문동》특집이 넓은 스펙트럼과 철학적인 흐름, 유행에 반옹하는 방식으로 꾸려지는 데 비해,《문 사》특집은 대개 고유한 문학적 이념에 집중적인 관심을 투여하는 방식을 취했 다.</interp></s>
+        </p>
+        <p>
+          <s><date when="2006">2006년</date> 여름호 특집의 제목인 '<quote type="direct" genre="other">인디는 어떻게 존재하는가</quote>' 야말로《<title level="j" type="journal" ref="#t-x5">문사</title>》 의 문학적 척도를 가장 분명하게 보여준다.</s>
+          <s>앞에서 말했듯이《<title level="j" type="journal" ref="#t-x5">문사</title>)는 일찍부 터 <term type="concept">2000년대 문학</term>을 90년대까지의 문학과 구별하려고 노력했다.</s>
+          <s>우리가 혼히 <term type="concept">2000년대 문학</term>' 이라는 말로 지시하는 것에 가장 많은 애정을 쏟은 것은《<title level="j" type="journal" ref="#t-x5">문사</title>》였다.《<title level="j" type="journal" ref="#t-x5">문사</title>》는 이미 <date when="2004">2004년</date> 연속 특집을 2000년대 문학에 애호하는 백 수 와 <term type="concept">비성년</term> 이라는 주체성을 고찰했다.</s>
+          <s>그리고 <date when="2005">2005년</date> 여름에는 2000년 대 문학의 새로운 모험 특집을 통해 <term type="concept">2000년대 문학</term>을 바라보는《<title level="j" type="journal" ref="#t-x5">문사</title>》의 시 각을 분명히 밝혔다.《<title level="j" type="journal" ref="#t-x5">문사</title>》는 <date when="2008">2008년</date> 겨울호 머리말에서 <quote type="direct" genre="other">2000년대 문학의 새로운 모험</quote>' 특집을 이렇게 자평했다.</s>
+          <s>“1■<title level="j" type="journal" ref="#t-x2">문학과사회</title>』는 지난 <date when="2005">2005년</date> 여름호 （통권 제70호）에서 '<quote type="direct" genre="other">2000년대 문학의 새로운 모험</quote> 이라는 주제를 다루면서 2000년대 문학의 새로운 가능성을 선도적으로 조명한 바 있으며, 이것은 <term type="concept">2000년대 문학 담론</term>' 에 대한논의의 출발점이 되기도 했다.</s>
+          <s>” <persName role="critic" xml:id="p-x39">이광호</persName>는 이 특 집에 포함된「<term type="concept">혼종적 글쓰기</term> 혹은 <term type="concept">무중력 공간</term>의 탄생 - 2000년대 문학의 다 른 이름들」에서 혼종적 글쓰기' 와 무중력 공간 을 각각 <term type="concept">2000년대 소설</term>과 시 의 특징으로 꼽았다.</s>
+          <s><persName ref="#p-x39">이광호</persName>가 말하는 <term type="concept">혼종적 글쓰기</term>란 90년대 후반 이후 작 가들의 소설에서 나타나는 <term type="concept">대중문화적 상상력</term>과 하위 장르적인 문법의 차용, 즉 <term type="movement">탈리얼리즘</term> 서사가 지배적인 경향으로 등장한 현상을 말하며, <term type="concept">무중력 공간</term> 이란 <date when="2000">2000년</date> 이후에 글쓰기를 시작한 시인들이 정치적 죄의식과 역사적 현실 의 중력과 무관한 자리에서 <term type="concept">개체적 비전</term> 을 펼쳐나가는 현상을 의미한다.</s>
+          <s>이 광호는 두 가지 모두에서 저항과는 다른 방식의 주체 구성을 읽어내는데, 포스 트 386에 해당하는 이들의 글쓰기 방식이야말로 <term type="concept">2000년대 문학</term>의 특이성이라 는 것이 그의 주장이다.<date when="2007">2007년</date> 이후《<title level="j" type="journal" ref="#t-x5">문사</title>》는 비평을 중심으로 한층 논쟁적인 입장을 전개하기 시 작했다.</s>
+        </p>
+        <p>
+          <s><date when="2007">2007년</date> 봄호 특집 <title level="a" type="critic" xml:id="t-20004">2000년대 문학을 둘러싼 논쟁과 성찰</title>', <date when="2007">2007년</date> 가을호 특집 '<title level="a" type="critic" xml:id="t-20005">2000년대 문학의 키워드 - 젊은 비평가의 시선</title> , 그리고 <date when="2008">2008 년</date> 겨울호와 <date when="2009">2009년</date> 봄호 두 차례에 걸쳐 진행한 '<title level="a" type="critic" xml:id="t-7">미래의 작7］들</title>' 특집은<orgName xml:id="org-x11">《문 사》</orgName>가 2000년대 문학의 의미화 과정을 선도하기 위해 노력하고 있음을 실감하 게 한다.</s>
+          <s>특히 이 때의 비평적 논의에서 2000년 이후에 등단한 <term type="concept">젊은 평론가들</term> 이 중심이 되었다는 것은 흥미로운 일이다.</s>
+          <s>이는 2000년대의 문학적 담론을<orgName ref="#org-x11">《문사》</orgName>가 주도하고 있다는 뜻이기도 하다.<orgName ref="#org-x11">《문사》</orgName>의 비평적 정체성을 확인한 <title level="a" type="critic" ref="#t-20004">2000년대 문학을 둘러싼 논쟁과 성찰</title> 과 '<title level="a" type="critic" ref="#t-20005">2000년대 문학의 키워드 - 젊은 비평가의 시선</title> 특집에서<orgName ref="#org-x11">《문사》</orgName>는 자신들이 신뢰할 수 있는 <term type="concept">미학적 기준</term>의 소 유자（<term type="concept">젊은 평론가</term>）들을 대거 전면에 내세웠다.</s>
+          <s>%）00년대 문학을 둘러싼 논쟁 과 성찰 은 '논쟁과 성찰' 이라는 단어가 암시하듯이 <persName ref="#p-x39">이광호</persName>, <persName ref="#p-x3">김형중</persName> 두 사람에 게 제기된 비판에 대한 반C反）비판의 성격을 띠고 있고, <persName role="critic" xml:id="p-x40">강계숙</persName>의「<title level="a" type="critic" xml:id="t-x34">선제에서 공 감의 비평으로</title>」는 <term type="movement">미래파</term>' 비판에 대한응답의 맥락에서 쓰였다.</s>
+          <s>이 글들에서 <persName ref="#p-x39">이광호</persName>는<orgName ref="#org-x7">《창비》</orgName>의 '<term type="concept">6 • 15 시대론</term>' 을, <persName ref="#p-x3">김형중</persName>은 <term type="movement">리얼리즘론</term>'을 비판했다.</s>
+          <s>한 편 '<title level="a" type="critic" ref="#t-20005">2000년대 문학의 키워드 - 젊은 비평가의 시선</title> 에서는 <persName ref="#p-x40">강계숙</persName>, <persName role="critic" xml:id="p-x41">강유정</persName>, <persName ref="#p-x8">복도훈</persName>, <persName ref="#p-x5">신형철</persName>, <persName role="poet" xml:id="p-x42">이수형</persName>, <persName ref="#p-x6">정여울</persName> <persName role="critic" xml:id="p-x43">함돈균</persName>, <persName role="poet" xml:id="p-x44">허윤진</persName>이 2000년대 문학에 대한 자 신의 입장과 시선을 제시하고 있다.</s>
+          <s>이들이 최근까지<orgName ref="#org-x11">《문사》</orgName>의 핵심 필자임을 고려하면 <interp value="neutral" ana="문학관">이들의 시각과《문사》의 시각 사이에 큰 차이는 없다고 보아도 좋을 듯하다.</interp></s>
+          <s>이런 <term type="concept">젊은 비평가</term> 특집은 <date when="2010">2010년</date> 여름호와 가을호 두 번에 걸쳐 다시 한 번 시도되었다.</s>
+        </p>
+        <p>
+          <s>이 특집에는 <persName role="critic" xml:id="p-x45">강동호</persName>, <persName role="critic" xml:id="p-x46">송종원</persName>, <persName role="critic" xml:id="p-x47">조연정</persName>, <persName role="critic" xml:id="p-x48">조효원</persName>, <persName role="critic" xml:id="p-x49">강지희</persName>, <persName role="poet" xml:id="p-x50">김나 영</persName>, <persName role="critic" xml:id="p-x51">김남혁</persName>, <persName role="critic" xml:id="p-x52">양윤의</persName> 등의 <term type="concept">젊은 평론가</term>가 참여했다.</s>
+          <s><date when="2007">2007년</date>과 <date when="2010">2010년</date>, 두 차례 에 걸쳐 진행된 젊은 비평가 특집은 <date from="2000" to="2009">2000년대</date> 문학에 대한<orgName ref="#org-x11">《문사》</orgName>의 주도력이 <term type="concept">젊은 평론가들</term>의 지지에 근거하고 있음을 보여준다.</s>
+          <s>이들 특집이 비평에서 주 목할 만한 시선을 발견하는 의미를 띤다면, 두 계절에 걸쳐 연속으로 진행된 <title level="a" type="contribution" xml:id="t-x35">미래의 작가들</title>' 특집은 소설 장르에서<orgName ref="#org-x11">《문사》</orgName>가 주목하고 있는 작가들을 조명 하는 성격을 띤다.</s>
+          <s>특집의 형식은 새롭게 편집위원으로 참여한 <persName ref="#p-x40">강계숙</persName>, <persName ref="#p-x3">김형 중</persName>, <persName ref="#p-x42">이수형</persName>의 비평으로 채워졌지만, 실제 이 특집의 내용은<orgName xml:id="org-x12">《문사'》</orgName>가 선정한 12 명의 작가（<persName role="critic" xml:id="p-x53">김태용</persName>, <persName ref="#p-x29">한유주</persName>, <persName role="novelist" xml:id="p-x54">윤이형</persName>, <persName role="novelist" xml:id="p-x55">황정은</persName>, <persName role="novelist" xml:id="p-x56">김미월</persName>, <persName role="other" xml:id="p-x57">안성호</persName>, <persName ref="#p-x15">조하형</persName>, <persName role="novelist" xml:id="p-x58">최제훈</persName>, <persName role="other" xml:id="p-x59">이홍</persName>, <persName role="novelist" xml:id="p-x60">정한아</persName>, <persName role="novelist" xml:id="p-x61">김유진</persName>, <persName role="novelist" xml:id="p-x62">윤고은</persName>를 집중 조명하는 것이다.<orgName ref="#org-x11">《문사》</orgName>는 이 선택의 이 유로 이들의 글쓰기가 “<quote type="direct" genre="critic" source="문사">문학적 파괴려'을 보여준다</quote>고 밝혔다.</s>
+          <s>이들 외에 <date when="2009">2009 년</date> 가을호 특집 <title level="a" type="contribution" xml:id="t-x36">다시, 미학과 정치를 사유하다</title> 와 <date when="2010">2010년</date> 겨울호 특집 <title level="a" type="contribution" xml:id="t-x37">재난의 시대, 파국의 상상력</title> 등도 주목할 만하다.2-3.<date when="2011">2011 년</date>，'<date when="2013">2013년</date>: 한국문학의 미래를 사유하다（표 3）2011년부터 현재까지 문예지의 이슈가 확연히 바뀌지는 않았다.</s>
+          <s>간혹<orgName ref="#org-x6">《창 비）</orgName>오卜<orgName ref="#org-x9">《문동》</orgName><orgName ref="#org-x11">《문사》</orgName>사이에 문학적 입장차에서 비롯되는 크고 직은 논쟁이 크 게 달라지지는 않았다.<title level="a" type="other" xml:id="t-3">〈표3〉</title>에서 확인되듯이<orgName xml:id="org-x13">《창비〉</orgName>는 <date when="2011">2011년</date>부터 특집의'문학' 비중을 더욱 높였는데, <title level="a" type="contribution" xml:id="t-solo2">SOlO년대 한국문학을 위하여 2'</title>, <title level="a" type="contribution" xml:id="t-x38">다시 장편소 설을 말한다</title>, <title level="a" type="contribution" xml:id="t-x39">고달프고 억울한 사람들과 우리 시대의 문학</title>, <title level="a" type="contribution" xml:id="t-x40">한국문학, 다시 현실을 묻는다'</title> 등의 제목처럼 <date from="2000" to="2009">2000년대</date> 문학과 <term type="concept">신자유주의</term> 하에서 광범위하 게 발생하는 <term type="concept">재난상태</term>에 근접한 일상을 현실' 이라는 단어를 사용하여 담론화 하려는 시도를 계속하고 있다.</s>
+          <s>하지만<orgName ref="#org-x7">《창비》</orgName>가 <date from="2000" to="2009">2000년대</date> 문학을 이야기할 때 주목하는 작가들은<orgName ref="#org-x9">《문동》</orgName>이나<orgName xml:id="org-x14">《문사〉</orgName>가 주목하는 작가와는 상당히 다르다.</s>
+          <s>하 지만 이들 사이에 <date from="2000" to="2009">2000년대</date> 본격적인 논쟁이 발생할 가능성은 없는 듯하다.<orgName ref="#org-x9">《문동》</orgName>의 특집은문학의 안팎을 넘나드는 유연성과 중요한 이슈들에 대해 시 의적으로 대응하는 방식으로 기획되었다.</s>
+        </p>
+        <p>
+          <s>문학 특집에서는 <term type="concept">젊은 비평가들</term>을 대거 등장시켜 동시대 문학을 젊은 감각으로 진단한 <date when="2011">2011년</date> 겨울호 특집 '<title level="a" type="critic" xml:id="t-8">이 작가를 보라一 젊은 비평가 8인의 선택</title> , 2000년대 소설의 지형도 그리기라 고 평가할 수 있는 <date when="2012">2012년</date> 봄호 특집 <title level="a" type="critic" xml:id="t-x41">우리 시대 서사의 현황</title> , 2000년대 시의 중요한 특징들을 포착한 <date when="2013">2013년</date> 여름호 특집 <title level="a" type="critic" xml:id="t-x42">오늘의 한국시, 무엇을 이야기 할까</title>, 그리고 2000년대 비평의 운명과 자리를 사유한 2013년 가을호 특집 <title level="a" type="critic" xml:id="t-x43">지금, 비평이란 무엇인가</title> 등이 돋보인다.</s>
+          <s><interp value="affirmative" ana="문학관">이러한특집들을 볼 때, 2000년대 문학에 대해서《창비》보다는《문동》의 특집이 한층 시의적이고 선명했다고 말 해도 과장은 아닐 것이다.</interp><orgName ref="#org-x11">《문사》</orgName>의 문학 특집에서는 <date when="2011">261년</date> 가을호 특집 <title level="a" type="critic" xml:id="t-x44">한국문학 최근의 징후들</title>, <date when="2012">2012년</date> 봄호 특집 <title level="a" type="critic" xml:id="t-x45">문학의 현재와 전사（前史）, 그 관계</title>', 2012년 여름호 특집 <title level="a" type="critic" xml:id="t-x46">미학적 진보와 정치적 진보</title>', <date when="2013">2013년</date> 봄호 특집 <title level="a" type="critic" xml:id="t-20006">2000년 이후 한국 문학이 겪은 것, 겪어야 할 것</title> 등이 주목을 요한다.</s>
+          <s>먼저 <title level="a" type="critic" ref="#t-x44">한국문학 최근의 징후들</title> 은 <date when="2000">2000년</date> 이후<orgName ref="#org-x11">《문사》</orgName>가 자주 사용한 특집 방식의 반복이라고 말할 수 있다.</s>
+          <s><title level="a" type="critic" xml:id="t-x47">문 학의 현재와 전사, 그 관계</title> 는 2000년대 문학과 2000년대 이전의 문학 사이에 서 일정한 연속성 • 유사성을 발견하려는 시도이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">한편 '미학적 진보와 정치 적 진보' 는 문학과 예술에 대한《문사》의 기본 입장이 드러나는 흥미로운 기획이다.</interp>
+          </s>
+          <s>총론에 해당하는 <persName role="critic" xml:id="p-x63">김태환</persName>의「<title level="a" type="critic" xml:id="t-x48">자본주의, 전위주의, 급진주의</title>」가 말하려는 바는 역사적 과정 속에서 <term type="concept">정치적 전위</term>와 <term type="concept">미학적 전위</term>가 일치하지 않았다는 것* 예술적 전위는 정치적 전위는 물론 자본주의 자체와도 좋은 관계를 유지하지 는 않았다는 것이다.</s>
+          <s>이는 마치 <term type="concept">전위</term>를 <term type="concept">정치적 전위</term>와 <term type="concept">미힉적 전위</term>로 분할하 고, 둘 가운데 미학적 전위가 훨씬 혁명적이었다는 주장처럼 들린다* 하지만 <interp value="critical" ana="미학">이 글은 미학적 전위가 역사적 장련들에서 어떻게 권력과 조우했는가에 대해 서는 말하지 않으며, 더욱이 아방가르드 이후의 미학적 전위가 어떤 역할을 했 는가에 대해서는 침묵하고 있다.</interp></s>
+          <s>마지믹•으로 <title level="a" type="critic" ref="#t-20006">2000년 이후 한국 문학이 겪은 것, 겪어야 할 것</title> 은 겨어야 할 것 이라는 표현이 암시하듯이 <date from="2000" to="2009">2000년대</date> 첫 십 년의 문학을 되돌아보고 2c瓜）년대의 문학을 예상해 보는 미래형 기획이다.</s>
+        </p>
+        <p>
+          <s>어 떤 의미에서 이것은 <term type="concept">징후</term>의 발견이라고 말할수도 있다.3•신춘문예로 읽는 2。0口년대 문학의 행방문학은 어떠한 공적 지표보다 정확하게 시대를 반영한다.</s>
+          <s>그것은 <persName role="foreigner" xml:id="p-x64">찰스 디킨 즈</persName>의 소설이 영국 <date when="1837">빅토리아 시대</date> 右］층노동자들의 삶을, <persName role="foreigner" xml:id="p-x65">새커리</persName>의「<title level="m" type="novel" xml:id="t-x49">허영의 시 장</title>』이 상층 중류계급의 속물성을 증언하는 것과 같은 이치이다.</s>
+          <s>물론 모든 문 학에 시대가 투영되어 있는 것은 아니며, 시대를 투영하는 것이 문학의 본질적 가치도 아니다.</s>
+          <s>그렇지만 문학을 통해 시대를 읽는 일이 불가능하지도 않다.</s>
+          <s>우리는 <date from="2000" to="2009">2000년대</date> 소설에 대해 말하는 자리에서 종종 <term type="concept">외환위기</term> 이후의 문학, 특히 소설에서 <term type="concept">사회학적 상상력</term>이 두드러지며, 새로운 빈곤（New poor） 문제 로 인해 개인과 가족 모두에게 닥친 <term type="concept">재난</term> 상태가 소설의 스토리 라인을 지배한 다는 이야기를 듣는다.</s>
+          <s>또한 <term type="concept">신자유주의</term>의 고용 방식이 일반화됨에 따라 （청 년） <term type="concept">실업</term>, 미취업 같은 <term type="concept">잉여적 삶</term>이 소설의 핵심적인 문제의식으로 급부상했다 는 평가를 듣기도 한다.</s>
+          <s>이처럼 소설의 변화는 <term type="concept">시대정신</term>이나 집단적인 욕망 같 은사회상의 변화에 밀접하게 연동되어 있다.</s>
+          <s>이러한 문학의 변화를 추적하기 위해서 어떤 자료가 필요할까?</s>
+        </p>
+        <p>
+          <s>누군가는 베 스트셀러의 계량화된 수치로 이 변화를 설명할 수 있다고 주장할지도 모른다.</s>
+          <s>하지만 문화 현상으로서의 <term type="concept">베스트셀러</term> 는 문학 의 욕망이 아니라 독자，즉 소비자의 취향과 욕망을, ’문학 이 걸어온 길이 아니라 독자가 걸어온 길을 보 여줄 뿐이다.</s>
+          <s>오늘날 <term type="concept">대중독자</term>와 <term type="concept">전문독자</term>, <term type="concept">문학성</term>과 <term type="concept">시장성</term>의 분리가 문학의 불가피한 조건이고, 예외적인 경우를 제외하면 그 간극이 줄어드는 일이 발생 하지 않는다면 <term type="concept">베스트셀러</term>가 문학의 변화에 대해 말해줄 수 있는 것은 거의 없 다.</s>
+          <s>
+            <interp value="critical" ana="문학관">대중성과 담을 쌓고 있는 시도 그렇지만, 시장과 대중으로부터 자유롭지 않은 소설에서조차 베스트셀러=문학적 코드 라는 등식은 성립하지 않는다.</interp>
+          </s>
+          <s>가령 <orgName xml:id="org-x15">교보문고</orgName> 연간 베스트셀러 통계에 따르면 <date when="2003">2003</date>~<date when="2013">2013</date>년 국내소설 분야 판매순위 1위는다음과같다.（표4）이 소설들 가운데 당시 문예지에서 비중 있게 다뤄진 작품은 <persName role="novelist" xml:id="p-x66">김훈</persName>과 <persName role="novelist" xml:id="p-x67">신경숙</persName> 소설 정도이며, 문예지 특집에서 주목할 경향으로 소개한 작품은 거의 없다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">이는 대중성과 문예지가 주목하는 문학성이 정비례하지 않는다는 것, 특히 비평가들이 문학 코드의 변화를 설명하기 위해 관심을 기울이는 작품들이 대중 성과는 거리가 있었음을 뜻한다.</interp>
+          </s>
+          <s>물론 문예지가 문학 코드의 변환이나 새로운 경향의 등장이라는 이름으로 관심을 표시하는 작품은 대개 <term type="concept">젊은 작가들</term>의 것 이기 때문에 생기는 문제일 수도 있다.</s>
+          <s>
+            <interp value="critical" ana="문학관">하지만 동시대의 문학적 코드를 적확하 게 보여주는 것이 베스트셀러가 아님은 분명하다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그렇다면 문학 코드의 변화 를 확인하려련 어떤 차료가 필요할까?</s>
+          <s>신춘문예 당선작에서 그 가능성을 타진 해보자.</s>
+          <s>신춘문예는 흔히 동시대 문학의 주류를 분명하게 보여주는 척도로 간 주된다.</s>
+          <s>이 경우 주류성은 내용과 형식 모두에 해당한다.</s>
+          <s>신춘문예의 변화가 주류의 변화를 예민하고도 충실하게 반영한다는 것은 반복적으로 지적되었다.</s>
+          <s>물론 이 경우에도 신춘문예 특유의 보수성을 생각하면 잡지의 신인상 등단작 을 살피는 것이 타당하겠으나, 문화적 상징성이나 보편성의 층위에서 잡지는 신춘문예의 대표성에 미치지 못한다.3너.</s>
+          <s>신춘문예 당선작됼의 경향: 시의 경우（표5）2003〜2013년 중앙일간지 신춘문예 시 당선작 목록이다.</s>
+          <s>전통적으로 신춘 문예의 시 당선작들은 가난, 유년의 기억, 불행했던 가족사와 성장담, 그리움 이나 외로움 같은 보편적 정서의 발견 등이 대세였다得 이는 신준문예 딩선작이 1월 초에 신문 지면에 소개된다는 물리적 이유 때문에 대중이 공감할 수 있는 내용과 형식으로 제약된다는 점도 있겠지만, 시 장르가 '사회' 보다는 개인, 특 히 개인의 내면, 상처, 기억 등에 더 많은 관심을 투사하기 때문일 것이다.</s>
+        </p>
+        <p>
+          <s>또 한 심사위원의 연령이 잡지 신인상에 비해 비교적 높았기 때문에 발생하는 현 상이기도 하다.</s>
+          <s>흔히 신춘문예의 결과 발표를 앞둔 시점에 각 신문에는 그해 투고작들의 경향이나 특징적인 면을 소개하는 기사가 실린다.</s>
+          <s>그 기사에 따르 면 <date from="2000" to="2009">2000년대</date>의 신춘문예 투고작들은 시대적인 요소와 시의적인 •문제에 매우 민첩하게 반응해왔다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">이러한 평가가 실제 당선작에서도 동일하게 확인될까?</interp>
+          </s>
+          <s>신준문예 당선작에서 실제로 <term type="concept">문학 코드</term>의 변화가 감지되는지, 또는 문단의 관 심사가 변하는 주기와 신춘문예의 변화가 어느 정도 일치하는지 살펴보자.</s>
+          <s>먼저 <date when="2003">2003년</date> 당선작들.</s>
+          <s><persName role="other" xml:id="p-x68">김일영</persName>의「<title level="a" type="poem" xml:id="t-x50">삐비꽃이 아주 피기 전에</title>」, <persName role="poet" xml:id="p-x69">문성해</persName>의「<title level="a" type="poem" xml:id="t-x51">귀 로 듣는 눈</title>」, <persName role="poet" xml:id="p-x70">마경덕</persName>의「<title level="a" type="poem" xml:id="t-x52">신발론</title>」, <persName role="poet" xml:id="p-x71">김경주</persName>의「<title level="a" type="poem" xml:id="t-x53">꽃 피는 공중전화</title>」, <persName role="critic" xml:id="p-x72">김병호</persName>의「<title level="a" type="poem" xml:id="t-x54">징 검돌이 별자리처럼 빛날 때</title>」는 위에서 지적한 신춘문예 당선작의 일반적인 특 징에 근접한 작품들이다.</s>
+          <s>
+            <interp value="critical" ana="사회">여기에는 실험적인 요소는 물론 신자유주의가 깅제 하는 새로운 빈곤에 대한 호소 같은 시대의 흔적이 거의 나타나지 않는다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><date when="2004">2004년</date> 당선작들 역시 <persName role="critic" xml:id="p-x73">김지훈</persName>의「<title level="a" type="poem" xml:id="t-x55">시월의 잠수함</title>」을 제외한 전 작품이 현재적 삶을 음울한 시선으로 바라본다는 공통점을 드러내지만 그것이 시대적인 것에 대한 시적 대응인지는 분명하지 않다.</s>
+          <s><date when="2005">2005년</date> 당선작 가운데에는 먼저 <persName role="other" xml:id="p-x74">이영옥</persName> 의「<title level="a" type="poem" xml:id="t-x56">단단한 뼈</title>」와 <persName role="critic" xml:id="p-x75">신기섭</persName>의「<title level="a" type="poem" xml:id="t-x57">나무도마</title>」가 눈에 띈다.</s>
+          <s>두 편의 작품은 각각 사건 의 증거로 전락한 망자의 뼈와 고기의 핏물이 스며들수록 더욱 선명한 색을 발 하는 나무도마를 소재로 삼았는데, 정서적 안정감보다는 <term type="concept">불안</term>과 충격의 느낌 을 강조한다는 공통점을 지니고 있다.</s>
+          <s><persName role="poet" xml:id="p-x76">윤석정</persName>의「<title level="a" type="poem" xml:id="t-x58">오페라 미용실</title>과 <persName role="poet" xml:id="p-x77">윤진화</persName>의 「<title level="a" type="poem" xml:id="t-x59">모녀의 저녁식사</title>」는 삶에 닥친 불행과 보잘 것 없는 가난한 삶을 그리되 음울 하고 절망적 인 느낌보다는 발랄하고 유쾌한 분위기를 강조하는 뱅식으로 형상 화했다는 공통점이 있다.</s>
+          <s><date when="2006">2006~2007년</date> 당선작들은 전체적으로 고단한 삶에 뿌리를 내리고 있지만 대리운전 이라는 현재적 소재를 다룬 <persName role="other" xml:id="p-x78">최명란</persName>의「<title level="a" type="poem" xml:id="t-x60">내 친 구 야간 대리운전사</title>」, 구내식당에서 이천오백원짜리 밥을 먹는 가난한 사내의 소시민적 삶을 그린 <persName role="other" xml:id="p-x79">이용임</persName>의「<title level="a" type="poem" xml:id="t-x61">엘리펀트맨</title>」, 실직의 고통을 경쾌한 상상력을 이용하여 역설적으로 표현한 <persName role="poet" xml:id="p-x80">김륭</persName>의「<title level="a" type="poem" xml:id="t-x62">구름에 관한 몇 가지 오해</title>」를 제외하곤 시대적 요소가 부각되지 않는다.</s>
+          <s>하지만 이 작품들이 개인적인 삶의 고통이나 상처를토로하는방식과달리 4대리운전' , '<term type="concept">실직</term> 같은사회적이고보편적인 문제에 관해 말하기 시작했다는 것은 <interp value="affirmative" ana="사회">의미 있는 변화이다</interp>.<date when="2008">2008년</date> 당선작들은 미미하게나마 시적 경향에 변화가 생겼음을 보여준다.</s>
+          <s><persName role="poet" xml:id="p-x81">이은규</persName>, <persName role="critic" xml:id="p-x82">정은기</persName>, <persName role="poet" xml:id="p-x83">박미산</persName>, <persName role="poet" xml:id="p-x84">이선애</persName>, <persName role="poet" xml:id="p-x85">문정</persName>의 작품들이 과거, 고통, <term type="concept">가난</term> 등을 호출 하는 전통적인 방식의 상상력에 충실하다면, <persName role="poet" xml:id="p-x86">유희경</persName>과 <persName role="poet" xml:id="p-x87">이제니</persName>의 작품은 다른 작품들과는 다른 질감을 드러내고 있다.</s>
+          <s>이 다른 질감 의 정체를 명확하게 설명하기는 어렵지만, “<quote type="direct" genre="poet" source="이제니, 페루">고향에 대해 생각하는 자의 비애는 잠시 접어두자</quote>」（이제 니,「<title level="a" type="poem" xml:id="t-x63">페루</title>」）라는 진술처럼 익숙한 정서와 관념의 바깥에서 <interp value="affirmative" ana="미학">낯선 가능성을 찾으 려는 고유한 감각이라고 말해도 좋을 듯하다</interp>.</s>
+        </p>
+        <p>
+          <s>하지만 이러한 감각이 일반화된 것은 아니었다.</s>
+          <s><date when="2009">2009〜2010년</date> 당선작들의 전반적인 경향은 익숙한 형식과 언 어를 통해 개인의 경험과 감정을 토로하는 방식을 취하고 있는데, 지하도의 걸 인을 시적 대상으로 삼은 <persName role="poet" xml:id="p-x88">양수덕</persName>의「<title level="a" type="poem" xml:id="t-x64">빞피쉬</title>」와 <title level="a" type="poem" xml:id="t-x65">가난한 가족</title>의 음울한 일상을 비 리 얼리즘적 방식으로 그린 <persName role="poet" xml:id="p-x89">이우성</persName>의「가난한 가족」, <term type="concept">불안</term>을 형상화한 <persName role="other" xml:id="p-x90">성은주</persName> 의「<title level="a" type="poem" xml:id="t-x66">풀터가이스트</title>」, 청춘의 불안과 고뇌를 시화儲化）한 <persName role="poet" xml:id="p-x91">강윤미</persName>의「골목의 각 질」에서는 시대의 흔적이 한층 뚜렷하게 확인된다.20口년 당선작인 <persName role="poet" xml:id="p-x92">신철규</persName>의「<title level="a" type="poem" xml:id="t-x67">유빙</title>」과 <persName role="critic" xml:id="p-x93">정창준</persName>의「<title level="a" type="poem" xml:id="t-x68">아버지의 발화점</title>」은 흥미로 운 대조를 보여준다.</s>
+          <s><persName ref="#p-x92">신철규</persName>의 시는 유빙 이라는 소재를 통해 나 와 당신 이 반대방향으로 떠내려가는 운명에 비유하여 이별에 대해 말하고 있고, 정창 준의 시는 <quote type="direct" genre="poet">^거미집보다 더 가늘고 위태로운 집</quote>”에 살면서 배추값과 대학등록금 을 걱정하면서 <term type="concept">가난</term>한 부자（父子）의 그늘진 삶에 대해 말하고 있다.</s>
+          <s>전자에서 는 <date from="2000" to="2009">2000년대</date> 시의 개성적이고 <term type="concept">개인주의</term>적인 면모가, 후자에서는 <term type="concept">철거민</term> 이 라는 사회적 • 정치적인 문제에 관심을 표하는 태도가 돋보이는데, 흥미롭게도 이들 두 경향은 <date when="2010">2010년</date>을 전후한 시기 시단露戲의 화두이기도 했다.</s>
+          <s>그러니 까 <date from="2000" to="2009">2000년대</date>의 첫 십년을 지나면서 신춘문예 당선작들의 시풍과 경향은 조금 씩 바뀌었고, 최근 몇 년 시단에서는 '정치 이야기가 화두가 되면서 새삼 주목 받기 시작한 <term type="concept">사회학적 상상력</term>이 응모자들의 고단한 삶이나 그들의 시선에 포 착된 세계의 모습과 겹쳐지는 현상이 나타나고 있는 것이다.</s>
+          <s>하지만 이러한 현 상은 결코 일반적이지 않으며, 또한 시간이 지남에 따라 더 확대되지도 않는 다.</s>
+          <s>최소한 신춘문예 시 당선작은 미미하게나마 <date from="2000" to="2009">2000년대</date> 젊은 시의 영향이 확인되지만, 그 영향이 전면적으로 드러나지는 않는다, <date when="2012">2012년</date> 당선작 가운데 주목한 작품은 <persName role="scholar" xml:id="p-x94">한명원</persName>, <persName role="critic" xml:id="p-x95">류성훈</persName>, <persName role="poet" xml:id="p-x96">안미옥</persName>의 작품이다.</s>
+          <s><persName ref="#p-x94">한명원</persName>의「<title level="a" type="poem" xml:id="t-k">조련사 K</title>」는 동물원 이라는 공간에서 벌어지는 일을 극적 구성을 통해 진술하고 있는데,“<quote type="direct" genre="poet">조련으로 청춘을 보낸 k는 결국, 야생을 놓치고 말았다.</quote></s>
+        </p>
+        <p>
+          <s>”라는 진술처럼 그것 은 현대 사회의 불합리한 단면을 드러내기 위한 방법의 하나이다.</s>
+          <s><persName ref="#p-x96">안미옥</persName>의 「<title level="a" type="poem" xml:id="t-j">나의 고아원J</title>과「<title level="a" type="poem" xml:id="t-x69">식탁에서</title>」는 바람이 스쳐 지나가는 삶의 이면을 상처를 통해 접근하고 있으나 그것이 <term type="concept">시대적 징후</term>라는 근거는 어디에서도 발견되지 않는 다.</s>
+          <s><persName ref="#p-x95">류성훈</persName>의 작품도 마찬가지이다.「<title level="a" type="poem" xml:id="t-x70">월면 채굴기</title>」는 아버지의 병과 삶에 관한 성찰적 진술을 '아버지의 머릿속/돌헹이 와 캥도를 파 들어가는 굴착기의 관 계로 비유한 <interp value="neutral" ana="미학">돋보이는 작품인데, 작품의 제재와 발화방식은 매우 익숙하고 안 정감 있는 방식을 취하고 있다.</interp></s>
+          <s>이러한 경향은 <date when="2013">2013년</date> 당선작에서도 동일하게 나타난다.</s>
+          <s><persName role="other" xml:id="p-x97">이병국</persName>의「<title level="a" type="poem" xml:id="t-x71">가난한오늘</title>」과 <persName role="other" xml:id="p-x98">이해존</persName>의「<title level="a" type="poem" xml:id="t-x72">녹번동</title>」은 가난에 형상을 부여 하는 방식을 택했고, <persName role="critic" xml:id="p-x99">김준현</persName>의「<title level="a" type="poem" xml:id="t-x73">이끼의 시간</title>」은 미성년기의 음울했던 내면을 몇 개의 이미지로 형상화하고 있다.</s>
+          <s>결론적으로 이렇게 말할 수 있겠다.</s>
+          <s><date when="2003">2003~2013년</date> <term type="concept">신춘문예</term> 시 당선작은 비록 몇몇 변화의 조짐들이 나타났지만 여전히 유년, 과거, 가족, 질병, <term type="concept">고통</term>, <term type="concept">가난</term>, 이별 같은 보편적인 정서를 환기하 는 경우가 지배적이었고, 가난 과 '고통' 역시 <term type="concept">새로운 빈곤(New poor)</term>보다는 한층 일반적인 의미인 경우가 훨씬 많았다.32 신춘문예 당선작들의 경향: 소설의 경우（표6）스타일의 변화에 민감한 '시' 와 달리 소설 은 소재나 주제의 변화에 민감하 다.</s>
+          <s>소설의 변화는 언어와 분위기, 그리고 소채나 주제의 변화로 시작된다.</s>
+        </p>
+        <p>
+          <s>특 정 시기의 문학적 상상력을 통해 한 시대의 집단적 의식이나 세계관 등을 추출 할 때 <term type="concept">소설</term>'이 선호되는 이유도 여기 있다.</s>
+          <s>물론 이러한 일반화로 설명되지 않 는 작품들, 특히 시의적인 현실과는 전혀 다른 것에 관해 진술하는 소설들도 있다.</s>
+          <s>그럼에도 불구하고 <term type="concept">신춘문예</term> 당선작들에서 나타나는 소재나 주제의 변 화는 특정한 시기의 문학, 즉 소설이 어떤 문제에 관심을 쏟았는가를 말해준 다.</s>
+          <s>비록 그 변화가 당선작과 일치하지 않는 때도 있지만<date when="2003">2003년</date>「<title level="j" type="newspaper" xml:id="t-x74">서울신문</title>』소설부문 심사평에는 본심에 오른 대부분의 작품들이 «<quote type="direct" genre="critic" source="서울신문 소설부문 심사평">가족 파탄에서 드러나는 인간의 고독과 소외</quote>* 같은 최근의 경향을 반복하고 있다는 지적이 등장한다.</s>
+          <s>이는 <term type="concept">외환위기</term> 이후에 나타난 두 가지 문학적 경향 - <term type="concept">실업</term>과 미취업에서 발생하는 <term type="concept">가난한 삶</term>과 경제적인 이유로 <term type="concept">가정이 파탄</term>에 이 르거나 가족들이 흩어져 사는 현실 - 이 지속되었다는 의미이다.</s>
+          <s><date when="2003">2003년</date> 신춘 문예 당선작을 살펴보자.</s>
+          <s><persName role="other" xml:id="p-x100">장혜련</persName>의「<title level="a" type="novel" xml:id="t-x75">구멍</title>」은 젊은 세대의 정신적인 방황을 피 어싱과 성적 일탈을 통해 조명했고, <persName role="poet" xml:id="p-x101">김나정</persName>의「<title level="a" type="novel" xml:id="t-x76">비틀즈의 다섯번째 맴버</title>」는 바닷가 작은 도시 여인숙을 배경으로 소녀와 은인이면서 동시에 악인인 남자의 비윤리적 관계를 중심으로 선의로 포장된 인간의 추악한 욕망을 폭로한다.</s>
+          <s>이 정은의「<title level="a" type="novel" xml:id="t-x77">독어</title>」는 한 여자의 내적 상처를 바다낚시 라는 소재를 통해 묘사하고 있는데, 이 상처의 중핵에 <term type="concept">가족의 붕괴</term>가 자리하고 있다.</s>
+        </p>
+        <p>
+          <s><persName role="critic" xml:id="p-x102">백진</persName>의「<title level="a" type="novel" xml:id="t-x78">무스타파</title>」는 혼종적 공간인 이태원을 이슬람 사원의 시각에서 다룸으로써 <term type="concept">타자성</term>）' 문제 를 환기하고 있으며, <persName role="other" xml:id="p-x103">임청연</persName>의「<title level="a" type="novel" xml:id="t-x79">이칸비행</title>」은 해체의 길로 내닿는 가족의 모습 을 그리고 있다.</s>
+          <s>이처럼 <date when="2003">2003년</date> 당선작들은 젊은 세대의 <term type="concept">방황과 상실감</term>, <term type="concept">가족 해체</term>와 <term type="concept">가난</term>, <term type="concept">타자의 시선</term> 같은 문제를 집중적으로 다루었는데, 이는 <interp value="affirmative" ana="문학관">소설 당 선작이 시 당선작에 비해 한층 현실의 변화에 예민하게 반응했다는 의미기도 하다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="문학관">현실의 변화에 대해 적극적으로 반응하고 개입하려는 태도는 2004년 당선 작들에서 한층 뚜렷하게 드러난다.</interp>
+          </s>
+          <s><persName role="other" xml:id="p-x104">정영</persName>의「<title level="a" type="novel" xml:id="t-x80">자양강장제</title>」는 강력한 <term type="concept">세태풍자</term>를 통해 서술자의 시선을 현실보다 높은 곳에 위치시키며, <persName role="other" xml:id="p-x105">허혜란</persName>의「<title level="a" type="novel" xml:id="t-x81">독</title>」은 <term type="concept">가난</term> 한 가족의 절망적인 삶을 통해 이곳을 절망적 인 세계로 묘사하고 있다.</s>
+          <s><persName role="other" xml:id="p-x106">이우현</persName> 의「<title level="a" type="novel" xml:id="t-x82">덫</title>」은 <term type="concept">신용불량</term>과 <term type="concept">비정규직</term>으로 가득한 암울한 시대에 광범위하게 진행되 는 <term type="concept">가족 붕괴</term>와 대면했고, <persName ref="#p-x105">허혜란</persName>의「<title level="a" type="novel" xml:id="t-x83">내 아버지는 서울에 계십니다</title>」는 우즈베 키스탄（샤흐리샵스）을 배경으로 빚을 얻어 서울로 향하는 고려인들과 <term type="concept">이주노 동자</term> 문제를 다루었다.</s>
+          <s><persName ref="#p-x56">김미월</persName>의「<title level="a" type="novel" xml:id="t-x84">정원에 길을 묻다</title>」는 온라인-오프라인의 경 계가 사라지는 현실을 배경으로 옥상에 공중정원을 가꾸는 것으로 자신의 존 재를 증명하려는 인물을 등장시켜 젊은 세대의 눈에 비친 세상을 그리고 있다.</s>
+          <s>한편 <persName role="critic" xml:id="p-x107">김효동</persName>의「<title level="a" type="novel" xml:id="t-x85">호박</title>」은 늦가을 저녁 문경새재 정상에서 유성우를 관측하는 손 자와 장애인 할아버지를 등장시켜 <term type="concept">외로움</term>의 기원을 추적한 작품이고, <persName role="other" xml:id="p-x108">주정미</persName> 의「<title level="a" type="novel" xml:id="t-x86">곤드와나</title>」는 남극기지라는 극단적인 상황 속에서 <term type="concept">고독</term>과 <term type="concept">절망</term>을 이겨나가 는 인물의 삶을 다룬 작품이다.</s>
+          <s>
+            <interp value="neutral" ana="미학">김효동과 주정미의 작품이 인간 본연의 공통적 인 감정에 뿌리를 내리고 있는 반면, 나머지 당선작들은 저마다의 시각에서 현 실을 묘파하고 있다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>흥미롭게도 이들의 작품에는 <term type="concept">절망적인 현실</term>의 출구가 이미 봉쇄되었거나 처음부터 없는 것으로 인식된다.</s>
+          <s>이러한 소설적 경향의 특징 은 <date when="2005">2005년</date> 당선작들에서도 동일하게 반복되고 있다.2005년「<title level="j" type="newspaper" xml:id="t-x87">경향신문</title>」소설부문 심사위원들은 심사평에서 “<quote type="direct" genre="critic" source="경향신문 소설부문 심사평">작품들이 대체로 어둡다.</quote></s>
+          <s>특히 본심에 오른 9편의 작품 가운데서, 3편에서 어머니는 어린 자식 을 버리고 떠났으며, 2편에서 남편이나 아내는 버림을 받고 홈리스가 되었다.</s>
+          <s>이건 우연이 아니라, <quote type="direct" genre="critic" source="경향신문 소설부문 심사평">순수하고 젊은 감수성이 자신도 모르게 드러내게 된 우리 사회의 황폐와 위기가 아닐까라는 생각을 하게 된다.</quote></s>
+          <s>”라고 <interp value="affirmative" ana="사회">인상적인 평가를 내 리고 있다.</interp></s>
+          <s><persName role="critic" xml:id="p-x109">반수연</persName>의「<title level="a" type="novel" xml:id="t-x88">메모리얼 가든</title>」은 제목처럼 <term type="concept">죽음</term>과 징려］가 이야기를 이 끌어간다.</s>
+          <s>이 소설은 캐나다에서 장례 코디네이터와 묘지 세일즈맨을 겸하고 있는 이민자 남성과 묏자리를 사러온 노인의 모습을 통해 떠도는 삶에 대해 이 야기하고 있다.</s>
+          <s><persName role="scholar" xml:id="p-x110">류은경</persName>의「<title level="a" type="novel" xml:id="t-x89">가위</title>」는 “<quote type="direct" genre="critic">소중한 것을 잃은 충격에 사이가 멀어진 부부가 화해하는 이야기</quote>”（심사평）가 주제이다.</s>
+        </p>
+        <p>
+          <s>결말부에서 아내는 새로 구입한 가위로 남편의 머리를 깎아주는데 이러한 결말 설정은 최근 소설의 경향에서 는 좀체 찾아보기 어려운 <term type="concept">화해</term>의 방식이다.</s>
+          <s><persName role="poet" xml:id="p-x111">송욱영</persName>의 '<title level="a" type="novel" xml:id="t-x90">피</title>」는 <date from="2000" to="2009">2000년대</date>의 소설 적 경향 가운데 하나라 말할 수 있는 <term type="movement">그로테스크</term>의 전통을 이어받고 있다.</s>
+          <s>소 설의 주인공 나 는 <term type="concept">대타자</term>인 아버지에게 눌려 불행한 삶을살았으나 아버지가 중풍으로 쓰러진 뒤 아버지와 나의 권력관계는 완전히 역전된다.</s>
+          <s>아버지에 대 한 나의 거부감을 “<quote type="direct" genre="novel">나는 내 몸에 흐르고 있는 아버지의 피를 뽑아버리겠다는 말을 하며 주먹으로 콘크리트 벽을 쳤다</quote>「처럼 <term type="concept">혈연의 단절</term>로 사고하는 방식은 <persName role="novelist" xml:id="p-x112">김도언</persName>의『<title level="m" type="novel" xml:id="t-x91">악취미들</title>虱<date when="2006">2006</date>）을 연상시킨다.</s>
+          <s><persName ref="#p-x55">황정은</persName>의「<title level="a" type="novel" xml:id="t-x92">마더</title>」는 생모에게 버림 받은 채 병든 개와 동거하는 자살 사이트 회원의 이야기이고, <persName role="other" xml:id="p-x113">기노</persName>의「오프라 인□에는 아버지에게 학대를 당하는 어린 계집애와 나 가 준 인형을 남자, 즉 아버지로 바꾸어 복수하는 아이의 이야기이다.</s>
+          <s>
+            <interp value="neutral" ana="미학">이 소설들에서 현실은 한 줄기 희미한 빛조차 들지 않는 완전한 어둠의 세계로 인식된다.</interp>
+          </s>
+          <s>그곳은 오직 <term type="concept">힘과 권력</term>, 그리고 <term type="concept">피</term>의 이미지만이 떠다니는 <term type="concept">악몽</term>의 세계이다.</s>
+          <s><persName role="critic" xml:id="p-x114">정찬일</persName>의「<title level="a" type="novel" xml:id="t-x93">유령</title>」또 한 비슷한 맥락에서 읽을 수 있다.</s>
+        </p>
+        <p>
+          <s>r<title level="a" type="novel" ref="#t-x93">유령</title>」은 <term type="concept">유산</term>을 거듭하던 아내가 어느 날갑작스럽게 가출함으로써 <term type="concept">정신적 공황</term> 상태에 빠지는 한 남자의 이야기이다.</s>
+          <s>물론 이 소설은 남편이 아내의 흔적을 느끼는 방향으로 전개되지만, 아내는 부 재의 방식으로 존재하는 <term type="concept">유령</term> 같은 인물로 거듭난다.</s>
+          <s>한편 <persName role="poet" xml:id="p-x115">우승미</persName>의「빛이 스 며든 자리」는 이러한 <term type="concept">부정적 세계인식</term>과 달리 구렁긱시 만담과 피그말리온 전 설올 현대적 방식으로 재해석한 <term type="concept">예술가 소설</term>이다.</s>
+          <s>이렇게 보면 <date when="2005">2005년</date> 당선작 들에서 <term type="concept">세계의 부정성</term>은 주로 &gt;W 에서 시작되는데, 가족에 의한 폭력과 유 기, 그 결과로서의 <term type="concept">가족해체</term>가 그 핵심이다.21세기 첫 십 년의 절반을 지나면서 이른바 <term type="concept">사회학적 상상력</term>에 기초한 당선 작들이 눈에 띄게 늘었다.</s>
+          <s>이는 심사위원들의 선택 기준 때문이기도 하지만, 전반적인 심사평에서 반복적으로 확인되듯이 <interp value="affirmative" ana="사회">신예들이 사회적인 문제에 특히 민감하게 반응하고 있다는 의미이다.</interp></s>
+          <s><date when="2006">2006~2007년</date> 당선작 중 사회학적 상상 력이 눈에 띄는 작품은 다음과 같다.</s>
+          <s><persName role="novelist" xml:id="p-x116">박찬순</persName>의「<title level="a" type="novel" xml:id="t-x94">가리봉 양꼬치</title>」는 조선족 청년 이 서울 가리봉에서 꼬치구이를 팔아 코리안 드림을 이루어가는 과정을, 하지 만 애인의 배신과 조선족 깡패의 폭력 때문에 그 꿈이 좌절되는 과정을 통해 <term type="concept">이주노동자</term>의 문제를 제기했다.</s>
+          <s><date when="2007">2007년</date> 당선작인 <persName role="other" xml:id="p-x117">이은조</persName>의「우리들의 한글나 라」도 <term type="concept">이주노동자</term>가 한글을 배워 한국에서 자신의 꿈을 실현시키려 노력하는 과정을 그리고 있다.</s>
+        </p>
+        <p>
+          <s>다만 이 작품은 <term type="concept">이주노동자</term>가 <term type="concept">한글</term>을 습득하는 과정과 주 인공이 직업상 서체를 개발하는 과정을 대칭적으로 배열함으로써 언어, 한글 에 대한 다른 감각을 강조한다.</s>
+          <s>이 무렵 <term type="concept">이주노동자</term>와 <term type="concept">결혼이주자</term>의 등장으로 한국소설에 이주노동자가 등장하는 사례들이 급중했다.</s>
+          <s>실제로 <date when="2007">2007년</date> 당선 작 가운데 <persName role="other" xml:id="p-x118">유응오</persName>의「<title level="a" type="novel" xml:id="t-x95">요요</title>」와 <persName role="other" xml:id="p-x119">서진연</persName>의「<title level="a" type="novel" xml:id="t-x96">붉은 나무젓가락</title>」은 각각 흑인 혼혈아 와 재일교포를 등장시키고 있다.</s>
+          <s>왜 작가들은 표현하기도 어려운 이방인이나 <term type="concept">이주노동자</term>를 등장시키려는 것일까?</s>
+          <s>표면적으로 <term type="concept">이주노동자</term>라는 존재 자체가 문제시되고 있기 때문이기도 하지만, 그들 이방인의 시선을 통해 '여기' 에 대 해 비판하려는 것이 있기 때문일 것이다.</s>
+          <s><date from="2000" to="2009">2000년대</date> 소설의 <term type="concept">사회학적 상상력</term>에 서 빼놓을 수 없는 또 하나는 <term type="concept">노숙자</term> 문제이다.</s>
+          <s><persName role="novelist" xml:id="p-x120">김이설</persName>의『<title level="m" type="novel" xml:id="t-x97">열세 살</title>」은 바로 이문제를 파고든다.</s>
+          <s>이 소설의 주인공은 엄마와 함께 지하철에서 <term type="concept">노숙</term>을 하는 열세 &lt; 의 소녀이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">노숙자</term>인 M?</s>
+          <s>는 죄의식이나 수치심 없이 다른 <term type="concept">노숙자</term> 들에게 몸을 판다.</s>
+          <s>그녀에게서 우리가 발견할 수 있는 <term type="concept">욕망</term>의 진리는 이 세상 에 소유하지 못할 것들이 너무 많다는 사실이다.</s>
+          <s><persName ref="#p-x120">김이설</persName>의 소설은 연민 과 <term type="concept">공포</term> 의 가면을 모두 벗겼을 때 우리가 만나게 되는 <term type="concept">노숙자</term>의 맨얼굴을 폭로 한다.2008~2010년의 당선작들의 공통점은 <term type="concept">불안</term>, 공포, <term type="concept">결핍</term>을 품고 있는 인물들 의 자아 찾기이다.</s>
+          <s><term type="concept">청년실업자</term>, <term type="concept">노숙자</term>, <term type="concept">이주노동자</term> 등은 외환위기 이후, 또는 <term type="concept">신자유주의</term>의 경쟁 논리가 사회 전체로 퍼져나가면서 소설이 <term type="concept">사회적 약자</term>로 가장 많이 호출한 인물들이다.</s>
+          <s>
+            <interp value="affirmative" ana="사회">2000년대 소설의 한 축은 이들 존재에게 깊은 관심을 표시하면서 새로운 형태의 가난과 불평등을 비판해왔다.</interp>
+          </s>
+          <s>여기에 경제 적인 이유에서 발생하는 <term type="concept">가족 해체</term>와 개인의 존재감 상실 등을 추가할 수 있을 것이다.</s>
+          <s><date when="2009">2009년</date> 당선작 <persName role="novelist" xml:id="p-x121">김금희</persName>의「<title level="a" type="novel" xml:id="t-x98">너의 도큐멘트</title>」에서 아버지는 사업에 실패 한 후 루팽 이 되었다.</s>
+        </p>
+        <p>
+          <s>아빠는 빚쟁이들을 피하기 위해 출몰과 사라짐을 반복 하고, 엄마는 그런 아빠와 서류상으로는 남남이 되었다.</s>
+          <s>하지만 한때 친구, 친 척, 동료 등으로 불렸던 빚쟁이들은 엄마의 가게에까지 들이닥친다.</s>
+          <s><persName role="poet" xml:id="p-x122">진보경</persName>의 「<title level="a" type="novel" xml:id="t-x99">호모 리터니즈</title>」는 '<quote type="paraphrase" genre="novel" source="호모 리터니즈">잉여 로 전락한 존재들의 절박한 심정을 타인의 이름으로 살아가는 극단적인 상황을 통해 보여준다</quote>* 단 한 번도 한눈을 팔지 않고 오직 모범생으로만 착실하게 살아온 주인공은 산행에서 우연히 시체 한 구를 발견 한다.</s>
+          <s>소설의 전체 내용은 주인공이 죽은 사내와 자신의 주민등록증을 바꿔치 기 함으로써 자신의 삶에서 최초로 이탈하게 된다는 이야기이다.</s>
+          <s>주인공의 판 단은 한편으로는 낯선 사내의 삶을 홈치는 행위이지만, 다른 한편으로는 자신 의 초라한 인생을 버리는 행위이기도 한 주인공의 선택은 과거의 자신을 죽음 에 이르게 하는 선택이기도 하다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">그러나 2010년 당선작들은 이러한 경향에 변화가 시작되었음을 보여주었다.</interp>
+          </s>
+          <s>예컨대 <persName role="scholar" xml:id="p-x123">박지영</persName>의「<title level="a" type="novel" xml:id="t-x100">청소기로 지구를 구하는 법</title>」은 타락해버린 지구를 쓸어버리려는 충동을 가진 한 남자가 세상을 따뜻한시선으로 바라보게 되기까지의 과정을 다룬 작품이다.</s>
+          <s>그는 먼지를 다 빨아들 이면 지구도 사라질 것이라는 헛된 믿음을 껴안고 무가치한 일상을 견디다 청 소를 잘 하면 지구도 재활용이 가능할지도 모른다는 낙관적 믿음을 갖게 된다.</s>
+        </p>
+        <p>
+          <s>하지만 이 작품만을 내세워 <term type="concept">변화</term>를 입증하기는 어렵다.</s>
+          <s><persName role="other" xml:id="p-x124">이지원</persName>의「<title level="a" type="novel" xml:id="t-x101">얼음의 요 정</title>」에 등장하는 얼음 위에 누워있는 병자들을 치료하는 요정이라는 상상력.</s>
+          <s>애 완견, 아내와 아들에 대한 사랑의 의미를 그린 <persName role="critic" xml:id="p-x125">연규상</persName>의「<title level="a" type="novel" xml:id="t-x102">개가 돌아오는 저녁</title>」, 아내의 살인범죄와 외도를 받아들이지 않기 위해 안면인식장애라는 방어기제 를 행사하는 형사 남편의 변신을 그린 <persName role="other" xml:id="p-x126">이유</persName>의「<title level="a" type="novel" xml:id="t-x103">낯선 아내</title>」, 동물원 사육사인 화자와 침팬지의 동일시가 돋보이는 <persName role="poet" xml:id="p-x127">김은아</persName>의「<title level="a" type="novel" xml:id="t-x104">당신의 자장가</title>」등은 <term type="concept">분열화</term>와 <term type="concept">파편화</term>를 통해 <term type="concept">출구 없는 삶의 불화</term>를 그리던 이전의 소설적 경향과 차별화를 시도하고 있다.</s>
+          <s>하지만 유년의 결핍을 극복하고 사회에 뿌리내리는 데 성공한 한 상담원이 겪게 되는 불안과 공포의 내면을 통해 현대사회의 <term type="concept">디스토피아적 인 얼굴</term>을 그린 <persName role="poet" xml:id="p-x128">김미수</persName>의「<title level="a" type="novel" xml:id="t-x105">미로</title>」, 동물원이라는 공간을 내세워 현대사회의 단 면을 비판 시선으로 묘파한 <persName role="other" xml:id="p-x129">이은선</persName>의「<title level="a" type="novel" xml:id="t-x106">붉은 코끼리</title>」등에서는 <interp value="neutral" ana="문학관">변화보다 지속의 힘이 느껴진다</interp>.</s>
+          <s>하지만 <interp value="critical" ana="문학관">이런 변화가 지속되리라는 믿음은 어리석다</interp>.</s>
+          <s>최근의 <term type="concept">신춘문예</term> 소설 당선작들에는 일정한 패턴이 있다.</s>
+          <s>한 인물의 일상적 삶과 공간적 상징을 통해 현대사회의 단면을 드러낸다는 게 그것이다.</s>
+          <s><date when="2011">2011년</date> 당선작 대부분도, 물론 인물과 사건의 설정은 각자의 개성에 따라 다르지만, 이런 맥락에서 이해할 수 있다.</s>
+        </p>
+        <p>
+          <s><persName role="poet" xml:id="p-x130">설은영</persName>의「<title level="a" type="novel" xml:id="t-x107">집시, 달을 굽다</title>」는 가난한 20대의 일상을통해서, <persName role="poet" xml:id="p-x131">라유경</persName>의「<title level="a" type="novel" xml:id="t-x108">낚시</title>」는자신의 방에서 타이핑 아르바이트로 생계를 해결하고 실내낚시터가 외출의 전부인 폐쇄적인 인물을 통해서, <persName role="novelist" xml:id="p-x132">백수린</persName>의「<title level="a" type="novel" xml:id="t-x109">거 짓말 연습</title>」은 배달되지 않는 입학허가서, 이국노인과의 대화 파업 등 소통이 불가능한 상황을 통해서, 그리고 <persName role="other" xml:id="p-x133">천재강</persName>의「<title level="a" type="novel" xml:id="t-x110">켄타우로스의 시대</title>」는 모든 것이 비즈니스로 변해버린 상황을 통해 <term type="concept">현대사회</term>를 조명한다.</s>
+          <s><term type="concept">현대사회</term>의 <term type="concept">비판적 형상화</term>라는 문제의식은 <date when="2012">2012년</date> 당선작에서도 동일하게 나타난다.</s>
+          <s><persName role="other" xml:id="p-x134">안숙경</persName>의 「<title level="a" type="novel" xml:id="t-x111">삼각조르기</title>」는 <term type="concept">생존경쟁</term>에 내몰린 직장인의 모습을 격투기 선수에 비유한다.</s>
+          <s>주인공 나 는 "매사가 소심하고 결단력이 부족해서 회사에서도 <term type="concept">감원</term>의 대상” 이 된 초식남이다.</s>
+          <s>그런 그가 한 여자의 권유로 격투기에 빚대어 <term type="concept">자기 계발서</term> 를 쓴다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 작품이 다른 소설들과 다른 점은 이 고통스러운 경쟁과 비정한 사 회 현실을 다소 유머러스하게 그렸다는 점이다.</interp>
+          </s>
+          <s><persName role="novelist" xml:id="p-x135">김혜진</persName>의「<title level="a" type="novel" xml:id="t-x112">치킨 런</title>」의 주인공 은 치킨과 피자를 배달하는 청년이다.</s>
+          <s>어느 날 그에게 한 손님이 자신의 자살 을 도와주면 상당한 사례를 하겠다는 제안을 해온다.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="affirmative" ana="미학">이 소설은 죽음을 강요당 하는 현대사회의 모순적 현실을 날카롭게 파고들었는데, 전체적으로 비판적 시선에 비해 유머러스한 느낌이 한층 두드러진다.</interp>
+          </s>
+          <s>현대사회의 비판적 형상화 라는 점에서는 동일하지만, <persName role="novelist" xml:id="p-x136">강화길</persName>의「<title level="a" type="novel" xml:id="t-x113">방</title>」은 <persName ref="#p-x134">안숙경</persName>과 <persName ref="#p-x135">김혜진</persName>의 시선과는 극단 적으로 다르다.</s>
+          <s><persName ref="#p-x134">안숙경</persName>과 <persName ref="#p-x135">김혜진</persName>의 소설은 지극적인 현실을 희극적으로 접근 함으로써 <term type="concept">일상화된 비참</term>을 견딜만한 것으로 만들었으나, <persName ref="#p-x136">강화길</persName>의 소설에서 그것은 <term type="concept">출구 없는 삶의 불가능성</term>으로 드러나기 때문이다.</s>
+          <s><persName ref="#p-x136">강화길</persName>의「<title level="a" type="novel" ref="#t-x113">방</title>」은 도 시에 들이닥친 <term type="concept">재난</term>을 소재로 하고 있다 ^<quote type="direct" genre="novel" source="방">다음 날, 도시에 봉쇄령이 내렸다.</quote></s>
+          <s>
+            <quote type="direct" genre="novel" source="방">아침저녁으로 트럭들이 돌아다니며 도시 밖으로 나가려는 사람을 잡아 태웠 다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="novel" source="방">전염병 때문이라고 했다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="novel" source="방">트럭의 사이렌 소리가 도시를 끊임없이 울렸다.</quote>
+          </s>
+          <s>” 주인공 수연과 나 는 <term type="concept">재난</term> 상황을 타개하기 위해 정부가 높은 임금을 지급하 고 모집하는 구인공고를 보고 도시로 간다.</s>
+        </p>
+        <p>
+          <s>하지만 그들은 전구 옆까지 곰팡이 가 번지고, 끝내 전기마저 끊기는 좁은 방에서 생의 마지막을 맞이한다.</s>
+          <s>이는 <term type="concept">파국적인 현실</term>에 어떠한 가능성도 존재하지 않는다는 의미이다.</s>
+          <s>텍사스촌 이 야기를 통해 주변인의 삶을 보여준 <persName role="critic" xml:id="p-x137">김가경</persName>의 r<title level="a" type="novel" xml:id="t-x114">흥루</title>」, 왕따' 문제를 미술 이 라는 관점에서 재해석한 <persName role="other" xml:id="p-x138">김종옥</persName>의「<title level="a" type="novel" xml:id="t-x115">거리의 마술사</title>」또한 개성적인 방식으로 <term type="concept">현 대사회의 균열</term> 지점에 주목했다.</s>
+          <s>소설에서 <term type="concept">현대사회 비판</term>은 항상 그 속에서 고통 받는 인간의 내면과 함께 그 려진다.</s>
+          <s>사회 와 개인 가운데 어느 쪽에 방점을 찍느냐에 따라 사회를 통해 개인을 조명하거나, 개인을 통해 사회를 드러내는 방식의 차이가 생기기 마련 이다.</s>
+          <s><persName role="other" xml:id="p-x139">유희란</persName>의「<title level="a" type="novel" xml:id="t-x116">유품</title>」은 혼자 살다가 죽은 사람들의 유품을 정리하는 <term type="concept">고독사</term>유품정리의 문제를 매개로 <term type="concept">인간존재의 근원적 고독</term>에 대해 물음을 던진다.</s>
+          <s>새 로운 죽음의 형식인 <term type="concept">고독사</term>는 물론 현대사회의 음울한 단면 가운데 하나이지 만 이 작품에서 <persName ref="#p-x139">유희란</persName>은 <term type="concept">인간의 고독</term>이라는 문제에 더 많은 비중을 두고 있 다.</s>
+          <s><persName role="other" xml:id="p-x140">조수경</persName>의「<title level="a" type="novel" xml:id="t-x117">젤리피시</title>」역시 성인용품 판매점에서 일하는 장애 여성의 균열 된 내면을 통해 현대인의 조각난 삶을 드러내고, <persName role="scholar" xml:id="p-x141">조영한</persName>의「<title level="a" type="novel" xml:id="t-x118">무너진 식탁</title>」은 아 이가 정체불명의 오토바이에 치이는 사건을 내세워 폭력에 무방비로 노출된 현대인의 왜소한 모습을 그려내고 있다.</s>
+        </p>
+        <p>
+          <s>최근의 당선작들이 보여주는 이러한 공통점은 <term type="concept">현대사회</term>에서 소설의 위치를 극명하게 보여주는 사례라고 말할 수 있다.</s>
+          <s>물론 <term type="concept">현대사회</term>를 비판하는 것이 소설의 전부는 아니다.</s>
+          <s><term type="concept">펑크록</term>‘ 이라는 소재를 사용하여 한 시대，즉 <date when="1900">20세기</date>의 종언과 과거에 대한 애도 과정을 형상 화한 <persName role="other" xml:id="p-x142">송지현</persName>의「<title level="a" type="novel" xml:id="t-x119">펑크록스타일 빨대디자인에 관한 연구</title>」는 우리에게 소설의 또 다른 역할을 제시하고 있다.4.</s>
+          <s><term type="concept">뜨거운 연대</term>'뜨거운' 연대(age)라는 말이 있다.</s>
+          <s><orgName xml:id="org-x16">프랑스</orgName>의 인류학자 C.</s>
+          <s><persName role="foreigner" xml:id="p-x143">레비스트로스</persName>는 특 정한 물리적 길이로서의 시간보다 그 내부에 사건이 얼마나 많이 있었는가에 따라 특정한 연대에 <term type="concept">차가운</term> 과 <term type="concept">뜨거운</term> 같은 형용사를 붙였다.</s>
+          <s>그의 개념을 빌려 말하면, <term type="concept">지난 10년의 한국문학</term>은 그 어느 때보다 <term type="concept">뜨거운 연대</term>를 살아왔 다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">다양한 문학적 경향의 분화가 있었고, 시 • 소설•평론 모두에서 확실한 세 대교체가 있었으며, 한국문학사에서 유래를 찾기 어려울 만큼 많은 작품이 생 산되었다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>이러한 변화와 함께 <term type="concept">한국문학</term>의 성격과 방향에 대한 논의도 꾸준히 이어졌다.</s>
+          <s>특히 <term type="concept">세계문학</term>, <term type="concept">장르문학</term>, <term type="concept">이방인</term>, <term type="concept">월경鮭境)</term>, <term type="concept">윤리</term>, <term type="concept">정치</term> 등을둘러 싸고 벌어진 논쟁은 90년대까지를 지탱하던 <term type="concept">한국문학</term>의 기반과 무의식에 어느 정도의 변화가 생겼음을 보여주었다.</s>
+          <s>아울러 이러한 변화는 지난 第년간의 신 춘문예 당선작의 경향을 이끌어왔다고 말해도 좋을 것이다.</s>
+          <s>예전에는 신춘문예 당선작의 상당수가 가족과 성장에 관한 이야기였다.</s>
+          <s>하지만 90년대 후반을 지나면서 특히 소설에서 <term type="concept">백수</term>, <term type="concept">실업</term>, <term type="concept">가족해체</term>, <term type="concept">잉여</term>의 곤란함을 토로하는 <term type="concept">88 만원 세대</term>의 <term type="concept">자기고백적 글쓰기</term>가 집중적으로 나타났고, 최근으로 올수록 <term type="concept">88 만원 세대의 고백적 글쓰기</term>보다는 현대사회를 비판하려는 움직임이 한층 뚜렷 해졌다.</s>
+          <s>물론 문학의 궁극적 목표가 비판은 아니기 때문에 그것이 어느 방향으 로 흘러가는가에 대한 논의도 필요할 것이다.</s>
+          <s>즉 누군가는 비판을 강조하지만 또 누군가는 극복을 강조하고, 누군가는 사태 자체를 고백적으로 환기하지만 또 누군가는 소설을 통해 위로를 시도한다.</s>
+          <s>
+            <interp value="neutral" ana="사회">누군가는 현대사회를 비판적으로 형상화함으로써 그 세계에서 벗어날 출구를 모색하려 하지만, 또 다른 누군가 는 그 세계에는 출구 같은 것은 없다는 절망감을 보여준다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>이러한 차이가 결 국 <term type="concept">시</term>와 <term type="concept">소설</term>에서 질감의 차이로 드러날 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="사회">분명한 것은 이 '뜨거운' 연대 의 에너지가 시대와의 '불화 에서 비롯되었다는 것은 긍정적으로 평가할 만한 일이다.</interp>
+          </s>
+          <s><persName role="poet" xml:id="p-x144">고 붕 준</persName> I <date when="2000">2000년</date>「<title level="j" type="newspaper" ref="#t-x74">서울신문</title>」신춘문예로 등단.</s>
+          <s>평론집 <title level="m" type="critic" xml:id="t-x120">반대자의 윤리</title>箝 1<title level="m" type="critic" xml:id="t-x121">다른 목소리들</title>』, <title level="m" type="critic" xml:id="t-x122">유 령들</title>j이 있음.</s>
+          <s>현재 **<orgName xml:id="org-x17">문학선</orgName>, 편집위원.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

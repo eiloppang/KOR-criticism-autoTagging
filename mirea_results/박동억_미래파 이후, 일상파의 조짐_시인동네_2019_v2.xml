@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>미래파 이후, 일상파의 조짐</title>
+        <author>박동억</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>•<persName role="critic" xml:id="p-x">박동억</persName>L <term type="movement">미래파</term>는무엇이었나-<persName role="critic" xml:id="p-x2">박슬기</persName> 평론가의 비평집 r<title level="m" type="critic" xml:id="t-x">누보바로크</title>』（<orgName xml:id="org-x">민음사</orgName>,<date when="2017">2017</date>）작년 가을 무렵부터 두드러지는 현대시의 특징 중하나는 <term type="concept">수사의 폐기</term>이다.</s>
+          <s>몇몇 시인들의 시에서 <term type="concept">소박하고 명료한 진술</term>, <term type="concept">사소설</term>을 연상케 하는개인 체험의 반영，일상적 풍경의 묘사동 이 두드러진다.</s>
+          <s>몇몇 시인에게만나타나던 이러한조짐이 을해에 는상당수의 <term type="concept">젊은 시인</term>에게 발견되면서,하나의 질문을 던져야하 는시점으로보인다.</s>
+          <s><date from="2000" to="2009">2000년대</date> 이래 창작과 비평 양쪽에 모두 깊 은 영향을 미치던 스타일, 이른바 <term type="movement">미래파</term>라는 계보에서 벗어나는 새로운 스타일이 등장하고 있는 것일까곧장 이 질문을 해명하지는 않겠다.</s>
+          <s>몇 가지 이유가 있다.</s>
+          <s>먼저 '<term type="concept">미래파 이후</term>'를 물으려면, 일단 미래파가무엇인지 규정하 는작업이 필수적이다.</s>
+          <s><term type="movement">미래파</term>의 범주를 규정할 수 없다면, 애초 에 그것의 시작과 끝을 말한다는 것은 불가능한 일이기 때문이다.</s>
+          <s>그리고 무엇보다 중요한 것은 <interp value="neutral" ana="미학">단순히 미학적 스타일이 변화했다 고 해서 미 래파로부터 '벗어났다'라고 단정하기 어 렵다는 측면이다.</interp></s>
+        </p>
+        <p>
+          <s>이는 미 래파의 특수성으로부터 기인한다.</s>
+          <s>본래 <term type="movement">미래파</term>라는 이 름으로 일컬어졌던 시인들을 한데 묶는 것은 어렵다.</s>
+          <s>몇 가지 미 학적 특징, 예컨대 장황한 산문체，만화적이거나 환상적인 이미 지, 시인과 무관한 화자 설정 등을 나열할 수는 있지만, 이러한문 체와 문법의 범주 설정으로 미 래파를 규정하는 것은 미 래파의 본 질을 제대로 이해하지 못한 것이다得<persName ref="#p-x2">박슬기</persName> 평론가의 비평집 1r<title level="m" type="critic" ref="#t-x">누보 바로크</title>!（<orgName ref="#org-x">민음사</orgName>,<date when="2017">2017</date>）는 미 래파에 관한 중요한설명 방식을 제시한다.</s>
+          <s>일단 그의 비평이 <date from="2000" to="2009">2000 년대</date> 등장한 미 래파와 <date from="2010" to="2019">2010년대</date> 시를 잇는 가교 역할을 하고 있다 는 사실을 주목하자.</s>
+          <s>그의 논의에 따르면, <date from="2010" to="2019">2010년대</date> 시까지 지속 하는 <term type="movement">미래파</term>의 특수성은 시의 미학적 특징이 아닌 시인의 위치（혹 은시와 시인의 관계）로부터 발견된다.</s>
+          <s>시인은본래 자신의 마음과 체험을타인에게 언어로 전한 다 언어를 통해, 서로 다른사람이 공감하고, 마음의 보편성을 획 득하는 것, 이는 <term type="concept">서정시</term>의 본질이다.</s>
+          <s>그러나 <date from="2000" to="2009">2000년대</date> 시는 <term type="concept">공감</term> 하려 하지 않는다.</s>
+          <s>타인에게 진심을 전한다는 것이 애초에 불가능 하다고 믿기 때문이다.</s>
+        </p>
+        <p>
+          <s>우리가 <term type="concept">이데올로기</term>, <term type="concept">젠더</term>, <term type="concept">체제</term>, <term type="concept">인종</term>을 벗 어나 나 자신올사유하게 되면서，이러한 생각은 더 강력해졌다.</s>
+          <s>진정한 나의 감정과 생각, 즉 '<term type="concept">단독적 경험</term>은타인에게 전해지지 않는다.</s>
+          <s>나의 감정과 생각은 사회라는 여과기를 거칠 때에만 형태 를 얻는다 이로써 <term type="concept">단독성</term>과 <term type="concept">개성</term>'이라는 두 개념을구분하도록 하자.</s>
+          <s><term type="concept">개성</term>은<term type="concept">보편성</term>（혹은사회）에 이미 포섭되어 있기에 분류되고 설명될 수 있는 자아를 말하지만, <term type="concept">단독성</term>은 아직 증언된 적 없기 에 형태도 없고, 어쩌면 시인 자신도 그것이 무엇인지 명확하게 알지 못하는 실재다.</s>
+          <s>예컨대 대한민국의 여성 문학 평론가라는 분류가 존재한다면, <term type="concept">단독성</term>이란그 분류에 속하지 않는 여분의 자아 다.</s>
+          <s>이에 따라 사회뿐만 아니라 <term type="concept">언어</term> 또한 불신의 대상이 된 다 <quote type="direct" genre="critic">언어는 불완전하다</quote>" 언어는 마음을 투명하게 전하지 못하기 때문에, 한 사람의 마음은 다른 사람에게 전해지지 못한다.</s>
+          <s>그렇 지만 시인에게 주어진 최선의 도구가 <term type="concept">언어</term>이기 때문에, 그는 언 어롤 고뇌한다.</s>
+          <s>따라서 정확히 말해, <date from="2000" to="2009">2000년대</date> 시인은 <term type="concept">공감</term>을 포 기한 것이 아니다.</s>
+        </p>
+        <p>
+          <s>그는 더 내밀한 공감, 즉<interp value="critical" ana="미학">사회적 관계와 단절된 진짜 나를 증언하려 하기 때문에 증언에 실패한다.</interp></s>
+          <s><date from="2000" to="2009">2000년대</date> 시 인은 <term type="concept">발화의 실패</term>를 체험한 이후, 끊임없이 말하거나 침묵하는 선 택의 기로에 처한다.</s>
+          <s>시인과 언어의 관계는 <term type="concept">알레고리</term>가 된다.</s>
+          <s>바로 이것이 박 슬기 평론가가 지적하는 핵심이다.</s>
+          <s>그의 '<term type="concept">알레고리</term>' 개념은 <persName role="foreigner" xml:id="p-x3">발터 벤야민</persName>으로부터 빌린 것이다.</s>
+          <s><persName ref="#p-x3">발터 벤야민</persName>은 <date when="1600">17세기</date> <term type="movement">독일 바로크 비애극</term>을 대상으로 삼아<term type="concept">중세가 몰락하고 신성이 상실된 시대</term>, 그 이후의 <term type="concept">시적 증언</term>을 탐구한다* 벤야민의 글을 살펴보면, 그는 시 인이 보편적인 것을 위해 특수한 것을 찾는지 아니면 특수한 것 속에서 보편적인 것을 보는지에는 큰 차이가 있다고 말한다.D 그는 시 인의 두 가지 인식론을 구분한다.</s>
+          <s>'특수한 것 속에서 보편 적인 것을 보는 것', 이것이 일반적으로 우리가 시인이라고 부르 는자의 인식 구조이다* 본래 시인은 하나의 체험으로부터 모든 인간이 공감할 수 있는 시구를 발견한다.</s>
+          <s>이러한 언어는 우리의1）<persName ref="#p-x3">발터 벤야민</persName>, <persName role="translator" xml:id="p-x4">최성만</persName>•<persName role="critic" xml:id="p-x5">김유동</persName> 역,「<title level="m" type="foreign" xml:id="t-x2">독일 비애극의 원천</title>』,<orgName xml:id="org-x2">한길사</orgName>2X2呀240쪽의식 속에서“<term type="concept">상징</term>'으로 인식된다.</s>
+        </p>
+        <p>
+          <s><persName role="foreigner" xml:id="p-x6">벤야민</persName>이 볼 때, <term type="concept">상징</term>이 가눙한 것은그것을 가능케 하는 보편성으로서 <term type="concept">신성</term>이 기능하고 있기 때 문이다.</s>
+          <s>반면 현대에는 <term type="concept">보편적 공감</term>을 가능케 하는 토대가 없다.</s>
+          <s>따라서 현대 시인은 보편적인 것을 위해 특수한 것을찾는다'* 시 인은 <term type="concept">보편성</term>을 ‘보는 자'가 아닌, 찾는 자', 즉 헤매는 자가 된다.</s>
+          <s>중세의 신성한 사물은 본래 영원불멸하는 그 일자（一者）를 <term type="concept">상징</term>한 다.</s>
+          <s>그러나 근대가 되자 세계는 광채를 잃고, 낡아가는사물, 곧 판 매되고 소비되는 <term type="concept">상품</term>의 세계에 속하게 된다.</s>
+          <s>그리하여 '보편적 인 것을 찾는 자에게 현대는 <term type="concept">폐허</term>다.</s>
+          <s>두 가지 의미로 그렇다.</s>
+          <s>첫 째, 사물은 시간의 항구성올 잃는다.</s>
+        </p>
+        <p>
+          <s>이제 모든 사물은 <term type="concept">영원성</term>으 로부터 떼어져 낡아가는 형상이 된다.</s>
+          <s>둘째, 사물은 <term type="concept">가치의 보편 성</term>을 잃는다* 사물의 가치는 끊임없이 유동하게 된다.</s>
+          <s>사물이 단 일한 진리에 속하지 않고, <term type="concept">상품</term>으로서 <term type="concept">시장경제</term>에 맡겨지게 되었 기 때문이다.</s>
+          <s><persName ref="#p-x2">박슬기</persName> 평론가는 21세기의 시로부터 바로 이러한 <term type="concept">알레고 리</term>를 발견한다.</s>
+          <s>그에게 현대시는 ’<term type="movement">누보 바로크</term>', 즉 바로크적인 것의 반복이다 핵심은，<quote type="paraphrase" genre="critic">진리 혹은 투명한 소통을 가능케 하는 공 통의 토대가 상실되었다는 것이다</quote>.</s>
+          <s>시인은 이제 <term type="concept">폐허</term>를 헤맨다.</s>
+          <s>그리고과거에 진리를 속이는 세속적 질서를 파괴하기 위해 광신 도들이 <term type="concept">성상파괴운동</term>을 벌였듯, 현대 시인은 '<term type="concept">공감</term>'의 허울을 깨 트리기 위해 끝없이 언어를 실험하거나 언어를 폐기할 수밖에 없 는 운명에 처한다.</s>
+          <s>
+            <interp value="neutral" ana="미학">세속적 언어는 우상이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그리고 그 우상을 파 괴함으로써 시인은 비로소 자기 자신이 된다.<term type="concept">2000년대 시</term>는 혼란을 초래한다.</s>
+          <s>그것은 아무것도 가리키지 않음으로써, 정확히 가리키는 언어의 폐허이다.</s>
+          <s>폐허에서 맨 살로 드러나는 것은 <term type="concept">존재의 부재</term>다, 바로 이러한 상황에서 비평 은 모순적 상황에 직면한다.</s>
+          <s>어떤 의미로 이 시대의 시인에게 이 데올로기의 호명을 거부하는 '<term type="concept">익명</term>'이자, 세속적 언어로 표현할 수 없는 자아를 표시하는 '익명'이다.</s>
+          <s>고） 그런데 <persName ref="#p-x2">박슬기</persName> 평론가는 <term type="concept">익명</term>을 추구하는 시인에게 이름을 붙여야만 한다는 과제에 직 면한다* <interp value="neutral" ana="문학관">비평가의 의무는해석 이다</interp>* 비평이란 어떠한 현상을 성립 시키는 구조적 관계들을 분석하는 것이다.</s>
+          <s>그렇기 때문에 그는 망 설인다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">박슬기 평론가는 비평집 곳곳에서 2000년대 시는 비평을 덤춤으로써 정확하게 해석되는 것은 아닌지 반문한다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="문학관">이 반문이야말로 미래파를 이해하는 핵심이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>해석 불가 능한 <term type="concept">단독성</term>에 관한 표지로서의 시.</s>
+          <s>그런데 비평집『<title level="m" type="critic" ref="#t-x">누보 바로 크</title>』의 표지에는 "<quote type="direct" genre="critic">현실과 가장 무관해 보이는 시는가장 정치적인 것이 된다</quote>，는 테제가 내세워진다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">이것이 박슬기 평론가 본인의 의도인지 나는 의문스럽다.</interp>
+          </s>
+          <s>그가 과연 가장 <term type="concept">반정치적</term>인 운동인 <term type="movement">미 래파</term>에 '<term type="concept">정치성</term>'이라는 이름을강조하고자 했을까• 오히려 그러한 렌즈를 통해서 들여다볼 수밖에 없다는 한계, 바로 이 한계를 추 궁함으로써, <term type="concept">2000년대 시</term>에 관한 정확한 해석의 거리를 모색하 려는 '<term type="concept">머뭇거림</term>'이 그의 비평으로부터 눈여겨보아야 할자세이기 때문이다.2）참고로 '익명서은<persName role="critic" xml:id="p-x7">서동욱</persName> 평론가의「<title level="m" type="critic" xml:id="t-x3">익명의 밤</title>式<orgName ref="#org-x">민음사</orgName>, <date when="2010">2010</date>）에 기초한 논의이 며, <persName ref="#p-x2">박슬기</persName> 평론가는 자신의 비평집에 그의 논의를 주요하게 다룬다.2•<term type="concept">미래파이후, 일상파의 조짐</term>나는 스스로 장치들을 모두 드러내 보이고 남용하는 단계에 이른 모든 예술의 마지막 국면을 <term type="concept">바로크</term>라 부르고자 한다.—<persName role="foreigner" xml:id="p-x8">호르헤 루이스 보르헤스</persName>미래파의 특징은 시인과 언어의 <term type="concept">알레고리</term>적 관계이다.</s>
+          <s>시 인에게 언어는 어 떤 <term type="concept">보편성</term>도 담지하지 못하고, 따라서 <term type="concept">공감</term>과 <term type="concept">소 통</term>의 도구가 되지 않는다.</s>
+          <s>따라서 시인은 언어에 무력하기 때문 에, 언어를 미로처럼 탐구하거나 언어를 폐기한다.</s>
+          <s><term type="concept">장광설</term>과 <term type="concept">침 묵</term>, 이 두 가지 중상이 <term type="concept">2000년대 시</term>를 장악한다.</s>
+          <s>이제 현대 시인의 수사법을 장악하는 것은 표면적으로는 상이해 보이는 두 가지 기 술, 즉 <term type="concept">이미지</term> * 언어에 관한 끝없는 더하기와 끝없는 빼기인데, 이 두 가지는 본질적으로 똑같은 발화 방식이다.</s>
+        </p>
+        <p>
+          <s>그런데 실상 <date from="2000" to="2009">2000년대</date> 이래 시는 두 가지 경로로 전개되 어왔다고 이해해야 옳을 것이다.</s>
+          <s><term type="movement">미래파</term>가 <date from="2000" to="2009">2000년대</date> 시의 한 지 류를 이루고, <persName role="poet" xml:id="p-x9">문태준</persName>시인, <persName role="poet" xml:id="p-x10">신용목</persName> 시인, <persName role="poet" xml:id="p-x11">박준</persName> 시인 둥으로 이어지 는 계보가 다른 한 지류를 이룬다.</s>
+          <s>후자의 시인들 쪽에는 앞서 박 슬기 평론가가 <term type="concept">서정시</term>의 본질이라고불렀던 것，혹은 <term type="concept">공감</term>의 토 대에 관한 믿음이 살아있다.</s>
+          <s>그동안 이뤄진 단순한가치평가를 따 르면, 미 래파 시인들이 전위적인 것으로 평가되고, 반대로<term type="concept">서정시</term> 가퇴행적인 것처럼 보이지만，이러한관점은 부당하다.</s>
+          <s>소박하게 정의된 <term type="concept">전위성</term>은 검의 양날과 같아서 얼마든지 뒤집을 수 있다.</s>
+          <s>만약 <term type="movement">미래파</term>가 <date from="1990" to="1999">1990년대</date> 이래 부각된 <term type="concept">민주화</term>와 <term type="concept">개인주의</term>에 대한 응답이라면, 미래파는 <quote type="paraphrase" genre="other">'개인이 되라'</quote>라는 <term type="concept">이데올로기</term>의 소산일 수도 있다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">진정한 의미로 메신저와SNS로 구성 된 개인주의 시대와 투쟁함으로써 전위가 된 것은오히려 서정성 을좇은 이들이라고도 이해할 수도 있지 않겠는가.</interp>
+          </s>
+          <s>하지만 이러한 논지를 주장하려는 것은 아니고, <interp value="neutral" ana="문학관">나는 서 정시와 미 래파라는 두 지 류 중 하나에 치우치지 않고 균형 있게 바라보는 관점이 필요하 다고 말하고 싶다.</interp></s>
+        </p>
+        <p>
+          <s>그 중요한 이유는 무엇보다 시인들의 변화다.</s>
+          <s>일단 <date from="2010" to="2019">2010 년대 후반</date>에 주목해야 하는 조짐은 <persName role="poet" xml:id="p-x12">서효인</persName> 시인의 시집『<title level="m" type="poem" xml:id="t-x4">여수式문 학과지성사</title>, 2017）다.</s>
+          <s><term type="movement">미래파적인 시</term>로부터 <term type="concept">서정시</term>로의 이행이라 고 논의해볼 만한 변화가 두드러지기 때문이다.</s>
+          <s>이와 더불어 <persName role="poet" xml:id="p-x13">유병 록</persName>시인, <persName role="poet" xml:id="p-x14">황인찬</persName> 시인, <persName role="critic" xml:id="p-x15">최지인</persName> 시인 등 여러 시인의 최근작에서 발 견되는 특징은 첫째로는 <term type="concept">수사의 폐기</term>, 둘째로는 '<term type="concept">일상이라는 공 통토대의 회복</term>이다크 이 글에는 몇몇 시인의 최근작을 논의하고 자한다*<quote type="direct" genre="poet" source="너무 큰소리로 웃지 말자"><lg type="stanza"><l>밤의 연남동은 사람들로 가득합니다 사람 아니라 개도 많지 만 사람은 더욱 많습니다</l></lg><lg type="stanza"><l>그러나</l></lg><lg type="stanza"><l>연남동의 밤거리를 같이 걸었던 사람들을 생각하면</l></lg><lg type="stanza"><l>누구부터 떠올려야 할지 알 수가 없군요</l></lg></quote>3）<persName role="poet" xml:id="p-x16">황유원</persName> 시인의 경우 지난 몇 달사이에 발표한작품에만 한정된다누구였는지 구분되지 않는 사람들과 개와 산책하거나 사람과 산책하는 사람들 사이를 지나갔던 것은 분명히 기억나는데자꾸 생겨나고 없어지는 가게들무슨가게인지는 몰라도항상 아주 아주 맛있지만 사실 조금 짜고 사실 너무 비싼 것 같고 그래도 와, 여기 정말 맛있어요, 그렇게 말은 했지만 두 번 올 일은 없겠다는생각을 했던 것만은 기억이 나고괜찮은 가게들은 금방 다 없어진다고 툴툴대는 사람들을 생각하면누구부터 떠올려야 할지 알 수가 없군요—황인찬,「<title level="a" type="poem" xml:id="t-x5">너무 큰소리로 웃지 말자</title>」부^（<title level="j" type="journal" xml:id="t-x6">씨와사상</title>〉 <date when="2019">2019년 여름</date>^）황인찬시인의 최근작에는 뚜렷한 특징이 두드러진다.</s>
+          <s>이 작품은 <interp value="neutral" ana="미학">은유나 환유와 같은 수사학적 기교를 버리고, 단순한 진 술문의 형태로 이루어져 있다.</interp></s>
+          <s>어떤 독자라도 쉽게 읽을수 있기 에, <interp value="affirmative" ana="미학">비평가가 구태여 내용을 해설할 필요가" 없는 작품이다.</interp></s>
+          <s>중요 한 질문은 다음과 같다.</s>
+          <s>과연 이러한 작품이 어 떻게 '<term type="concept">시</term>'가 되는 가.</s>
+        </p>
+        <p>
+          <s>본래 시를 일상어와 구분하는 이유는, 그것이 일상어와는 다 른 <term type="concept">새로운표현</term>'이기 때문이다.</s>
+          <s>위 시에는 어떤 새로움이 존재하 저나슈」I 一최근의 한 인터뷰에서 <persName ref="#p-x14">황인찬</persName> 시인은 <quote type="direct" genre="other" source="인터뷰">시적인 수사를 활용하지 않고도 '시적인 문장을 구사하기를 바란다</quote>고 말한다.</s>
+          <s>
+            <interp value="neutral" ana="미학">만약 위 작품을 근거로 삼는다면, 황인찬 시인의 시적인 힘은 새로운 표현법으로부터 나오는 것은 아니다.</interp>
+          </s>
+          <s>대신 그의 시적인 힘은 <term type="concept">시 간성</term>으로부터 산출된다.</s>
+          <s>현재 눈앞의 '<term type="concept">연남도</term>에 '<quote type="paraphrase" genre="poet">밤거리의 연남 동</quote>이라는 과거를 덧씌워 봄으로써, 그는 풍경에 <term type="concept">시간의 깊이</term>를 부여한다.</s>
+          <s>끊임 없이 “<quote type="direct" genre="poet">자꾸 생겨나고 없어지는 가게들</quote>이라는 <term type="concept">자 본주의적 폐허</term>에, 사라지지 않는 동심원으로써 밤거리', 즉 '<term type="concept">기 억</term>을 부여한다.</s>
+          <s>따라서 <interp value="affirmative" ana="사회">이 시가 만약 독자에게 감동을 준다면, 그 이유는 그것이 소비，라는 자본주의적 원리로 사물을 바라보는 데 익숙해진 우리의 타성을 깨트리기 때문이다.</interp></s>
+          <s>무엇으로 말인가.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet">같이 걸었던 사람들을 생4•</quote>”하는 사건, 즉 <term type="concept">공감</term>의 순간을 회복 함으로써 말이다.</s>
+          <s>이렇게 바라본 풍경은 상품이 아닌, 교감하고 회상하는 존재이다.</s>
+          <s>이는 기본적으로 일상을 새로운 방식으로 바라보는 태도 이다.</s>
+          <s>이러한 스타일을 '<term type="concept">일상</term>의 재현이라는 문제로 초점화한다 면, 우리는 <term type="concept">19so년대 시</term>와 <term type="concept">2010년대 시</term>를 비교할수도 있다.</s>
+          <s>예컨 대 <date from="1980" to="1989">1980년대</date> <persName role="poet" xml:id="p-x17">황지우</persName> 시인은 택시 운전사의 고함소리, 게임 오락 기의 전자음, 서울 건물의 묘사 둥이 종합된 일종의 아케이드로 서 서울 시민의 <term type="concept">일상</term>을 시로 채현한다得 이는 지도를그리듯우리의 일상을 조작하고 있는 <term type="concept">이데올로기</term>의 부속들을 분해하고 분석하 는 작업으로 이해된다.</s>
+          <s>반면 <date from="2010" to="2019">2010년대</date> <persName ref="#p-x14">황인찬</persName> 시인의 <title level="a" type="poem" xml:id="t-x7">연남동</title>은 한사람의 주관에 의해 관찰된풍경이다.</s>
+          <s>이는<term type="concept">서정적 인간</term>,한사 람이 기억과 감정으로 풍경올 채색하는 순간을 회복하려는 시도 이다.</s>
+          <s>간단히 정리하면, <term type="concept">1980년대 시</term>와 <term type="concept">2010년대 시</term>는 ’<term type="concept">일상의재현</term>'이라는 공분모를 지니지만, 상이한 경로를 거친다.</s>
+        </p>
+        <p>
+          <s><date from="1980" to="1989">1980년대</date> 시는 위에서 조감하듯, <date from="2010" to="2019">2010년대</date> 시는 내면으로부터 관찰하듯 일 상을 그린다.</s>
+          <s><persName role="foreigner" xml:id="p-x18">미셸 푸코</persName>의 용어로 1%0년대 시는고고학적인 방법 으로, <date from="2010" to="2019">2010년대</date> 시는해석학적인 방법으로<term type="concept">자본주의</term>적 타성에 저 항하는 셈이다*<quote type="direct" genre="poet" source="기다리는사람"><lg type="stanza"><l>회사 생활이 힘들다고우는 너에게 그만두라는 말은 하지 못 하고 이젠 어떻게 살아야 하나 고민했다 까무룩 잠이 들었는데 우리에게 의지가 없다는 게 계속 일할 의지 계속 살아갈 의지가 없다는 게 슬펐다 그럴 때마다 서로의 둥을 쓰다듬으며 먹고살 궁리 같은 건 홑려보냈다</l></lg><lg type="stanza"><l>어 떤 사랑은 마른 수건으로 머 리카락의 물기를 털어내는 늦 은 밤이고 아픈 등을 주무르면 거기 말고 하며 뒤척이는 늦은 밤이다 미룰 수 있을 때까지 미룬 것은 고작 설거지 따위 였다 그 사이 곰팡이가 슬었고주말 동안 개수대에 쌓인 컵과 그릇 등을 씻어 정리했다</l></lg><lg type="stanza"><l>멀쩡해 보여도 이 집에는 곰팡이가 떠다녔다 넓은 집에 살면 베란다에 화분도 여러 개 놓고 고양이도 강아지도 키우고 싶다 고그러려면 얼마의 돈이 필요하고 몇 년은 성실히 일해야하고 씀씀이롤 줄이고 저축도 해야 하는데 우리가 바라던 건 이 런 게 아니었는데</l></lg></quote>-<persName ref="#p-x15">최지인</persName>，「<title level="a" type="poem" xml:id="t-x8">기다리는사람</title>」부분（《<title level="j" type="journal" xml:id="t-x9">리토피아</title>》<date when="2019">2019년</date> 여름호）어떤 의미로2010년대 <term type="concept">일상</term>파의 시는<term type="concept">사소설</term>에 가까운 인상올주기도한다.</s>
+          <s>그것은 <term type="concept">기억</term>',즉<term type="concept">시간성</term>이 아닌, 감정에초 점을 두고 <term type="concept">일상</term>을 재현할 때 더욱더 그렇다.</s>
+          <s><persName ref="#p-x11">박준</persName> 시인이나 <persName ref="#p-x14">황인 찬</persName> 시인이 주로 타인과 사물의 감춰진 <term type="concept">시간성</term>을 주목한다면, <persName ref="#p-x15">최 지인</persName> 시인의 시에는<term type="concept">순간적 감정</term>이 강조되는 경향이 두드러진다.</s>
+          <s>이 경우 시는 <term type="concept">일상어</term>와 구분하기 어려울 정도로 가까워진다.</s>
+          <s>시 「<title level="a" type="poem" xml:id="t-x10">기다리는사•람</title>」의 인식과우리의 <term type="concept">일상적 인식</term>을구분할수 있는 기준은 무엇인가.</s>
+          <s>고된 <term type="concept">노동</term>으로 피로한 육체와 '곰팡이 핀 낡은 사물을 동일시하는 태도, '먹고 살 궁리와 막막함의 감정, <term type="concept">일상 어</term>에 가까운 진술 등 어떤 측면에서도 이 시는 이 시대의 현실과 우리를 떼어놓지 않는다.</s>
+          <s>오히려 현대인이 느끼는 초조와 고통을 그대로 접하게 하기에, <interp value="critical" ana="미학">이 문장들은 아픈 공감을 유도할 수는 있 지만, 새로움을 내포하지는 않는다.</interp></s>
+        </p>
+        <p>
+          <s>자칫 <term type="movement">일상파</term> 계열의 시는 타인에게 건네는 <term type="concept">위안</term> 이상이 되 지 못할 수 있다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">그렇지만 우리가 이것을 미래파에 대한 반동으 로 이해한다면, 시사적으로가치를 부여할 수도 있을 것이다 최 지인 시인의 시로부터 기억해두어야 할 것은, 기다리는 사람의 자세, 즉 공감하려는 자로서 위치하려는 태도이다.</interp>
+          </s>
+          <s>이것이 바로 280년대 말시인들에게 두드러지는현상이다" <interp value="affirmative" ana="문학관">이 시에 두드러지 는 일상적 감정과 소박한 진술은 바로 미래파에 대한 반동이며 그러한 반동을 통해 '공감의 가능성을 타진하는 시도로 이해된다.</interp></s>
+          <s><quote type="direct" genre="poet" source="나*너#우리"><lg type="stanza"><l>이곳이 밝은지 눈을 떠 밝은지 알수 없다창밖에 흰눈이 쌓 였고 기다리는 너는 오지 않았다 약속을 잊었는지 나를 잊었는 지 나는 알 수 없었다 얼굴에 터진 살들이 나를 부를 뿐</l></lg><lg type="stanza"><l>이곳이 어두운지 네가 없어 어두운지 알 수 없다 흰 눈이 내</l></lg><lg type="stanza"><l>려 쌓여 희다는 것, 눈이라는 것 나는 알 수 없다 너는 나의 얼 굴을 뜯어내고 밖으로 나갔지 내가 부끄러웠는지 약冬을 저버 렸는지 나는알수 없다</l></lg><lg type="stanza"><l>모르는 얼굴이 다 내 것인지 네 것인지 아니면 우리 것인지 이제 알고 싶지 않다 언제부터 우리가 나와 너 였는지</l></lg></quote>一<persName role="critic" xml:id="p-x19">김태우</persName>,「<title level="a" type="poem" xml:id="t-x11">나*너#우리</title>」마지막부분《<title level="j" type="journal" xml:id="t-x12">시인수첩</title>》 <date when="2019">2019년 여름호</date>）»한편 <term type="concept">젊은 시인들</term>이 계속 <term type="concept">공감</term>을 초점화한다면, 공감 불가 능성을 강조하는 시인들 역시 나타나게 되 리라고 예상할 수 있다.</s>
+          <s>물론 이 경우에도 담론의 중심은 <term type="concept">공감</term>이다.</s>
+          <s>시의 제목이 가리키 듯, 그리고 “<quote type="direct" genre="poet" source="나*너#우리">언제부터 우리가 너와 나였는지</quote>”라는 마지막 문장이 가리키듯, <persName ref="#p-x19">김태우</persName> 시인은 '<quote type="paraphrase" genre="poet" source="나*너#우리">우리는 깨어졌다</quote>고 말한다.</s>
+          <s>이 경우에 도 우리가 주목할 것은 <term type="concept">쉽게 말하고자 하는 태도</term>다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">그는 미 래파 의 방식처럼 생경한 언어와 이미지를 사용하여 타자성 자체를 재현하려 하지 않는다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>If를 기다리지만 오지 않는다는, 누구나 쉽게 이해할 수 있는 사건을 진술할 뿐이다.</s>
+          <s>그리고 사실 이 시의 이면에는 간절히 '<term type="concept">우리가 되려는 욕망</term>이 움직인다.</s>
+          <s>네가 오지 않 기 때문에, 나의 얼굴은 부르트고, 이곳은 어둡다.</s>
+          <s>네가 나타나 기를 너무나도 바라기 때문에, 네가 그립지 않다는 마음을 꾸며 낼 수밖에 없다.</s>
+          <s>이처럼 <term type="concept">젊은시인들</term>의 시를살펴보았을 때,<term type="concept">수사의 억제</term>와4）본래 이 작품은 행갈이가 특징적이다.</s>
+          <s>한 행이 끝나는자간 위치에,다음 행의 첫 단어부터 배열된다 이러한 형태시를 온전히 인용하지 못한 데 시인께 사과드린다<term type="concept">공감을 지향하는 태도</term>가 두드러진다.</s>
+          <s>그렇다면 앞으로 시는 어 떻 게 전개될 것인가.</s>
+          <s><persName ref="#p-x2">박슬기</persName> 평론가가 <term type="movement">미 래파</term>를 웅시한 지점으로부 터,나는 새로운운동을목격한다.</s>
+        </p>
+        <p>
+          <s>그가 <term type="movement">미래파</term>의 본질을정의하 는동안，어떤 의미로그는 <term type="movement">미래파</term>의 한계 혹은 <term type="movement">미래파</term>의 마지막 국면까지 증언하려 한 셈이다* 마찬가지로 지성의 방식으로든，감 성의 방식으로든 <term type="concept">젊은 시 인들</term> 역시 <term type="movement">미 래파</term>를 이해하고, 그와는 반 대 방향으로 향하는 것처럼 보인다.</s>
+          <s>이렇게 한 스타일의 파국으로 부터 새로운 스타일이 탄생한다.</s>
+          <s>편의상 '<term type="movement">일상파</term>로 명명해볼 수 있는 최근의 스타일은 다소 산발적으로 등장하고 있으며, <interp value="neutral" ana="미학">미학적 완성을 위해 나아가고 있는 것으로 보인다.</interp></s>
+          <s>이 때문에 <interp value="neutral" ana="미학">아직은 그 가치 역시 미 래파에 관한 반동이라는 측면에서 주목될 뿐이다.</interp></s>
+          <s>한편 여전히 <term type="movement">미 래파</term>적인 시의 계보를 따르는 <term type="concept">젊은 시인들</term> 역시 많다.</s>
+          <s>따라서 추측건대 한동안 시는 <term type="movement">미 래파</term>적인 것과 <term type="movement">일상파</term> 적인 것이 평행선을 그리듯 전개될 것이다• <interp value="neutral" ana="문학관">흥미로운 것은 본질적 으로 상이해 보이는 두 가지 스타일이 현시대에 공존한다는 것이 다.</interp></s>
+          <s>그것은 <term type="concept">언어에 관한불신</term>과 <term type="concept">공감의 관한요청</term> 사이에서 방황 하는 현대 인의 징후를 암시하는 것처 럼 보인다.</s>
+          <s>그렇다면 앞으로 우리에게 놀라움을 선사할 것은 무엇인가.</s>
+        </p>
+        <p>
+          <s>아마도 그것은 <term type="concept">단독성</term> 과 <term type="concept">공감</term>, 공감 불가능한 나와 '<term type="concept">타자</term>와 함께 어우러진 나라는 두 평행선을 종합하는 시인, 혹은 그러한 경계를 가로지를 수 있는 정신일 것이다.</s>
+          <s><persName ref="#p-x">박동억</persName> 19歹년 <orgName xml:id="org-x3">서울</orgName> 출생.</s>
+          <s><date when="2016">2016년</date>《<orgName xml:id="org-x4">중앙일보</orgName>〉<orgName xml:id="org-x5">중앙신인문학상</orgName> 평론 둥단.</s>
+          <s>현재 <orgName xml:id="org-x6">숭실대</orgName>강사</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

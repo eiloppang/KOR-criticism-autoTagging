@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>미니마 퍼스펙티비아minima perspectivia-2000년대 시의 어떤 경향</title>
+        <author>신형철</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>미니마 퍼스펙티비아minima perspectivia——<date from="2000" to="2009">2000년대</date> 시의 어떤 경향<persName role="critic" xml:id="p-x">신형철</persName>특 집••나를 내버려 두란 말이에요.</s>
+          <s>나는 깊이가 없어요!</s>
+          <s>”—<persName role="foreigner" xml:id="p-x2">파트리크 쥐스킨트</persName>.『<title level="m" type="foreign" xml:id="t-x">깊이에의 강요</title>』<interp value="critical" ana="미학">오늘날 씌어지는 어떤 시들은 얇다.</interp></s>
+          <s>그러니까 <term type="concept">깊이가 없다</term>는 뜻이다 ‘깊이가 없다’는 말은 시가 도달한 경지가 ‘<term type="concept">얄팍하다</term>’는 뜻일 수도 있고 시가 다루고 있는 세계가 물리적으로 ‘<term type="concept">평평하다</term>’ 는 뜻일 수도 있다.</s>
+          <s>전자는 주관적 평가의 술어이고 후자는 객관 적 진단의 술어다.</s>
+          <s><date from="2000" to="2009">2000년대</date>에 씌어지기 시작한 어떤 시들 때문 에 우리는 이 두 내포를 구별하지 않을 수 없게 되었다.</s>
+          <s><interp value="neutral" ana="미학">평평한 시가 얄팍한 시인 것은 아니다.</interp>2 o o O 년대 문학의 키워드 — 젊은 비평가의 시선회화와 소설에서의 원근법<term type="concept">깊이</term>는 어떻게 생겨나는가.</s>
+          <s><persName role="foreigner" xml:id="p-x3">파노프스키</persName>는 r<term type="concept">상징적 형식</term>으로서의 원근 법」（<date when="1924">1924-5</date>）에서 서양 회화의 <term type="concept">원근법</term>은 일종의 상징적 형식일 뿐이라고 주장했다.</s>
+        </p>
+        <p>
+          <s><term type="concept">원근법</term>은 자연적인 것이 아니라 인위적인 것이다.</s>
+          <s>더 구체적으 로 말하면 그것은 <term type="concept">근대적</term>인 배치의 산물이다.</s>
+          <s><term type="concept">원근법</term>을 지탱하는 것은 소 실점이다.</s>
+          <s>그 <term type="concept">소실점</term>은 그림을 보는 자의 눈과 일치한다.</s>
+          <s>그와 더불어 신 이 아니라 인간이 세계의 척도가 되었다.</s>
+          <s>이 <term type="concept">근대적 원근법</term> 덕분에 회화에 서 <term type="concept">깊이</term>가 생겨났다.</s>
+          <s>문제는 이 ‘<term type="concept">깊이의 원근법</term>’이 도입되면서 （<persName role="foreigner" xml:id="p-x4">가라타니 고진</persName>의 화법을 빌리자면） 어떤 <term type="concept">전도（顯倒）</term>가 발생한다는 것에 있다.</s>
+          <s>그러니 까 <term type="concept">원근법적 공간</term>에 익숙해지면 그것만이 유일한 ‘<term type="concept">현실</term>’이라고 믿게 되어 마치 이전의 회화에는 객관적 현실이 존재하지 않았다는 식으로 생각하게 된다는 것이다.</s>
+        </p>
+        <p>
+          <s>회화에서 <term type="movement">리얼리즘</term>의 규범이 이렇게 탄생한다.</s>
+          <s>문학의 경우는 어떨까.</s>
+          <s>회화에서 <term type="concept">근대적 원근법</term>이 ‘<quote type="direct" genre="critic">현실</quote>’을 탄생시켰 다면, 문학에서는 무엇이 ‘여기에 현실이 있다’는 것을 느끼게 하는가.</s>
+          <s>근 대 이전의 문학을 읽을 때 우리는 거기에서 ‘<term type="concept">깊이</term>’를 느끼지 못한다.</s>
+          <s>그러 나 <persName role="foreigner" xml:id="p-x5">가라타니</persName>의 말마따나 근대 이 전의 삶에 <term type="concept">깊이</term>가 없었던 것은 아닐 것이 다.</s>
+          <s>그렇다면 문학에서도 어떤 배치의 변화가 있었다고 해야 한다.</s>
+          <s>“<quote type="direct" genre="critic" source="일본 근대문학의 기원">우리 가 깊이를 느끼는 것은 현실 • 지각 ■ 의식에 의해서가 아니라 근대문학의 원 근법적 배치에 의한 것이다</quote>”（『<title level="m" type="critic" xml:id="t-x2">일본 근대문학의 기원</title>j 6장, 이하『기원』） .</s>
+          <s>그 러니까 근대문학에서 우리가 느끼는 ‘<term type="concept">깊이</term>’ 역시 인위적인 것이다.</s>
+        </p>
+        <p>
+          <s>여기 에 익숙해진 채로 근대 이전의 문학을 바라보면 동일한 <term type="concept">착시현상</term>이 일어난 다.</s>
+          <s>근대 이전의 문학에는 깊이가 없었다고.</s>
+          <s><term type="concept">근대문학</term>에서 와서야 “<quote type="direct" genre="critic">생이나 내면의 심화</quote>’’（강조는 원저자）가 일어났다고 믿게 되는 것이다.</s>
+          <s>이제 이곳 만이 리얼한 세계다.</s>
+          <s>문학에서 <term type="movement">리얼리즘</term>의 규범이 이렇게 탄생한다.</s>
+          <s>근대회화의 <term type="movement">리얼리즘</term>이 원근법에 의해 가능해졌다면.</s>
+          <s>근대문학의 리 얼리즘은 무엇에 의해 가능해졌는가.</s>
+          <s>앞에서 <persName ref="#p-x5">가라타니</persName>는 ‘<quote type="direct" genre="critic">근대문학의 원 근법적 배치</quote>’라고 썼다.</s>
+        </p>
+        <p>
+          <s>이제는 그것이 도대체 무엇인지를 물어야 한다.『<title level="m" type="critic" xml:id="t-x3">근대문학의 종언</title>』（이하『종언』）에서 그는 이렇게 설명한다.</s>
+          <s>근대회화의 <term type="movement">리얼리즘</term>을 가능케 한 것이 기하학적인 원근법, 그러니까 “<quote type="direct" genre="critic">고정된 한 점에 서 투시하는 도법에 의해 2차원 공간에 깊이 있는 모양새를 부여하는 고 안</quote>” 덕분이라면, 근대소설의 리얼리즘을 가능케 한 것은 “<quote type="direct" genre="critic">3인칭 객관묘사</quote>" 라는 ‘<quote type="direct" genre="critic">고안</quote>’이다.</s>
+          <s>그것은 “<quote type="direct" genre="critic">화자가 있음에도 불구하고 마치 없는 것처럼 보 이게 하는 기술</quote>”이다.</s>
+          <s>“<quote type="direct" genre="critic">화자가 존재하면〔……〕현전성이랄까, 깊이 같은 것이 없어집니다.</quote></s>
+          <s>” <term type="concept">3인칭 객관묘사</term>가 깊이를 도입하였다.</s>
+          <s>비로소 ‘<quote type="direct" genre="critic">현실</quote>’이 발견되었고 근대소설의 <term type="movement">리얼리즘</term>이 가능해졌다.</s>
+          <s>그런데 <persName ref="#p-x5">가라타니</persName>는 어디 까지나 <interp value="neutral" ana="문학관">소설에 대해서 말하고 있다</interp>.</s>
+          <s>그가 말하는 <term type="concept">근대문학</term>은 곧 <term type="concept">근대소설</term> 이고, 근대소설은 곧 <term type="movement">리얼리즘 소설</term>이다.</s>
+        </p>
+        <p>
+          <s>그렇다면 이 논의를 시에 적용할 수 있을까?</s>
+          <s><term type="concept">서정적 원근법</term>시에서 <term type="concept">근대적 원근법</term>에 대해 말하기 위해서는 우선 근대 이전의 시와 근대의 시를 구별할 수 있다는 것이 증명되어야 한다.</s>
+          <s>그러나 시는 예나 지금이나 유구한 <term type="concept">1인칭 화자</term>의 발화가 아닌가?</s>
+          <s>근대 이전의 소설（에 준하 는 담론 양^）에서도 <term type="concept">3인칭의 서술자</term>는 존재했다.</s>
+          <s>그러나 <interp value="neutral" ana="문학관">3인칭은 근대화 되었다.</interp></s>
+          <s>그것과 동일한 논리로 이렇게 말할 수 있을 것이다.</s>
+          <s>근대 이전의 시에서도 <term type="concept">1인칭의 화자</term>는 존재했지만 어느 때엔가 <interp value="neutral" ana="문학관">1인칭은 근대화되었다</interp>, 라고.</s>
+          <s><term type="concept">1인칭의 근대화</term>란 무엇인가?</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x5">가라타니</persName>는 <quote type="indirect" genre="critic">화자가 존재하면 깊이가 없 어진다</quote>고 말한다.</s>
+          <s>그렇다면 <term type="concept">1인칭 화자</term>의 발화로 구성되는 시는 본래부터 깊이가 없는 것인가?</s>
+          <s>그렇지는 않을 것이다.</s>
+          <s>여기서 우리는 <term type="concept">근대적 소설</term> 의 <term type="concept">1인칭</term>과 근대적 시의 1인칭을 구별해야 한다.</s>
+          <s><term type="concept">근대적 소설의 1인칭</term>은 볼 수 있는 것만 본다.</s>
+          <s>그러나 <term type="concept">근대적 시의 1인칭</term>은 보지 못하는 것이 없 다.</s>
+          <s>말하자면 <interp value="affirmative" ana="미학">근대적 시의 1인칭은 전지적인 3인칭 화자의 속성을 갖고 있 다고 말해야 한다.</interp></s>
+          <s>이렇게 본다면 <term type="concept">서정</term>의 본질이 ‘<quote type="indirect" genre="critic">세계의 자아화</quote>’라는 규 정은 헐겁다.</s>
+        </p>
+        <p>
+          <s>어떤 자아인가를 묻지 않고 있기 때문이다.</s>
+          <s>이 규정 안에서<term type="concept">전근대적 자아</term>와 근대적 자아는 분별되지 않는다.</s>
+          <s>근대 이전의 시에서 1인 칭은 대개 현실에 의해 강요되는 정념을 토로하거나（<term type="concept">민요</term>） , 혹은 세계에 대한 판단을 내릴 때도 어떤 초월적인 이념에 의거해서만 그렇게 한다（시 조）.</s>
+          <s>그것은 일종의 추상적인 ‘<quote type="direct" genre="critic">목소리</quote>’이다.</s>
+          <s>그러나<term type="concept">근대적 시</term>의 1인칭은 그 자신을 중심으로 세계를 ‘<quote type="direct" genre="critic">구축</quote>’한다.</s>
+          <s><term type="concept">데카르트적 주체</term>.</s>
+          <s>혹은 세계의 소 실점이다.</s>
+          <s>이것이 시에 나타난 <term type="concept">근대적 배치</term>의 변화다.</s>
+        </p>
+        <p>
+          <s>그렇다면 근대 예술에서 회화의 ‘<quote type="direct" genre="critic">기하학적 원근법</quote>’과 소설의 ‘<quote type="direct" genre="critic">3인칭 객관</quote>’에 대응하는 것은 시에서는 ‘<quote type="direct" genre="critic">데카르트적인 1인칭</quote>’이라고 말할 수 있 다.</s>
+          <s>더불어 근대화된 1인칭이 소실점이 되어 세계를 구성하는 원리를 ‘<quote type="direct" genre="critic">서 정적 원근법</quote>’이라 부를 수 있을 것이다.</s>
+          <s>이에 대해서는 이미 이장욱의 언 급이 있었다（이장욱.「꽃들은 세상을 버리고」,『나의 우울한 모던보이』, 문학 과지성사, 2006）.</s>
+          <s>그에 따르면 서정성은 근본적으로 하나의 소실점을 설정 한다.</s>
+          <s>일점원근법을 통해 가공의 시공간을 구축하면서 서정적 자아의 단 일한 시선을 중개한다.</s>
+          <s>더 나아가 그는 중세적 자아와 근대적 자가를 구별 하면서 앞서 말한 원근법이 근대적 배치의 변화임을 명시한다.</s>
+          <s>“중세적 자 아의 시선이 역원근법 , 즉 신과 만상의 자리를 시 선의 출발점으로 삼았다 면.</s>
+          <s>그럼으로써 인간적 시선의 부재를 현현했다면.</s>
+        </p>
+        <p>
+          <s><term type="concept">근대 서정시</term>들은 <term type="concept">일점 원근법</term>이 관할하는 ‘<term type="concept">시적 소실점</term>’에 의해 운용된다.</s>
+          <s>” 이와 더불어 근대 서 정시에서 깊이가 확보될 수 있었다.</s>
+          <s>그리고 '바로 이곳에 현실이 있다’는 감각이 확립되었다.</s>
+          <s>거꾸로 말하면 ‘<term type="concept">시적 소실점</term>’이 설정되어 있지 않거나 시점이 고정되어 있지 않아 소실점으로서 기능하지 못하는 시에 현실은 존 재하지 않으며 그 세계는 깊이를 확보하지 못한다.</s>
+          <s>표면의 시그렇다면 이렇게 말할 수 있다.</s>
+          <s><term type="concept">원근법</term>이 깊이를 가져왔다면 원근법 없이는 깊이도 없다.</s>
+          <s>이를 <term type="concept">서정적 원근법</term>이라는 층위로 옮겨올 경우 우리 는 ‘<term type="concept">깊이 없는 시</term>’를 상정할 수 있게 된다.</s>
+          <s>앞에서 언급한 <persName role="poet" xml:id="p-x6">이장욱</persName>의 글은<term type="concept">시적 소실점</term>이 제거되어 있는 시의 사례로 <persName role="poet" xml:id="p-x7">박정대</persName>의 시를 거론한다.</s>
+        </p>
+        <p>
+          <s>이 관 점은 <persName ref="#p-x7">박정대</persName>의 시가 갖고 있는 독특한 매력을 설명하는 데 분명 유용한 관 점이다.</s>
+          <s>그러나 <persName ref="#p-x7">박정대</persName>의 시는 <term type="concept">소실점</term>을 삭제하여 <term type="concept">원근법적 구도</term>를 무너 뜨리면서 동시에 모든 세계를 나의 내면적 공간으로 대체한다.</s>
+          <s>이것은 중 세적인 <term type="concept">역원근법</term>을 단지 뒤집어놓은 것에 불과한 것은 아닐까.</s>
+          <s>그러니까 ‘신’의 자리에 •나’를 넣은 것일 뿐이라고 할 수 없을까.</s>
+          <s><persName ref="#p-x7">박정대</persName>의 시가 로 맨틱한 것은 <term type="concept">로맨틱</term>한 시어들과 발성들 때문이라기보다는 이 거대한 ‘나’ 때문이다.</s>
+          <s>이것은 오히려 <term type="concept">서정적 원근법</term>의 본질을 노골적으로 드러냄으로 써 그것을 <term type="concept">해체</term>하는 이상한 작업이다.</s>
+          <s><persName ref="#p-x7">박정대</persName>의 시가 <term type="concept">서정적 진부함</term>으로 부터 탈출한 이채로운 사례인 것은 분명하지만, 여기에서 구조적인 차원 의 근본적인 변화가 일어났다고 하기는 어렵다.</s>
+          <s>그러나 최근의 어떤 시들은 ‘<quote type="direct" genre="critic">근본적으로</quote>’라고 해야 할 정도로 다른 것 같다.</s>
+        </p>
+        <p>
+          <s>우리는 <persName ref="#p-x6">이장욱</persName>, <persName role="poet" xml:id="p-x8">김행숙</persName>, <persName role="poet" xml:id="p-x9">하재연</persName>, <persName role="poet" xml:id="p-x10">이근화</persName> 등을 염두에 두고 있다.</s>
+          <s>그 들의 시에서 <term type="concept">시적 소실점</term>은 없거나 최소한으로 약화되어 있다.</s>
+          <s>이와 관련 해 <term type="concept">자아의 해체</term>, <term type="concept">다성성（多聲性）</term>의 도입, <term type="concept">환상</term>의 분출 등을 이야기하고 있 지만, <interp value="critical" ana="미학">이것들은 시적 소실점이라는 문제와 관련해 핵심적인 것들이 아니 다.</interp></s>
+          <s><term type="concept">시적 소실점</term>은 근원적으로 <term type="concept">진리</term>가 발생하는 장소다.</s>
+          <s>예컨대 <term type="concept">진리</term>를 직 접적으로 겨냥하는 잠언 투의 언술이 시에서 더 쉽게 용인되는 것은 <term type="concept">시적 소실점</term>의 그와 같은 권위를 우리가 인정하고 있기 때문이다.</s>
+          <s>그래서 <term type="concept">시적 소실점</term>이 흔들리거나 사라질 때 나타나는 가장 중요한 현상은 세계의 <term type="concept">진리</term> 를 파악하고 전달하겠다는 의지의 소멸이다.</s>
+          <s>앞서 거론한 시인들의 시에 서 우리가 주목해야 하는 것은 <interp value="neutral" ana="미학">한 줌의 권위적 진리조차 사양하는 그 권태 롭고 나른하고 이상한 목소리들</interp>이다.</s>
+          <s>그 시들은 최소한의 <term type="concept">원근법</term>으로 씌 어진다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x5">가라타니</persName>가 ‘<quote type="indirect" genre="critic">근대문학의 기원</quote>’을 사유할 수 있게 된 것은, 그러니까 근 대문학의 특성이 ‘<term type="concept">내면성</term>’이고 그것이 어떤 ‘<term type="concept">전도</term>’를 통해서 발생했다는 사실을 깨닫게 된 것은 70년대 후반 일본에서 내면성을 부정하는 작품들이 나오면서였다.</s>
+          <s>유사한 논법으로 말하자면.</s>
+          <s>우리가 <term type="concept">서정시</term>의 <term type="concept">원근법</term>에 대해 생각하게 된 것은 최소한의 원근법을 시험하고 있는 시들이 나오면서 부터였다.</s>
+          <s>이 사소하기 짝이 없는 시들은 도대체 왜 씌어지고 있는 것일까.</s>
+          <s>흔히 <term type="concept">사소설</term>이 <term type="concept">근대소설</term>의 일탈이 거나 미달이 라고들 한다.</s>
+          <s>3인칭 객관 리 얼리프］ 아니라는 것이다.</s>
+          <s>그러나 <interp value="neutral" ana="문학관">어쩌면 반대로 말할 수도 있지 않을까.</interp></s>
+          <s>
+            <interp value="affirmative" ana="문학관">사소설이야말로 리얼리즘일 수 있다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>“<term type="concept">사소설</term>은 <term type="movement">리얼리즘</term>에 철저하고자 합니다.</s>
+          <s>그렇다면 <quote type="direct" genre="critic" source="종언">3인칭 객관이라는 허구를 허용할 수 없습니다</quote>"（『<title level="m" type="critic" xml:id="t-x4">종언</title>』）.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">3인칭 객관이라는 원근법을 사용하지 않기 때문에 근대 리얼리즘에 미달 한 것이 아니라, 근대 리얼리즘을 넘어서고자 했기 때문에 3인칭 객%］라 는 원근법을 버린 것이다.</interp>
+          </s>
+          <s>우리는 동일한 논리를 반복하고 싶다.</s>
+          <s><term type="concept">젊은 시 인들</term>의 일련의 시들이야말로 오히려 '나’에게 충실하고자 했기 때문에 ‘<term type="concept">서 정적 원근법</term>’이라는 '<term type="concept">상징적 형식</term>’을 허용하지 않았다고 말이다.</s>
+          <s>그렇다면 ‘나에게 충실하겠다는 것은 무엇을 뜻하는가?</s>
+          <s>일반적으로 그것은 나의 ‘<quote type="direct" genre="critic">본질</quote>’이 존재한다고 가정되는 ‘깊은' 곳으로 들어가는 것을 의미할 것이다.</s>
+          <s>그리고 그런 시들이 있다.</s>
+        </p>
+        <p>
+          <s>‘<term type="concept">실재의 시</term>’라고 명명할 수 있을 일련의 시들이 <date from="2000" to="2009">2000년대</date> 시의 한 흐름을 이룬다.</s>
+          <s>그러나 ‘<term type="concept">표면의 시</term>’를 쓰는 이들은 그것이 일종의 통념일 수 있다고 생각한다.</s>
+          <s>예 컨대 <persName role="foreigner" xml:id="p-x11">프로이트</persName>는 ‘<term type="concept">심층</term>’을 사유한 ‘<term type="concept">깊이</term>’의 이론가인가?</s>
+          <s>그가 최면요법 대 신에 자유연상을 택한 것은 그가 <term type="concept">심층</term>이 아니라 <term type="concept">표면</term>에 주목했기 때문이 다.</s>
+          <s>“<quote type="direct" genre="critic" source="기원">프로이트는 심층 대신 자유연상 또는 꿈에서 표층적으로 나타나는 정 보의 연합과 통합의 배치에 주목한 것이다</quote>’’（『기원』.</s>
+          <s>강조는 원저자） .</s>
+          <s>말하 자면 <term type="concept">본질은 표면에 있다</term>고 그들은 말하고 싶은 것인지도 모른다.</s>
+          <s>그러나 <interp value="critical" ana="미학">이것은 소극적인 규정이다.</interp></s>
+        </p>
+        <p>
+          <s>그들에게 진정 중요한 것은 ‘<term type="concept">본질</term>’이 아니라 ‘<term type="concept">가능성</term>’이기 때문이다.</s>
+          <s>심층으로부터 해방되었을 때 새로운 세계와 새로 운 나를 창조할 수 있다고 그들은 믿는다.</s>
+          <s>그리고 이 것은 들뢰 =} “<quote type="direct" genre="other" source="의미의 논리">이제 모든 것이 표면으로 올라온다</quote>” （『<title level="m" type="foreign" xml:id="t-x5">의미의 논리</title>』） 는 말로 도모하고자 했던 ‘<quote type="direct" genre="critic">생 성</quote>’의 기획의 취지와 크게 다르지 않을 것이다.</s>
+          <s>깊이의 세계（<persName role="foreigner" xml:id="p-x12">플라톤</persName>의 세계）와 결별한 <term type="concept">표면</term>의 세계（앨리스의 세계）에서 지금 무슨 일인가가 벌어지 고 있다.</s>
+          <s><persName ref="#p-x12">플라톤</persName>과 앨리스무슨 일이 벌어지고 있는가.</s>
+          <s>우리는 ‘<term type="concept">이데아의 전제</term>’와 ‘<quote type="direct" genre="critic">코기토의 전 제</quote>’가 뒤틀리고 있다는 관점에서 몇 가지 이야기를 한 적이 있다（'■시뮬라 크르를 사랑해」참조）.</s>
+          <s>이제는 그들 특유의 스타일（문체） 에 초점을 맞추어 •<term type="concept">표면의 시학</term>’이 존재할 수 있는 <term type="concept">가능성</term>을 탐문해볼 수도 있겠다는 생각을 한다.</s>
+          <s>예컨대 그들이 자주 “〜 라고 생각해’’나 “〜를 사랑해’’와 같은 형식 의 문장을 쓰는 것은 <term type="concept">현실인식</term> （“<quote type="direct" genre="critic">-라고 생각해</quote>”） 과 <term type="concept">가치판단</term>（“<quote type="direct" genre="critic">-를 사랑해</quote>”） 의 영역에서 그들이 어떤 자유를 구가하고 있는지를 보여주는 징후일 수 있다.</s>
+        </p>
+        <p>
+          <s>우리는 어떤 식으로든, 적어도 당분간은, 이 <term type="concept">표면</term>의 시들에 주목하 려고 한다.</s>
+          <s><persName ref="#p-x12">플라톤</persName>의 세계와 무관한 곳에서 심드렁하게 아름다운 이 앨리 스의 세계는 <interp value="neutral" ana="미학">달콤하게 혼란스럽다</interp>.</s>
+          <s>그리고 이 <term type="concept">달콤한 혼란</term> 속에 <interp value="affirmative" ana="미학">한국 시의 또 다른 미학 하나가 잠재해 있다고 생각한다</interp>.</s>
+          <s>우리는 지금껏 <persName ref="#p-x5">가라타니</persName>의 논의에 적잖이 의지했지만 <interp value="neutral" ana="문학관">그의 결론과는 무관한 곳에 도달하길 원한다</interp>.</s>
+          <s><interp value="affirmative" ana="문학관">우리는 종언이 아니라 또 다른 시작에만 흥미를 느낀다</interp>.</s>
+          <s><persName role="foreigner" xml:id="p-x13">들뢰즈</persName>는 <quote type="indirect" genre="foreign" source="들뢰즈">앨리스 같은 소녀들만이 표면을 이해할 수 있다</quote>고 말한 적이 있다.</s>
+          <s>“<quote type="direct" genre="other">나를 내버려 두세요.</quote></s>
+          <s>
+            <quote type="direct" genre="other">나는 깊이가 없어요.</quote>
+          </s>
+        </p>
+        <p>
+          <s>” 어떤 완강한 할아버지도 제멋대로인 손녀를 이길 수는 없는 것이다.</s>
+          <s>融신 형 철 문학평론가.</s>
+          <s>계간 r<title level="j" type="journal" xml:id="t-x6">문학동네</title>」편집위원.</s>
+          <s><date when="2005">2005년</date> r<title level="j" type="journal" ref="#t-x6">문학동네</title>j로 등단.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

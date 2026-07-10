@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>언어의 심연, 신과 인간 사이에서 요동치는  2000년대 젊은 시인들의 시와 언어</title>
+        <author>오홍진</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>언어의 심연, 신과 인간 사이에서 요동치는-<date from="2000" to="2009">2000년대</date> <term type="concept">젊은 시인들</term>의 시와 언어<persName role="poet" xml:id="p-x">오홍진</persName>（문학평론가）시는 본질적으로 보이지 않는 세계를 언어로 표현하려 한다.</s>
+          <s>시의 이러 한 특성은 두 가지 점을 생각하게 한다.</s>
+          <s>먼저, 시가 보이지 않는 세계를 표현한다고 할 때, 시는 이미 언어（일상언어）로 구성된 세계를 넘어서고 있다는 점을 명시할 필요가 있다.</s>
+          <s><quote type="paraphrase" genre="critic">시인을 통해 시가 스스로 말한다</quote>는 하 이데거의 <term type="concept">시학</term>은 시에 묘사된 세계가 일상의 세계와는 엄밀하게 ‘<quote type="direct" genre="poet">다른</quote>’ 세계임을 암시한다.</s>
+          <s>그렇지만 시의 세계는 ‘<quote type="direct" genre="poet">언어</quote>’로 표현되는 세계라는 점에서 일상의 세계에 그 바탕을 두어야 한다는 한계 조건을 태생적으로 갖는다.</s>
+          <s><quote type="paraphrase" genre="critic">언어가 주체화의 상징적 조건</quote>이라는 말을 굳이 덧붙이지 않더라 도, 언어는 그것을 받아들이는 주체（시인）의 형상을 선험적으로 구성한 다.</s>
+          <s>보이지 않는 세계를 지향함으로써 언어를 넘어서는 시의 첫 번째 특 성은, 이로써 언어로 구성되는 일상의 세계로 다시 복귀해야 하는 시의 두 번째 특성으로 이어진다.</s>
+          <s>언어는 ‘<quote type="direct" genre="poet">다른</quote>’ 세계로 나아가기 위한 시적 수단이면서, 동시에 다른 세계에서 지금 이곳의 일상으로 되돌아오는 시 적 수단이라 할 수 있다.</s>
+        </p>
+        <p>
+          <s>시의 언어는 일상의 세계에서는 억압된 ‘<term type="concept">무의식</term>’ 의 세계로 끊임없이 나아가지만, 그럼에도 시의 언어는 ‘<term type="concept">무의식</term>’ 의 세 계 언저리에서 끊임없이 맴돌기만 한다.</s>
+          <s>신의 언어（완전한）와 인간의 언 어（불완전한） 사이에서 요동하는 시의 언어는 이런 점에서, 지상에 발을 딛은 채 천상의 세계를 지향하는 시인들의 지난한 여정과 다를 수 없다고 하겠다.<term type="concept">2000년대의 젊은 시인들</term>이 표현하는 시의 세계（언어）는 무엇보다도 이 러한 <term type="concept">무의식의 세계</term>와 변함없이 맞닿아 있다.</s>
+          <s>‘<term type="concept">오래된 기억</term>’ 의 세계를 여 전히 시의 중심에 두고 활동하는 시인들도 그러하지만, 소위 ‘<term type="movement">미래파</term>’ 라 불리며 분열증적인 사유에 빠져드는 <term type="concept">젊은 시인들</term>의 <term type="concept">분열증적 세계</term> 역시 궁극적으로는.</s>
+          <s>보이지 않는 <term type="concept">무의식의 세계</term>를 시의 언어로 포착하려 하고 있다.</s>
+          <s>그들에게 언어는 지금 이곳의 현실에서는 사라질 수밖에 없는 ‘<quote type="direct" genre="poet">오 래된 기억</quote>’을 지금 이곳으로 불러내는 <term type="concept">주술적인 언어</term>이며, 또한 ‘<quote type="direct" genre="poet">아버지</quote>’ 의 억압이 사라지지 않는 세상을 야유하고 조롱하는 ‘<term type="concept">저항의 언어</term>’ 이기 도 하다.</s>
+          <s>중요한 것은 전자의 언어가 자연의 <quote type="direct" genre="poet">부드러운</quote> 이미지와 연계된 ‘부드러운’ 언어의 쓰임새에 집중한다면, 후자의 언어는 유기체로서의 신체를 조각조각 잘라내는 끔찍한 상상력만큼이나 ‘<quote type="direct" genre="poet">끔찍하고 건조한</quote>’ 언 어를 사용한다는 점이다.</s>
+          <s>물론 ‘부드러움’ 과 ‘건조함’ 이라는 어사가 시의 가치를 평가하는 기준으로 작동하는 것은 아니다.</s>
+          <s>그것은 <term type="concept">2000년대 젊은 시인들</term>이 지향하는 세계가 그만큼 다르고, 그들이 펼쳐내는 이미지 역시 그만큼 다르다는 것을 의미한다.</s>
+        </p>
+        <p>
+          <s>동일한 시대를 살고 있지만, 그들은 다 른 세계를 꿈꾸고 다른 세계의 언어를 구사하고 있는 것이다.</s>
+          <s>산모롱이 한 굽이 돌아 당신을 만나러 간다.</s>
+          <s>당신의 희미하고 둥근 눈 썹을 예전에 내가 어루만지기나 하듯이 꺼져가는 달을 어루만지는 허공, 저렇게 오래 배웅하는 것도 큰 상처가 될 것이다.</s>
+          <s>잠깐 눈발은 그쳐 있다.</s>
+          <s>산새가 다시 운다.</s>
+          <s>울음이 성성하다.</s>
+          <s>나와 당신 사이에 싸락눈에 묻힐 산모롱이가 한 굽이 있다.- <persName role="poet" xml:id="p-x2">문태준</persName>,「<title level="a" type="poem" xml:id="t-x">산모롱이 저편</title>」（『<title level="m" type="poem" xml:id="t-x2">맨발</title>』, 장비, <date when="2004">2004</date>） 전문방죽으로 가는 길에는 수많은 애기똥풀이 흔들렸다.</s>
+          <s>하얀 자갈들이 방 죽 주변으로 길게 누워 있었다.</s>
+        </p>
+        <p>
+          <s>이 바람을 건너면, 방죽 안으로 갈 수 있 어.</s>
+          <s>그는 느리고 졸린 뱀처럼 작은 개울을 건너 방죽 안으로 들어갔다.</s>
+          <s>나 는 맨발을 봄날의 햇빛에 말렸다.</s>
+          <s>그는 애기똥풀을 뚝 부러뜨리고 노란 진 액을 손톱에 발랐다.</s>
+          <s>어렸을 때, 여자애들은 애기똥풀로 이러고 놀았어.</s>
+          <s>방죽의 끝에는 얼굴이 노란 여자애들이 우리를 바라보고 있었다.</s>
+          <s>그는 천 천히 주변에 널린 들꽃의 목을 꺾어 방죽으로 던졌다.</s>
+          <s>꽃모가지들이 뚝뚝 진액을 흘렸다.</s>
+        </p>
+        <p>
+          <s>파문이 일었다.</s>
+          <s>해는 지고, 둥그런 물결들이 하늘로 올라 갔다.</s>
+          <s>저 물에 들어가서 꽂의 목들을 건져와.</s>
+          <s>나는 맨발로 그를 건너갔다.</s>
+          <s>발 없는 여자애들이 방죽을 흘러다녔다.</s>
+          <s>노란 달이 천천히 수면 위로 떠올 랐다.</s>
+          <s><title level="a" type="poem" xml:id="t-x3">바람을 건너가고 있었다</title>.— <persName role="poet" xml:id="p-x3">이영주</persName>,「<title level="a" type="poem" ref="#t-x3">바람을 건너가고 있었다</title>」（r<title level="m" type="poem" xml:id="t-108">108번째 사내</title>」, <orgName xml:id="org-x">문학동네</orgName>, <date when="2005">2005</date>） 전문<persName ref="#p-x2">문태준</persName>의「<title level="a" type="poem" ref="#t-x">산모롱이 저편</title>」과 <persName ref="#p-x3">이영주</persName>의「바람을 건너가고 있었다」는 ‘<quote type="direct" genre="poet">나와 당신</quote>’ 의 관계를 시적으로 형상화하고 있다는 점에서 공통점을 찾 을 수 있다.</s>
+          <s>하지만 그 관계를 언어로 드러내는 방식은 사뭇 다른데, 문태 준이 "<quote type="direct" genre="poet">당신을 만나러</quote>” 가는 산모롱이의 주변 풍경을 ‘<quote type="direct" genre="poet">어루만지듯</quote>’ 묘사한 다면, <persName ref="#p-x3">이영주</persName>가 묘사하는 “<quote type="direct" genre="poet">방죽으로 가는 길</quote>”은 “<quote type="direct" genre="poet">느리고 졸린 뱀</quote>”의 이미 지처럼 ‘<quote type="direct" genre="poet">나른하고 건조하게</quote>’ 펼쳐진다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x2">문태준</persName>은 “<quote type="direct" genre="poet">꺼져가는 달을 어루만 지는 허공</quote>”을 보며 “<quote type="direct" genre="poet">당신의 희미하고 둥근 눈썹을</quote>” 어루만진다.</s>
+          <s>그러므로 당신을 만나러 가는 길은 허공이 어루만지는 달을 만나러 가는 길이며, 한편으로 “<quote type="direct" genre="poet">예전에 내가</quote>” 어루만지던 당신의 둥근 눈썹을 만나러 가는 길 이기도 하다.</s>
+          <s>‘꺼져가는 달 과 ‘<quote type="direct" genre="poet">희미하고 둥근 눈썹</quote>’ 이 유비되는 장소에 “<quote type="direct" genre="poet">나와 당신</quote>”이 있고, “<quote type="direct" genre="poet"><lg type="stanza"><l>나와 당신 사이에 싸락눈에 묻힐 산</l></lg><lg type="stanza"><l>모롱이가 한 굽이 있다.</l></lg></quote></s>
+          <s>” 시적 주체와 대상의 거리（사이）가 무화되는 절대적인 공간（시 간）을 시화하는 이 시에서, <persName ref="#p-x2">문태준</persName>은 인류가 기억해야 할 ‘<term type="concept">오래된 세계</term>’ 를 불러낸디-.</s>
+          <s><persName role="critic" xml:id="p-x4">김수이</persName>가 지적（r<title level="m" type="critic" xml:id="t-x4">서정은 진화한다</title>』, <orgName xml:id="org-x2">창비</orgName>, <date when="2006">2006</date>）하는 바, 그 세계가 ‘<quote type="direct" genre="critic" source="서정은 진화한다">자연의 매트릭스</quote>’ 에 갇힌 서정시의 세계로 한정되어 있긴 하지 만, <persName ref="#p-x2">문태준</persName>은 오래된 기억의 세계에서나 가능한 시의 세계를 ‘부드러운’ 언어로 되불러내고 있는 작업을 변함없이 보여주고 있는 것이다.</s>
+          <s>그러나 <persName ref="#p-x3">이영주</persName>의「<title level="a" type="poem" ref="#t-x3">바람을 건너가고 있었다</title>」는 “<quote type="direct" genre="poet">얼굴이 노란 여자애들</quote>”, “<quote type="direct" genre="poet">꽃모가지들이 뚝뚝 진액을 흘렸다</quote>”, “<quote type="direct" genre="poet">발 없는 여자애들이 방죽을 흘러다 녔다</quote>”와 같은 시구에 드러나는 대로, 斗와 당신’ 이 유비되는 세상을 거부 한다.</s>
+          <s>당신은 내가 건너가야 할 장소이지, 나와 더불어 하나가 되는 장소는 아니다.</s>
+          <s>방죽으로 가는 길 위에서 벌어지는 환상을 건조한 언어로 묘사하 고 있는 위 시에서 시적 주체는 “<quote type="direct" genre="poet">주변에 널린 들꽃의 목을 꺾어 방죽으로 던</quote>”져야만, 그의 소망대로 “<quote type="direct" genre="poet">바람을 건너</quote>”갈 수 있다.</s>
+        </p>
+        <p>
+          <s>방죽이 꽃들의 무덤이 될수록, 그리고 발 없는 여자애들이 방죽을 흘러다닐수록, 화자는 바람처럼 가볍게 방죽의 끝으로 나아갈 수 있다.</s>
+          <s>시적 주체가 바람을 건너서 가려 하 는 세상은 분명하지 않다.</s>
+          <s>기억의 세계를 이야기하고 있고, 또 기억 속의 놀 이（“<quote type="direct" genre="poet">애기똥풀을 뚝 부러뜨리고 노란 진액을 손톱에 발랐다</quote>”）를 통해 바람을 건너가려 하지만, 기억은 더 이상 시의 종착점이 아니라 시의 세계가 조각 나고 파편화되는 지점으로 나타난다.</s>
+          <s>화자가 바람을 건너갈수록 “<quote type="direct" genre="poet">꽃모가지 들이 뚝뚝 진액을</quote>” 흘리지 않는가.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그로테스크한 이미지만큼이나 건조하게 표현되는 이영주의 시어는 결코 조화될 수 없는, 그렇지만 그 조화의 상태 를 포기할수 없는 시적 주체의 내면을 정확하게 드러내고 있는 셈이다.</interp>
+          </s>
+          <s><persName ref="#p-x2">문태준</persName>과 <persName ref="#p-x3">이영주</persName>의 시에서 언어는 보이지 않는 세상을 보이게 만드는 <term type="concept">주술적인</term> 힘을 지니고 있다.</s>
+          <s>그들이 꿈꾸는 세계는 다르지만, 언어를 통 해서만 그들은 꿈의 세계로 들어설 수 있다.</s>
+          <s>주체와 대상의 거리가 철저 하게 무화되는 <persName ref="#p-x2">문태준</persName>의 시에서 언어는 <term type="concept">상징계</term>의 언어가 아니라 <term type="concept">상상계</term>의 언어를 지향한다.</s>
+        </p>
+        <p>
+          <s>그래서 <persName ref="#p-x2">문태준</persName>의 언어에는 <term type="concept">분열</term>이 있을 수 없다.</s>
+          <s>그 가 소망하는 세계는 그가 불러내는 언어와 행복하게 만난다.</s>
+          <s>그럴 수밖에 없지 않겠는가.</s>
+          <s>‘<term type="concept">오래된 기억</term>’ 은 시인을 통해 이 세상으로 퍼져나가고 시 인은 그 기억과 더불어 지금 이곳에서는 볼 수 없는 새로운 세계를 시화 한다.「<title level="a" type="poem" xml:id="t-x5">그믐이라 불리는 그녀</title>」에 묘사되는, “<quote type="direct" genre="poet" source="그믐이라 불리는 그녀">옻처럼 검고 얼음처럼 차디 차지만 / 얼굴에는 개미굴이 여럿 나 있지만 / 다리는 사슴보다 야위었지 만 / 그녀의 너른 속뜰로 들어가 / 마음이 쉬어가는 날이 많았다</quote>”는 조모 의 형상이 실상 <persName ref="#p-x2">문태준</persName>의 시가 도달한, 오래되고 익숙한 언어적 세계일 것이다.</s>
+          <s><persName ref="#p-x3">이영주</persName> 시의 언어가<term type="concept">상상계</term>의 언어를 지향하면서도, <persName ref="#p-x2">문태준</persName> 시의 언어와 갈라지는 지점은 바로 이곳에서 찾을 수 있다.</s>
+          <s>그녀에게는 조모의 세계는 없고, 다만 “<quote type="direct" genre="poet" source="그녀들">지나가는 사내의 팔뚝에 발톱을 박는</quote>”（「<title level="a" type="poem" xml:id="t-x6">그녀들</title>」） 그녀 들의 세계가 있을 뿐이다.</s>
+          <s>세상은 적대적으로 공존하는 세상이지, <persName ref="#p-x2">문태준</persName> 의 조모처럼 “<quote type="direct" genre="poet">마음이 쉬어가는</quote>” 장소가 아니다.</s>
+          <s>
+            <interp value="neutral" ana="미학">얀주할 곳이 없는 시적 주체의 감각은 풍경을 조각나고 파괴된 풍경으로 포착한다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><persName ref="#p-x3">이영주</persName>의 <term type="concept">건 조하고 차가운 언어</term>는 그녀가 바라보는 세계의 차가움（끔찍함）을 반영한 다.</s>
+          <s>두 <term type="concept">젊은 시인</term>의 시에 나타나는 시적 세계의 이러한 차이는 우리가 살 아가는 세상이 그만큼 다질적으로 공존하고 있음을 보여준다.</s>
+          <s>세계가 다 양하게 공존하는 세상이라면, 그 세계의 언어 역시 다양하게 분화될 수밖 에 없다.</s>
+          <s><persName ref="#p-x2">문태준</persName>과 <persName ref="#p-x3">이영주</persName>의 시는 그처럼 다양하게 분화되는 언어적 세계 의 한 단면을 드러낸다 하겠다.2.</s>
+          <s><term type="concept">시적 언어의 주술성</term>은 인간의 언어에 내포된 <term type="concept">이중성</term>과 이어져 있다.</s>
+          <s><term type="concept">바 벨탑의 언어</term>（인간의 언어）는 무엇보다도 불가능한 것（보이지 않는 것）을 가능하게（보이게） 만드는 신의 완전성을 하염없이 열망하고 있다.</s>
+          <s>하지만그러한 열망이 언어에 의해 끊임없이 좌절될 수밖에 없다는 것을 또한 인 간은 알고 있다.</s>
+          <s>따라서 <term type="concept">시적 언어의 주술성</term>은 언어의 한계에 갇힌 인간 이 그 언어의 한계지점을 뛰어넘으려는, 실현불가능한 열망을 표현한다.</s>
+        </p>
+        <p>
+          <s>신은 <term type="concept">언어의 외부</term>에서 언어를 말하지만, 인간은 언어의 내부에서 언어의 외부를 끊임없이 엿보려 한다.</s>
+          <s>이를테면 <persName role="poet" xml:id="p-x5">김선우</persName>의「<title level="a" type="poem" xml:id="t-x7">신神의 방</title>」에서 시인 은 “<quote type="direct" genre="poet" source="신의 방">인간의 배변 장소와 돼지우리가 함께 있는 아주 재미난 방</quote>”인 ‘<quote type="direct" genre="poet">통시</quote>’ 를 ‘<quote type="direct" genre="poet">신의 방</quote>’ 으로 이야기한다.</s>
+          <s>사람의 똥을 주식으로 하는 돼지가 사는 곳이 ‘<quote type="direct" genre="poet">통시</quote>’ 라면, 신의 방은 생명과 생명이 교류하는 방이고, 한 생명이 다른 생명에게 공양되는 방이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">보이는 세계에서 보이지 않는 생명의 의 미를 파악하는「신의 방」은 그 때문에 주술적인 언어로 넘쳐난다.</interp>
+          </s>
+          <s>신의 방을 순간적으로 ‘<quote type="direct" genre="poet">엿본</quote>’ 시인의 감각이 ‘<quote type="direct" genre="poet">통시</quote>’를 순식간에 신의 방으로 뒤바꾼다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">시인의 감각은 여기서 일상의 감각을 뛰어넘어, 의미화되기 이 전의 시적 감각의 차원에 도달한다.</interp>
+          </s>
+          <s>‘통시’ 라는 시어에 깃들인 <term type="concept">생명（신 성）의 존재감</term>은 실로 보이는 세계와 보이지 않는 세계의 경계에서 요동하 는 시 인의 실존적 정황을 정확하게 보여준다 하겠다.</s>
+          <s>
+            <quote type="direct" genre="poet" source="신의 방">
+              <lg type="stanza">
+                <l>서른 해 넘도록 연인들과 노닐 때마다 내가 조금쯤 부끄러웠던 순간은 오줌 눌 때였는데 문 밖까지 소리 들리면 어쩌나 힘주어 졸졸 개울물 만들 거나 성급하게 변기물을폭포수로 내리며 일 보던 것인데</l>
+              </lg>
+              <lg type="stanza">
+                <l>마흔 넘은 여자들과 시골 산보를 하다가 오동나무 아래에서 오줌을 누 게 된 것이었다 뜨듯한 흙냄새와 시원한 바람 속에 엉덩이 내놓은 여자들 사이, 나도 편안히 바지를 벗어내린 것인데</l>
+              </lg>
+              <lg type="stanza">
+                <l>소리 한번 좋구나!</l>
+              </lg>
+            </quote>
+          </s>
+        </p>
+        <p>
+          <s>그중 맏언니가 운을 뗀 것이었다 젊었을 땐 왜 그 소 릴 부끄러워했나 몰라, 나이 드니 졸졸 개울물 소리 되려 창피해지더라고 내 오줌 누는 소리 시원타고 좋아라 하는 것이 었다그러고 보니 딸애들은누구 오줌발이 더 힘이 좋은지, 더 넓게, 더 따뜻 하게 번지는지 그런 놀이는 왜 못하고 자라는지 몰라, 궁금해 하며 여자들 깔깔거리는 사이문 밖까지 땅 끝까지 강물소리 자분자분 번져가고 푸른 잎새 축축 휘늘 어지도록 열매 주렁주렁 매단 오동나무가 흐뭇하게 따님들을 굽어보시는 것이었다— <persName ref="#p-x5">김선우</persName>「<title level="a" type="poem" xml:id="t-x8">오동나무의 웃음소리</title>」（r<title level="m" type="poem" xml:id="t-x9">도화 아래 잠들다</title>』, <orgName ref="#org-x2">창비</orgName>, <date when="2003">2003</date>）김선우의 시 세계는 <persName ref="#p-x2">문태준</persName>의 시 세계와 닮아 있지만, 문태준이 시화하 는 ‘따뜻한 조모’ 의 세계와는 분명하게 갈라지고 있다.</s>
+          <s><persName ref="#p-x2">문태준</persName>의 조모가 ‘어머니’ 에 대한 남성의 환상을 자극하는 존재라면, <persName ref="#p-x5">김선우</persName>의 시에 나타 나는 여성들은 스스로 독립한 채 저마다의 목소리를 내고 있다.</s>
+          <s>여성들의 일상적인 삶을 일상적인 언어로 표현하는「<title level="a" type="poem" ref="#t-x8">오동나무의 웃음소리</title>」는 일상 의 삶 이면에 감추어진 삶의 진실을 ‘오동나무’ 라는 외부의 시선으로 제 시하고 있다는 점에서 특징적인 작품이라 할만하다.</s>
+          <s>‘<quote type="direct" genre="poet">오줌소리</quote>’ 라는 일 상적인（그럼에도 비일상적인 것으로 치부되는） 사건에 ‘<quote type="direct" genre="poet">우연하게</quote>’ 참여 함으로써 겪게 되는 상황을 <term type="concept">해학</term>적으로 묘사하는 이 시에서, 시인은 오줌 누는 따님들을 흐뭇하게 굽어보는 오동나무의 모습을 초점화하고 있다.</s>
+          <s>“<quote type="direct" genre="poet" source="오동나무의 웃음소리">푸른 잎새 축축 휘늘어지도록 열매 주렁주렁 매단 오동나무</quote>”는 시의 문 맥상 따님들의 오줌으로 길러진 <term type="concept">생명</term>을 의미할 것이다.</s>
+          <s><term type="concept">생명</term>이 생명을 낳 는 세계라는 거시적인 세계관에서 보자면, 오줌소리를 부끄러워하는 존 재들은 분명 <term type="concept">반-생명</term>적인 존재라 할 수 있다.</s>
+          <s>
+            <interp value="critical" ana="사회">오줌소리와 더불어 놀 줄을 모르는 우리 시대 따님들의 슬픈 현실은 거대한 생명의 연쇄망을 부정하 는근대문명의 반-생명적 현실과 무관하지 않을 것이다.</interp>
+          </s>
+          <s><term type="concept">시적 언어의 주술성</term>은 이처럼 상황의 이면을 투시하는 시인의 태도에 서 비롯된다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x5">김 선우</persName>가 주목한 ‘<quote type="indirect" genre="poet">통시</quote>’ 나 '<quote type="indirect" genre="poet">오줌소리</quote>’ 는 누구나 볼 수 있는 일상적인 대상이지만, 아무나 표현할 수 없는 언어의 세계로 구성된다.</s>
+          <s>인간의 언어로는 도달할 수 없는 ‘<quote type="indirect" genre="poet">신의 방</quote>’ 은 일상적인 삶을 충실하게 살 아가는 시인의 존재로 하여 시적인 언어로 다시 태어난다.</s>
+          <s>인간의 이성이 빚어낸 세계만을 과학적인 세계로 규정하는 이 시대에, 시의 언어는 과학 의 언어로는 포착할 수 없는 ‘<quote type="indirect" genre="poet">다른 세계</quote>’ 를 표현한다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">따님들의 오줌소리 를 오동나무의 웃음소리와 연결하는 시인의 감각을 과학의 언어가 따라 올 수 있겠는가.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">사물을 세세하게 분석하는 과학 언어는 이러한 오동나무 의 웃음소리를 분석하는 과정에서 직접적인 한계에 부닥친다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="사상">사물의 본 질을 확연하게 내보이는 언어는 근대적 주체의 환상일 뿐, 실제의 사물들 은 항상 언어의 의미화를 거부하며 스스로의 길을 걸어간다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="사상">고정된 의미 를 향한 근대적 주체의 열망이 빚어낸 과학 언어의 지시적 세계는 실상 근대적 주체의 환상에 의해 구조화된, 불완전한 언어의 세계에 불과했던 셈이다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">시의 언어를 통해 신화적 세계의 중심에 들어서려는, 젊은 시인 김근의 다음 시 역시 근대주체의 이러한 환상에서 멀찌감치 비껴나는 언 어로 그 세계를 표현되고 있다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>누가 어미의 장사를 지내줄 것인가 누가 어미의 육체를 장엄하게 썩게 할 것인가 내 갈라진 혀는 여태도 길고 사나우니 내 날카로운 독니로 찢고 발긴어미의 살점은 또 어느 허공에 뿌려질 것인가어미이기도 하고 어미가 아니기도 한 아들이기도 하고 아들이 아니기도 한암소이기도 하고 수소가 아니기도 한이 질긴 <term type="concept">슬픔</term>의 꼬나풀은 누가 끊을 것인가- 심근-.「<title level="a" type="poem" xml:id="t-x10">배소넌의 외줄</title>j（r<title level="a" type="poem" xml:id="t-x11">백소년의 외줄</title>」.</s>
+          <s>문하동네.</s>
+          <s>2005） 1장<interp value="neutral" ana="미학">어미의 살점을 찢고 세상에 태어난 뱀소년의 이야기를 담고 있는 이 시</interp> 에시.</s>
+          <s>세상의 존재들은 이미 <term type="concept">역설</term>적인 구소 속에 내던져져 있다.</s>
+          <s>벰소년 이 어미의 살점을 찢는 순간, 그는 “<quote type="direct" genre="poet" source="뱀소년의 외출">이미이기도 하고 어미가 아니기도 한 / 아든이기도 하고 아들이 아니기도 한</quote>’' 존재가 된다.</s>
+          <s>존재의 탄생이 정 체성의 혼란으로 이어지는 이야기는 물론 신화적 세계 이디서에서나 공 통적으로 변주되는 이야기이다.「<title level="a" type="poem" xml:id="t-x12">뱀소늰의 외출</title>」이곳저곳에 등장하는 역실적인 상황들, 이를테면 “<quote type="direct" genre="poet" source="뱀소년의 외출">허물을 벗어도 허물 안의 기억은 / 허붊 바 깥에서 사라지지 않는디-</quote>'’（3장）.</s>
+          <s>‘•<quote type="direct" genre="poet" source="뱀소년의 외출">늙은 소녀와 내가 아기를 낳으면 / 뱀이 기노 하고 소넌이기도 한 / 한미이기도 하고 소녀이기도 한 / 아기가 태어 날지 궁금했다구</quote>”（4 장）와 같은 시 적 정황늘은 안과 비-깉-.</s>
+          <s>젊음과 늘『음.</s>
+        </p>
+        <p>
+          <s>인 간과- 동물이 구분되지 않는 <term type="concept">신화적 세계</term>의 중요한 특-성을 분명하게 노여 준다 할것이다.</s>
+          <s>문제는 <persName role="poet" xml:id="p-x6">김근</persName>이 이러한 <term type="concept">신화적</term> 정황들을 하필이면 시의 언어로 표현하 는 이유를 생각해야 한다는 점이다.「<title level="a" type="poem" xml:id="t-x13">그림자 밟기</title>」에서 시인은 다양한 연 대에 존재% 다잉＜ 얼굴들（<quote type="direct" genre="poet" source="그림자 밟기">1973년의 나, 2000년의 나, 2040년의 나……</quote>）을 묘사하면서, “<quote type="direct" genre="poet" source="그림자 밟기">2040년 나가 모든 주름으로 2005년의 나를 비 웃는다 2005년의 나의 얼굴에 검버섯이 피어난다 몸에선 조금씩 무덤들 이 자라기 시작한다</quote>”고 노래한다.</s>
+          <s>시간은 앞으로 나아가기만 하는 것이 아니라, 뒤로 물러나왔다가는 과거의 존재에게 영향을 미치기까지 한다.</s>
+          <s>2040년에 존재하는 ‘나’ 의 주름이 2005년의 나의 얼굴에 서서히 드리워 진다면, 어느 것을 ‘나’ 의 본모습으로 생각해야 할까?</s>
+          <s>뱀이면서 소년이 고, 할미이면서 소녀인 아기가 이 세상에 태어난다면, 그런 존재를 과연 지금의 일상적인 언어로 표현할 수 있겠는가?</s>
+          <s>과학의 언어로는 볼 수 없는 세상을 <persName ref="#p-x6">김근</persName>은 노래하고 있다.</s>
+          <s>보이지 않는 세계를 기억하는 자의 언 어는 그러므로 이것도 저것도 아닌, 또한 이것이기도 하고 저것이기도 한 ‘<term type="concept">불연기연不然其然</term>’ 의 언어로 표현될 수밖에 없다.</s>
+          <s>보이지 않는 세상을 향해 불가능한 여정을 시작한 시인에게 언어는 그 불가능한 여정을 가능하게 하는 ‘<term type="concept">고정점</term>’ 의 역할을 담당한다.</s>
+        </p>
+        <p>
+          <s>보이지 않 아도 표현해야 하는 것이, <term type="concept">시인의 운명</term>이 아니던가.</s>
+          <s>‘<quote type="direct" genre="critic" source="말할 수 없는 것과 말해야만 하는 것">감각적 변이의 과정 을 노래로 만드는 언어구성체</quote>’ （<persName role="critic" xml:id="p-x7">박수연</persName>,『<title level="m" type="critic" xml:id="t-x14">말할 수 없는 것과 말해야만 하 는 것</title>」, 랜덤하우스중앙, 2006, 15쪽）로 시를 정의하는 박수연의 생각을 눈여겨 보아야 하는 이유도, 시인의 감각은 보이는 세계의 보이지 않는 이면을 ‘순간적으로’ 포착해야 하기 때문이다.</s>
+          <s>그럼에도 그러한 <term type="concept">감각</term>의 순간은 고정된 의미로 남아 있을 수 없다.</s>
+          <s><term type="concept">감각</term>이 언어로 표현되는 순간, 감각은 변이를 시작한다.</s>
+          <s><term type="concept">감각</term>은 언어를 통해서 표현되지만, 감각은 그 언어의 의미화（고정화）를 동시에 거부한다.</s>
+          <s>언어로 사물의 현실을 재현한 다는 <term type="concept">재현론적 관점</term>의 너머에서, <persName ref="#p-x6">김근</persName>의 <term type="concept">신화적 상상력</term>은 시작되고 있는 것이다.</s>
+          <s>끊임없이 허물을 벗고, “<quote type="direct" genre="poet" source="뱀소년의 외출">어느 것이 허물 안의 기 억 인지 / 어느 것 이 허물 바깥의 기 억인지</quote>”（「<title level="a" type="poem" xml:id="t-x15">뱀소년의 외출</title>」3장） 혼란스러운 세계를 살면 서, <interp value="critical" ana="미학">확고한 진실을 표현한다고 말하는 것은 얼마나 허망한 일인가.</interp></s>
+          <s><persName ref="#p-x6">김근</persName> 의 언어는 그처럼 혼란스러운 세상의 경계에 서서, 그 경계를 가로지르며 질주하고 있다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet" source="거울">이편과 저편의 경계가 물렁물렁해</quote>”（「<title level="a" type="poem" xml:id="t-x16">거울</title>」）지는 바깥을 향해, “<quote type="direct" genre="poet" source="바리데기">바람이 불 때마다 눈알 빠진 해골들 / 후두둑 후두둑 육탈된 시간 으로 쌓여넘치는</quote>”（「<title level="a" type="poem" xml:id="t-x17">바리데기</title>」） 세상을 향해 시인의 언어적 촉수는 살아 움직이고 있는 것이다.</s>
+          <s><term type="concept">주술적인 언어</term>와 눈열승적인 언어가 시의 중심을 형성하는 <date from="2000" to="2009">2000년대</date> 의 시단에시, <interp value="affirmative" ana="문학관">윤임수의 시는 1980년대 저항시（민중시）의 계보를 잇고 있 다는 점에서 눈여겨 볼만하다.</interp></s>
+          <s>첫 시집「<title level="m" type="poem" xml:id="t-x18">상처의 집</title>」（<orgName xml:id="org-x3">실천문학사</orgName>, <date when="2006">2006</date>）에 등장하는 수많은 존재들은 보이지 않는 세상을 향한 <term type="concept">주술적인 몸짓</term>이나, ‘<quote type="direct" genre="poet">아버지</quote>’ 의 세계에 힘겹게 저항하는 <term type="concept">분열증</term>의 몸짓과는 다른 언어의 표 정을 내보인다.</s>
+          <s>“<quote type="direct" genre="poet" source="상처의 집">세월에 덧나고 금간 / 상처와 상처가 서로 붙들고 / 쓰러 질 듯 쓰러질 듯 쓰러지지 않는 / 그 오래된 끈기를 보고 싶다</quote>”（「<title level="a" type="poem" ref="#t-x18">상처의 집</title>」）는 자기다짐처럼, 시인은 오래된 끈기를 여전히 간직하고 있는 존재 들의 삶에 시적인 관심을 기울이고 있다.「<title level="a" type="poem" xml:id="t-2">철도 궤도공의 편지 2</title>」를 보면, 오래된 끈기는 ‘나I 뜨거운 땀방울의 당당함”으로 지속되는 ‘<term type="concept">노동의 힘</term>’ 으 로 나타난다.</s>
+          <s><date from="2000" to="2009">2000년대</date>에도 <term type="concept">노동</term>하는 사람들은 분명히 있는데도, 그들의 삶을 묘사하는 시는 시간이 흐를수록 줄어들고 있다, （신）<term type="concept">서정</term>의 시선으 로 바라보는 자연의 시학이 <date from="1990" to="1999">1990년대</date> 시단을 풍미했다면, <interp value="neutral" ana="문학관">2000년대의 시는 분열증의 언어들로 넘쳐나고 있다.</interp></s>
+          <s><date from="1980" to="1989">1980년대</date>와 <date from="2000" to="2009">2000년대</date>는 분명히 ‘<quote type="direct" genre="poet">다른 세상</quote>’ 일 것이다.</s>
+          <s>
+            <interp value="neutral" ana="사회">1980년대의 가열차고 열정적인 언어로 2000년대 의 세상을 노래하기에는 그것을 노래해야 하는 시인부터 우선 지쳐 있다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="사회">은밀하게 작동하는 자본의 논리 앞에서 시인은 더 이상 열정적인 시를 짓 지도, 희망찬 미래를 앞당기기 위해 열렬하게 노래 부르지도 않는다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>시 대가 그런 것인가, 아니 면 <term type="concept">현실</term>에 발 딛고 있어야 할 시인들이 현실을 방 기하는 것인가?</s>
+          <s><quote type="direct" genre="poet" source="윤임수, 얼음꽃"><lg type="stanza"><l>웅크려 떠돌던 쓸쓸함이</l></lg><lg type="stanza"><l>이 산정에 모여 눈물꽃 피웠구나 차가운 세월에 한껏 떠밀려온 슬픔이 이렇게 모여 겨울꽃 피웠구나</l></lg><lg type="stanza"><l>이 능선부터 저 골짜기까지</l></lg><lg type="stanza"><l>함부로 쓸어대는 구름 안개 속에서</l></lg><lg type="stanza"><l>서로서로 맨살 부비며 차곡차곡 살아올라</l></lg><lg type="stanza"><l>더 단단하구나 더 투명하구나 거친 바람도 까짓것 훌훌 떨쳐내는구나</l></lg></quote>- <persName role="critic" xml:id="p-x8">윤임수</persName>,「<title level="a" type="poem" xml:id="t-x19">얼음꽃</title>」（『<title level="m" type="poem" ref="#t-x18">상처의 집</title>』） 전문산정의 얼음꽃이 단단하고 투명한 이유는 “차가운 세월에 한껏 떠밀려 온 슬픔이” 눈물꽃을 피워냈기 때문이다.</s>
+          <s><term type="concept">슬픔</term>이 깊을수록 얼음꽃은 더 단단해지고, 단단해지는 만큼 더 투명해진다.</s>
+          <s>투명한 세계를 <interp value="affirmative" ana="미학">투명하게 묘 사하는 윤임수의 시어는 그래서 정갈한 향취를 풍긴다.</interp></s>
+          <s>그의 시에는 <date from="1980" to="1989">1980년대</date> <term type="concept">노동시</term>에 등장하는 열정적인 투사는 없지만, 노동하는 삶의 이 력을 자신만만하게 내세우는 수많은 존재들이 그 자리를 메꾼다.</s>
+          <s>옹골찬 내면으로 감싸여진 <term type="concept">노동자</term>들의 삶은 얼음꽃처럼 투명한 삶이지만, 한편 으로 “<quote type="direct" genre="poet" source="윤임수, 얼음꽃">거친 바람도 까짓것 / 훌훌 떨쳐내는</quote>” 단단한 삶이기도 하다.</s>
+          <s>그러 한 삶을 따뜻한 시선으로 바라보는 시인이기에, <interp value="affirmative" ana="미학">윤임수의 시어는 투명하 고 단단한 언어로 표현될 수밖에 없다.</interp></s>
+          <s>주목할만한 것은, <interp value="affirmative" ana="미학">윤임수의 투명 하고 단단한 언어가 시적 주체의 자기다짐을 요청하는 사물들의 언어와 직접적인 연관을 맺고 있다는 점이다.</interp></s>
+        </p>
+        <p>
+          <s>이를테면 “<quote type="direct" genre="poet" source="파도">낮은 곳에서의 온전함이 더 힘들다는 듯 / 단련된 눈동자만이 더 반짝인다는 듯 / 퍼렇게 멍든 몸 부림으로 다가와서 절대 허물어지지 말라고 손 내미는 그대</quote>”（「<title level="a" type="poem" xml:id="t-x20">파도</title>」）로 묘사되는 파도’ 는 단순히 시적 주체의 가열찬 다짐을 확인하는 시적 매 개항이 아니다.</s>
+          <s>시적 주체와 사물（파도）은 ‘<quote type="direct" genre="poet">동등하게</quote>’ 마주하고 있다.</s>
+          <s>서 정시의 특성 상 시적 주체의 감각은 ‘<quote type="direct" genre="poet">파도</quote>’ 를 동일성의 맥락으로 포착하 지만, 그럼에도 그 동일성은 <term type="concept">근대적 주체의 자기동일성</term>과는 분명하게 다른 맥락을 이루고 있다.</s>
+          <s>파도는 ‘•멍는 몸부림으로 다사”오는 시물이나는 점에서, 절대적인 공간（시간） 속에 유폐된 사물이 아니다（이 점이 <persName ref="#p-x8">윤임수</persName> 의 시가 <persName ref="#p-x2">문태준</persName>의 시와 갈라지는 지점이다）.</s>
+          <s>스스로 살아 움직이는 대상 이 파도인 바, 파도의 그러한 특성이 시적 주체의 절망적인 삶에 새로운 ‘<term type="concept">생명성</term>’을 부여하는 계기를 마련한다.</s>
+          <s>요컨대 <persName ref="#p-x8">윤임수</persName>의 시어는 <interp value="affirmative" ana="미학">사물의 내재성을 파괴하지 않는다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="미학">사물과의 동일성을 지향하되, 사물과의 차이 성을 유지하는 정신이 윤임수의 투명한 시어를 낳게 한 시적 원동력인 셈 이다.</interp>
+          </s>
+          <s>고통받는 <term type="concept">타자</term>들을 향한 <persName ref="#p-x8">윤임수</persName>의 긍정적인 시선이 타자들과 함께 하 는 언어의 세계를 가능하게 했다면, 병病을 통해 시적 주체의 자기다짐을 내보이는 <persName role="poet" xml:id="p-x9">박진성</persName>의 시는 ‘병’ 이라는 타자와 함께 펼쳐가는 새로운 시의 세계를 묘사한다.</s>
+        </p>
+        <p>
+          <s>그에게 언어는 <term type="concept">병</term>을 드러내는 언어이면서, 동시에 병과 함께 병을 치료하는 언어로 나타난다.</s>
+          <s><term type="concept">병</term>원의 의사는 “<quote type="direct" genre="poet">불안 강박 우울 공 황 발작</quote>”으로 그의 병을 진단하지만, 그는 자신의 병을 마음 속의 “<quote type="direct" genre="poet">아라 리</quote>”（「<title level="a" type="poem" xml:id="t-x21">아라리가 났네</title>」）가 발동을 해서 생긴 병으로 생각한다.</s>
+          <s>아라리 때문 에 생긴 병이라면 아라리의 리듬에 맞춰 몸을 흔들면 되는데, 의사는 그 것은 생각하지 않고 ‘<quote type="direct" genre="poet">심전도</quote>’ 만 찍자고 한다.</s>
+          <s>이처럼 <persName ref="#p-x9">박진성</persName>의 시는 고통 받는 몸을 묘사하고 있지만, 개인의 몸을 벗어나 <term type="concept">사회적 몸</term>의 문제로 나 아간다.</s>
+          <s><term type="concept">사회적 몸</term>은 <term type="concept">규율</term>에 끊임없이 얽매여야 하는 몸이다.</s>
+          <s>“<quote type="direct" genre="poet" source="아라리가 났네">아라리가 내 몸도 이렇게 뒤집어서리 환장허겄다고 나도 아리아리가 나아안네 부 르고 있는디 내 몸이 꽃이파리마냥 바르르 떨고 있는디 그 냥반들이 응급 실에다 나를 쳐 넣은규</quote>”（같은 시）라는 화자의 항의를 우리는 어떻게 받아 들여야 할까?</s>
+          <s><term type="concept">근대적 이성</term>에 반하는 행동을 ‘<term type="concept">비정상적인 것</term>’ 으로 규정하 는 사람들에게 환장해서 ‘바르르” 떠는 몸은 ‘정상적인’ 몸이 아니다.</s>
+          <s>정 상과 <term type="concept">비정상</term>을 가르는 기준이 몸의 비정상적인 ‘떨림’ 이고, 그것은 병원 이라는 제도적 장치를 통해 ‘병’ 이라는 <term type="concept">낙인</term>을 받는다.</s>
+        </p>
+        <p>
+          <s>병을 타자화한 근대세계의 경계에서, <persName ref="#p-x9">박진성</persName>은 <term type="concept">병과 함께 살기</term>를 선택한다.</s>
+          <s>‘<term type="concept">아라리</term>’ 는 몸 속에서 자연스럽게 벌어지는 몸짓이므로, 아라리의 리듬에 따라 시인은 노래를 부르고 몸을 흔든다.</s>
+          <s><quote type="direct" genre="poet" source="목숨"><lg type="stanza"><l>새로 비달에 선 느티나무, 차갑다, 편서풍이 몰고 오는 모래 바람 속 수 령 사백 년의 목숨은 타클라마칸이거나 산둥반도, 스물일곱의 내 발이 디 디고 있는 경기내륙지방 하천의 지류를 품고 흔들린다, 흔들린다, 소리를 내느라 잔뜩 긴장한 물결은 바람의 몸을 받아내겠지 목으로 숨 쉬면서, 황 사라는데, 여자야……새로 비탈을 깔고 있는 느티나무 뿌리가 목, 숨, 목, 숨, 여자야 여자야 숨쉬 러 가자 황사바람이 불어오는 곳에는 무서운 짐승 이 산단다 病이 숨을 끓으려는가 실핏줄처 럼 물에 길 내는 물고기 한 마리 는 온몸이 목이어서 느티 나무도 온몸이 목이 어서 오오 목숨</l></lg><lg type="stanza"><l>—</l></lg></quote> <persName ref="#p-x9">박진성</persName>,「목숨J（『목숨』, <orgName xml:id="org-x4">천년의 시작</orgName>, <date when="2005">2005</date>） 전문<term type="concept">아라리</term>의 리듬은 죽음을 거부하는 삶의 리듬이기에 급박하다.</s>
+          <s>그런데, 이 시는 급박한 가운데도, 주변의 생명들과 연결되어 있는 <term type="concept">목숨</term>이 ‘목숨’ 이라는 당연한 사실’ 을 표나게 내세운다.</s>
+          <s><term type="concept">목숨</term>은 목으로 숨을 쉬는 것이 라서 목숨이지만, 더 나아가 목숨은 온몸으로 숨을 쉬는 살아 있는 존재 들의 목-숨이기 때문에 ‘목숨’ 이다.</s>
+          <s>목으로 쉬는 숨은 온몸으로 쉬는 숨 이다.</s>
+          <s>온몸으로 숨을 쉰다면 병이 찾아올 틈이 있겠는가?</s>
+          <s>목숨은 그러므 로 온몸이 될 수밖에 없다.</s>
+        </p>
+        <p>
+          <s>목숨이 끊어지면 온몸도 사라진다.</s>
+          <s>목숨의 시 학이 온몸의 시학으로 변주되는 이 지점에서, <persName ref="#p-x9">박진성</persName>이 이야기하는 ‘<term type="concept">아라 리</term>’ 의 시학이 개재한다.</s>
+          <s>몸으로 체험하는 병이 <term type="concept">아라리</term>의 리듬을 타고 언 어화되는 순간을 보여주는 <persName ref="#p-x9">박진성</persName>의 시는 그만큼 몸의 리듬에 충실한 언 어를 사용한다.</s>
+          <s>온몸이 ‘목’ 인 물고기와 느티나무를 맞이하려면 시인 스 스로도 온몸이 ‘목’ 이 되어야 한다.</s>
+          <s>병원의 병은 온몸이 목이 되는 순간을 ‘병’ 으로 규정하지만, 시인은 그 순간을 <term type="concept">아라리</term>가 펼쳐내는 생명의 순 간으로 기억한다.</s>
+          <s>출렁출렁 흔들리는몸의 리듬에 따라 <persName ref="#p-x9">박진성</persName>의 시어 역 시 리듬을 타며 4<term type="concept">아라리</term>’의 시적 세계를구성한다.</s>
+          <s>‘<term type="movement">미래파</term>’ 시인들의 분 열증에 익숙한 사람들에게, <persName ref="#p-x9">박진성</persName>은 <term type="concept">분열하는 주체</term>의 새로운 리듬을 보 여준다.</s>
+          <s>조각난 신체의 끔찍함을 적나라하게 드러내는 ‘<term type="movement">미래파</term>’의 시인 들과는 어긋나게, 그는 <interp value="affirmative" ana="미학">온몸이 목숨일 수밖에 없는 세계를 이 세상으로 불러낸다</interp>.</s>
+        </p>
+        <p>
+          <s>목숨이 언어의 리듬에 포착되는 특이한 순간을 <persName ref="#p-x9">박진성</persName>은 시화 하고 있는 셈이다.4.<term type="concept">2000년대 젊은 시인들</term>의 언어는다양하다.</s>
+          <s><term type="concept">주술적인 언어</term>로 보이지 않 는 세상을 갈망하고, 건조하고 <term type="concept">분열증적인 언어</term>로는 <term type="concept">근대세계</term>의 끔찍함 을 야유한다.</s>
+          <s>그런가 하면 <term type="concept">타자들의 세계</term>를 타자들의 언어로 재구성하려 는 시도를 내보이기도 한다.</s>
+          <s>세상이 다질적인 세상으로 변한 만큼, 세상 을 바라보는 <term type="concept">시인들의 세계관</term>도 달라졌고, 그것을 표현하는 언어 역시 다 르게 나타난다.</s>
+          <s>보이지 않는 세계를 봐야 하고, 말할 수 없는 것을 말해야 하는 것이 시인의 운명이라고 하던가.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">2000년대의 시인들이 펼쳐내는 다 양한 언어들은 실상 시인이라면 짊어져야 할 이러한 운명을 다양하게 받 아들인 결과물이라 해도 좋을 것이다.</interp>
+          </s>
+          <s>시인에게 언어는 <term type="concept">타락한 현실</term>의 너머를 불러내는 <term type="concept">주술</term>로 인식되지만, 언어는 그 주술을 타락한 현실의 일상과 맞부딪치게 함으로써 시인이 부 여하는 의미에서 끊임없이 벗어나려 한다.</s>
+          <s><term type="concept">신의 언어</term>를 향한 시인의 갈망 이 커질수록 일상의 구조화된 세계에 정착하려는 언어의 욕망 역시 커진 다.</s>
+        </p>
+        <p>
+          <s>언어를 향한 시인의 욕망과 일상을 향한 언어의 욕망이 맞부딪치는 장소에서 <date from="2000" to="2009">2000년대</date> <term type="concept">젊은 시인들</term>의 다양한 시의 세계（언어）가 구현된다.</s>
+          <s>언어는 <term type="concept">젊은 시인들</term>을 서정적인 자연으로 이끌고, <term type="concept">분열된 주체</term>（세계）로 이끌며, 목숨 있는 존재들을 변함없이 사랑하는 세계로도 이끈다.</s>
+          <s>시어는 언어를 대하는 주체의 삶을 통해 ‘<quote type="direct" genre="poet">해석된</quote>’ 언어이므로, 시어에는 이미 세 상（언어）을 바라보는 시인의 세계관이 내포되어 있다.</s>
+          <s><date from="2000" to="2009">2000년대</date> <term type="concept">젊은 시 인들</term>의 시는 다양한 언어로 다기한 삶의 세계를 표출한다.</s>
+          <s><term type="concept">자본의 논리</term>가 점점 일상의 감각을 좀먹는 상황에서, <date from="2000" to="2009">2000년대</date> 시인들의 언어-시어는 자본의 논리가 좀먹는 세상과는 반대되는 세상의 언어로 우리가 지향해 야 할 ‘<term type="concept">다른 세계</term>’ 를 불러내고 있는 것이다.</s>
+          <s>시와 상상<persName ref="#p-x">오홍진</persName> _문학평론가.</s>
+          <s><date when="2003">2003년</date>〈<title level="j" type="newspaper" xml:id="t-x22">문화일보</title>〉신춘문예 평론 당선.</s>
+          <s>공저로『<title level="m" type="critic" xml:id="t-x23">경계와 소통, 탈식민의 문학</title>』.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

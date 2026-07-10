@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>한 무리의 늑대가 나타났다, 2000년대 시의 한 일면</title>
+        <author>장석주</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>1“<quote type="direct" genre="poet">넌 내가 바라보던 바다를 상상한 적이 없잖아?</quote></s>
+          <s>”(<persName role="poet" xml:id="p-x">이장 욱</persName>,「<title level="a" type="poem" xml:id="t-x">인파이터</title>」,『<title level="m" type="poem" xml:id="t-x2">정오의 희망 곡</title>』, <orgName xml:id="org-x">문학과지성사</orgName>,<date when="2006">2006</date>)“<quote type="direct" genre="poet">너는 내가 이루지 못한 것을 이루었다.</quote></s>
+          <s>”(<persName role="poet" xml:id="p-x2">심보선</persName>,「<title level="a" type="poem" xml:id="t-x3">너</title>」,『<title level="m" type="poem" xml:id="t-x4">슬픔이 없는 십 오 초</title>』, <orgName ref="#org-x">문학과지성사</orgName>,<date when="2008">2008</date>)2 한 무리의 늑대가 나타났다는 소문이 퍼졌다.</s>
+          <s>그 늑대들을 두고 많은 말들이 쏟아졌다.</s>
+          <s>그 말들의 일부는 논쟁으로 번졌다.</s>
+          <s>그‘<quote type="direct" genre="poet">늑대</quote>’들이 전에 있던 늑대들과 같은가, 혹은 전혀 다른 새로운 종의 늑대인가 하는[기획 특집 |<title level="j" type="contribution" xml:id="t-2000">2000년대 시는 무엇이었는가</title>]한 무리의 늑대가 나타났다 2000년대 시의 한 일면 <persName role="poet" xml:id="p-x3">장석 주</persName> 18 |논쟁이었다.</s>
+          <s>어느 사이에 그 늑대들에 대한 사람들의 관심이 식어 버렸다.</s>
+          <s>이미 씌어진 것과 앞으로 씌어질 것들 사이에서 규명되지 않은 늑대들은 여전히 서성거리고 있다.</s>
+        </p>
+        <p>
+          <s>그런데 사람들은 기이할 정도로 모두들 침묵을 지키고 있다.</s>
+          <s>일군의 <term type="concept">젊은 시인들</term>을‘<term type="movement">미래파</term>’라고 명명하고 그 뒤 벌어졌던 문단의 소동을 은유적으로 얘기해 본 것이다.</s>
+          <s>과연‘<term type="movement">미래파</term>’는 새로운 늑대였는가?</s>
+          <s>‘<term type="movement">미래파</term>’라는 이름의 늑대들은 <term type="movement">포스트모더니즘</term>에서 비롯된 <term type="concept">분열 생식</term>의 결과들이다.</s>
+          <s>따라서‘<term type="movement">미래파</term>’는 <term type="movement">포스트모더니즘</term>이란 늑대의 변종이거나 그 후예들이다.</s>
+          <s>‘<term type="movement">미래파</term>’논쟁의 불씨를 지폈던 사람들은‘미래파’란 이름을 선취한 뒤 그 현상을 포획하였다.</s>
+          <s>그 시작은 <persName role="critic" xml:id="p-x4">권혁 웅</persName>의「<title level="a" type="critic" xml:id="t-2005">미래파:2005년, 젊은 시인들</title>」(『<title level="j" type="journal" xml:id="t-x5">문예중앙</title>』2005년 봄 호)이다.</s>
+          <s>시인이자 비평가인 <persName ref="#p-x4">권혁 웅</persName>은 이 글에서‘<term type="movement">미래파</term>’란 이름으로 <persName role="poet" xml:id="p-x5">장석 원</persName>, <persName role="poet" xml:id="p-x6">황병승</persName>, <persName role="poet" xml:id="p-x7">김민정</persName>, <persName role="poet" xml:id="p-x8">유 형 진</persName>들을 호명한다.</s>
+        </p>
+        <p>
+          <s>이 명단에 <persName role="poet" xml:id="p-x9">김행숙</persName>, <persName role="poet" xml:id="p-x10">김경주</persName>, <persName role="poet" xml:id="p-x11">조연호</persName>들을 보탬으로써‘<term type="movement">미래파</term>’의 외연은 더 넓어진다.</s>
+          <s><persName ref="#p-x4">권혁 웅</persName>은「<title level="a" type="critic" xml:id="t-x6">상사의 놀이들</title>」(『<title level="j" type="journal" ref="#t-x5">문예중앙</title>』<date when="2005">2005년</date> 가을 호)과「<title level="a" type="critic" xml:id="t-x7">목소리는 어떻게 출현하는가?</title>」(『<title level="j" type="journal" ref="#t-x5">문예중앙</title>』<date when="2007">2007년</date> 가을 호)라는 글을 연속으로 내보내며 이 낯선‘<term type="movement">미래파</term>’의 존재들을 해명하고 각인시켰다.</s>
+          <s>그 뒤로‘<term type="movement">미래파</term>’논쟁이 일어났으니 한국 문단에 나타난 이 종(橻種)의 시인들에게 새로운 이름으로 호명하려던 <interp value="affirmative" ana="문학관">권혁 웅의 전략은 맞아떨어진 셈이다.</interp></s>
+          <s><persName ref="#p-x4">권혁 웅</persName>은「<title level="a" type="critic" ref="#t-x6">상사의 놀이들</title>」에서“<quote type="direct" genre="critic" source="상사의 놀이들">이 시들은 전재의 언어와 미의식의 압력에서 자유롭고 자재하다.</quote></s>
+          <s>
+            <quote type="direct" genre="critic" source="상사의 놀이들">이 외계의 언어도 결국은 우리의 언어로 번역될 것이고, 그래서 유사한 일군의 방언들로 자리를 잡게 될 것이다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="critic" source="상사의 놀이들">그때까지 이 낯선 언어는 새로운 기표와 기의들을 생산해 낼 것이다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="critic" source="상사의 놀이들">미학은 그렇게 이질과 혼 종을 통해서만 발전해 왔다.</quote>
+          </s>
+          <s>”라고, 이미지들의 이질과 혼 종이‘<term type="movement">미래파</term>’의 DNA라는 걸 분명하게 밝힌다.3 기획 특집 |<persName ref="#p-x3">장 석주</persName> 19“<quote type="direct" genre="poet">아무래도 나는 망가지고 있는 것 같다……</quote>”.</s>
+        </p>
+        <p>
+          <s>(<persName role="poet" xml:id="p-x12">류근</persName>,「<title level="a" type="poem" xml:id="t-86">86 학번, 황사 학과</title>」,『<title level="m" type="poem" xml:id="t-x8">상처적 체질</title>』, <orgName ref="#org-x">문학과지성사</orgName>,<date when="2010">2010</date>)“<quote type="direct" genre="poet" source="86 학번, 황사 학과">얘야, 자기 이빨 부딪치는 소리에 잠이 깨는 짐승은/ 너뿐이 아니란 다</quote>”.</s>
+          <s>(<persName ref="#p-x10">김경주</persName>,「<title level="a" type="poem" xml:id="t-x9">늑대는 눈알부터 자란다</title>」,『<title level="m" type="poem" xml:id="t-x10">나는 이 세상에 없는 계절이다</title>』, <orgName xml:id="org-x2">랜덤하우스 중앙</orgName>,<date when="2006">2006</date>)4‘미래파’의 상상력이 미래에서 오지 않은 것은 분명하다.</s>
+          <s>미래란 살아 보지 않은 오늘의 다른 이름이다.</s>
+          <s>‘미래파’는 미래에 그들의 주소를 갖고 있지 않았다.</s>
+          <s>그들은 제 발자국들이 어지럽게 찍힌 과거에 얽매인 소년들, 과거라는 자기 그림자와 노는 고독한 소년들이다.</s>
+          <s>그들의 꿈, 기억, 회한은 모두 과거에서 비롯된 것들이다.</s>
+          <s>과거는 이미 돌이킬 수 없는 오늘이고, 불충분한 망각이란 뜻에서 미래의 함수(函樉)며, 모든 오늘의 발목을 붙들고 있는 나쁜 기억들의 총체다.</s>
+          <s>‘미래파’의 정체는 실은 과거를 연주하는 악사들이다.</s>
+        </p>
+        <p>
+          <s>과거의 지배자는 <term type="concept">아버지</term>다.</s>
+          <s>모든 <term type="concept">아버지</term>는 생이라는 지고(至高)의 풍경이 만든 경이이자 재앙이다.</s>
+          <s>“<quote type="direct" genre="poet" source="정재학, 미분(微分)—아버지">너 갑자기 왜 이렇게 늙었느냐 저는 아버지처럼 될 자신이 없어요</quote>”(<persName role="poet" xml:id="p-x13">정재학</persName>,「<title level="a" type="poem" xml:id="t-x11">미분(微分)—아버지</title>」)너 갑자기 왜 이렇게 늙었느냐는 목소리의 주인은 누구인가.</s>
+          <s>그것은 <term type="concept">아버지</term>의 목소리다.</s>
+          <s>이 <term type="concept">아버지</term>는 <term type="concept">과거</term>, 즉 선조· 문벌· <term type="concept">역사</term>· <term type="concept">전통</term>의 다른 이름이다.</s>
+          <s>우리는 언젠가 이 <term type="concept">아버지</term>를 흘낏 본 적이 있다.</s>
+          <s>바로 <persName role="poet" xml:id="p-x14">이상</persName>이다.</s>
+          <s><persName ref="#p-x14">이상</persName>의 시「<title level="a" type="poem" xml:id="t-14">오감도 시 제14호</title>」에서“<quote type="direct" genre="poet" source="이상, 오감도 시 제14호">싸늘한 손이 내 이마에 닿는다.</quote></s>
+        </p>
+        <p>
+          <s>내 이마에는 싸늘한 손자국이 <term type="concept">烙印</term>(낙인)되어 언제까지 지워지지 않았다.</s>
+          <s>”라는 구절에 나오는 내 이마에 얹힌 그 싸늘한 손의 주인이다.</s>
+          <s>그 아버지의 실체는“<quote type="direct" genre="poet">종합된 역사의 망령</quote>”이다.</s>
+          <s><term type="concept">유토피아</term>와 <term type="concept">현대성</term>을 붙잡기 위해 <term type="concept">이상 세대</term>는 그 아버지와 싸운다.</s>
+          <s><term type="concept">전통</term>과 도덕을 강요하는 그 아버지들의 <term type="concept">상징적 살해</term>라는 제의 없이 그들은 앞으로 나아갈 수 없었다.</s>
+          <s><term type="concept">이상 세대</term>에서 거의 한 세기가 지난 지금도 이 <term type="concept">아버지 권력</term>은 <term type="concept">기호의 상상계</term> 안에서 여전히 살아 있다.</s>
+          <s>다만 얼굴을 바꿨을 뿐이다.</s>
+          <s><term type="concept">이상 세대</term>에게 <term type="concept">봉건</term>과 <term type="concept">전근대</term>였다면,‘<term type="movement">미래파</term>’에게 그 것은 <term type="concept">민족</term>과 <term type="concept">이념</term>, 그리고 <term type="concept">시장 자본주의</term>다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet" source="사성 장군 협주곡(四星將軍協奏曲)">뜨거운 세상이 소년을 달구었는지/ 소년이 세상을 뜨겁게 달구려했던 건지 어쨌든/ 세상을 조금 알 것만 같던, 솜털 수염이 막 나기 시작하는/ 한 소년이 야구를 합니다/ 소년의 아버지의 머리통이 담장을 넘어가고/ 소년을 배트를 던지며 퍼스트 베이스를 향해 달려갑니다/ 땀이 비 오듯 쏟아집니다 이러저리 둘러보지만/ 그러나 퍼스트 베이스는 어디에</quote>”(<persName ref="#p-x6">황 병 승</persName>,「<title level="a" type="poem" xml:id="t-x12">사성 장군 협주곡(四星將軍協奏曲)</title>」)야구를 하는 소년은“<quote type="direct" genre="poet" source="사성 장군 협주곡(四星將軍協奏曲)">더 이상 태어나기 싫어 집 밖으로 나가지 않았지만/(……)/ 나는 사방에서 자꾸만 태어났습니다</quote>”라는 말하는 소년과 동일인이다.</s>
+          <s>야구하는 소년은 아버지의 머리통을 배트로 쳐서 담장 밖으로 날려 보낸다.</s>
+          <s>이것은 현실이 아니다.</s>
+          <s>소년의 <term type="concept">상상계</term>에서나 가능한 일이다.</s>
+          <s><term type="concept">가부장적 부권</term>의 폭력에 시달리는 소년은 더 이상 태어나기 싫다고 하지만 자신도 어쩔 수 없이 사방에서 태어난다.</s>
+          <s>
+            <interp value="neutral" ana="미학">이것은 아버지와의 동일성을 거부하는 소년의 무의식에서 진행되는 드라마다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="사회">소년들은 아버지를 거부하면서도 아버지와 닮는다는 뜻이다.</interp>
+          </s>
+          <s>다시 말해 아버지의 <term type="concept">동일성</term> 안으로 흡인되는 것이다.</s>
+        </p>
+        <p>
+          <s>그들이 <term type="concept">아버지</term>를 부정하면서도 여전히 아버지를 선망하는 것은 아버지가 도달할 수 없는 불가능성의 영역에 있기 때문이다.</s>
+          <s>그들은 <term type="concept">아버지</term>를 뛰 어 넘어가기보다는 아버지의 그늘에서 기생하기로 작정한다.</s>
+          <s>“<quote type="direct" genre="poet" source="곰뱀 매거진 18호">영원히 죽지 않는 아버지가 지갑을 열어 시간을 내어 줬죠</quote>”(황 병 승,「<title level="a" type="poem" xml:id="t-18">곰뱀 매거진 18호</title>」).</s>
+          <s>기획 특집 |<persName ref="#p-x3">장석주</persName> 2120 |5“<quote type="direct" genre="poet">우리에게 어제는 있었을까?</quote></s>
+          <s>여기는 어딘데?</s>
+          <s>”(<persName ref="#p-x5">장석원</persName>,「<title level="a" type="poem" xml:id="t-x13">무서운 해체의 순간 나는 낡은 사물</title>」,『<title level="m" type="poem" xml:id="t-x14">태양의 연대기</title>』, <orgName ref="#org-x">문학과지성사</orgName>,<date when="2008">2008</date>)“<quote type="direct" genre="poet" source="슬램, 성장기">사납게도 나는 계속 컸다</quote>”.</s>
+          <s>(<persName role="poet" xml:id="p-x15">서효인</persName>,「<title level="a" type="poem" xml:id="t-x15">슬램, 성장기</title>」,『<title level="m" type="poem" xml:id="t-x16">소년 파르티잔 행동 지침</title>』, <orgName xml:id="org-x3">민음사</orgName>,<date when="2010">2010</date>)6 기성 세대들이 알아들을 수 없는 외계어를 쓴다는 점에서 그들은“<quote type="direct" genre="critic">괴기한 청년들</quote>”이다.</s>
+          <s>어느 시대에나 <interp value="neutral" ana="사회">청년들이란 심리학적으로는 돌연변이, 사회학적으로는 위악(僞惡)의 가면을 쓴 후레자식들, 정치적으로 기성 질서를 부정하는 혁명 아들이다.</interp></s>
+        </p>
+        <p>
+          <s>어찌 됐든 <term type="concept">기성 세대</term>들에게 불유쾌한 존재들인 것은 분명하다.</s>
+          <s><term type="concept">기성 세대</term>들은 자기들이 모르는 언어들을 쓰는‘<term type="movement">미래파</term>’의 등장에 어리둥절했고, 나중에는 화를 냈다.</s>
+          <s><interp value="critical" ana="문학관">그게 화까지 낼 일이었겠는가,라는 생각이 들긴하지만</interp> <term type="concept">기성 세대</term>들은 소통이 안 되는 데서 비롯된 무력감을 <term type="concept">분노</term>로 해소하려는 듯 보였다.</s>
+          <s>“<quote type="direct" genre="poet" source="김수영, 절망">나날이 새로워지는 괴기한 청년들이여</quote>”(<persName role="poet" xml:id="p-x16">김수영</persName>,「<title level="a" type="poem" xml:id="t-x17">절망</title>」)<interp value="critical" ana="문학관">그들은 괴기하기는했지만 나날이 새로워지지는 않았다.</interp></s>
+          <s>태양 아래 새로운 것은 없다는 경구는 가장 많은 사람들이 읽는 경전에 나오는 경구다.</s>
+          <s>모든 것은 앞서 있던 것의 반복에 지나지 않는다는 뜻이다.</s>
+          <s>그 것을 뒤집어 읽으면 새로운 것은 그 반복 속에서 옛 것을 창조적으로 배반하는 양태로 출현한다는 뜻이다.</s>
+          <s>이“<quote type="paraphrase" genre="poet" source="김수영, 절망">괴기한 청년들</quote>”은 어디서 왔을까.</s>
+        </p>
+        <p>
+          <s>당연히, 그것은 아버지다.</s>
+          <s>“<quote type="direct" genre="foreign">아버지의 성기가 어머니의 매혹적인 육체 안에 아이의 자리를 마련해 주는, 어머니는 그녀 자신의 아버지에게 매혹된 자이다.</quote></s>
+          <s>”(<persName role="foreigner" xml:id="p-x17">파스칼 키냐르</persName>,『<title level="m" type="foreign" xml:id="t-x18">은밀한 생</title>』)<quote type="paraphrase" genre="foreign" source="은밀한 생">아버지는 어머니의 몸 안에 아들의 자리를 마련해 주는 존재다.</quote></s>
+          <s>그러나 아버지는 단순히 정자의 기증자가 아니다.</s>
+          <s>그 아버지를 <persName ref="#p-x16">김수영</persName>은“<quote type="direct" genre="poet">거대한 뿌리</quote>”라고말 ᆯ한다.</s>
+          <s><persName ref="#p-x16">김수영</persName>은“<quote type="direct" genre="poet" source="푸른 하늘을">어째서 自由(자유)에는/ 피의 냄새가 섞여 있는가를/ 革命(혁명)은/ 왜 고독한 것인가를</quote>”(「<title level="a" type="poem" xml:id="t-x19">푸른 하늘을</title>」)이라고 묻는다.</s>
+          <s>물론 이 물음에는 <term type="concept">자유</term>와 <term type="concept">혁명</term>에 무게 중심이 놓여 있다.</s>
+          <s>하지만 <interp value="neutral" ana="미학">2000년대의 새로운 시인들은 자유와 혁명을 지우고, 그 자리에 피의 냄새와 고독을 놓고 그 질료성에 반응하는 감각의 상상력을 작동시킨다.</interp></s>
+        </p>
+        <p>
+          <s>‘<term type="movement">미래파</term>’시인들은 물론이고 외연을 조금 넓혀 <date from="2000" to="2009">2000년대</date> 이후 나와 활동하는 시인들 대부분은“<quote type="indirect" genre="poet">거대한 뿌리</quote>”와 <term type="concept">단절된 상상력</term>을 공유한다.</s>
+          <s>그들은 상징적 의미에서 <term type="concept">아버지 없는 후레자식들</term>로 길러진 것으로 보인다.</s>
+          <s>그들이 아버지(기성 시인들)와 소통이 안 되는 것도 아버지의 화법이나 통사 법을 배우지 않았기 때문이다.</s>
+          <s>그들의 화법은 아버지의 권력이 미치지 않는 뒷골목의 음지에서 학습된 것들이다.</s>
+          <s><term type="concept">부성의 부재</term>는 사회적 현상이다.</s>
+          <s>이미 오래 전부터 강한 힘과 완고함을 갖추고 가정을 지배하는 아버지들은 사라졌다.</s>
+          <s>아버지가 없는 가장에는 가짜－아버지, 즉 오빠들이나 장남들, 아니면 <term type="concept">부성</term>이 투사된 어머니들이 아버지를 대체한다.</s>
+          <s>하지만 그들은‘<term type="concept">충분한 아버지</term>’가 될 수 없다.</s>
+        </p>
+        <p>
+          <s>아버지란 보다 복잡한 사회 문화적인 인자를 아이들에게 전수해 주는 존재다.</s>
+          <s>“모성과 달리 부성은 신체적인 행동 양식들과 관계된 것도 아니고 생물학적인 특징들을 실현하거나 연장함으로써 구성되는 것도 아니다.</s>
+          <s>부성은 사회적으로 받아들여지고 있는 형식들을 남자들에게 덧 입힌 것이다.</s>
+          <s>이런 점에서 부성은 순수한 동물적인 삶의 규칙으로부터 근본적이고도 영구적으로 이탈한 것이라는 의미를 함축하고 있다.</s>
+          <s>”(루이지조야,『아버지란 무엇인가』)부성은 아들에게“<quote type="direct" genre="poet">순수한 동물적인 삶의 규칙</quote>”에서 영구적으로 벗어난 사회 문화적 유전자를 학습시켜 그의 신체에 덧 입혀야한다.</s>
+          <s>부성은 타 기획 특집 |장석주 2322 |고난바 생명 본질이 아니라 자연－그 것 위에 덧 입혀진 것 이다.</s>
+          <s>아버지들은 자연－본능으로 뭉쳐진 어린 자아들에게 사회화 학습을 시켜야한다.</s>
+          <s>이것이 사회가 아버지에게 요구하는 의무이자 책임이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">아버지</term>가 부재하는 가정에선 때로 어머니가 이것을 대신하는데, <term type="concept">가짜－아버지</term>들은 아들들을 아버지로 만드는 데 항상 진짜－아버지들보다 그 훈련이 가혹하다.</s>
+          <s>
+            <quote type="direct" genre="poet" source="웃는다, 웃어야하기에">아버지가 돌아가신 이래 이 집안에 더 이상 거창한 이야기는 없다 다만 푸른 형광등 아래 엄마의 초급 영어가 하루하루 늘어 갈 뿐 엄마가 내게 묻는다, 네이션이 무슨 뜻이니?</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="웃는다, 웃어야하기에">민족이요, 아버지가 무척 좋아하던 단어였죠 그렇구나 또 뭐든 물어보세요 톰 앤드 제리는 고양이와 쥐란 뜻이니?</quote>
+          </s>
+          <s><quote type="direct" genre="poet" source="웃는다, 웃어야하기에">으 하하, 엄마는 나이가 드실수록 농담이 느네요 나는 해석자이다 크게 웃는 장남이다 비극적인 일이 다시 일어난다 해도 어디에도 구원은 없다 해도 나는 정확히 해석하고 마지막에는 반드시 큰 소리로 웃어야한다 장남으로서, 오직 장남으로서 애절함인지 애통함인지 애틋함인지 모를 이 집안에 만연한 모호한 정념들과 나는 끝까지 싸울 것이다.</quote>─<persName ref="#p-x2">심보선</persName>,「<title level="a" type="poem" xml:id="t-x20">웃는다, 웃어야하기에</title>」부분(『<title level="m" type="poem" ref="#t-x4">슬픔이 없는 십 오 초</title>』, <orgName ref="#org-x">문학과지성사</orgName>,<date when="2008">2008</date>)아버지가 없는 가정은“<term type="concept">거창한 이야기</term>”가 없다.</s>
+          <s>아버지가 없는 집에는 <term type="concept">서사</term>가 없다.</s>
+          <s>이때 <term type="concept">서사</term>는 전(前)문명적인 것의 복합성과 싸워 초극하는 <term type="concept">문명의 서사</term>다.</s>
+          <s>아버지가 없는 집은 조용하다.</s>
+          <s>마치 아버지는 처음부터 없었던 듯 무성 생식을 통해 생명을 얻은 듯 조용하다.</s>
+        </p>
+        <p>
+          <s>아버지가 없기 때문에 아버지에게서 아들로 전수되는 <term type="concept">부성</term>의 연결 고리는 단절된다.</s>
+          <s>미국의 심리학자들은 아버지들이 어머니와 다른 방식으로 아이들을 끌어안는다는 사실을 밝혀 낸다.</s>
+          <s>아버지들의 전형적인 몸짓은 거의 같다.</s>
+          <s>아이를 공중으로 들어 올린다.</s>
+          <s>가슴에 대고 아이를 안는다.</s>
+          <s>자식과 얼굴을 마주치는 몸짓은 다음과 같다.</s>
+          <s>아이를 머리 위로 들어 올리고 팔을 쭉 뻗으면서 눈을 마주 본다.</s>
+          <s>이렇듯 아버지는 어머니와는 다른 자기만의 방식으로 아들에게 아버지를 각인하고 학 습시킨다.</s>
+        </p>
+        <p>
+          <s>아버지는 단순히 가족의 생계를 책임지는 <term type="concept">노동자</term>를 넘어서서 <term type="concept">부성 문화</term>라는 아니 무스에 바탕을 둔 복합적인 문화의 전달자다.</s>
+          <s>시인은 엄마와 장남의 대화를 통해서 아버지가 <term type="concept">민족－국가－법</term>과 겹쳐지는 것임을 슬쩍 내보인다.</s>
+          <s>아버지는 자아 위에 군림하는 <term type="concept">초자아</term>, <term type="concept">대 타자</term>인 것이다.</s>
+          <s>아직 장남은 아버지의 <term type="concept">부성</term>을 대체할 수 있을 만큼 능력이 크지 않다.</s>
+          <s>장남은“<term type="concept">해석자</term>”에 머문다.</s>
+          <s>왜 <term type="concept">해석자</term>가 필요하냐 하면 <term type="concept">부성 부재</term>의 가정에는 모호한 <term type="concept">정념</term>들이 만연하기 때문이다.</s>
+          <s>시의 화자는 안간힘을 쓴다.</s>
+          <s>사태를 정확히 해석하기 위해서.</s>
+        </p>
+        <p>
+          <s>그렇지 않은 아들들은 <term type="concept">무의식</term>을 갖고 <term type="concept">기표</term>의 놀이에 빠져 든다.</s>
+          <s><persName ref="#p-x6">황병승</persName>과 <persName ref="#p-x10">김경주</persName>가 대표적인 예다.</s>
+          <s>어머니가 일차적인 성장을 담당한다면 아버지는 이차적인 성장을 담당한다.</s>
+          <s>아이들 기획 특집 |<persName ref="#p-x3">장 석주</persName> 2524 |에게 이차적인 성장을 책임질 아버지가 없다면 어떤 현상이 벌어질까.</s>
+          <s>이차적인 성장에서 배제된 아이들은 영원히 아버지가 되지 않는다.</s>
+          <s>그들은 한사코 어린 시절로 회귀한다.</s>
+          <s>아버지라는 옷이 너무 헐겁기 때문에 유아기로 퇴영하는 데서 심리적 만족감을 느끼는 그들은“<quote type="direct" genre="other" source="루이지조야">일차성을 영구히 보존하려는 무의식적인 환상</quote>”(<persName role="foreigner" xml:id="p-x18">루이지조야</persName>)에 머물기를 최종 목표로 삼는다.</s>
+          <s>
+            <interp value="critical" ana="사회">그들은 무의식적인 환상 속에서 기표 놀이를 하며 아버지의 책임을 방기한다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그런‘<term type="movement">미래파</term>’의 시적 아버지는 <date from="1980" to="1989">1980년대</date>에 <term type="movement">해체 시</term>를 이끈 시인들이다; 이를테면‘<term type="movement">미래파</term>’시인들의 세계에서 <persName role="poet" xml:id="p-x19">이성복</persName>, <persName role="poet" xml:id="p-x20">황지우</persName>, <persName role="playwright" xml:id="p-x21">이윤택</persName>, <persName role="novelist" xml:id="p-x22">장정일</persName>, <persName role="poet" xml:id="p-x23">김영승</persName>, <persName role="poet" xml:id="p-x24">기형도</persName>의 흔적을 찾아내는 일은 그리 어려운 일이 아니다.</s>
+          <s>더 멀리로는 <persName ref="#p-x14">이상</persName>과 <persName ref="#p-x16">김수영</persName>이 있다.</s>
+          <s><interp value="critical" ana="문학관">그들은 혁명을 위해 아버지를 죽였다고 선언했지만, 그들은 단지 제 뿌리를 잘랐을 뿐이다.</interp>7“<quote type="direct" genre="poet">어떻게 밥을 먹어야하는지 씹어야하는지 아무 생각이 나지 않는다</quote>”.</s>
+          <s>(<persName role="poet" xml:id="p-x25">이 기인</persName>,「<title level="a" type="poem" xml:id="t-x21">쌀자루</title>」,『<title level="m" type="poem" xml:id="t-x22">어깨 위로 떨어지는 편지</title>』, <orgName xml:id="org-x4">창비</orgName>,<date when="2010">2010</date>)“<quote type="direct" genre="poet">나는 당신이 모르는 표정을 짓지만/ 내 얼굴엔 무언 가 남아 도는 게 있을 거야.</quote></s>
+          <s>”(<persName ref="#p-x9">김행숙</persName>,「<title level="a" type="poem" xml:id="t-x23">해변의 얼굴</title>」,『<title level="m" type="poem" xml:id="t-x24">이별의 능력</title>』, <orgName ref="#org-x">문학과지성사</orgName>,<date when="2007">2007</date>)8<date from="1990" to="1999">1990년대</date>‘<quote type="direct" genre="poet">다마구치</quote>’열풍이 불었다.</s>
+          <s>이 일본제 장난감은 가상공간에서 애완동물 기르기 체험을 재현하는 디지털 게임기다.</s>
+          <s>가상공간의 애완 동물이 실제의 애완동물과 같이 반응한다는 점에 사람들은 열광했다.</s>
+          <s>이 애완동물은 끼니를 챙겨 줘야하고 함께 놀아 줘야한다.</s>
+        </p>
+        <p>
+          <s>그렇지 않으면 병이 나고 죽는다(‘<term type="concept">다마구치</term>’의 세계 안에서 애완 동물의 죽음은 자연사가 아니라 설계된 자살이다.</s>
+          <s>소유자의 애정을 담보로 벌이는 과격한 앙탈이다).</s>
+          <s>그렇다고 해서 이 애완동물이 실제의 애완동물과 똑같을 수는 없었다.</s>
+          <s>그것은 정교하게 짜인 게임일 뿐이다.</s>
+          <s>유행처럼 번지던‘<term type="concept">다마구치</term>’열풍은 한 번 기세가 꺾이자 이내 잠잠해졌다.</s>
+          <s>‘<term type="movement">미래파</term>’를 중심에 두고 벌어진 돌연한 열광과 갑작스런 침묵은‘<term type="concept">다마구치</term>’열풍과 닮아 있다.</s>
+          <s>한 차례‘<term type="movement">미래 파</term>’소동이 지나갔다.</s>
+          <s>‘<term type="movement">미래파</term>’의 여진은 없다.</s>
+        </p>
+        <p>
+          <s>태풍 뒤의 고요가 찾아왔다.</s>
+          <s>왜 이런 일이 벌어졌을까.</s>
+          <s><term type="movement">미래파</term>는 무엇이었나.</s>
+          <s>그들이 실패했다면 무엇에 실패한 것이었나.</s>
+          <s>첫째,‘<term type="movement">미래파</term>’의 실험은 <interp value="critical" ana="미학">무국적 판타지 놀음이다</interp>.</s>
+          <s>
+            <interp value="critical" ana="문학관">이 계통 불명의 상상 실험은 단성생식(單性生殖)의 실험이었다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="문학관">처음부터 그들은 공모자들을 낳을 수 없는 한계 속에 있었다.</interp>
+          </s>
+          <s>둘째, 그들은 <term type="concept">하드코어</term>를 선보였는데, 그것은 짧은 동안에 많은 시선을 끌어 모으기에 좋은 조건이다.</s>
+        </p>
+        <p>
+          <s>그들은“<quote type="direct" genre="poet">뭔가 보여 주겠다</quote>”고 했지만 <interp value="critical" ana="미학">스타일의 혁신은 보여 주지 못했다.</interp></s>
+          <s>그들은 <interp value="critical" ana="미학">내부가 없는 시선들의 주체다.</interp></s>
+          <s>
+            <interp value="critical" ana="미학">그들이 바꾼 것은 소재였을 따름이다.</interp>
+          </s>
+          <s>셋째, 그들은 <term type="concept">소통할 수 없음</term>이라는 한계 때문에 <interp value="critical" ana="미학">애초부터 소멸할 수밖에 없는 일과성 태풍이었다.</interp></s>
+          <s>그들은 충분히 <term type="concept">실험적</term>이었다.</s>
+          <s>그 <term type="concept">실험</term>은 <term type="concept">정치적 함의</term>를 내포한 것으로 읽을 수도 있었다.</s>
+          <s>하지만 <interp value="critical" ana="미학">기묘성을 쫓아가는 실험은 정치라는 함의를 놓치고, 정치성 을 전면화한 시들은 감각적 신선성을 놓친다.</interp></s>
+          <s><persName role="poet" xml:id="p-x26">진은영</persName>은<persName role="foreigner" xml:id="p-x27">랑시에르</persName>의 관점을 원용하면서 그 점을 이렇게 정리한 바 있다.</s>
+        </p>
+        <p>
+          <s>“<interp value="critical" ana="미학">유아론적 주체의 자폐적인 언어일 뿐이라는 비판이 새로운 시인들 머리 위로 빗물처럼 쏟아진 걸 보면, 이 정치적 시도는 크게 성공적이었다고 볼 수는 없을 듯하다.</interp></s>
+          <s>시인은 지나가는 소나기를 바라보며 자책한다.</s>
+          <s>‘기묘 기획 특집 |<persName ref="#p-x3">장석주</persName> 2726 |<quote type="direct" genre="critic">한 감성적 충격을 생산하는 데 몰두했던 시들에서는 정치적 의미의 가 독성이 사라지고 정치적 의미의 가독성을 최대화한 시들에서는 기묘함이 실종되는구나!</quote></s>
+          <s>’<quote type="direct" genre="critic">이중 효과의 적절한 생산은커녕 견디기 힘들 만큼 어정쩡한 상황이 발행하는 것이다.</quote></s>
+          <s>”(<persName ref="#p-x26">진은영</persName>,「<title level="a" type="critic" xml:id="t-x25">감각적인 것의 분배</title>」,『<title level="j" type="journal" xml:id="t-x26">창작과비평</title>』<date when="2008">2008년 겨울 호</date>)<interp value="neutral" ana="미학">감각과 정념의 논리 속으로 녹아들어 간 정치적 함의를 찾아내는 일은 쉽지 않다.</interp></s>
+          <s>아마도 그 것의 <term type="concept">무의식</term>의 층위에서 작동하는 <term type="concept">정치</term>일 터다.</s>
+          <s>어쨌든 <interp value="critical" ana="사회">2000년대 시인들의 의식의 층위에서 정치성은 휘발되어 버렸음에 틀림없다.</interp></s>
+          <s><persName role="critic" xml:id="p-x28">신형철</persName>은 <date from="2000" to="2009">2000년대</date> 한국 시의 정치학을 살피면서 간결하게 말한다.</s>
+        </p>
+        <p>
+          <s>“시에서 <term type="concept">대문자 정치</term>는 끝났다.</s>
+          <s>”(「<title level="a" type="poem" xml:id="t-x27">스키조와아나키</title>」,『<title level="m" type="other" xml:id="t-x28">몰락의 에티카</title>』, <orgName xml:id="org-x5">문학동네</orgName>,<date when="2008">2008</date>)<interp value="neutral" ana="문학관">대문자로서의 정치가 2000년대 시에는 유의미하게 작동하지 않는다는 이 언설은 2000년대 시들의 가능성과 한계를 동시적으로 드러낸다.</interp></s>
+          <s>그들은 <term type="concept">혁명이냐 사랑이냐</term>라는 선택지를 사람이냐 짐승이냐라는 선택지로 바꾼다.</s>
+          <s>그러므로‘<term type="movement">미래파</term>’를 포함해서 <date from="2000" to="2009">2000년대</date> 시의 의미를 확정하려는 시도는 아직은 이르다.</s>
+          <s><term type="concept">대문자로서의 정치</term>가 사라진 자리에는 무엇이 들어올까?</s>
+          <s>그 자리는 사소한 <term type="concept">일상</term>의 경험들로 채워진다.</s>
+          <s><persName ref="#p-x">이장 욱</persName>은 정치색이 탈색시킨 채“<quote type="direct" genre="poet">당신은 사랑을 잃고/ 나는 줄넘기를 했다</quote>”혹은“<quote type="direct" genre="poet">나는 사랑을 잃고/ 당신은 줄넘기를 하</quote>”(「<title level="a" type="poem" ref="#t-x2">정오의 희망 곡</title>」)는 사소한 <term type="concept">일상</term>을 보여 준다.</s>
+          <s><term type="concept">나쁜 아버지－권력</term>은 그 일상에 어떤 <term type="concept">억압</term>의 그림자도 떨 ᆯ어뜨리지 않는다.</s>
+        </p>
+        <p>
+          <s>‘<term type="concept">문학적인 것</term>’위에‘<term type="concept">정치적인 것</term>’을 겹쳐 낼 수 있었던 지난 연대를 달구었던 <term type="concept">악성(惡性)부성 신화</term>의 열기가 완전히 걷힌 <date from="2000" to="2009">2000년대</date>는 무의식의 층위에서조차 <interp value="neutral" ana="사회">정치는 자취 없이 사라진다</interp>.</s>
+          <s>아침에 깨어나면 모든 것이 멈출 것이다.</s>
+          <s>사소한 돌멩이들이 차갑게 침묵할 것이다.</s>
+          <s>사물들은 후퇴할 것이다.</s>
+          <s>나는 약속을 취소한다.</s>
+          <s>세 면과 식사 준비와 출근을 취소한다.</s>
+          <s>창문이 얼어붙는다.</s>
+          <s>바깥과 안의 대기가 격렬하게 단단한 물방울을 만들고 있다.</s>
+        </p>
+        <p>
+          <s>서서히 모든 것이 정지한다.</s>
+          <s>이제 유리는 어느 먼 곳의 금속, 어지러운 지평선에서 이상한 마음이 불어온다.</s>
+          <s>친구들에게 전화를 걸고 싶다.</s>
+          <s>하지만 너무 많은 것을 반성해서는 안 된다.</s>
+          <s>나에게는 신비로운 과거가 없으며, 나에게는 늙으신 아버지가 있으며, 나는 오로지 지금 이 곳에 있다.</s>
+          <s>갑자기 무서운 생각이 시작된다.</s>
+          <s>단 하나의 생각이 나를 결박한다.</s>
+          <s>나는 얼어붙는다.</s>
+        </p>
+        <p>
+          <s>오 분 전과 머나먼 미래가 한꺼번에 다가온다.</s>
+          <s>나는 천천히, 몸을 일으킨다.─<persName ref="#p-x">이장 욱</persName>,「<title level="a" type="poem" xml:id="t-x29">결정</title>」전문(『<title level="m" type="poem" ref="#t-x2">정오의 희망 곡</title>』, <orgName ref="#org-x">문학과지성사</orgName>,<date when="2006">2006</date>)“<term type="concept">늙은 아버지</term>”란 전투를 수행할 수 없는, 전장에서 은퇴한 사람이다.</s>
+          <s>그는 갑옷을 입지 않고 있다.</s>
+          <s>대신에 많은 시간을 늙고 지친 몸으로 기획 특집 |<persName ref="#p-x3">장석주</persName> 2928 |침상에서 누워 지낼 것이다.</s>
+          <s>저 신화 속의 아버지들과는 너무나 다른 모습이다.</s>
+          <s><persName role="foreigner" xml:id="p-x29">호메로스</persName>의 서사시나 그리스 신화에 나오는 <interp value="neutral" ana="신화·문학관">아버지들은 용맹스런 전사들이다.</interp></s>
+          <s>“<quote type="direct" genre="critic">여기서 아버지는 언제나 공격과 방어의 기능을 동시에 가진 한 벌의 갑옷을 차려입고 있다.</quote></s>
+          <s>
+            <quote type="direct" genre="critic">자식을 끌어안고 있을 때조차 그의 포옹은 차가운 인상을 주며, 그래서 자식들은 두려움과 감탄의 반응을 보인다.</quote>
+          </s>
+        </p>
+        <p>
+          <s>여기서 우리는 아버지의 내면에 있는 <term type="concept">양가 감정</term>(ambivalence, 樐價感情)을, 고백할 수 없는 불확실한 감정을 발견할 수 있다.</s>
+          <s>이 감정은 자식들이 아버지에게 품고 있는 모순적인 기대감에 상응하는 투사 물이며 우리가‘<term type="concept">부성의 패러독스</term>’라고 부르는 것이다.</s>
+          <s>”(<persName ref="#p-x18">루이지조야</persName>,『<title level="m" type="other" xml:id="t-x30">아버지란 무엇인가</title>』)갑옷은 무엇인가.</s>
+          <s>이것은 전쟁과 전투의 표상이다.</s>
+          <s>오늘의 아버지들은 <persName ref="#p-x29">호메로스</persName> 시대와 같이 진짜 갑옷을 필요로 하지는 않는다.</s>
+          <s>하지만 문화적인 맥락에서 갑옷의 필요성은 상존하다.</s>
+          <s>오늘날에도 모든 아버지들은 시장의 원리가 작동하는 <term type="concept">자본주의</term> 세계에서 여전히 심리적인 갑옷을 입고 있다.</s>
+          <s>부양자로서의 의무에 매인“<quote type="direct" genre="poet">늙은 아버지</quote>”는 <term type="concept">시장 자본주의</term>라는 전장에서 은퇴를 하고 갑옷을 벗어 버린 거나 마찬가지다.9“<quote type="direct" genre="novel">짐짓 실체가 없는 무슨 진동 같은 거였는지 모른다</quote>”.</s>
+        </p>
+        <p>
+          <s>(<persName role="poet" xml:id="p-x30">강정</persName>,「<title level="a" type="poem" xml:id="t-x31">들려주려니 말이라 했지만</title>」,『<title level="m" type="other" ref="#t-x31">들려주려니 말이라 했지만</title>』, <orgName ref="#org-x5">문학동네</orgName>,<date when="2006">2006</date>)“<quote type="direct" genre="poet" source="들려주려니 말이라 했지만">이렇게 살면 폐인이 될 것 같아</quote>”.</s>
+          <s>(<persName role="poet" xml:id="p-x31">김이듬</persName>,「<title level="a" type="poem" xml:id="t-x32">명암</title>」,『<title level="m" type="other" xml:id="t-x33">명랑하라 팜 파탈</title>』, <orgName ref="#org-x">문학과지성사</orgName>,<date when="2007">2007</date>)10‘<term type="movement">미래파</term>’로 묶인 <persName ref="#p-x6">황 병 승</persName>· <persName ref="#p-x30">강정</persName>· <persName ref="#p-x7">김민정</persName>· <persName ref="#p-x13">정재학</persName>· <persName ref="#p-x5">장석원</persName>· <persName ref="#p-x8">유형진</persName> 등이 보여 준 시적 상상력은 <term type="concept">국적 불명의 혼 종적인 것</term>이다.</s>
+          <s>그 내용은“<quote type="paraphrase" genre="critic">가족 해체, 자아 부정, 병적 편집증, 동화나 만화의 차용에서 배태되며, 구체적으로는 성전환자, 폭력, 욕설, 신체 절단, 시간(屍姦), 근친상간, 배설물들, 식인(食人), 음란 증, 동성애, 강간, 간음, 고문, 수간 등으로 얼룩진 그로테스크한 언어 미학</quote>”으로 정리할 수 있다.</s>
+          <s>‘<term type="movement">미래파</term>’가 보여 준 것은 <term type="concept">욕망</term>이 아니라 <term type="concept">욕망의 위조</term>이며, 현실이 아니라 <term type="concept">현실의 위조</term>였다.</s>
+          <s>일종의 <term type="concept">판타지</term>였던 것이다.</s>
+          <s>지금도‘<term type="movement">미래파</term>’라는 것이 있다면 그 중심은 여전히 <persName ref="#p-x6">황 병 승</persName>이다.『<title level="m" type="other" xml:id="t-x34">여장남자시코쿠</title>』(<orgName ref="#org-x2">랜덤하우스 중앙</orgName>,<date when="2005">2005</date>)는 <interp value="affirmative" ana="미학">참신했고, 눈이 번쩍 뜨일 만큼 괴기한 청년의 등장을 알리기에 충분한 시집이었다</interp>.</s>
+          <s><persName ref="#p-x6">황 병 승</persName>의 <interp value="affirmative" ana="미학">경이로운</interp> 시집『<title level="m" type="other" xml:id="t-x35">트랙과 들판의 별</title>』(<orgName ref="#org-x">문학과지성사</orgName>,<date when="2007">2007</date>)에서 제 상상력이 어디를 향하고 있는지 그 방향을 더 확실하게 드러낸다.</s>
+          <s>그것은 <term type="concept">혼성 주체</term>들의 상상력이라고 부를 수 있는 세 계다.</s>
+        </p>
+        <p>
+          <s><term type="concept">혼성 주체</term>는 내 안에 들어와 웅성이는 <term type="concept">타자</term>들이다.</s>
+          <s>로 제 언니, 냐라키, 나오코, 오스본, 메기와부기주니어, 난쟁이, 큰오빠, 엄마, 아빠…… 이런 <term type="concept">혼성 주체</term>가 만드는 이야기는 <term type="concept">일그러진 동화</term>다.</s>
+          <s><persName ref="#p-x4">권혁 웅</persName>의 설명에 따르자면 <persName ref="#p-x6">황병승</persName>은 <term type="concept">무의식</term>을 무대로 전진 배치하고 그 위에서“<quote type="direct" genre="critic">기표의 놀이를 통해서, 우리가 잃어버렸던 세계의 원형을 복원하려는, 거의 불가능에 가까운 작업을 해 내고</quote>”있는 셈이다.</s>
+          <s>구체적으로“<quote type="direct" genre="critic">이성애적 가부장제가 설명할 수 없는 퀴어(queer)적인 정체성을 구성</quote>”해서 그것을 하나의 <term type="concept">심리극</term>으로 펼쳐 낸다.</s>
+          <s>
+            <interp value="neutral" ana="미학">하지만 이 것들은 진짜가 아니다.</interp>
+          </s>
+          <s><term type="concept">시적 매트릭스</term>라고 할 수 있는 <term type="concept">환영</term>의 세계다.</s>
+          <s><persName ref="#p-x6">황 병 승</persName>은 왜 그랬을까?</s>
+          <s>“<quote type="direct" genre="poet" source="니노셋게르미타바샤제르니고코티카">어쩔 텐가 진짜 장면은 어디에도 존재하지 않는 걸</quote>”(<persName ref="#p-x6">황 병 승</persName>,「<title level="a" type="poem" xml:id="t-x36">니노셋게르미타바샤제르니고코티카</title>」).</s>
+        </p>
+        <p>
+          <s>기획 특집 |<persName ref="#p-x3">장석주</persName> 3130 |돌연함 속으로의 침묵, <term type="concept">실패</term>라는 규정은‘<term type="movement">미래파</term>’의 이마에 씌운 불명예의 가시 면류관이 아니다.</s>
+          <s>그들은 저항 군이거나 반역자가 아니다.</s>
+          <s>그들은 처형되지 않는다.</s>
+          <s>그러니 실망할 필요는 없다.</s>
+          <s><term type="concept">실패</term>는 다정한 공감들을 증가시킨다.</s>
+          <s>여전히“<quote type="direct" genre="poet" source="심보선">세계는 영원한 악천후</quote>”(<persName ref="#p-x2">심보선</persName>)속에 있고, 그 악천후를 뚫고 내일이었던 오늘은 어제로 흘러가고, 그 자리를 새로운 오늘이 차지한다.</s>
+          <s>“<quote type="direct" genre="poet" source="이장욱">오 분 전과 머나먼 미래가 한꺼번에 다가온다</quote>”(<persName ref="#p-x">이장 욱</persName>)우리가 현재라고 발음하는 순간 현재는 과거가 되어 버린다.</s>
+          <s>오늘이 빠르게 과거로 흘러가는 동안에 소처럼 큰 몸짓으로 진화하지 못한 개미들은 땅바닥을 기며 제 몸체보다 더 큰 먹잇감을 끌고 간다.</s>
+        </p>
+        <p>
+          <s>여름에는 엄청난 비를 실은 비구름이 몰려와 비를 뿌리고, 저 먼 바다에서 발생한 태풍들이 한반도를 휩쓸고 지나간다.</s>
+          <s>누가 어리석게 승리를 말하는가.</s>
+          <s>우연을 배제할 수 없는 세계에서 승리는 없고 항상 있는 것은 극복뿐이다.</s>
+          <s>이 세계의 몽타주를 그려 내는‘<term type="movement">미래파</term>’화가들이 달려온다.</s>
+          <s><persName ref="#p-x30">강정</persName>· <persName role="scholar" xml:id="p-x32">유홍준</persName>· <persName ref="#p-x2">심보선</persName>· <persName role="poet" xml:id="p-x33">송 승 환</persName>· <persName ref="#p-x9">김행숙</persName>· <persName role="poet" xml:id="p-x34">문 태준</persName>· <persName ref="#p-x">이장 욱</persName>· <persName ref="#p-x10">김경주</persName>· <persName role="poet" xml:id="p-x35">이병률</persName>· <persName role="poet" xml:id="p-x36">이근화</persName>· <persName role="poet" xml:id="p-x37">김근</persName>· <persName role="poet" xml:id="p-x38">박연 준</persName>· <persName role="poet" xml:id="p-x39">김 중일</persName>· <persName role="critic" xml:id="p-x40">박지웅</persName>· <persName ref="#p-x31">김이듬</persName>· <persName role="poet" xml:id="p-x41">장 인수</persName> 시인들의 시를 읽어 보았는가.</s>
+          <s>그들은 잠재적인‘<term type="movement">미래파</term>’다.</s>
+          <s>하염없이 뚱뚱해지는 제 몸뚱이를 바라보며“<quote type="direct" genre="poet">인간은 어떤 종류의 가구로 진화할 것인가?</quote></s>
+          <s>”(<persName ref="#p-x2">심보선</persName>,「<title level="a" type="poem" xml:id="t-x37">슬픔의 진화</title>」)라고 묻거나,“<quote type="direct" genre="poet">사과를 놓친 가지 끝처럼 문득 텅 비어 버리는/ 여긴 또 어딘// 한 잔의 소주를 마시고 내리는 눈 속을 걸어/ 가장 어이없는 겨울에 당도하고 싶어.</quote></s>
+        </p>
+        <p>
+          <s>”(<persName ref="#p-x">이장 욱</persName>,「<title level="a" type="poem" ref="#t-x">인파이터</title>」)하거나,“<quote type="direct" genre="poet">고양이로서 실천할 수 있는 선행은 악행만큼 다양하고 모호하고 고요하고 날카롭고 격렬하고 아아아 황홀하고, 야아옹.</quote></s>
+          <s>”(<persName ref="#p-x9">김행숙</persName>,「<title level="a" type="poem" xml:id="t-x38">소녀 고양이 군을 만나다</title>」)하고 <term type="concept">고양이 어법</term>을 발명하고자 애쓴다.</s>
+          <s><persName ref="#p-x3">장석 주</persName> |<date when="1955">1955년</date> 충남 논산 출생.<date when="1979">1979년</date> <orgName xml:id="org-x6">조선일보</orgName> 신춘문예 시 당선,<date when="1979">1979년</date> <orgName xml:id="org-x7">동아일보</orgName> 신춘문예 문학 평론 등단.</s>
+          <s>시집『<title level="m" type="poem" xml:id="t-x39">몽해항로</title>』등.</s>
+          <s><orgName xml:id="org-x8">한국시인협회</orgName> 사무총장 역임.<orgName xml:id="org-kbs1tv">KBS1TV</orgName>‘<quote type="direct" genre="poet">TV－책을 말하다</quote>’자문 위원.</s>
+          <s><orgName xml:id="org-x9">국악방송</orgName>(FM99.1MHz)‘<quote type="direct" genre="poet">문화 사랑방</quote>’‘<quote type="direct" genre="poet">행복한 문학</quote>’진행자.</s>
+          <s><orgName ref="#org-x6">조선일보</orgName>,『<title level="j" type="journal" xml:id="t-x40">출판 저널</title>』‘<quote type="direct" genre="poet">이 달의 책</quote>’선정 위원.『<title level="j" type="journal" ref="#t-x40">출판 저널</title>』『<title level="j" type="journal" xml:id="t-x41">신동아</title>』『<title level="j" type="journal" xml:id="t-x42">위클리 경향</title>』북 리뷰 고정 칼럼.</s>
+          <s><orgName xml:id="org-x10">세계일보</orgName>‘<title level="a" type="contribution" xml:id="t-x43">장석주 시인의 인문학 산책</title>’연재.</s>
+        </p>
+        <p>
+          <s><orgName xml:id="org-x11">동덕여대</orgName> 문예 창작 과와 대학원, 명 지 전문대, <orgName xml:id="org-x12">경희사이버대학교</orgName> 등 강의.</s>
+          <s><orgName xml:id="org-x13">애지 문학상</orgName>(비평), <orgName xml:id="org-x14">질마재 문학상</orgName> 수상.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

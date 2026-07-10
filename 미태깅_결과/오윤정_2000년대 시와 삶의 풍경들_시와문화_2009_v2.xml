@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2000년대 시와 삶의 풍경들</title>
+        <author>오윤정</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><date from="2000" to="2009">2000년대</date> 시와 삶의 풍경들오윤 정人란스러울 정도로 2000년대의 시선은 소위 '<term type="movement">미래파</term>', '<term type="movement">뉴웨이브</term>' 시 —L인들에게 고정됐다.</s>
+          <s>이 시인들은 <date when="1960">i960년대</date> 후반이나 <date when="1970">70년대</date>에 태어 나서 <date when="1990">90년대</date>와 <date from="2000" to="2009">2000년대</date> 등단을 하고 한두 권의 시집을 상재한 이력을 가 지고 있다.</s>
+          <s><term type="concept">파편적인 언어</term>, <term type="concept">혼종적인 주체의식</term>이나 <term type="concept">전복의 형식성</term>은 그들 시를 규정하는 특성들이다.</s>
+          <s>그들 중에는 이전의 문학과 친연성을 가지고 있 는 경우도 있지만, 대부분 그와는 단절과 이별을 선언했다.</s>
+          <s>또한 이들 중 다 수는 시인과 비평가를 겸하기도 하는데, 시인이 비평의 주체가 되었다는 점 도 눈에 띄는 바이다.<date from="2000" to="2009">2000년대</date> 시에 대한 논의는 <persName role="critic" xml:id="p-x">권혁옹</persName>의 '<term type="movement">미래파</term>，거론 이후 빠른 속도로 담론화되었다.</s>
+          <s>비평가들은 일단 <term type="movement">미래파</term>' 시인들의 <interp value="affirmative" ana="미학">전복적이고 실험적인 시 세계를 긍정하는 방향으로 가닥을 잡았는데</interp>, <persName role="critic" xml:id="p-x2">권혁웅</persName>, <persName role="poet" xml:id="p-x3">이장욱</persName>, <persName role="critic" xml:id="p-x4">신형철</persName>, 김수 이 등은 <date from="2000" to="2009">2000년대</date> 이후의 시들을 •<term type="concept">탈고백</term>', <term type="concept">반계몽</term> , '<term type="concept">무질서</term>' D 등의 특성 으로 정리하며 논의하였다.</s>
+          <s>또한 <persName ref="#p-x2">권혁웅</persName>은 '<title level="a" type="critic" xml:id="t-x">미래파에 대한 오해</title>' 에 맞서 다<persName ref="#p-x4">신형철</persName>*「<title level="a" type="critic" xml:id="t-x2">전복을 전복하는 전복</title>上 (<title level="j" type="journal" xml:id="t-x3">실천문학</title>，<date when="2006">2006</date>.</s>
+          <s>겨울호.</s>
+        </p>
+        <p>
+          <s>pJ2工시 한번 <term type="movement">미래파</term>의 의의를 강조하기도 하였는데, <interp value="critical" ana="문학관">이는 자기 옹호의 논리를 강화하고 있다.</interp>2)<persName ref="#p-x2">권혁웅</persName>의 반론대로 <term type="concept">2000년대 시</term>가 <term type="concept">난해</term>해서 나쁜 것은 아니다.</s>
+          <s><term type="concept">난해함</term>이 란 하나의 시적 특성이지 그것이 시의 선악, 혹은 시의 성패를 결정할 근거 가 되지는 못한다.</s>
+          <s><term type="concept">소통</term>의 문제를 제기하는 것은 이전 시대 담론의 기준이 며 대중과의 소통이 전적으로 시의 전부는 아니기 때문이다.</s>
+          <s>많은 논자들은 실제로 <term type="concept">2000년대 시인들</term>의 <term type="concept">소통</term>의 문제를 가장 큰 문제로 거론하고 있지 만, 그러한 문제제기는 이미 <term type="movement">초현실주의</term>를 논하던 <date from="1930" to="1939">1930년대</date> 무렵에도 있었 고 <date from="1960" to="1969">1960년대</date> <orgName xml:id="org-x">후반기 동인</orgName>들에 대해서도 행해졌다.</s>
+          <s>오히려 <interp value="critical" ana="사회">2000년대 시의 문제는 난해와 소통 부재가 아니라 마치 자신의 시가 완전히 사회를 오려낸 것처럼, 시대적 특성이 거세된 것처럼 스스로를 연출하는 데 있다.</interp></s>
+          <s>
+            <interp value="critical" ana="문학관">무엇도 말하지 않겠다는 그들의 선언은 사실 거짓된 것 이다.</interp>
+          </s>
+          <s>이전의 시가 가진 고백적이고, <term type="concept">서정적</term>인 특성을 거부하고 1인칭의 시 적 화자의 권좌를 뒤흔들고 있다는 것, 그리고 <term type="concept">계몽</term>과 같은 <term type="concept">집단담론</term>이 거 세되고 그 안에 자유로운 <term type="concept">사적(私的) 상상력</term>이 뛰어 놀고 있다는 것은 2000 년대 시의 의의를 부각하는 평가이다.</s>
+          <s>
+            <interp value="critical" ana="사회">그러나 많은 논자들이 말하는 이러한 양상들은 다름 아닌 2000년대라는 시대를 고려하지 않는다면 그 의미가 삭 감될 것임이 분명하다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>문학이 어디까지 현실을 반영할 수 있는가와 같은 원론적 논의가 아니더라도 작가-인물-독자가 이루어내는 문학의 전달과정 은 삶의 구체적인 현장성을 전제한다.2000년대는 <term type="concept">1980년대의 공적 문학</term>이나 90년대의 <term type="movement">신서정</term>과 자신의 문학 을 변별함으로써 자신만의 <term type="concept">미적 형식</term>과 내용을 창조해 냈고, 이는 역설적으 로 이전의 문학에 대해 깊이 연루되어 있음을 반증한다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">2000년대의 시는 이미 그 시대의 산물이며 그 영향 관계 속에서 서로를 조응한다.</interp>
+          </s>
+          <s>2000년대<persName ref="#p-x2">권혁웅</persName>,「<title level="a" type="critic" xml:id="t-2007">미래파-2007년* 젊은 시인들을 위한 변론</title>」,《<title level="j" type="journal" xml:id="t-x4">문예중앙</title>，2007.</s>
+          <s>봄호.</s>
+          <s>시에서의 <term type="concept">환상</term>이 '<quote type="direct" genre="critic" source="권혁웅">사실적 인 대상과 관계들을 전치한 것</quote>이라는 <persName ref="#p-x2">권혁웅</persName>의 말 은 <interp value="affirmative" ana="미학">귀담아 들을 만하다.</interp></s>
+          <s>그것은 시가 <term type="concept">재현</term>적 맥락의 틈새에서 의미와 <term type="concept">미적 긴장</term>을 생성해냄을 의미한다* 오히려 그들이 드러내지 않으려 하는 것, 말 하려 하지 않는 것에 주목할 때 그들의 시의 깊이에 한 걸음 더 다가서는 일 이라는 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그들의 시는 미적 형식만으로 멋지고 통쾌하다.</interp>
+          </s>
+          <s>문제는 아 방가르드의 깃발이 아니라 '<quote type="direct" genre="poet">움직이는 땅</quote>' 하)이라는 <interp value="affirmative" ana="문학관">그들의 고백은 의미 있는 선언이다.</interp></s>
+        </p>
+        <p>
+          <s>그런데 그들이 더욱 일탈적이고 난해한 세계를 드러낼수록 <term type="concept">서정 성</term>과 <term type="concept">진정성</term>을 갖는 이유는 무엇일까.</s>
+          <s>그들이 <term type="concept">균열</term>을 풍경화할수록 더욱 더 그들이 살고 있는 세계가 다가옴은 어떤 이유일까.</s>
+          <s>이러한 물음에 스스로 답하기 위해 그들의 시간들에 주목하려고 한다.</s>
+          <s>그들의 시선을 따라가며 그 들의 현재, 우리의 시대를 재구할 수 있을 것이다.</s>
+          <s>과거 호명하기<date from="2000" to="2009">2000년대</date>의 <term type="movement">모더니즘</term> 시의 중요한 특징 중 하나는 <term type="concept">과거 재구성하기</term>’ 이 다.</s>
+          <s>그들이 시선은 과거 로 향한다.</s>
+          <s>그들에게 과거란 지나가버린, 혹은 극 복해야 하는 것 이상의 의미를 지닌다.</s>
+          <s>과거의 기억이 지닌 <term type="concept">폭력</term>과 <term type="concept">상처</term>를 말할수록 그들 시에서 과거는 소름끼치는 망령이 되어 생명을 얻는다.</s>
+        </p>
+        <p>
+          <s>사춘 기 아이의 상처받기 쉽고 치기어린 목소리는 이러한 특성을 드러내는 효과 적인 방법이다.</s>
+          <s><quote type="direct" genre="poet">내 속에 내가 너무 많다</quote>고 노래했던 <persName role="other" xml:id="p-x5">시인과 촌장</persName>은 한 사람이다 나도 그랬다 아버지가 술을 마시고 동네방네 내 이름을 부르며 귀가할 때마다 <quote type="direct" genre="poet">나는 출가한 붓다였고</quote>, 샴쌍둥이처럼 그녀의 몸에 세들어 살고 싶을 때마다 <quote type="direct" genre="poet">나는 늑대인간 이었으며</quote>, 출근하기 싫어 장판에 들러붙을 때마다 <quote type="direct" genre="poet">나는 그레고르 잠자였다</quote> 지 금도 이 글을 쓰는 나■는 … … 이 라고 쓰는 나•는 … …i<persName ref="#p-x2">권혁 웅</persName>,「<title level="a" type="poem" xml:id="t-x5">모순</title>」<persName role="critic" xml:id="p-x6">박진</persName> • <persName role="poet" xml:id="p-x7">김행숙</persName>,「<title level="m" type="critic" xml:id="t-x6">문학의 새로운 이해</title>」, <orgName xml:id="org-x2">청동거울</orgName>, <date when="2004">2004년</date>.</s>
+          <s>서문.</s>
+          <s>할아버지가 서른다섯 때 입었던 낡고 부드러운 코듀로이 바지<quote type="direct" genre="poet">나는 무릎 꿇지 않았다</quote>.</s>
+          <s>그의 흔적인 고스란히 남겨진 코듀로이 바지.</s>
+          <s>못에 걸려 있는 닑은 코듀로이 바지.</s>
+          <s>
+            <quote type="direct" genre="poet">그는 죽지 않았다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">그는 죽은 것이 아니다.</quote>
+          </s>
+        </p>
+        <p>
+          <s>부정문을 부정하면 긍정문이 된다.</s>
+          <s>부정에서 긍정으로 전화되는, <term type="concept">질적 비약</term> 이 눈부시다.</s>
+          <s>눈부신 것은 회색의 이론이 아니라, 푸르른 현실이다.</s>
+          <s>낡고 부드 러운 저 껍질이다.</s>
+          <s>앞뒤 없는 슬픔처럼 뒤뚱거리면서-<persName role="poet" xml:id="p-x8">장석원</persName>,「<title level="a" type="poem" xml:id="t-x7">동방의 서점에는</title>」일반적으로 과거는 현재와 연속되어 있는 시간 단위로 우리는 과거와 현 재의 연속성을 통해 의미를 구성한다.</s>
+          <s>과거에 기대 현재를 해석하고, 과거 의 산물이 곧 현재가 된다.</s>
+          <s>과거는 기억이나 경험이라는 단어로 구체화된 다.</s>
+          <s>그러나 <term type="concept">2000년대 시인들</term>은 과거를 현재의 공간으로 불러들인다 과거 를 호명하는 것은 다소 불순한 방식으로 이루어지는데, 이러한 방식에서 과 거는 여러 가지 모습으로 변형 되어 되살아난다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x2">권혁웅</persName>의「<title level="a" type="poem" xml:id="t-x8">마징가 계보학</title>」의 시편들은 어린 시절 보았던 많은 사람들에 대한 기 억을 담고 있다.</s>
+          <s>아수라백작, 헐크, 육백만 불의 사나이, 시인과 촌 장만이 아니라 형이나 아버지, 친척들은 그의 시에 등장하는 주요인물들이 다.</s>
+          <s>그의 시는 우리의 현재를 그의 과거로 돌려 놓고 유년의 '먼지 많은 다 락방' 으로 공간이동하게 한다.</s>
+          <s>텔레비전 드라마나 <title level="j" type="journal" xml:id="t-x9">선데이서울</title>과 같은 통속 잡지는 우리를 시적 화자의 기억 속으로 유인하는 기제이다.</s>
+          <s>그러나 그의 기억은 그리 달콤하지 않다.</s>
+          <s>그의 기억 속의 인물들은 모두 권위에 차 있거 나 폭력적이거나 일탈적이다.</s>
+          <s>그리고 그러한 인물들을 지켜보는 과거의 나，는 마치 악몽에 눌린 듯 자신의 유년을 목격하는 수동적인 자이다 <term type="concept">기억</term> 은 빛이 바랜 그림처럼 어떤 것도 손댈 수 없는 거대한 심급이 된다.</s>
+          <s><persName ref="#p-x2">권혁웅</persName>의 과거는 우리를 <date when="1970">1970〜80년대</date>로 이끌고 있다는 점에서 보다 관 습적이다.</s>
+        </p>
+        <p>
+          <s>반면, <persName ref="#p-x8">장석원</persName>의 과거는 그와 반대로 현재 속에 실존한다.</s>
+          <s>즉 과거 와 현재가 혼재한다는 점에서는 유사하나 그 방향은 대조적이다.</s>
+          <s><persName ref="#p-x8">장석원</persName>의 시에서 할아버지의 코듀로이 바지는 아직도 고스란히 남겨져 있으며 시적 화자는 '<quote type="direct" genre="poet">그가 죽은 것이 아니다</quote> 라고 말한다.</s>
+          <s>부정의 부정은 긍정이 되듯, <term type="concept">낡고 부드러운 것</term>과‘<quote type="direct" genre="poet">푸르른 현실</quote> 은 동전의 양면처럼 하나이다.</s>
+          <s>과거가 남 겨놓은 껍데기는 현실에도 생생하게 남아있으며 도무지 그것은 죽은 것이 될 수 없다.</s>
+          <s>그의 시에서 과거와 현실이 현재에 공존하는 것과 같이 <term type="concept">환상</term>과 현상, 그리고 <term type="concept">죽음</term>과 삶은 동시에 존재하고 있다.</s>
+          <s>그에게 과거는 '<quote type="direct" genre="poet">물마루 스쳐 튀어 오르는 햇살처럼 깊고 부드럽게/밀고 들어와 서걱이는 검은 나비</quote>，이고, 그 속에 나의 흔들림이 있고 오랜 벗 같 은/<quote type="direct" genre="poet">출렁임이 있고 병통으로 우는 침묵을 담고 있다</quote>.</s>
+          <s>그러나 그 과거 속의 나는 지워져 버렸고（「<title level="a" type="poem" xml:id="t-x10">나는 과거에서 현재로</title>」）, 현재의 나는 '<quote type="direct" genre="poet">과거의 아들, 과거 의 나에게 고용된 기계, 녹스는 기계</quote>'로 수동화된다.</s>
+        </p>
+        <p>
+          <s>과거는 망령처럼 <term type="concept">현재</term> 에 되살아나 나를 지배하고 나의 현실을 지배한다.</s>
+          <s>그것은 '<quote type="direct" genre="poet">개좆같은 추억</quote> 이지만 동시에 끊임없이 '<quote type="direct" genre="poet">진보하는 과거, 진보하는 상처</quote> 가 된다.</s>
+          <s>여기에서 <quote type="direct" genre="poet">나의 전부는 거짓</quote> 이라는 진술은 현재의 의미를 구성할 수 없는 <interp value="neutral" ana="미학">현대인의 자아인식을 드러낸다.</interp></s>
+          <s>입 밖으로 걸어나오면, 아버지는 입이 없는 거나 마찬가지로 조용한 사람이 었고 어머니와 누이 역시 그러했지만,나는 입의 나라에 한번씩 다녀올 때마다 가족들과 함께 하는 침묵의 식탁을 향해제발 그 입 좀 닥쳐요‘ 소리가 목구멍까지 올라왔다-<persName role="poet" xml:id="p-x9">황병승</persName>,「주치의 hj<quote type="direct" genre="poet" source="황병승,「존재의 세 가지 얼룩말」"><lg type="stanza"><l>천둥이 치고</l></lg><lg type="stanza"><l>저쪽 하늘에선 벌거벗은 엄마가</l></lg><lg type="stanza"><l>추워 죽겠네 아래턱을 덜덜 떨며 통곡을 하고</l></lg><lg type="stanza"><l>북향이 남향이 된 집에서</l></lg><lg type="stanza"><l>죽은 아빠가 한나절 여기저기 흙칠을 하다 떠나간 집에서 향 피우는 냄새에 자꾸만 헛구역질이 치미는 집에서 아가는 없고 아가의 울음소리만 가득한 집에서 할머니는 곤지곤지 잼잼 혼자 놀았다</l></lg></quote>…<persName ref="#p-x9">황병승</persName>,「<title level="a" type="poem" xml:id="t-x11">존재의 세 가지 얼룩말</title>」<interp value="neutral" ana="미학">황병승이 불러내는 과거는 위의 두 시인과는 큰 차이를 보인다.</interp></s>
+          <s><persName ref="#p-x2">권혁웅</persName>이 나 <persName ref="#p-x8">장석원</persName>은 <interp value="neutral" ana="미학">과거는 현재에 공존하는 실재이다.</interp></s>
+          <s>그에 반해 <interp value="neutral" ana="미학">황병승의 과거는 현재를 삭제하는 기제가 된다.</interp></s>
+          <s><term type="concept">과거</term>에 목소리를 부여함으로써 '<term type="concept">현재</term> 의 관 점에서만 사유되던 '과거를 <term type="concept">기억</term> 속에서 해방시키고 있는 것이다.</s>
+          <s>문제는 이에 대해 시적 화자가 보이는 태도이다.</s>
+        </p>
+        <p>
+          <s>과거나 과거의 인물들에게 목소리 를 부여함으로써 시적 화자는 <term type="concept">분열증적 환청과 환각</term>에 시달리게 된다.「<title level="a" type="poem" xml:id="t-h">주치의h</title>」에서 등장하는 아버지와 가족, 그리고 언어 는 시적 화자를 공 격하는 <term type="concept">환상</term>이 된다.</s>
+          <s>소음의 세계에 다뎐온 이후 시적 화자는 끝없는 <term type="concept">환각</term> 에 사로잡힌다.</s>
+          <s>가족들은 온통 입을 달고서 큰 소리로 웃고 떠들' 고 있다.</s>
+          <s>그것은 침묵하는 현실과는 대조적인 것이지만, 이미 소음의 <term type="concept">환청</term>에 시달리 는 시적 화자에게 침묵은 곧 소음이 된다.</s>
+          <s>대화와 소통의 근원으로서의 언 어는 부정되고 그것은 '<quote type="direct" genre="poet" source="리타의 습관">입 안 가득 미끄덩거리는 음식과 범벅이 되어 버</quote> （「<title level="a" type="poem" xml:id="t-x12">리타의 습관</title>」）려 도무지 발화될 수 없는 <term type="concept">실어증</term>의 상태에 빠지게 되는 것이 다.</s>
+          <s>두 번째 시에서도 <interp value="critical" ana="미학">아버지는 부정적인 기표다.</interp></s>
+          <s>그의 시에서 아버지는 이미 <quote type="direct" genre="poet" source="사성장군협주군">머리통</quote> （「<title level="a" type="poem" xml:id="t-x13">사성장군협주군</title>」）이 담장을 넘어가 버W 존재로, '<quote type="direct" genre="poet" source="사성장군협주군">죽은 사람이고 무덤속에나</quote>' 있어야 할 존재이다.</s>
+          <s>그러나 죽은 아버지는 되살아나 이 방 저 방을 들락거리고 여기저기 흙칠을 한다.</s>
+        </p>
+        <p>
+          <s>'<term type="concept">북향/남향</term>, '<term type="concept">죽은 아빠/벌거벗은엄마</term>' , <term type="concept">할머니/아기</term>'는 뒤바뀌고 전치되면서 동질화되어 간다.</s>
+          <s>이는 남자 인 나를 시코쿠로 만들고, 자궁을 가진 존재로 사유케 하며 '앞 을 '뒤로 나의 진짜를 항문'（「<title level="a" type="poem" xml:id="t-x14">커밍아웃</title>」）으로 만들어버린다.</s>
+          <s>
+            <interp value="neutral" ana="미학">이러한 역전적이고 전복 적인 사유는 실제로 전복하고 역전하는 결과에 만족하지 않고 대립항들의 차이를 삭제하며 차라리 나눌 수조차 없는 혼동적인 실체로 바꾸어놓고 있 다.</interp>
+          </s>
+          <s>'<quote type="direct" genre="poet">어떠한 이름으로도 불려지지</quote>' 않겠다는 선언, 여기에서 우리는 <term type="concept">근대</term>의 인식하는 주체와 현재라는 시간에 대한 전면적인 부정과 부딪히게 된다.</s>
+          <s>과거로부터 탈락된 그들, 하지만 동시에 과거의 망령에 빠져나올 수 없이 연루된 그들은 현대의 <term type="concept">분열증</term>을 형상화한다.</s>
+          <s>그들의 시에서 <term type="concept">아버지</term>가 삭제 되지만 끝없이 재호명되며, 현재가 '<quote type="direct" genre="poet">떨어지다</quote>' , '<quote type="direct" genre="poet">흘러내리다</quote> '<quote type="direct" genre="poet">떠나가다</quote> 와 같은 부유와 결락의 언어들과 연결되는 것은, 성인이 된 현대의 유아기 적 상처를 드러낸다.</s>
+          <s>그것은 기계와 관계하는 소녀의 이미지를 통해 즉물화 된 것（<persName role="poet" xml:id="p-x10">이기인</persName>）으로 변화하며, <persName role="poet" xml:id="p-x11">이민하</persName>에 와서는 '<quote type="direct" genre="poet">무정란</quote> 으로 형상화된다.</s>
+          <s>과 거를 재호명하고 자신의 기억을 난도질하면서 '<quote type="direct" genre="poet">서로의 앞모습 을 볼 수 없 는</quote> 이질적이고 균열된 관계로 <term type="concept">주체와 타자</term>를 인식하고 있는 것이다.</s>
+        </p>
+        <p>
+          <s>그들이 바라보는 현재현대의 경제논리는 모든 것을 <term type="concept">자본의 논리</term>로 이해하며, 미래를 준비하는 삶을 가치 있는 것으로 제안한다.</s>
+          <s>현재란 미래를 향해가는 과정적 의미만을 지니게 되며, 가치 있는 미래에 도달하는 것, 그 미래의 가치를 현재에 보다 빨리 실현하는 것이 현대가 가진 <term type="concept">욕망</term>의 방향이다.</s>
+          <s>빨리 몇 평짜리 아파트 를 사는 것, 빨리 고급승용차를 사는 것, 빨리 승진하는 것, 이러한 물질적 이고 부피적인 기준이 현재 우리를 지배하는 판단근거이다.</s>
+          <s><term type="concept">물질문명</term>과 정 보혁명으로 규정되는 <date when="2001">21세기</date>는 편리함과 다양성을 그 특성으로 한다.</s>
+          <s>우리 는 편리함에 길들여지고 다양한 가치를 주입 받는다.</s>
+          <s>다양함은 마치 개인 으로 하여금 그 선택의 자유를 주는 듯 하지만 그 또한 일정한 트렌드와 이윤을 따라간다는 점에서 <interp value="critical" ana="사상">이데올로기적이다</interp>.</s>
+          <s>우리가 무엇을 애써 하지 않아 도 우리를 둘러싼 세계는 충분히 자기충족적이다.</s>
+          <s>모든 목록이 자동이체되 고, 컴퓨터에는 끝없이 온갖 뉴스가 올라오고, 수많은 토론방, 가십거리의 기사들이 우리의 시각을 지배한다.</s>
+        </p>
+        <p>
+          <s>이와 같은 세계의 <term type="concept">자동성</term>은 개인을 집어 삼키는 거대한 입이다.</s>
+          <s>자기충족적으로 돌아가는, 또 다른 의미의 육중한 기계 앞에 인간은 <term type="concept">대상화</term>되고 <term type="concept">타자화</term>된다.</s>
+          <s><quote type="direct" genre="poet" source="낙타에게"><lg type="stanza"><l>사막 하면 낙타가 걸어가고, 사막 하면 삭막한 도시가 떠오르고, 사막 하면 시가 생산된다, 오토매틱 맨 오토매틱 머쉰 오토메틱 낙타</l></lg><lg type="stanza"><l>나는 이 자동성（自動性）이 무척 좋다</l></lg></quote>-<persName ref="#p-x8">장석원</persName>,「<title level="a" type="poem" xml:id="t-x15">낙타에게</title>」내 몸의 모든 구멍을 입으로 만드는 힘그 어떤 것도 나를 흔들지 못했는데, 그 어떤 것도 나를 통과하지 못했는데, 이미지의 배를 가르고 나오는 이것.</s>
+          <s>전심전력으로 사랑을 나누는 남자와 여자 도 나를 만족시키지 못했는데, 그 어떤 사랑도 나를 눈뜨게 하지 못했는데, 스 며들고 퍼져나가는 이것.</s>
+          <s>흘러가고 흔들리는 이것.</s>
+          <s>움직이는 이것.</s>
+          <s>지나는 모든 것을 빨아들이는, 소용돌이치는 물질적 황홀이 되는, 온몸의 구멍을 열게 만드 는, 입자들.</s>
+          <s>그러나 움직이지 않겠다.</s>
+        </p>
+        <p>
+          <s>
+            <quote type="direct" genre="poet">온몸의 구멍을 창문으로 만들겠다.</quote>
+          </s>
+          <s><quote type="direct" genre="poet">온몸이 창문이 면 햇빛뿐일까, 내 그림자는 남아 있을까</quote>-<persName ref="#p-x8">장석원</persName>,「<title level="a" type="poem" xml:id="t-x16">움직이는 것의 이미지에 대하여</title>」<persName ref="#p-x8">장석원</persName>이 제기하는 '<term type="concept">자동성</term>'은 어떤 의도도, 방향도 갖지 못한 <term type="concept">현대인의 기계적 삶</term>을 노출한다.</s>
+          <s>그것은 인간의 연상마저도 어떤 일정한 규칙을 따르 는 세계이며, 여기에서 우리가 선택할 수 있는 것은 '<quote type="direct" genre="poet"><lg type="stanza"><l>독창적으로 상식화하</l></lg><lg type="stanza"><l>기</l></lg></quote>' 정도이다.</s>
+          <s><term type="concept">세계의 자동성</term>은 나에게 '<quote type="direct" genre="poet">스며들고 퍼져나가고</quote>', '<quote type="direct" genre="poet">흔들리고 움직이며</quote>“, '<quote type="direct" genre="poet">모든 것을 빨아들인다</quote>.</s>
+          <s>'<quote type="direct" genre="poet">움직이지 않겠다</quote>'는 의지의 언술은 실상 이와 같은 피동적인 상황에 대한 고발이지만 동시에 ‘<quote type="direct" genre="poet">움직일 수 없다</quote> 는 반어이다.</s>
+          <s>온몸의 구멍을 창문으로 만든다면 모든 것을 흡수해 버리는 <term type="concept">자동성</term>의 괴물로부터 놓여날 수 있을까.</s>
+          <s>여기에서 나를 개방하는 것은 <term type="concept">주체</term> 로서의 나를 놓아 버리는 것이고, 판독기에 바코드로 읽혀지는 나의 <term type="concept">즉물성</term> （<persName role="poet" xml:id="p-x12">김민정</persName>을 인정하는 일이다.</s>
+          <s>자동화된 기계 속에 하나의 부품으로, 혹은 그 잉여물로 우리는 존재하며 그 안에 우리는 '<quote type="direct" genre="poet">뼈 부딪는 소리</quote> （<persName ref="#p-x11">이민하</persName>）를 겨우 이끌고 현대의 한 모퉁이를 돌아가야 할지도 모른다.</s>
+        </p>
+        <p>
+          <s>물론 그 모퉁이는 또 다른 모퉁이들로 연결되어 있겠지만.</s>
+          <s>어둠이 몰려서 온다.</s>
+          <s>녀석들, 녀석들검은 비닐봉지 같은 얼굴을 하고 걸어오면서 찢어지는 얼굴을.</s>
+          <s>툭, 하고 떨어 지는 물체.</s>
+          <s>죽은 건 줄 알았는데 개의 죽음은 또 아주 멀었다는 듯이 발을 모아 높이 뛰어오르고.</s>
+          <s>착지와 비약으로 이루어지는 선상에서 음표처럼-<persName ref="#p-x7">김행숙</persName>,「<title level="a" type="poem" xml:id="t-x17">얼굴의 탄생</title>」너에게 나는 소문이다.</s>
+          <s>나는 사라지지 않지.</s>
+          <s>나는 종로 상공을 떠가는 비닐봉지처럼 유연해.</s>
+        </p>
+        <p>
+          <s>자동차들이 착지점을 통과한다.</s>
+          <s>나는 자꾸 몸무게가 제로에 가까워져 밤새 고개를 들고 열심히 너를 떠올렸다.</s>
+          <s>속도 자체는 아무것도 아니야.</s>
+          <s>사물과 사물 사이의 거리가 있을 뿐*-<persName ref="#p-x3">이장욱</persName>,「<title level="a" type="poem" xml:id="t-x18">근하신년</title>」이 시들에서 '<term type="concept">검은 비닐봉지</term> 는 <term type="concept">현대의 자동성</term>과 주체의 존재방식에 대 한 인식을 드러내는 사물이다.</s>
+          <s>이 이미지는 여러 시인들의 시에서 반복되거 나 변용되어 드러난다.</s>
+          <s>이는 이 <term type="concept">전위적</term> 시들간의 <term type="concept">상호텍스트적</term> 흔적을 보여 준다.</s>
+          <s><persName ref="#p-x7">김행숙</persName>은 <quote type="direct" genre="poet">우리의 얼굴이 어둠처럼, '검은 비닐봉지 같이 걸어오고 있다</quote> 고 말한다.</s>
+          <s>
+            <interp value="neutral" ana="미학">어둠과 검은 비밀봉지는 현대의 익명적 가면을 드러내며, 쉽게 얻을 수 있고 또한 쉽게 버려진다는 점에서 일시성의 덧없음을 표현한다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그건 흔히 볼 수 있는 것이니까, 언제나 찢긴 채로, 물에 젖은 채로 버려지 지만 또 우리의 삶의 공간 어디에서도 종종 발견되는 것이니까.</s>
+          <s>그것은 끝 없이 버려지지만, 어디든 되돌아오는 악몽 속의 괴물과 닮아 있다.</s>
+          <s>그것은 죽은 건 줄 알았는데 '발을 모아 높이 뛰오르고 '<term type="concept">착지와 비약</term> 을 반복한 다 우리는 그것을 알고 있지만, 동시에 그것에서 뒤돌아설 수 없다.</s>
+          <s>왜냐 하면 그것은 나의 얼굴（<persName ref="#p-x8">장석원</persName>,「<title level="a" type="poem" xml:id="t-x19">오래전, 깊은 곳으로 떠나간</title>J이자, 현재의 얼굴 이기 때문이다.</s>
+          <s>'<quote type="direct" genre="poet" source="모두 사라졌다">검은 비닐 봉지조차 가끔은/ 주황 지느러미가 빛나는 금붕 어</quote> （<persName role="poet" xml:id="p-x13">진은영</persName>,「<title level="a" type="poem" xml:id="t-x20">모두 사라졌다</title>」）를 쏟아내기도 하지만, <interp value="critical" ana="미학">그것은 결국 모두 사라지 는 환상일 뿐이다.</interp></s>
+          <s>유연한 무엇으로 사유되는 <persName ref="#p-x3">이장욱</persName>의 시에서조차 <interp value="neutral" ana="미학">존재는 결국 '제로' 를 향해간다.</interp></s>
+          <s>중요한 것은 속도 가 아니라 '<term type="concept">사물과 사물 사이 의 거리</term> 라고, <interp value="affirmative" ana="미학">그 차이만이 실재할 뿐이라는 절망감은 의미 있는 울림을 이 룬다</interp>비닐봉지는 <persName ref="#p-x3">이장욱</persName> 시에서 종이비행기나 풍선으로 변용되기도 하고, <persName ref="#p-x11">이 민하</persName>의 시에서 마네킹이 되기도 한다.</s>
+          <s>그것은 음악처럼 스캔들처럼 <interp value="neutral" ana="미학">환상적 이지만 처연하다.</interp></s>
+        </p>
+        <p>
+          <s>산산조각나는 육체를 고통스럽게 바라보거나（<persName ref="#p-x12">김민정</persName>）, 혹 은 6이 9가 되기도 한다고 포기해 버리거나（<persName ref="#p-x9">황병승</persName>）, 공장 후문에 걸어놓은 현수막 <persName ref="#p-x10">이기인</persName>）으로 상상되기도 하는 것이다.</s>
+          <s>이 시편들은 차이로만 존재하는 <term type="concept">상대성</term>과 세계의 <term type="concept">일시성</term>을 그대로 전경화함으로써, <term type="concept">부유（浮遊）하는 현대 인의 모습</term>을 난해하고 흔들리는 언술을 통해 드러내고 있는 것이다.</s>
+          <s>이 <term type="concept">균 열</term>과 <term type="concept">의미상실</term>이 곧 <term type="concept">시대정신</term>이 된다.</s>
+          <s>확신할 수 없는 세계, 안정적인 무엇 도 부정되는 세계는 <term type="concept">비정규직</term>, <term type="concept">트랜스젠더</term>，<term type="concept">실업</term>과 <term type="concept">자살</term>, <term type="concept">가족의 해체</term> 등으 로 드러나는 사회의 <term type="concept">불안증</term>과 관련된다.</s>
+          <s>우리는 세계의 실재를 <quote type="indirect" genre="poet">'놓쳐버림/ 놓아버림</quote> 의 사이에서 무엇도 결정하지 못한 채 떠돌고 있을 뿐이다.</s>
+          <s>그돌의 미래상징적 법으로서의 <term type="concept">아버지</term>와 언어의 부재, 하지만 끊임없이 되살아오는 과거의 망령들 속에서 우리는 부정할 수도, 긍정할 수도 없는 애매한 지점 에 서성인다.</s>
+          <s>우리가 선택할수 있는 건 <quote type="direct" genre="poet">'검은 비닐봉지 처럼 세상을 떠돌거 나 세계의 자동성 속에 자신을 완전히 열어 놓는 일일 게다</quote>" <interp value="critical" ana="사회">자신의 시대에 서 지향해야 할 밝은 빛을 찾지 못하는 것, 끝없이 세계의 속도에 떠밀려 과 거도, 현재도 없이 알 수 없는 미래를 향한 길 위에 떠돌고 있는 망령들.</interp></s>
+          <s>그 것은 <persName role="poet" xml:id="p-x14">이원</persName>이 <quote type="direct" genre="poet">나는 클릭한다, 고로 존재한다</quote> 고 노래했던 <date when="1990">90년대</date>의 <term type="concept">즉물성</term> 과 통해 있지만, 그 <interp value="critical" ana="미학">발랄함과 놀이의 즐거움은 가지지 못한다</interp>.</s>
+        </p>
+        <p>
+          <s>그 대신 세상 을 향한 <term type="concept">피로</term>와 치기와 <term type="concept">슬픔</term>이 깊이 드리우고 있다는 것이다.</s>
+          <s>
+            <interp value="neutral" ana="미학">깨뜨리고 거 부하고 전복하는 그 과정 위에 이들 시들은 놓여 있으며 그래서 위태로워 보이기까지 한다.</interp>
+          </s>
+          <s>그들은 어디로 갈 것인가.</s>
+          <s>전복만을 거듭하다 <term type="concept">전복의 자동성</term>에 빠질 것인 가?</s>
+          <s>
+            <interp value="critical" ana="미학">사실 그들의 시는 이런 점에서 다분히 위태하다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">그들의 시는 색다르고 독특하다.</interp>
+          </s>
+          <s>하지만 <interp value="critical" ana="미학">색다르고 독특하다는 점에서 유사하다.</interp></s>
+          <s>
+            <interp value="critical" ana="미학">시들을 읽을수록 시들 간의 차이성은 사라지고 모든 人］가 다 한 목소리가 된다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그들은 모두 현대의 <term type="concept">균열</term>과 기존 관습의 <term type="concept">전복</term>을 말하고 있다.</s>
+          <s>때로 그것은 독특한 상상 력을 통해 드러나기도 하며, <term type="concept">장르의 혼합</term>，시적인 것과 이질적인 것-기계나 컴퓨터와 같은 즉물적인 무엇과의 <term type="concept">환유적 결합</term>으로 나타나기도 한다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">하지만 그들이 펼쳐 보이는 세계는 오히려 유사한 경향을 보인다.</interp>
+          </s>
+          <s>오로지 그 방 식만이 다른 것이다.</s>
+          <s>돌려 생각해 보면 그것이 바로 우리의 오늘이다 <interp value="critical" ana="문학관">서로 다르다는 것은 오히려 오인에 지나지 않는다.</interp></s>
+          <s><term type="concept">일탈</term>과 <term type="concept">탈주</term>는 하나의 흐름이 되고.</s>
+          <s>흐름은 대세가 되고, 대세는 <term type="concept">권력</term>이 되는 것이다.</s>
+          <s>그렇다면 끊임없이 <term type="concept">일탈</term>과 <term type="concept">탈주</term>의 길을 걸을 것인가?</s>
+        </p>
+        <p>
+          <s>무엇으로부터의 일 탈과 탈주가 아니라 그 자체가 의미가 되는 자기 선택으로서 말이다.</s>
+          <s>자신의 목소리의 기득권을 포기하는 것, 세계를 일인칭 자아를 통해 여과시키는 시 의 본질을 포기하는 것, 자기 고백과 언술의 달콤함을 거부하고 시적 화자 에게 독점되어 있던 목소리를 과거, 미래, 타자, 환상의 그 무엇들에게 해방 시키는 것, <interp value="neutral" ana="미학">이러한 해방적 전위는 실제로 지금까지의 모든 문학적 관습을 담보로 하는 것이기에 험난하고 어려운 길이다.</interp></s>
+          <s>거스를 수 없는 변화속에 서 어쩔 수 없이 '놓쳐버릴 것인가, 아니면 스스로 놓아버릴 것인가를 결 정해야 한다.</s>
+          <s>이를 위해서는 무엇보다 부단한 자기와의 싸움이 필요할 것이 다.</s>
+          <s>'<quote type="direct" genre="critic">전복의 관념 자체를 혼란에 빠뜨리는 일</quote>4)이란 생각만 해도 얼마나 복 잡하고 어 려운 일인가.<date from="2000" to="2009">2000년대</date>는 <date when="1900">20세기</date>와는 다르다.</s>
+          <s>
+            <interp value="critical" ana="문학관">2000년대의 문학을 이전 관습에 대한 전복으로만 인식하는 것은 그들을 과소평가하는 것이다.</interp>
+          </s>
+          <s>아직은 모든 것이 깨어지는 <term type="concept">분열</term>과 <term type="concept">균열감</term>에 사로잡혀 있지만, 그리고 세계의 자동성은 우리 가 생각하는 것보다 거대하고 위협적인 것이지만, 끝없이 갱신하며 변신해 가는 현대의 욕망의 얼굴을 어둠 속에서 마주하는 일이 이미 그들에게서 시 작되었음을 알 수 있다.</s>
+          <s><persName role="poet" xml:id="p-x15">오윤정</persName> <date when="2004">2004년</date>「<title level="a" type="contribution" xml:id="t-x21">시인</title>j,「<title level="j" type="journal" ref="#t-x3">실천문학</title>」둥에 평론을 발표하면서 등단.</s>
+        </p>
+        <p>
+          <s>논문에「<title level="a" type="critic" xml:id="t-x22">한국 현대 리얼리 즘 시의 양식 연구</title>」둥이 있으며, 주요평론으로「<title level="a" type="critic" xml:id="t-1980">1980년대 시의 특성</title>」, '■<title level="a" type="critic" xml:id="t-x23">조심스러운 길내기， 공존의 시간-김진경론</title>」등이 있다.</s>
+          <s>현재 <orgName xml:id="org-x3">서강대</orgName> 강사.</s>
+          <s>.</s>
+          <s><persName ref="#p-x4">신형철</persName>, 앞의 글, p.126.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

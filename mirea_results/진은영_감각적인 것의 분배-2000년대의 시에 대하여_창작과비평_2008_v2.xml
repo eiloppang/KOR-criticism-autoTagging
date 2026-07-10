@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>감각적인 것의 분배-2000년대의 시에 대하여</title>
+        <author>진은영</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>특집 문학이란무엇인가I <persName role="poet" xml:id="p-x">진은영</persName> Idichtl @hanmail.nel‘<quote type="direct" genre="poet">새로운노래, 더 나은노래</quote>'<quote type="direct" genre="poet">하프 켜는 소녀가 노래 불렀다.</quote></s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>진실된 감정과 잘못된 음조로,</l>
+              </lg>
+              <lg type="stanza">
+                <l>하지만난그녀의 연주에</l>
+              </lg>
+              <lg type="stanza">
+                <l>무척 감동받았다.</l>
+              </lg>
+            </quote>
+          </s>
+          <s><persName role="foreigner" xml:id="p-x2">하이네</persName>(H.</s>
+          <s>Heine)의『<title level="m" type="poem" xml:id="t-x">독일.</title></s>
+          <s><title level="m" type="poem" xml:id="t-x2">겨울동화</title>』(<persName role="translator" xml:id="p-x3">홍성광</persName> 옮김, <orgName xml:id="org-x">창비</orgName> <date when="1994">1994</date>)의 한 연 을 읽으며 나는 웃었다.</s>
+          <s>'<quote type="direct" genre="other">그래, 그런 시들이 있었지.</quote></s>
+          <s><quote type="direct" genre="other">소박하지만 진실된 감정으로 나를 울리고 웃게 했던 시들이……</quote>' 내가 혼잣말을 하면서 떠 올린 것은 <interp value="affirmative" ana="미학">대단한 스타일 실험은 없었으나 삶의 생생한 진상으로 스무 살 무렵의 나를 흔들어놓았던 시들이었다.</interp></s>
+          <s><persName role="poet" xml:id="p-x4">박노해</persName>나 <persName role="poet" xml:id="p-x5">백무산</persName> 또는 그들 을 열심히 흉내내던 문청들의 <interp value="affirmative" ana="미학">어설프지만 열정에 가득 찬 시들.</interp></s>
+        </p>
+        <p>
+          <s>그러나 다음 연으로 넘어가자 이 런 상념 이 엉뚱한 것임이 밝혀졌다.陳 恩 英 시인 시집으로 •■<title level="m" type="poem" xml:id="t-x3">일곱 개의 단어로 된 사전</title>«「<title level="m" type="poem" xml:id="t-x4">우리는 매일매일</title>』이 있음.</s>
+          <s>사랑과 사랑의 아픔,희생과 모든 고통이 사라지는저 위, 보다 나은 저 세상에서의다시 만남을 노래했다.</s>
+          <s>(•••)그녀는 오래된 <term type="concept">체념</term>의 노래를,거대한 패거리인 <term type="concept">민중</term>이울고 보챌 때 얼러 잠재우는하늘의 자장가를 불렀다.</s>
+          <s>나는 그런 방식, 그런 텍스트를 알고 있어,지은이들도 알고 있어.</s>
+          <s>그들이 몰래 술 마시며 남 앞에선물을 마시라고 설교한 것을 알고 있어.</s>
+          <s>새로운 노래, 더나은 노래를,오, 벗들이여,그대들에게 지어주겠노라!</s>
+          <s>우리는 여기 지상에서하늘나라를 벌써 세우려고 한다.</s>
+          <s>우린 지상에서 행복을 희구하며,더이상 <term type="concept">궁핍함</term>을 원치 않는다.</s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="foreign" source="독일. 겨울동화">부지런한 손이 번 것을게으른 배가 탕진해서는 안된다.</quote>—「독일.</s>
+          <s><title level="m" type="foreign" xml:id="t-u">겨울동화』저U장부분</title>"왜 나는 엉뚱하게도 하프 켜는 소녀의 노래로 <term type="movement">80년대 민중시들</term>을 떠 올렸던 것일까?</s>
+          <s>나는 그 시들에 깊이 공감했고 그 시대에 그 시들의 존재 자체를 사 랑했지만, 아무리 노력해도 그렇게 쓸 수가 없었다.</s>
+          <s>지상에서 하늘나라 를 세우는 일에 이의가 없을뿐더러, 그 일을 위해 새로운 노래, 더 나은 노래를 짓는 것이야말로 진심으로 희망하는 일이지만, 막상 펜을 들면 지금도 이 일만큼 힘들게 느껴지는 것이 없다.</s>
+          <s><term type="concept">이주노동자</term>와 <term type="concept">비정규직 노동자들</term>의 <term type="concept">투쟁</term>을 지지하며 성명서에 이름을 올리거나 지지 방문을 하고 정치적 이슈를 다루는 논문을 쓸 수도 있지만, 이상하게도 그것을 시로 표현하는 것은 쉽지가 않다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">사회참여와 참여시 사이에서의 분열, 이 것은 창작과정 에서 늘 나를 괴롭히던 문제 이다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="문학관">나는 이 난감함이 많 은 시인들이 진실된 감정과 자신의 독특한 음조로 새로운 노래를 찾아 가려고 할 때 겪는 필연적 과정일 거라고 믿고 싶다.</interp>
+          </s>
+          <s>많은 이들이 입을 모아 <date from="2000" to="2009">2000년대</date> 들어서 낯선 감각과 새로운 어법으 로 무장한 <term type="concept">젊은 시인들</term>이 ‘집단적으로 출현했다고 말한다.</s>
+        </p>
+        <p>
+          <s>이들의 출 현에 대한 반응, 이 집단에 대한 정의는 다양하다.</s>
+          <s><interp value="critical" ana="문학관">소통불능의 자폐적 이고 이기적인 문학이라는 신랄한 비판</interp>이나 조금만 더 <term type="concept">자아</term> 밖으로 나 오라는 애정어린 충고에서부터, 여러분이야말로 '도래'할 <term type="concept">문학적 민중</term> 이 될 거라는 뜨거운 격려에 이르기까지, 상이한 반응들의 폭발에 정작 시인들은 당황했다.</s>
+          <s>새로운 시들을 둘러싼 이 논의들은 여러 맥락에서 이해될 수 있겠지만, 적어도 내게는 나를 난감하게 만드는 문제, 즉 문 학과 윤리 또는 <term type="concept">미학과 정치</term>의 관계에 대해 영원 회귀하는 질문들 그리 고 그 대답들로 느껴 진다.1）『독일.</s>
+          <s>겨울동화』12~13면.</s>
+          <s>그래서인지 얼마 전 신간 서적들 가운데 '<term type="concept">미학과 정치</term>'라는 부제가 붙은 <persName role="foreigner" xml:id="p-x6">자끄 랑씨에르</persName>(Jacques RanciGre) 의『<title level="m" type="critic" xml:id="t-x5">감성의 분할</title>/을 발견했을 때 나는 먼 친척 아저씨가 보내온 달콤한 과자상자를 받아든 아이처 럼 설레었다.</s>
+          <s>혹시 이 상자 속에는 나의 오랜 허기와 미각을 동시에 만족 시켜줄 것이 들어 있지 않을까?</s>
+          <s><term type="concept">감각적 인 것의 분배</term><term type="concept">미학</term>과 <term type="concept">감성론</term>사실 '미학으로 번역되는 독일어 Asthetik는 넓은 의미에서(<persName role="foreigner" xml:id="p-x7">칸트</persName>적 인 의미에서) '<term type="concept">감각의 수용능력을 다루는 학</term>'이며 곧 감성론이다.</s>
+          <s>그러 나 우리는 일반적으로 <term type="concept">미학</term>이라는 용어를 훨씬 더 좁은 의미로 받아 들여, 주로 <term type="concept">미적 판단</term>과 <term type="concept">미적 감수성</term>의 문제를 다룸으로써 예술을 독자 적인 성찰과 연구의 대상으로 삼는 학문활동으로 이해한다.</s>
+        </p>
+        <p>
+          <s>그러나 이 러한 이해에는 이미 <term type="concept">예술</term>이나 <term type="concept">문학</term>에 대한 특수한 관념이 전제되어 있 다.</s>
+          <s>우리는 <term type="concept">예술</term>이나 <term type="concept">미학</term>이 좀더 넓은 의미의 '<term type="concept">감각의 수용능력</term>'과 관 련된 것이라기보다는 '<term type="concept">주관적 정서나 감정적 변양(modification)</term>'을 다 루는 자율적이고 독립적인 영역이라고 전제한다.</s>
+          <s>그리고 거기에는 암 암리에 예술은 다른 인간활동들에서 분리시켜 다루는 것이 가능한 단 독적 활동이라는 견해가 수반된다.</s>
+          <s><persName role="foreigner" xml:id="p-x8">랑씨에르</persName>의 작업은 바로 이런 관념에 문제를 제기하는 것에서 출발 ■<persName role="foreigner" xml:id="p-jacquesranciere">Jacques Ranciere</persName>, <title level="m" type="foreign" xml:id="t-iepartagedusensibleesthe">Ie Partage du Sensible： Esthetique er Politique</title>, <orgName xml:id="org-lafabriqueeditions">La Fabrique-Editions</orgName> 2000.</s>
+          <s>이 글 의 번역은『<title level="m" type="foreign" ref="#t-x5">감성의 분할</title>J)(<persName role="other" xml:id="p-x9">오윤성</persName> 옮김, <orgName xml:id="org-b">도서출판 b</orgName> <date when="2008">2008</date>)과 <title level="m" type="foreign" xml:id="t-thepoliticsofaesthetics">The Politics of Aesthetics</title> (nans.</s>
+          <s>Gabriel RockhiU, <orgName xml:id="org-continuum">Continuum</orgName> <date when="2004">2004</date>) 두 번역본을 참고했다.</s>
+          <s>본문에서는 (국역본;영역본)으로 면수를 표기한 다.</s>
+          <s><persName ref="#p-x6">자끄 랑씨에르</persName>에 대해서는 다음을 참고하라.</s>
+        </p>
+        <p>
+          <s><persName role="scholar" xml:id="p-x10">진태원</persName>「<title level="a" type="critic" xml:id="t-x6">평등의 원리에 대한 옹호</title>」,『<title level="j" type="newspaper" xml:id="t-x7">대학신문</title>』 <date when="2007">2007.11.10</date>.</s>
+          <s>한다.</s>
+          <s>그는 문학을 비롯해 <term type="concept">예술</term> 전반을 독립적 이고 자율적인 영 역으로 상정하는 것, 즉 예술을 단독적인 것으로 간주하는 것을 지난 “<quote type="direct" genre="critic">두 세기 동안에만 존재했던</quote>” 근대적 현상으로 보면서, <term type="concept">근대예술</term>에 대한 성찰을 통해 예술에 대한 고정관념과 그로부터 발생하는 문제들을 검토한다.</s>
+          <s>국내의 몇몇 연구자들은 <persName ref="#p-x8">랑씨에르</persName>의 이런 문제의식을 정확하게 반영하 기 위해 책 제목에 대한 새로운 번역을 제안한 적이 있다.</s>
+          <s>그 책의 부제 '<quote type="direct" genre="foreign">Esthetique et Politique</quote>'는 '<title level="m" type="foreign" xml:id="t-x8">미학과 정치</title>'보다는 '<title level="m" type="foreign" xml:id="t-x9">감성론과 정치</title>로 번 역되어야 하며,」e sensible'은 감수성을 의미하는 것으로 보일 수 있는 '감성'보다는 좀더 넓은 의미의 '<term type="concept">감각적인 것</term>'으로 번역되어야 한다는 것이다.» 랑씨에르의 결론부터 먼저 말하자면, 문학을 비롯한 예술 전 반의 문제는 '<term type="concept">감각적인 것을 분배하는</term>' 문제이며 그런 한에서 예술은 필연적으로 '정치'와 관계한다一책제목 '감각적인 것의 분배 : 감성론 과 정치'라는 말 자체에 이미 그의 문제의식과 결론이 압축적으로 표현 되어 있다.</s>
+          <s><persName ref="#p-x8">랑씨에르</persName>는 근대적 예술을 '<term type="concept">미학적-감성적</term>' <term type="concept">예술체제</term>의 시작으로 규정하면서, 역사에서 그전부터 있어온 다른 예술체제들, <term type="concept">윤리적 체제</term>, <term type="concept">시학적-재현적 체제</term>와 구별한다.</s>
+          <s>예술의 이 세가지 주요 체제들은 역 사적으로등장한 것이긴 하지만, "<quote type="direct" genre="critic">새로운 체계의 가능성이 앞선 체계의 불가능성과 일치한다는 그러한 방식으로 하나의 체계에서 다른 하나의 체계로 도약한다는 것을 뜻하는 것은 아니다</quote>.</s>
+          <s>(…) <quote type="direct" genre="critic">어떤 일정한 시점에, 여러 체제들이 작품들 그 자체 내에서 공존하고 혼합된다</quote>.</s>
+        </p>
+        <p>
+          <s>”(67-68면;50 면) 나는 랑씨 에르의 구분이 보여주는 예술에 대한 상이한 관점들이 실 제로 <date from="2000" to="2009">2000년대</date> 이후에 등장한 <term type="concept">새로운 시의 흐름들</term>에 대한 비평적 시선들 과 예술에 대한 시인들의 자의식에 전제되어 있다고 생각한다.</s>
+          <s>이 새로<persName role="translator" xml:id="p-x11">양창렬</persName>「민주주의 에 대한 중오에 맞서라」,『<title level="j" type="newspaper" xml:id="t-x10">교수신문</title>』<date when="2008">2008.3.10</date>.</s>
+          <s>운 시들과 이 시들에 대한 비평이 근거하고 있는 다양한 입장들을 랑씨 에르의 분류법에 따라 살펴보는 것은, 비록 단순화의 위험이 있기는 하 지만 우리 시대 새로운 시들의 미래를 전망하는 데 기여할 수 있을 것 이다.</s>
+          <s><term type="concept">윤리적 예술체제</term>가장 오랜 전통을 가진 예술체제는 윤리적 체제이다.</s>
+          <s>"이 체제에서 는 이미지들의 존재양태가 개인들과 공동체들의 존재양태, 즉 <term type="concept">에토스</term> (ethos)에 어떤 식으로 영향을 미치는지 아는 것이 관건이다.</s>
+          <s>”(27면;21면) 이 체제는 <term type="concept">고대 그리스</term>의 철학자 <persName role="foreigner" xml:id="p-x12">플라톤</persName>에 의해 매우 명료하게 표명되 었다.</s>
+          <s><persName ref="#p-x12">플라톤</persName>에게 예술작품은 <term type="concept">이미지</term>, 즉 <term type="concept">모상</term>이다.</s>
+          <s>그것은<term type="concept">모방활동</term>의 산물이기 때문이다.</s>
+        </p>
+        <p>
+          <s>그의 철학에서는 <term type="concept">존재</term>하는 것들이 여러 등급으로 구분된다.</s>
+          <s>절대적이고 영원한 관념, 즉 <term type="concept">이데아</term>가 완전한 존재이다.</s>
+          <s>기 술자들에 의해 제작되어 우리가 일상적으로 사용하는 인공적 사물들은 <term type="concept">이데아</term>의 모방물이다.</s>
+          <s>그리고 화가나 시인의 작품은 이 모방물들을 다 시 모방하여 만든 것이다.</s>
+          <s><persName role="foreigner" xml:id="p-goya">고야(Goya)</persName>의 그림에서 마야가 누워 있는 침 대는 <term type="concept">존재</term>의 가장 낮은 등급에 속한다.</s>
+          <s>그 그림을 그리기 위해 <persName role="foreigner" xml:id="p-x13">고야</persName>가 마야를 눕혀놓은 실제의 침대는 그보다는 윗등급에 속하지만, 여전히 가구장이가 침대의 <term type="concept">이데아</term>를 모방하여 만든 모방물에 지나지 않는다.</s>
+          <s>최상의 존재는 <term type="concept">이데아</term>로서의 침대이다.</s>
+          <s>이런 사유체제에서 <interp value="neutral" ana="미학">예술의 가치는 그 자체로 식별될 수 없고, 예술은 자신만의 자율적 영 역도 갖지 않는다.</interp></s>
+        </p>
+        <p>
+          <s>존재론적 모방물의 모방물인 침 대 그림은 사실상 존재한다고 말할 수조차 없는 환영, 일종의 씨뮬라크 라(simulacra)이다.</s>
+          <s>"<quote type="direct" genre="critic">흔히 말해지는 바와 같이, 플라톤은 예술을 정치에 종속시키지 않는다.</quote></s>
+          <s>이러한 구별 자체가 그에게는 의미가 없다.</s>
+          <s>그에게 있어서 <quote type="direct" genre="critic">예술이란 존재하지 않고, 단지 행동과 제작 방식들로서의 기술들만이 존재한다.</quote></s>
+          <s>”(26면;21면严 따라서 <term type="concept">모방적 기술</term>로서 의 예술은 독자 적인 존재의의를 가질 수 없고, 단지 그것이 제작된 목적에 따라서 구 별되고 위계를 가질 뿐이다.</s>
+          <s>그중에서 진정하고 훌륭한 기술이란 아이 들과 시민을 교육하는 데 기여하고 <term type="concept">폴리스</term>의 업무를 분배하는 데 적합 한 것이다.</s>
+          <s>그렇지 못할 경우 그 기술은 <term type="concept">이상(理想)국가</term>에서 사라져야만 한다.</s>
+          <s>이 점은 <persName ref="#p-x12">플라톤</persName>의『<title level="m" type="other" xml:id="t-x11">법률</title>』에 분명하게 나타난다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="other" source="플라톤 법률">오르페우스의 노래보다 더 고운 목소리를 내는 사람이 있더라도 법률 수호관의 심사 에서 인정을 받지 못한 시가는 누구를 막론하고 노래할 수가 없으며, 오직 신성한 심사를 거쳐 (■••) 정당하다고 인정되는 가요만을 노래할 수 있게 할 일입니다</quote>”&gt;이러한 <persName ref="#p-x12">플라톤</persName>의 엄포는 우리에게도 낯설지 않다.</s>
+          <s>
+            <interp value="critical" ana="문학관">검열과 금지라는 극단적인 발상과는 구별된다 할지라도, 문학의 본질을 에토스, 즉 일종 의 윤리성과 교육성에서 찾고 그 기초로서 공동체 내에서의 소통 가능 성에 호소하면서 작품들을 평가하고 비평할 때 사실상 그것은 플라톤 주의적 음색을 띠게 된다.</interp>
+          </s>
+          <s>이러한 시도들은 “<quote type="direct" genre="other" source="플라톤 법률">아이들의 마음씨를, 법도 에 거 역하여 기쁨과 슬픔을 느끼는 폐단이 없이, 법도에 따라서 동일한 일에 성인들과 함께 나누도록 습관을 붙이도록 하기 위해, 가곡(歌曲)이 제정되어, 우리가 말하는 조화를 이루도록 유도해야 합니다</quote>”8라는 플 라톤의 말처 럼 , 한 사회의 <term type="concept">공통감각</term>(common sense)에 의거해서 진정 성있는 것으로 판명될 수 있는 정서들에 기여하는 한에서만 쾌와 불쾌 의 유통을 허용하려고 한다.</s>
+          <s>이러한 예술론에 입각해서 <persName ref="#p-x12">플라톤</persName>이 새로 운 시 인들에게 선고를 내 린다면?</s>
+          <s>'나가주시오!</s>
+          <s>'■영어와 프랑스어 'art'의 어원은 '기술에 해당되는 라틴어 <term type="concept">아르스</term>'(ars)이며, 아르스는 그리스어 <term type="concept">테 크네</term>'CTGwn)를 직역한 것이다.</s>
+          <s>그리스어 <term type="concept">테크네</term>는 예술이라는 의미와 함께 기술이라는 이중의 의미 를 갖는다.</s>
+          <s><persName ref="#p-x12">플라톤</persName> 지음, <persName role="scholar" xml:id="p-x14">최민홍</persName> 옮김『<title level="m" type="foreign" ref="#t-x11">법률</title>』, <orgName xml:id="org-x2">상서각</orgName> <date when="1983">1983</date>, 249면같은 책 659면, 663면<term type="concept">시학적-재현적 예술체제</term>플라톤의 윤리적 체제에서 벗어나 예술의 새로운 식별체제를 확립하 려는 시도는 <persName role="foreigner" xml:id="p-x15">아리스토텔 레스</persName>의『시학』으로 나타났다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x12">플라톤</persName>과 마찬가 지로 <persName ref="#p-x15">아리스토텔레스</persName>에게도 문학은 <term type="concept">미메시스</term>, 즉 모방이다.</s>
+          <s>그러나 『<title level="m" type="other" xml:id="t-x12">시학</title>』에 나타나는 <term type="concept">미메시스</term>의 원리는 실재를 진실하게 복제해야 한다 는 규범적 원리로부터 자우롭다.</s>
+          <s>예술적인 모방물들은 더이상 목적이 나 용도에 따라 평가되지 않는다.</s>
+          <s>이 <term type="concept">시학적 체제</term>는 "<quote type="direct" genre="critic">모방물들이 어떤 예술에 고유하게 속하는 것으로서 인정될 수 있고 그 틀 속에서 좋거나 나쁜, 적합하거나 부적합한 모방물로서 평가될 수 있게 하는 조건들 （…）을 정의하는 규범성의 형태들</quote>”로 전개된다.（28면;22면） 다시 말해 이 체제에서 예술은 현실에서 자유로운 예술적 재현의 고유한 법칙을 갖 는다.</s>
+          <s><persName ref="#p-x12">플라톤</persName>에게서 예술은 기술들에 종속됨으로써 독자적 영 역을 갖 지 않았고, 그런 의미에서 삶과 예술이 일치했지만, <interp value="neutral" ana="미학">아리스토텔레스에 게 서 예술은 삶으로부터 분리 되 어 자율성을 갖기 시작한다.</interp></s>
+          <s>그러나 <term type="concept">재현적 체제</term>는 이 자율성을 행동과 제작의 방식 및 업무들의 일반 질서에 연결시킨다.</s>
+          <s><persName ref="#p-x15">아리스토텔레스</persName>가『<title level="m" type="other" ref="#t-x12">시학</title>』9장에서 시인의 임 무를 실제로 일어난 일을 이야기 （모방）하는 것이 아니라 개 연성과 필연 성의 법칙에 따라 일어날 수 있는 가능적 사건을 이야기하는 것이며 이 러한 점에서 시가 경험적 사실들을 탐구하는 역사보다 훨씬 '보편적'임 을 강조했다는 점을 상기한다면, 예술의 <term type="concept">재현적 자율성</term>은 분명 세계의 일반 질서 를 유비하는 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 유비를 가장 훌륭하게 수행하는 예술 인 비극은 잘 짜여진 통일적인 플롯을 통해 사람들에게 카타르시스를 제공하는 긍정적 효과를 낳는다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>따라서 예술은 실제로 존재하는 경험 적이고 개별적인 사건에 종속되지는 않지만, 여전히 <term type="concept">가능적 세계</term>의 정 확한 <term type="concept">모방</term>과 유비라는 실용적 원리 아래서 관리되어야 한다.</s>
+          <s>이러한 실용적 원리에 입각해 본다면 폴리스 시민들 대다수에게 카 타르시스를 제공하지 못하는 <term type="concept">2000년대 젊은 시인들</term>의 시는 <interp value="critical" ana="미학">비극적이지 못하다고 할 수 있다.</interp></s>
+          <s>무릇 "<quote type="direct" genre="critic">비극은 진지하고 일정한 크기를 가진 완결 된 행동을 모방하며, 쾌적한 장식을 한 언어를 사용하되 각종의 장식은 작품의 상이한 재부분에 따로 따로 삽입</quote>”되는 것인데7）<interp value="critical" ana="미학">이 새로운 시들 은 진지하다고 말하기 힘들고, 일정한 길이도 없이 장황하며, 도무지 쾌적한 장식의 언어를 찾아볼 수 없다.</interp></s>
+          <s>그러므로 <interp value="critical" ana="미학">세계의 본질적 질서를 표현하지 못하고 있다는 판결을 받는다.</interp></s>
+          <s><term type="concept">윤리적 체제</term>뿐 아니라 <term type="concept">시학 적-재현적 체제</term> 아래서도 <interp value="critical" ana="미학">새로운 시들은 시민권을 얻을 수 없다.</interp></s>
+          <s>그렇 다면 이들이 예술적 권리를 획득할 가능성은 어디에 있을까?</s>
+          <s><term type="concept">미학적-감성적 예술체제</term><term type="concept">감성적 체제</term>의 출현과 더불어 예술은 고유한 <term type="concept">감각적 존재양태</term>의 유 무에 따라 식별된다.</s>
+          <s>즉 어떤 것이 예술이려면 예술에 속하는 특수한 <term type="concept">존재양태</term>를 가져야 한다.</s>
+        </p>
+        <p>
+          <s><term type="concept">감성적 체제</term>는 “<quote type="direct" genre="critic">예술의 절대적 특이성을 주 장하는 동시에, 이 특이성을 격리시키는 모든 실용주의적 기준을 파괴 한다.</quote></s>
+          <s>”（31면;23면 <term type="concept">시학적-재현적 체제</term>는 예술에 자율적 영역을 보장하 지만, 이때 예술의 자율성은 세계의 “<quote type="direct" genre="critic">이해 가능한 구조를 정교하게 다 듬는</quote>" 한에서만 허용되는 것이다.</s>
+          <s><persName ref="#p-x15">아리스토텔레스</persName>가 주장하듯 시는 “<quote type="direct" genre="critic">경험적 무질서 에 따라 사건들을 현시하지 않을 수 없는 역사와 달리 , 사건들의 배치 에 인과적 논리를 주는</quote>”（49면;36면） 우월함을 가지고 있다.</s>
+          <s>다시 말해 문학은 사실이 아니라 <term type="concept">허구</term>다.</s>
+          <s>그러나 그것은 거짓이 아니며 "<quote type="direct" genre="critic">어 떤 한정 된 시 -공간 안에서 수행 되는 인식의 유희</quote>”（48면;36면）를 의 미 하는 <term type="concept">위대한 허구</term>이다.</s>
+          <s>그렇다면 이런 <term type="concept">예술의 자율성</term>과 구별해서, <term type="concept">감성</term><persName ref="#p-x15">아리스토텔레스</persName> 지음, 천병회 옮김『<title level="m" type="other" ref="#t-x12">시학</title>』, <orgName xml:id="org-x3">문예출판사</orgName> <date when="2002">2002</date>, 49면.</s>
+          <s>적 체제에서 강조되는 <term type="concept">예술의 특이성</term>이란 무엇일까?</s>
+          <s><persName ref="#p-x8">랑씨에르</persName>에 따르면 그것은 "<quote type="direct" genre="critic">현실에서 분리된 언어의 자기목적주의 (autotelism)를 신성화하는 것이 아니다.</quote></s>
+        </p>
+        <p>
+          <s>정확히 그 반대이다.</s>
+          <s>”(49면;36 면 <term type="concept">감성적 체제</term>에서 예술은 필연성과 개연성을 따르는 <persName ref="#p-x15">아리스토텔레스</persName> 적인 인과적 배치와 다른 동시에, <term type="concept">언어의 외로운 자기지시성</term>(self- referentiality)과도 전혀 다르다.</s>
+          <s>왜냐하면 이런 식의 <term type="concept">절대적 자율성</term>은 카나리아의 노래에 불과할 것이기 때문이다.</s>
+          <s>마음껏 노래하라.</s>
+          <s>카나리 아여.</s>
+          <s>목이 쉬도록, 그러나 오직 황금 새장 안에서!</s>
+          <s><term type="concept">감성적 체제</term>는 예술 작품에 고유한 감각적 존재양태를 요구하는 것이 분명하지만, 이 고유 한 <term type="concept">허구적 구성</term>은 “<quote type="direct" genre="critic">상황을 철저하게 뒤집는다.</quote></s>
+          <s>”(51면;37면 다시 말해 허 구적 구성은 허구로 머무는 것이 아니라 삶에서 실현됨으로써 삶을 잠 식한다.</s>
+        </p>
+        <p>
+          <s>예술은 제한된 감성적 새장 안에서 활동의 최대치를 갖는 자율성을 벗어나, “<quote type="direct" genre="critic">생산과 재생산 및 복종의 자연적 주기들에 순응하는 몸짓들과 리듬들의 기능성을 손상시킴으로써 감각적인 것의 지도를 바꿔놓는 다</quote>”(54면;39면)는 의미에서 현실로부터 자율적이지만 현실을 변형하는 <term type="concept">허구들</term>을 만들어낸다.</s>
+          <s>그것이 <persName ref="#p-x8">랑씨에르</persName>가 말하는 예술의 특이성, 다시 말해 <term type="concept">감성적 자율성</term>(예술의 자율성이 아닌)이다.</s>
+          <s>따라서 그것은 세계의 낡은 <term type="concept">감각적 분배</term>를 파괴하고 다른 종류의 분배로 변환시킴으로써 삶 의 새로운 형태들의 발명을 동반한다.</s>
+          <s>이 런 의미 에서 <persName ref="#p-x8">랑씨에르</persName>는 감성 적 체제에서 예술로 식별되는 활동을 정치와 조우시킨다.</s>
+          <s>그에게 정치 는 <term type="concept">감성적인 것을 새롭게 분배하는 활동</term>, 즉 <term type="concept">감성적 혁명</term>을 가져오는 활동에 다름아니 기 때문이다.</s>
+          <s>내가 이해하기로 '감성적' 혁명이란 공동체의 상징적 공간에(또는 외부 에), 즉 <term type="concept">생산과 재생산</term>의 '사적' 영역에 <term type="concept">노동자들</term>의 자리를 지정하는 식의<term type="concept">감각적인 것의 분배</term>를 전복시키는 것이다.</s>
+          <s>내가『<title level="m" type="other" xml:id="t-x13">프롤레타리아의 밤</title>』에 서 연구했던 것은 바로 <date when="1800">19세기</date> <term type="concept">프랑스 노동자들</term> 사이에서 일어난 <term type="concept">사회적 해방</term>의 발단들에 대한 것이었다.</s>
+          <s>(■■■) 이 <term type="concept">노동자들</term>에게 <term type="concept">해방</term>이란 낮을 노 동자들이 노동하는 시간으로, 밤을 그들이 휴식하는 시간으로 한정하는 <term type="concept">감각적인 것의 분배</term>를 파괴하는 것을 의미했다.</s>
+        </p>
+        <p>
+          <s><term type="concept">해방</term>의 단초는 밤 시간을 더 많이 활용하기로 한 그들의 결정이었다.</s>
+          <s>잠자는 대신 쓰고 읽고 생각하 고 토론하기!</s>
+          <s>처음에 <term type="concept">해방</term>은 <term type="concept">노동자</term>들 자신의 실존을 다시 구성함을, 즉 노동자로서의 정체성, 노동자의 문화, 노동자의 시간과 공간과 절연함을 의미했다产새로운 <term type="concept">감성적 분배</term> 에 참여함으로써 낡은 분배형 태와 불일치하고 그 와 맞서 싸우는 한에서, 예술은 정치적인 것이 된다.</s>
+          <s><term type="concept">미학</term>과 <term type="concept">정치</term>, 문학 과 <term type="concept">윤리</term>의 관계를 둘러싼 현재적 논쟁이 발생할 수 있는 지점은 여기 다.</s>
+          <s>새로운 <term type="concept">감성적 분배</term>를 어떻게 이해하느냐에 따라서 한 예술작품의 <term type="concept">정치성</term>과 <term type="concept">윤리성</term>에 대한 평가가 상이할 수 있기 때문이다.</s>
+          <s>랑씨 에르의 관점 에 따르면, 어 떤 작품이 전통과 결별하여 모험적 인 실험을 시도했다는 사실만으로 새로운 <term type="concept">감성적 분배</term>에 참여했다고 할 수는 없다.</s>
+          <s>다시 말해 <term type="concept">미학적-감성적 체제</term>에서는 시도되는 모든 새로 운 실험들이 <term type="concept">감성적 특이성</term>을 지닌 것이 아니다.</s>
+          <s><term type="concept">예술의 정치적 잠재성</term> 은 이미 말했듯이 <term type="concept">예술의 자율성</term>이 아니라 <term type="concept">감성적 경험의 자율성</term>에 의 해 규정된다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x8">랑씨에르</persName>는 추상화가인 <persName role="foreigner" xml:id="p-x16">폴록</persName>(J.</s>
+          <s>Pollock)과 <persName role="foreigner" xml:id="p-x17">말레비치</persName> (K.</s>
+          <s>Malevich)를 비교함으로써 이 점을 언급한다.</s>
+          <s>“<quote type="direct" genre="critic" source="랑씨에르">폴록을 말레비치와 비 교하면 후자가 새로운 사회적 형식과 삶의 새로운 역동성의 발명의 문</quote>■M.</s>
+          <s><persName role="foreigner" xml:id="p-blechman">Blechman</persName>, A.</s>
+          <s><persName role="foreigner" xml:id="p-chari">Chari</persName>, and R.</s>
+          <s><persName role="foreigner" xml:id="p-hasan">Hasan</persName>, "<title level="a" type="critic" xml:id="t-democracydissensusandthe">Democracy, Dissensus and the Aesthetics of Class Struggle： An Exchange with Jacques Ranciere</title>," in <title level="j" type="journal" xml:id="t-historicalmaterialism">Historical Materialism</title>, Vol.</s>
+          <s>13, No.4, 293면 ; 자끄 <persName ref="#p-x8">랑씨 에르</persName> 지음, <persName ref="#p-x11">양창렬</persName> 옮김『<title level="m" type="critic" xml:id="t-x14">정치적인 것의 가장자리</title>』, <orgName xml:id="org-x4">길</orgName> <date when="2008">2008</date>,119면 역주 12 참조.</s>
+        </p>
+        <p>
+          <s>제를 제기한 것이 확실합니다.</s>
+          <s>그리고 <persName ref="#p-x16">폴록</persName>은 그것과 확실하게 다릅니 다.</s>
+          <s><quote type="direct" genre="critic">폴록은 행동주의 예술 안에서 어떤 형식의 종말이었으며, 1930년대 미국에서 아주 강하게 작용했던 사회적 실천 안에서 예술적 개입의 종 말이었습니다</quote>”〉폴록은 새로운 삶의 형식을 창조하는 것을 원치 않았 다.</s>
+          <s>오히려 미국 예술계는 <term type="concept">냉전체제</term>하에서 소련의 <term type="concept">이데올로기</term>나 <term type="movement">맑스 주의</term>와 경쟁하기 위해 <persName ref="#p-x16">폴록</persName>의 <term type="movement">추상주의</term> 에 주목했다 期 그런 의미 에서 폴록의 작품은 네거티브한 방식으로 정치적이라고 할 수도 있다.</s>
+          <s>그러 나 <persName ref="#p-x8">랑씨에르</persName>가 말하는 정치성이란 기존의 지배적 담론체계에서 특정한 <term type="concept">이데올로기</term>를 옹호하거나 공격하는 데 있는 것이 아니라, 실제로 그 지 배적 담론체계를 파열시켜 새로운 종류의 <term type="concept">감성적 분배</term>를 가져올 삶의 형 식을 만들어내는 데 있다.</s>
+          <s>이 런 관점 에서 보면 <persName ref="#p-x16">폴록</persName>의 작품은 현실의 <term type="concept">감각체계</term>와 불화를 일으키는 ‘<term type="concept">정치</term>'의 논리보다는 '<term type="concept">치안</term>'의 논리에 가 깝다严 새로운 실험의 정치성이란 다른 삶의 실천영역들과의 상호 관 계 속에서 감각체계의 변화를 가져오느냐 여부에 따라 식별될 수 있을 뿐이다.</s>
+          <s>동시에 예술의 <term type="concept">정치성</term>은 정치영역에 적극적으로 개입하는 <term type="concept">참여예술</term> 과 동일시되는 것도 아니다.</s>
+          <s>“<quote type="direct" genre="critic">어떤 방식으로든 정치는 자신의 미학이 있고 미학은 자신의 정치가 있다.</quote></s>
+        </p>
+        <p>
+          <s>”(88면;62면 그래서 <term type="concept">예술의 정치성</term>은 특정 변혁주체에 대해 언급하거나 사회적 부정의를 고발하는 작품들에■9)「<title level="a" type="other" xml:id="t-chtodelat">자끄 랑씨에르와 Chtodelat 대담: 폭발을 기대해선 안돼요</title>」,『<title level="j" type="journal" xml:id="t-x15">공공도큐멘트</title>』, <orgName xml:id="org-x5">미디어버스</orgName>2008,128면 10) <persName role="foreigner" xml:id="p-x18">장 끌레르</persName>(<persName role="foreigner" xml:id="p-jeanclair">Jean Clair</persName>)가 지적했듯 “<quote type="direct" genre="critic">아무도 불편하게 하지 않는 청교도적 스타일 덕분에 행위적 추상파 는 다국적기업의 공식 예술로 될 모든 요건을 지니고 있다.</quote></s>
+          <s>” <persName role="foreigner" xml:id="p-x19">앙뚜안 꽁빠뇽</persName> 지음, <persName role="translator" xml:id="p-x20">이재룡</persName> 옮김『<title level="m" type="critic" xml:id="t-x16">모더니티 의 다섯개 역설</title>』, <orgName xml:id="org-x6">현대문학</orgName> <date when="2008">2008</date>,158면.</s>
+          <s><persName role="critic" xml:id="p-x21">최원</persName>「<title level="a" type="critic" xml:id="t-mentente">'불화(m虫entente)의 철학자, 랑씨에르</title>」,『<title level="j" type="journal" ref="#t-x15">공공도큐멘트</title>』148~50면 참조.</s>
+          <s><persName ref="#p-x8">랑씨에르</persName>는 고대 그리 스어 <term type="concept">폴리테이아</term>‘(politeia)의 번역어가 ‘<term type="concept">정치</term>‘(politique)일 뿐 아니라 '<term type="concept">경찰</term>‘(police)이기도 하다는 점에 주목한다.</s>
+          <s>그는 사람들이 통상적으로 '<term type="concept">정치</term>라고 인식하는 '<term type="concept">분배</term>', 예를 들어 집단들의 결집이나 합의가 달성되는 절차들, 권력의 조직화뿐 아니라 사람들에게 장소와 역할을 특정한 방식으로만 분배하는 체계 가 경찰의 일, 즉 <term type="concept">치안</term>이라고 규정한다.</s>
+          <s>이와 달리 <term type="concept">정치</term>는 항상 기존의 <term type="concept">감각공간</term>을 다시 분할하는 실천이 며 사건이다.</s>
+          <s>국한되지 않는다.</s>
+          <s><persName ref="#p-x8">랑씨에르</persName>는 19세기 <persName role="foreigner" xml:id="p-x22">루이-필리쁘</persName>(iQuis-PhUippe)가 통치하던 시절 <term type="concept">노동자 시인들</term>의 시에 대해 이렇게 말한다.</s>
+        </p>
+        <p>
+          <s>"오히려 열 쇠는一그리고 거기에서 기존 질서의 위기가 시작되는데一<term type="concept">인민의 삶 을 감성화하는</term>(esthGtiser) 것이다.</s>
+          <s><term type="concept">노동자의 시</term>는 그것이 묘사하는 내 용이나 요구하는 바 때문에 사회적 인 작품이 되는 것이 아니다.</s>
+          <s>오히려 그것은 그런 시가 존재한다는 순수한 사실, 그 시가 구두수선공이나 소 목장이에게는 권리상 접근 불가능한 것으로 여겨지던 <term type="concept">뮤즈〔詩神〕</term>에게 호소하는 순수한 도취 때문에 사회적으로 된다.</s>
+          <s>이 시가 말하는 것은 비참도 아니요 <term type="concept">노동자 투쟁</term>도 아닌, 오히려 <term type="concept">인민이 가진 감성적 능력</term>이 다.,, ⑵<interp value="critical" ana="미학">예술작품의 감성적 재분배 능력을 결정하는 것은 객관적 정치현장에 대한 재현의 직접성이 아니다.</interp></s>
+          <s><persName ref="#p-x8">랑씨에르</persName>는 ‘참여'예술이 가질 수 있는 문제점을 지적하며 이를 분명히한다.</s>
+          <s>‘참여‘예술은 이미 특정한 방식으 로 분배되어 있는 <term type="concept">정치세력</term>의 장 안에서 하나의 세력을 재현하는 방식 을 택하는 경향이 있다.</s>
+          <s>
+            <interp value="critical" ana="사회">이미 서술의 가능성을 지니고 존재하는 주체 들, 즉 글로 씌어질 수 있는 가능성의 장 안에 기입된 주체들의 관계를 재현하는 데 머무르게 되는 것이다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">따라서 누군가 어떤 주장을 피력하 고자 글을 쓴다거나 귀족, 부르주아들이 아니라 노동자들 또는 서민에 대해 말한다는 사실만으로는 불충분하다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>물론 노동자들이 혹은 노동 자에 대해 말함으로써 글쓰기의 장에 부재했던 자리를 만들어내고 이 를 통해 감성적 몫을 새롭게 분배했던 시기가 우리 문학사에 존재했다 고 할 수 있다.</s>
+          <s>그러나 그것은 노동자라는 특정 주체를 재현했기 때문 이라기보다는 낡은 감성적 장에 불일치하는 문학적 사건을 발생시켰기■Jacques Ranciere, "Ronds de fumee (les poetes ouvriers dans la France de Louis-Philippe)f Revenue des Sciences Humaines, No.</s>
+          <s>190, Presses de runiversite Lille III 1983, 46면;『정치적인 것의 가장자리』118면, 역주 12에서 재인용때문이다.</s>
+          <s>이런 점들을 고려할 때 미학(감성론)의 정치와 정치의 미학(감성론) 사이의 적절한 상관성을 정립하기 위한 기준이 없다는 점을 분명히 인 식할 필요가 있다.</s>
+          <s>물론 이는 예술과 정치가 뒤섞 여서는 안된다는 주장 과는 아무런 관계가 없다.</s>
+          <s>우리는 예술작품의 정치성에 대한 어떤 완고 한 비평적 기준을 전제함으로써 오히려 다양한 방식으로 감성적 불일 치(dissensus)를 구성하는 창조적 실천들을 위축시킬 수 있는 위험에 주의할 필요가 있다.</s>
+          <s>이런 맥락에서 랑씨에르는 다음과 같이 덧붙인다.</s>
+          <s>“예술작품들의 정치적 평가를 위한 기준들에 따라 질문을 제기하는 일 을 피해야 한다.</s>
+        </p>
+        <p>
+          <s>(••■) 문제가 통상적으로 정식화되는 방식을 역전시킬 필요가 있다.</s>
+          <s><term type="concept">예술적 실천</term>에 의해 생산되는 표현양식들이나, 설명적 계 기를 정립하는 수단을 자기식으로 적절하게 사용하기 위해 전유하는 것은 <term type="concept">정치</term>의 다양한 형식들이지, 그 반대가 아니다.</s>
+          <s>”(92면;64~65면 지금 우리에게 필요한 <term type="concept">미학적 실험</term>은 <term type="concept">예술과 정치</term>라는 서로 이종적인 것들 을 결합하는 다양한 방식 에 대한 상상이라는 것이다.</s>
+          <s>이 런 점 에서 랑씨 에르의 견해는 예술가를 자유롭게 하는 동시 에 새로운 구속을 부과하 는 듯 보인다.</s>
+          <s>예술가는 기존의 방식으로 예술과 정치의 일치를 추구할 필요는 없다는 점 에서 정치로부터 해방되지만, 다른 한편으로 <term type="concept">미학적감성적 자율성</term>을 실현하기 위해 <term type="concept">예술작품</term>에 사회의 <term type="concept">감성적 지도</term>에 변 화를 가져올 방식들을 상상하고 고민해야 할 임무가 부여된다는 점에 서 예술작품은 <term type="concept">정치적인 것</term>에 구속된다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>3. 새로운 정치시를 위하여</head>
+        <p>
+          <s>“사실, 저는 시를 쓰기는 썼습니다.</s>
+          <s>(■••) 발표했는데, 아무도 그게 현시국과 관련된 시라는 걸 모르더라고요 "》어떻게 감성적 불일치를 구성할 것인가?</s>
+          <s>많은 시인들의 문학적 고민 은 여기에 있다.</s>
+          <s>시인은 이 세계의 풍경들로부터 다양한 자극을 받는 다.</s>
+          <s>시인은 정치적이고사회적인 사안들에 대해 발언하고 싶어한다.</s>
+          <s>그 런데 그것을 항상 특정한 재현의 방식으로, 예컨대 명확한 내러티브를 구성하거나 선명한 메시지를 직접적으로 표현하는 방식으로만 수행해 야 하는 것일까?</s>
+          <s>사회의 감성적 매트릭스를 해체하고 새롭게 조직화하 는 다른 방식은 없을까?</s>
+          <s>도처에 편재하는 빈자들, 고통받는 비인간 들一동물들과 나무들, 바위들一도 작품에 기입할 줄 아는 선량한 영 혼의 목소리로 노래하는 것, 그래서 다른 영혼들에 아름다운 동요働搖） 를 만들어내는 데 만족하는 것 이상의 방법은 없는 것일까?</s>
+        </p>
+        <p>
+          <s>이렇게 질문하는 시인이 꿈꾸는 것은 “사실 어떤 <term type="concept">메시지의 언표를 매개체로 사용하지 않고서도 가시적인 것, 말할 수 있는 것 그리고 사 유할 수 있는 것 사이의 관계를 전복시키는</term>” 것이다.</s>
+          <s>“실상 <term type="concept">정치적 예 술</term>은 세계의 상태에 대한 '자각‘으로 이끄는 의미있는 <term type="concept">스펙터클</term>이라는 단순한 형태로 작용할 수는 없다.</s>
+          <s>
+            <quote type="direct" genre="critic">적절한 정치적 예술은 단번에 이중의 효과一정치적 의미작용의 가독성, 그리고 반대로 기괴함（uncanny）, 즉 의미 작용에 저항하는 것에 의해 야기된 감성적 또는 지각적 충격 一의 생산을 보 장한다.</quote>
+          </s>
+          <s>”（90면; 63면, 강조는 인용자）<term type="concept">미학적-감성적 체제</term>하에서 모든 시는 <term type="concept">정치시</term>가 되기를 희망한다.</s>
+          <s>시 인은 （통상적인 분류법대로） 정치적인 주제를 다룰 수도 있고 비정치적 인 주제를 다룰 수도 있지만, 어떤 주제든 그 시가 가장 정치적인 방식 으로, 즉 <term type="concept">비가시성을 가시화하고 들리지 않는 것을 들리게 함으로써</term> 감■촛불정국에 대한 人】가 있었냐는 질문에 대한 <persName role="poet" xml:id="p-x23">오은</persName>의 대답, <persName role="poet" xml:id="p-x24">심보선</persName> • <persName role="critic" xml:id="p-x25">이현우</persName> • 오은 • <persName role="poet" xml:id="p-x26">이문재</persName> 좌담「'촛 불‘은 질문이다」,『<title level="j" type="journal" xml:id="t-x17">문학동네</title>』<date when="2008">2008년 가을호</date> 42면성의 지각변동을 가져오는 그런 방식으로 씌 어지길 희망한다.</s>
+          <s>
+            <interp value="critical" ana="미학·사회">유아론적 주체의 자폐적인 언어일 뿐이라는 비판이 새로운 시인들 머리 위로 빗물처럼 쏟아진 걸 보면, 이 정치적 시도는 크게 성공적이 었다고 볼 수는 없을 듯하다.</interp>
+          </s>
+          <s>시인은 지나가는 소나기를 바라보며 자책 한다.</s>
+          <s>‘<interp value="critical" ana="미학">기묘한 감성적 충격을 생산하는 데 몰두했던 시들에서는 정치적 의미의 가독성이 사라지고 정치적 의미의 가독성을 최대화한 시들에서 는 기묘함이 실종되는구나!</interp></s>
+        </p>
+        <p>
+          <s>' 이중효과의 적절한 생산은커녕 견디기 힘 들 만큼 어정쩡한 상황이 발생하는 것이다.</s>
+          <s>이런 곤경에 대처하는 한가지 방식으로 시인은 의미의 가독성을 의 도적으로 포기하거나 부정하고 <term type="concept">기묘함</term>을 극단화함으로써 오히려 그로 부터 새로운 <term type="concept">정치적 의미</term>를 획득하려고 시도할 수 있다.</s>
+          <s>특히 모든 감 각적인 것의 분배를 자본의 논리에 따라 재배치하는 <term type="concept">자본주의</term>의 의미 망을 철저히 피하는 것을 미학적 원리로 채택하는 예술론一<persName ref="#p-x8">랑씨에르</persName> 는 <persName role="foreigner" xml:id="p-x27">아도르노</persName>(T.</s>
+          <s>Adorno)에게서 이런 이론을 발견한다一은 이러한 시 도를 뒷받침한다.</s>
+          <s>그러나 <interp value="critical" ana="미학">랑씨에르는 네거티브한 시도들은 그 정치적 의도를 완벽하게 관철시키기 어렵다고 지적한다.</interp></s>
+          <s>“제 생각에 <quote type="direct" genre="critic">예술적 실천은, 상품화되어서는 안된다는 식의 부정적인 토대를 근거로 정의 하기는 상당히 힘듭니다.</quote></s>
+          <s>왜냐하면 <quote type="direct" genre="critic">모든 것은 상품화될 수 있거든요.</quote></s>
+          <s><date from="1970" to="1979">1970년대</date>에 <term type="movement">개념예술</term>가들은 이렇게 말했습니다.</s>
+        </p>
+        <p>
+          <s>당신이 <term type="concept">오브제</term>를 만 들지 않는다면 결국 시장을 위해 아무것도 만들지 않는 것이고 따라서 그것은 <term type="concept">정치적 전복</term>이다.</s>
+          <s>우린 <term type="concept">개념미술</term>에 어떤 일이 일어났는지 압니 다.</s>
+          <s>그렇죠?</s>
+          <s>그들은 <term type="concept">오브제</term>를 팔지 않았고 아이디어를 팔았습니다!</s>
+          <s>이 것이 <term type="concept">자본주의</term> 씨스템의 완벽함이고 그것을 파열하는 것과는 하둥 관 련이 없습니다 “" 문학에서도 사정은 다르지 않다.</s>
+          <s>그의 말대로 일종■14)「<title level="a" type="other" ref="#t-chtodelat">자끄 랑씨에르와 Chto delat 대담: 폭발을 기대해선 안돼요</title>」131면.</s>
+          <s>의 <term type="concept">전복</term>을 의미했던 <term type="movement">초현실주의</term>는 단어 사이의 기묘한 연결이라는 속 성 때문에 오히려 오늘날 수많은 광고문구에 사용되고 있다.</s>
+          <s>
+            <interp value="neutral" ana="미학">가까스로 그것을 피해간 예술적 실천들은 의도하지 않았던 또다른 결과, 예술의 위기를 낳았을 뿐이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>많은 사람들이 우려하는 “이른바 ‘예술의 위기'는 단순한 모더니즘적 패러다임의 압도적인 실패이다.</s>
+          <s>모 더니즘은 예술의 현대적 형식들에 내재된 수많은 정치적 가능성뿐 아니라 장 르혼합과 매체혼합으로부터도 언제나 멀리 떨어져 있다.</s>
+          <s>”（35면;26면, 강조는 인 용자 그러나 랑씨에르一가 강조하듯 모더니즘에는 또다른 변종이 존재한 다.</s>
+          <s>그것은 세계를 변화시키는 의지이며 삶의 형식을 예술적 실천과 연 결시 키는 형식으로서의 모더니즘이다.</s>
+          <s>매체혼합과 장르혼합을 비롯해 다양한 방식으로 정치적 상상력을 작동시키는 모더니즘이야말로 오늘 날 예술적 아방가르드를 자임하는 예술가들에게 열려 있는 길이다.</s>
+          <s>한국시에 등장한 새로운 어법 , 새로운 감수성의 탄생과 발명은 이전 것들을 격렬히 부정하며 감성적 불일치를 추구했지만, 어떤 의미에서 그것은 충분히 격렬한 것이 아니었다.</s>
+          <s>이 실험들은 "<quote type="direct" genre="critic">문자적 정착</quote>”（이현 우에 머물렀고 "<quote type="direct" genre="critic">페이지에서 뛰쳐나와 미디어에 대한 진지한 고민</quote>”（오 은으로까지 나아가지 못했다.</s>
+          <s>문학적 발명품들이 풍부한 매체적 상상 력을 통해 더욱 새로워져서 정치적 전복으로까지 이행할 가능성은, 전 통의 부정만을 강조하는 상투적 의미의 미학적 실험만으로 보장되는 것이 아니다.</s>
+        </p>
+        <p>
+          <s>주목해야 할 것은 “<quote type="direct" genre="critic" source="심보선">텍스트가 어떤 공간에 위치하느냐뿐 만 아니라 텍스트와 텍스트가 어떻게 서로 얽히면서 의미를 직조해내 느냐</quote>”（<persName ref="#p-x24">심보선</persName>이다.⑸ 텍스트들간의 얽힘과 직조를 만들어내는 것은 문 학 텍스트와 다른 사회적 텍스트의 끊임없는 <term type="concept">접합</term>이다.</s>
+          <s>이 <term type="concept">이질적 접합</term>15）「'<title level="a" type="essay" xml:id="t-x18">촛불은 질문이다</title>」, 인용 순서대로 44면, 43면, 45면의 지속적 가능성을 예술가가 자신의 삶 속에 마련해두지 않는 한, 문 학적 발명이 충분히 새로워질 수 없다는 것은 분명하다.</s>
+          <s><term type="concept">치안질서</term> 내에 서는 설명되지 않는 자들, 보이지 않고 들리지 않는 자들과 직접 조우 하는 것, <term type="concept">의회민주주의</term>의 형식으로부터 무질서하게 삐져나오는 정치적 열정의 공간에서 함께 어울리 며 엉뚱하고 다채로운 상상력을 발동시 켜 보는 것.</s>
+          <s>예술활동의 모든 시간이 이것들로 환원되는 것은 아니지만 이 것들 없이는, 의미작용을 하는 <term type="concept">감성적 조직</term>을 교란시키는 계기를 포착 하기 힘들다는 점을 기억하라는 것이 <persName ref="#p-x8">랑씨에르</persName>의 전언이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">삶과 정치 가 실험되지 않는 한 문학은 실험될 수 없다.</interp>
+          </s>
+          <s>이것을 망각할 때 문학은 필연적으로 <persName role="foreigner" xml:id="p-x28">에밀 씨오랑</persName>(Emile Cioran)이 말한 <term type="concept">기만</term>의 상황에 빠진다.</s>
+          <s>"<quote type="direct" genre="foreign" source="에밀 씨오랑">미적 언어의 기만: 평범한 슬픔을 기이하게 표현한다.</quote></s>
+          <s>
+            <quote type="direct" genre="foreign" source="에밀 씨오랑">사소한 불행을 미화한다.</quote>
+          </s>
+        </p>
+        <p>
+          <s><term type="concept">공허</term>를 치장한다.</s>
+          <s>한숨 혹은 빈정거 림을 미사여구로 꾸며서, 언어를 통해서 존재한다.</s>
+          <s>”⑹困16) <persName ref="#p-x28">에밀 씨오랑</persName> 지음, <persName role="scholar" xml:id="p-x29">김정숙</persName> 옮김『<title level="m" type="foreign" xml:id="t-x19">독설의 팡세</title>』, <orgName xml:id="org-x7">문학동네</orgName> <date when="2004">2004</date>, 24면, 강조는 원문.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

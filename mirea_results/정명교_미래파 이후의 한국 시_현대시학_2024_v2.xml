@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>미래파 이후의 한국 시</title>
+        <author>정명교</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><term type="movement">미래파</term> 이후의 한국 시 쏟아붓는 얘기가 무척 많다는 걸 알리면서 동시에 저마다자기만의 ‘<term type="concept">문자 반죽</term>’ 놀이를 통해 ‘<term type="concept">창조</term>’된 작품들이 더미를이루며 사방으로 흩어지는 모양을 보여준다.</s>
+          <s>이것은 일종의정명교‘<term type="concept">사이키델릭 효과</term>’라고 부름직한 현상을 유발한다.</s>
+          <s>독자들이점멸하는 시어들이 내뿜는 현란한 빛무리에 저마다의환상을 투여하면서 열락하는 것이다.</s>
+          <s><term type="concept">매너리즘</term>의 시절이 정황은 한국시가 일종의 ‘매너리즘’의 시기에실제 사례들을 인용하지 못하는 불편한 상황을 무릅쓰고 접어들었다는 것을 가리킨다.</s>
+          <s><term type="concept">매너리즘</term>이란 “<quote type="direct" genre="poet"><lg type="stanza"><l>틀에 박힌</l></lg><lg type="stanza"><l>오늘날 한국시의 추세가 되고 있는 양태를 지적하기로 태도</l></lg></quote>”라는 통상적인 뜻으로 쓰인 게 아니다.</s>
+          <s>이는 특정한한다.</s>
+          <s>그 양태를 ‘<term type="concept">개그의 향연</term>’이라고 부를 수 있을까?</s>
+          <s>시대의 <term type="concept">미학적 태도</term>를 가리킨다.</s>
+        </p>
+        <p>
+          <s><term type="concept">르네상스</term> 미술 이후 등장한묘사는 줄고 말장난이 난무하고 있다.</s>
+          <s>그 춤은 대상을 <term type="movement">매너리즘</term>은 <term type="concept">미학의 타성화</term>에서 그치는 것이 아니라, 그에조몰락거리는 걸 즐기는 일종의 자기 현시의 독무들이다.</s>
+          <s>이어서 “<quote type="direct" genre="critic">구성과 의미의 통일성에 대한 기대를 해체하는</quote>”옆에서 비슷한 무희들이 저마다의 춤에 몰입하고 있다.</s>
+          <s>기이한 놀이, “<quote type="direct" genre="poet">엉뚱함l’insolite</quote>”에 대한 주관적인 취향 속에정면에 자리한 거울 속의 독자들 또한 저마다의 향락에 잠겨들었던 일련의 예술적 생산들을 가리킨다(앙드레빠져든다.</s>
+          <s>그 행동의 방향은 오로지 일대일로 대응하는 시마André Simha, 「<title level="a" type="contribution" xml:id="t-x">철학적 접근</title>」, Mathilde Bernard et al.,직선들의 어지러운 교차이다.</s>
+          <s>『예술과 정서Arts et Émotions.</s>
+          <s>Dictionnaire』, <date when="2016">2016</date>).</s>
+          <s>물리적 현상으로서 빛과 실물의 차이는 후자가 이 <term type="movement">매너리즘</term>이 ‘<term type="movement">바로크</term>’와 결정적으로 다른 것은 <term type="concept">르네상스</term>반발하거나 들러붙는 데 비해, 빛은 그저 스쳐 지나치기만 예술에 대항할 만한 집단적 규모의 형태를 창출하지 못하고한다는 것이다.</s>
+        </p>
+        <p>
+          <s>그래서 빛의 어지러운 교차는 <term type="concept">풍요</term>와 각개로 산개하는 미적 시도들로 웅성거렸다는 점이다.</s>
+          <s>이는고독을 동시에 표현한다.</s>
+          <s>이는 오늘날 <term type="concept">한국시</term>의 현황에 새로운 길에 대한 “<quote type="direct" genre="poet" source="서정주">풀꽃데미같은</quote>”(<persName role="poet" xml:id="p-x">서정주</persName>) 갈망과 동시에대한 비유로 쓰일 만하다.</s>
+          <s>오늘의 <term type="concept">시인들</term>이 세상을 향해서 작로作路에 대한 무기력을 동시에 피워내고 있다고 할 수● 22 23미래파 이후의 한국 시 쏟아붓는 얘기가 무척 많다는 걸 알리면서 동시에 저마다자기만의 ‘<term type="concept">문자 반죽</term>’ 놀이를 통해 ‘<term type="concept">창조</term>’된 작품들이 더미를이루며 사방으로 흩어지는 모양을 보여준다.</s>
+          <s>이것은 일종의<persName role="critic" xml:id="p-x2">정명교</persName>‘<term type="concept">사이키델릭 효과</term>’라고 부름직한 현상을 유발한다.</s>
+          <s>독자들이점멸하는 시어들이 내뿜는 현란한 빛무리에 저마다의환상을 투여하면서 열락하는 것이다.</s>
+          <s><term type="concept">매너리즘</term>의 시절이 정황은 <term type="concept">한국시</term>가 일종의 ‘매너리즘’의 시기에실제 사례들을 인용하지 못하는 불편한 상황을 무릅쓰고 접어들었다는 것을 가리킨다.</s>
+          <s><term type="concept">매너리즘</term>이란 “<quote type="direct" genre="other">틀에 박힌</quote>오늘날 <term type="concept">한국시</term>의 추세가 되고 있는 양태를 지적하기로 태도”라는 통상적인 뜻으로 쓰인 게 아니다.</s>
+        </p>
+        <p>
+          <s>이는 특정한한다.</s>
+          <s>그 양태를 ‘<quote type="indirect" genre="critic">개그의 향연</quote>’이라고 부를 수 있을까?</s>
+          <s>시대의 미학적 태도를 가리킨다.</s>
+          <s><term type="movement">르네상스</term> 미술 이후 등장한묘사는 줄고 말장난이 난무하고 있다.</s>
+          <s>그 춤은 대상을 <term type="movement">매너리즘</term>은 미학의 타성화에서 그치는 것이 아니라, 그에조몰락거리는 걸 즐기는 일종의 자기 현시의 독무들이다.</s>
+          <s>이어서 “<quote type="direct" genre="critic">구성과 의미의 통일성에 대한 기대를 해체하는</quote>”옆에서 비슷한 무희들이 저마다의 춤에 몰입하고 있다.</s>
+          <s>기이한 놀이, “<quote type="direct" genre="poet">엉뚱함l’insolite</quote>”에 대한 주관적인 취향 속에정면에 자리한 거울 속의 독자들 또한 저마다의 향락에 잠겨들었던 일련의 예술적 생산들을 가리킨다(앙드레빠져든다.</s>
+          <s>그 행동의 방향은 오로지 일대일로 대응하는 시마André Simha, 「<title level="a" type="contribution" ref="#t-x">철학적 접근</title>」, Mathilde Bernard et al.,직선들의 어지러운 교차이다.</s>
+        </p>
+        <p>
+          <s>『<title level="m" type="other" xml:id="t-artsetmotions">예술과 정서Arts et Émotions</title>.</s>
+          <s>Dictionnaire』, 2016).</s>
+          <s>물리적 현상으로서 빛과 실물의 차이는 후자가 이 <term type="movement">매너리즘</term>이 ‘<term type="movement">바로크</term>’와 결정적으로 다른 것은 <term type="movement">르네상스</term>반발하거나 들러붙는 데 비해, 빛은 그저 스쳐 지나치기만 예술에 대항할 만한 집단적 규모의 형태를 창출하지 못하고한다는 것이다.</s>
+          <s>그래서 빛의 어지러운 교차는 풍요와 각개로 산개하는 미적 시도들로 웅성거렸다는 점이다.</s>
+          <s>이는고독을 동시에 표현한다.</s>
+          <s>이는 오늘날 한국시의 현황에 새로운 길에 대한 “<quote type="direct" genre="poet" source="서정주">풀꽃데미같은</quote>”(<persName ref="#p-x">서정주</persName>) 갈망과 동시에대한 비유로 쓰일 만하다.</s>
+          <s><term type="concept">오늘의 시인들</term>이 세상을 향해서 작로作路에 대한 무기력을 동시에 피워내고 있다고 할 수● 22 23있다.</s>
+          <s>이루어졌다면 한국시는 그것을 발판으로 차원이동을 할 수<interp value="neutral" ana="문학관">이러한 현상은 바람직한 것일까?</interp></s>
+        </p>
+        <p>
+          <s>이것을 묻기 전에 있었으리라는 짐작을 뜻한다.</s>
+          <s>그리고 그런 이동이 성공하지그 근원을 찾는 게 더 유의미한 일일 것 같다.</s>
+          <s>왜냐하면 못했다는 것을 덧붙여 가리킨다.</s>
+          <s>이 현상이 새로운 미래를 향한 어지러운 준비운동으로 그렇게 된 데에는 무엇보다도 ‘<term type="movement">미래파</term>’를 앞장서서 알린봐야한다면, 동시에, 이를 한국시의 맥락 안에 위치시킬 때 평론들이 새로운 시의 출현을 민감하게 포착하였으나그 정향이 시야에 들어올 수 있을 것이기 때문이다.</s>
+          <s>그것의 의미를 포착하는 데에는 실패했다는 경과를 지적할간단히 말해 이러한 현상을 단순히 ‘개인들의 폭력적 수밖에 없다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">이런 말이 비판으로 이해되지 않기를 바란다.</interp>
+          </s>
+          <s><term type="concept">우울</term>’이라는 사회적 현상의 반영이라고 볼 수 없다는 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">필자는 오히려 새로운 시의 발아를 짚어낸 그 감각을우리가 주목해야 할 것은 이에 대한 문학사적 맥락이 분명히 존중하고 있다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그리고 감각이 심화된 이해로 이어지지있다는 점이다.</s>
+          <s>좀 더 정확하게 말하면 그런 문학사적 못한 것을 아쉬워하는 것이다.</s>
+          <s>또한 사태의 경과에 대해맥락에 관여한 시인 사회의 실기失期가 있었고.</s>
+          <s>그리고 그로 필자의 외면이 책임의 일부를 이루고 있다는 점에 대해서도인해 <term type="concept">한국시</term>에 진화의 특이점이 발생할 계기가 형성되지 솔직히 인정해야 할 것이다.</s>
+          <s>어쨌든 필자에게도 <term type="concept">한국문학</term>의못했다는 것이다.</s>
+          <s>현장을 지켜보고 그 추이에 대해 해석을 내릴 의무가 있다고생각하기 때문이다.</s>
+          <s>그 당시 필자가 처한 물리적·심리적정황을 변명거리로 내세운다고 해서 그 책임이 면해지는 건‛<term type="movement">미래파</term>’ 라는 변곡점 아니다.</s>
+          <s>이른바 ‘<term type="movement">미래파</term>’의 무엇을 놓쳤던 것일까?</s>
+        </p>
+        <p>
+          <s><term type="movement">미래파</term>로필자가 생각하기에 <date when="2005">2005년</date> 무렵 주목할 현상이 된 ‘<term type="movement">미래파</term>’ 지목된 시인들 중에서 지금 우리가 특별히 기억해야 할소동에 변곡점이 놓여 있다.</s>
+          <s>‘<quote type="direct" genre="poet">변곡점</quote>’이라고 지칭한 것은, 이들은, <persName role="poet" xml:id="p-x3">황병승</persName>, <persName role="poet" xml:id="p-x4">김경주</persName>, <persName role="poet" xml:id="p-x5">조연호</persName>이다.</s>
+          <s>이들의 공통점은분명 세칭 ‘<term type="movement">미래파</term>’로 거명된 새로운 시적 경향의 출현은 그들의 시적 진술에서 의미를 종잡을 수 없었다는 것이다.</s>
+          <s>의미심장한 사건이었으며, 그에 대한 해석이 온당하게 “<quote type="direct" genre="poet">없었다</quote>”는 과거형은 그들의 비극적 퇴장을 염두에 두고● 24 25있다.</s>
+          <s>이루어졌다면 <interp value="neutral" ana="문학관">한국시는 그것을 발판으로 차원이동을 할 수</interp>이러한 현상은 바람직한 것일까?</s>
+          <s>이것을 묻기 전에 있었으리라는 짐작을 뜻한다.</s>
+          <s>그리고 그런 이동이 성공하지그 근원을 찾는 게 더 유의미한 일일 것 같다.</s>
+          <s>왜냐하면 못했다는 것을 덧붙여 가리킨다.</s>
+        </p>
+        <p>
+          <s>이 현상이 새로운 미래를 향한 어지러운 준비운동으로 그렇게 된 데에는 무엇보다도 ‘<term type="movement">미래파</term>’를 앞장서서 알린봐야한다면, 동시에, 이를 한국시의 맥락 안에 위치시킬 때 평론들이 새로운 시의 출현을 민감하게 포착하였으나그 정향이 시야에 들어올 수 있을 것이기 때문이다.</s>
+          <s>그것의 의미를 포착하는 데에는 실패했다는 경과를 지적할간단히 말해 이러한 현상을 단순히 ‘개인들의 폭력적 수밖에 없다.</s>
+          <s>이런 말이 비판으로 이해되지 않기를 바란다.</s>
+          <s><term type="concept">우울</term>’이라는 사회적 현상의 반영이라고 볼 수 없다는 것이다.</s>
+          <s>필자는 오히려 새로운 시의 발아를 짚어낸 그 감각을우리가 주목해야 할 것은 이에 대한 문학사적 맥락이 분명히 존중하고 있다.</s>
+          <s>그리고 감각이 심화된 이해로 이어지지있다는 점이다.</s>
+          <s>좀 더 정확하게 말하면 그런 문학사적 못한 것을 아쉬워하는 것이다.</s>
+          <s>또한 사태의 경과에 대해맥락에 관여한 시인 사회의 실기失期가 있었고.</s>
+        </p>
+        <p>
+          <s>그리고 그로 필자의 외면이 책임의 일부를 이루고 있다는 점에 대해서도인해 <term type="concept">한국시</term>에 진화의 특이점이 발생할 계기가 형성되지 솔직히 인정해야 할 것이다.</s>
+          <s>어쨌든 필자에게도 <term type="concept">한국문학</term>의못했다는 것이다.</s>
+          <s>현장을 지켜보고 그 추이에 대해 해석을 내릴 의무가 있다고생각하기 때문이다.</s>
+          <s>그 당시 필자가 처한 물리적·심리적정황을 변명거리로 내세운다고 해서 그 책임이 면해지는 건‛미래파’ 라는 변곡점 아니다.</s>
+          <s>이른바 ‘미래파’의 무엇을 놓쳤던 것일까?</s>
+          <s><term type="movement">미래파</term>로필자가 생각하기에 <date when="2005">2005년</date> 무렵 주목할 현상이 된 ‘미래파’ 지목된 시인들 중에서 지금 우리가 특별히 기억해야 할소동에 변곡점이 놓여 있다.</s>
+          <s>‘변곡점’이라고 지칭한 것은, 이들은, <persName ref="#p-x3">황병승</persName>, <persName ref="#p-x4">김경주</persName>, <persName ref="#p-x5">조연호</persName>이다.</s>
+          <s>이들의 공통점은분명 세칭 ‘미래파’로 거명된 새로운 시적 경향의 출현은 그들의 시적 진술에서 의미를 종잡을 수 없었다는 것이다.</s>
+        </p>
+        <p>
+          <s>의미심장한 사건이었으며, 그에 대한 해석이 온당하게 “<quote type="direct" genre="poet">없었다</quote>”는 과거형은 그들의 <term type="concept">비극적 퇴장</term>을 염두에 두고● 24 25쓰인 것이다.</s>
+          <s>이런저런 이유로 그들은 시의 무대에서 그를 한때의 스타로 만든 원인이 되었다.</s>
+          <s>그러나 소통의사라졌다.</s>
+          <s><persName ref="#p-x5">조연호</persName>는 특별한 사건이 없었으나 그가 지금 반대편을 향해 가려 했다는 것은 첫 시의 다음과 같은시를 쓰고 있는지 불분명하다.</s>
+          <s>그런데 여기서 더욱 주목할 시구에 명확히 나타나 있다.</s>
+          <s>것은 그들의 시가 두루 ‘<term type="concept">의미 달성</term>’이라는 한국문학의줄기찬 염원을 벗어났다는 것이다.</s>
+          <s>그들의 시는 넓게 말해 양팔이 없이 태어난 그는 바람만을 그리는 화가畵家였다‘<quote type="direct" genre="poet">어불성설語不成說</quote>’의 차원으로, 다시 말해 의미의 여집합의 입에 붓을 물고 아무도 모르는 바람들을공간으로 이동하려는 움직임을 보여주었다.</s>
+          <s>그는 종이에 그려 넣었다<persName ref="#p-x3">황병승</persName>의 『<title level="m" type="poem" xml:id="t-x2">여장남자 시코쿠</title>』에서 <term type="concept">호모섹슈얼리티</term>를 사람들은 그가 그린 그림의 형체를 알아볼 수 없었다떠올리는 반응은 쉽게 나올 수 있으나, 시는 철저히 그런 그러나 그의 붓은 아이의 부드러운 숨소리를 내며호기심을 좌절시킨다.</s>
+        </p>
+        <p>
+          <s>오히려 우리는 그 시집의 첫 시, 아주 먼 곳까지 흘러갔다 오곤 했다「<title level="a" type="poem" xml:id="t-h">주치의 h</title>」의 첫 두 행, ― <persName ref="#p-x4">김경주</persName>, 「<title level="a" type="poem" xml:id="t-x3">외계</title>」 부분떠나기 전, 집 담장을 도끼로 두 번 찍었다 요컨대 의미의 시원을 건너 의미가 발생하기 이전의그건 좋은 뜻도 나쁜 뜻도 아니었다 자리로 돌아가려 했다.</s>
+          <s>에서 나타난 ‘뜻’의 삭제에 더 주목해야 할 것이다.</s>
+          <s>이런 눈이나 날개 기관 따위는 다 소실돼버리고구절은 사방에 산개해 있다.</s>
+          <s>팔다리만 조금씩 가늘게 길어진다는데 가늘어진다는<persName ref="#p-x4">김경주</persName>를 괄목상대하게 했던 『<title level="m" type="poem" xml:id="t-x4">나는 이 세상에 없는 말의 소요들</title>.</s>
+          <s>이것은 <title level="m" type="poem" xml:id="t-56">5~6억 년 전부터 살아남은계절이다</title>』는 <term type="concept">문법적 범주를 깨뜨림</term>으로써 <interp value="affirmative" ana="미학">독자들을 놀라게 캄브리아기 생물들의 절대음감에 관한 얘기다하면서 매혹시켰다.</interp></s>
+          <s>그의 시는 <persName ref="#p-x3">황병승</persName>에 비해 부드러운 ― <persName ref="#p-x4">김경주</persName>, 「<title level="a" type="poem" xml:id="t-x5">파이돈 ―가늘어진다는 것에 대해서</title>」 부분파격을 꾀했고 따라서 아주 작은 <term type="concept">소통</term>의 문을 열어두었으니,● 26 27쓰인 것이다.</s>
+          <s>이런저런 이유로 그들은 <interp value="neutral" ana="문학관">시의 무대에서 그를 한때의 스타로 만든 원인이 되었다.</interp></s>
+          <s>그러나 <term type="concept">소통</term>의사라졌다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x5">조연호</persName>는 특별한 사건이 없었으나 그가 지금 반대편을 향해 가려 했다는 것은 첫 시의 다음과 같은시를 쓰고 있는지 불분명하다.</s>
+          <s>그런데 여기서 더욱 주목할 시구에 명확히 나타나 있다.</s>
+          <s>것은 그들의 시가 두루 ‘<term type="concept">의미 달성</term>’이라는 <term type="concept">한국문학</term>의줄기찬 염원을 벗어났다는 것이다.</s>
+          <s>그들의 시는 넓게 말해 양팔이 없이 태어난 그는 바람만을 그리는 화가畵家였다‘<quote type="direct" genre="poet">어불성설語不成說</quote>’의 차원으로, 다시 말해 의미의 여집합의 입에 붓을 물고 아무도 모르는 바람들을공간으로 이동하려는 움직임을 보여주었다.</s>
+          <s>그는 종이에 그려 넣었다<persName ref="#p-x3">황병승</persName>의 『<title level="m" type="poem" ref="#t-x2">여장남자 시코쿠</title>』에서 <term type="concept">호모섹슈얼리티</term>를 사람들은 그가 그린 그림의 형체를 알아볼 수 없었다떠올리는 반응은 쉽게 나올 수 있으나, 시는 철저히 그런 그러나 그의 붓은 아이의 부드러운 숨소리를 내며호기심을 좌절시킨다.</s>
+          <s>오히려 우리는 그 시집의 첫 시, 아주 먼 곳까지 흘러갔다 오곤 했다「<title level="a" type="poem" ref="#t-h">주치의 h</title>」의 첫 두 행, ― <persName ref="#p-x4">김경주</persName>, 「<title level="a" type="poem" ref="#t-x3">외계</title>」 부분떠나기 전, 집 담장을 도끼로 두 번 찍었다 요컨대 의미의 시원을 건너 의미가 발생하기 이전의그건 좋은 뜻도 나쁜 뜻도 아니었다 자리로 돌아가려 했다.</s>
+          <s>에서 나타난 ‘<term type="concept">뜻</term>’의 삭제에 더 주목해야 할 것이다.</s>
+          <s>이런 눈이나 날개 기관 따위는 다 소실돼버리고구절은 사방에 산개해 있다.</s>
+        </p>
+        <p>
+          <s>팔다리만 조금씩 가늘게 길어진다는데 가늘어진다는<persName ref="#p-x4">김경주</persName>를 괄목상대하게 했던 『<title level="m" type="poem" ref="#t-x4">나는 이 세상에 없는 말의 소요들</title>.</s>
+          <s>이것은 5~6억 년 전부터 살아남은<title level="m" type="poem" xml:id="t-x6">계절이다</title>』는 문법적 범주를 깨뜨림으로써 독자들을 놀라게 캄브리아기 생물들의 절대음감에 관한 얘기다하면서 매혹시켰다.</s>
+          <s>그의 시는 <persName ref="#p-x3">황병승</persName>에 비해 부드러운 ― <persName ref="#p-x4">김경주</persName>, 「<title level="a" type="poem" ref="#t-x5">파이돈 ―가늘어진다는 것에 대해서</title>」 부분파격을 꾀했고 따라서 아주 작은 소통의 문을 열어두었으니,● 26 27에서 지시된 “<quote type="direct" genre="poet">말의 소요들</quote>”을 통해서 “<quote type="direct" genre="poet">절대음감</quote>”에 ‘<term type="concept">의미주의</term>’로부터의 탈주도달하고자 했던 것이다.</s>
+          <s>그리고 <persName ref="#p-x5">조연호</persName>는 아예‘<quote type="direct" genre="poet">어불성설</quote>’의 차원으로 직접 가고자 했다.</s>
+          <s>이와 같은 <term type="concept">의미 소거</term>의 경향이 왜 출몰했을까?</s>
+          <s>그것은<term type="concept">한국시</term>가 오랫동안 <term type="concept">의미 획득</term>이라는 한결같은 목표를부인이 괄태충처럼 사라질까 봐 두렵다 향해 매진해 왔다는 배경을 유념해야 이해할 수 있다.</s>
+          <s>그는 이러한 종류의 산문과 운문을 생의 모든 이런 경향을 ‘<term type="concept">의미주의</term>’라고 말할 수 있다면, 의미주의의부분에서 반복했다.</s>
+          <s>회색이 만든 아름답고 슬픈 시대 올곧은 추구는 시대적 필연이며 동시에 시대의내가 그대에게 하루에 하나씩의 문밖을 던지던 것에 한계이기도 했다.</s>
+        </p>
+        <p>
+          <s>근대에 눈 뜬 이후 <term type="concept">한국의 식자들</term>은아직 방문객이 없던 시절 어떤 분야에 종사하든 한국인의 존재 이유를 납득하고그늘을 잃었고 그날의 그림자를 모두 잃었다 설득시키는 데에 전력을 쏟았다.</s>
+          <s>그 노력은 군중의 호응을괄태충처럼 사라질까 봐 두렵다 점차로 얻어 지금은 군중의 모든 행위가 의미에 대한하지만 자고 나면 이것이 어떤 잠이었는지를 투기가 되는 단계까지 이르게 되었다.</s>
+          <s>조금 더 요약적으로알 수 없게 되리라 말하면, 한국인의 모든 행위는 “<quote type="direct" genre="poet" source="고전주의자의 성"><lg type="stanza"><l>고지가 바로 저긴데,</l></lg><lg type="stanza"><l>― 조연호, 「고전주의자의 성」 부분 예서 말 수는 없다</l></lg></quote>”는 <persName role="poet" xml:id="p-x6">이은상</persName>의 유명한 구절의 다양한변이본들이었다고 할 수가 있다.</s>
+          <s>그럴 수밖에 없었다.</s>
+          <s>여기에 유일한 생의 사건이 있다면, 그것은 생을 <term type="concept">한국인들은 20세기를 통틀어 피해자이고 수난자이고</term>무의미로 돌리는 행위뿐이다.</s>
+          <s>“하루에 하나씩의 문밖을 비-주체인, 즉 <term type="concept">의미박탈자</term>라고 스스로를 규정해 왔기던지”는 것.</s>
+          <s>수탁자는 독자이다.</s>
+          <s>때문이다.</s>
+        </p>
+        <p>
+          <s>그 규정은 <term type="concept">설움</term>과 생존력의 증대(<term type="concept">역동성</term>)를동시에 유발하였다.</s>
+          <s><term type="concept">설움</term>은 한국인에게 존재의 정당성을확보하는 근거로 작용했고, ‘<term type="concept">역동성</term>’은 한국인의 생을발전시키는 데 기여하였다.● 28 29에서 지시된 “<quote type="direct" genre="poet">말의 소요들</quote>”을 통해서 “<quote type="direct" genre="poet">절대음감</quote>”에 ‘<term type="concept">의미주의</term>’로부터의 탈주도달하고자 했던 것이다.</s>
+          <s>그리고 <persName ref="#p-x5">조연호</persName>는 아예‘<term type="concept">어불성설</term>’의 차원으로 직접 가고자 했다.</s>
+          <s>이와 같은 <term type="concept">의미 소거</term>의 경향이 왜 출몰했을까?</s>
+          <s>그것은<term type="concept">한국시</term>가 오랫동안 <term type="concept">의미 획득</term>이라는 한결같은 목표를부인이 괄태충처럼 사라질까 봐 두렵다 향해 매진해 왔다는 배경을 유념해야 이해할 수 있다.</s>
+          <s>그는 이러한 종류의 산문과 운문을 생의 모든 이런 경향을 ‘<term type="concept">의미주의</term>’라고 말할 수 있다면, 의미주의의부분에서 반복했다.</s>
+          <s>회색이 만든 아름답고 슬픈 시대 <interp value="neutral" ana="문학관">올곧은 추구는 시대적 필연이며 동시에 시대의내가 그대에게 하루에 하나씩의 문밖을 던지던 것에 한계이기도 했다.</interp></s>
+          <s>근대에 눈 뜬 이후 한국의 식자들은아직 방문객이 없던 시절 어떤 분야에 종사하든 한국인의 존재 이유를 납득하고그늘을 잃었고 그날의 그림자를 모두 잃었다 설득시키는 데에 전력을 쏟았다.</s>
+        </p>
+        <p>
+          <s>그 노력은 군중의 호응을괄태충처럼 사라질까 봐 두렵다 점차로 얻어 지금은 군중의 모든 행위가 의미에 대한하지만 자고 나면 이것이 어떤 잠이었는지를 투기가 되는 단계까지 이르게 되었다.</s>
+          <s>조금 더 요약적으로알 수 없게 되리라 말하면, 한국인의 모든 행위는 “<quote type="direct" genre="poet"><lg type="stanza"><l>고지가 바로 저긴데,</l></lg><lg type="stanza"><l>― 조연호, 「고전주의자의 성」 부분 예서 말 수는 없다</l></lg></quote>”는 이은상의 유명한 구절의 다양한변이본들이었다고 할 수가 있다.</s>
+          <s>그럴 수밖에 없었다.</s>
+          <s>여기에 유일한 생의 사건이 있다면, 그것은 생을 한국인들은 20세기를 통틀어 피해자이고 수난자이고무의미로 돌리는 행위뿐이다.</s>
+          <s>“<quote type="direct" genre="poet"><lg type="stanza"><l>하루에 하나씩의 문밖을 비-주체인, 즉 의미박탈자라고 스스로를 규정해 왔기</l></lg><lg type="stanza"><l>던지</l></lg></quote>”는 것.</s>
+          <s>수탁자는 독자이다.</s>
+          <s>때문이다.</s>
+          <s>그 규정은 설움과 생존력의 증대(역동성)를동시에 유발하였다.</s>
+        </p>
+        <p>
+          <s><term type="concept">설움</term>은 한국인에게 존재의 정당성을확보하는 근거로 작용했고, ‘<term type="concept">역동성</term>’은 한국인의 생을발전시키는 데 기여하였다.● 28 29그리고 문학도 거기에서 예외가 아니었다.</s>
+          <s><term type="concept">한국문학</term>은 별의별 언어-물리적 폭력들이다.</s>
+          <s><term type="concept">한</term>반도의 사람들이 아무리 발버둥 쳐도 속절없이 따라서 이제 ‘<term type="concept">의미주의</term>’는 한국인의 삶의 열화로추락하는 사태를 <term type="concept">수난</term>, 혹은 한의 양태로 표출하였다.</s>
+          <s>작용하던 데서, 한국인의 정신을 파괴하는 염증으로앞에 인용한 조연호 시의 “부인이 괄태충처럼 사라질까 바뀌고 말았다.</s>
+          <s>이제는 이로부터 벗어나야 할 절실한봐 두렵다”라는 진술이 바로 그 사정을 그대로 가리킨다.</s>
+          <s>이유가 발생한 것이다.</s>
+          <s><date when="2001">21세기</date> 초엽은 이 문제의 보의<interp value="critical" ana="미학">조연호에게 이 진술은 시의 영역에 속하지 않는다.</interp></s>
+          <s>시인은 솔기가 튿어진 시기였다.</s>
+        </p>
+        <p>
+          <s>당시 통신망에서의 폭력성의이제 시에서 그걸 던져 버려야 한다고 주장하고 있는 증가를 다시 생각해 보라.</s>
+          <s>그때의 왁자지껄은 이제것이다.</s>
+          <s>아수라로 확장되었다.</s>
+          <s>그래서 <persName ref="#p-x3">황병승</persName>의 본능은 ‘시인의그러한 <term type="concept">의미주의</term>의 질주는 이제 가속을 얻어 충만한 말’에서 이렇게 쓰게 했던 것이다.</s>
+          <s>의미의 온갖 장관을 연출하고 있다.</s>
+          <s>필자가 <persName role="foreigner" xml:id="p-x7">기 드보르</persName>GuyDebord의 개념을 빌어 ‘<term type="concept">스펙타클의 시대</term>’가 되었다고 이제부터 나는 기다란 수염을 달고보는 소이이다.</s>
+          <s><term type="concept">스펙타클의 시대</term>는 단순히 시각적인 것의 아무런 화면도 보여주지 않을 거야광휘를 가리키는 것은 아니다.</s>
+          <s>우리는 시방 시각적인 것이 ― <persName ref="#p-x3">황병승</persName>, 「<title level="a" type="poem" xml:id="t-x7">버찌의 계절</title>」 부분언어를 집어삼키는 데까지 발전한 사태를 목도하고 있다.</s>
+        </p>
+        <p>
+          <s><persName role="foreigner" xml:id="p-x8">수전 손택</persName>(『<title level="m" type="foreign" xml:id="t-x8">사진에 관하여</title>』)이 활약하던 <date when="1900">20세기</date> 말까지만 <term type="concept">시각</term>과 <term type="concept">언어</term>의 결탁은 의미를 절정 속으로 끌고 간다.</s>
+          <s>해도, <term type="concept">언어</term>(이야기)는 <term type="concept">시각적인 것</term>의 순간적 환영에 대한 그러니까 이제는 그 둘의 공모를 끊어버릴 어떤 대책을반성과 성찰을 제공하는 듯이 여겨졌다.</s>
+          <s>그러나 <date when="2000">21세기</date> 세워야 하는 것이다.</s>
+          <s>들어 다른 단계로 접어들었다.</s>
+          <s>‘<orgName xml:id="org-x">인스타그램</orgName>’, ‘<orgName xml:id="org-x2">페이스북</orgName>’을비롯한 <term type="concept">SNS</term>의 온갖 매체, 행위, 사건들은 <term type="concept">시각</term>에 이야기를내장시킴으로써 시각의 현혹을 극대화하고 있는 것이다.</s>
+          <s>그 절정에 놓여 있는 것이 정치적 극렬분자들이 연출하는● 30 31그리고 문학도 거기에서 예외가 아니었다.</s>
+          <s><term type="concept">한국문학</term>은 별의별 언어-물리적 폭력들이다.</s>
+          <s><term type="concept">한</term>반도의 사람들이 아무리 발버둥 쳐도 속절없이 따라서 이제 ‘<quote type="direct" genre="poet">의미주의</quote>’는 한국인의 삶의 열화로추락하는 사태를 <term type="concept">수난</term>, 혹은 한의 양태로 표출하였다.</s>
+        </p>
+        <p>
+          <s>작용하던 데서, 한국인의 정신을 파괴하는 염증으로앞에 인용한 <persName ref="#p-x5">조연호</persName> 시의 “<quote type="direct" genre="poet">부인이 괄태충처럼 사라질까</quote> 바뀌고 말았다.</s>
+          <s>이제는 이로부터 벗어나야 할 절실한<quote type="direct" genre="poet">봐 두렵다</quote>”라는 진술이 바로 그 사정을 그대로 가리킨다.</s>
+          <s>이유가 발생한 것이다.</s>
+          <s><date when="2001">21세기 초엽</date>은 이 문제의 보의<persName ref="#p-x5">조연호</persName>에게 이 진술은 시의 영역에 속하지 않는다.</s>
+          <s>시인은 솔기가 튿어진 시기였다.</s>
+          <s>당시 통신망에서의 <term type="concept">폭력성</term>의이제 시에서 그걸 던져 버려야 한다고 주장하고 있는 증가를 다시 생각해 보라.</s>
+          <s>그때의 왁자지껄은 이제것이다.</s>
+          <s><term type="concept">아수라</term>로 확장되었다.</s>
+        </p>
+        <p>
+          <s>그래서 <persName ref="#p-x3">황병승</persName>의 본능은 ‘<quote type="direct" genre="poet"><lg type="stanza"><l>시인의</l></lg><lg type="stanza"><l>그러한 의미주의의 질주는 이제 가속을 얻어 충만한 말</l></lg></quote>’에서 이렇게 쓰게 했던 것이다.</s>
+          <s>의미의 온갖 장관을 연출하고 있다.</s>
+          <s>필자가 <persName ref="#p-x7">기 드보르</persName>GuyDebord의 개념을 빌어 ‘<term type="concept">스펙타클의 시대</term>’가 되었다고 이제부터 나는 기다란 수염을 달고보는 소이이다.</s>
+          <s><term type="concept">스펙타클의 시대</term>는 단순히 시각적인 것의 아무런 화면도 보여주지 않을 거야광휘를 가리키는 것은 아니다.</s>
+          <s>우리는 시방 시각적인 것이 ― <persName ref="#p-x3">황병승</persName>, 「<title level="a" type="poem" ref="#t-x7">버찌의 계절</title>」 부분언어를 집어삼키는 데까지 발전한 사태를 목도하고 있다.</s>
+          <s><persName ref="#p-x8">수전 손택</persName>(『<title level="m" type="foreign" ref="#t-x8">사진에 관하여</title>』)이 활약하던 <date when="1900">20세기</date> 말까지만 시각과 언어의 결탁은 의미를 절정 속으로 끌고 간다.</s>
+          <s>해도, 언어(이야기)는 시각적인 것의 순간적 환영에 대한 그러니까 이제는 그 둘의 공모를 끊어버릴 어떤 대책을반성과 성찰을 제공하는 듯이 여겨졌다.</s>
+          <s>그러나 <date when="2000">21세기</date> 세워야 하는 것이다.</s>
+        </p>
+        <p>
+          <s>들어 다른 단계로 접어들었다.</s>
+          <s>‘<quote type="direct" genre="poet">인스타그램</quote>’, ‘<quote type="direct" genre="poet">페이스북</quote>’을비롯한 <term type="concept">SNS</term>의 온갖 매체, 행위, 사건들은 시각에 이야기를내장시킴으로써 시각의 현혹을 극대화하고 있는 것이다.</s>
+          <s>그 절정에 놓여 있는 것이 정치적 극렬분자들이 연출하는● 30 31반反 ― 소통의 미학을 향하여 <term type="concept">반反―소통anti-communication</term>이라고 덧붙였다(이상, 「<title level="a" type="other" xml:id="t-cahierjeancocteau">장콕토 수첩Cahier Jean Cocteau</title>」).</s>
+          <s>“<term type="concept">반反―소통</term>은 의도적인이런 깨달음이 지금 요긴한 때이나, 이를 ‘<term type="movement">미래파</term>’로 악필이다”라는 <persName role="foreigner" xml:id="p-x9">바르트</persName>의 진술(「<title level="m" type="critic" xml:id="t-sz">S/Z</title>」) 역시 콕토의 착안과일컬어진 시인들만이 느꼈던 것은 아니다.</s>
+          <s>20세기 후반기에 상응한다.</s>
+          <s><persName role="foreigner" xml:id="p-rolandbarthes">롤랑 바르트 Roland Barthes</persName> 는 ‘<term type="concept">글쓰기 écriture</term> ’가 근본적으로 또한 한국시의 자장 안에서도 이미 <term type="concept">의미주의</term>에 대한‘<quote type="direct" genre="poet">반反 ― 소통 contre-communication</quote>’의 행위임을 여러 차례 각성은 일찍부터 출현한 바 있다.</s>
+          <s>이를 정확히 바라보기지적한 바 있다.</s>
+          <s>위해서는 <term type="concept">의미주의</term>의 변전에 대한 이해가 필요하다.</s>
+        </p>
+        <p>
+          <s>의미주의는 시각+언어로 완성되지만, 그 시초에서는글쓰기는 언제나 언어 저편에 위치한다.</s>
+          <s>소리+문자의 결합으로서 시작되었다는 것.</s>
+          <s>“<quote type="direct" genre="poet"><lg type="stanza"><l>태초에</l></lg><lg type="stanza"><l>그것은 하나의 흐름으로서가 아니라 하나의 말씀이 있었</l></lg></quote>”으니, 그 말씀이 바로 소리와 문자를 결합한씨앗으로서 생장한다.</s>
+          <s>그것은 특정한 비밀(=태어남에 형태의 원본이다.</s>
+          <s>소리가 거대한 의미의 덩어리로관한-옮긴 이)의 본질이자 위협인 사건을 표명한다.</s>
+          <s>출현한 것, 데리다가 ‘<quote type="direct" genre="poet">음성중심주의</quote>’라는 이름으로 가리킨그것은 반反―소통이다.</s>
+          <s>그것은 (현재의 언어 질서에) 것이다.</s>
+          <s>이에 대한 두 가지 방향의 저항이 있었다.</s>
+        </p>
+        <p>
+          <s>하나는위협을 가한다.</s>
+          <s>소리로서 불가능한 문자만으로 시를 쓰는 것, 그것을― 「<title level="m" type="critic" xml:id="t-x9">글쓰기의 영도</title>」 부분 최초로 시도한 이가 <persName role="writer" xml:id="p-x10">이상李箱</persName>이다.</s>
+          <s>문자의 기능에대해서는 좀 더 섬세한 고찰이 필요하지만 그것은 또한<persName ref="#p-x9">바르트</persName>의 이런 통찰에 앞서서, <persName role="foreigner" xml:id="p-x11">장 콕토</persName> Jean Cocteau 는 <persName role="foreigner" xml:id="p-x12">데리다</persName> 이래 자주 언급된 것이기도 하다.</s>
+          <s>여하튼 한국시의“<quote type="direct" genre="critic">난해한 책들로 능란하게 작동하는 기계를 만드는 행위</quote>” 현장에서 <term type="concept">문자로서의 시</term>는 <persName role="poet" xml:id="p-x13">이수명</persName> 등에 와서 이미지가즉 “<quote type="direct" genre="critic">오해를 통해서만 소통하는 행위</quote>”를 문학에 할당한 의미를 추월하는 방향으로 나아갔다.</s>
+          <s>바가 있다.</s>
+          <s>이에 대한 주석에서 <persName role="foreigner" xml:id="p-x14">피에르-마리 에롱</persName>Pierre- 다른 방향은 소리에서 의미를 제거하는 것이다.Marie Héron은 ‘<quote type="direct" genre="critic" source="바르트">문학이 자동사</quote>’라는 <persName ref="#p-x9">바르트</persName>의 말은 탁월한 의성어와 의태어에서 극명하게 보이듯이 소리와 의미의● 32 33<term type="concept">반反 ― 소통의 미학</term>을 향하여 <term type="concept">반反―소통anti-communication</term>이라고 덧붙였다(이상, 「<title level="m" type="other" xml:id="t-x10">장콕토 수첩</title>Cahier Jean Cocteau」).</s>
+          <s>“<quote type="direct" genre="critic" source="바르트">반反―소통은 의도적인</quote>이런 깨달음이 지금 요긴한 때이나, 이를 ‘<term type="movement">미래파</term>’로 <quote type="direct" genre="critic" source="바르트">악필이다</quote>”라는 <persName ref="#p-x9">바르트</persName>의 진술(「<title level="m" type="critic" ref="#t-sz">S/Z</title>」) 역시 <persName role="foreigner" xml:id="p-x15">콕토</persName>의 착안과일컬어진 시인들만이 느꼈던 것은 아니다.</s>
+          <s><date when="1950">20세기 후반기</date>에 상응한다.</s>
+        </p>
+        <p>
+          <s><persName role="foreigner" xml:id="p-x16">롤랑 바르트</persName> Roland Barthes 는 ‘<term type="concept">글쓰기 écriture</term> ’가 근본적으로 또한 한국시의 자장 안에서도 이미 의미주의에 대한‘<term type="concept">반反 ― 소통 contre-communication</term>’의 행위임을 여러 차례 각성은 일찍부터 출현한 바 있다.</s>
+          <s>이를 정확히 바라보기지적한 바 있다.</s>
+          <s>위해서는 <term type="concept">의미주의</term>의 변전에 대한 이해가 필요하다.</s>
+          <s><term type="concept">의미주의</term>는 시각+언어로 완성되지만, 그 시초에서는<term type="concept">글쓰기</term>는 언제나 언어 저편에 위치한다.</s>
+          <s>소리+문자의 결합으로서 시작되었다는 것.</s>
+          <s>“<quote type="direct" genre="other">태초에그것은 하나의 흐름으로서가 아니라 하나의 말씀이 있었</quote>”으니, 그 말씀이 바로 소리와 문자를 결합한씨앗으로서 생장한다.</s>
+          <s>그것은 특정한 비밀(=태어남에 형태의 원본이다.</s>
+          <s>소리가 거대한 의미의 덩어리로관한-옮긴 이)의 본질이자 위협인 사건을 표명한다.</s>
+        </p>
+        <p>
+          <s>출현한 것, <persName ref="#p-x12">데리다</persName>가 ‘<term type="concept">음성중심주의</term>’라는 이름으로 가리킨그것은 <term type="concept">반反―소통</term>이다.</s>
+          <s>그것은 (현재의 언어 질서에) 것이다.</s>
+          <s>이에 대한 두 가지 방향의 저항이 있었다.</s>
+          <s>하나는위협을 가한다.</s>
+          <s>소리로서 불가능한 문자만으로 시를 쓰는 것, 그것을― 「<title level="m" type="foreign" ref="#t-x9">글쓰기의 영도</title>」 부분 최초로 시도한 이가 <persName ref="#p-x10">이상李箱</persName>이다.</s>
+          <s>문자의 기능에대해서는 좀 더 섬세한 고찰이 필요하지만 그것은 또한<persName ref="#p-x9">바르트</persName>의 이런 통찰에 앞서서, <persName role="foreigner" xml:id="p-jeancocteau">장 콕토 Jean Cocteau</persName> 는 <persName ref="#p-x12">데리다</persName> 이래 자주 언급된 것이기도 하다.</s>
+          <s>여하튼 한국시의“<quote type="direct" genre="foreign">난해한 책들로 능란하게 작동하는 기계를 만드는 행위</quote>” 현장에서 문자로서의 시는 <persName ref="#p-x13">이수명</persName> 등에 와서 이미지가즉 “<quote type="direct" genre="foreign">오해를 통해서만 소통하는 행위</quote>”를 문학에 할당한 의미를 추월하는 방향으로 나아갔다.</s>
+          <s>바가 있다.</s>
+        </p>
+        <p>
+          <s>이에 대한 주석에서 <persName ref="#p-x14">피에르-마리 에롱</persName>Pierre- 다른 방향은 소리에서 의미를 제거하는 것이다.Marie Héron은 ‘<quote type="direct" genre="critic">문학이 자동사</quote>’라는 <persName ref="#p-x9">바르트</persName>의 말은 탁월한 <term type="concept">의성어</term>와 <term type="concept">의태어</term>에서 극명하게 보이듯이 소리와 의미의● 32 33결합을 떼어내기란 여간 어려운 일이 아니다.</s>
+          <s>소리를 도입했다.</s>
+          <s>그들은 달리는 말의 다리가 네 개가 아니라 스무‘<term type="concept">소음</term>’으로 돌리려 한 <persName role="poet" xml:id="p-x17">성기완</persName>의 이른 시도가 있었다.</s>
+          <s>개라고 말했다.</s>
+          <s>우리 눈에 보이는 잔상殘像이 사실은, 중첩된그리고 <persName role="poet" xml:id="p-x18">이성복</persName>의 「<title level="a" type="poem" xml:id="t-x11">아, 입이 없는 것들</title>」과 「<title level="a" type="poem" xml:id="t-x12">래여애반다라</title>」 면面들이 내보이는 실상實像이라는 것이다.</s>
+          <s>스무 개의 발을가 <interp value="affirmative" ana="미학">의미중심주의에 대한 근본적인 성찰을 보여주었다.</interp></s>
+          <s>재게 놀리며 달리는 말 그림을, 말의 왜곡이라고 부를 수 있을까?</s>
+          <s>하지만 <term type="concept">반反-소통의 미학</term>은 험난한 장벽들을 앞에 마찬가지로 최근 시의 ‘<quote type="direct" genre="poet">특별한</quote>’ 형상들을 형상의 왜곡이라고두고 있었다.</s>
+        </p>
+        <p>
+          <s>무엇보다도 <term type="concept">범주 혼돈</term>의 문제가 있다.</s>
+          <s>말할 수 있을까?</s>
+          <s>최근 시들을 비판하는 이들이 논거로 삼은<term type="concept">의미주의</term>에 대한 거부 자체가 하나의 의미를 구성한다는 자리는 절대로, 항구적인 진리의 자리가 아니다.</s>
+          <s>차라리 최근역설적 사실이 그것이다.</s>
+          <s>그런데 이를 정확히 이해하고자 시들이 진리로 간주되어 온 그 자리를 비판의 대상으로 겨누고한다면, <term type="concept">의미주의</term>에 대한 거부는 <term type="concept">미학적 거부</term>를 북돋기 있다고 말해야 옳다.</s>
+          <s>그래서 앞의 비판을 이렇게 고쳐 말해도위해 지성적 의미를 부가적으로 발생시키고 촉진한다는 좋을 것이다.</s>
+          <s>최근의 <term type="concept">젊은 시인들</term>은 중언부언을 중요한 발화의점을 인정해야 한다.</s>
+          <s>즉 <term type="concept">미적 차원의 의미</term>와 지적 방식으로 만들었다.</s>
+        </p>
+        <p>
+          <s>단형의 틀에 욱여넣기에는 시의 <term type="concept">전언</term>이차원의 의미를 구별하고, 지적 차원의 의미는 일종의 너무 풍부하다.</s>
+          <s>그들은 음악을 위해서 <term type="concept">전언</term>을 포기하지 않는다.</s>
+          <s>발판으로 작용하면서 사람들의 인식을 제고하는 한편, ― <term type="movement">미래파</term> 「<title level="j" type="journal" xml:id="t-2005">2005년, 젊은 시인들</title>」미적 차원에서 의미 중심이 아닌 다른 방식의 언어체가나타나도록 도와준다는 것이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">여기에 착오가 있었다고 필자는 생각한다.</interp>
+          </s>
+          <s>그러나‘<term type="movement">미래파</term>’의 소란 속에서 시인들과 평론가들 모두가 그럼에도 불구하고 그가 직관적으로 미래파의 본질을<interp value="critical" ana="문학관">그에 대한 명확한 이해가 부족했던 것으로 보인다.</interp></s>
+          <s>가령 감지했다는 흔적은 여러 곳에서 보인다.</s>
+          <s>특히 그가 오랜‘<term type="movement">미래파</term>’의 명명자인 <persName role="critic" xml:id="p-x19">권혁웅</persName>은 미래파의 시도를 단일 절필 끝에 재등장한 시인, <persName role="poet" xml:id="p-x20">위선환</persName>과 친근했다는 것은 그에진리로부터 복수적 진리로의 개방으로 보았다.</s>
+          <s>대한 또렷한 간접 증거이다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x20">위선환</persName>의 시를 여러 가지로해석할 수 있겠지만, 근본적인 바탕은 그가 종래의 시와미래파는 입체파와 마찬가지로, 화폭에 복수複數의 시점을 다른 ‘<term type="movement">초현실주의</term>’적인 시를 쓰겠다고 결심했고 그로 인해● 34 35결합을 떼어내기란 여간 어려운 일이 아니다.</s>
+          <s>소리를 도입했다.</s>
+          <s>그들은 달리는 말의 다리가 네 개가 아니라 스무‘<term type="concept">소음</term>’으로 돌리려 한 <persName ref="#p-x17">성기완</persName>의 이른 시도가 있었다.</s>
+          <s>개라고 말했다.</s>
+          <s>우리 눈에 보이는 잔상殘像이 사실은, 중첩된그리고 <persName ref="#p-x18">이성복</persName>의 「<title level="a" type="poem" ref="#t-x11">아, 입이 없는 것들</title>」과 「<title level="a" type="poem" ref="#t-x12">래여애반다라</title>」 면面들이 내보이는 실상實像이라는 것이다.</s>
+          <s>스무 개의 발을가 <term type="concept">의미중심주의</term>에 대한 근본적인 성찰을 보여주었다.</s>
+          <s>재게 놀리며 달리는 말 그림을, 말의 왜곡이라고 부를 수 있을까?</s>
+          <s>하지만 <term type="concept">반反-소통의 미학</term>은 험난한 장벽들을 앞에 마찬가지로 최근 시의 ‘<quote type="direct" genre="poet">특별한</quote>’ 형상들을 형상의 왜곡이라고두고 있었다.</s>
+        </p>
+        <p>
+          <s>무엇보다도 <term type="concept">범주 혼돈</term>의 문제가 있다.</s>
+          <s>말할 수 있을까?</s>
+          <s>최근 시들을 비판하는 이들이 논거로 삼은<term type="concept">의미주의</term>에 대한 거부 자체가 하나의 의미를 구성한다는 자리는 절대로, 항구적인 진리의 자리가 아니다.</s>
+          <s>차라리 최근역설적 사실이 그것이다.</s>
+          <s>그런데 이를 정확히 이해하고자 시들이 진리로 간주되어 온 그 자리를 비판의 대상으로 겨누고한다면, <term type="concept">의미주의에 대한 거부</term>는 <term type="concept">미학적 거부</term>를 북돋기 있다고 말해야 옳다.</s>
+          <s>그래서 앞의 비판을 이렇게 고쳐 말해도위해 지성적 의미를 부가적으로 발생시키고 촉진한다는 좋을 것이다.</s>
+          <s>최근의 <term type="concept">젊은 시인들</term>은 중언부언을 중요한 발화의점을 인정해야 한다.</s>
+          <s>즉 <term type="concept">미적 차원의 의미</term>와 지적 방식으로 만들었다.</s>
+        </p>
+        <p>
+          <s>단형의 틀에 욱여넣기에는 시의 <term type="concept">전언</term>이차원의 의미를 구별하고, 지적 차원의 의미는 일종의 너무 풍부하다.</s>
+          <s>그들은 음악을 위해서 <term type="concept">전언</term>을 포기하지 않는다.</s>
+          <s>발판으로 작용하면서 사람들의 인식을 제고하는 한편, ― <term type="movement">미래파</term> 「<title level="j" type="journal" ref="#t-2005">2005년, 젊은 시인들</title>」미적 차원에서 의미 중심이 아닌 다른 방식의 언어체가나타나도록 도와준다는 것이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">여기에 착오가 있었다고 필자는 생각한다.</interp>
+          </s>
+          <s>그러나‘<term type="movement">미래파</term>’의 소란 속에서 시인들과 평론가들 모두가 그럼에도 불구하고 그가 직관적으로 미래파의 본질을<interp value="critical" ana="문학관">그에 대한 명확한 이해가 부족했던 것으로 보인다.</interp></s>
+          <s>가령 감지했다는 흔적은 여러 곳에서 보인다.</s>
+          <s>특히 그가 오랜‘<term type="movement">미래파</term>’의 명명자인 <persName ref="#p-x19">권혁웅</persName>은 미래파의 시도를 단일 절필 끝에 재등장한 시인, <persName ref="#p-x20">위선환</persName>과 친근했다는 것은 그에진리로부터 복수적 진리로의 개방으로 보았다.</s>
+          <s>대한 또렷한 간접 증거이다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x20">위선환</persName>의 시를 여러 가지로해석할 수 있겠지만, 근본적인 바탕은 그가 종래의 시와<term type="movement">미래파</term>는 <term type="movement">입체파</term>와 마찬가지로, 화폭에 복수複數의 시점을 다른 ‘<term type="movement">초현실주의</term>’적인 시를 쓰겠다고 결심했고 그로 인해● 34 35시의 발표장을 잃었다는 사실이다.</s>
+          <s>필자는 <persName ref="#p-x20">위선환</persName>의 이어졌다.</s>
+          <s>자신의 시에 대해 ‘<term type="concept">형태 파괴</term>’라고 지칭한결심이 명확한 분석적 통찰을 가지고 있었다고 생각하지는 <persName role="critic" xml:id="p-x21">김현</persName>의 의견을 적극 수용한 <persName role="poet" xml:id="p-x22">황지우</persName>는 “매스컴은 반反-않는다.</s>
+          <s>그러나 그는 고향에 흐른 ‘<term type="concept">탐진강</term>’을 통상적인 커뮤니케이션이다”(「<title level="a" type="poem" xml:id="t-x13">사람과 사람 사이의 신호</title>」)라는강에 대한 규정으로서가 아니라 그 자체로서 보아야 말로 당시의 언론을 질타하였었다.</s>
+          <s>‘<term type="concept">형태 파괴</term>’와한다는 점을 본능적으로 느꼈던 것으로 보인다.</s>
+          <s>즉 그는 ‘<term type="concept">커뮤니케이션</term>’이 모순관계를 이룬다는 것을 그는 거의‘강’을 둘러싼 한국적 의미(정한을 중심으로 하는)로부터 이해하지 못했다.</s>
+          <s><term type="concept">현상학적 환원</term>을 시도한 것이라 판단된다.</s>
+          <s>그것을 시인은 현재의 시점까지도 의미를 향한 상향운동은 그칠 줄을몰랐다.</s>
+        </p>
+        <p>
+          <s>그 점에서 <persName role="poet" xml:id="p-x23">기형도</persName>는 상징적이다.</s>
+          <s><persName ref="#p-x18">이성복</persName>의 영향을나 말고도 투신한 사람이 있다.</s>
+          <s>벼랑 밑 깊어진 물속이 크게 받은 <persName ref="#p-x23">기형도</persName>는 <persName ref="#p-x18">이성복</persName>과는 거꾸로의 방향으로퍼렇게 멍들어 있다.</s>
+          <s>갔다.</s>
+          <s>「<title level="a" type="poem" xml:id="t-x14">입 속의 검은 혀</title>」와 「<title level="a" type="poem" xml:id="t-x15">빈집</title>」은 위상학적으로 동궤에― 「<title level="a" type="poem" xml:id="t-1">탐진강 1</title>」 부분 놓이며 상호 연관된 시다.</s>
+          <s>그것은 모두 ‘<quote type="direct" genre="poet"><lg type="stanza"><l>진공眞空 속에</l></lg><lg type="stanza"><l>여하히 의미의 별을 집어넣을 것인가</l></lg></quote>’라는 질문과 그에라는 진술로 표현한 바 있다.</s>
+          <s>대한 대답으로 연결된 시다.</s>
+          <s>그 답은 “<quote type="direct" genre="poet"><lg type="stanza"><l>사랑을 잃고 나는</l></lg><lg type="stanza"><l>쓰네</l></lg></quote>”이다.</s>
+        </p>
+        <p>
+          <s>의미의 성취에 다다르지 못해도 방법을 바꾸어<term type="concept">의미의 기록</term>은 여전히 이어진다는 것이다.</s>
+          <s><persName ref="#p-x23">기형도</persName>에 와서<term type="concept">의미주의</term>를 추월하기가 이리도 어려울지라도 의미주의는 완성되었다.</s>
+          <s>그가 <date>사후 30년</date> 동안 신화로존재했다는 것은 바로 <term type="concept">완성</term>을 가리키는 지표다.</s>
+          <s>앞에서<term type="concept">반反―소통의 미학</term>을 어렵게 하는 가장 큰 원인은 한국 말한 <term type="concept">SNS의 언어 폭력</term>은 완성 이후 <term type="concept">의미주의</term>의 부패를사회가 그런 시적 여건을 허락하지 않는다는 것이다.</s>
+          <s>가리킨다.1세기 이상을 <term type="concept">의미에 대한 결핍감</term>에 지독히 시달렸기 <term type="concept">의미주의</term>의 완성 이후에 존재 가능한 의미주의적 시는때문이다.</s>
+          <s>그래서 <term type="concept">반反-소통</term>에 대한 강력한 반발이 내내 <persName role="novelist" xml:id="p-x24">정한아</persName>의 <term type="concept">철학적 반성의 시</term>, 더 나아가 의미를 산산이● 36 37시의 발표장을 잃었다는 사실이다.</s>
+          <s>필자는 <persName ref="#p-x20">위선환</persName>의 이어졌다.</s>
+          <s>자신의 시에 대해 ‘<quote type="direct" genre="critic">형태 파괴</quote>’라고 지칭한결심이 명확한 분석적 통찰을 가지고 있었다고 생각하지는 <persName ref="#p-x21">김현</persName>의 의견을 적극 수용한 <persName ref="#p-x22">황지우</persName>는 “<quote type="direct" genre="poet">매스컴은 반反-</quote>않는다.</s>
+        </p>
+        <p>
+          <s>그러나 그는 고향에 흐른 ‘<term type="concept">탐진강</term>’을 통상적인 <term type="concept">커뮤니케이션</term>이다”(「<title level="a" type="poem" ref="#t-x13">사람과 사람 사이의 신호</title>」)라는강에 대한 규정으로서가 아니라 그 자체로서 보아야 말로 당시의 언론을 질타하였었다.</s>
+          <s>‘<term type="concept">형태 파괴</term>’와한다는 점을 본능적으로 느꼈던 것으로 보인다.</s>
+          <s>즉 그는 ‘<term type="concept">커뮤니케이션</term>’이 모순관계를 이룬다는 것을 그는 거의‘강’을 둘러싼 한국적 의미(<term type="concept">정한</term>을 중심으로 하는)로부터 이해하지 못했다.</s>
+          <s><term type="concept">현상학적 환원</term>을 시도한 것이라 판단된다.</s>
+          <s>그것을 시인은 현재의 시점까지도 의미를 향한 상향운동은 그칠 줄을몰랐다.</s>
+          <s>그 점에서 <persName ref="#p-x23">기형도</persName>는 상징적이다.</s>
+          <s><persName ref="#p-x18">이성복</persName>의 영향을나 말고도 투신한 사람이 있다.</s>
+          <s>벼랑 밑 깊어진 물속이 크게 받은 <persName ref="#p-x23">기형도</persName>는 <persName ref="#p-x18">이성복</persName>과는 거꾸로의 방향으로퍼렇게 멍들어 있다.</s>
+        </p>
+        <p>
+          <s>갔다.</s>
+          <s>「<title level="a" type="poem" ref="#t-x14">입 속의 검은 혀</title>」와 「<title level="a" type="poem" ref="#t-x15">빈집</title>」은 위상학적으로 동궤에― 「<title level="a" type="poem" ref="#t-1">탐진강 1</title>」 부분 놓이며 상호 연관된 시다.</s>
+          <s>그것은 모두 ‘<quote type="direct" genre="poet"><lg type="stanza"><l>진공眞空 속에</l></lg><lg type="stanza"><l>여하히 의미의 별을 집어넣을 것인가</l></lg></quote>’라는 질문과 그에라는 진술로 표현한 바 있다.</s>
+          <s>대한 대답으로 연결된 시다.</s>
+          <s>그 답은 “<quote type="direct" genre="poet"><lg type="stanza"><l>사랑을 잃고 나는</l></lg><lg type="stanza"><l>쓰네</l></lg></quote>”이다.</s>
+          <s>의미의 성취에 다다르지 못해도 방법을 바꾸어<interp value="affirmative" ana="미학">의미의 기록은 여전히 이어진다는 것이다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="미학">기형도에 와서의미주의를 추월하기가 이리도 어려울지라도 의미주의는 완성되었다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">그가 사후 30년 동안 신화로존재했다는 것은 바로 완성을 가리키는 지표다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>앞에서<term type="concept">반反―소통의 미학</term>을 어렵게 하는 가장 큰 원인은 한국 말한 <term type="concept">SNS</term>의 언어 폭력은 완성 이후 <term type="concept">의미주의</term>의 부패를사회가 그런 시적 여건을 허락하지 않는다는 것이다.</s>
+          <s>가리킨다.1세기 이상을 의미에 대한 결핍감에 지독히 시달렸기 <term type="concept">의미주의</term>의 완성 이후에 존재 가능한 의미주의적 시는때문이다.</s>
+          <s>그래서 <term type="concept">반反-소통</term>에 대한 강력한 반발이 내내 <persName ref="#p-x24">정한아</persName>의 철학적 반성의 시, 더 나아가 의미를 산산이● 36 37쪼갰던 <persName role="other" xml:id="p-x25">황혜경</persName>의 시편들이다.</s>
+          <s>즉 <term type="concept">의미주의</term>의 시효는 발간되었다.</s>
+          <s>이는 또 다른 세계이다.</s>
+          <s>좀 더 지켜봐야 할소멸하였으며 이제 반성과 해체로서만 존재 이유를 것이다.)찾을 수 있다는 게 필자의 판단이다.</s>
+          <s>그건 철학의 제국이 그럼에도 불구하고 나는 시인들의 본능적 감각에무너진 이후, <term type="movement">분석철학</term>이 가장 큰 존재 이유를 갖는 것과 기대를 걸고 있다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">시인은 시를 손으로 쓰지, 머리로 쓰지같다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그럼에도 여전히 <term type="concept">한국시</term>의 대부분은 <term type="concept">의미주의</term>의 않는다.</s>
+          <s>시적 실천과 지적 인식이 자주 어긋나는 것은점통 속에서 찰랑거리는 효爻들이다.</s>
+          <s>당연한 일이다.</s>
+          <s>그렇다고 해서 <term type="concept">시인들</term>이 지적 인식을모두冒頭에서 지적한 <term type="concept">한국시</term>의 <term type="concept">매너리즘</term>은 <term type="concept">반反-소통</term>이 방치하는 건 좋은 일이 아니다.</s>
+          <s>지적 단련은 그들의 손이아니라 <term type="concept">의미</term>의 주관적 향락들이다.</s>
+          <s>그것은 <term type="movement">미래파</term>가 떨리지 않도록 해줄 것이다.</s>
+          <s>필자는 시의 무대에서 퇴장한본능적 차원에서 제기했던 <term type="concept">한국시</term>의 새로운 도약이 세칭 ‘<term type="movement">미래파</term>’ 시인들이 귀환하기를 절실히 바란다.</s>
+          <s>또한포기된 현상을 반영한다.</s>
+        </p>
+        <p>
+          <s>이를 극복하기 위해서는 현재 독자들이 지금까지의 필자의 견해가 매우 낯설지라도육체적 차원에서 느끼고 있는 <term type="concept">반反-소통 미학</term>의 의지를 진지하게 읽어주기를 바란다.</s>
+          <s>지적 이해로 변환하여 새로운 <term type="concept">미적 형상</term>을 창출해야 한다.</s>
+          <s>그러나 <interp value="critical" ana="미학">그런 사정은 지금까지 거의 이해되지 못했으며,그걸 직접 시도한 시인들조차도 그에 대한 인식을가지기가 어려웠으니, 그들의 시가 때때로 갈팡질팡하는걸 보는 건 안타까운 일이다.</interp></s>
+          <s>가령 필자는 <persName role="other" xml:id="p-x26">이지아</persName>의 첫시집, 『<title level="m" type="poem" xml:id="t-x16">오트 쿠튀르</title>』에서 <term type="concept">의미주의</term>를 넘어서는 다음단계의 시적 가능성을 보았고 그런 기대를 글(「<title level="a" type="critic" xml:id="t-x17">비유를넘어, 차원 약동을 구축하기</title>」)로 발표한 바 있다.</s>
+          <s>하지만<interp value="critical" ana="미학">그의 두 번째 시집, 『이렇게나 뽀송해』는 그런 기대를하향시켰다.</interp></s>
+          <s>(이 글을 쓰는 도중에 세 번째 시집이 <persName ref="#p-x2">정명교</persName>문학평론가 / 연세대학교 명예 교수● 38 39쪼갰던 <persName ref="#p-x25">황혜경</persName>의 시편들이다.</s>
+          <s>즉 <term type="concept">의미주의</term>의 시효는 발간되었다.</s>
+          <s>이는 또 다른 세계이다.</s>
+        </p>
+        <p>
+          <s>좀 더 지켜봐야 할소멸하였으며 이제 <term type="concept">반성과 해체</term>로서만 존재 이유를 것이다.)<interp value="neutral" ana="문학관">찾을 수 있다는 게 필자의 판단이다.</interp></s>
+          <s>그건 <term type="concept">철학의 제국</term>이 그럼에도 불구하고 나는 <term type="concept">시인들의 본능적 감각에</term>무너진 이후, <term type="movement">분석철학</term>이 가장 큰 존재 이유를 갖는 것과 기대를 걸고 있다.</s>
+          <s>시인은 시를 손으로 쓰지, 머리로 쓰지같다.</s>
+          <s>그럼에도 여전히 <term type="concept">한국시</term>의 대부분은 <term type="movement">의미주의</term>의 않는다.</s>
+          <s><term type="concept">시적 실천</term>과 <term type="concept">지적 인식</term>이 자주 어긋나는 것은점통 속에서 찰랑거리는 효爻들이다.</s>
+          <s>당연한 일이다.</s>
+          <s>그렇다고 해서 시인들이 지적 인식을모두冒頭에서 지적한 <term type="concept">한국시의 매너리즘</term>은 <term type="concept">반反-소통</term>이 방치하는 건 좋은 일이 아니다.</s>
+          <s><term type="concept">지적 단련</term>은 그들의 손이아니라 의미의 주관적 향락들이다.</s>
+        </p>
+        <p>
+          <s>그것은 <term type="movement">미래파</term>가 떨리지 않도록 해줄 것이다.</s>
+          <s>필자는 시의 무대에서 퇴장한본능적 차원에서 제기했던 <term type="concept">한국시</term>의 새로운 도약이 세칭 ‘<term type="movement">미래파</term>’ 시인들이 귀환하기를 절실히 바란다.</s>
+          <s>또한포기된 현상을 반영한다.</s>
+          <s>이를 극복하기 위해서는 현재 독자들이 지금까지의 필자의 견해가 매우 낯설지라도육체적 차원에서 느끼고 있는 <term type="concept">반反-소통 미학</term>의 의지를 진지하게 읽어주기를 바란다.</s>
+          <s>지적 이해로 변환하여 새로운 <term type="concept">미적 형상</term>을 창출해야 한다.</s>
+          <s>그러나 <interp value="critical" ana="미학">그런 사정은 지금까지 거의 이해되지 못했으며,그걸 직접 시도한 시인들조차도 그에 대한 인식을가지기가 어려웠으니, 그들의 시가 때때로 갈팡질팡하는걸 보는 건 안타까운 일이다.</interp></s>
+          <s>가령 필자는 <persName ref="#p-x26">이지아</persName>의 첫시집, 『<title level="m" type="poem" ref="#t-x16">오트 쿠튀르</title>』에서 <term type="concept">의미주의</term>를 넘어서는 다음단계의 시적 가능성을 보았고 그런 기대를 글(「<title level="a" type="critic" ref="#t-x17">비유를넘어, 차원 약동을 구축하기</title>」)로 발표한 바 있다.</s>
+          <s>
+            <interp value="critical" ana="미학">하지만그의 두 번째 시집, 『이렇게나 뽀송해』는 그런 기대를하향시켰다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>(이 글을 쓰는 도중에 세 번째 시집이 <persName ref="#p-x2">정명교</persName>문학평론가 / 연세대학교 명예 교수● 38 39</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

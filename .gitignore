@@ -179,3 +179,11 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# ── 원문 코퍼스/데이터는 올리지 않음 (TEI 결과 xml/json은 올림) ──
+*.pdf
+*.docx
+*.txt
+# 단, 코드·설정에 필요한 txt는 유지
+!requirements.txt
+!prompts/tei_system_prompt.txt

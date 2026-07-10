@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>감각과 소통, 자본의 네트워크 - 2000년대 미디어 환경과 시작(詩作)의 변화</title>
+        <author>김신정</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>2。*/《与法쒀Q〉&amp;」泣 （飢 2应）KINX2008023259] 특집 I<term type="concept">감각과 소통, 자본의 네트워크</term>一 2）00년대 미디어 환경과 시직｛詩作）의 변화<persName role="critic" xml:id="p-x">김신정</persName><term type="concept">다매체 문화 환경</term>과 <term type="concept">지각 경험</term>의 변화<date from="2000" to="2009">2000년대</date> 일상의 삶은 온갖 종류의 미디어로 넘쳐난다.</s>
+          <s>핸드폰의 모닝 콜 서비스에 눈을 뜨는 순간부터 인터넷 포털 사이트를 마지막으로 접속하 는 순간까지, TV, 라디오 등의 고전적인 매체를 비롯해 컴퓨터, 핸드폰, MP3, DMB 등 갖가지 하이테크 <term type="concept">미디어</term> 기기가 접속의 순간을 기다리고 있다 인터넷 라디오 수신기로 음악을 들으며 포털 사이트의 최신 뉴스를클릭 하고, 이메일의 답장을 쓰는 동안에도 문자메시지는 날아든다.</s>
+          <s>출근 길 지하철 안에서 사람들은 제각기 각자의 매체를 가지고 논다.</s>
+          <s>MP3로 음악을 듣고 핸드폰으로 문자를 보내며 셀카 의 포즈를 취한다.</s>
+          <s>무가지 신 문을 읽고 DMB폰으로 주가를 확인하고 TV 쇼 프로그램을 보며 키득거 린 다.</s>
+          <s>또는 기계（핸드폰）를 향해 혼자서 중얼댄다.</s>
+          <s><date when="2001">21세기</date> <term type="concept">미디어</term> 환경이 급속 하게 변화시킨 이 낯선（혹은 이미 익숙해진 지하철 풍경은 어디라도 이동가 능하고, 모든 장소에 편재되어 있는 미디어의 특성과 그 속에서 일어나는 개인의 경험을 구체적으로 상상하게 한다.</s>
+          <s><term type="concept">다매체 문화 환경</term>에서 일어나는 개인의 경험 가운데 가장 큰 변화는 지 각 경험의 변화로 요약될 수 있다.</s>
+        </p>
+        <p>
+          <s>미디어 연구자들이 지적하고 있듯이, <term type="concept">구 술문화</term> 환경의 인간에게 주로 청각적 경험이, 그리고 인쇄매체 발달에 따 른 <term type="concept">문자 문화</term> 시대에는 시각적 경험이 중심이 되는 반면 <term type="concept">전자 미디어</term>는 다 시 청각적 경험의 강화와 더불어 시각, 청각, 촉각등 복합적이고 총체적인 지각 경험을 열어놓는다.</s>
+          <s>이 같은 특징은 하나의 매체를 매개로 했을 때나 혹은 한 개인을 대상으로 했을 때 어느 경우에나 해당된다.</s>
+          <s>가령, 우리는 UCC 동영상을 보고 듣고 느끼며 때로는 동영상을 따라 춤을 춘다.</s>
+          <s>또한 시 인이 자작시를 직접 낭송하는 멀티미디어 낭송시를 듣고, 시를 읽으며 플 래시 화면을 감상할 수 있다.</s>
+          <s>개인의 일상에서도, 인터넷으로 다운받은 최 신 드라마를 보며 동시에 정보 검색을 하는 일은 다반사로 일어난다.</s>
+          <s>전화 영화, 오디오, 인터넷 등의 다양한 미디어 장치와 복합적으로 매개되면서, 미디어와 접촉할 때의 인간의 신체감각과 의식은 동시다발적이고 총체적 으로 뒤흔들리는 경험을 수용하고 있다.</s>
+          <s>인간의 지각 경험을 점차 복합적이고 총체적인 것으로 만드는 요인은 미 디어뿐만이 아니다.</s>
+          <s>'<term type="concept">신체화</term> 또는 <term type="concept">탈장소화</term> 된1） <term type="concept">다매체 문화</term> 환경 속에 서 개인은 끊임없이 이동하고 변화해 나간다.</s>
+        </p>
+        <p>
+          <s>특정한 장소에 귀속되지 않 는 움작이는 자아 는 지속적으로 확충되는 항공 노선, KTX, 새로 개발되 는 고속도로망 등과 같은 <term type="concept">교통수단과 교통망</term>을 통해 <term type="concept">실제와 상상 공간</term>을확장하고 연결시켜 나간다.</s>
+          <s>교통수단과 커뮤니케이션의 상호 보완적 효과 는〉<term type="concept">다매체 환경</term> 속의 <term type="concept">다성적 자야</term>를 구성하는 중요한 요인이다.</s>
+          <s><date from="2000" to="2009">2000년대</date> 의 인간은 <term type="concept">인터넷</term> 접속으로 다른 장소, 다른 환경의 인간과 상호 대화를 하 며, 또한 여행과 이주를 통해 빠르게 공간이동을 하면서도 여전히 자국（自 國）의 미디어와 연결을 끊지 않는다.</s>
+          <s>이처럼 <term type="concept">다매체적</term>이고 상호 대화적이며 이동과 변화가 빠른 <term type="concept">트랜스문화</term> （국경）의 환경은<interp value="affirmative" ana="문학관">2000년대 문학에도 적지 않은 영향을 끼치고 있다.</interp></s>
+          <s>먼저 확 인할 수 있는 것은 시인, 작가 자신의 경험의 변화이다.</s>
+          <s>특히 시인의 경우, 영화나 음악, 사진 등의 매체 제작을 겸업으로 하거나 여행이나 다양한 매 체 경험을 산문으로 쓰는 경우가 늘고 있다.</s>
+          <s>밴드 <orgName xml:id="org-3">3호선버터플라이</orgName>' 의 멤 버이자 평론, 시, 그리고 영화음악 제작에도 참여하는 <persName role="poet" xml:id="p-x2">성기완</persName>, 시를 쓰고 문화비평을 하며 록밴드 <orgName xml:id="org-x">비행선</orgName> 의 리드보컬로 활동하는 <persName role="poet" xml:id="p-x3">강정</persName>, 역시 시인 이자 극작가, 카피라이터이며 단편영화 작업까지 병행하는 <persName role="poet" xml:id="p-x4">김경주</persName> 등이 그 러한 예에 해당된다.</s>
+          <s>시인들의 직접적인 <term type="concept">매체 경험</term>은 상호 영향을 끼친다.</s>
+        </p>
+        <p>
+          <s>시인 <persName ref="#p-x3">강정</persName>은 음악, 춤 등의 <term type="concept">에너지</term>와 감각을 통해 시 창작의 동력을 얻는다 고 말한다.</s>
+          <s><persName ref="#p-x2">성기완</persName>은 '<quote type="direct" genre="critic">문학적인 것 이 同 이라는 매체를 떠나 생기 있는 새 몸에 깃들이는</quote>” 광경을 <orgName xml:id="org-x2">어어부 밴드</orgName> 의 음악에서 확인한다.</s>
+          <s><term type="concept">여행</term> 은 <date from="2000" to="2009">2000년대</date> 시인들에게 또 하나의 화두이다.</s>
+          <s>시인들이 <term type="concept">여행</term> 산문집, 여행 사 진집을 내는 최근의 행위는 이러한 경향을 보여준다.</s>
+          <s><term type="concept">다매체</term>, <term type="concept">다문화</term> 경험 은 비단 시인 작가뿐만이 아니라 독자의 작품 수용 방식에도 변화를 가져 온다.</s>
+          <s>미디어와 여행에 의해 제공된 시청각 경험은 작품에 대한 독자의 기미디어의 신체화또는<term type="concept">탈장소화</term> 란 미디어의 변용이 미디어를특정 장소와의 연결에서 해방 시켜 어디라도 이동할수 있고 모든공간에 편재된 것으로 바꾸어놓는 현상을 가리킨다.</s>
+          <s>이 속 에서 부상한 것은 <term type="concept">테크놀로지</term>를 갖추고 경계를 넘어서 이동할 수 있는 개별 신체이다.</s>
+          <s>예를 들 어 우리 몸은 MP3를 끼고 노트북, 휴대전화를 들고 지구상의 어느 곳이든 也｝'.</s>
+        </p>
+        <p>
+          <s><persName role="foreigner" xml:id="p-x5">요시미 순야</persName> 에 따르면, <term type="concept">자본주의</term>는 이렇게 떠돌아다니는 우리 몸을, 지구를 온통 뒤덮고 있는 전자망으로 포착하고 있다.</s>
+          <s>（<persName ref="#p-x5">요시미 순야</persName>,「<title level="m" type="other" xml:id="t-x">미디어 문회</title>3카뮤니컈이션북스 2006], 176시78쪽 참조.）<persName role="foreigner" xml:id="p-x6">피에르 레비</persName>, r<title level="m" type="other" xml:id="t-x2">누스페어</title>j（생각의나무 2003） 31 쪽.</s>
+          <s>대를 특정 매체 중심으로 제한하거나 혹은 이미지 수용의 지평을 다양한 방식으로 확대시킨다.</s>
+          <s>이처럼 <term type="concept">다매체적</term>이고 <term type="concept">다문화적</term>인 문화 환경에서 문학은 과연 어떻게 존 재할 것인가.</s>
+          <s>기억해야 할 점은 미디어가 <term type="concept">자본</term>과 <term type="concept">테크놀로지</term>가 집중되는 지점이면서, 현대의 다양한 <term type="concept">욕망</term>과 <term type="concept">불안</term>, 그리고 <term type="concept">이미지</term> 생산과 수용의 매 개체로 기능하고 있다는 점이다.3）자본의 집적체이자 사회적 실천이 교차 하는 장으로서 미디어와 문학은 어떻게 상호 관련을 맺을 것인가.</s>
+          <s>시인작 가）, 독자의 매체 경험, 작품의 매체 수용 방식은 궁극적으로 문학의 존재방 식에 어떤 영향을 끼칠 것인가.</s>
+          <s>이러한 질문들을 전제로 하며, 이 글에서는 특히 <term type="concept">다매체 문화 환경</term>이 빚어낸 개인의 <term type="concept">지각 경험</term>과 시 창작（수용） 방식의 변화, 그리고 시작（詩作）의 변화를 중심적으로 살펴보게 될 것이다.</s>
+          <s>미디어와 일상, 그리고 시（詩）미디어가 우리의 일상에 침투하기 시작한 것은 <date from="1980" to="1989">1980년대</date>의 일이다.</s>
+        </p>
+        <p>
+          <s><date when="1980">1980년</date>, 컬러텔레비전 방송의 개막은 <term type="concept">미디어</term>의 영향력을 확대시키고 대중 의 지각 경험에 근본적인 변화를 가져오는 계기가 되었다.</s>
+          <s>만화영화, 외화 음악뿐만 아니라 스포츠、정치, 사회 분야의 현상들이 <term type="concept">미디어</term>를 매개로 생 생한 현실성을 획득하게 된다.</s>
+          <s><persName role="critic" xml:id="p-x7">권혁웅</persName>의「<title level="a" type="poem" xml:id="t-x3">마징가 계보학</title>」은 새로운 미디어가 제공하는 <date when="1980">80년대</date>의 화려 한 장면들과 일상의 경험을 기획적으로 형상화한다.</s>
+          <s>그의 시에는 주간지 〈<title level="j" type="journal" xml:id="t-x4">선데이 서울</title>＞,〈<title level="a" type="other" xml:id="t-z">마징가Z</title>〉,〈<title level="a" type="other" xml:id="t-x5">아수라 백작</title>〉,〈<title level="a" type="other" xml:id="t-x6">요괴 인간</title>〉등의 만화영화,〈<title level="a" type="foreign" xml:id="t-x7">육 백만 불의 사나이</title>〉등의 외화 시리즈 같은 다양한 매체, 그리고 매체를 통 해 구성된 <term type="concept">가상적 현실</term>이 파노라마처럼 펼쳐지고 있다.3） <persName ref="#p-x5">요시미 순야</persName>가 지은앞의 책（2006）과그가 엮은1■<title level="m" type="other" xml:id="t-x8">미디어•: 언론과표상의 지정학</title>」（한울, 2007）은 이 같은 관점에서 미디어의 이론과 역사를살핀 책이다.</s>
+          <s>이 글은 두 책의 논의를 참조하였다.</s>
+          <s>나의 <date when="1980">1980년</date>은 먼 곳의 이상한소문과 무더위, 형이 가방 밑창에 숨겨온 <title level="j" type="journal" ref="#t-x4">선 데이 서울</title>과 수시로 줄몰하던 비행접시들술에 취한 아버지는 박철순보다 멋진 커브를구사했다 상 위의 김치와 시 금치가접시에 실린 채 머리 위에서 휙휙 날았다나 또한 접시를 타고 가볍게 담장을 넘고 싶었으나…… 먼저 나간 형의 <date when="1982">1982년</date>은 뺨 석 대에 끝났다 나는 <title level="j" type="journal" ref="#t-x4">선데이 서울</title>을 옆에 끼고 골방에서 자는척 했다—선데이 서■울j 부~분.〈선데이 서울〉잡지를 읽는 나 는 <term type="concept">가상현실</term>과 실제의 세계를 넘나들며 때로 둘 사이를 혼동한다.</s>
+          <s>“<title level="j" type="journal" ref="#t-x4">선데이 서울</title>에는 비키니 미녀가 皆고 “<quote type="direct" genre="poet" source="선데이 서울">브로마 이드를 펼치면 그녀가 걸어 나올 것 같</quote>”은 환상에 빠져든다.</s>
+          <s>
+            <interp value="neutral" ana="미학">가상적 세계가 마치 실제 같은 착각을 일으킬 뿐 아니라 실제 현실 또한 가상적 현실과 특 별히 구분되지 않는다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>집 안에서는 *<quote type="direct" genre="poet">비행접시</quote>” 같은 “접시”가 "머리 우『를 “휙휙 날叩다니고 y 리胃선 “<quote type="direct" genre="poet">외계에서 온 돌멩이들이</quote>” BI다녔다”.</s>
+          <s>&gt;<quote type="direct" genre="poet">987년의 서울엔 선데이가 따로 없었다</quote>二 액션 영화처럼 박진감 넘치고 포르노 잡지처럼 중독성 강한 현실은 도처에 널려 있다.</s>
+          <s>UTV에서 민머리 만 보아도 경기를 일으”킬 정도로 80년대엔 <term type="concept">군부 정치</term>의 관리와 통제적 현 실까지도 <term type="concept">미디어</term>를 통해 일상에 침투한다.80년대의 영웅들도 미디어를 매개로 탄생한다 실제 인물인 프로야구 스 타 <persName role="critic" xml:id="p-x8">박철순</persName> 이나 만화 영화의 주인공인 <title level="a" type="other" ref="#t-z">마징가 Z</title> , 육백만 불의 사나 이 , <title level="a" type="other" xml:id="t-x9">스파이더 맨</title> 등은 미디어가 만들어낸 영웅들이다.</s>
+          <s>
+            <interp value="neutral" ana="미학">권혁웅의 시는 미 디어의 가상적 영웅을 빌어 현실을 재현하면서 동시에 그들의 가상성을 폭 로하는 전략을 취한다.</interp>
+          </s>
+          <s>'영웅‘ 적 면모는 <term type="concept">미디어</term>가 제공하는 이미지와 다 른' 현실, 즉 <term type="concept">가상 세계의 환상성</term>을 벗어버린 현실 세계와 병치됨으로써 소소한 일상의 비루함을 드러내는 기제가 된다.</s>
+          <s>“<quote type="direct" genre="poet">기운 센 천하장시추</quote>, “<quote type="direct" genre="poet">마징가 N*</quote>의 “<quote type="direct" genre="poet">위대한 그 이름</quote>”은 “<quote type="direct" genre="poet">오래가지</quote>” “<quote type="direct" genre="poet">못했다</quote>■二 우리 옆집에 시흐는 <quote type="direct" genre="poet">천하 장寸는</quote> “<quote type="direct" genre="poet">엄청난 기운으로</quote>”, “<quote type="direct" genre="poet">집을 나</quote>”간 그의 아可를 喫아다녔다二 아 울러 초당 9.8미터”의 속도로 달리는 “<quote type="direct" genre="poet">육백만 불의 사나이를 따라 아이 皆은 그를 흉내 내</quote>”며 “<quote type="direct" genre="poet">옥상에서 뛰어내린</quote>”다.</s>
+          <s>
+            <interp value="critical" ana="사회">미디어의 화려한 장막이 사라질 때, 현실은 궁색하기 그지없는 맨 얼굴을드러낸다.</interp>
+          </s>
+          <s><persName ref="#p-x7">권혁웅</persName>의 시에서 80년대 <term type="concept">미디어</term>의 보급으로 인한 일상의 변화, <term type="concept">가상과 현실</term>의 다각적인 관계가 시화되고 있다면 <persName role="poet" xml:id="p-x9">이원</persName>의 시에서 미디어는 마치 벗어나기 어려운, 현대사회의 전제된 틀처럼 제시된다.</s>
+        </p>
+        <p>
+          <s>그럼으로써 <persName ref="#p-x9">이원</persName>은 <term type="concept">미디 어와 인간의 관계</term>에 관해 좀 더 근본적인 물음을 제기한다1<quote type="direct" genre="poet"><lg type="stanza"><l>1990년산 TV 와</l></lg><lg type="stanza"><l>1968 년산 나는 어둠 속에 있다</l></lg><lg type="stanza"><l>（낙타와 시간은 사막에 그냥 두고 왔다）</l></lg><lg type="stanza"><l>달빛이 흐릿하게 묻은</l></lg><lg type="stanza"><l>1990년산 TV 와</l></lg><lg type="stanza"><l>1968년산 내 몸은 검고 불룩하다</l></lg><lg type="stanza"><l>1968년산나는쭈그리고 앉아</l></lg><lg type="stanza"><l>1990년산TV를 영혼처럼 들여다본다</l></lg><lg type="stanza"><l>2</l></lg><lg type="stanza"><l>1990년산TV와 1968년산 나</l></lg></quote>.</s>
+          <s>생산년도가 있는 것들.</s>
+          <s>제품번호가 붙여진 것들.</s>
+          <s>뜨거운 것들.</s>
+          <s>뭉클거리는 것들.</s>
+          <s>어쩌자고 내 몸속에서 꺼지지 않는TV.</s>
+          <s>내 몸에게로 나를 송출하는TV.</s>
+          <s>난지도TV.</s>
+        </p>
+        <p>
+          <s>검고 불룩한 달속의 물 물속의 몸.</s>
+          <s>열 수 없는 우물.</s>
+          <s>끌 수 없는 창.</s>
+          <s>어둠 속에 웅크리고 있는 것들 퍼덕거 리 는것들3내 몸속엔 20년 전 죽었다는 썩지 않는 풍문의 아버지가 하나.</s>
+          <s>녹슨 삽 하 나.</s>
+          <s>녹슨눈물한방울.</s>
+          <s>고철로구겨진 발둘.</s>
+          <s>뼈와쇠숟가락.</s>
+        </p>
+        <p>
+          <s>모래로채워진 산 양의 눈둘.</s>
+          <s>깨진 거울.</s>
+          <s>비닐봉지.</s>
+          <s>지는 별.</s>
+          <s>지는봄 지는봄의 등에 걸린 지는 해.</s>
+          <s>수평선을 넘지못하는 해 속의 물 돌밭.</s>
+          <s>한밤의 검고 불룩한TV.</s>
+          <s>TV에 병 렬 케이블로 연결된 무덤이 둘.</s>
+        </p>
+        <p>
+          <s>또 둘.—「<title level="a" type="poem" xml:id="t-tv">검고 불룩한 TV</title>와나j 전문이 시에서 보여주는 W와 “弋의 풍경은 서로 닮았다.</s>
+          <s>七^도 B도 “검고 불룩하^고 U제품번호와 “<quote type="direct" genre="poet">생산년도</quote>”가 있는 하나의 사물로서 동일한 공간을 점유하고 있다.</s>
+          <s>이 시에서 미디어 기기와 개인이 맺는 관계는 좀 더 복잡한 방식을 보여준다 구체적으로, <term type="concept">TV</term>는 PT가 바라보는 존재일 뿐 아 니라 이미 鹏 몸속”에 들어와 있다.</s>
+          <s>%], 몸岑에 들어온 “<term type="concept">TV</term>” 화면은 3 년 전 죽었다는” “<quote type="direct" genre="poet">아버지</quote>”의 “<quote type="direct" genre="poet">풍문</quote>”, “녹슨 智과 “<quote type="direct" genre="poet">녹슨 눈물 한 방울</quote>”, "뼈 와 쇠숟가락＞, “<quote type="direct" genre="poet">지는 별</quote>” 등 “나”의 체험이 배어 있는 오래된 사물과 자연 풍경들을 비춘다.</s>
+          <s>“나”는 “<quote type="direct" genre="poet">〜가 나를 송출하는</quote>” 광경을 “<quote type="direct" genre="poet">영혼처럼 들여 다본다</quote>”.</s>
+          <s>물끄러미 “나”를 건너다보듯이 “<quote type="direct" genre="poet">들여다본다</quote>”.</s>
+          <s><persName ref="#p-x9">이원</persName>의 시에서 <term type="concept">TV</term>는 단지 신기한 장난감 같은 새로운 <term type="concept">미디어</term> 장치에 그 치지 않는다.</s>
+          <s><term type="concept">TV</term>는 일상의 개인을 매개하고 반영하며 개인의 이미지를 생 산해낸다.</s>
+        </p>
+        <p>
+          <s>이 시에서 그린 TV와 "나”의 전도된 위치-<term type="concept">사물화된 나</term>와 오 히려 인간의 풍경을 담은 皿의 모습은 미디어를통해 매개되며 증식하고 <term type="concept">소외</term>되는 <term type="concept">인간의 욕망</term>을 문제적으로 형상화한다.</s>
+          <s><persName ref="#p-x9">이원</persName> 시에서 B는 내 안의 <term type="concept">타자</term>이다.</s>
+          <s>W는 P『 안의 죽은 기억, <term type="concept">억제된 자아의 욕망</term>, 박제된꿈을 매우 낯선 화면처럼 자아 앞에 들이댄다.</s>
+          <s>그 낯선 <term type="concept">타자</term>의 형상은, 또 한편, 언젠가 본듯한 영화의 한 장면이나 광고 화면처럼 지극히 익숙하고 상투적인 얼굴을 보여준다.</s>
+          <s>TV가 방영하는 타자의 이미지는, 수많은 '그 들 중의 하나이자 또한 그들 로부터 <term type="concept">소외</term>된 나 의 형상을 각인시킨다이 시의 마지막 부분에서 그리고 있듯이, <persName ref="#p-x9">이원</persName>에게는 삶의 마지막 자락 인 “무덤“<quote type="direct" genre="poet">마저도 N와 總렬 케이블로 연결</quote>”된 <term type="concept">가상의 이미지</term>로 등장한 다 삶과 죽음의 풍경이 모두 “<quote type="direct" genre="poet">스스로 운동하는</quote>"뒤표지 이미지로 진회^하 고, 인간의 내면 풍경 또한 매끈한 화면 속에 건조하게 제시되는 상황，시 인 이원의 시적 촉수는 바로 이 지점을 향하고 있다.</s>
+          <s>그렇다면 시인은 자신 이 그린 “전자사空의 메커니즘과 그것이 만들어내는 <term type="concept">가상적 현실성</term>, 그리 고 <term type="concept">시의 창조적 이미지</term> 사이에 어떤 경계와 구분을 세우고 있을까.</s>
+          <s>미디어 가 만들어내는 이미지의 범람 속에서 <term type="concept">시적 이미지</term>의 관계와 위치는 어떻게 설정할 수 있을까.</s>
+          <s>이 같은 질문들은 새로운 매체 환경에서 입체적이고 능 동적인 이미지를 추구하는 <persName ref="#p-x9">이원</persName>의 시에 여전히 과제로 남게 될 것이다.</s>
+        </p>
+        <p>
+          <s>패체의 변주, 감각의 난장（亂場）<date from="2000" to="2009">2000년대</date>의 시에는 <term type="concept">청각적 이미지</term>가 짙게 나타난다.</s>
+          <s><date from="2000" to="2009">2000년대</date> 시에 '소 리 가 강하게 발현되는 현상은 우선 문학이 <term type="concept">문자매체</term>의 제한된 범위를 벗 어나 새로운 창작과 향유 방식을 시도하는 상황과 관련되어 있다.</s>
+          <s>특히 음 악, 영화, 만화 등의 다양한 장르, 문화적 코드와 빈번하게 교류하는 동안, 오늘의 시는 풍부한 매체 경험과 지각（知覺） 현상으로 들끓고 있다.</s>
+          <s>최근 많은 <interp value="neutral" ana="문학관">평론가들의 비평 대상으로 등장하는 김경주의 시를 보자.</interp></s>
+          <s>자 신의 영혼을 “<quote type="direct" genre="poet" source="부재중">오래 비워둔 방 안에서 저 혼자 울리는 전화 수신음 같은 것</quote>” （「<title level="a" type="poem" xml:id="t-x10">부재중</title>」으로 비유하는 <persName ref="#p-x4">김경주</persName> 시에서 갖가지 소리들은 시공을 초월해 “<quote type="direct" genre="poet" source="어느 유년에 불었던 휘파람을 지금 창가에 와서 부는 바람으로 다시 보는 일">깊 게 울린다■</quote>”（「<title level="a" type="poem" xml:id="t-x11">어느 유년에 불었던 휘파람을 지금 창가에 와서 부는 바람으로 다시 보는 일</title>」）.</s>
+          <s>가려 "<quote type="direct" genre="poet" source="부재중"><lg type="stanza"><l>몇십 년 전 어느 식민지의 추적추적한 처형장에서 누군가</l></lg><lg type="stanza"><l>이쪽으로 걸어두고 바닥에 내려놓은 수화기를 통해 흘러나오는 댕강댕강 목 잘리는 소리커</l></lg></quote>（「<title level="a" type="poem" ref="#t-x10">부재중</title>J）라든가 “워크맨이 “<quote type="direct" genre="poet" source="내 워크맨 속 갠지스">귓속에 몇천 년의 갠지스를 감고 돌리는</quote>” 소리C<title level="a" type="poem" xml:id="t-x12">내 워크맨 속 갠지스</title>」）들이 그러한 예들이다.</s>
+          <s>다른 시간 다른 장소에서 들려오는 이 소리들은, 흥미롭게도, 전화”, “워크맨', “휴대 전화｝ 같은 <term type="concept">미디어 장치</term>를통해 매개되고 있다.</s>
+          <s><term type="concept">문명의 테크놀로지</term>는"<quote type="direct" genre="poet">몇천 년 갠지스</quote>”,"<quote type="direct" genre="poet">몇십 년 전 어느 식민지</quote>”의 아득한 풍경들과 대비되면서, 두 곳의 <interp value="affirmative" ana="미학">시차（時差）를 뚜렷하게 부각시키는 기능을 한다.</interp></s>
+        </p>
+        <p>
+          <s>서로 멀리 떨어진 두 개의 시공간은 미디어 기기를 통해서 거의 기적 같은 소통에 다다르고 있 다 그런데 이들 기계가 실어오는 것은 단지 소리 만이 아니다.</s>
+          <s>열두 살이 되는 밤부터 라디오 속에 푸른 모닥불을 피운다워크맨은 귓속에 몇천 년의 갠지스를 감고 돌리고 창틈으로 <quote type="direct" genre="poet">죽은 자들</quote>이 강물속에서 꾸고 있는 꿈냄새가올라온다혹은그들이 살아서 미처 꾸지 못 한꿈 냄새가 도시의 창문마다 홀러내리고 있다.—「<title level="a" type="poem" ref="#t-x12">내 워크맨 속 갠지스</title>） 부분음향 기기인 “워크맨”이 “죽은 자들”의 “꿈 냄人F를 실어오듯, <persName ref="#p-x4">김경주</persName>의 시에는 가깝고 먼 곳에서 들려오는 소리”들 뿐만이 아니라 시각, 후각, 촉 가 미각 등 오감을 열어젖히는 <term type="concept">통감각적인</term> 표현들이 자주 둥장한다 예를 들어, “바람에 어두운 물소리가 실려옵니다P<title level="a" type="poem" xml:id="t-x13">아우라지</title>」）라든가, “눈덩이만 한 나프탈렌과 함께/서랍 속에서 일생을 수줍어하곤 했을/어머니의 오래 된 팬티 한 장/푸르스름한 살 냄새 속으로/그 드물고 정하다는 햇볕이 포근 히/엉겨 붙나니.</s>
+          <s>”（「어머니는 아직도 꽃무늬 팬티를 입는다」） 등과 같은 표현들 은 <interp value="affirmative" ana="미학">냄새와 소리, 빛깔과 온기가 서로 뒤섞이면서 독자의 잠재된 감각들을 일깨워낸다</interp>.</s>
+          <s>아래 시에서도 마찬가지다.</s>
+          <s>비가 오면 책을 펴고 조용히 불어넣었을 눅눅한 휘파람들이 늪이 돼 있다 작은 벌레들의 안구 같기도 하고 책 속에 앉았다가 녹아내린, 작은 사원들 같 기도한문자들이 휘파람에 잠겨 있다나무들을흔들고 물을 건너다가 휘파람 은 이 세상에 없는 길로만 흘러가고 흘러온다 대륙을 건너오는 모래바람 속에 도 누군가의 휘파람은 등에처 럼 섞 인다 나는 어느 유년에 불었던 휘파람을 지 금 창가에 와서 부는 바람으로 다시 본다 마을을 바라보는 짐승들의 목젖이 박쥐처럼 젖어 있다나는 그때 식물이 된 막내를 업고 어떤 저녁 위로 내 휘파 람이 진화되어 고원을 넘는 것을 보았다 아버지의 등 뒤에 숨어서 바라보던 밤의 저수지, 인간의 시간으로 잠들고 깨어나던 부뚜막의 한기 같은 것들을 생각하고 있다면 누이야 자전거를 세워두고 나는 너보다 작은 휘파람을 불어 보기도 했다 그런 때에 휘파람에선 어떻게 환한 아카시아 냄새가 나는지 쇠 속을 떠난종소리들은 어떻게 손톱을 밀고 저녁이 되어 다시 돌아오는지 누이 야 지금은 네 딸에게 내가 휘파람을 가르치는 사위 쓸쓸한 입술의 냄새를 가 진 바람들이 절벽으로 유배된 꽃들을 찾아간다 절벽과 낭떠 러지의 차이를 묻 는다一「<title level="a" type="poem" ref="#t-x11">어느 유년에 불었던 휘파람을 지금 창가에 와서 부는 바람으로 다시 보는 일</title>」부분.</s>
+          <s>“<quote type="direct" genre="poet">종소리</quote>”, “<quote type="direct" genre="poet">휘파람</quote>” 소리, “<quote type="direct" genre="poet">입술의 냄새</quote>”, “<quote type="direct" genre="poet">아카시아 냄새</quote>”, “<quote type="direct" genre="poet">부뚜막의 한 기</quote>” 등이 서로 어우러지는 가운데, 위의 시는 가히 <interp value="affirmative" ana="미학">다양한 감각들의 향연장 을 방불케 한다</interp>.</s>
+          <s>이 시에서 주목할 부분은, 이처럼 <term type="concept">통감각적인</term> 지각 현상의 배면에 시간의 흐름이 전제되어 있다는 점이다.</s>
+          <s>“<quote type="direct" genre="poet">유년에 불었던 휘파람</quote>”이 “진화'하고 또한 “<quote type="direct" genre="poet">종소리</quote>”가 “저녁이 되어 다시 돌아오는* 것처럼, “유년” 이었던 나”는 어느덧 성장해 “<quote type="direct" genre="poet">누이</quote>”의 어린M딸에게^ “<quote type="direct" genre="poet">휘파람을 가르치</quote>”고 있다.</s>
+        </p>
+        <p>
+          <s>그런데 이때 <term type="concept">시간의 흐름</term>은 감각적 현상이 운동하는 과정을 따라 이 끌려간다.</s>
+          <s>즉 <quote type="direct" genre="poet">制파람</quote>”이 “<quote type="direct" genre="poet">흘러가고 홀러</quote>”오고 “<quote type="direct" genre="poet">고원을 넘</quote>”어갈 때, “나”의 “<term type="concept">유년</term>”의 시간은 성큼, 어린 조카의 “유년”으로 변화해 있다.</s>
+          <s>이처럼 <term type="concept">시간의 흐름</term>에 감각의 운동이 더해지는 과정에서, 서로 다른 장르와 매체의 특 성이 영향을 주고받으며 통합되는 방식은 주목할만하다.</s>
+          <s>1인칭 화자의 고 백이라는 <term type="concept">서정시</term>의 기본 원리를 수용하고 있는 이 시에는 끊어질 듯 이어 지는 음악의 리듬이 기본적인 바탕을 이룬다.</s>
+          <s>어절 단위의 음절수를 조절 하고 구두점 하나 없이 “〜다•二 “<quote type="direct" genre="poet">〜지</quote>”라는 서술형 어미를 반복하며 강한 리 듬감을 유지하고 있다.</s>
+          <s>그에 더해 시간의 진행과 역전이라는 <term type="concept">서사</term>의 기법을 활용하면서 41<term type="concept">유년</term>” 시절의 이야기에 덧붙여 그 시절, 어느 한 정지된 장면의 감각적 특성을 강하게 환기시킨다.</s>
+          <s>“<quote type="direct" genre="poet">누이야 자전거를 세워두고 나는 너보다 작은 휘파람을 불어보기도 했다 그런 때에 휘파람에선 어떻게 환한 아카시 아 냄새가 나는지</quote>”와 같은 구절이 그러한 여】가 된다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">김경주의 시는 음악과 서사 장르의 원리를 수용하고, 다른 시간, 다른공간을 매개하는 월경（越境） 과 동시성의 상상력을 보여준다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>
+            <interp value="affirmative" ana="미학">이처럼 매체와 장르의 특성을 끌어오고, 격리된 시공（時空）을 매개하는 김경주 시의 통합적 상상력은 서정시를 기초 를 이루는 통감각적 체험의 폭을 확대시키는 한 계기가 되고 있다.</interp>
+          </s>
+          <s><persName ref="#p-x4">김경주</persName>와 마찬가지로 <persName ref="#p-x3">강정</persName> 역시 시 창작의 기원을 음악에 두고 있는 시 인이다.</s>
+          <s>록밴드의 리드보컬을 맡고 있는 <persName ref="#p-x3">강정</persName>에게 음악적 에너지의 파동은 시적 창조의 기본 토대를 이룬다.</s>
+          <s>그에게서 음악과 시의 에너지가 통합되 어 어떤 창조를 이루어내는 과정은 몸의 감각이 바로 그 시적 창조의 순간 과 어우러지는 장면을 포함한다.</s>
+          <s><quote type="direct" genre="poet" source="거미인간의 시 -하오의 독백">나는 그 무심한 눈길 속을 거슬러 들어가 심장 표면의 섬모들 하나하나에 서 진동하는 습진 음악을 꺼내오곤 한다 그때, 내 몸은 아주 조금 움직이는 듯 보인다 날 보는 인간은두려움 때문이라고 생각할 것이다 그 자족적인 우월감 에 양념을 치듯 나는 더 몸놀림을 빨리한다 （……） 다리 끝에서 불꽃이 번지듯 황흘한진동이 울려퍼진다 내 안에 숨어 있던 음악이 조금씩 거세지는 인간의 맥박속에 뒤섞인다 그 희미한 선율의 길을 따라 나는 점점 인간으로부터 멀 어진다</quote>—r<title level="a" type="poem" xml:id="t-x14">거미인간의 시 -하오의 독백</title>」부분내 감각은 서늘한공기 속에서 빛난다감각이 열릴 때, 세상 도처가나의 거처다온몸으로 버석거리며 알을 까는 햇빛.</s>
+          <s><quote type="direct" genre="poet" source="거미인간의 시-새벽거미"><lg type="stanza"><l>중세의 투구처럼 곧게 반짝이는 이마를 세우며</l></lg><lg type="stanza"><l>물기 진득한 어둠의 올들을 풀어 펼친다 아스러지는 햇빛의 차양 아래 더 강한 빛으로 확산하는</l></lg><lg type="stanza"><l>어둠의 가닥 71닥들</l></lg></quote>—「<title level="a" type="poem" xml:id="t-x15">거미인간의 시-새벽거미</title>」부분.</s>
+          <s><persName ref="#p-x4">김경주</persName>의 시가 한 편의 시에서 <term type="concept">통감각적</term>인 특성을 보여주고 있다면, <persName ref="#p-x3">강정</persName> 의 두 편의 시는 시적 자아의 <term type="concept">감각 지각 체험</term> 자체를 시적 대상으로 삼고 있 다 강정은 弋『 몸의 변화, 내 감각”의 운동에 집중한다.</s>
+          <s>그가 말하듯 “<quote type="direct" genre="poet" source="강정">음 악이 가지고 있는 불가항력적인 우연성</quote>”（<persName ref="#p-x3">강정</persName>）과 마찬가지로, IMT 안에서 시작된 감각의 운동은 어디로 튈 지 알 수 없다.</s>
+        </p>
+        <p>
+          <s>위의 시 두 편에서 강정은 5 몸에서 펼쳐지는 감각의 화려한 난장（亂場）을 언어로 형상화한다.</s>
+          <s>그 에게 그 과정은 "내 감각「을 “<quote type="direct" genre="poet">온몸으로</quote>” 열어젖히며 세상과 반응하는 길이 며, 그리하여 外 몸”의 총체적인 변화를 통해 타자와 적극적으로 소통하는 길이다.</s>
+          <s>시가 지향하는 궁극의 길인 이 길이 강정에게는 동시에 음악의 길 이고 자신의 감각에 충실하게 반응하는 길이기도 하다 강정 시의 매력은 이 과정에서 그의 시가 담지하고 있는 에너지에 있다.</s>
+          <s>그리고 그 폭발적 힘 이란, “<quote type="direct" genre="poet">내 몸을 찢</quote>”어서라도 타자에게 반향하려는 의지, 그를 통해 결국은 타자와 屮가 모두 새롭게 «태어나기를” 바라는 강한 열망에서 비롯될 것 이다.</s>
+          <s>“<quote type="direct" genre="poet">우는 아이</quote>”를 위해 매 몸을 바꾸어서라도 “<quote type="direct" genre="poet">엄마가 되고 싶은</quote>” 그의 육체적 감각과 강렬한 타자지향*을 오래도록 기억해두어야 할 것이다.</s>
+          <s>우는 아이만 보면 엄마가 되고 싶어우는 아이만 보면 엄마를 낳고 싶어마침내 우는 아이를 내 몸에 다시 넣어기어이 우는 아이가 내 몸을 찢고 다시 태어나기를우는 아이야우는 아이야(•••…)네 울음 속에 어미를 담가다오어미를 낳아다오—엄마도운단다」부분미디어 환경의 변화와 시의 미래문학을 둘러싼 매체 환경의 변화는, 다른 관점에서 보자면, 곧 대중이 일 상에서 하이 테크놀로지의 수혜를 누리게 되었다는 것, 그리고 그로 인해 인간의 감각 지각 방식이 변화하고 있다는 것을 의미한다.</s>
+          <s>컴퓨터 자판을 두드려 글을 쓰고 컴퓨터 조판 방식을 활용하기 시작하면서 작품의 스타일 과 문학의 생산~유통 방식이 변화했듯이, 일상을 변화시키는 미디어의 영 향력은 분명 문학의 환경과 문학 언어 그 자체를 변화시 키고 있다.</s>
+          <s>전화를 받고, 문자를 보내고, 메일을 확인하고, 잠시 블로그에 접속하고 몇 개의 인터넷 카페를 들러보는 일은, 매일, 수시로, 반복적으로 이루어진다.</s>
+        </p>
+        <p>
+          <s>생활 을 위해 혹은 세계와 소통한다는 거창한 이유로 <term type="concept">미디어</term>를 사용 하거나 단 지 낄낄거리며 미디어와 노는 이런 일들은 <term type="concept">글쓰기</term>와 따로 경계를 두고 벌어지는 것이 아니다.</s>
+          <s><term type="concept">글쓰기</term>란 결국 몸 이 거주하는 생활환경에서 시작 되는 일이기 때문이다.</s>
+          <s>돌이켜보면, <term type="concept">매체 환경</term>에 따른 <term type="concept">문학의 변화</term>는 비단 최근의 일이 아니다.<date when="1900">20세기</date> 100년 동안 우리는 이미, <term type="concept">신문</term>과 <term type="concept">잡지</term>, 유성기와 라디오, 전화 그 리고 TV오｝ 영화가 문학의 풍경과 스타일을 바꾸고, 장르의 경계를 뒤흔드 는 현상을 목격해왔다.</s>
+          <s>이렇게 본다면 <term type="concept">근대문학</term>은 새로운 <term type="concept">미디어</term>의 탄생 및 발전과늘함께 해왔고, <term type="concept">매체 환경</term>의 변화속에서 자신의 昔을바꾸어 왔다고 해도 과언이 아닐 것이다.</s>
+          <s>가려 <date from="2000" to="2009">2000년대</date>의 시는<date when="1900">20세기 초반</date>의 시 와 얼마나, 현격히 달라져 있는가.</s>
+          <s>
+            <interp value="neutral" ana="미학">발랄하고 과감하고 때로 과격한 오늘의 시는, （오늘의 시각에서 볼 때） 고상하고 심각하고 때로 과징되고 우울하기 짝이 없는 그때의 시와는 분명히 다른 얼굴을 하고 있다.</interp>
+          </s>
+          <s>그러나 또 다른 한편에서 보자면, <interp value="neutral" ana="문학관">자아와세계를 변혁시키려던 20세기 초반 시인들의 열정 과 괴로움은, 시적인 것을 찾아 헤매는 오늘의 시인들과 여전히 닮아 있 다.</interp></s>
+          <s>지난 100년간 시는 <term type="concept">타자</term>를 자신의 “<quote type="direct" genre="poet">몸에 다시 넣</quote>”고 “<quote type="direct" genre="poet">몸을 찢</quote>'어 다시 낳으며 거듭 변화해왔다.</s>
+        </p>
+        <p>
+          <s><term type="concept">미디어</term>는 시가그렇게 자신의，몸에 넣은，여럿의 타자 가운데 하나이다<date from="2000" to="2009">2000년대</date> 시의 풍경은 최근 시인들이 매우 다양한 방식으로 새로운 미 디어 경험과 그것이 가져온 <term type="concept">감각 지각 방식</term>의 변화를 가져오고 있음을 보 여준다.</s>
+          <s><term type="concept">다매체</term> 수용과 지각 경험은 기본적으로 감각에 기초한 시의 원리 를 추구하는 길이자 ‘<term type="concept">시적인 것</term> 의 체험과 구현 방식을 확장시키는 길이기 도 하다 최근 우리 시단의 풍성한 성과와 넘치는 에너지는 분명，눈부시게 빠르고 다변적이며 순식간에 다수를 연결시키고 '뚫어버리는 <term type="concept">매체 환경</term> 의 변화와 결코 무관하지 않다.</s>
+          <s>그러고 보면, 한없이 느리고 게으른 산책자 이자 몽상가였던 우리 시인들도.</s>
+          <s>이만하면 그럭저럭 <term type="concept">디지털 환경</term>에 잘 적 응해온 셈이다.</s>
+          <s>온몸을 열어젖히고 감각의 촉수를 예민하게 감지하면서, <term type="concept">미디어</term>의 SHOW 를 즐기고 때로는 SHOW 를 하며, 그리고 "몇천 년의 갠지스와 “<quote type="direct" genre="poet">유년</quote>”의 制파皆을 기억하면서.</s>
+          <s>그런데 또 한 가지 잊지 말아야 할 것이 있다.</s>
+          <s><term type="concept">미디어</term>는 말과 이미지를 매개하는 네트워크이자 <term type="concept">자본</term>과 <term type="concept">테크놀로지</term>의 네트워크이기도 하다는 것 미디어의 숨 가쁜 발전은 시간과 공간을 초월하는, 광범위하고 즉각적인소통을 가능하게 했지만, 그 소통의 관계 속에는 엄연히 <term type="concept">자본의 논리</term>가 작 동하고 있다.</s>
+          <s>그러므로 <interp value="neutral" ana="사회">과연 어떻게 살아남을 것인가.</interp></s>
+        </p>
+        <p>
+          <s>감각적인 <term type="concept">미디어</term>의 수혜가 아니라 미디어의 <term type="concept">시장성</term>이 미치는 침투력을 어떻게 견뎌낼 것인가.</s>
+          <s>만약 지금 우리의 시인이 신체 一 <term type="concept">테크놀로지</term> - 문화 一 <term type="concept">글로벌 자본</term> 사 이에 맺어지는 <term type="concept">퍼포먼스</term>4)의 현란함에 취해 있다면, <interp value="critical" ana="문학관">그는 이미 20여 년 전 한 시인이 그린 다음과 같은 풍경의 의미를 곰곰이 되짚어 봐야 할 것이다.</interp></s>
+          <s>개인의 일상에 뻗치는 <term type="concept">미디어</term>-말과 이미지, 정치와 <term type="concept">자본</term>을 매개하는 네트 워크의 가공할 위력 속에서, 시, 시적인 것이 “<quote type="direct" genre="poet" source="무서운음악">어두운 음핵의 태초강정</quote>, 「<title level="a" type="poem" xml:id="t-x16">무서운음악</title>」)와같이 “<quote type="direct" genre="poet" source="무서운음악">쇳덩이</quote>”의 무게를 이겨내기 위해서는.</s>
+          <s>저녁을 먹고, <quote type="direct" genre="poet"><lg type="stanza"><l>세일즈맨 김모돌씨는 텔레비전을</l></lg><lg type="stanza"><l>켠다.</l></lg></quote></s>
+          <s>
+            <quote type="direct" genre="poet">광막한 우주 속으로 게으르게, 또는 비현실적으로 흰 쇳덩이가유영하는 게 보인다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>고요하게</l>
+              </lg>
+              <lg type="stanza">
+                <l>녹물을 흘려보낸다.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">우주는 녹물을 타고 외롭게 선을 따라들어 김모돌 씨의 안방에서 펼쳐진다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">그는 우주 속에서 벗어나 텔레비전 밖에 누워 있다.</quote>
+          </s>
+        </p>
+        <p>
+          <s>그는다만볼수있을뿐이다.</s>
+          <s>하나님도 <term type="concept">민주주의</term>도 <term type="concept">자유</term>도 <term type="concept">혁명</term>도 그의 집 방에 들어온다 그는 다만 볼 수 있을 뿐이다.</s>
+          <s>그는 다만 볼 수 있을 뿐만 아니라, 여차하면 텔레비전 꺼버릴 수도 있다.</s>
+          <s>그 일만은 누구보다도 당당하게 해낼 수 있다.</s>
+          <s><quote type="direct" genre="poet" source="우주선1"><lg type="stanza"><l>딤배를 피우는 김모돌 씨의 게으른 연기 속으로</l></lg><lg type="stanza"><l>우주선도 안테나가 붉게 녹슬어 어둠 속으로</l></lg><lg type="stanza"><l>무엇인가가 어슴푸레히 녹아내리는 게 보인다.</l></lg></quote>4) <persName ref="#p-x5">요시미 순야</persName>, 앞의 책하을, 2007), 13쪽그리고 그 다음 그 녹물 속으로 새로운 쇳덩 이의 싹이솟아오르는 것이 보인다.</s>
+          <s>저런 저러 김모돌씨는 마른침을 삼킨다.</s>
+          <s>그것은 무서운 광경이다.— <persName role="poet" xml:id="p-x10">이하석</persName>,「<title level="a" type="poem" xml:id="t-1">우주선1</title>, （〈<title level="j" type="journal" xml:id="t-x17">실천문학</title>〉제3권 <date when="1983">1983</date>） 부분25） 이 시는 <persName role="critic" xml:id="p-x11">김수이</persName>의「<title level="a" type="critic" xml:id="t-x18">현재의 시의 가능한 '정치적 변화들</title>」C<title level="j" type="journal" ref="#t-x17">실천문학</title>』, <date when="2007">2007</date>년 봄호에서 재인용하 였다.</s>
+          <s><persName ref="#p-x">김신정</persName>20이 년〈<title level="j" type="journal" ref="#t-x17">실천문학</title>〉등단.</s>
+        </p>
+        <p>
+          <s><orgName xml:id="org-x3">연세대</orgName> 학부대학 교수.</s>
+          <s>본지 편집위원 저서「<title level="m" type="critic" xml:id="t-x19">정지용 문학의 현대성</title>」이 있음.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

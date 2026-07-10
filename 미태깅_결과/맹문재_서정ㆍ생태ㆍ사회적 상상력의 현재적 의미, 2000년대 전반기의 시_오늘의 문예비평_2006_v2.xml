@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>서정ㆍ생태ㆍ사회적 상상력의 현재적 의미, 2000년대 전반기의 시</title>
+        <author>맹문재</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>서정 • 생태 • 사회적 상상력의 현재적 의미—2000년대 전반기의 시맹<persName role="poet" xml:id="p-1">문재1</persName><persName role="poet" xml:id="p-x">이장욱</persName>, <persName role="poet" xml:id="p-x2">김행숙</persName>, <persName role="poet" xml:id="p-x3">장석원</persName>, <persName role="poet" xml:id="p-x4">이근화</persName>, <persName role="poet" xml:id="p-x5">김태형</persName>, <persName role="poet" xml:id="p-x6">황병승</persName>, <persName role="poet" xml:id="p-x7">진수미</persName>, <persName role="poet" xml:id="p-x8">김이듬</persName>, <persName role="poet" xml:id="p-x9">유형 진</persName>, <persName role="poet" xml:id="p-x10">이민하</persName>, <persName role="poet" xml:id="p-x11">김민정</persName>, <persName role="poet" xml:id="p-x12">김근</persName>, <persName role="poet" xml:id="p-x13">신해욱</persName>, <persName role="poet" xml:id="p-x14">김언</persName>, <persName role="poet" xml:id="p-x15">김참</persName>, <persName role="poet" xml:id="p-x16">이재훈</persName>……• <date when="2006">2006년 1월</date> 이 즈음의 한국 시단에서 주목받는 소위 <term type="concept">2635세대</term>들의 시작품을 보면 C 카 스토리아디스가 제시한 <term type="concept">상상적인 것</term>1）이 떠오른다.</s>
+          <s>시인들의 시는 <term type="concept">상상적 인 것에 의한 혁명</term>을 지향하는 것인가?</s>
+          <s>또는 <term type="concept">블루오션</term>2) 시라고 볼 수 있 는가?</s>
+          <s>또는 <term type="concept">제3의 길</term>3)시라고 볼 수 있는가?</s>
+          <s>아니면 <term type="concept">주관주의</term>에 빠져 '있 는 것인가?</s>
+          <s>또는 인터넷 바다에 떠다니는 단어들은 주워서 배열한 것에 불과한 것인가?</s>
+          <s><persName role="foreigner" xml:id="p-x17">카스토리아디 스</persName>는 <term type="concept">소비에트 체제의 관료제</term>를 분석하면서 <term type="movement">마르크스주 의</term>에 대한 근본적인 재검토를 수행했다.</s>
+          <s>그 결과 <term type="movement">마르크스주의</term>는 서구적1）	<persName role="foreigner" xml:id="p-corneliuscastoriadis">Cornelius Castoriadis</persName>, <persName role="scholar" xml:id="p-x18">양운덕</persName> 옮김,i『<title level="m" type="foreign" xml:id="t-x">사회의 상상적 제도</title>』, <orgName xml:id="org-x">문예줄판사</orgName>, 1994.2）	<persName role="other" xml:id="p-x19">김위찬</persName> ’ <persName role="foreigner" xml:id="p-reneemauborgne">Renee Mauborgne</persName>, <persName role="critic" xml:id="p-x20">강혜구</persName> 옮김,『<title level="m" type="foreign" xml:id="t-x2">블루오션 전략</title>』（<orgName xml:id="org-x2">교보문고</orgName>, 2005） 참조.</s>
+        </p>
+        <p>
+          <s>3） <persName role="foreigner" xml:id="p-anthonygiddens">Anthony Giddens</persName>, <persName role="scholar" xml:id="p-x21">한상진</persName> • <persName role="other" xml:id="p-x22">박찬욱</persName> 옮김,『<title level="m" type="foreign" xml:id="t-3">제3의 길</title>j（<orgName xml:id="org-x3">생각의 나무</orgName>, <date when="1999">1999</date>） 참조.</s>
+          <s><term type="movement">이성 중심주의</term>와 <term type="movement">과학주의</term>, <term type="concept">법칙주의</term>, <term type="concept">경제결정론</term> 등에 갇혀 변화하는 세 계를 제대로 설명하지 못했다고 비판했다.</s>
+          <s><term type="movement">마르크스주의</term>는 사회와 역사 를 <term type="concept">결정론</term>의 틀로 가두어버림으로써 인간의 자율성과 창의성을 제약했다 고 본 것이다.</s>
+          <s>그리하여 <persName ref="#p-x17">카스토리아디스</persName>는 그 대안으로 <term type="concept">상상적인 것</term>을 제 시했다.</s>
+          <s><term type="concept">상상적인 것</term>이 사회 제도를 구성하는 숨겨진 원천이라고 보고 그 것의 창조적인 힘을 내세운 것이다.</s>
+          <s><persName ref="#p-x17">카스토리아디스</persName>가 <term type="concept">상상적인 것</term>을 주장한 것은, 그것에 의해서만 <term type="concept">혁명</term> 의 힘이 생긴다고 보았기 때문이다.</s>
+          <s>그는 <term type="movement">마르크스주의</term>와 같은 <term type="concept">결정론적 법칙</term>에 의해서는 사회를 근본적으로 변화시키기가 불가능하다고 진단했 다.</s>
+          <s><term type="concept">혁명</term>이란 정해진 이론에 따라 수행되는 것이 아니라 한 인간의 자율 적인 행위에 의해서만 가능하다고 본 것이다.</s>
+        </p>
+        <p>
+          <s>따라서 <term type="concept">상상적인 것</term>은 모든 합리성을 넘어서는 독창적인 세계인식= 어떤 필연성이나 논리로부터 해방되어 <term type="concept">사회적 실천</term>의 토대가 되는 것이다.</s>
+          <s><persName ref="#p-x17">카스토리아디스</persName>는 현대 세계는 합리성에 지나친 토대를 두어 <term type="concept">상상적인 것</term>의 원천이 제거되고 있다고 보았다.</s>
+          <s>경제적, 기술적 합리성은 <term type="concept">상상적인 것</term>을 배제하고 사회와 인간의 가치를 작동하는 기계로 여긴다는 것이다.</s>
+          <s>그 결과 인간과 사회는 목표를 상실한 채 <term type="concept">효율성</term>이라는 형식의 추구에 매달린다.</s>
+          <s>사회는 결코 고정된 목표로 진행되지 않고, 반복되지도 않고, 또한 순환되거나 연속적으로 진행되지도 않는데, <term type="movement">마르크스주의</term>는 닫힌 인식으로 세계를 바라보았다는 것이다.</s>
+          <s>이와 같은 <persName ref="#p-x17">카스토리아디스</persName>의 주장은 <interp value="neutral" ana="사상">마르크스주의를 엄격하게 비판한 것이지만, 반마르크스주의는 아니다.</interp></s>
+          <s>그와 같은 근거는 <persName role="foreigner" xml:id="p-x23">프로이트</persName>의 <term type="concept">무의 식이론</term>이나 <persName role="foreigner" xml:id="p-x24">라캉</persName>의 <term type="concept">욕망이론</term>이나 <term type="movement">구조주의</term>를 비판한 사실에서 볼 수 있 다.</s>
+          <s>그리고 모든 사고를 거부하는 <term type="movement">허무주의</term>나 <term type="movement">폭력주의</term>에 반대한 것에서 도 볼 수 있다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x17">카스토리아디스</persName>는 어떤 이론에 의해 모든 문제를 해결할 수 있다는 입장을 거부함과 아울러 모든 이론과 진리를 거부하는 <term type="concept">허무주의</term>나 <term type="concept">폭력주의</term> 역시 거부한 것이다.</s>
+          <s><persName ref="#p-x17">카스토리아디스</persName>는 현대 사회는 <term type="movement">마르크스주의</term>의 역사적 영향력이 후퇴 한 반면 모든 것을 돈으로 만들 수 있다고 현혹시키는 <term type="concept">자본주의</term>가 등장 함에 따라 타락하고 있다고 보았다.</s>
+          <s>또한 각종 테러 집단의 등장이나 사 이버 종교에서 볼 수 있듯이 <term type="concept">자본주의</term>의 도피 수단으로 <term type="concept">허무주의</term>가 성행 하고 있다고 보았다.</s>
+          <s>그렇다면 <persName ref="#p-x17">카스토리아디스</persName>가 내세운 대안이란 어떤 것인가?</s>
+          <s>그는 구체 적인 해답을 내놓지는 않았지만, <term type="concept">상상적인 것을 통한 사회제도의 형성</term>과 그 극복의 가능성을 내세웠다.</s>
+          <s>제도적인 법칙이 아니라 주체적인 인간들 에 의한 세계인식과 실천을 제시한 것이다.</s>
+          <s>그는 현대세계를 지배하는 과 도한 <term type="concept">이성주의</term>를 극복하고 그것을 넘어서는 새로운 사회를 형성하기 위 해서는 지적인 참여가 필요하다고 보았다.</s>
+          <s>사회와 역사가 어떻게 변화할 것인가를 끊임없이 질문해야 한다는 것이다.</s>
+        </p>
+        <p>
+          <s>이와 같은 사고는 사회와 역 사의 바깥에서 이루어질 수 없다.</s>
+          <s>“<quote type="direct" genre="poet">그렇지만 극복할 수 없는 이율배반으 로서 사변적 이성에 나타나는 것은 우리가 역사에 관한 고찰을 세계, 특 히 인간세계에 관한 이론적 해명에 대한 우리의 기획에 재통합할 때, 그 리고 우리가 세계를 변혁시키기 위해서 세계를 해석하려는 우리 노력의 일부를 볼 때, 의미 변화를 겪는다一진리를 당 노선에 종속시키는 것이 아니라, 우리 생활의 자율적인 활동으로서, 즉 명료한 창조적인 활동으로 서 그 충실한 현실성을 부여하기 위하여, 명시적으로 해명과 행위, 이론 과 실천의 명료한 통일을 설정함으로써 그렇게</quote>”句 하는 것이다.4)	“And yet, what appears to speculative reason as an insurmountable antinomy undergoes a change of sense when we bring the consideration of history back into our project of the theoretical elucidation of the world, and in particular of the human world, when we see in it a part of our effort to interpret the world in order to change it——not by subordinating truth to the party line but by explicitly establishing the articulated unity between eluddacion and action, between theory and practice, in order to give our life its2앞에서 소개한 <term type="concept">2635세대 시인들</term>의 작품에서는 아쉽게도 <term type="concept">사회 혁명</term>을 위한 힘을 갖기가 어렵다.</s>
+          <s>그들의 상상적인 것은 <term type="concept">사회 혁명</term>을 지향하기보 다 개인적이고 주관적인 성향을 띠고 있다.</s>
+          <s>이와 같은 조짐은 <date when="2001">21세기</date>에 들어서면서 <persName role="poet" xml:id="p-x25">박상순</persName>, <persName role="poet" xml:id="p-x26">함기석</persName>, <persName role="poet" xml:id="p-x27">이수명</persName>, <persName role="poet" xml:id="p-x28">연왕모</persName>, <persName role="poet" xml:id="p-x29">성미정</persName>, <persName role="critic" xml:id="p-x30">정익진</persName>, <persName role="poet" xml:id="p-x31">변종태</persName>, 변의 수, <persName role="poet" xml:id="p-x32">조말선</persName>, <persName role="poet" xml:id="p-x33">정재학</persName> 등의 작품에서 개별적으로 혹은 단편적으로 보였는데, <date when="2005">2005년</date>에 들어서는 집단적으로 혹은 광범위하게 본격화되고 있다.</s>
+          <s>2635 세대의 시인들은 사회의 각 분야에서와 마찬가지로 시단에서 주도 세력 으로 위치해 있는 <term type="concept">386세대의 시인들</term>에 대해 전면전까지는 아니라고 할지 라도 거센 도전을 하고 있는 것이 사실이다.</s>
+          <s>어느 시대에나 <term type="concept">기성세대</term>에 대한 <term type="concept">신세대</term>의 도전이 있는 만큼 <interp value="neutral" ana="문학관">자연스러운 현상이라고 볼 수도 있지만, 시단의 향방을 가늠해볼 수 있기에 주목된다.</interp></s>
+          <s><term type="concept">기성세대</term>에 대한 <term type="concept">신세대</term>의 도전 중에서 <interp value="neutral" ana="사회">가장 과격했고 도전적인 예는 386세대가 행한 것이었다.</interp></s>
+          <s>사회의 <term type="concept">민주화</term> 및 <term type="concept">평등화</term>란 시대적 과제를 행 동으로까지 실천한 <interp value="affirmative" ana="사회">그들의 도전은 명분을 얻었고 목적한 바도 이루었다.</interp></s>
+        </p>
+        <p>
+          <s><persName role="poet" xml:id="p-x34">박노해</persName>와 <persName role="poet" xml:id="p-x35">백무산</persName>, <persName role="poet" xml:id="p-x36">황지우</persName>와 <persName role="poet" xml:id="p-x37">박남철</persName> 등으로 이어진 시는 서로 형식이 달랐 지만, 기성세대에 도전하는 의식은 유사했다.</s>
+          <s><term type="concept">노동시</term>라는 장르와 <term type="concept">해체시</term> 라는 장르는 기존의 시 규범으로 보면 비시적인 것이었지만, 시문학의 영 역 확대와 사회적 의미를 보편화시키는데 크게 기여한 것이다.</s>
+          <s>그렇다면 <term type="concept">2635세대 시인들</term>의 도전이 <term type="concept">386세대 시인들</term>이 했던 것만큼 시단에 영향을 줄 수 있을까?</s>
+          <s>
+            <interp value="neutral" ana="문학관">그것은 단언하기가 어렵다.</interp>
+          </s>
+          <s><interp value="critical" ana="사회">2635세대 시인들의 명분이 386 세대들의 경우보다 약하기 때문이고</interp>, 점점 <term type="concept">자본주의</term>가 심화되어 <term type="concept">물질주 의</term>가 지배함으로 인해 인간 정신의 푯대인 시문학의 위의가 상실될 수밖full reality as autonomous activity, that is as lucid, creative activity.</s>
+          <s>”（<persName role="foreigner" xml:id="p-comeliuscastoriadis">Comelius Castoriadis</persName>, <persName ref="#p-x18">양운덕</persName> 옮김, 앞의 책, pp.</s>
+          <s>2%~297）에 없기 때문이다.</s>
+          <s>따라서 <interp value="affirmative" ana="사회">사회적 상상력의 차원에서는 이전 시대의 현실참여 의식을 잇 는 시인들을 주목할 필요가 있다.</interp></s>
+        </p>
+        <p>
+          <s>비록 <date from="1980" to="1989">1980년대</date>처럼 사회에 대한 관심이 왕성하지는 않지만 <term type="concept">사회적 배분</term>과 <term type="concept">역사의 진보</term>를 일상과 내면에 여전히 안고 있는 것이다.</s>
+          <s>그와 같은 면은 <persName ref="#p-x34">박노해</persName>, <persName ref="#p-x35">백무산</persName>의 시가 <term type="concept">자기 성찰</term>로 변 화한 데서 일단 볼 수 있다.</s>
+          <s>그들의 시는 <persName ref="#p-x17">카스토리아디스</persName>가 <term type="movement">마르크스주의</term> 를 비판한 것처럼 <interp value="affirmative" ana="사상">이념에 대한 맹목적인 신념을 반성하고 있다는 점에서 긍정할 수 있다.</interp></s>
+          <s>
+            <interp value="neutral" ana="사상">현재의 삶으로부터 도피하는 혐의를 주고 있다는 점에서 우려가 되는 것도 사실이지만 변절이라고 보이지는 않는다.</interp>
+          </s>
+          <s>21세기에도 <term type="concept">민중</term>의 삶은 억압되고 있으므로 <persName ref="#p-x17">카스토리아디스</persName>가 제시한 <term type="concept">지적 참여</term>가 필요한 것이다.</s>
+          <s><term type="concept">민중</term>의 억압은 <date when="1997">1997년 11월 21일</date> <orgName xml:id="org-imf">IMF</orgName>에 구제금융 지원을 요청하면서 더욱 심해졌다.</s>
+          <s><orgName ref="#org-imf">IMF</orgName>로 인해 밀어닥친 <term type="movement">신자유주의</term>의 경제조건으로 <term type="concept">민중</term>들 의 삶은 벼랑 끝으로 내몰리고 있는 것이다.</s>
+          <s><orgName ref="#org-imf">IMF</orgName>는 요청한 금융을 제공하 는 대신에 여러 가지 경제조건을 제시했는데,5）그 바람에 국내 시장은 세 계 <term type="concept">자본</term>의 투기장이 되었다.</s>
+        </p>
+        <p>
+          <s>그리고 <term type="concept">자본</term>의 토대가 약한 국내 기업들은5）	그 내용은 다음과 같다.①긴축통화정책을 실시하여 시장금리를 상승시킨다.</s>
+          <s>②부실한 기업과 금융기 관은 도산시킨다.</s>
+          <s>=든 은행은 건전성을 유지하기 위해 <term type="concept">BIS 자기자본 비율</term>（자 기자본/총위험자산）을 8%이상 유지한다.</s>
+          <s>©무역 관련 보조금과 수입 다변화제 도를 폐지한다.</s>
+          <s>⑤외국인 주식투자 한도는 1997년 말까지 현재의 6%에서 50% 로 확대하고, 외국 은행이 국내 은행의 주식을 4% 초과하여 매입하는 것을 허 용하며, 외국인의 국내 단기 금융상품 매입을 무제한 허용하고, 국내 회사채 시 장에 대한 외국인 투자를 제한 없이 허용한다.</s>
+          <s>⑥<term type="concept">재벌</term>의 경영은 투명성을 확보 해야 하고 계열사들 사이에 상호 채무보증을 해소해야 한다.</s>
+          <s>⑦기업의 적대적 인수와 합병을 허용한다.</s>
+          <s>⑧<term type="concept">노동시장의 유연성</term>을 증대시키기 위해 <term type="concept">정리해고제</term> 와 <term type="concept">근로자 파견제</term>를 도입하고, 실업자를 구제하기 위해 <term type="concept">고용보험제도</term>를 강화한 다.</s>
+        </p>
+        <p>
+          <s>⑨<orgName ref="#org-imf">IMF</orgName>자금은 <date when="P3M">3개월</date> 단위로 지원 조건 이행을 점검한 뒤 단계적으로 추가 지원한다.</s>
+          <s>（<persName role="scholar" xml:id="p-x38">김수행</persName>,『<title level="m" type="other" xml:id="t-21">21세기 정치경제학</title>』, 새날, <date when="1998">1998</date>, pp.</s>
+          <s>251-252）도산할 수밖에 없었고, <term type="concept">실업</term>이 넘쳐났다.</s>
+          <s>이제 <term type="concept">민중</term>들은 사회의 <term type="concept">혁명</term>에 대한 관심보다도 <term type="concept">실업</term>의 그림자로부터 어떻게 하면 벗어날 수 있을까를 고민하고 있다.</s>
+          <s>따라서 <term type="concept">자본주의</term>의 폭압에 대항하는 것은 간단한 문제가 아니다.</s>
+          <s>하루하루의 일상이 철저히 <term type="concept">자본의 논리</term>에 휩쓸릴 수밖에 없는 상 황이기 때문이다.</s>
+          <s><term type="movement">신자유주의</term>는 자신의 이익을 추구하느라 모든 시장을 개방시키고 재편 시킨다.</s>
+          <s>무역과 투자를 가로막는 장벽을 제거하기 위해 투자협정을 맺고, 상품과 서비스를 자유롭게 거래하기 위해 <term type="concept">노동시장</term>을 유연화시킨다.</s>
+        </p>
+        <p>
+          <s>환 경 및 <term type="concept">노동</term> 관련 규제를 폐지하고, 외국 자본의 차별화를 사전에 막는다.</s>
+          <s>그린필드 투자와 같이 생산적이고 국내산업의 발전에 도움을 주기보다는 자산매입과 기업인수 등의 <term type="concept">투기</term>에 몰두한다.</s>
+          <s>그리하여 지배받는 국가는 수출이 증가해도 내수시장을 계속 회복시키지 못한다.</s>
+          <s>또한 <term type="concept">노동시장의 유연화</term>로 인해 <term type="concept">비정규직 노동자</term>가 급증하고, 임금 격차가 심화되고, 상위 층 소득과 하위층 소득의 격차가 더욱 커진다.</s>
+          <s>
+            <interp value="critical" ana="사회">신자유주의의 횡행으로 인해 한국 경제는 주체성을 잃고 있다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="사회">강성노 조와 좌파적인 정부의 분배 강조가 경제성장에 걸림돌이라는 주장은 타 당성이 없다.</interp>
+          </s>
+          <s><term type="concept">노동자들</term>의 임금은 계속 하락하고 있고 <term type="concept">비정규직</term>들은 생계 조차 유지하기 힘든 상황이다.</s>
+          <s>따라서 정부는 부동산 정책에서 여실히 드 러나고 있듯이 혼란한 정책을 바로잡고, <term type="concept">투기</term>성 외국 자본에 대한 적절한 규제 장치를 마련해야 한다.</s>
+        </p>
+        <p>
+          <s><term type="movement">신자유주의</term>의 도래로 인해 <term type="concept">자본가</term>들은 <term type="concept">노동자</term>와의 관계에서 보다 유리 한 위치를 점하고 있다.</s>
+          <s>노조와의 협상에서 불리하면 공장을 폐쇄하거나 경제적으로 낙후된 국가에 이전시킬 수 있다.</s>
+          <s>설령 그렇게 하지 않더라도 그 가능성만0-루도 위협효과가 크다.</s>
+          <s>실제 <term type="movement">신자유주의</term>의 본격화로 인해 <term type="concept">노조</term> 활동은 위축되었고 <term type="concept">노동 조건</term>은 불안하다.</s>
+          <s><term type="concept">노동자들</term>의 임금은 감소 했고, <term type="concept">구조조정</term>으로 인해 수많은 노동자들이 일터에서 쫓겨났다.</s>
+          <s>그리하여 <quote type="indirect" genre="other">착취 받는 슬픔보다 착취 받지 못하는 슬픔이 더 크다는 자조적인 말</quote> 이 유행어처럼 나돌고 있다.</s>
+          <s>
+            <interp value="affirmative" ana="사회">따라서 신자유주의 시대에 능동적으로 대응하는 사회적 상상력이 요구 된다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="사회">경제 상황이 나아지면 노동자들의 노동 조건이 개선되고 임금이 향 상될 것이라는 막연한 기대를 버리고, 열악한 현실을 극복할 수 있는 길 을 모색해야 한다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>각종 시민단체와 연대하고, 비전이 있는 정치 세력을 만들어내는 것도 필요하다.</s>
+          <s>그와 같은 것을 이루어내는 지적 참여가 필요 한 것이다.2000년대 전반기의 시단에서 그 가능성은 <orgName xml:id="org-x4">전태일문학상</orgName> 수상작들의 작 품들을 비롯해 <orgName xml:id="org-x5">전국노동자문학회</orgName> 회원들의 작품들, ＜<orgName xml:id="org-x6">일과시</orgName>＞ 동인 작품 들, <persName role="poet" xml:id="p-x39">김기홍</persName>, <persName role="poet" xml:id="p-x40">김신용</persName>, <persName role="poet" xml:id="p-x41">정세기</persName>, <persName role="poet" xml:id="p-x42">공광규</persName>, <persName role="critic" xml:id="p-x43">맹문재</persName>, <persName role="poet" xml:id="p-x44">최종천</persName>, <persName role="poet" xml:id="p-x45">오도엽</persName>, <persName role="poet" xml:id="p-x46">이승철</persName>, 김태 정, <persName role="critic" xml:id="p-x47">조혜영</persName>, <persName role="poet" xml:id="p-x48">이면우</persName>, <persName role="poet" xml:id="p-x49">박두규</persName>, <persName role="poet" xml:id="p-x50">송경동</persName>, <persName role="poet" xml:id="p-x51">임성용</persName>, <persName role="poet" xml:id="p-x52">표광소</persName>, <persName role="poet" xml:id="p-x53">문병학</persName>, <persName role="poet" xml:id="p-x54">서흥관</persName>, 김수 열, <persName role="poet" xml:id="p-x55">표성배</persName>, <persName role="poet" xml:id="p-x56">이종수</persName>, <persName role="poet" xml:id="p-x57">윤임수</persName> 등에 의해 기대할 수 있다.6）6）	다음의 작품이 한 시사점을 준다.</s>
+          <s>（<date when="2005">2005년</date> 제14회 <orgName ref="#org-x4">전태일문학상</orgName> 수상작이다.）（티베트의 수도승들은 비질을 하며 마당을 지난다.</s>
+          <s>산 것을 밟을까 조 심하는 것이다.）비둘기는 절룩거리는 것 같았다.</s>
+          <s>가까이 가 보니 다리에 철사가 옭매 어져 있었다.</s>
+          <s>퍼드덕퍼드덕 날기는 해도 통증 때문인지 이내 착륙하고 내 바쁜 걸음을 붙잡는다.</s>
+          <s>철사는 이미 살을 파고들었다.</s>
+          <s>빨리 돕지 않으 면 비둘기는 죽을 수밖에 없다.</s>
+        </p>
+        <p>
+          <s>물론 모두 죽는다.</s>
+          <s>그러나 모든 죽음은 고상한 그 무엇이어야 한다.</s>
+          <s>난 비둘기를 도우러 몇 번이나 다가갔다.</s>
+          <s>바 쁘다.</s>
+          <s>그럼에도 다가간 것이다.</s>
+          <s>헌데 비둘기는 몇 번이나 나를 피했고 매 번 날아올랐다가 다시 내려앉았다.</s>
+          <s>빨리 돕지 않으면 비둘기는 죽을 것 이다.</s>
+          <s>빨리 도착하지 못하면 점장에게 야단을 맞을 것이다.</s>
+        </p>
+        <p>
+          <s>어쨌건 빨리 비둘기를 잡지 않으면 안 되고 빨리 그 족쇄를 풀어주지 않으면 안 되고 빨리 비둘기를 날려주고 더 빨리 출근을 마쳐야 한다.</s>
+          <s>그래서 나는그냥 줄근했다.—<persName role="poet" xml:id="p-x58">이맹물</persName>,r<title level="a" type="poem" xml:id="t-x3">빠른 살해</title>」전문（『<title level="m" type="poem" xml:id="t-x4">비명-마이크로칩 공장</title>,, <orgName xml:id="org-x7">사회평론</orgName>, <date when="2005">2005</date>）3<term type="concept">21세기</term>를 특징짓는 키워드의 한 가지는 컴퓨터이다.</s>
+          <s>동시대에 살아가 는 사람들은 컴퓨터와 함께 먹고 자고 일하고 생활한다.</s>
+          <s>컴퓨터와 함께 사유하고 컴퓨터가 추천하는 대로 투자한다.</s>
+          <s>컴퓨터가 요구하는 대로 옷 을 차려입고 헤어스타일을 바꾸고 식사 습관을 가진다.</s>
+          <s>컴퓨터의 계산법 을 익히고 컴퓨터가 쓰는 말투를 따르고 컴퓨터의 관점에 따라 미래를 전망한다.</s>
+          <s>컴퓨터가 지배하는 시대의 가장 큰 문제는 <term type="concept">공동체 의식의 소멸</term>이다.</s>
+          <s>간 혹 대통령 선거라던가 월드컵 축구라던가 촛불 집회 등으로 공동체 의식 이 발현되기도 하지만, 점점 심화되는 <term type="concept">개인주의</term>의 흐름을 막지는 못한다.</s>
+        </p>
+        <p>
+          <s>더 이상 컴퓨터가 일상화되기 이전에 이루어졌던 <term type="concept">인정, 의리, 이해, 신뢰, 희생</term> 등이 회복되기는 어려워졌다.</s>
+          <s>사람들이 익명화된 섬에서 살아가는 한 다른 사람과 친밀감을 제고하기는 어려워진 것이다.</s>
+          <s>진정 인간과 이 세계와의 동화가 컴퓨터의 자판으로는 이루어질 수 없다.</s>
+          <s>상업적 <term type="concept">자본주 의</term>의 심화로 인해 인간은 더욱 컴퓨터 앞에서 <term type="concept">소외감</term>을 가지게 되는 것 이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">따라서 사람들이 비인간화되고 단자화된 존재로 전락한 이 시대에 서정시는 보다 의미를 지닌다.</interp>
+          </s>
+          <s><term type="concept">서정시</term>의 세계관은 <persName role="critic" xml:id="p-x59">김준오</persName>가『<title level="m" type="critic" xml:id="t-x5">시론</title>』에서 정립해 놓았듯이 <term type="concept">자아와 이 세계의 동일화</term>에 있다.</s>
+          <s>자아와 이 세계가 <term type="concept">일체감</term>을 갖는 것은 수동적인 반응이 아니라, 자아•가 세계와 함께하고 바람직한 이상향으로 변용시키 려는 능동적인 인식이다.</s>
+          <s>자아가 주체가 되어 세계와의 대립과 갈등을 극 복하고 <term type="concept">조화와 합일</term>을 추구하는 것이다.</s>
+        </p>
+        <p>
+          <s>따라서 컴퓨터와의 소통과는 다른 차원으로 이 세계와 동일화를 추구 하는 것이 필요하다.</s>
+          <s>이 세계의 존재를 진지하게 경청하고 이해하는 자세 가 요구된다.</s>
+          <s>정보의 전달과 수용의 역할만이 아니라 주체적으로 이해하고 포용하는 성숙된 인식이 필요한 것이다.</s>
+          <s>이 세계와의 동일화는 자신을 가치 없다고 여기고 대상에게 무조건 아부하거나 동의하거나 변명해서는 이루어질 수 없다.</s>
+          <s>또한 대상을 무시하고 자기의 주장만을 강조하거나 자 신의 잘못을 대상의 탓으로 돌려서도 안 된다.</s>
+          <s>뿐만 아니라 지나치게 대 상의 부정적인 측면만을 주시해서도 이루어질 수 없다.</s>
+          <s>따라서 이 세계와 공유하는 의식이, 상호간의 이해와 친밀감으로 의미를 창출하려는 자세 가 필요하다.</s>
+          <s>대상이 고정되지 않고 지속적으로 변화하고 있다는 사실을 인지하고 반영하려는 열린 인식이 있어야 하는 것이다.<date when="2000">21세기</date> 이전까지 <term type="concept">한국의 서정시</term>는 <term type="concept">노동시</term>로 대변되는 <term type="movement">참여시</term>와 <term type="movement">해체시</term> 로 대변되는 <term type="concept">실험시</term>와 대립적인 위치에 있었다.</s>
+        </p>
+        <p>
+          <s><term type="concept">서정시</term>의 입장에서 <term type="concept">참여 시</term>는 구호만을 내세우는 <term type="concept">선동시</term>에 불과했고, <term type="concept">실험시</term>는 난해한 지식의 나 열에 불과한 것이었다.</s>
+          <s>그러므로 <interp value="neutral" ana="미학">모순되고 폭력이 난무하는 세계를 정화 하는 서정시가 가장 가치 있다고 내세웠다.</interp></s>
+          <s>그렇지만 <term type="concept">서정시</term>는 변화하는 사회를 적극적으로 반영하지 못했기 때문에 주류가 될 수는 없었다.21세기에 들어 <interp value="neutral" ana="문학관">서정시의 위치는 상당히 달라졌다</interp>.</s>
+          <s>그 어떤 유형의 시보 다도 영역이 풍부한데, 그만큼 전통이 유구하다는 것을 보여주고 있는 것 이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">21세기에 들어 서정시는 낡고 보수적인 것으로 비춰지는 면을 많이 극복하고 있다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">전통이나 과거로의 회귀를 추구하는 것이 아니라 시의 형 식이 혼란스러운 시대에 진지하게 시의 내용을 담고 있는 것이다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">적극적 인 시대 인식에는 여전히 한계가 있지만, 섬세한 미를 갖추고 있고 성찰 의 깊이를 동반하고 있다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">인습적이고 기계적이고 단순한 반복성에 의지 하지 않는 창의성 또한 발휘하고 있다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>“<date when="2001">21세기</date>에 접어들면서 <term type="concept">서정시</term>의 가치가 새롭게 발견되고 있다.</s>
+          <s>흔히 <term type="concept">대중문화</term>의 시대로 불리는 지금의 현실에서 <term type="concept">서정시</term>의 위상이 더욱 제고된다는 사실 자체가 예사롭지 않은 징후가 아닐 수 없다.</s>
+          <s>여전히 가난한 일상의 상처와 고통이 도처에 자리 하고 있는 우리 사회의 모습을 의도적으로 은폐하는 <term type="concept">자본</term>과 도시의 문명적 세계는 허위성으로 가득 차 있다.</s>
+          <s>이러한 <quote type="direct" genre="critic">허위성을 걷어내는 가장 강 력한 시정신이 바로 서정적 진실의 세계이다</quote>”키라는 견해가 있을 정도인 것이다.2000년대 전반기의 <term type="concept">서정시</term>는 <persName role="poet" xml:id="p-x60">김기택</persName>, <persName role="poet" xml:id="p-x61">장석남</persName>, <persName role="poet" xml:id="p-x62">이진명</persName>, <persName role="poet" xml:id="p-x63">함민복</persName>, <persName role="poet" xml:id="p-x64">박정대</persName>, <persName role="poet" xml:id="p-x65">송찬호</persName> <persName role="poet" xml:id="p-x66">이윤학</persName>, <persName role="poet" xml:id="p-x67">박용하</persName>, <persName role="poet" xml:id="p-x68">박철</persName>, <persName role="poet" xml:id="p-x69">강연호</persName>, <persName role="poet" xml:id="p-x70">이정록</persName>, <persName role="poet" xml:id="p-x71">장철문</persName>, <persName role="poet" xml:id="p-x72">전동균</persName>, <persName role="poet" xml:id="p-x73">차창룡</persName>, <persName role="poet" xml:id="p-x74">문 태준</persName>, <persName role="poet" xml:id="p-x75">박형준</persName>, <persName role="poet" xml:id="p-x76">고찬규</persName>, <persName role="poet" xml:id="p-x77">정우영</persName>, <persName role="poet" xml:id="p-x78">유승도</persName>, <persName role="poet" xml:id="p-x79">배용제</persName>, <persName role="poet" xml:id="p-x80">박해람</persName>, <persName role="poet" xml:id="p-x81">박성우</persName>, <persName role="poet" xml:id="p-x82">조용미</persName>, <persName role="poet" xml:id="p-x83">정 끝별</persName>, <persName role="critic" xml:id="p-x84">이선영</persName>, <persName role="poet" xml:id="p-x85">나희덕</persName>, <persName role="poet" xml:id="p-x86">장대송</persName>, <persName role="poet" xml:id="p-x87">강신애</persName>, <persName role="poet" xml:id="p-x88">손택수</persName>, <persName role="poet" xml:id="p-x89">김선우</persName>, <persName role="critic" xml:id="p-x90">이희중</persName>, <persName role="poet" xml:id="p-x91">심재휘</persName>, <persName role="critic" xml:id="p-x92">이 홍섭</persName>, <persName role="poet" xml:id="p-x93">권대웅</persName>, <persName role="poet" xml:id="p-x94">반칠환</persName>, <persName role="poet" xml:id="p-x95">황인숙</persName>, <persName role="poet" xml:id="p-x96">조항록</persName>, <persName role="poet" xml:id="p-x97">김형술</persName>, <persName role="poet" xml:id="p-x98">한혜영</persName>, <persName role="poet" xml:id="p-x99">한정원</persName>, <persName role="poet" xml:id="p-x100">하선영</persName>, <persName role="poet" xml:id="p-x101">이 진영</persName>, <persName role="poet" xml:id="p-x102">고운기</persName>, <persName role="poet" xml:id="p-x103">고두현</persName>, <persName role="poet" xml:id="p-x104">정해종</persName>, <persName role="poet" xml:id="p-x105">박남준</persName>, <persName role="poet" xml:id="p-x106">김백겸</persName>, <persName role="poet" xml:id="p-x107">김경미</persName>, <persName role="poet" xml:id="p-x108">김상미</persName>, <persName role="poet" xml:id="p-x109">송종찬</persName>, <persName role="poet" xml:id="p-x110">윤 성학</persName>, <persName role="poet" xml:id="p-x111">윤성택</persName>, <persName role="poet" xml:id="p-x112">김종미</persName>, <persName role="poet" xml:id="p-x113">주종환</persName>, <persName role="poet" xml:id="p-x114">한명희</persName>, <persName role="poet" xml:id="p-x115">류외향</persName>, <persName role="poet" xml:id="p-x116">김왕노</persName> <persName role="poet" xml:id="p-x117">정유화</persName>, <persName role="poet" xml:id="p-x118">우대식</persName>, <persName role="poet" xml:id="p-x119">유 수연</persName>, <persName role="poet" xml:id="p-x120">김은숙</persName>, <persName role="poet" xml:id="p-x121">강경호</persName> <persName role="poet" xml:id="p-x122">조연호</persName>, <persName role="poet" xml:id="p-x123">이창수</persName>, <persName role="poet" xml:id="p-x124">안명옥</persName>, <persName role="poet" xml:id="p-x125">서안나</persName>, <persName role="poet" xml:id="p-x126">하재연</persName>, <persName role="critic" xml:id="p-x127">박현수</persName>, <persName role="poet" xml:id="p-x128">허 혜정</persName>, <persName role="poet" xml:id="p-x129">신용목</persName>, <persName role="poet" xml:id="p-x130">주병율</persName>, <persName role="poet" xml:id="p-x131">고영</persName>, <persName role="poet" xml:id="p-x132">김영산</persName>, <persName role="poet" xml:id="p-x133">최창균</persName>, <persName role="poet" xml:id="p-x134">류인서</persName>, <persName role="poet" xml:id="p-x135">이문숙</persName>, <persName role="poet" xml:id="p-x136">이병률</persName>, <persName role="poet" xml:id="p-x137">이영 주</persName>, <persName role="poet" xml:id="p-x138">하재영</persName>, <persName role="poet" xml:id="p-x139">이종암</persName>, <persName role="poet" xml:id="p-x140">권선희</persName>, <persName role="poet" xml:id="p-x141">이안</persName>, <persName role="critic" xml:id="p-x142">노춘기</persName>, <persName role="poet" xml:id="p-x143">이현승</persName>, <persName role="poet" xml:id="p-x144">여태천</persName> 등 헤아릴 수 없을 정도로 많은 시인들에 의해 진행되고 있다.8)7)	<persName role="critic" xml:id="p-x145">하상일</persName>, r<title level="a" type="critic" xml:id="t-x6">서정시의 변주, 일상시의 자리</title>」,『<title level="m" type="critic" xml:id="t-x7">전망과 성찰</title>』, <orgName xml:id="org-x8">작가마을</orgName>, <date when="2005">2005</date>, pp.</s>
+          <s>146〜164.8)	다음의 작품이 한 시사점을 준다.</s>
+          <s>(작품론은 <persName ref="#p-x43">맹문재</persName>,r<title level="a" type="critic" xml:id="t-x8">함께하는 눈, 멀리 보는 눈</title>」,『<title level="m" type="critic" xml:id="t-x9">현대시의 성숙과 지향</title>』, <orgName xml:id="org-x9">소명출판</orgName>, <date when="2005">2005</date>, pp.</s>
+          <s>13~18 참조•)김천의료원 6인실 302호에 산소마스크를 쓰고 암투병중인 그녀가 누워있다바닥에 바짝 엎드린 가재미처럼 그녀가 누워 있다나는 그녀의 옆에 나란히 한 마리 가재미로 눕는다가재미가 가재미에게 눈길을 건네자 그녀가 울컥 눈물을 쏟아낸다한쪽 눈이 다른 한쪽 눈으로 옮겨 붙은 야윈 그녀가 운다그녀는 죽음만을 보고 있고 나는 그녀가 살아온 파랑 같은 날들을 보고있다좌우를 흔들며 살던 그녀의 물 속 삶을 나는 떠올린다 그녀의 오솔길이며 그 길에 돋아나던 대낮의 뻐꾸기 소리며 가늘은 국수를 삶던 저녁이며 흙담조차 없었던 그녀 누대의 가계를 떠4지금 인류가 직면한 4가지 위기인 ＜<term type="concept">생태위기</term>＞ ＜<term type="concept">전쟁과 테러위기</term>＞ ＜ <term type="concept">새로운 빈부격차</term>＞ ＜<term type="concept">영혼의 불안</term>＞이라는 우리시대 삶의 핵심문제를 해 결하기 위해서는 ‘<quote type="direct" genre="poet">적은 소유로 기품 있게</quote>’ 살 수 있는 대안 삶의 창출이 절실하다는 생각입니다.</s>
+          <s>그 길은 ‘<quote type="direct" genre="poet">모스크바</quote>’도 아니고 ‘<quote type="direct" genre="poet">귀농공동체</quote>’도 아 니고 ‘<quote type="direct" genre="poet">뉴욕</quote>’도 ‘<quote type="direct" genre="poet">파리</quote>’도 아닙니다.</s>
+        </p>
+        <p>
+          <s>위의 인용문은 <date when="2004">2004년 12월 10일자</date> ＜<orgName xml:id="org-x10">인터넷 한겨레신문</orgName>:»에 실린 <persName ref="#p-x34">박 노해</persName>의 글 중의 일부이다.</s>
+          <s>위의 글에서 보듯이 <persName ref="#p-x34">박노해</persName>는 인류가 현재 직 면한 4가지 위기를 ‘<term type="concept">생태위기</term>’ ‘<term type="concept">전쟁과 테러위기</term>’ ‘<term type="concept">새로운 빈부격차</term>’ ‘<term type="concept">영 혼의 불안</term>’ 등으로 진단하고 있다.</s>
+          <s>이러한 인식은 그가 사노맹 사건으로 감옥생활을 하다가 <date when="1998">1998년</date> 8 • 15사면으로 석방되기 1년 전에 발표한 작 품r<title level="a" type="poem" xml:id="t-x10">세 발 까마귀</title>」에서 이미 보여준 것이다.</s>
+          <s>그는 작품에서 “나는 ‘아무 주의자’도 아니고 동시에 ‘모든 주의자’입니다/나는 지금 분명히 ‘한 생 각’을 다듬고 있습니다•/(■••)/굳이 당신이 요구하는 ‘••.</s>
+          <s>주의’의 사고로 말하 라면 나는/<quote type="direct" genre="poet" source="세 발 까마귀">비사회주의, 탈자본주의, 친생태주의, 친여성주의라고 해두지 요</quote>”라고 말했다.</s>
+          <s>그와 같은 인식이 21세기에 들어서도 <term type="concept">생태 문제</term>, <term type="concept">전쟁 문 제</term>, <term type="concept">지구적 빈곤</term>과 <term type="concept">소수자</term>의 고통, <term type="concept">영성</term>의 문제 등의 <term type="concept">진보 사상</term>으로 지속올린다두 다리는 서서히 멀어져 가랑이지고폭설을 견디지 못하는 나뭇가지처럼 등뼈가 구부정해지던 그 겨울 어느 날을 생각한다그녀의 숨소리가 느릅나무 껍질처럼 점점 거칠어진다나는 그녀가 죽음 바깥의 세상을 이제 볼 수 없다는 것을 안다한쪽 눈이 다른 쪽 눈으로 캄캄하게 쏠려버렸다는 것을 안다나는 다만 좌우를 흔들며 헤엄쳐 가 그녀의 물 속에 나란히 눕는다 산소호흡기로 들어마신 물을 마른 내 몸 위에 그녀가 가만히 적셔준다―<persName ref="#p-x74">문태준</persName>, r<title level="a" type="poem" xml:id="t-x11">가재미</title>」전문되고 있는 것이다.</s>
+          <s>
+            <interp value="neutral" ana="사상">박노해의 생태학적 인식은 최초의 것이거나 유일한 것이 아니라 일반 적인 것의 한 모습일 뿐이다.</interp>
+          </s>
+          <s>그만큼 우리의 <term type="concept">환경 인식</term>은 오랜 역사를 가 지고 있지는 않지만 상당한 담론을 축적하고 있는 것이다.</s>
+        </p>
+        <p>
+          <s>그와 같은 면 은 <date when="1991">1991년</date>에 창간된 ＜<title level="j" type="journal" xml:id="t-x12">녹색평론</title>＞과 같은 저널이나, ‘<orgName xml:id="org-x11">환경운동연합</orgName>’ 및 ‘<orgName xml:id="org-x12">녹색연합</orgName>’ 같은 환경운동단체의 결성에서 우선 볼 수 있다.</s>
+          <s>또한 <persName role="foreigner" xml:id="p-x146">아르네 네스</persName>(Arne Naess)를 위시한 <term type="movement">심증생택학</term>(deep ecology), <persName role="foreigner" xml:id="p-x147">머레이 북친</persName>(Murray Bookchin) 의 <term type="movement">사회 생태론</term>, 크로푸 트.</s>
+          <s>킨(Peter Kropotkin) 의 <term type="movement">생태아나키즘</term>, <persName role="foreigner" xml:id="p-x148">마 리아 미스</persName> 및 <persName role="foreigner" xml:id="p-x149">반다나 시바</persName>(Maria Mies &amp; Vandana Shiva)의 <term type="movement">에코페미니즘</term>, <persName role="foreigner" xml:id="p-x150">헬 레나 노르베리-호지</persName>(Helena Norberg-Hodge)의 체험 등 많은 외국 이론과 사례들이 소개된 것에서 볼 수 있다.</s>
+          <s>뿐만 아니라 <persName role="critic" xml:id="p-x151">김종철</persName>, <persName role="scholar" xml:id="p-x152">장회익</persName>, <persName role="other" xml:id="p-x153">장일순</persName>, <persName role="scholar" xml:id="p-x154">구도완</persName>, <persName role="scholar" xml:id="p-x155">이진우</persName>, <persName role="scholar" xml:id="p-x156">박이문</persName>, <persName role="critic" xml:id="p-x157">김용민</persName>, <persName role="scholar" xml:id="p-x158">박희병</persName>, <persName role="poet" xml:id="p-x159">김지하</persName>, <persName role="critic" xml:id="p-x160">최동호</persName> <persName role="critic" xml:id="p-x161">이남호</persName>, <persName role="critic" xml:id="p-x162">신덕룡</persName>, <persName role="critic" xml:id="p-x163">도정일</persName>, <persName role="critic" xml:id="p-x164">김성곤</persName>, <persName role="critic" xml:id="p-x165">이숭원</persName>, <persName role="critic" xml:id="p-x166">남송우</persName>, <persName role="scholar" xml:id="p-x167">구승회</persName>, <persName role="critic" xml:id="p-x168">김경복</persName>, <persName role="critic" xml:id="p-x169">송희복</persName>, <persName role="poet" xml:id="p-x170">임도한</persName> 등이 발 표한 <term type="concept">생태 담론</term>과, <persName role="poet" xml:id="p-x171">이형기</persName>, <persName role="poet" xml:id="p-x172">신경림</persName>, <persName role="poet" xml:id="p-x173">성찬경</persName>, <persName role="poet" xml:id="p-x174">이건청</persName>, <persName role="poet" xml:id="p-x175">정진규</persName>, <persName role="novelist" xml:id="p-x176">김원일</persName>, <persName role="novelist" xml:id="p-x177">김용 성</persName>, <persName role="essayist" xml:id="p-x178">최성각</persName>, <persName role="poet" xml:id="p-x179">김종성</persName> 등이 창작한 문학작품들에서도 확인된다.</s>
+          <s>이제 생태 문제는 특정 <term type="concept">계급</term>의 문제나 지역의 문제나 세대의 문제를 넘어 보편적이 고 포괄적인 것이다.</s>
+          <s>그럼에도 불구하고 국내의 환경 문제는 여전히 개선되지 않고 있다.</s>
+          <s><date when="2005">2005년 1월 27일</date> <orgName xml:id="org-x13">세계경제포럼</orgName>(World Economic Forum)이 스위스 다보스에 서 세계 각국의 환경지속성지수(Environmental Sustainability Index: ESI)를 평 가한 결과를 발표했는데, 한국은 146개국 중 122위를 차지한 것이 그 단 적인 증거이다.</s>
+          <s>환경지속성지수는 단순히 환경의 질만 평가하는 것이 아 니라 환경오염 부하, 취약인구집단의 보호 환경문제를 관리할 수 있는 사회 및 제도적 능력, 지구환경문제에 대한 기여도 등을 종합적으로 평가 한 것으로 그 나라의 환경적인 지속성의 전망을 나타낸다.9)이번 발표의 결과를 볼 때 앞으로도 환경이 나빠질 가능성은 높고, 그것으로 인해 경제적 및 사회적 부담이 커질 것이 예상된다.</s>
+        </p>
+        <p>
+          <s>또한 <term type="concept">기후변화</term> 등에 의해 발 생빈도가 높아지는 <term type="concept">자연재해</term>에 대한 대비 능력이 부족하고, 자연자원의 관리능력 역시 미비함을 보여주고 있다.</s>
+          <s>그만큼 우리의 <term type="concept">환경 문제</term>에 대한 개선 전망은 밝지 않은 것이다.<date when="2000">21세기</date>에 들어서 <term type="concept">생태시</term>의 창작 역시 매우 저조한 형편이다.</s>
+          <s>마치 전염 병처럼 번졌다가 흔적 없이 사라진 <date from="1950" to="1959">1950년대</date>의 <term type="movement">실존주의</term>나 <date when="1990">1990년 전후</date> 의 <term type="movement">포스트모더니즘</term>과 같은 인상을 갖게 된다.</s>
+          <s><term type="concept">생태시</term>의 산출이 저조한 것 은 시인들이 <term type="concept">환경 문제</term>를 심각하게 인식하지 않기 때문으로 볼 수 있다.</s>
+          <s>따라서 그 해결책 역시 제시하지 못하고 있는 것이다.</s>
+          <s><term type="concept">자연 환경</term>이 급속하게 무너지고 있는 모습은 어느덧 낯설지 않다.</s>
+          <s>현재 와 같은 속도로 자연이 훼손되고 문명이 진행된다면 머지않아 화석 연료 는 고갈될 것이고, 결국 지구의 종말이 다가올 것이다.</s>
+          <s>과학 기술의 진전 으로 인해 환경의 재난을 극복할 수 있다)는 주장도 있지만, 현재의 상 황으로 보아서는 동의하기가 어렵다.</s>
+        </p>
+        <p>
+          <s>오히려 지구의 종말에 대한 끔찍한 경고가 보다 설득력 있게 들리는 것이다.</s>
+          <s>“환경 문제가 발생한 이유는 비교적 단순하지만 그것을 극복할 수 있 는 방법은 단순하지 않다.</s>
+          <s>환경 문제는 비교적 독립적인 하나의 사회 문 제가 아니라 근대 문명의 토대와 관련된 문제이다.</s>
+          <s>현재의 근대 문명적 삶에 대한 근본적인 반성 없이 환경 문제를 생각할 수는 없”⑴는 것이다.</s>
+          <s>따라서 자본의 이익을 추구하기 위해 내는 과학기술의 속도를 제어하는 대안을 제레미 리프킨(Jeremy Mkin)이『엔트로피(Entropy)』에서 고민했듯이 생태시 역시 현실인식을 가져야 한다.</s>
+          <s>생태시의 세계인식이 현실로부터 유리되어서는 안 된다.</s>
+          <s>이 세계로부 터 멀리 떨어진 유토피아를 노래하는 몽상의 세계는 곤란하다.</s>
+          <s>생태시는 관념성과 추상성을 제거하고 삶의 구체성을 담보해야만 의의를 갖는다.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="미학">현실과 유리된 생태시는 실천성을 담보하지 못하고 내적 성찰도 갖지 못 한다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="미학">생태시는 당위성이 아니라 구체성을 가질 때 가치를 갖는다.</interp>
+          </s>
+          <s>이 세 계야말로 인간이 인간답게 새｝갈 수 있는 보금자리이고 <term type="concept">유토피아</term>인 것 이다.</s>
+          <s>
+            <interp value="affirmative" ana="사상">결국 생태시는 휴머니즘을 토대로 삼아』야 한다.</interp>
+          </s>
+          <s><term type="concept">생태시</term>의 상징어인 ‘<term type="concept">녹색</term>’이 오히려 상업적 브랜드로 팔리고 있는 현실에서 타락한 <term type="concept">자본주의</term> 에 대항하는 <term type="concept">사회적 상상력</term>이 필요한 것이다.<interp value="critical" ana="사회">2000년대 전반기의 시단에서, 특히 신세대 시인들의 작품에서, 생태시 의 가능성을 찾아보기는 힘들다.</interp></s>
+          <s>그만큼 <term type="concept">사회적 상상력</term>이 필요함을 느끼 는 것이다.</s>
+          <s>따라서 <persName ref="#p-x159">김지하</persName>, <persName role="poet" xml:id="p-x180">최승호</persName>, <persName role="poet" xml:id="p-x181">이선관</persName>, <persName role="poet" xml:id="p-x182">이하석</persName>, <persName role="poet" xml:id="p-x183">김명수</persName>, <persName role="poet" xml:id="p-x184">김광규</persName>, <persName ref="#p-x34">박노 해</persName>, <persName ref="#p-x35">백무산</persName>, <persName role="poet" xml:id="p-x185">고형렬</persName>, <persName role="poet" xml:id="p-x186">고재종</persName>, <persName role="poet" xml:id="p-x187">이문재</persName>, <persName role="poet" xml:id="p-x188">엄원태</persName> 등 기성세대 시인들의 지속적 인 작품 활동을 일단 기대해보기로 한다.</s>
+          <s>그）ma@§ 시인 ' 안양대 국문과 교수 mmunjae@hanmail.net12） 다음의 작품이 한 시사점을 준다.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="미학">（하상일은 문명적 현실과 생태적 이상향의 이분법을 나타낸다고 비판했다.</interp>
+          </s>
+          <s><persName ref="#p-x145">하상일</persName>, ''<title level="a" type="critic" xml:id="t-x13">오래된 미래로 걸어가는 산책자의 딜 레마</title>」, 앞의 책, pp.</s>
+          <s>205~214 참조.）<quote type="direct" genre="poet" source="비박"><lg type="stanza"><l>잣나무숲 속에는/ 전원이 없다/ 핸드폰을 끄고/ 침낭 속으로 들어가/ 얼굴을 내민다/ 내 얼굴과 어둠 사이에/ 아무것도 없다</l></lg><lg type="stanza"><l>마침내 언플러그드/ 빈틈없는 어둠/ 꿈 없는 잠/ 나는 탈주에 성공한 것이다</l></lg></quote>스I<persName role="poet" xml:id="p-x189">문재</persName>, r<title level="a" type="poem" xml:id="t-x14">비박</title>」부분9) http://www.enviroasia.infb/news/news_detail.php3ZK05012702K</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

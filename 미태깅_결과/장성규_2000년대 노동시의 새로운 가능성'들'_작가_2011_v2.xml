@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2000년대 노동시의 새로운 가능성'들'</title>
+        <author>장성규</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><date from="2000" to="2009">2000년대</date> <term type="concept">노동시</term>의 새로운 가능성'들'<persName role="critic" xml:id="p-x">장성규</persName></s>
+        </p>
+      </div>
+      <div type="section">
+        <head>1.	시적 리얼릐나라는 아포리아를 넘어서기</head>
+        <p>
+          <s><term type="concept">시적 리얼리티</term>라는 개념은 성립 가능한가?</s>
+          <s><date from="2000" to="2009">2000년대</date> <term type="concept">노동시</term>의 새로운 가 능성‘들7을 모색하기 위해서는 먼저 이에 대한 근원적인 성찰이 필요하다.</s>
+          <s>시 의 장르적 특성상 객관 현실을 ‘<term type="concept">총체적</term>’으로 ‘<term type="concept">반영</term>’하고, ‘<term type="concept">당파성</term>’에 기반하여 ‘<term type="concept">전망</term>’•을 제시하는 것은 원론적으로 불가능하다.</s>
+          <s>시적 형식이 소설의 형식과 는 달리 주체와 대상 간의 합일의 언어화에 적합하기 때문이다.</s>
+          <s>시적 형식은 주체와 대상 간의 단절을 설정하지 않으며, 따라서 시적 주체와 분리된 객관 현실이라는 개념 역시 성립되기 어렵다.</s>
+          <s>어일찍이 <term type="concept">식민지 시대</term>, <persName role="poet" xml:id="p-x2">임화</persName>가 단편서사사라는 형용모순의 형식을 고안했던것은 이에 기인한다.</s>
+          <s><term type="concept">시적 리얼리티</term>라는 개념 자체가 지니는 <term type="concept">아포리아</term>를 해 결하기 위해 그는 <term type="concept">단편서사시</term>라는 형식을 제안한다.</s>
+          <s>그러나 그는 곧 스스로이 형식을 부정할 수밖에 없었다.</s>
+        </p>
+        <p>
+          <s>왜냐하면 이 형식은 <term type="concept">시적 형식의 근원적인 전복의 미학</term>이 아니라, 시적 형식에 산문적 형식을 도입한 것에 멈추었기 때 문이다.80년대 활발히 창작-유통되던 <term type="concept">노동시</term> 역시 이 문제를 <term type="concept">미학적 층위</term>로 접근 하지 못했다.</s>
+          <s>물론 다양한 <term type="concept">노동시</term>의 형식적 실험이 전개되었으나, <interp value="critical" ana="미학">이 실험들 역시 임화의 경우와 마찬가지로 귀결되었다.</interp></s>
+          <s><term type="concept">이야기시</term>, <term type="concept">시사시</term>, <term type="concept">보고시</term> 등의 형식적 실험은 일정한 성취를 거두었으나 이는 엄밀하게 말해서 미학척 층위 의 성과라기보다는 시의 칭작-유통 과정에서의 문예운동적 층위의 성과라고 해야할것이다.</s>
+          <s>그렇다면 <date when="1990">90년대</date> 이후 급속한 <term type="concept">노동시</term>의 ‘붕괴’ 현상을 단지 현실에서의 정 세적 후퇴와 운동의 몰락만으로 해명하는 것은 편의적이다.</s>
+          <s>오히려 2000년 대 새로운 <term type="concept">노동시</term>의 가능성을 논하려는 지금, 우리에게 필요한 것은 <persName ref="#p-x2">임화</persName>의 발본적인 고민이다.</s>
+          <s>주체와 대상 간의 합일을 장르적 특징으로 하는 시적 형 식에 객관 ‘<quote type="direct" genre="poet">현실</quote>’의 문제를 어떻게 결합시킬 수 있을까?</s>
+          <s>비록 <persName ref="#p-x2">임화</persName>의 단편서 사시의 실험이 시적 형식과 산문적 형식의 절충으로 귀결됨으로써 스스로 부 정되었으나, 그가 보여준 시적 형식과 객관 현실 간의 미학적 관계맺음의 문 제제기는 여전히 유효하다.</s>
+          <s><term type="concept">시적 리얼리티</term>라는 개념이 근본적으로 성립하기 어려운 것은 주체와 대상 간의 합일의 지점에서 시의 미학이 생성되기 때문이다.</s>
+        </p>
+        <p>
+          <s>그러나 이 정언테제 에는 <term type="concept">균열</term>이 존재한다.</s>
+          <s>시적 주체는 단일하게 통일된 존재가 아니며, 시적 대 상 역시 중층적이며 비가시적인 형태로 현현한다.</s>
+          <s>따라서 주체와 대상 간의 <term type="concept">합일</term>이라는 시의 장르적 특성은 고정된 형식으로 나타나지 않는다.</s>
+          <s>주체와 대상 간의 <term type="concept">합일</term>은 결코 주체에 의한 대상의 <term type="concept">전유</term>가 아니기 때문이다.</s>
+          <s>주체와 대상의 끊임없는 충돌과 그 과정에서 새롭게 생성되는 관계의 장면이 바로 <term type="concept">시적 리얼리티</term>이다.</s>
+          <s>
+            <interp value="critical" ana="미학">임화가 간과했던 것이 이 지점이다.</interp>
+          </s>
+          <s>그는 <term type="concept">당파성</term>을 담지 한 주체를, 그리고 <term type="concept">식민지 근대성</term>의 모순을 내포한 대상을 선험적으로 설정 했다.</s>
+          <s>
+            <interp value="critical" ana="미학">따라서 주체와 대상 간의 충돌과 새로운 리얼리티는 발현될 수 없었다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>다만 이미 선험적으로 존재하는 주체와 대상의 <term type="concept">강박적인 재현</term>이 반복되었을 뿐이다.</s>
+          <s>그리고 <interp value="critical" ana="미학">이러한 한계는 80년대 노동시에까지 지속되며, 노동시의 급 격한 퇴조 역시 이미 내재되어 있던 미학적 한계에 의한 것이었다.</interp></s>
+          <s>이 글은 여기에서•출발한다j쓰저조3fa 대상 간의 충돌과 그 과정에서 생 성되는 새로운 관계의 장면을 <term type="concept">시적 리얼리티</term>라고 할 수 있을 것이다.</s>
+          <s>그렇다 면 <date from="2000" to="2009">2000년대</date>, 과거와는 다른 방식으로 이 <term type="concept">시적 리얼리티</term>의 긴장을 복원시키 는 징후들을 통해 새러운 <term type="concept">노동시</term>의 가능성을 모색할 수도 있을 것이다.</s>
+          <s>그 징 후들을 구체적인 작품들을 통해 살펴봄으로써 <persName ref="#p-x2">임화</persName>의 고민을 넘어서는 단초 를 마련하는 것.</s>
+          <s>이것이 새로운 <term type="concept">노동시</term>의 <term type="concept">미학</term>을 모색하는 비평의 몫이다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>2.	포획되지 않는 ‘흐름으로서의 노동’-백무산의 경우)</head>
+        <p>
+          <s><persName role="poet" xml:id="p-x3">백무산</persName>의 시적 변화를 살펴보는 것은 곧 우리 시대 <term type="concept">노동시</term>의 변화를 살펴 보는 것과 같다.</s>
+          <s><date when="1980">80년대</date> <term type="concept">노동시</term>에서 <term type="concept">보고시</term>라는 새로운 형식을 통해 현장적 구체성을 극대화한『<title level="m" type="poem" xml:id="t-x">동트는 미포만의 새벽을 딛고</title>』의 세계에서 90’년대 치열 한 자기 성찰과 철학적 사유를 보여준『<title level="m" type="poem" xml:id="t-x2">인간의 시간</title>』에 이르기까지 그의 시적 변화는 당대 <term type="concept">노동시</term>의 성과와 한계를 정확히 반영한다.</s>
+          <s>그렇다면 그가 <date from="2000" to="2009">2000 년대</date> 보여 주는 보동시의 성과와 한계는 무엇인가를 살펴보는 것은 새로운 노 동시의 가능성을모색하려는 이 글에서 핵심적인 비평적 작업일 것이다.<date when="2008">2008년</date> 발간된 그의 7번째 시집『<title level="m" type="poem" xml:id="t-x3">거대한 일상</title>/을 관통하는 시적 <term type="concept">리얼리티</term> 는 <term type="concept">노동</term> 개념의 발본적인 내파와 재구의 과정이다.</s>
+          <s>과거 숭고한 미적 대상으 로 형상화되었던 <term type="concept">노동</term>은 이제 그 자체가 인간의 구체적인 삶을 훈육하는, 그 리하여 <interp value="neutral" ana="사상">노동—기계를 강제하는 기제로 인식된다</interp>: ’<quote type="direct" genre="poet" source="졸음"><lg type="stanza"><l>시계의 시간은/ 내 몸을 묵살하고/ 자기테이프처럼 자화되었네/ 기계노동이 내</l></lg><lg type="stanza"><l>몸을 훈육해왔네/ 훈육되어 스스로 실토해온 시간</l></lg></quote>f졸음』부분）<quote type="direct" genre="poet" source="가지">내 어미는 기계였지요/ 나도 흘륭한 기계를 꿈꾸었지요/ 내 어미의 어미는 시계 였답니다/ （...）// 당신의 심장에도 기계가 뛰고 앗군요I 당신을 낳은 이도 시계였 군오</quote>（»=가지』부분）<quote type="direct" genre="poet" source="위인전">사회주의에서도 그는 위인이다/ 자본주의에서도 그는 절대적 위인이다/ 근면은 종교다 아니 노동은 인류의 종교다/ 근면이 탐욕의 다른 이름이 되어도/ 독점 훼 손 파괴 고갈 멸종 착취 전쟁이 근면의 다른 이름이 다 되어도/ 근면은 다 구원된 다/ 모든 근면은 하늘나라의 것이다// 한 시대가 가고 새로운 시대가 왔노라고 노 래하지만/ 그러나 아직도 그가 승리하고 있다</quote>f위인전J부분）<interp value="neutral" ana="미학">그에게 노동은 더 이상 숭고한 미적 대상이 아니다.</interp></s>
+          <s>나아가 <term type="concept">노동</term>은 단지 주 체 외부의 사물을 개조, 변화시키는 것이 아니라 바로 주체 자체를 포획하는 것으로 인식된다.</s>
+          <s>그것은 ‘몸’의 차원에서 운동하는 <term type="concept">훈육기제</term>이다.</s>
+          <s>이윤의 극 대화를 위한 “<quote type="direct" genre="poet" source="졸음">시계의 시간은/ 내 몸을묵살하고</quote>”, 결국 “<quote type="direct" genre="poet" source="졸음"><lg type="stanza"><l>기계노동이 내</l></lg><lg type="stanza"><l>몸을 훈육해</l></lg></quote>”온 것이다.</s>
+          <s>이 점에서 ‘<quote type="direct" genre="poet">모가지</quote>’가 비틀리는 닭과 나는 동일하다.</s>
+        </p>
+        <p>
+          <s>닭은 “<quote type="direct" genre="poet">시계</quote>”로서 “<quote type="direct" genre="poet">흘륭한 기계</quote>”를 꿈꾸었으며, 나 역시 <term type="concept">노동</term>의 <term type="concept">물신화</term> 속에서 “<quote type="direct" genre="poet">심 장에도 기계가 뛰고 있</quote>”는 “<quote type="direct" genre="poet">시계</quote>”일 따름이다.</s>
+          <s>이는 단지 <term type="concept">자본주의</term> 생산양식 의 문제만이 아니다.</s>
+          <s><term type="concept">생산력주의</term>로 인해 구체적인 삶과 <term type="concept">노동</term>의 패러다임을 변혁하지 못한 “<quote type="direct" genre="poet">사회주의에서도</quote>” 노동의 <term type="concept">물신화</term>는 극복되지 못했다.</s>
+          <s><persName role="critic" xml:id="p-x4">김수이</persName> 의 지적과 같이 이 지점에서 <persName ref="#p-x3">백무산</persName>은 “<quote type="direct" genre="critic">노동시는 근본적으로 재편된 현실을 반영해 노동과 노동자에 대한 개념을 재정비해야 하며, 노동시의 영토는 노 동현장을 넘어 인간의 삶과 세계 전체로 확대되어야 한다</quote>”）는 문제의식을 보 여준다.</s>
+          <s>
+            <interp value="affirmative" ana="사상">그는 이 지점에서 그 자체로 신성화되고 물신화된 노동 개념을 거부한다.</interp>
+          </s>
+          <s>이러한 <term type="concept">노동</term>은 삶의 다양한 분기점을 규율화된 <term type="concept">생산력</term>의 틀로 환원시킨다.</s>
+          <s>문제는 강고한 질서에 포획된 <term type="concept">노동</term>을 넘어 주체의 삶을 재구성하는 힘으로서 의 노동을 어떻게 재구성할 수 있느냐의 여부이다.</s>
+          <s>
+            <interp value="affirmative" ana="사상">백무산은 주체에 의한 대 상의 종속이라는 노동 개념을 내파한다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>이 고정된 <term type="concept">노동</term>은 대상에 의한 주체 의 재구성을 생성할 수 없기에 <term type="concept">죽은 노동</term>이다.</s>
+          <s>그는 대신 본원적 의미의 <term type="concept">노동</term> 개념에 대한 극한적 사유를보여준다.</s>
+          <s>본래 <term type="concept">노동</term>이 주체와 대상의 충돌을 통 한 <term type="concept">주체성</term>의 변화와 고양을 가능하게 했다는 것, 그러나=노동이 집적되 면서 대상이 주체에 의해 종속되어 노동이 더 이상 주체와 대상 간의 충돌을 매개하지 못한다는 것이 그의 근본적인 문제제기이다.</s>
+          <s>그는 다시 <term type="concept">산 노동</term>을 복원시키기 위해 주체와 대상 간의 충돌과 생성을 가능하게 하는8흐름으로 서의 노동’ 개념을 표줄힌다.</s>
+          <s><quote type="direct" genre="poet" source="생명의 이름으로">누구는 니를 민족에 가두려 하고/ 누구는 나를 국가에 가두려 하고/ 누구는 또 나를 제국에 가두려 하나// 나는 국토로부터 멀리/ 푸르고 망망한 곳에 있고자 한 다/ 민족은 나를 가두어놓고 차별하였고/ 국가는 내게 사슬을 채워놓고 착취하였 고/ 제국은 나를 노예로 삼고 전쟁기계로 만든다// 나를 누구의 국토라 말하지 마 라/ 어느 누구의 배타적 영토라 말하지 마라</quote>f<title level="a" type="poem" xml:id="t-x4">생명의 이름으로</title>』부분）<term type="concept">노동</term>이 주체에 의한 대상의 포획으로 현상힐' 때, 그 노동은 흐름을 멈추게 되며 결국 고정된 단일한 중심으로서의 주체를 강화할 따름이다.</s>
+          <s>본래 주체 와 대상 간의 충돌을 통해 주체의 재구성을 가능하게 했던 <term type="concept">노동</term>은 주헤에 종 속되는 순간 그 의미를 잃는다.</s>
+          <s>이런 맥락에서 ‘<quote type="direct" genre="poet">독도</quote>’를 “<quote type="direct" genre="poet" source="생명의 이름으로">누구의 국토</quote>”나 “<quote type="direct" genre="poet" source="생명의 이름으로">어느 누구의 배타적 영토</quote>”로 호명하는 것은 <term type="concept">노동</term>의 흐름을 ‘<term type="concept">민족</term>’이나 ‘<term type="concept">국가</term>’, 나아 가 ‘<term type="concept">제국</term>’으로 가두는 것에 다름 아니다.</s>
+          <s><term type="concept">민족</term>, <term type="concept">국가</term>, <term type="concept">제국</term>이 <term type="concept">죽은 노동</term>의 축적 의 다른 이름임을 상기한다면 이 시에서 ‘<quote type="direct" genre="poet">독도</quote>’는단지 지리적인 의미뿐만이 아니라, “<quote type="direct" genre="poet" source="생명의 이름으로">비주류와/ 하류계급과/ 아웃싸이더와/ 소수자이며/ 변방의 유민</quote>”의표상이다.</s>
+        </p>
+        <p>
+          <s>이들은 “<quote type="direct" genre="poet">한줌 가진 것에 기대 비굴하게 오염되어/ 열정을 잃어버 린</quote>” 죽은 <term type="concept">노동</term>의 집적물이 아니라, 바로 “<quote type="direct" genre="poet">희망 없는 ‘인류의 쓰레기’들과 땅을 잃은/ 뜨내기들</quote>”f기대와 기댈 곳J이다.</s>
+          <s><term type="concept">노동</term>의 흐름은 이들 간의 차이에 입 각한 <term type="concept">연대</term>를 통한 새로운 <term type="concept">주체성</term>의 형성으로 나아간다.</s>
+          <s>이 지점에서 생성되 는 <term type="concept">시적 리얼리티</term>가 <persName ref="#p-x3">백무산</persName>이 새롭게 제기하는 <term type="concept">노동시</term>의 가능성이다.</s>
+          <s>그 가 능성은 죽은 <term type="concept">노동</term>의 집적물인 중심이 아닌 주변에서, 노동의 규격화에 따른 <term type="concept">동일성</term>의 원리가 아닌 <term type="concept">이질성</term>의 원리에서, 그리고 주체와 대상의 이분법적 사유가 아닌 <term type="concept">흐름으로서의 노동</term>을 통한 이들 간의 충돌의 장면을 통해 현상 한다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이를 뛰어나게 시적 언어로 형상화 한 작품이 바로『비』이다.</interp>
+          </s>
+          <s><quote type="direct" genre="poet" source="비">나는 내린다/ 꿈은 언제나 솟아오르지만/ 쉄없이 쏟아져내린다/ 처음엔 과열된 꿈을 식히는/ 존재의 낭만적인 슬픔인가 했더니/ 속도는번득이는 모서리들을 허 물더니/ 형체들 알아볼수 없을 지경으로 낙하하더니/ 눈물보다 빠른 속도로 추락 하더니// 난파선처럼 자신을 허물기 시작했네/ 손에 들린 것 몸에 실린 것/ 애당 초 몇푼어치 되지 않은 것들도/ 마음으로 들고 있던 억만금도 태산도 내던졌네/ 내던지고서야 속도가 늦추어지네 멈찻/ 비눗방울처럼 둥실 떠올랐네// 그러자 바 닥이 달려오네/ 사막과 타는 자갈밭이 달려오네 이마에 가까워오네/ 남은 일은 종 말을 기다리는 일 산산이 부서지는 일/ 뛰어들 곳을 찾았으나 아무것도 보이지 않 고/ 안개 속에 어렴풋 잿빛 강이 보이네/ 안간힘을 다하고 눈을 찔끔 감았네// 억 겁 시간이 흘렀고 눈을 떴을 때/ 누군가의 따듯한 두 팔에 안겨 있었네/ 줄렁이는 젖가슴 같은 강이었네/ 송곳 같은 숙명을 둥글게 감아안는 강 같은 품이었네/ 하 류로 흘러와 생은 기도처럼 숙연해져/ 낙하하는 자의 품이 되기고 하고/ 흘러, 존 재는 증발하고 흐름만 남기네/ 꿈을 꾸듯'숙명은 다시 *1져내릴 것이네/ 다시 그리고 다시/ 매번 다르게</quote> f 비』전문）비로 표상되는 주체의 하강은 단순한 낙하를 의미하지 않는다.</s>
+          <s>선험적인 “<quote type="direct" genre="poet" source="비">꿈은 언제나 솟아오르지만</quote>”, 기실 진정한 ‘꿈’은 <term type="concept">흐름으로서의 노동</term>을 통한<term type="concept">주체</term>의 재구성을 통해서만 가능하다.</s>
+          <s>따라서 <term type="concept">주체</term>는 하강을 통해 “<quote type="direct" genre="poet" source="비">자신을 허 물기 시작</quote>”한다.</s>
+        </p>
+        <p>
+          <s>이때 대상과의 충돌을 가능하게 하는 것이 바로 “<quote type="direct" genre="poet">산산이 부 서지는 일</quote>”, 즉 흐름으로서의 <term type="concept">노동</term>이다.</s>
+          <s>이를 경과하며 비로소 새로운<term type="concept">주체성</term> 이 생성된다.</s>
+          <s>그러나 그 주체는 대상을 종속시킴으로서 <term type="concept">죽은 노동</term>을 집적하 는 존재가 아니라 “<quote type="direct" genre="poet">존재는 증발하고 흐름만 남기</quote>”는 ‘<term type="concept">과정으로서의 주체</term>’이 다.</s>
+          <s>이 주체는 흐름으로만 존재하며 따라서 대상과의 충돌을 통해 “<quote type="direct" genre="poet">매번 다르 게</quote>” 현현하는 <term type="concept">시적 리얼리티</term>를 체현한다.</s>
+          <s>주체와대상은 흐름으로서의 <term type="concept">노동</term> 을 통해 충돌하며 새로운 <term type="concept">시적 리얼리티</term>의 장면을 생성한다.</s>
+          <s>
+            <interp value="affirmative" ana="사상">백무산의『거대한 일상』은 기존 노동시가 보여준 노동의 신성화가 기실 주 체에 의한 대상의 종속으로 이어지고 있음을, 그리하여 결국 노동이 고정된 주체로 집적되어 사물화되고 있음을 날카롭게 인식하고 있다.</interp>
+          </s>
+          <s>이는 비단 <term type="concept">자 본주의</term> 체제의 문제뿐 아니라, 그가 과거 지향했던 <term type="concept">생산력주의</term>에 입각한 <term type="movement">사 회주의적 프로젝트</term>의 근본적인 실패 요인이기도 했다.</s>
+          <s>그는 이 지점에서 <term type="concept">노 동</term> 개념을 급진적으로 재구성한다.</s>
+        </p>
+        <p>
+          <s>주체와 대상 간의 충돌과 생성을 가능하 게 하는, 그 현현의 성과를 주체에 집적시키는 것이 아니라끊임없이 흐르도 록 하는 ‘<quote type="direct" genre="poet">흐름으로서의 노동</quote>’이 그것이다.</s>
+          <s>주체 자체를 “<quote type="direct" genre="poet">다시 그리고 다시/ 매 번 다르게</quote>” 재구성하며 대상과의 새로운 관계맺음을 통한 존재 변이를 모색 한다는 점에 그의 흐름으로서의 노동의 시적 형상화의 성과가 존재한다.</s>
+          <s>그럼에도 백무산의 시적 사유는 좀 더 다듬어질 필요가 있다.</s>
+          <s>그의 시에서 흐름으로서의 노동은 빈번이 추상적인 선禪적 사유로 환원된다.</s>
+          <s>물론 선적 사 유가 흐름으로서의 노동과 일정한 공통성을 지니는 것은 사실이다.</s>
+          <s>그러나 구체적 인 현실 층위에서 전개되는 충돌의 과정을 추상적인 종교적 심급으로 환원시킨다면, 과거 노동시가 설정한 선험적 주체를 또 다른 선험적 주체로 치환시킬 위험이 존재한다.</s>
+          <s>흐름으로서의 노동이 의미를 지니는 것은, 그것 이 구체적인 현실의 층위에서 노동-기계로서의 주체를 전복할 때만 가능하 다.</s>
+          <s>90년대 이후 그가 보여준 일종의 구도론적 시론의 한계를 극복하기 위해 서는 시적 리얼리티가 현현하는 구체성에 기반한 시론의 모색이 필요하다.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="문학관">이 지점에서 백무산은 머뭇거리고 있다.</interp>
+          </s>
+          <s>그러니 그의 시의 구절처럼, 그의 시 론 역시 “<quote type="direct" genre="poet">부지기수의 종말V종말론J을 감행해야한다.</quote></s>
+          <s>바로 거기에 흐름으로 서의 <term type="concept">노동</term>을 통한 새로운 <term type="concept">노동시</term>의 가능성이 존재할 것이다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>3.	경계에서 생성되는 연대의 언어-김사이의 경우)</head>
+        <p>
+          <s><persName ref="#p-x3">백무산</persName>이 고도의 시적 사유에 기반한 <term type="concept">노동</term> 개념의 내파와 재구를 통해 새 로운 <term type="concept">노동시론</term>의 모색으로 나아가는 반면, <persName role="poet" xml:id="p-x5">김사이</persName>는 노동시의 과거와 현재의 존재조건에 대한 핍진한 인식을 통해 새로운 노동시의 가능성을 모색하고 있 다.</s>
+          <s><date when="1980">80년대</date>와 <date when="1990">90년대</date> 초반 ‘<quote type="direct" genre="poet">가리봉</quote>’에서 <date from="2000" to="2009">2000년대</date> ‘<quote type="direct" genre="poet">구로디지털단지</quote>’로의 변화 로 표상되는 <term type="concept">노동시</term>의 존재조건의 현실적 변화에 대한 시적 탐색이『<title level="m" type="poem" xml:id="t-x5">반성하 다 그만둔 날</title>r을 관통하는 주제이다.</s>
+          <s>다섯 갈래 길을 거쳐 모여드는/<date when="1994">1994년</date> 여름 구로<quote type="direct" genre="poet">공단</quote>/ 말로만 듣헌 거대한 공 단단지엔 마찌꼬바가 하나씩 들어차고/ 생각을 파는 벤처산업이 슬금슬금 발을 내딛는다/ 밤에 피는 꽃처럼 가출 아이들의 무법천지/ 두 평 남짓한 닭장촌 또는 벌방들은 쉴 새 없이 북새통이고/ <quote type="direct" genre="poet">노동자문학회가 한 시절 숨을 쉬</quote>었던 곳/ 푸른 물결이 출렁거렸던 곳/ <quote type="direct" genre="poet">그 많던 노동조합</quote>은 어디로 갔는지/ 어느 택시기사는 산부 인과가 유독 많은 곳이 었다고/ 비릿하게 웃는다/ 변화가 변화를 일으키는 어느 순 간/ 조선족 거리가 생겨나고 중국유학원이 늘었다/ 당구장이 줄어들고 커피舍이 사라졌다/ 노가다꾼들과 아이들 쉼터였던 만회방들이 문을 닫고/ 동시상영 영화 관도끝내 간판을 내렸다/ 열기 대신 조선족 도우미들의 노랫소리가 흥청인다/ 회 색빛 공장은 허물어지고 우뚝 솟은 아파트형 공장들/ 군데군데 높은 러브호텔이 들어서 세련된 거리/ 구로공단 <quote type="direct" genre="poet">가리봉</quote>오거리에서 하차하지 않는다/ 술에•취한 무 용담이 가끔 놀다 간다// 개발에 들뜬 구로/ 새로운 중산층이 머물면서/ 들어오던문으로 다시 떠밀려가는 빈궁한 인생들/ 야금야금 집값이 오르자 땅따먹기 싸움 에 불이 붙고/ 차이나타운 가리봉시장도/ 재개발열차에 탑승한다/ 불온한 구로공 단은 서류 속에 보관될 것이다f<title level="a" type="poem" xml:id="t-x6">출구</title>J 전문）과거 <term type="concept">노동시</term>는 “노동자문학회가 한 시절 숨을 쉬”며 “그 많던 노동조합”들 이 운동하던 ‘가리봉’의 ‘공단’을 통해 발현될 수 있었다.</s>
+          <s>그러나 지금 그 역사 적 조건이 해체된 시기, 과거의 노동시는 “<quote type="direct" genre="poet">술에 취한무용담</quote>”을 넘어설 수 없 다.</s>
+          <s>바로 이 지점, 즉 “<quote type="direct" genre="poet">변화가 변화를 일으키는 어느 순간</quote>”에서 새로운 <term type="concept">노동시</term> 는 시작되어야 한다.</s>
+          <s>'문제는 과거와는 다른 “<quote type="direct" genre="poet">불온한 구로공단</quote>”을 손쉽게 “<quote type="direct" genre="poet">서 류속에 보관</quote>”하는 것이 아니라 그 불온성을 재구성하는 것이다.</s>
+          <s>이 불온성은 <term type="concept">노동</term>과 <term type="concept">자본</term>의 <term type="concept">이항대립</term>적 구도로 환원되지 않는 새로운 층위의 <term type="concept">모순</term>의 딤지 자로서 시적 주체의 자기인식으로부터 시작된다.</s>
+          <s>위의 시에서 나타나는 <term type="concept">구로 디지털단지</term> 시대 “<quote type="direct" genre="poet">조선족 도우미</quote>”의 형상화는 그녀로 하여금 두 가지 층위에 서 <term type="concept">불온성</term>을 상기시킨다.</s>
+        </p>
+        <p>
+          <s>하나는 ‘<term type="concept">조선족</term>’으로 표상되는 <term type="concept">이주노동자</term>의 문제이 며, 다른 하나는 ‘<term type="concept">도우미</term>’로 표상되는 <term type="concept">젠더</term>의 문제이다.</s>
+          <s>그녀는 이 두 가지 층 위의 모순을 담지한 “<term type="concept">조선족 도우미</term>”에 대해 <interp value="affirmative" ana="사회">손쉬운 연민과 시혜의 시선을 보 내지 않는다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="미학">오히려 이를 통해 시적 주체의 근본적인 자기인식으로 나아간 다는 점에 그녀의 불온성이 존재한다.</interp>
+          </s>
+          <s><quote type="direct" genre="poet" source="이방인의 도시">쿠르드 필리핀 방글라데시 네팔 몽골 연변 구로/ 그래도 이 거리가 한국이 좋다 고 하는 그이들과/ 삼삼오오 비켜서서 무관하게 밥을 먹고/ 아파트형 공장 굴뚝에 서 연기가 나는,/ 십 년 전 꽃무늬 치마 팔랑거리며 저만치 걸어가는/ 내가중심에 있었다고 생각하는 순간 아무것도 보이지 않는/ 찰나</quote>€<title level="a" type="poem" xml:id="t-x7">이방인의 도시</title>j부분）내 웃음의 이면이다/ <quote type="direct" genre="poet" source="카타콤베"><lg type="stanza"><l>노동자도 수입하는/ 갖출 것 다 갖춘 불빛의 지하地7 지하 의 지하/ 지하도 없는 지하/ 살아 앗음을/ 한 끼니로 간청하다가/ 절망도 없이/ 잠 을 청하는 이곳을 지날 땐/ 순례자의 마음으로 하라/ 뼈다구만 남은 이상주의자들</l></lg><lg type="stanza"><l>도 죄를 고백하며/ 걸어야 하는/ 카타콤베</l></lg></quote> C카타콤베 j 부분)<interp value="critical" ana="사회">많은 문학 작품들이 이주노동자의 문제를 다루지만, 많은 경우 이주노동자 에 대한 추상적인 연민과 시혜를 벗어나지 못하고 있는 것 역시 사실이다.</interp></s>
+          <s>그 러나 <persName ref="#p-x5">김사이</persName>는 <term type="concept">이주노동자</term>를 ‘주변’으로 인식하지 않는다.</s>
+          <s>그녀는 <term type="concept">가리봉</term> 시 대 <term type="concept">노동시</term>의 주체를 이들과의 충돌을 통해 성찰한다.</s>
+          <s>가리봉 시대를 표상하 는 “<quote type="direct" genre="poet" source="이방인의 도시">십 년 전 꽃무늬 치마 팔랑거리며 저만치 걸어가는</quote>” <term type="concept">시적 주체</term>는 이주노 동자에 대한 인식을 통해 “내가 중심에 있었다고 생각하는 순간 아무것도 보 이지 않는!</s>
+          <s><quote type="direct" genre="poet" source="이방인의 도시">찰나</quote>”로 해체된다.</s>
+        </p>
+        <p>
+          <s>' 이는 다시 “뼈다구만 님은 <term type="concept">이상주의자들</term>”로 하 여금 "<quote type="direct" genre="poet">죄를 고백</quote>”하는 순간에도 동일하게 나타난다.</s>
+          <s>과거 <term type="concept">노동시</term>가 현실 모순 의 극복과 역사 발전의 주체로서 자신을 인식하며 “<quote type="direct" genre="poet">내가 중심</quote>”이라는 대상에 대한 주체의 일방적 인 전유를 보였음을 상기한다면 <persName ref="#p-x5">김사이</persName>의 “<quote type="direct" genre="poet">내가 중심</quote>”이‘ 아니라는 “<quote type="direct" genre="poet">고백</quote>”은 이에 대한 근본적인 성찰의 의미를 지닌다.</s>
+          <s>나아가 성찰이 이루어지는 시적 리얼리티의 “<quote type="direct" genre="poet">찰나</quote>”가 “<quote type="direct" genre="poet">떠나아겠다/ 시가 너무 오래 머물러 있었다T머물기 위해 떠나다?</quote></s>
+          <s>는 ‘<quote type="direct" genre="poet">과정</quote>’으로 이행되며 그녀의 <term type="concept">가리봉</term> 역시 구 로디지털단지로 이행된다.</s>
+          <s><quote type="direct" genre="poet">도시 주택가 골목에 작은 술집 하나 부산하다/ 동네 아저씨들 가끔 드나드는 그 곳/ 늙은 아가씨들 달빛 환한 밤에 꽃 따러 나선다/ (…) / 중심을 돌아 돌아 오니/ 먼 곳도 가까운 곳도 아닌/ 중심으로 와 있는 그녀들에게/ 달빛은 부서져 내리고 나무들은 머리카락을 넘겨준다</quote>《꽃」부분)그녀가 자신이 중심이 아니라는 시적 리얼리티의 “<quote type="direct" genre="poet">찰나</quote>”를 거쳐 인식하는 것은 ‘<term type="concept">주변</term>’이 바로 ‘중심’이라는 새로운 사실이다.</s>
+          <s>이는 <term type="concept">젠더</term>의 문제를 다룬 위의 시에서 단적으로 드러난다.</s>
+          <s>그러나 이 새로운 ‘<term type="concept">중심</term>’은 주체와의 팽팽한 긴장을 유지한다.</s>
+          <s>중심은 “<quote type="direct" genre="poet">먼 곳도 가까운 곳도 아닌</quote>”곳에 있다.</s>
+        </p>
+        <p>
+          <s><term type="concept">중심</term>이 먼 곳 에 있다면 시적 주체는 자신을 <term type="concept">주변</term>으로 인식하며 중심을 전복하기 위한 <term type="concept">투쟁</term>에 돌입할 것이며, 반대로 중심이 가까운 곳에 있다면 중심을 포획하거나 스스로가 중심에 편입하고자 할 것이다.</s>
+          <s><persName ref="#p-x5">김사이</persName>는 이 새로운 중심에 대한 섣 부른 <term type="concept">동일화</term>나 <term type="concept">타자화</term>를 선택하지 않는다.</s>
+          <s>오히려 “<quote type="direct" genre="poet">중심을 돌아돌아</quote>"가는 과 정에서 생성되는 긴장의 순간이 그녀가새롭게 보여주는 <term type="concept">시적 리얼리티</term>의 장 면이다그렇다면 중요한 것은 <persName ref="#p-x5">김사이</persName>의 시적 주체가 <term type="concept">이주노동자</term>나 <term type="concept">젠더 모순</term>의 담 지자들과 같은 <term type="concept">타자</term>들과 어떠한 관계맺음을 통한 새로운 언어를 보여주는가 의 여부일 것이다.</s>
+          <s>그녀는 <term type="concept">타자</term>를 주체에 의해 <term type="concept">연민</term>의 시선으로 포획하는 동 일화의 전략도, 반대로 타자의 절대성만을 강조하며 주체와 타자와의 충돌의 가능성을 봉쇄하는 <term type="concept">타자화</term>의 전략도 사용하지 않는다.</s>
+          <s>그녀는 주체와 <term type="concept">타자</term>가 마주치는 특정한 순간의 <term type="concept">시적 리얼리티</term>에 주목한다.</s>
+          <s>이에 기반한 <term type="concept">연대</term>의 어 법이 그녀의 시적 전략이다.</s>
+          <s>이 <term type="concept">연대</term>의 전략은 <term type="concept">타자</term>의 고유성을 승인하면서 도 주체와 타자가 <term type="concept">고통</term>을 공유하고 있다는 인식에서 발현된다.</s>
+          <s><quote type="direct" genre="poet" source="달의 여자들">어머니는 여공을 낳고 나비를 낳고/ 여자아이를 조선족 여자를 다시 어머니를 낳고II (•■•) / 안간힘 써서 희망의 끝자락이라도 잡고 싶은/ 쉴 새 없이 움직이는 날갯짓에/ 찢어지는 나비의 몸뚱이/ 30년 후에도 나는 내 딸들은/ 대물림으로 이 어받은 몸뚱이 팔고 있겠지</quote> f<title level="a" type="poem" xml:id="t-x8">달의 여자들</title>』부분) ‘나는 “<term type="concept">불법체류자</term>로 닉•인찍혀도 국경을 넘는 아시아 여성”이 아니며, “<quote type="direct" genre="poet">조 선족 여자</quote>”도 아니다.</s>
+        </p>
+        <p>
+          <s>그러나 “•<term type="concept">몸뚱이</term>”를 파는 <term type="concept">여성 노동자</term>라는 점에서, 그리 고 “<quote type="direct" genre="poet">찢어지는 나비의 몸뚱이</quote>”를 가지고 있다는 점에서 이들과 동일한 <term type="concept">모순</term>을 공유한다.</s>
+          <s>따라서 나와 “<term type="concept">조선족 여자</term>”의 <term type="concept">연대</term>는 <term type="concept">가리봉</term>의 <term type="concept">구로디지털단지</term>로 의 이행 과정에서 <term type="concept">소외</term>된 <term type="concept">소수자</term>들의 연대이다.</s>
+          <s>그러나 이 <term type="concept">연대</term>는 <term type="concept">주체</term>와 타 자의 동일화가 아니라 오히려 <term type="concept">타자</term>를 통해 끊임없이 주체를 성찰하는 형식으 로 나타난다.</s>
+          <s>따라서 그녀의 시 역시 <term type="concept">경계</term>에서 생성되는 <term type="concept">연대</term>의 어법으로 나 아간다.</s>
+          <s><term type="concept">연대의 어법</term>은 <term type="concept">주체</term>와 <term type="concept">타자</term>의 <term type="concept">경계</term>, 중심과 주변의 경계, <term type="concept">가리봉</term>과<term type="concept">구로디지털단지</term>의 경계에서 생성닢다.</s>
+          <s>그러하기에 <persName ref="#p-x5">김사이</persName>의 시는“<quote type="direct" genre="poet">날개가 찢 어지고 쏟아지는 비틀린 언어들</quote>”(『<title level="m" type="poem" xml:id="t-x9">나방</title>』)의 언어이다.</s>
+          <s>그녀의 <term type="concept">연대</term>가 선험적 인 정언테제가 아니라<term type="concept">주체</term>와 <term type="concept">타자</term> 간의 <term type="concept">시적 리얼리티</term>의 장면에서 획득되는 것이기 때문이다.</s>
+          <s>이 “<quote type="direct" genre="poet">비틀린 언어들</quote>”이 “<quote type="direct" genre="poet">서류 속에 보관</quote>”된 “불온한 구로공 단 『<title level="a" type="poem" ref="#t-x6">출구</title>』）을 다시, 그러나 <term type="concept">가리봉</term> 시대와는 다른 형식으로 형상화 할 때, 비 로소 <persName ref="#p-x5">김사이</persName>가 보여주는 새로운 <term type="concept">노동시</term>의 가능성은 구체적 인 성과로 나타날 것이다.</s>
+        </p>
+        <p>
+          <s>다만 확실한 것은 경계에서 생성되는 <term type="concept">연대</term>의 언어는 “<quote type="direct" genre="poet" source="가리봉엘레지">아직 뱉어내지 못한 징그러운 삶이 있는</quote>”『<title level="m" type="poem" xml:id="t-x10">가리봉엘레지</title>』 지금, 이곳에서 시작될 것이라는 사실이다.</s>
+          <s>그리고 이를 위해서는 <persName ref="#p-x5">김사이</persName>는 <term type="concept">경계</term>를 모든 곳으로 확장시켜야 할 것이라는 사실이다.</s>
+          <s><term type="concept">주체</term>와 <term type="concept">타자</term>는 물론 <term type="concept">중심</term>과 <term type="concept">주변</term>, 한국인<term type="concept">노동자</term>와 이 주노동자, <term type="concept">죽은 노동</term>과 <term type="concept">산 노동</term>, 가시적 현실과 비가시적 가상현실, 저항과 타협 등 그녀를 둘러싼 현실 조건의 모든 층위에서 <term type="concept">경계</term>의 극한을 사유할 때, <interp value="affirmative" ana="사회">비로소 경계에서 생성되는 연대의 언어는 새로운 노동시의 어법으로 자리매 김 할수 있을것이다.</interp></s>
+        </p>
+      </div>
+      <div type="section">
+        <head>4.	‘관계’의 복원과 과정으로서의 시적 주체-황규판의 경우〉</head>
+        <p>
+          <s>기존 <term type="concept">노동시</term>의 <term type="concept">주체</term>는 두 가지 층위에서 내파되어야 한다.</s>
+          <s>‘<quote type="direct" genre="poet">노동</quote>’의 충위에 서는 선험적으로 설정된 <term type="concept">역사발전</term>의 딤지자로서의 <term type="concept">주체</term> 개념을 내파해야 하 며, ‘시’의 층위에서는 대상을 포획하여 전유하는 주체 개념을 내파해야 한다.</s>
+          <s>이 러한 모색을 가장 잘 보여주는 시 인 중 하나가 <persName role="poet" xml:id="p-x6">황규관</persName>이다.</s>
+          <s><quote type="direct" genre="poet" source="변두리가 되어가다"><lg type="stanza"><l>십년을 한 곳에서 살기란/ 여간 불편한 일이 아니다/ 낯가리는 내게도 이웃이 생겼고/ 살구꽃처럼 이사를 왔다가/ 내가 퇴근 후 주점에서 술 마시는 동안에/ 멀 리 가버린 이들도 있다/ 다만 아이들 머리통 크는 것을 바라보며/ 밥을 먹었단 말</l></lg><lg type="stanza"><l>이 맞을 것 같다/ 마음에 생기는 울타리를 깨버리잔 생각에 골똘하다/ 그릴 수 있 는 몸의 동선이 협소해진 건/ 도대체 언제 일어난 일일까/ 혼자 볕을 쬐며 걷는 길옆에/ 피어난 민들레를 보며 쓸쓸했으나/ 굽이져 흐르는 안양천 냇물이나/ 출근 길 느티나무 그늘 같은 것, 혹은| 종아리가 단단한 미용실 원장의 웃음만/ 무연히 바라볼 수 있게 된 거다/ 바밀을 만드는 심장의 울음이/ 문득 사라져버린 일상이/ 세상을 닮았다는 느낌이지만/ 내가 변두리 마을이 되어가는 이 풍경에/ 울다가웃 다가 하는 일이 가끔 있다</l></lg></quote>f<title level="a" type="poem" xml:id="t-x11">변두리가 되어가다</title>』전문）r변두리가 되어가다』는 이러한 문제의식에서 주목된다.</s>
+          <s>이 시에서 시적 주 체는 기존 <term type="concept">노동시</term>의 <term type="concept">주체</term>와 확연히 다르다.</s>
+          <s>‘<quote type="direct" genre="poet">노동</quote>’의 층위에서 보자면 "<quote type="direct" genre="poet" source="변두리가 되어가다">그릴 수 있는 몸의 동선이 협소해진</quote>”채 소소한 삶의 결들을 “<quote type="direct" genre="poet" source="변두리가 되어가다">무연히 바라</quote>”보는 주 체가 그러하며, ‘시’의 층위에서 보자면 4t<quote type="direct" genre="poet" source="변두리가 되어가다">내가 변두리 마을이 되어가는</quote>” <term type="concept">주체</term> 가 그러하다.</s>
+          <s>그러나 <persName ref="#p-x6">황규관</persName>의 시적 <term type="concept">주체</term>는 단순히 기존 <term type="concept">노동시</term>의 주체와 ‘<quote type="direct" genre="poet">다 른</quote>’ 주체가 아니다.</s>
+          <s><persName ref="#p-x6">황규관</persName>의 시적 <term type="concept">주체</term>가 중요한 것은 독특한 미학적 모색을 통해 과거 자신의 <term type="concept">노동시</term>의 주체를 ‘극복’한 성과이기 때문이다.</s>
+        </p>
+        <p>
+          <s>그리고 그 성 과는‘<term type="concept">관계</term>’의 복원을통해서 이루어진다.</s>
+          <s><quote type="direct" genre="poet" source="흐르는 살">살이 말을 녹인다// 잎사귀 무성한 나무에서/ 새는, 아무 형체도 없이 울음만/ 바깥세상으로 내보내고 있다/ 그게 사실은 나무의 살과 새의 살이/ 녹아 흐르는 소리라는 것,// 말이 녹으면 노래가 되고/ 살이 살과 섞이면 형언할 수 없는 리듬 이/ 허공에 가득 찬다// 그러므로 이 가냘픈 몸 안에/ 흐르고자 하는 욕망이 번득 이는 것</quote>（r<title level="a" type="poem" xml:id="t-x12">흐르는 살</title> 부분）<quote type="direct" genre="poet" source="쌀을 푸다">우리 가족만 먹고살겠다고 죽여야 했던 생명이 있었다// 그후로 내 입에 들어가 는 것이/ 죽은 목숨들의 눈알이며 정강이뼤일지 모른다고/ 고속도로에 납작 죽어 엎드린/ 고양^의 피 묻은 털이 확실하다고/ 무릎이 시리기 시작했다</quote>f쌀을 푸다』 부분）『흐르는 살』에서의 발화는 고정된 것이 아니다.</s>
+          <s>“<quote type="direct" genre="poet" source="흐르는 살">나무의 살과 새의 살이/ 녹아 흐르는 소리</quote>”가 <persName ref="#p-x6">황규관</persName>이 새롭게 제기하는 <term type="concept">노동시</term>의 어법이다.</s>
+          <s>이 어법 은 시적 주체가 “<quote type="direct" genre="poet" source="흐르는 살">흐르고자 하는 욕망</quote>”, 즉 기존의 <term type="concept">노동시</term>의 주체를 내파하고 대상과의 ‘<term type="concept">관계</term>’ 속에서 “<quote type="paraphrase" genre="poet">말^을 녹이고자 하는 욕망</quote>에 기 인한다.</s>
+          <s>이는 r<title level="a" type="poem" xml:id="t-x13">쌀을 푸다</title>』에서도 나타난다.</s>
+          <s>그는 소소한 일상을 통해 시적 주체가 기실 “<quote type="direct" genre="poet" source="쌀을 푸다">^ 목 숨들의 눈알이며 정강이뼈</quote>”를 통해 구성된 것임을 인식한다.</s>
+          <s>나아가 이 시적 주체는 비록 이러한 인식이 현실의 모순을 극복할 수 없는 “<quote type="direct" genre="poet" source="쌀을 푸다">관념 따위</quote>”임을 인식하지만, 그럼에도 추상적인 ‘관념’이 아닌 구체적인 ‘<term type="concept">몸</term>’의 층위에서 “<quote type="direct" genre="poet" source="쌀을 푸다">쌀을 푸는 손이 자꾸 헛손질을</quote>”하는 <term type="concept">관계</term>를 통해 구성된 존재이다.</s>
+          <s>•그러나 단지 대상과의 ‘<term type="concept">관계</term>’ 속에서의 ‘흐름’으로서의 시라면, 이를 굳이 노 동시의 새로운 가능성이라고 명명할 수는 없을 것이다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x6">황규관</persName>의 ‘<term type="concept">관계</term>’에 대 한 성찰이 중요한 것은 그것이 구체적인 현실의 모순과 정치하게 결합되어 있기 때문이다.</s>
+          <s>예컨대 빚에 쫓겨 가족과 함께 자살한 이에 대해 “<quote type="direct" genre="poet" source="황규관">이 말하기 힘든 비극에/ 우리는 모두 지분이 있거나/ 혹은 고용되어 있다</quote>T자본을 읽자 사라고 발화하는 것이나 미국의 이라크 침공에 대해 “<quote type="direct" genre="poet" source="황규관">석유는, 석유는 독배 다!/ 미치광이다 마약이다!/ 몸 안에 깨진 얼음더미를 쑤셔넣는 흉기다!/ 그 걸 내가 타고 입고 등 지지고 있으니/ 밥술 뜨고 있으니/ 이라크여 절규여,/ 자욱한 모래바람이여!</quote></s>
+          <s>”（「<title level="a" type="poem" xml:id="t-x14">석유는 독배다</title>사라고 발화하는 것이 그러하다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이러 한 현실의 모순을 시적 주체가 전유하여 단일한 언어로 환원시키는 것이 아 니라, 바로 그 시적 주체가 이 모순과의 관계 속에서 구성된 것임을 인식하는 것에 황규관의 성과가 존재한다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="문학관">이 지점에서 황규관은 기존 노동시의 인식론을 전도시킨다.</interp>
+          </s>
+          <s>세계관을 담지 한 주체가 모순을 인식함으로써 대상을 파악하는 것이 <term type="concept">노동시</term>의 일반적인 인 식론이 었다.</s>
+          <s>그러나 누가 <term type="concept">세계관</term>의 올바름을 선험적으로 보증할 수 있으며, 대상에 대한 완전한 사유를 진행할 수 있는가?</s>
+          <s>오히려 <interp value="critical" ana="사상">주체의 틀로 대상을 환원시키는 폭력이 반복되는 것은 아닌가?</interp></s>
+        </p>
+        <p>
+          <s>그렇다면 <term type="concept">노동시</term>의 <term type="concept">인식론</term>은 다 시 구축되어야 한다.</s>
+          <s>주체가 타자를 인식할 수 있는 것은 <term type="concept">모순</term>이 공통적으로작용하기 때문이다.</s>
+          <s>그러나 <term type="concept">모순</term>은 각기 다른 방식으로 작용한다.</s>
+          <s>주체에게 경험되고 사유되는 <term type="concept">모순</term>과 타자에게 경험되고 사유되는 모순은 표면적으로 는 분리되어 있다.</s>
+          <s>그러나 타자를 통해 재현된 <term type="concept">모순</term>이 주체에 의해 <term type="concept">윤리적 감 각</term>으로 인식되는 순간 <term type="concept">시적 리얼리티</term>는 주체와 타자의 구획을 넘어선다.</s>
+          <s>여 기서 <persName ref="#p-x6">황규관</persName>이 추구하는 ‘관계’의 복원이 이루어진다.</s>
+          <s>그의 <term type="concept">노동시</term>의 <term type="concept">인식론</term> 은 <term type="concept">모순</term>이 경험되는 차이에 따른 개체의 고유성을 승인하는 동시에, 그 개체 들의 고유성이 상호간의 ‘관계’를 통해 끊임없이 재구성되는 ‘과정으로서의 주체성’으로 나아가고 있다는 점에서 중요하다.</s>
+          <s>더욱이 <term type="concept">과정으로서의 주체성</term> 의 모색이 구체적인 <term type="concept">모순</term>에 대한 인식을 통해 가능하다는 점에서 <interp value="affirmative" ana="문학관">그의 시적 인식론은 외삽적인 해체주의적 시론의 한계를 넘어선다.</interp></s>
+        </p>
+        <p>
+          <s>그는 새로운 노동 人L 즉 “<quote type="direct" genre="poet">하늘에 긋는 불립문자들</quote>”도 어디까지나 “<quote type="direct" genre="poet">발목에 쟁여진 대지의 힘으 로 쓴 것</quote>”C새는 대지의 힘으로 난다J임을 인식하고 있으며 “<quote type="direct" genre="poet">사랑의 노래는/ 재개발지역 허름한 주점에서</quote>”f예감J만 생성될 수 있음을 인식하고 있다.</s>
+          <s>그러나 황규관은 더 나아가야 한다.</s>
+          <s>그는 모순을 통한 관계의 복원 앞에서 너무나 자주 머뭇거린다.『패배는 나의 힘』전체에 걸쳐 나타나는 주체성은, 역설적이게도 종종 소시민으로서의 시적 주체의 자괴감으로 귀결된다.</s>
+          <s>이로 인해 시적 주체의 내파는 역으로 대상에 의한 주체의 소멸로 진행되는 경우 가 종종 발생한다.</s>
+          <s>시적 주체의 내파는 새로운 주체성의 생성을 전제로 할 때 그 의미를 지닌다.</s>
+          <s>시적 주체가 소멸된 자리에는 관계 역시 존재할 수 없기 때문이며 관계가 소멸된 자리에는 대상 역시 존재할 수 없기 때문이다.</s>
+          <s>그가 “먼 길이 내게 허락된다면/ 단지 적막만 취하고/ 망각의 강 앞에 혼자 서고 싶다/ 이제 믿는 건 내 배경밖에 없으므로V배경에 대하여오라고 말할 때, 나 만이 망각되는 것이 아니라 배경까지 망각된다.</s>
+          <s>이 지점을 넘어설 때 비로소 “<quote type="direct" genre="poet">빈손으로 하는 혁명을 꿈꿀 시간</quote>”C반성』）이 도래할 것이다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>5.	2000년대 노동시의 새로운 가능성1들’</head>
+        <p>
+          <s>앞서 <term type="concept">시적 리얼리티</term>라는 개념의 <term type="concept">아포리아</term>로 글을 시작했다.</s>
+          <s>그러나 이 글 역시 이 <term type="concept">아포리아</term>를 해결할 수는 없다.</s>
+          <s>다만 <date from="2000" to="2009">2000년대</date> <term type="concept">노동시</term>의 새로운 가능 성들을 구체적인 작품을 통해 추출하고 이로부터 <term type="concept">아포리아</term>를 넘어서기 위한 단초를 탐색할 따름이다.</s>
+          <s>다시 <persName ref="#p-x2">임화</persName>로 돌아가보자.</s>
+          <s>
+            <interp value="critical" ana="미학">그의 단편서사시 형식을 통한 시적 리얼리티의 실험은 결국 실패로 끝난다.</interp>
+          </s>
+          <s>그러나 역설적으로 <orgName xml:id="org-x">카프</orgName> 해소를 전후한 人!</s>
+          <s>기 , <interp value="affirmative" ana="미학">임 화의 시는 시적 리얼리티에 대한새로운 가능성을 보여준다.</interp></s>
+          <s>그가 “<quote type="direct" genre="poet" source="다시 네거리에서">나는 이들 새 세대의 얼굴을 하나도모른다T다시 네거리에서J</quote>라고 발화할 때, 과거 주 체에 의해 포획되던 대상은 새로운 가능성을 획득한다.</s>
+        </p>
+        <p>
+          <s>과거 절대적인 <term type="concept">당파 성</term>의 담지자로 대상을 전유하던 <term type="concept">시적 주체</term>는 이제 소멸했으며, 그 자리에는 “<quote type="direct" genre="critic">새 세대의 얼굴</quote>”이 들어선다.</s>
+          <s>그리고 이 대상에 대한 인식을 통해 비로소 <persName ref="#p-x2">임 화</persName>는 자신의 ‘<quote type="direct" genre="critic">해협의 로맨티시즘</quote>’을 객관화시켜 인식할수 있게 된다.</s>
+          <s>이 지점 에서 <persName ref="#p-x2">임화</persName>는 주체와 대상 간의 충돌과 교감을 통한 <term type="concept">주체성</term>의 재구성으로 나 아갈 수 있는 단초를 확인한다.</s>
+          <s>' 이는 <date when="1980">80년대</date> <term type="concept">노동시</term>에도 적용될 수 있을 것이다.</s>
+          <s>선험적인 <term type="concept">노동</term> 개념과 이 에 기반한 <term type="concept">당파성</term>을 담지한 <term type="concept">시적 주체</term>에게 대상은 포획되고 변혁되어야 할 타자로서 설정된다.</s>
+          <s>이 과정에서 시적 대상은 <term type="concept">시적 주체</term>에게 어떠한 영향도 미칠 수 없는 고정된 사물일 뿐이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">그러나 기실 이 완벽한 시적 주체야말로 고정된 사물이 었음이 노동시의 급격한 붕괴와 함께 확인되었다.</interp>
+            <interp value="affirmative" ana="문학관">2000년대 노동시의 가능성은 바로 이 지점에서 생성된다.</interp>
+          </s>
+          <s>대상과의 끊임 없는 충돌과 교감의 장면에서 현현하는 <term type="concept">시적 리얼리티</term>와 이를 통한 <term type="concept">주체의 재구성</term>.</s>
+        </p>
+        <p>
+          <s>그것은 <persName ref="#p-x3">백무산</persName>이 보여주는 <term type="concept">노동</term> 개념의 급진적 내파를 통해서, 김사 이가 보여주는 경계에서 생성되는 <term type="concept">연대</term>의 언어를 통해서, <persName ref="#p-x6">황규관</persName>이 보여주는 드1’*	〜관계의 복원을 통해서 각기 다른 방식으로 진행되고 있다.</s>
+          <s>그러나 이들이 보 여주는 시적 언어의 모색은 <term type="concept">시적 리얼리티</term>를 통한 <term type="concept">시적 주체</term>와 대상 간의 변 증에 기반하고 있다는 점에서는 동일하다.</s>
+          <s>그리고 이들의 작업은 추상적인 주체와 타자 간의 이분법을 넘어 구체적인 <term type="concept">현실모순</term>의 팽팽한 긴장감 속에서진행되고 있다.</s>
+          <s>그러하기에 이들의 시적 언어의 모색을 <date from="2000" to="2009">2000년대</date> <term type="concept">노동시</term>의 새로운 가능성‘들’이라고 할 수 있을 것이다.</s>
+          <s><term type="concept">노동시</term>라는 말 자체가 낯선 시대임은 분명하다.</s>
+          <s>그러나 이 언표가 <term type="concept">노동</term>과 <term type="concept">자본</term>의 대결이라는 과거의 좁은 개념을 넘어서고 있다는 것 역시 분명한 사 실이다.</s>
+          <s><persName ref="#p-x3">백무산</persName>, <persName ref="#p-x5">김사이</persName>, <persName ref="#p-x6">황규관</persName>의 시적 모색이 지금 우리 시의 장에서 의미 를 지니는 것은, 이들이 보여주는 새로운 <term type="concept">노동시</term>의 가능성이 단지 정치경제 학적 층위의 변화에 따른 현실 추수의 양상에 멈추지 않기 때문이다.</s>
+          <s>오히려 최근 우리 시의 장에서 핵심적인 화두로 설정된 <term type="concept">시적 주체</term>의 문제에 대해 추 상적인 심급에 갇혀 공전하는 독백이 아닌, <term type="concept">현실모순</term>과의 길항 속에서 새로 운 시적 주체의 모색으로 나아가고 있다는 점에 이들의 의미가 존재한다.</s>
+        </p>
+        <p>
+          <s>
+            <interp value="critical" ana="미학">미 학적 층위에서 새로운 시적 주체에 대한 논의가 단지 추상적인 언어 유희에 매몰될 때, 시적 주체와 대상 간의 팽팽한 긴장은 소멸되며 남는 것은 앙상한 해체의 폐허일 따름이다.</interp>
+          </s>
+          <s>현실적 충위와 미학적 층위가 결합된 곳에서 전개 되는 이들의 작업이, 단지 <date from="2000" to="2009">2000년대</date> ‘<term type="concept">노동</term>’시의 가능성에 머무는 것이 아니라 2000년대 노동‘시’의 가능성으로 이어지는 것은 이 때문이다..</s>
+          <s>
+            <interp value="affirmative" ana="문학관">그러니, 아포리 아를 반복하는 비평을 넘어서는 것 역시, 이들의 새로운 노동시의 모색으로 부터 가능할 것이다.</interp>
+          </s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

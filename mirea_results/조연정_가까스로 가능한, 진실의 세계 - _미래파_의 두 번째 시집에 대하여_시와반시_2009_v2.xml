@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>가까스로 가능한, 진실의 세계 -</title>
+        <author>조연정</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>《I와'시시，셰 /6선 /2• 善红4空夕 -勿”、기획 <title level="a" type="poem" xml:id="t-x">시는아무것도모른다</title>가까스로 가능한, 진실의 세계—，<term type="movement">미래파</term>의 두 번째 시집에 대하여<persName role="critic" xml:id="p-x">조연정</persName> I 문학평혼가미래파 라는 고유명사, 미래파라는 보통명사문단에 이상한 괴물'이 출현할 때마다 비평은 활기를 띠게 된다.</s>
+          <s>새 로움의 징후를 가장 먼저 포착하고 그것을 해석하여 한 발 앞선 진단을 내리는 것이 비평의 공식적인 책무라면, 그 이상한 괴물'이야말로 비 평을 가장 뿌듯하게 해주는 장본인이라 할 수 있을 것이다.</s>
+          <s>비평가라면 무엇보다도 위기가 기회라는 것을 알아야 한다.</s>
+          <s>아니, 현상태를 잘 유지 하는 것이 결국은 “<quote type="direct" genre="poet" source="황병승, 첨에 관한 아홉 소hopes。씨 （氏）의 에세이">위험에 처해있다는 증거</quote>”（<persName role="poet" xml:id="p-x2">황병승</persName>,「<title level="a" type="poem" xml:id="t-hopes">첨에 관한 아홉 소hopes。씨 （氏）의 에세이</title>」,『<title level="m" type="poem" xml:id="t-x2">트랙과 들판의 별</title>』, <orgName xml:id="org-x">문학과지성사</orgName>, <date when="2008">2008</date>） 라는 불안감이라도 가지고 있어야 한다" 그런 점에서 2000년대 시단에 내려진 소위 '<term type="movement">미래파</term>'（<persName role="critic" xml:id="p-x3">권혁웅</persName>）, '<term type="movement">뉴웨이브</term>'（<persName role="critic" xml:id="p-x4">신형철</persName>）, '<term type="movement">다른서정들</term>'（이 장욱）이라는 축복은 우리의 시 비평을 오랜만에 비평다운 것으로 만들 어준그야말로 고마운 존재들이 아닐 수 없다得 강 정, <persName role="poet" xml:id="p-x5">김경주</persName>, <persName role="poet" xml:id="p-x6">김민정</persName>, 김 행숙, <persName role="poet" xml:id="p-x7">유형진</persName>, <persName role="poet" xml:id="p-x8">이근화</persName>, <persName role="poet" xml:id="p-x9">이민하</persName>, <persName role="poet" xml:id="p-x10">장석원</persName>, <persName role="poet" xml:id="p-x11">진은영</persName>, <persName ref="#p-x2">황병승</persName> 등이 그들이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">새 로운 것을 맞이한다는 희열 속에서 이들을 온몸으로 击｝ 안았던 쪽이 나, 아니면 일단 이들의 전모부터 확인해보자며 냉정하고 신중한 자세 로 접근했던 쪽이나, 아니면 화려하고 선정 적인 외양 속에 감춰진 이들 의 미숙한 기교나 자폐적 성격을 꼬집어보려 했던 쪽이나, 이들로 인해 수많은 비평가들이 자신의 사명과 능력과 입장에 대해 심사숙고하게되었다는 점에서 일단이들에게 머리를 숙여도 좋을 것이다.</interp>
+          </s>
+          <s>마치 시인공화국'이라는 대형 기획사에 소속된 '젊은 바퀴벌레들'“ 이라는 아이돌 그룹인 것 마냥 등장과 함께 문단의 집중적인 스포트라 이트를 받았다는 점에서 <interp value="affirmative" ana="문학관">이들 역시 행복한신인이었음에 틀림없다.</interp></s>
+          <s>“<quote type="direct" genre="critic">우 리 시의 미래는 이들이 적어 나갈 것이다</quote>”幻라는 찬사도 “<quote type="direct" genre="critic">고만고만한 난해성의 서브 포에트（sub-poet）들로 인하여 시의 사회적 설득력이 갈수록 약화되어</quote>”）간다는 비판도 다 관심의 표현이었을 테니까 말이 다 논란이 되었듯 그 '이상한 괴물'들이 정말로 전무후무한 기형이었 을 수도 아니면 분장을 조금 달리해서 나타난 익숙하면서도 낯선 과거 의 재등장이었을 수도 있다.</s>
+          <s><date from="2000" to="2009">2000년대</date> 시에 있어서 '<term type="movement">미래파</term>' 라는 성과 가 과연 평단의 호들갑에 불과한 것이었는지, 아니면 두고두고 자신을 갱신해나갈 역량 있는 시인들의 유례없는 집단적 출현이 맞는 것인지, <interp value="neutral" ana="문학관">이제는 다시 한번 정확한 판단에 도전해 볼 때가 되 었다고 생각한다.</interp></s>
+        </p>
+        <p>
+          <s>열 광했던 이들도 '가재미' 눈을 치뜨고 바라보던 이들도 자신들의 안목 을 자평해볼 때가 된 것이다 그 괴물들이 속속 자신들의 두 번째 성과 물을 토해놓고 있기 때문이다*'<interp value="affirmative" ana="문학관">미래파 의 등장은 어쨌든 2000년대 시단의 최대 사건임에 틀림없 다</interp>* 그리고 그것은 여전히 진행 중인 사건이다.</s>
+          <s>몇 마디의 말로 이들을 뭉뚱그려 재단하는 것은 후대의 문학사가에게나 맡겨두자.</s>
+          <s>동시대의 우리는 여전히 진행 중인 이 사건에 동참할 수 있는 초대권을 손에 쥔 선택받은 자들이 아닌가.</s>
+          <s>'<term type="movement">미래파</term> 가 고유명사로 남을지 아니면 보통 명사로 남을지, 그러니까 우리 시사에 진정한 '사건'으로 기록될지, 아1）<persName role="poet" xml:id="p-x12">강정</persName>,『<title level="a" type="poem" xml:id="t-x3">젊은 바퀴벌레 시인들의 은밀한 사생활上</title>「<title level="m" type="other" xml:id="t-x4">나쁜 취향</title>』, 랜덤하우스.</s>
+          <s>2006, 306 면2） <persName ref="#p-x3">권혁웅</persName>,「<term type="movement">미래파</term>~20（石년, <term type="concept">젊은 시인들</term>」.『미 래파』, <orgName ref="#org-x">문학과지성사</orgName>, <date when="2005">2005</date>.149면3）<persName role="critic" xml:id="p-x13">김주연</persName>*「（해설）의뭉스러운, 느린 걸음의 노래」, <persName role="poet" xml:id="p-x14">문태준</persName>,「<title level="m" type="poem" xml:id="t-x5">그늘의 발달</title>* <orgName ref="#org-x">문학과지성사</orgName>, <date when="2008">2008</date>,115면니면 주기적으로 반복 출현하는 신세대의 전형으로 기록될지에 대해서 는 일정 정도 독자의 몫이 있을 것이다.</s>
+          <s>최소한, “<quote type="direct" genre="other" source="이상, 오감도 작자의 말">용대가리를 떡 끄내여 놓고 하도들 야단에 배암꼬랑지커녕 쥐꼬랑지도 못달고 그만두니 서운 하다</quote>” （<persName role="poet" xml:id="p-x15">이 상</persName>,「<title level="a" type="other" xml:id="t-x6">오감도 작자의 말</title>」）라는 원망을 들을 일은 없어야 하지 않겠는가'<term type="movement">미래파</term>' 라는 명명이 징그러운 괴물들에게서 예쁜 면을 찾아주고 이 들에게 용기를 북돋워주려는 시도였다면, 이제 우리가 할 일은 이들이 스스로 七］래파'라는 후광 또는 굴레를 떼어내고 홀로서기에 성공할 수 있도록 개별 시인들을 따로 불러 대화를 시도해보는 일이라고 생각 된다.</s>
+          <s>괴물도 생명체라는 생각으로 접근한다면, 즉 하나의 생명체를 이 해한다는 생각으로 접근한다면, 이들의 시가 그렇게 난해할 것도 그렇 게 이상할 것도 없을 것이다.</s>
+          <s>정답은 없다.</s>
+        </p>
+        <p>
+          <s>문학을 이해한다는 것이 언 제나 그러하듯, '미 래파' 를 알아 가는 이 난해한 시험도 문제풀이의 과 정이 중요한 완벽한 주관식 문형이기 때문이다.</s>
+          <s>두 번째 시집을 낸 김경 주 <persName ref="#p-x9">이민하</persName>, <persName ref="#p-x2">황병승</persName>"을 읽으며 나만의 독해를 시도해보고자 한다 나의 정답은, 물론 누구에게나 오답이 될 것이다.</s>
+          <s>빼앗기고, 피 흘리고* 침묵하는 혀-<persName ref="#p-x9">이민하</persName>의『<title level="m" type="poem" xml:id="t-x7">음악처럼 스캔들처럼</title>j（<orgName ref="#org-x">문학과지성사</orgName>, <date when="2008">2008</date>）전단지를 뿌리듯 고백하는 일은 없을 거야.—r<title level="a" type="poem" xml:id="t-x8">요리의 탄생</title>」4）<persName role="poet" xml:id="p-x16">김행숙</persName>의 두 번째 시집「<title level="m" type="poem" xml:id="t-x9">이별의 능력</title>」（문학과지성人h <date when="2007">2007</date>）과 <persName ref="#p-x11">진은영</persName>의 두 번째 시집 「<title level="m" type="poem" xml:id="t-x10">우리는 매일매일</title>」（<orgName ref="#org-x">문학과지성사</orgName>, <date when="2008">2008</date>）에 대해서는 다른 지면에서 다룬 바 있으므로 논의의 중복을피하기 위해 이 글의 대상에서 제외한다.</s>
+          <s>이민하의 시는 쉽지 않다.</s>
+          <s>'<quote type="paraphrase" genre="critic">미래파의 시는 어렵다</quote>'라고 고백하기 보 다는 <quote type="paraphrase" genre="critic">어려운 것이 미래파 시다</quote>' 라고 말하는 사람들에게 <persName ref="#p-x9">이민하</persName>는 진 정한 미래파다 그녀의 시가 난해한 이유는 그녀가 만들어낸 생경한 이미지들이 한 편의 시 안에서 분명한 정황을 환기하는 부분'으로서 기능하지 않기 때문일 것이다.</s>
+          <s>그녀는 자신이 보고 있는, 혹은 기억 속 에 떠오른 여러 가지 <term type="concept">이미지</term>들을 토해놓고 있지만, 그 이미지들은 혼히 동일한 장소에, 혹은 동일한 시간에 속해 있었던 것이라고 보기는 어렵 다.</s>
+          <s>여기저기 산재해 있는 <term type="concept">이미지</term>들을 한 편의 시에 흩뿌려 놓는 것이 <persName ref="#p-x9">이민하</persName>의 작법인 셈이다.</s>
+          <s>한 편 한 편의 완성도를 따지기 보다는 그 생 경한<term type="concept">이미지</term> 자체를즐기는 것이 그녀의 시를 좀 더 즐겁게 읽을 수 있 는방법이라는의견은&amp; 그래서 충분히 동의할 만하다.</s>
+        </p>
+        <p>
+          <s>가령, 다음과 같 은 시를 보자.</s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>없는 목을 길게 빼고 마술사는 카드를 돌리죠 여섯 개의 트렁크가 왁자지껄 세탁물처럼 토해낸 여섯 명의 이구동성,</l>
+              </lg>
+              <lg type="stanza">
+                <l>가스불 위에 축축한 눈을 펼쳐놓고 모두 잠이 들죠.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>트렁크를 나르고 망을 보던 문지기가 발을 동동구르며 탄내를 끌 때까지”창문은 수다스런 연기의 확성기.</s>
+          <s>
+            <quote type="direct" genre="poet">화들짝깨어난 화요일의 사람이 그을린 눈에 참기름을 척척 발랐죠* 꼬리를 살랑살랑 먼지들이 짖어 댑니다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">비늘을 다 떨어낼 때까지 물구나무서는 모래계단.</quote>
+          </s>
+          <s><quote type="direct" genre="poet">냉장고엔 초경을 쏟는 소녀들, 사과잼처 럼 침대에 펴 바르고 어둠은 포크를 돌리죠» 눈을 덜 말린 사람들은 아직 프라이팬을 뒤집고 마술의 효력은 이제부터 랍니다.</quote>5）“그러니까 <quote type="direct" genre="critic" source="(리뷰좌담) 관계의 영도, 환상의 극점">이미지 자체의 연쇄를 생각하지 않고 이미지의 개별성을 부분부분 즐기는 방식입니다</quote>:<persName role="poet" xml:id="p-x17">박상수</persName> 외，「<title level="a" type="critic" xml:id="t-x11">（리뷰좌담）관계의 영도, 환상의 극점</title>」*<title level="j" type="journal" xml:id="t-x12">『문학동네』</title>, <date when="2008">2008</date> 가을 호, 536면<quote type="direct" genre="poet"><lg type="stanza"><l>없는 손을 얼키설키 트렁크들은 카드를 뒤섞고 카드를 읽지 못한 마술사가 아직 돌아가지 못했는데 없는 얼굴로 우리는 껌을 뱉듯</l></lg><lg type="stanza"><l>화면을 끄죠.</l></lg></quote>—「<title level="a" type="poem" xml:id="t-x13">일요일</title>」전문제목은 ‘일요일”이다.</s>
+          <s>그러니까 일요일의 어떤 정황, 그때 그녀를 스 치고간어떤 감정이 이런 시를 쓰게 만들었을 것이다.</s>
+          <s>앞서 말했듯,<interp value="neutral" ana="미학">그 정황이 무엇인지, 그때 그녀를 스치고 간 감정의 정체가 무엇인지 파악 해내는 것은 쉬운 일이 아니다.</interp></s>
+        </p>
+        <p>
+          <s>여러 가지 단어들을 키워드삼아 역추적 해볼 수는 있겠다.</s>
+          <s>일단, 시간적 배경은 일요일이다.</s>
+          <s>공간은 아무래도 ‘<term type="concept">부엌</term>인 듯하다.</s>
+          <s>“<quote type="direct" genre="poet">가스불</quote>”, “<quote type="direct" genre="poet">탄내</quote>”, “<quote type="direct" genre="poet">참기름</quote>”, “<quote type="direct" genre="poet">냉장고</quote>”, “<quote type="direct" genre="poet">사과잼</quote>”, <quote type="direct" genre="poet">포 크</quote>”, “<quote type="direct" genre="poet">프라이팬</quote>” 같은 단어들이 부엌을 연상시킨다.</s>
+          <s>행위의 주인공은아 마도 “<quote type="direct" genre="poet">여섯 개의 트렁크</quote>”일 것이고, 그것은 “<quote type="direct" genre="poet">화요일의 사람</quote>”을 포함한 각 '요일의 사람' 일 것이다.</s>
+          <s>그렇다면 이 시는 어느 일요일에 부엌에서 요리를 하고 있는 사람（들） 의 모습을 보여주고 있는 시라고 할 수 있다 그러나 <interp value="neutral" ana="미학">그 광경이 평화롭고 여유롭게 보이지는 않는다.</interp></s>
+          <s>“<quote type="direct" genre="poet">여섯 개의 트 렁크가왁자지껄 세탁물처럼 토해낸/여섯 명의 이구동성</quote>”은 일요일이 오기 전까지 매일매일을 격무에 시달린 누군가의 <term type="concept">피로</term>한 심신을 상기 시킨다.</s>
+          <s>혹은 월요일부터 토요일까지 그의 육체를 훑고 지나갔던 여러 가지 상념들과 그의 눈앞에 펼쳐졌던 수많은 이미지들을 의미하는 것 일 수도 있다.</s>
+        </p>
+        <p>
+          <s>어쨌든 그 “<quote type="direct" genre="poet">트렁크</quote>”들은 과부하가 걸린 듯 피로한 상태 다 그래서 트렁크는 요리에 몰두하지 못하고, “<quote type="direct" genre="poet">문지기가 발을 동동/ 구르며 탄내를 끌 때까지</quote>” 잠들어 있다.</s>
+          <s>연기의 확성기”에 “<quote type="direct" genre="poet">화들짝</quote>” 깨어난 그는 무언가를 한다.</s>
+          <s>“<quote type="direct" genre="poet">참기름도 척척 바르고</quote>”, 프라이팬을뒤집”는다.</s>
+          <s>그사이 시간은 계속간다* “<quote type="direct" genre="poet">비늘 을 다 떨어낼 때까지 물구나무 서는 모래계단</quote>”은 모래시계를 연상케 하지 않는가.</s>
+          <s>요컨대 지금우리의 눈앞에 펼쳐지고 있는 것은 한가롭게 요 리를 즐기는 일요일의 한 때인 것이 아니라, 깜빡 잠이 들었다 화들짝 깨어나는, 뒤죽박죽 정신이 없는 “<quote type="direct" genre="poet">탄내</quote>”나는 일요일인 것이다.</s>
+          <s>왜일까 이유는 간단하다.</s>
+          <s>일요일은 금방 끝나기 때문이다.</s>
+          <s>“<quote type="direct" genre="poet">마술의 효력은 이 제부터랍니다</quote>”라는 말이 끝나기가 무섭게, 그 정신없는 부엌을 보여주 는“<quote type="direct" genre="poet">화면</quote>”은 꺼진다.</s>
+        </p>
+        <p>
+          <s>이렇게 읽어보는 것도 가능하기는 하다는 것이다.</s>
+          <s>그런데 이렇게 여 러 가지 이미지들을 끼워 맞추고 연결해서 하나의 상황을 설정해보고, 거기서 억지로 어떤 의미를 추출해보는 것은 말 그대로 어떤 의미가 있 을까.</s>
+          <s>이를테면 “<persName ref="#p-x9">이민하</persName>의「<title level="a" type="poem" ref="#t-x13">일요일</title>」은 일요일의 평화도 누릴 새 없이 일 주일을 쳇바퀴 돌 듯 살아가는 우리의 피로한 일상을 보여주는 시다”라 고 결론을내린다면 <interp value="critical" ana="미학">그건 너무 시시하지 않는가.</interp></s>
+          <s>차라리, 이러한 독해' 속에서 배제된 가령 “<quote type="direct" genre="poet">냉장고엔 초경을 쏟는 소녀들 사과잼처럼/침대 에 펴 바르고 어둠은 포크를 돌리죠.</quote></s>
+          <s>”라는 생경한 이미지를 하나 건져 내는 것이<interp value="affirmative" ana="미학">「일요일」이라는 시를 충분히 음미 한 것이 될 수도 있다.</interp></s>
+          <s>사실,「<title level="a" type="poem" ref="#t-x13">일요일</title>」은 <persName ref="#p-x9">이민하</persName> 시의 핵심적 모티프 중 하나라고 할 만한 <term type="concept">요리</term>'라는 소재를 차용하고 있다는 점에서 주의를 끈다.</s>
+          <s>'<term type="concept">요리</term>' 혹은 '<term type="concept">음식</term>*은<persName ref="#p-x9">이민하</persName>시의 주요한소재이다.「<title level="a" type="poem" xml:id="t-x14">식탐</title>」이나「<title level="a" type="poem" xml:id="t-x15">거식증</title>」,「<title level="a" type="poem" xml:id="t-x16">개랑프 라이</title>」같은 시들에서 뿐만 아니라, “<quote type="direct" genre="poet" source="유년의 전설">껍데기 까칠한 창문에 어둠의 노른 자가 달라붙었지요</quote>” （「<title level="a" type="poem" xml:id="t-x17">유년의 전설</title>」）라는 식의 묘사법 에서도 확인되는 바다" 요리는 이민하시의 창작 원리와도 관계가 꽤 깊다.</s>
+          <s><term type="concept">요리</term>가 여러 가지 질료들을 한데 모아 새로운 형상을 만들어내는 과정이라는 점을 상기할 경우, <interp value="affirmative" ana="미학">이질적인 것들이 결합되어 생경한 이미지를 만들어내는 이민하시의 매력은요리의 쾌감과도 유사하다는 것을 알 수 있다.</interp></s>
+        </p>
+        <p>
+          <s>그렇 다면 이제 중요한 것은 그녀의 시에서 '<quote type="direct" genre="critic">왜 누군가가 요리를 하고 있는 가</quote>'라는 질문에 답해 보는 일이다.</s>
+          <s>질문에 대한 답은 허기를 채우려는식욕과도, 온갖 재료들로 새로운 형상을 주조해낸다는 탐미적 욕구와 도 별 관련이 없다.</s>
+          <s><persName ref="#p-x9">이민하</persName>는 오로지 <term type="concept">잔인한 쾌감</term>을 묘사하기 위해 요리의 문법을 차용 하는 경우가 많다.</s>
+          <s>그녀는 “<quote type="direct" genre="poet" source="오이에 관한 편견과 중독">사각사각 살갗을 쓸어내리</quote>”（「<title level="a" type="poem" xml:id="t-x18">오이에 관한 편견과 중독</title>」）고 安을 찌르고” “<quote type="direct" genre="poet" source="칼의 꽃">명치를 파고드</quote>"는 “<quote type="direct" genre="poet" source="칼의 꽃">칼질</quote>” （「<title level="a" type="poem" xml:id="t-x19">칼의 꽃</title>」） 의 쾌감이나, “<quote type="direct" genre="poet" source="식탐">아삭아삭</quote>” （「<title level="a" type="poem" ref="#t-x14">식탐</title>」） 씹는 쾌감에만 몰두해 있다고 보는 편이 맞을 것이다 <interp value="critical" ana="미학">그녀가 때로 자신의 정념을 뒤로 한 채 잔혹함을 묘 사하는 일에만 치중해 있다고 느껴지는 것은 이러한 이유 때문이기도 하다</interp>『칼의 꽃」이나「<title level="a" type="poem" xml:id="t-x20">애인은 고기를 사고</title>」에서처럼 <term type="concept">피학</term>의 고통이 무 심히 묘사될 때, 그 잔혹함은 절정에 이른다.「애인은 고기를 사고」를 읽어보자.</s>
+          <s><quote type="direct" genre="poet" source="애인은 고기를 사고">애인은 고기를 사고 나는 나풀나풀 스웨터를 벗는다 애인은 고기를 사 고 상추를 사고 깻잎을 사고 나는 원피스를 벗고 코르셋을 벗고 피어오르 는솜털을 벗고 애인은 고기를 사고 나는 닦고 있던 거울에 매달려 낮잠을 잔다 애인은 고기를 사고 나는 검은 페인트로 정원수를 칠하고 애인은 고 기를 사고 나는 심이 까만 연필을 밤새 깎는다 애인은 고기를 사고 나는 흑연 가루에 목이 메어 눈에서 구름을 뚝뚝 홀린다 애인은 고기를 사고 나 는 배꼽을 어루만지고 애인은 고기를 사고 나는 붉은 신호등을 어깨에 매 달고 달려간다 애인은 고기를 사고 나는 산부인과에 다녀오고 애인은 고 기를 사고 나는 손목의 피를 풀어 욕조에 잠긴다 애인은 고기를 사고 나는 구급차에 실려가고 애인은 고기를 사고 나는 의사를 사랑하고 애인은 고 기를 사고 나는 자궁을 꿰매고 애인은 월요일 수요일 금요일 고기를 사고 나는 화요일 목요일 토요일 구두를 닦고 애인은 스무 해째 고기를사고 나 는 애인이 있는 정육점을 지나 스무 해째 엘리베이터를 타고 훨훨훨 공중 으로 하관되고 애인은 정육점에 배달된 나의 엘리베이터를 끄르고</quote>—「애인은 고기를사고」전문이 시집의 해설자가 밝혀놓은 대로 이 시는 “<quote type="direct" genre="critic" source="어제의 상처, 오늘의 놀이, 내일의 침묵">애인의 완강한동일성과 나의 끝없는 전락</quote>”（<persName ref="#p-x4">신형철</persName>,「<title level="a" type="critic" xml:id="t-x21">어제의 상처, 오늘의 놀이, 내일의 침묵</title>」）이라는 대비를 통해 '<term type="concept">연애의 비극</term>'를 무정하게 그려놓고 있는 시다.</s>
+          <s>솜 털이 피어오르는 나이에 애인，을 만난 나 는 애인 앞에서 옷을 벗었 고 남몰래 눈물도 흘렸고 아이를 지웠고, 자살을 시도했다.</s>
+          <s>그때 애인 은 무엇을 했는가.</s>
+          <s>아무 것도 하지 않았다고 해도 틀린 말은 아니다.</s>
+        </p>
+        <p>
+          <s>내 가 이런 저런 끔찍한 일을 겪는 동안, 그는 그저 “스무 해째 고기를 사 고m 있었을 뿐이니까.「<title level="a" type="poem" ref="#t-x20">애인은 고기를 사고</title>」는 <persName ref="#p-x9">이민하</persName>의 시 중에서 그 시적 정황이 비교적 분명하게 파악되는 몇 안 되는 시 중 하나다.</s>
+          <s>한마 디로 말해 그것은 '<term type="concept">관계의 불능</term>，이다.</s>
+          <s>흥미로운 것은 역시나 이러한설 정을묘사하는<persName ref="#p-x9">이민하</persName> 만의 방식이다.</s>
+          <s>이 시는 '<term type="concept">고백</term>'의 형식을 취한다.</s>
+          <s>그러나 '나는 자신의 한 맺힌 사연을 인과 관계로 엮어 이야기하기 보 다는, 중요한 장면들을 스케치하듯 보여준다.</s>
+          <s>우리는 그녀의 자서전을 읽고 있는 것이 아니라 그녀의 사진첩을 들여다보고 있는 것이다.</s>
+          <s>사진 과사진 사이의 인과 관계는 우리가 찾아야 한다.</s>
+          <s><persName ref="#p-x9">이민하</persName>의 시에서 찾기 힘든것은 '<term type="concept">감정</term>'이기도하지만 '<term type="concept">서사</term>'이기도하다.</s>
+        </p>
+        <p>
+          <s>그렇다면 이렇게 말할 수 있다* <persName ref="#p-x9">이민하</persName>의 시는 아이들의 눈으로 씌어 진 시라고 아이들은 조리있게 말하지 못한다.</s>
+          <s>아이들은 주로 제 눈에 비친 장면을 토대로 자신이 겪은 일을 떠듬떠듬 말한다.</s>
+          <s>각각의 장면들 이 어떤 논리로 엮이는지 모르기 때문이다.</s>
+          <s><persName ref="#p-x9">이민하</persName>의 시가 어려운 이유 는 바로 이런 것이다 그녀는 아이의 눈으로 세계를 재현한다P『<title level="a" type="poem" ref="#t-x17">유년의 전설</title>」같은 시에서도, 제목에 쓰인 '전설'이라는 말이 무색할 정도로, 매끄럽게 연결이 되지 않는 장면들이 그저 중첩되고 있다.「애인은 고 기를 사고」에서처럼 이 시에도 마치 서사를 단절시키는 역할을 하듯 “버스를 탔지요"라는 구절이 반복적으로 삽입되어 있다.</s>
+          <s>“버스를 탔지6）이만하의 묘사법과 시선의 관계에 대해서는, <persName role="critic" xml:id="p-x18">조강석</persName>,「말하라 그대들이 본 것이 무엇인 가를」.「<title level="m" type="critic" xml:id="t-x22">아포리아의 별자리들</title>亂 <orgName xml:id="org-x2">랜덤하우스</orgName> <date when="2008">2008</date>,27~29면.</s>
+          <s>요”, 鐘강변을 달렸지요”, “<quote type="direct" genre="poet">제물로 바쳐진 아이들이 허우적거리며 구두 를 물어뜯었지요</quote>”라는 구절을 힌트삼아, 우리는 어떤 참사에서 희생된 아이들을 떠올려 볼 따름이다.</s>
+          <s>자신이 본 것을 나름의 순서로 이어 붙여 논리를 구축하고 결국은 <term type="concept">거짓말</term>'을 만들어내는 것은 어른의 화법이다.</s>
+          <s>아이는 자신이 본 것을 순서도 계통도 없이 그저 묘사•한다.</s>
+        </p>
+        <p>
+          <s>진실은 그 안에 있다.</s>
+          <s><persName ref="#p-x9">이민하</persName>의 시 는 <term type="concept">진실</term>에 당도하는 방법을 알려주는 시다.</s>
+          <s>인과를 알게 된 어른이 거짓 을 만들어내는 일없이 말하는 방법은 오직 '<term type="concept">침묵</term>' 일 뿐이라고 말하는 시다 그렇다면 우리는 <persName ref="#p-x9">이민하</persName>의 <term type="concept">침묵</term>을 외면해서는 안 된다.</s>
+          <s>그녀는 지 금 <term type="concept">침묵</term> 속에서 “<quote type="direct" genre="poet">당신이 듣는 이 소리는 내 말소리가 아니다.</quote></s>
+          <s><quote type="direct" genre="poet" source="피아노">내 마음의 소리다 나는 여섯 살 이후로 말올 해 본 적이 없다</quote>”（「<title level="a" type="poem" xml:id="t-x23">피아노</title>」）라고 말 하고 있기 때문이다.</s>
+          <s><persName ref="#p-x9">이민하</persName>는 <term type="concept">침묵</term>의 상태로 마음의 소리를 실어 나르 는 작업을 하고 있다.</s>
+          <s>그녀의 굳게 닫힌 입속에는 “<quote type="direct" genre="poet" source="전망 좋은 창">茂盛한 입</quote>” （「전망 좋 은 창」）들이 소용돌이치고 있다.</s>
+          <s>그녀는 '가까스로' <term type="concept">침묵</term>한다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x9">이민하</persName> 의 숱한 '<term type="concept">놀이</term>' 들은 그 지독한 <term type="concept">인내심</term>으로 씌어진다.</s>
+          <s>그녀의 침묵에 동 참하고싶은자, “<quote type="direct" genre="poet" source="묘지 위의 산책">입을 단정히 꿰매고 손뼉을 쳐</quote>”（「<title level="a" type="poem" xml:id="t-x24">묘지 위의 산책</title>」）라.3• 유령극장의 인형극-<persName ref="#p-x5">김경주</persName>의『<title level="m" type="poem" xml:id="t-x25">기담</title>』（<orgName ref="#org-x">문학과지성사</orgName>, 2008）에테르가 당신을 초대하卫 있습니다 수락하시겠습니까 —「<title level="a" type="poem" xml:id="t-1">릴리 슈슈의 모뜬 곳1</title>」나는나인 동시에 내가 아니다.</s>
+          <s>지금 나는 여기에 있지만동시에 여기 에 있지 않다.</s>
+          <s>이것은 어떻게 가능할까.</s>
+          <s>이 말은 “<quote type="direct" genre="poet" source="정신현상학에 부쳐 횔덜린이 헤겔에게 보내는 마지막 편지"><lg type="stanza"><l>죽기 전 내 심장을 한</l></lg><lg type="stanza"><l>번이라도 볼 수 있을까</l></lg></quote>”（「<title level="a" type="poem" xml:id="t-x26">정신현상학에 부쳐 횔덜린이 헤겔에게 보내 는 마지막 편지</title>」,「<title level="m" type="poem" xml:id="t-x27">나는 이 세상에 없는 계절이다</title>」, <orgName xml:id="org-x3">랜덤하우스중앙</orgName>, <date when="2006">2006</date>, 이하『나는」）라는 질문에 물론 가능하다고 말하는 것만큼이나 허황되다.</s>
+          <s>시에서라면 사정이 다르다.</s>
+          <s>시에서 '<term type="concept">다다를 수 없는 나라</term>' 란 없다.</s>
+          <s>“<quote type="direct" genre="poet" source="소수점 이하의 사람들">소수점 이하의 사람</quote>”（<persName ref="#p-x16">김행숙</persName>,「<title level="a" type="poem" xml:id="t-x28">소수점 이하의 사람들</title>」,『<title level="m" type="poem" ref="#t-x9">이별의 능력</title>』, 문학과지성人h <date when="2007">2007</date>）이 되는 것도 “<quote type="direct" genre="poet" source="번개를 깨물고">최후의 지구를 최초로 임신 한 사내</quote>강 정,「<title level="a" type="poem" xml:id="t-x29">번개를 깨물고</title>」,『<title level="m" type="poem" xml:id="t-x30">키스</title>』, <orgName ref="#org-x">문학과지성사</orgName>, <date when="2008">2008</date>）가 되는 것도 가능하다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet" source="테레민을 위한 하나의 시놉 시스（실체와 속성의 관점으로）">음악으로 환생</quote>”（<persName ref="#p-x5">김경주</persName>,「<title level="a" type="poem" xml:id="t-x31">테레민을 위한 하나의 시놉 시스（실체와 속성의 관점으로）</title>」,『<title level="m" type="poem" xml:id="t-x32">나는</title>』）하는 것쯤이야 별 일도 아니 다 "<quote type="direct" genre="poet" source="너무 작은 처 녀들">삼백육십 더하기 피눈물 곱하기 달 없는 밤</quote>” （<persName ref="#p-x2">황병승</persName>,「<title level="a" type="poem" xml:id="t-x33">너무 작은 처 녀들</title>」,『<title level="m" type="poem" xml:id="t-x34">여장남자시코쿠</title>」, <orgName ref="#org-x3">랜덤하우스중앙</orgName>, <date when="2005">2005</date>）도 척척 계산해낼 수 있다 그렇기 때문에 내가 나인 동시에 내가 아닐 수도, 충분히 있는 것 이다 시 속에서 우리는 어디로든 갈수 있고 무엇이든 될 수 있다 나누 어질 수도 합체될 수도 있다.</s>
+          <s>내가 나인 동시에 내가 아니려면, 그저 이렇게 말하면 된다.</s>
+          <s>내 육处 는 지금 이곳에 있지만 내 영혼은 다른 영역에 있다고 “<quote type="direct" genre="poet" source="부재중（不在中）">나 없는 빈방에 서 나오는 그 시간이 지금 내 영혼이</quote>” （「<title level="a" type="poem" xml:id="t-x35">부재중（不在中）</title>丄『<title level="m" type="poem" ref="#t-x32">나는</title>』）라고 그것은 <term type="concept">관념</term>으로 가능한 세계다.</s>
+          <s>그런데, <persName ref="#p-x5">김경주</persName>는 조금 다르게 말한다.</s>
+          <s>그는 그 모든 가능한 일을 '가까스로' 가능하다고 말하는 시인이다.</s>
+          <s>왜 냐 그는 <term type="concept">육체</term>로부터 <term type="concept">영혼</term>을 자유롭게 떠나보내는 관념의 여행을 즐기 고 있는 것이 아니라, “<quote type="direct" genre="poet" source="내 워크맨 속의 갠지스">나의 가장 반대편에서 날아오고 있는 영혼</quote>”（「<title level="a" type="poem" xml:id="t-x36">내 워크맨 속의 갠지스</title>」,『<title level="m" type="poem" ref="#t-x32">나는</title>』）을 자신의 “살”로 받아내고 있기 때문이 다 <persName ref="#p-x5">김경주</persName>에게 영혼은 '바람'이자 '음악'이 아니었던가.</s>
+          <s>그 이역（異 域）의 <term type="concept">영혼</term>들은 그의 몸안에서 희미하게 소용돌이치고, 끊임없이 박동 한다.</s>
+          <s>그가 “<quote type="direct" genre="poet">외로운 날엔 살을 만진다</quote>” （같은 시）고 하는 것도, “<quote type="direct" genre="poet" source="기미 （幾微）-리안에게">황혼에 대한 안목（眼目）을 내 눈의 무늬로 이야기하겠다</quote>”（「<title level="a" type="poem" xml:id="t-x37">기미 （幾微）-리안에게</title>上『<title level="m" type="poem" ref="#t-x32">나는</title>」）고 하는 것도 <quote type="direct" genre="poet" source="먼 생">제 살 속에 화석처럼 각인된 먼 생</quote>”（「먼 생」,「나는』）의 바람'과 음악‘을 감지하기 때문이다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x5">김경주</persName>에게 그 “<quote type="direct" genre="poet" source="취한 말들을 위한 시 간">기미（幾微）란 얼마나 육체의 슬픈 메아리던가</quote>” （「<title level="a" type="poem" xml:id="t-x38">취한 말들을 위한 시 간</title>」,『<title level="m" type="poem" ref="#t-x32">나는</title>』）김경주의 첫 번째 시집을 읽으며, 우리는 '구름의 쇄골', 별의 무렵' 같은 말의 마력에 흠뻑 취하기도 했지만, 대개는 “<quote type="direct" genre="poet" source="우주로 날아가는 방3">자신이라는 시차（時 差）를 견디는</quote>” （「<title level="a" type="poem" xml:id="t-3">우주로 날아가는 방3</title>」,「<title level="m" type="poem" ref="#t-x32">나는</title>丄） 시인의 현기증을 함께 앓았다고 해야 할 것이다.</s>
+          <s>그것은 이역（異域）과 외계（外界）에 속한 영 혼들을 제 몸안에 불러들이는 무당의 신열과도 같은 것이었다* 세련되 게 말해 “<quote type="direct" genre="poet" source="먼 생">다른 생을 윤리하</quote>” （「<title level="a" type="poem" xml:id="t-x39">먼 생</title>」）는 것이었다고 말할 수도 있겠다» <term type="movement">미래파</term> 그룹 중 확실하게 <interp value="affirmative" ana="문학관">자기 갱신을 시도한</interp> <persName ref="#p-x5">김경주</persName>의 두 번째 시집 『<title level="m" type="poem" ref="#t-x25">기담</title>』은 '자신이라는 시차를 견디는 일 뿐만이 아니라, 시차를 만들 어내는 일 을 하고 있는 듯 보인다.</s>
+          <s>주인공은 '<term type="concept">인어（人語））와 언어 （言 魚）</term>‘다.</s>
+          <s><persName ref="#p-x5">김경주</persName>는 육체와 영혼사이, 언어와 언어 사이, 그리고 극劇）과 시（詩） 사이에서 “<term type="concept">멀미</term>”나는이야기들을 토해낸다.</s>
+          <s>그렇다면이제 <term type="concept">내 가 나인 동시에 내가 아닌 세계</term>'는 가까스로 가능한 세계가 아니라, 얼 마든지 가능한 세계가 된다.</s>
+          <s>“알 수 없는 사이에，“<term type="concept">언어의 공동（空洞）</term>” 에서 “<term type="concept">미지의 혀</term>”가 벌이는 한 편의 극은 무엇이든 만들어낼 수 있는 것 이다 '연출자' <persName ref="#p-x5">김경주</persName>는 당신들도 한 번 <term type="concept">현기증</term>을 앓아보시라고 관객 들을 불러모으고 있다.</s>
+          <s>그래서 펼쳐지는 것이 '<term type="concept">유령극장</term>의 <term type="concept">인형극</term> 이 다* 지문을한 번 읽어보자<quote type="direct" genre="poet" source="기담"><lg type="stanza"><l>나는 내 세계의 바깥에 너희들이 있다고 생각하지 않아 너희들은 나를 가지고 춤을 추고 세계를 이야기하지만 너희들의 세계는 내가 보는 너희 들의 세계와 다르지 않아우리는 모두 인형들이고 너희들이 들고 있는 인 형 역시 나일 것이지만 너희들이라는 인형을 들고 있는유령 역시 바로 나 이지 너희들이 나를 들고 있을 때 나는 너희가유령처럼 느껴지고 너희가</l></lg><lg type="stanza"><l>나를 유령이라 발음할 때 너희는 나라는 유령이 들고 있는 인형일 테니까 나는 지금 우리가 머무는 세계의 유령을 들고 있는 인형의 웃음이지</l></lg></quote>한마디로 말하자면 <persName ref="#p-x5">김경주</persName>의 '인형극'이 주는 메시지는 '‘나”와 “내 세계의 바깥”은다르지 않다는 것이다.</s>
+          <s>그러나 이 말은 <term type="concept">본질과 현상</term> 이 혼연일체라는 말은 아니다.</s>
+        </p>
+        <p>
+          <s>물론 그 구분에는 어떠한 위계도 없다 <persName ref="#p-x5">김경주</persName>는 <term type="concept">영혼</term>과 <term type="concept">육체</term>의 분리를 인정한 가운데 이 둘의 만남을 주선한 단 첫 번째 시집에서 그둘의 분리를 증명하는 것은 '<quote type="direct" genre="poet">시차（時差r</quote> 였다 그리고 그 간극을 좁히려는 시인의 노력이 '<quote type="direct" genre="poet">내감（內感）</quote>' 을 통해 영혼의 '<quote type="direct" genre="poet">기미 （幾微）</quote>'를 찾으려는 행로로 나타났다고 할 수 있다.</s>
+          <s><persName ref="#p-x5">김경주</persName>의 현 기증은 <term type="concept">육체</term>와 <term type="concept">영혼</term>의 어느 한 쪽에 편승하여 극복되는 것은 아니다.</s>
+          <s>그 의 세계는 힘겨운 <term type="concept">이원론</term>의 세계이지 손쉬운 <term type="concept">일원론</term>의 세계는 아니다『<title level="m" type="poem" ref="#t-x25">기담</title>」의 인형극은 영혼과육체의 ’<quote type="direct" genre="poet">시차（時差）</quote>'를 '<quote type="direct" genre="poet">시차（視差）</quote>‘로서 극복하고 있다고 할 수 있을 것이다.</s>
+          <s>'나'도 '내 세계의 바깥도 각각 “<term type="concept">인형</term>”인 동시에 “<term type="concept">유령</term>”이다.</s>
+          <s>“<quote type="direct" genre="poet">너희들이 들고 있는 인형 역시 나</quote>”이며 “<quote type="direct" genre="poet">너희들이라는 인형을 들고 있는 유령 역시 바로 나</quote>”이다.</s>
+          <s>그러니까 나 는 <term type="concept">인형</term>'인동시에 <term type="concept">유령</term>'이다.</s>
+          <s>그리고내가이처럼 <term type="concept">인형</term>/<term type="concept">유령</term>의 이원 론을 극복할 수 있는 것은 “<quote type="direct" genre="poet">너희들</quote>”이라는 존재를 통해서다.</s>
+          <s>그러니까 '<quote type="direct" genre="poet">시차（視差r</quote> 의 도입으로 나 는 '<term type="concept">인형</term>'이자 '<term type="concept">유령</term> 이 될수 있다.</s>
+        </p>
+        <p>
+          <s>물론 너희들'도마찬가지다.</s>
+          <s>그가도입한 '<term type="concept">극（劇）</term>'의 형식을생각한다면이 건 단순한 말장난은 아니다.</s>
+          <s>극은 관객을 통해 성립된다.</s>
+          <s><term type="concept">시선</term>'을통해 극이 성립된다는 것이다.</s>
+          <s>이때 연기를 하는 것은 과연 배우인가, 관객인 가.</s>
+          <s>그 둘은 서로를 보며 각자 연기를 하고 있다.</s>
+          <s>위의 지문을 참고하자 면, 무대 위의 나'는 “<quote type="direct" genre="poet">너희들</quote>”（관객）이라는 “<term type="concept">유령</term>”이 “<quote type="direct" genre="poet">들고 있는</quote>"（보 고 있는） “<term type="concept">인형</term>”이자* “너희들” （관객）이라는 “인형”을 들고 있는（보고 있는） “유령"（관객）이기도 하다.</s>
+          <s>관객의 입장에서 마찬가지로 서술할수 있다.</s>
+        </p>
+        <p>
+          <s>이들은 서로가서로에게 배우이자 관객이다.</s>
+          <s>즉 시선의 도입 은우리를 '<term type="concept">보이는 인형</term>'인 동시에, 보는<term type="concept">유령</term>으로 만들어준다.</s>
+          <s>그렇 다면 “<term type="concept">스노글로브</term>”라는 장난감을 들여다보고 있는 우리가 <term type="concept">유령</term>인가, 아니면 그 “<term type="concept">수정구</term>”가 거꾸로 우리를 들여다보고 있는 유령인 것인가.</s>
+          <s>물론 “<quote type="direct" genre="poet" source="다섯 개의 물체주머니를 사용하는 자연 시간">하나는 유리로 만들어진 유령이고 하나는 유리로 만들어진 자신 의 눈동자를 유령이라고 믿는다</quote>”（「<title level="a" type="poem" xml:id="t-x40">다섯 개의 물체주머니를 사용하는 자연 시간</title>」）가정답이다.</s>
+          <s>
+            <interp value="neutral" ana="미학">사실 김경주는 무엇이 진짜이고 무엇이 가짜인가를 구별하는 데 공 들이고 있지는 않다.</interp>
+          </s>
+          <s>그 <term type="concept">분열</term>과 괴리를 어떻게 돌파할 것인가에만 관심 이 있다.</s>
+          <s><persName ref="#p-x5">김경주</persName>가 가장못 견뎌 하는 것은우리가 <term type="concept">헛것</term>‘이 되어버릴지 도 모른다는 사실인 것이다.</s>
+          <s>그렇다면 자신의 '<term type="concept">인형극</term> 을 “<quote type="direct" genre="poet">무지개를 쫓 아돌아다니는</quote>" 아프리카 한 부족의 미성년들의 탐험으로 정리한 <persName ref="#p-x5">김경 주</persName>의「<title level="a" type="poem" xml:id="t-x41">연출의 변</title>」이 이해가 된다.</s>
+        </p>
+        <p>
+          <s>（이 글에서 충분히 다루지는 못했지 만 <persName ref="#p-x5">김경주</persName>의『<title level="m" type="poem" ref="#t-x25">기담</title>』에서 가장 신선하게 여겨지고, 이전의 김경주와사 뭇 이질적으로 느껴지는 그의 <term type="concept">언어 놀이</term>들（「<title level="a" type="poem" xml:id="t-x42">팬옵티콘</title>」,「<title level="a" type="poem" xml:id="t-x43">죽은 나무의 구멍 속에서 저녁은 찾아온다一베리에게</title>」,「<title level="a" type="poem" xml:id="t-x44">이꼬르의 천식</title>」）은 “<quote type="direct" genre="poet" source="연출의 변">헛것의 비극으로 죽어가는 것이 아니라 살아서 헛것인 지금</quote>”（「<title level="a" type="poem" ref="#t-x41">연출의 변</title>」）을 견디려는 행위라고 할 수 있을 것이다.</s>
+          <s><persName ref="#p-x5">김경주</persName>의 '<quote type="paraphrase" genre="poet">이꼬르의 세계</quote>는 하 나의 <term type="concept">기표</term>가 어떤 의미와도 관련없는 '<term type="concept">헛것</term>'이 되는 세계를 보여주는 것이 아니라, 자기만의‘<term type="concept">기미</term>“를 찾아가는 <interp value="affirmative" ana="미학">멀미나는 언어의 여행</interp>이다.</s>
+          <s>그렇다면 지금, <persName ref="#p-x5">김경주</persName>의 “<quote type="direct" genre="poet">문장을 차려입고</quote>” 그 “<quote type="direct" genre="poet">문장에 엎</quote>"（「<title level="a" type="poem" xml:id="t-x45">사랑해야 하는 딸들</title>」）어지면서 그의 <term type="concept">언어 놀이</term>에서 '<term type="concept">멀미</term>‘를 느끼고 있는 바로 당신이, 김경주라는 '인형'의 “<term type="concept">배후</term>”이자 “<term type="concept">배우</term>”가될 것이다.</s>
+          <s>마찬가 지로 串<title level="m" type="poem" ref="#t-x25">기담</title>」역시 당신들의 “<term type="concept">배우</term>”이자 “<term type="concept">배후</term>”이다.</s>
+          <s>“<quote type="direct" genre="poet" source="기담">무지개는 빛의 멀 미들이라고 내 배우들을 홀리느라 스스로 배후가 되었다.</quote></s>
+          <s>” <title level="m" type="poem" ref="#t-x25">기담</title>』의 연 출자，<persName ref="#p-x5">김경주</persName>의 말이다.</s>
+          <s>파티의 <term type="concept">비극</term>一<persName ref="#p-x2">황병승</persName>의 1■<title level="m" type="poem" ref="#t-x2">트랙과 들판의 별</title>』（<orgName ref="#org-x">문학과지성사</orgName>, <date when="2007">2007</date>）어두운 부엌 한편에서 누군가, 억지로 사랑해……하고 말했다.—「<title level="a" type="poem" xml:id="t-x46">멜랑콜리호두파이</title>」<term type="concept">주체</term>, 성, 문화 언어에 관한 지루한 <term type="concept">동일성</term>의 신화를 통쾌하게 전복 하는 황병승의 *<title level="m" type="poem" xml:id="t-x47">에로틱파괴어린빌리지</title>'가 말그대로 <term type="concept">난장（亂場）</term> 그 자 체였다면, 그의 두 번째 시집이 우리에게 보여주고 있는 것은 “<quote type="direct" genre="poet" source="첨에 관한 아홉소ihopeso 씨 （氏）의 에세이">뒤죽박 죽 얽히고설키는 비극</quote>/（「<title level="a" type="poem" xml:id="t-ihopeso">첨에 관한 아홉소ihopeso 씨 （氏）의 에세이</title>」） 에 관한 것이다 비극' 에 방점을 찍어보면 어떨까得 그러니까 <interp value="neutral" ana="미학">황병승이 쓰고 있는 것은 즐거운 이야기만도 우스운 이야기만도 신나는 이야기 만도 아니라는 말이다.</interp></s>
+          <s>“<quote type="direct" genre="poet" source="모모">바다가 호수가 되고 처녀가 수염을 기르교토 끼가 사자를 쫓는</quote>”（「<title level="a" type="poem" xml:id="t-x48">모모</title>」） 그 이상한 이야기는，꿈에서 깨고 나면 “<term type="concept">악 몽</term>”으로 기억될 수도 있기 때문이다建 꿈에서나 현실에서나 언제나 두려 움 없는 “<quote type="direct" genre="poet" source="부드럽고 딱딱한 토슈즈">즐거움과 초재미</quote>” （「<title level="a" type="poem" xml:id="t-x49">부드럽고 딱딱한 토슈즈</title>」,「<title level="a" type="poem" ref="#t-x34">여장남자시코 쿠</title>』）만을 선사하는 그런 이야기가 있을 수 있을까.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x2">황병승</persName>이 이제껏 시 도한 것이 이른바 <term type="concept">혼종</term>의 '가능성，을 무한히 보여주는 쪽에 가까웠다 면,「<title level="m" type="poem" ref="#t-x2">트랙과 들판의 별</title>』은 '불가느 에 대한 비애마저 품고 있다는 점에 서 <interp value="affirmative" ana="미학">좀 더 진솔하게 다가온다.</interp></s>
+          <s>이질적 개체들이 자신의 경계를 허물고 몽롱하고 모호한 채로 즐기 는 환각의 파티 같은 <persName ref="#p-x2">황병승</persName>의 “<quote type="direct" genre="poet" source="눈보라 속을 날아서">굴 속의 노래</quote>” （「<title level="a" type="poem" xml:id="t-x50">눈보라 속을 날아서</title>」） 가 경쾌한 모반（謀反）의 축가로 들리기보다는 어쩐지 묵직한 비가（悲 歌）로 들리는 것은 바로 이런 이유 때문일 것이다.</s>
+          <s>어쨌든 그들은 “<quote type="direct" genre="poet" source="트랙과 들판의 별">배척 된 채로</quote>” （「<title level="a" type="poem" ref="#t-x2">트랙과 들판의 별</title>」） 있다.</s>
+          <s>더 슬픈 것은 '우리들만의 파티'는언젠가 끝날 것이고, 꿈에서도 언젠가는 깨어나야 한다는 사실이다.</s>
+          <s>더 불어, 꿈에서 가장 먼저 깨어나는 자가, 그래서 '우리들의 파티' 를 망쳐 버리는 자가 바로 자기 자신일 수도 있다는 사실이 그를 슬프게 한다.</s>
+          <s><persName ref="#p-x2">황병승</persName>의 <term type="concept">일탈</term>은 이처럼 “<quote type="direct" genre="poet" source="같이 과자 먹었지">아름다움과 슬픔의 끝에</quote>'(「같이 과자 먹었 지」) 있다.</s>
+          <s><quote type="direct" genre="poet" source="멜랑콜리호두파이"><lg type="stanza"><l>배가 고파서 문득 잠에서 깨었을 때</l></lg><lg type="stanza"><l>꿈속에 남겨진 사람들에게 미안했다 나 하나 때문에 무지개 언덕을 찾아가는 여행이 어색해졌다</l></lg></quote><title level="a" type="poem" ref="#t-x46">멜랑콜리호두파이</title>」부분상 하로 나누어진「<title level="a" type="poem" ref="#t-x50">눈보라 속을 날아서</title>」에 이어지는「멜랑콜리호두 파이」는 이 렇게 시작된다.</s>
+          <s>'눈보라'는 코카인 파티의 속어이다「눈보 라 속을 宙｝서」는 제목이 암시하듯 <term type="concept">환각</term>의 상태에서 써내려간 굴 속 의 노래”이다.</s>
+        </p>
+        <p>
+          <s>냐라키, 오스본, 메기와 부기주니어 등이 그 주인공이다.</s>
+          <s>그러니까「멜랑콜리호두파이」의 화자는 “<quote type="direct" genre="poet">나 하나 때문에</quote>” 그 환각의 파 티를 망쳤다고 고백하고 있는 것이다.</s>
+          <s>잠에서 깬 건 ‘나‘ 이고, 그건 “<quote type="direct" genre="poet">꿈 속에서</quote>” 왠지 모를 허기가 느껴졌던 탓이고, 그런 나로 인해서 “<quote type="direct" genre="poet">무지개 언덕을 찾아가는 여행이 어색해</quote>”져버린 것이다.</s>
+          <s>“<quote type="direct" genre="poet">무지개 언덕을 찾아 가는 여행</quote>”은 모든 것이 화려하게 공존하는 유토피아를 찾는 여행과도 같다.</s>
+          <s>그리고 유토피 아라는 말이 원체 그렇듯 그것은 없는 곳 (u-topia) 을 찾는 전적으로 꿈속의 일이다.</s>
+          <s>잠에서 깬 나는 “<quote type="direct" genre="poet">여전히 꿈속에 남겨 진 사람들</quote>”이 어쩐지 “<quote type="direct" genre="poet">어색</quote>”하게 보이는 낮 의 시간에 속하게 된다.</s>
+          <s>그 들에게 “<quote type="direct" genre="poet">미안</quote>”해지는 건 당연하다.</s>
+          <s>갑자기 술에서 깨어난사람이 여전 히 만취 한 채로 있는 동료들을 보는 심 정이 랄까황병승이 집요해지는 것은, 애초에 “<quote type="direct" genre="poet">무지개 언덕을 찾아가는 여행</quote>”을 “<quote type="direct" genre="poet">배척</quote>”하고 무시했던 이들에게 적대감을 드러낼 때보다도, “배척된”'우리'가과연 우리가될 수 있는가를 생각해볼 때이다.</s>
+        </p>
+        <p>
+          <s>”<quote type="direct" genre="poet"><lg type="stanza"><l>차창에 기대어 아름다움 모습으로 잠들었을 때 나는 네가 그 상태로 숨 이 끊어져 아름다움을 완성하길 바랐다 긴 머리 원피스 녹색 타이즈의 소 녀여 땀에 젖은 속옷이 열기를 뿜어대는 밤 우리는 조금 가까워졌고 가슴 속 네 발 짐숭은 미친 둣이 날뛰고 있어 너를 어떻게 해야 할까 안녕, 널 보내주고 싶은데 컹 소리가 터져 나올 것 같아</l></lg><lg type="stanza"><l>차창에 기댄 너의 발그레한 두 뺨이 슬프게 떨릴 때 나는 네가 그 슬픔 속에서 심장을 움켜진 채 고꾸라지기를 간절히 바랐다 제발 내 옷소매를 놓아줘 축축한 양말이 미끌거리는 밤 가슴속에 으르렁거리는 이빨들이 추위에 떨고 있어 긴 머리 원피스 녹색 타이즈의 소녀여 너를 이렇게 두어 도될까!</l></lg></quote></s>
+          <s>
+            <quote type="direct" genre="poet">
+              <note type="ellipsis">(…)</note>
+              <lg type="stanza">
+                <l>미안해 미안해, 말하고 싶지만 사나운 발톱이 네 얼굴을 못쓰게 만들어 버릴 것 같아다가서고 싶지만 널 한입에 물어죽일까 두려워</l>
+              </lg>
+              <lg type="stanza">
+                <l>너는 부드러운 손길 다정한 목소리 모두 나에게 주었지만 나는 너에게 줄 것 아무것도 없고 너를 얌전히 보내주기도 싫어 뒤죽박죽의 머리칼이 불처럼 타오르는 밤 너를 이대로 보내도 좋을까!</l>
+              </lg>
+            </quote>
+          </s>
+          <s><quote type="direct" genre="poet"><lg type="stanza"><l>긴 머리 원피스 녹색 타 이즈의 소녀여, 마음으로만 마음으로만 굿바이</l></lg><lg type="stanza"><l>—r마음으로만 굿바이</l></lg></quote>」부분이 시는 한 마디로 말해 <term type="concept">순수한 아름다움에 관한 치명적인 파괴본능</term> 을 그리고 있는 시다 그리고 그 안에 내재된 <term type="concept">선함과 악함의 빠른 교차</term> 를 함께 보여준다.</s>
+          <s>차창에 기대어 잠든 “<quote type="direct" genre="poet">소녀</quote>”가 있다.</s>
+          <s>그 소녀의 “발그 레한두 뺨W은 슬프도록 아름답다.</s>
+          <s>나 는 “긴 머리 원피스 녹색 타이즈 의 소녀에 대해 '나쁜' 상상을 한다.</s>
+          <s>“<quote type="direct" genre="poet">땀에 젖은 속옷</quote>”, “<quote type="direct" genre="poet">미끌거리는 밤</quote>”.</s>
+          <s>
+            <interp value="neutral" ana="미학">소녀의 순수함을 가장 잔인하게 파괴해버리고 싶은 점잖지 못한 충동을 느끼는 것이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>그리고 주저한다.</s>
+          <s>“너를 어떻게 해야 할까!</s>
+          <s>”, “너 를 이렇게 두어도 될까!</s>
+          <s>”, “너를 이대로 보내도 좋을까!</s>
+          <s>” 그러나 망설이 는 선한 마음보다 더 빠른 것이 악한 상상(혹은 행동)이다.</s>
+          <s>이미 '나 는（그게 상상일지라도） '너’와 “<quote type="direct" genre="poet">뒤죽박죽의 머리칼이 불처럼 타오르는 밤</quote>”에 있다.</s>
+          <s>“<quote type="direct" genre="poet">너를 이대로 보내</quote>”주고 싶은 마음은 그저 마음뿐이다.</s>
+          <s>순 수한 아름다움을 파괴해버 리는 가장 악랄한 순간에 '나 는 마음 한 편 의 선함을 드러낸다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet">마음으로만 마음으로만 굿바이</quote>”라는 시어가 <interp value="affirmative" ana="미학">슬 프도록 아름답게 들리는 이유는 그런 것이다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="미학">이 시의 매력은 이 같은 솔직함이다.</interp>
+          </s>
+          <s>그 <term type="concept">솔직함</term>은 자신이 본능에 이끌리는 착한 짐승일 뿐이라 는 위선적인 태도와도, 자신의 연약함만을 보호하려는 위악적인 태도 와도 거리를 둔다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">황병승은 자기 자신의 선함과 악함을 똑바로 직시한 다 그래서 이런 결론을 얻어낸다.</interp>
+          </s>
+          <s>“<quote type="direct" genre="poet" source="곰뱀매거진18호">당신은 그저* 조금 약해졌을 뿐 약 하다 는 것은 흘러가는 감정</quote>” （「<title level="a" type="poem" xml:id="t-18">곰뱀매거진18호</title>」） 일 뿌세상의 어떤 무엇도 결정적으로 아름답거나 결정적으로 추할 수는 없다.</s>
+          <s>진정으로 선하거나 진정으로 악한 것도 없다.</s>
+          <s><persName ref="#p-x2">황병승</persName>의 메시지는 바로 이런 것이다.</s>
+          <s>그 대상이 자기 자신이라고 해도 마찬가지다.</s>
+        </p>
+        <p>
+          <s>나는 어디까지나 불완전한 존재이다.</s>
+          <s>그리고 그것을 아는 자만이 상대의 불 완전함도 온전히 감싸 안을 수 있다.</s>
+          <s>황병승이 자신의 시에서 순수한 소 녀도 되었다가, 그 소녀를 “<quote type="direct" genre="poet">개년</quote>”（「트랙과 들판의 별」）이라고 부르는 개보다 못한 놈도 되 었다가, 환각에 취하기도 했다가 멀쩡히 깨어나기 도 했다가 하며 그렇게 수많은 상황속에 자신을 집어 넣는 것은 그가 세 상을 온몸으로 살기 때문이다 그리고 대체로 그는 악하기보다는 약한 존재이기 때문이다.</s>
+          <s>앞서 황병승의 시가 '비극 이라고 했다.</s>
+          <s>비극이란 무엇인가.</s>
+          <s>세상 누 구라도 불행한 운명 에 처 할 수 있다는 공포와 자기 자신은 그 공포로부 터 한 발 물러서 있다는 안도를 함께 주는 것이 비극이 아닌가.</s>
+          <s>나 를 염두에 둔 공포가 너 를 향한 연민으로 뒤바뀌는 것이 카타르시스가 아닌가.</s>
+          <s>황병승의 시가 비극' 이 되는 것은 모든 것이 뒤섞이는 “<quote type="direct" genre="poet">굴 속 의 노래</quote>”를 들으며 이 같은，연민 을 느끼는 주인공이 등장할 때다.</s>
+        </p>
+        <p>
+          <s>꿈에서 깨어난헌 단 한 명의 존재가 바로 그 사람이다.</s>
+          <s>모두가 꿈꾸고 있을 때는 그게 꿈인지 모르지만, 한 명이라도 거기서 깨어난 자가 있다면, 그것은 더 이상 꿈일 수 없다.</s>
+          <s>깨어나서 떠올려본 꿈도, 아침이 되어 돌 이켜본 밤도 그저 비정상적인 어둠의 공간일 뿐이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">황병승의 시가 자 기충족적인 희극이 되지 않고, '거리'와 '깊이가 간직한 비극이 될 수 있는 것은 이러한 자기 성찰적 시선 때문이다.</interp>
+          </s>
+          <s>“<quote type="direct" genre="poet" source="트랙과 들판의 별">우리에게는 우리들만 의 승리가 있다</quote>”（「<title level="a" type="poem" ref="#t-x2">트랙과 들판의 별</title>」）지만 우리는 과연 '우리'가 될 수 있을까.</s>
+          <s><persName role="poet" xml:id="p-x19">황병숭</persName>의 질문은 거기까지 나아가 있다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그가 보여주는 무절 제한뒤섞임의 재미를 또 한 번 맛본 것보다도 이러한 질문을 확인한 것 이 그의 두번째 시집에서 우리가 얻은 수확이다.</interp>
+          </s>
+          <s><quote type="direct" genre="poet" source="메리제인 요코하마"><lg type="stanza"><l>빨고 만지고 핥아도</l></lg><lg type="stanza"><l>우리를 기억하는 건우리겠니?</l></lg></quote>口■<title level="a" type="poem" xml:id="t-x51">메리제인 요코하마</title>」（『<title level="m" type="poem" ref="#t-x34">여장남자시코쿠</title>』） 부분당신의 대답은 무엇인가.</s>
+        </p>
+        <p>
+          <s>"포엣（poet）, 온리（only） <term type="movement">누벨바그</term>（noiwellevague）”차'<interp value="neutral" ana="미학">미래파 의 시는 즐겁고 발랄하기보다는 오히려 처절하고 슬프다.</interp></s>
+          <s>왜 냐 이들은 '<term type="concept">가까스로 가능한</term>' 그 무엇을 시도하고 있기 때문이다.</s>
+          <s>그 과정에서 <persName ref="#p-x9">이민하</persName>, <persName ref="#p-x5">김경주</persName>,<persName ref="#p-x2">황병승</persName>은 '<quote type="indirect" genre="poet">무정 （無情）한 요리사</quote>' , '<quote type="indirect" genre="poet">유령극장 의 인형，파티의 불청객</quote>‘이 되기도 한다.</s>
+          <s>그렇다면 이들이 힘겹게 가 고 있는 곳은 어떤 세계일까.</s>
+          <s>그곳은 <term type="concept">거짓도, 허무도, 편견도 없는 진실 의 세계</term>일 것이다 들리는 소문과는 달리, 이들은 손쉽게 그 무엇도 가7）<persName ref="#p-x19">황병숭</persName>,「<title level="a" type="poem" xml:id="t-hopeso">첨에 관한아흡소hopeso 씨 （氏）의 에세이</title>」능하다고 말하는자들이 아니다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">이 세 명의 시인에게 쉬워 보이는 일이 있다면, 그것은 오로지 쓰기를 멈추지 않는 일, 바로 그것뿐이다.</interp>
+          </s>
+          <s><term type="movement">미래 파</term>‘ 의 두 번째 시집에서 확인한 것은 '<term type="concept">가까스로 가능한</term>' 세계에 도달하 려는 이들의 여정에서 그 '<term type="concept">고통</term>‘의 강도가 갈수록 짙어지고 있다는사 실이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">사유는 깊어지고, 태도는 진지해졌기 때문이리라.</interp>
+          </s>
+        </p>
+        <p>
+          <s>종은 징조다.</s>
+          <s>다만 당부하고 싶은 말은, 세계를 대하는 눈이 깊어지는 만큼, 반대로 <interp value="affirmative" ana="미학">언어를 대하는 손놀림은 더 많이 가벼워져야 한다는 것</interp>, 바로 그것이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">그래야 미래파'라는 명명이 이들의 청춘 시절을 환기하는 한때의 영 광스런 이름으로만 남지 않을 수 있을 것이다 제 살을 갉아 먹는 용기 로, 그러니까 자신들이 이루어놓은 것을 한 순간에 파괴해버리는 자기 갱신의 치열함으로, 이들이 내내 '미래파'이기를 바란다.</interp>
+          </s>
+          <s>시인들이여 저 멀리 앞에 계시기를.</s>
+          <s>
+            <interp value="affirmative" ana="미학">영원히 시적인 것이 우리를 이끈다.</interp>
+          </s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

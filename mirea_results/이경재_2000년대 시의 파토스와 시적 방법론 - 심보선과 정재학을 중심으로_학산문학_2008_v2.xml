@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2000년대 시의 파토스와 시적 방법론 - 심보선과 정재학을 중심으로</title>
+        <author>이경재</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>工。0号 /〈秋*绘疗〉专松 이川 右也KINX2008157645리뷰 • <title level="j" type="journal" xml:id="t-x">시</title><title level="a" type="critic" xml:id="t-2000">2000년대 시의파토스와 시적 방법론</title>T 보선과<persName role="poet" xml:id="p-x">정재학</persName>을중심으로<persName role="critic" xml:id="p-x2">이 경 재</persName>응고된 세계가 낳은 <term type="concept">비극</term>의 파토스<persName role="poet" xml:id="p-x3">심보선</persName>의 시는 축축하다.</s>
+          <s>그것은 일상의 <term type="concept">멜랑콜리</term> 내지는 체념의 <term type="concept">파 토스</term>가 빚어내는 물기 때문이다.</s>
+          <s>표제작의 제목부터 그러한 물기는 느 껴지는데, <title level="a" type="poem" xml:id="t-x2">슬픔이 없는 십오 초</title> 란 역설적으로 슬픔으로 가득 찬 우리 의 삶을 환기시킬 수밖에 없지 않은가?</s>
+          <s><persName ref="#p-x3">심보선</persName>의 시들이 담고 있는 정서 는 <term type="concept">비극</term>과 유사하다.</s>
+          <s><term type="concept">비극</term>은 이미 시효가 다한 고대의 양식이라고 생각 할 수도 있지만, <interp value="neutral" ana="사회">현대사회야말로 비극이 발아하기 좋은 환경일 수도 있 다.</interp></s>
+          <s><term type="concept">비극</term>이란 본래 자기의 뜻과는 상관없이 이 삶과 세상이 결정되어 있 다는 인식에서 비롯된다.</s>
+          <s>신탁에 따른 운명 때문이든, 인지할 수 없는 심충 구조에 따른 것이든, 우리의 의지와 행위로 감당할 수 있는 범위 한참 너머에 우리의 삶이 놓여 있는 것이라면, <term type="concept">슬픔의 파토스</term>에 점령당하는 것은 당연한 일일 수밖에 없다.</s>
+          <s><date when="1900">20세기</date> <term type="movement">모더니즘</term>과 신화적 비극 혹 은 <term type="concept">비극적 신화</term>의 상사성을 논하는 것은 이러한 맥락에서이다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x3">심보선</persName> 의『<title level="m" type="poem" ref="#t-x2">슬픔이 없는 십오 초</title>』에서 결정된 세계에 처한 시적 화자의 <term type="concept">무력함</term> 을" 발견하는 것-은 어려운- 일이 아니다.</s>
+          <s>“<quote type="direct" genre="poet" source="슬픔이 없는 십오 초">누구나 잘 안다 이렇게 된 것은/이렇게 될 수밖에 없었던 것이다</quote>꼬 （「<title level="a" type="poem" ref="#t-x2">슬픔이 없는 십오 초</title>」）라고 조용히 말할 때, <interp value="neutral" ana="사상">삶이란 주체의 의지와는 무관한 저 너머에서 벌어지는 주사위 게임에 불과하다.</interp></s>
+          <s><term type="concept">희망</term>을, 현재의 결핍을 덮어주는 미래의 환상 커튼이라고 정의내릴 수 있다면, <persName ref="#p-x3">심보선</persName> 에게 있어 <interp value="critical" ana="미학">희망은 너무나 까마득하다.</interp></s>
+          <s>“<quote type="direct" genre="poet" source="최후의 후식">나는 모든 미래가 오늘의 치명적 인 오역이라고 믿는다</quote>'（「<title level="a" type="poem" xml:id="t-x3">최후의 후식</title>」）면, “<quote type="direct" genre="poet" source="슬픔이 없는 십오 초">어디로든 발걸음을 옮겨야 하겠으나/어디로든 끝간에는 사라지는 길들이다</quote>■”（「<title level="a" type="poem" ref="#t-x2">슬픔이 없는 십오 초</title>」）라고 말할 때, <interp value="neutral" ana="사상">미래는 현재와는 무관한 텅 빈 암흑지점으로 변화된 다.</interp></s>
+          <s>그런데 <persName ref="#p-x3">심보선</persName>의 시들이 보이는 <term type="concept">비극</term>의 정서는 몇 가지 계보를 형성 하고 있다.</s>
+          <s><persName role="foreigner" xml:id="p-x4">지젝</persName>은 <term type="movement">정신분석학</term>과 신화와의 관계를 논하는 자리에서 비 극의 형식을 세 가지로 나누고 있다.</s>
+          <s>D 그는 모른다.</s>
+          <s>비록 그것을 행하 고 있기는 하지만, 2） 그는 안다.</s>
+        </p>
+        <p>
+          <s>그러므로 그것을 행할 수 없다, 3） 그는 그가 무엇을 행하고 있는지 안다.</s>
+          <s>그럼에도 그것을 행한다,는 것이 그것 이다.» <persName ref="#p-x3">심보선</persName>의 시에서 눈여겨봐야 할 것은 그의 <term type="concept">비극적 정서</term>가 모두 2）나 3）의 형식에 제한되어 있다는 점이다.</s>
+          <s><persName ref="#p-x3">심보선</persName>은 결코 그는 안다 라는 위치를 포기하지 않는다.</s>
+          <s><quote type="direct" genre="poet">나는 해석자이다/크게 웃는 장남이다/ 비극적인 일이 다시 일어난다 해도/어디에도 구원은 없다 해도/나는 정 확히 해석하고/마지막에는 반드시 큰 소리로 웃어야 한다</quote>”（「웃는다, 웃<persName role="foreigner" xml:id="p-x5">슬라보예 지젝</persName>,「<title level="m" type="foreign" xml:id="t-x4">전체주의가 어쨌다구?</title>」, <persName role="critic" xml:id="p-x6">박보희</persName> 옮김, <orgName xml:id="org-x">새물결</orgName>, 2008, 31-32쪽.</s>
+          <s>어야 하기에」）고 말할 때, 시인이 서 있는 위치는 선명하게 드러난다.</s>
+          <s>시 집 전체에 넘쳐나는 <term type="concept">성찰의 아포리즘</term>들은 이러한 위치에서 비롯된다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">나는 해석자이다，야말로 이 시집에서 시적 화자의 본질적인 자기정의 라고 할 수 있다.</interp>
+          </s>
+          <s>그의 시는 대부분 2）에 위치해 있다.</s>
+        </p>
+        <p>
+          <s>이때 감정의 파토 스는 최고조에 달해, <term type="concept">분노</term>와 <term type="concept">죄의식</term>과 <term type="concept">번민</term>으로 시들은 질척거리게 된 다.</s>
+          <s>그럼에도 그의 시가 3）으로 향하는 지점이 있다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이것이야말로 심보선 시가 멜랑콜리에서 벗어나 크게 약동하는 순간이다.</interp>
+          </s>
+          <s>3）의 경우는 <term type="concept">냉소</term> 와 <term type="concept">숭고</term>의 태도로 연결되기 쉬운데, <persName ref="#p-x3">심보선</persName> 시에서 발견되는 것은 후자 의 태도이다.</s>
+          <s>“<quote type="direct" genre="poet" source="불어라 바람아">바람이 불어도, 사람은, 바람 속에서, 불멸을 숭배하는 하 루살이의 날갯짓처럼, 사는 것이다, 살아야 하는 것이다, 살지 않으면, 안 되는 것이다•</quote>”（「<title level="a" type="poem" xml:id="t-x5">불어라 바람아</title>j）에서 느껴지는 대결의 자세에서 혹은 “<quote type="direct" genre="poet" source="웃는다, 웃어야 하기에">장남으로서, 오직 장남으로서/애절함인지 애통함인지 애틋함인지 모 를/이 집안에 만연한 모호한 정념들과/나는 끝까지 싸울 것이다.</quote></s>
+          <s>”（「<title level="a" type="poem" xml:id="t-x6">웃는 다, 웃어야 하기에</title>」）라는 공세적 결의에서 <interp value="affirmative" ana="미학">비극의 파토스는 체념이나 멜 랑콜리가 아닌 비장감으로 고양된다.</interp></s>
+          <s>이때 우리는 <term type="concept">숭고</term>에 한발 다가선 다고 말할수도 있으리라.</s>
+          <s><persName ref="#p-x3">심보선</persName>의 슬픔은 이토록 넓다.</s>
+        </p>
+        <p>
+          <s>동시에 그 <term type="concept">슬픔</term>은 간단치 않은 깊이에 서 울려나온다.</s>
+          <s>그것은 시대와의 접점과 교유하는데, 이것은 시 속에서 아버지를 대표로 하는 남성 이미지의 부재를 통해 현상된다.</s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>아버지가 돌아가신 이래</l>
+              </lg>
+              <lg type="stanza">
+                <l>이 집안에 더 이상 거창한 이야기는 없다</l>
+              </lg>
+              <lg type="stanza">
+                <l>다만 푸른 형광359등아래</l>
+              </lg>
+              <lg type="stanza">
+                <l>엄마의 초급영어가 하루하루 늘어갈 뿐</l>
+              </lg>
+              <lg type="stanza">
+                <l>엄마가 내게 묻는다, 네이션이 무슨뜻이니?</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>민족이요, 아버지가 무척 좋아하던 단어였죠 그렇구나</l>
+              </lg>
+              <lg type="stanza">
+                <l>또 뭐든 물어보세요</l>
+              </lg>
+              <lg type="stanza">
+                <l>톰 앤드 제리는 고양이와 쥐란 뜻이니?</l>
+              </lg>
+            </quote>
+          </s>
+          <s><quote type="direct" genre="poet">으하하, 엄마는 나이가 드실수록농담이 느네요</quote>「<title level="a" type="poem" ref="#t-x6">웃는다, 웃어야하기에</title>」中 일부위의 시에서 아버지는 <term type="concept">거창한 이야기</term>', <term type="concept">네이션</term>', <term type="concept">민족</term> 등의 단어로 표상된다.</s>
+          <s><term type="concept">거대담론</term>으로 표상되는 아버지는 “<quote type="direct" genre="poet">아버지의「사상계」는 퉁퉁 불어 건져졌고 마르기도 전에 곰팡이가 피었다.</quote></s>
+          <s>”（「<title level="a" type="poem" xml:id="t-x7">대물림</title>」）라는 시에서 도 확인할 수 있다.</s>
+          <s>이러한 아버지는 현재 죽고 없다.（「<title level="a" type="poem" xml:id="t-x8">아버지, 옛집을 생각하며</title>」,「<title level="a" type="poem" xml:id="t-x9">그녀와의 마지막 테니스</title>」등등） 아버지의 빈자리를 채우는 것은 '<term type="concept">어머니의 초급영어</term>' 이다.</s>
+        </p>
+        <p>
+          <s>이번 시집만큼 엄마, 아내, 고모, 여동 생, 심지어는 장모까지 거느리는 <term type="concept">여성성</term>으로 가득한 시집도 드물 것이 다.</s>
+          <s>“<quote type="direct" genre="poet" source="실향（失鄕）">설 전날, 엄마랑 고모랑, 허름한 동네 식당에서 아구찜을 먹'으며 U남편도 없고, 아버지도 없고, 할아버지도 없고, 할머니도 없는 실향의 나라로, 엄마랑 나는 뛰뛰빵빵 뛰뛰빵빵, 오늘도 내일도, 하염없이 달려 가네</quote>”（「<title level="a" type="poem" xml:id="t-x10">실향（失鄕）</title>」）라고 할 때, <term type="concept">부성의 부재</term>와 <term type="concept">여성성의 과잉</term>이라는 시 적화자의 실존적 • 사회적 위치는 완성된다.</s>
+          <s>
+            <interp value="neutral" ana="사상">그렇다면 이 시집을 가득 채운 슬픔은 90년대 초 우리 소설계에서 유행했던 후일담 소설의 정서, 즉 거대담론의 상실과 미처 끝나지 못한 애도 의 정서와 상당 부분 유 사하다고 말할 수 있다.</interp>
+          </s>
+          <s>그러고 보면『<title level="m" type="poem" ref="#t-x2">슬픔이 없는 십오 초</title>』는 <persName ref="#p-x3">심보선</persName> 시 인의 첫번째 시집이지만, 시인의 등단연도는 <date when="1994">1994년</date>이다.</s>
+          <s>큰 목소리가 떠난 자리를 채우는 것은 일상의 자잘한 풍경들이다.</s>
+          <s>
+            <interp value="neutral" ana="미학">작 가의 분신이랄 수 있는 나 가 화자로 등장하여 일상의 시시콜콜한 세 목들을 서사화하는 소설장르로서의 사소설（私，」調을 생각할 수 있다 면, 심보선 시인의「슬픔이 없는 십오 초^에는 사소설에 대응되는 개념 으로 사시（私詩）라는 신조어를 붙일 수도 있을 것이다.</interp>
+          </s>
+          <s>그렇다고 일상의 풍경들이 아무런 맥락 없이 헝클어져 있지는 않다.</s>
+          <s>그 풍경들은 <term type="concept">자본주 의</term> 사회의 본질적인 특징 중의 하나라고 할 수 있는 <term type="concept">양가성</term>을 담고 있 다.</s>
+        </p>
+        <p>
+          <s>가족 제도의 뿌리라고 할 수 있는 <term type="concept">결혼</term>에 대한 인식에서 그러한 특징 은 단적으로 드러난다.</s>
+          <s>‘<term type="concept">결혼</term> 은 늘 그 반대편에 놓여 있다고 여겨지는 '<term type="concept">이혼</term> 과 함께 등장한다.</s>
+          <s>“<quote type="direct" genre="poet">이혼을 의식화시키는 결혼</quote>”（「<title level="a" type="poem" xml:id="t-x11">엘리베이터 안 에서의 도덕적이고 미적인 명상'</title>」, “<quote type="direct" genre="poet">둘째 조카가 큰 아빠는 언제 결혼할 거야/묻는 걸 보니 이제 이혼을 아나봅니다</quote>”（「<title level="a" type="poem" xml:id="t-x12">휴일의 평화</title>立 <quote type="direct" genre="poet">나는 그녀 와 사랑하고, 섹스하고, 결혼하고, 이혼하리라</quote>”（「<title level="a" type="poem" xml:id="t-x13">떠다니는 말</title>j）라고 말 할 때, '<term type="concept">이혼을 내재한 결혼</term>' 혹은 <term type="concept">결혼을 내재한 이혼</term> 이라는 <term type="concept">양가적 인식</term>을 만나게 된다.</s>
+          <s><term type="concept">양가성</term>“은 본래 <term type="concept">카니발</term> 풍습에서 비롯된 것이었으 나, 현대 <term type="concept">자본주의</term> 사회에서는 <term type="concept">교환가치</term>에 의한 매개라는 사회 경제적 현상으로부터 비롯된다.</s>
+          <s><term type="concept">양가성</term>은 <term type="concept">자본주의 시장경제</term>에서 질을 양으로 환원시키는, 다시 말하면 <term type="concept">사용가치</term>를 <term type="concept">교환가치</term>로 환원시켜서 대립되는 가치가 지양되는 것에 그 연원을 두고 있다는 것이다.</s>
+          <s>이러한 <term type="concept">양가성</term>은 가치의 무차별성과 연결되며, 이로 인해 현대인은 <term type="concept">방향상실</term>과 <term type="concept">무주체성</term>양가성은 <persName role="foreigner" xml:id="p-x7">미하일 바흐친</persName>에 의해 소설연구에 도입된 개념으로서 <term type="concept">신성과 세속, 삶과 죽음, 인간 과 짐승</term> 등 외견상으로 일치될 수 없는 <term type="concept">양극단의 공존</term>을 일컫는다.</s>
+          <s>이러한 <term type="concept">양가성</term>은 절대적 차 이와 독백 위주로 구축된 공식 문화와는 달리 <term type="concept">대립되는 것의 공존</term>과 <term type="concept">다성성</term>을 등장시킨다.</s>
+          <s>（<persName ref="#p-x7">미하일 바흐친</persName>,「<title level="m" type="critic" xml:id="t-x14">장편소설과 민중언어</title>』, <orgName xml:id="org-x2">창작과비평사</orgName>, <date when="1988">1988</date>.</s>
+        </p>
+        <p>
+          <s><persName role="foreigner" xml:id="p-x8">페터 지마</persName>, r<title level="m" type="critic" xml:id="t-x15">텍스트사회학</title>』, <orgName xml:id="org-x3">민음사</orgName>, <date when="1991">1991</date>, pp.</s>
+          <s>꾜6-117.）<persName ref="#p-x8">페터 지마</persName>,「<title level="a" type="critic" xml:id="t-x16">이데올로기와 이론</title>」, <orgName xml:id="org-x4">문학과지성사</orgName>, <date when="1996">1996</date>, pp.556-594.</s>
+          <s>에 빠지게 된다.</s>
+          <s>이 시집의 넘쳐나는 무수한 <term type="concept">일상</term>의 풍경은 이러한 <term type="concept">양 가성</term>의 현상태들이라 부를 수 있다.</s>
+          <s><term type="concept">환상</term>의, 환상에 의한, 환상을 위한<persName ref="#p-x">정재학</persName>에게 있어 환상이란 무엇인가?</s>
+          <s>이것은 곧 '<persName ref="#p-x">정재학</persName>의 시란 무엇 인가?</s>
+          <s>에 대한물음에 다름 아니며, 조금과장하자면 '<term type="concept">2000년대 시인들</term> 의 시란 무엇인가?</s>
+          <s>에 대한 물음이기도 하다.</s>
+        </p>
+        <p>
+          <s>각각의 세대, 각각의 작가 는 고유한 <term type="concept">문학적 무기</term>를 가지게 마련이다.</s>
+          <s>근대시사에 있어서 <persName role="poet" xml:id="p-x9">소월</persName>이 <term type="concept">한</term>을, <persName role="poet" xml:id="p-x10">만해</persName>가 <term type="concept">관념</term>을, <persName role="writer" xml:id="p-x11">이상</persName>이 <term type="concept">위트</term>를, <persName role="poet" xml:id="p-x12">미당</persName>이 <term type="concept">토속어</term>를 이용했다면, <term type="concept">2000년대 시인들</term>에게 고유한 문학적 무기로 꼽을 수 있는 것이 바로 <term type="concept">환 상</term>이다.</s>
+          <s><term type="concept">환상</term>이란 자연적인 인과질서를 깨뜨리는 기이한 현상이나 이미지들 로서, 이전의 문학에서는 양질의 <term type="concept">상상력</term>과는 대비되는 부정적인 것으로 인식되어 왔다.</s>
+          <s>허무맹랑하고 무가치한 공상쯤으로 치부되어 왔던 것이 다.</s>
+          <s>그러나 <interp value="affirmative" ana="미학">짧지 않은 문학의 역사는 환상이 결코 무가치하지 않으며, 역설적으로 리얼리티와 긴밀한 연관을 맺고 있음을 증명해주었다.</interp></s>
+          <s>리얼 리티에 대한 감각이나 개념을 전제하지 않고서는 <term type="concept">환상</term>이라는 것 자체를 생각할 수 없기 때문이다.</s>
+          <s>이 때문에 <term type="concept">환상</term>에 대한 본격적인 논의는 늘 <term type="concept">리얼리티</term>와의 관계를 중심으로 논의되어 왔다.</s>
+          <s><persName role="foreigner" xml:id="p-x13">캐스린 흄</persName>은 <term type="concept">환상</term>이 문 학작품 속에서 <term type="concept">리얼리티</term>에 대하여 어떻게 반응하는지를 밝힌 후, 그것 을 다음의 네 가지로 나누고 있다.</s>
+        </p>
+        <p>
+          <s><term type="concept">현실로부터의 도피</term>, 새로운 <term type="concept">리얼리티</term> 의 소개, 기존 리얼리티의 강화, 합의된 리얼리티의 부인이 그것이다.454) <persName role="foreigner" xml:id="p-kathrynhume">Kathryn Hume</persName>, <title level="m" type="foreign" xml:id="t-fantasyandmesis">Fantasy and 儿仃mesis</title>(New York and Ix)ndon'Methuen, 1984).</s>
+          <s>또 하나 문학에서 <term type="concept">환상</term>의 본질적인 성격은 <term type="concept">욕망</term>과 관련해서 생각할 수 있다.</s>
+          <s>이것은 <term type="concept">환상</term>을 백일몽과 동의어로, 검열 기제가 허락하는 범위 안에서 의식이 상상과 <term type="concept">욕망</term>을 자유로이 활동하게 놓아두는 명상의 상태 로 규정하고 있다.</s>
+          <s>충족되지 못한<term type="concept">욕망</term>은 <term type="concept">몽상</term>을 움직이는 힘이고, 모든 몽상은 욕망의 완결이며 동시에 만족을 주지 못하는 현실에 대한 보정 舗整）으로 작용한다는 것이다.</s>
+          <s><persName role="foreigner" xml:id="p-x14">로즈마리 잭슨</persName>은 <term type="concept">환상</term>이 인간의 문화가 지속되기 위해서는 억압되어야만 하는 충동들을 표현한다고 말한다.</s>
+          <s>이 처럼 <term type="concept">환상</term>이란 <term type="concept">리얼리티</term>와 <term type="concept">욕망</term>이라는 두 받침대에 의하여 문학 안에 존재한다고 말할 수 있다.</s>
+          <s><persName ref="#p-x">정재학</persName>의『<title level="m" type="poem" xml:id="t-x17">광대 소녀의 거꾸로 도는 지구</title>」은 <interp value="affirmative" ana="미학">환상의 박물지라 할 수 있을 만큼 온갖 환상적 이미지들로 가득하다.</interp></s>
+          <s><persName ref="#p-x">정재학</persName>이 그려보이는 환 상들'은 대부분 리 얼리티에 대한 새로운 인식과 ■관련된 것들이다.</s>
+        </p>
+        <p>
+          <s>그의 시들은 대부분 지극히 평범한 일상을 배경으로 하고 있으면서도, 지극 히 <term type="concept">난해한 환상</term>을 보여준다.</s>
+          <s><persName ref="#p-x">정재학</persName>이 구축한 <term type="concept">환상의 제국</term>에 들어가는 입구는 12장으로 되어 있으며 무려 11페이지가 넘는 장시 &lt;<title level="a" type="poem" xml:id="t-psychedehceclipse">PsychedeHc Eclipse</title>〉이다.</s>
+          <s>그 중에서 vii장은 이 시집 전체의 해설서와도 같은 역할 을 한다.vii<quote type="direct" genre="poet"><lg type="stanza"><l>나쁜 밤을 견딘 흐릿한 반지</l></lg><lg type="stanza"><l>간신히 눈을 뜬다</l></lg><lg type="stanza"><l>거대한 반지는 나의 거울, 프리즘, 웅덩이</l></lg><lg type="stanza"><l>반지에 내 모습을 비추어본다</l></lg><lg type="stanza"><l>나는 반지의 거울, 프리즘, 웅덩이</l></lg><lg type="stanza"><l>반지는 나에게 모습을 비추어본다</l></lg><lg type="stanza"><l>반지의 실체는 사실 이지만 지실 은 아니다 - 총 자체는</l></lg><lg type="stanza"><l>쏘려고 하는 욕구가 없다</l></lg><lg type="stanza"><l>착각하지 마라, 사실 은 '진실 과 다른 게단에 있다</l></lg><lg type="stanza"><l>때로 리얼리스트들은 기독교처럼 폭력적이다</l></lg></quote>위의 시에 등장하는 반지 는 소위 <term type="movement">리얼리즘</term>적 관점에서 중요시하는 사회적 실재에 대한 <term type="concept">반영의 미학</term>적 형상물이다.</s>
+          <s>그러나 시인은 반지를 거부한다.</s>
+          <s>반지의 실체는 어디까지나 久用，（fact）이지 *<term type="concept">진실</term> （tru난!）이 아니기 때문이다.</s>
+          <s>그리고 <interp value="neutral" ana="미학">시인은 분명 사실 보다 진실 에 더 높은 가 치를 부여하고 읏!</interp></s>
+          <s>다.</s>
+          <s>나아가 <interp value="neutral" ana="미학">시인은 반영을 최우선적인 미학적 과제로 삼는 리얼리즘을 부정하고 있다.</interp></s>
+        </p>
+        <p>
+          <s>그것은 “<quote type="direct" genre="other">기독교처럼 폭력적이</quote>”기 때문 이다.</s>
+          <s>그렇다면 <persName ref="#p-x">정재학</persName>은 사실이 아닌 <term type="concept">진실</term>을 추구한다는 것이고, 그것 은 폭력적인 <term type="concept">리얼리스트</term>들과는 다른 방식으로만 가능할 터.</s>
+          <s>이러한 맥 락에서 개연성과 논리성을 무엇보다 중요시하는 <term type="movement">리얼리즘</term>의 미적 방법 론과는 대조되는 <term type="concept">환상</term>이 등장하는 것이다.</s>
+          <s>이러한 <persName ref="#p-x">정재학</persName>의 시적 방법론은 “<quote type="direct" genre="poet" source="어느 老의사의 조각난 거울">사람들이/최후의 경계선을 보이는 일은 무척 드물다 내 촉수의/한계는 명확하다 보이는 것은 일부일 뿐이 다 완전함을/위해서는 아니, 완전함으로 가기 위해서는 상상에 의존/해 야 한다</quote>”（「<title level="a" type="poem" xml:id="t-x18">어느 老의사의 조각난 거울</title>j）라는 시에서도 확인할 수 있다.</s>
+          <s>
+            <interp value="neutral" ana="미학">여기서 보이는 것 의 전능성은 부정되고, 상상 의 필요성이 다시 한번 강조되고 있다.</interp>
+          </s>
+          <s>당연히 이번 시집에서 더욱 중요한 것은 위에서 살펴본 것과 같은 <term type="concept">환상</term>에 대한 시인의 직접적인 언급보다는 시적 실천의 구체적인 산물들이 다.</s>
+          <s>15편의 <title level="a" type="poem" xml:id="t-x19">微分</title>‘ 연작과10편의 <title level="a" type="poem" xml:id="t-edgesofillusion">Edges of illusion</title>'는 시 인이 지 니고 있는 시적 방법론에 대한 자의식이 가장 분명하게 나타난 작품들이다.</s>
+          <s><title level="a" type="poem" ref="#t-x19">微分</title>' 이 말 뜻 그대로 사물을 최소의 수준까지 잘게 나누는 것이라면, 그것은 영화 <title level="m" type="other" xml:id="t-x20">매트릭스</title>' 에서 이 세상의 모든 <term type="concept">환상</term>을 만들어내는 기본적 인 숫자들예를 들자면, 0과 1）을 이미지화하는 작업이다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet" source="微分 - 시계">착오는 없습 니다 시계가 시간은 아닙니다</quote>‘（〈<title level="a" type="poem" xml:id="t-x21">微分 - 시계</title>〉）라고 말할 때, 시계라는 사물과 시간이라는 김긱의 상■이함을 최소한의 인식적 차원에서 받아들 이게 된다.<title level="m" type="poem" xml:id="t-edgesofniusion">Edges of niusion</title>' 에서 <persName ref="#p-x">정재학</persName>의 시는 <term type="concept">환상</term>의 극한에까지 이르게 된다.</s>
+          <s>흥미로운 것은 그 극점에서 현실로 들어가는 하나의 통로가 열린 다는 점이다.</s>
+          <s>이때의 <term type="concept">현실</term>은 물론 사실 의 차원이 아닌 <term type="concept">진실</term> 의 차원 에 놓여 있다.</s>
+          <s>동시에 이때의 <term type="concept">리얼리티</term>는 <term type="concept">사회적 실재</term>와는 무관한 <term type="concept">심리 적 실재</term>라 이름 할 수 있을 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그리고 이때 정재학의 시는 가장 빛 나게 된다.</interp>
+          </s>
+          <s>이 시집의 표제작이기도 한「<title level="a" type="poem" ref="#t-x17">광대 소녀의 거꾸로 도는 지구</title>」 의 다음 대목은 <interp value="affirmative" ana="미학">정재학의 시적 방법론이 포착해 낸 심리적 실재의 한 성 공적 사례라 할 수 있다.</interp></s>
+          <s>광대소녀가 돌리는 거꾸로 도는 지구 를 보며 느끼는 현기증으 <persName ref="#p-x">정재학</persName> 시를 아니 <date from="2000" to="2009">2000년대</date> 시를 읽기 위해 독자가 지불해야 할 통행세라고 볼 수 있다.</s>
+          <s>
+            <quote type="direct" genre="poet" source="광대 소녀의 거꾸로 도는 지구">
+              <lg type="stanza">
+                <l>외줄 위의 소녀,</l>
+              </lg>
+              <lg type="stanza">
+                <l>검은 머리 동그란 얼굴, 윤곽은 흐릿해진 외발자전거 종이우산이 돈다</l>
+              </lg>
+              <lg type="stanza">
+                <l>들키지 않는다 기울어진 사람들 사이에서</l>
+              </lg>
+              <lg type="stanza">
+                <l>광대!</l>
+              </lg>
+            </quote>
+          </s>
+        </p>
+        <p>
+          <s>소녀가돌리는거꾸로도는지구 훅은• 가"면<term type="concept">우울증</term>LI <persName ref="#p-x2">이경재</persName> <date when="1976">1976년</date> 인천 출생.</s>
+          <s><date when="2006">2006년</date>〈<orgName xml:id="org-x5">문화일보</orgName>〉신춘문예 당선.</s>
+          <s>공저「<title level="m" type="critic" xml:id="t-x22">한국소설의 구조 와 미학</title>」.</s>
+          <s>현재 <orgName xml:id="org-x6">서울대</orgName> • <orgName xml:id="org-x7">홍익대</orgName> • <orgName xml:id="org-x8">세종대</orgName> 국문과 강사.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

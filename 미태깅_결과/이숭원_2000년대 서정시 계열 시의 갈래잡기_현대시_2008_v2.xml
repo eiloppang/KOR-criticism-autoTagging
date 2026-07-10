@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2000년대 서정시 계열 시의 갈래잡기</title>
+        <author>이숭원</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><date from="2000" to="2009">2000년대</date> <term type="concept">서정시</term> 계열 시의 갈래잡기이 숭원예전에는 <term type="concept">생물학</term>(biology)이라고 했고 요즘은 <term type="concept">생명과학</term>(life science)이라고 하는 학문 분야에서 가장 따분한 강좌로 손꼽히는 것이 <term type="concept">분류학</term>(taxonomy)이 다.</s>
+          <s>개체가 지닌 친연성과 계통적 특성에 따라 생물의 계보적 충위를 세우 고 각각의 개체를 어느 부류에 소속시키는 이 학문은 오래된 학문의 연조 에도 불구하고 더 이상의 새로운 발전을 기약하기 어려운 노쇠한 탐구 영 역으로 물러앉게 되었다.</s>
+          <s>학문의 경계까지 허물고 무섭게 발전하는 생명과 학의 응용적 성과에 호응하지 못하고 새로운 창조보다는 밝혀진 자료의 정 리에 몰두하는 것이 <term type="concept">분류학</term>의 피할 수 없는 운명이기 때문이다.</s>
+          <s>나에게 맡겨진 과제는, <date from="2000" to="2009">2000년대</date> 한국시의 갈래를 <term type="concept">서정시</term> 계열, <term type="concept">전위적 상상력</term>, <term type="concept">사회학적 상상력</term>으로 나눌 때 서정시 계열의 시에 속하는 작품을 다시 하위분류하여 많은 시인의 이름을 거론하면서 차별적 유형화를 해 보라는 것이다.</s>
+          <s>내 생각을 단적으로 말하면, <date from="2000" to="2009">2000년대</date> 전후에 등단한 젊은 시 인들이 보여준 <interp value="neutral" ana="문학관">두드러진 특징은 서정, 전위, 현실의 경계를 허물었다는 점 이다.</interp></s>
+          <s>등단 10년 미만의 <term type="concept">젊은 시인들</term>의 작품 중 88.8%의 작품은 <term type="concept">서정시</term> 계 열, <term type="concept">전위적 상상력</term>, <term type="concept">사회학적 상상역</term>의 세 갈래로 나누기가 참으로 곤란하 다.</s>
+          <s>자유를 추구하는 것이 시인의 본성인데 어느 한 군데 머물러 있다는 것 은 참기 힘든 일이다.</s>
+          <s>어제는 <term type="concept">서정</term>의 축 위에 서 있다가도 오늘은 <term type="concept">전위</term>의 바다로 나아가는 것이 시인의 행보가 아니던가?</s>
+        </p>
+        <p>
+          <s>사실이 이 러함에도 불구하고, 분류하고 유형화하여 복잡한 사태를 정 리 하기 評｝하는 문학 연구자와 비평가들은 시의 갈래를 나누고 다양한 시인들을 어느 부위에 편입시키고 싶어 한다.</s>
+          <s>여기서 다시 내 생각을 단적으로 말하면, 현재 발표되는 시의 77.7%는 외현적 표출의 밀도는 다르지만 모두‘<term type="concept">서정</term>’의 자질을 함유하고 있다.</s>
+          <s>그 이유는 간단하다.</s>
+          <s>‘<term type="concept">서정</term>’이 없으면 시가 지탱될 토대가 매우 허약해지기 때문이다.</s>
+          <s><persName role="poet" xml:id="p-x">황병승</persName>이나 <persName role="poet" xml:id="p-x2">김민정</persName>처럼 ‘<term type="concept">서정</term>’없이도 존립할 수 있다는 강한 자존의 배타성을 완고하게 유지하는 몇몇 예외적 사례를 제외하고는 대부분의 시인은 ‘서정’에 배를 맞대거나 어깨를기대거나 손을 내밀고 있다.</s>
+          <s>가령 소의 ‘<term type="movement">미래파</term>’ 시를 거론할 때 함께 거명되던 <persName role="poet" xml:id="p-x3">김행숙</persName>, <persName role="poet" xml:id="p-x4">정재학</persName>, <persName role="poet" xml:id="p-x5">장석원</persName>, <persName role="poet" xml:id="p-x6">김근</persName>의 다음 시편은 분명의 토대 위에 구축되어 있다.</s>
+          <s>이들의 시가 처음부터 ‘<term type="concept">서정</term>’을 지향하지는 않았지만 ‘<term type="concept">서정</term>’과 제휴하고 담화를 펼친것은 사실이다.</s>
+          <s>그들은 노인이다.</s>
+        </p>
+        <p>
+          <s>저 지평선을 바라보면서 우리가 포함되어 있는 세 계를 느낀다.</s>
+          <s>13번가 가로수 관리인은 죽었고, 검은 개는 남았다.</s>
+          <s>14번 가 가로수관리인은 죽음을 옆에 앉혀두고 어디서 툭, 끊겨도 좋을 얘기 를 나누고 있다.</s>
+          <s>의자가 삐걱거리는 소리가 들렸다.</s>
+          <s>지평선이 재빨리 이동하고 있었다.</s>
+          <s>동시에, 사람들이 걸어다니고 있다.</s>
+          <s>8번가 상점들의문이 열리고 부지런한 점원은 사물들의 자리를 바꿔보기도 하고 먼지 를 털어내기도 한다.</s>
+          <s>나는 당신을 오늘 처음 만나는 것이다.</s>
+        </p>
+        <p>
+          <s>“좋은 아침 이죠r 우리는 날씨를 살핀다.</s>
+          <s>나무 위에서 아침식사를 하던 한 젊은이 가 웃음을 터뜨렸는데, 밥알들이 웃음소리를 따라 흩어지고 새들이 지 저귀며 뒤쫓아 날아갔다.— 김 행숙,「<title level="a" type="poem" xml:id="t-x">가로수 관리 인들</title>!</s>
+          <s>부분전화가 왔다 오랜 친구 번호였다 여보세요 여보세요 친구는 대답이 없고 심한 잡음 너 머 두사람이 얘기를 나누고 있었다 지직거리는 소음 과 섞이지 않는 대화가 조금씩 확대되었다 내 목소리가 꾸물꾸물 수화 기틀 비집고 기어 나왔다 고둥학생 때였다 아주 오래전의 일이었지만 우리의 대화는 손마디를 느끼는 것처럼 생생했다 우리는 여자 친구에 대한 고민을 얘기하고 담임 욕을 하기도 했다 그냥 그런 얘기들이었다 지금도 그리 다르지 않다 내일 학교 끝나고 수돗가 앞에서 만나기로 하 고 나는 전화를 끊었다 항상 수도를 잠그지 않는 애들이 있었다 모두 무관심하게 지나쳤다 그 물은 지금도 넘치고 있을까 우리가 내뱉은 말 들이 그 오랜 시간 어디쫌에서 반사되어 다시 나에게 온 것일까어디로 다시 떠나는 것일까 우리의 대화는— <persName ref="#p-x4">정재학</persName>,「<title level="a" type="poem" xml:id="t-x2">역류</title>」전문牛岩목욕탕으로 갔어요 손가방 하나 들고 당신은 담배를 피우며맛있게 입맛을 다시며 옷을 벗고 옷을 벗기고 장산곶 마루를 흥얼거 리며수중기 속으로 잠입했어요 시야에서 사라졌어요 거품으로내 둥을 가슴을 허벅지를 닦아주었어요 너무나 깨끗하고 상쾌하고더욱 달아오르고 나는 쇳덩이가 무엇인지 폭발은 왜 일어나는지알았어요 절정은 오래 가지 않았기에 우린 너무 쉽게 헤어졌어요당신은 안개였나요?</s>
+          <s>그렇게 멀리 떠나가 부나비처럼 부서지고 싶었 나요?</s>
+          <s>내 엉덩이의 푸른 반점은 당신의 형해 그날의 나는 지워지지 않았어位 바가지로 물을 쏟아 붓는 당신과 물에 용해되는 나와 물 따라 흘러간 당신촛농처 럼 간지 러운 물의 손가락이 나를 훑고 더듬고 맛봐요사포 같은 수건이 샅을 지나요 젖니가 다시 돋아요 나는 쓸렸어요 당신과 나는 입냄새도 비슷해요 細毛의 구름이 지나가는데 물속에서 당신이 일어서요 물 때문에 당신이 길어져요철근을 구부러뜨라듯 당신은 나를 휘어지게 해요 숨이 막혀요너무 뜨거운 탕에는 넣지 마세요 자꾸 빨개지고 융모처 럼 부드러워 져立당신은옷을 입지 않았어요목덜미에서 물이 흘러내려요허 리가 운천교의 상판 같아요 그날 나는 뚫린 양말처 럼 불안했어요 나는 황소의 아들 下草가 단단해지고 뿔 하나 자라나요나도 남자가 되었어요 서글픈 그물을 들고 돌아올 당신을 기다려요— <persName ref="#p-x5">장석원</persName>,「<title level="a" type="poem" xml:id="t-x3">발열</title>」전문선왕께서 한 날은, 이제 봄!</s>
+          <s>이라 하시매, 이제 봄!</s>
+          <s>이라 적었나니, 어디서 불려왔는지 모를 사내아이들과 계집아이들의 웃음소리가 궐안에 시끌시끌 넘쳐났더이다 하나, 꽃처럼은 아니고 나비처 럼만 궁의 뜰을날아서 연회에까지 불려나와 시끌시끌 신하들의 귀에 달라붙어 앉았는데 신하들 죄다 귀에서 피를 쏟고 쓰러졌더이다 선왕께서 한 날은, 비로소 봄!</s>
+          <s>이라 하시매, 비로소 봄!</s>
+        </p>
+        <p>
+          <s>이라 적었나니, 궁궐의 나무란 나무는 모도 꽃필 자리에 종기를 매달고 곪고 곪다가끝내는 툭, 툭, 터져 피고름 온통 질질질 낭자하고 궐안이 썩은 내로 진동하였으니 어린 내시들의 성기 모조리 잘리고 어린 무수리들 모조리 처녀를 잃고 꼬부랑꼬부랑 하루아침에 늙은 뒤였더이다 선왕께서 한 날은, 시름에 겨워 짐이 <quote type="direct" genre="poet" source="김근 ## 3">봄</quote>!</s>
+          <s>하면 거짓으로라도 <quote type="direct" genre="poet" source="김근 ## 3">봄</quote>일진대 야속코 야속타, 하시며 다시 꽃!</s>
+          <s>하시매, 다시 <quote type="direct" genre="poet" source="김근 ## 3">꽃</quote>!</s>
+          <s>이라 적었나니, 헤아릴 수도 없는 뱀들만 타래타래로 뻗센 비늘마다 꽃을 피워 궐안 에 창궐했더이다선왕께서는, 그예 광분하시었나니 , 그러기가 삼동 휘몰아치는 눈보 라같았더이다구중의 담장과 벽들 꽝꽝 얼어붙어 고드름조차 달리잖고 불기운도 없는 냉골의 침소에서온몸에 동상을 입어 쩍쩍 갈라져 터지는 얼굴로 선왕께서 친히 불러 이르시되,실록에는 가까스로 <quote type="direct" genre="poet" source="김근 ## 3">봄</quote>!</s>
+          <s>이라고만 라고만 기록하라, 가까스로 하시매, 소신 망극에 망극을 무릅쓰고 그 길로 퇴궐하여 이날 입때껏 필경사로나 떠돌았사온데,한 이른 <quote type="direct" genre="poet" source="김근 ## 3">봄</quote> 들리는 풍문에 실록이야 씌어지기가 부지하세월인데 선 왕께서는, 시푸르뎅뎅산송장으로다만 가까스로 봄!</s>
+          <s>이라고만 라고만, 얼음 게워내며 지껄 이고 지껄이신다 하였더이다— <persName ref="#p-x6">김근</persName>,「<title level="a" type="poem" xml:id="t-3">## 3</title>」전문<persName ref="#p-x3">김행숙</persName>의 시에는 일상적 삶의 단면을 내면의 상상적 공간으로 변형시키 면서 넉넉한 마음의 흐름을 드러내려는 <term type="concept">서정</term>의 윤기가 있다.</s>
+          <s><persName ref="#p-x5">장석원</persName>의 시 에서는 남성과 여성의 경계가 해체되면서 어린 화자의 천진한 동경이 경어 체의 <term type="concept">서정적</term> 어조로 발화된다.</s>
+          <s><persName ref="#p-x4">정재학</persName>은 현재의 상황 속에 과거로 역류하는 시간의 흐름을 교차하면서 단절되고 이어지는 추억의 장면과 존재의 불 확실성을 <term type="concept">서정</term>의 질감으로 드러낸다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x6">김근</persName>은 의고체의 어법을 취하여 신하 가 왕에게 아뢰는 간곡한 호소의 형식으로 <term type="concept">권력</term>에 대한 부정 의식을 <term type="concept">알레 고리적</term>으로 표현한다.</s>
+          <s>이 네 편의 시는 <term type="movement">전위적 • 해체적</term> 지향의 시들이 내 부에 껴안고 있는 <term type="concept">서정</term>의 밀도가 어떠한 것인가를 우리에게 알려준다.</s>
+          <s>여기서 <persName ref="#p-x6">김근</persName>의 시는 <term type="concept">전위척 상상력</term>보다도 <term type="concept">사회학적 상상력</term>（사실은 <term type="concept">현실 적 상상력</term>이라고 해야 더 옳은） 쪽으로 더 접근하고 있음도 알 수 있다.</s>
+          <s>21 세기의 시인 중 <term type="concept">현실적 상상력</term>을 구사한다고 규정할 수 있는 시인은 아주 드문데, 시인의 의식에 있어서건 발화의 성격에 있어서건 <term type="concept">노동자 의식</term>을 드러내고 있는 시인을 고르라면 <persName role="poet" xml:id="p-x7">송경동</persName>을 들 수 있다.</s>
+          <s>그런데 그의 시는 <term type="concept">노 동자 연대</term>의 바탕 위에서도 일반적인 <term type="concept">서정시</term> 이상의 밀도 있는 ‘서정’을 담 지해 내고 있다.</s>
+          <s><quote type="direct" genre="poet" source="손"><lg type="stanza"><l>버스 기다리는 척 벼룩시장이나 교차로를 슬쩍 뽑던 손</l></lg><lg type="stanza"><l>무담보 신용대출 854-2514 전봇대에 붙은 번호표를 뜯던 손</l></lg><lg type="stanza"><l>전철이나 버스 손잡이를 잡지 않던 손</l></lg><lg type="stanza"><l>악수하기를 꺼리던 손</l></lg><lg type="stanza"><l>손톱 밑에 검은 때가 끼어 있던 손</l></lg><lg type="stanza"><l>괭이가 박혀 있던손</l></lg><lg type="stanza"><l>어이, 하며 저쪽 철골 위에서 환하게 흔들던 손</l></lg><lg type="stanza"><l>야, 임마 하며 반가워 손아귀를 꽉 쥐면 얼얼하던 손</l></lg><lg type="stanza"><l>H빔 위에서 떨어질 뻔한 내 둥을 꼭 붙잡아주던 그 손</l></lg><lg type="stanza"><l>—</l></lg></quote> <persName ref="#p-x7">송경동</persName>, 저"손J 전문이 ‘손’의 주인공은 <term type="concept">노동자</term>다.</s>
+          <s>그는 취업을 하기 위해 벼룩시장의 구인광고를 들추어보기도 하고 급한 돈을 얻기 위해 위험한 무담보 신용대출 전화번호를 돌려본 경험도 있다.</s>
+          <s>그의 손에는 굳은살이 박여 있고 늘 검은 때가 끼어 있어서 버스 손잡이도 잡지 않으려 하고 남과 악수하기도 꺼린 다.</s>
+        </p>
+        <p>
+          <s>생의 뒤편으로 밀려나는 것처럼 보이던 그 <term type="concept">노동자</term>의 손은 2연에서 환 하고 힘세고 든든한 손으로 바뀐다.</s>
+          <s><term type="concept">소시민적</term> 생활의 영역에서는 무력해 보이는 손이지만 <term type="concept">노동자 연대</term>의 현장 속에서는 오히 려 나약한 동료를 든든 하게 붙잡아주는 의연한 동력으로 작용하는 것이다.</s>
+          <s>뒤로 갈수록 정겨워지 고 믿음직스러워 보이는 그 ‘<term type="concept">손</term>’이 <term type="concept">서정의 밀도</term>를 내장하게 되는 것은 노동 자의 삶을 직접 드러내지 않고 현실적 세목의 나열 속에 자신의 생각을 웅 축해 놓았기 때문이다.</s>
+          <s>직접적인 언술에서 벗어나 감정과 생각을 언어의 형식 안에 압축해 실을 때 <term type="concept">서정의 수로</term>가 넓게 열린다.</s>
+          <s>그래서 <interp value="affirmative" ana="미학">이 시는 현 실적 상상력의 영역 속에 서정시 계열의 시보다 더 넓은 서정의 진폭을 확 보하게 된 것이다.</interp></s>
+          <s>둥단 10년 내외의 시인 중 <term type="concept">서정</term>이 현실 쪽으로 접근한 시인을 열거한다 면, 정도의 강약은 있으나, <persName role="critic" xml:id="p-x8">유홍준</persName>, <persName role="poet" xml:id="p-x9">박후기</persName>, <persName role="poet" xml:id="p-x10">고영</persName>, <persName role="poet" xml:id="p-x11">김중일</persName>, <persName role="poet" xml:id="p-x12">안현미</persName>, <persName role="poet" xml:id="p-x13">차승호</persName>, <persName role="poet" xml:id="p-x14">길상호</persName>, <persName role="poet" xml:id="p-x15">최금진</persName> 등을 들 수 있을 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그 중 박후기의 다음 작품은 송경 동의 시와는 다르지만 현실적 서정의 전형을 보여주는 작품이다.</interp>
+          </s>
+          <s><quote type="direct" genre="poet" source="아마추어 레슬링 선수의 슬픈 두 귀"><lg type="stanza"><l>아마추어 레슬링 선수의 뭉개진 귀를 보면, 굳은 살하나 박히지 않은</l></lg><lg type="stanza"><l>말간내 두 손바닥이 부끄러워진다</l></lg><lg type="stanza"><l>높은곳을향해 뻗어가는 벽 위의 덩굴손처럼 내 손은 지상의 흙 한번 제대로 움켜쥔 일 없이 스쳐 지나가는 헛된 바람만 부여잡았으니, 꼬리 잘린 한 마리 도마뱀처럼</l></lg><lg type="stanza"><l>바닥을 짚고 이리저리 필사적으로 기어 다니는</l></lg><lg type="stanza"><l>아마추어 레슬링 선수의 비애를</l></lg><lg type="stanza"><l>나는 알지 못한다</l></lg><lg type="stanza"><l>고단한 청춘의 매트 위에서</l></lg><lg type="stanza"><l>데굴데굴 구르는 머 리에 깔려 뭉개겨바 린 아마추어 레슬링 선수의 슬픈 두 귀를 보면, 멀쩡한 두 귀를 달고도</l></lg><lg type="stanza"><l>사람과 사람 사이에서 평형감각 없이 흔들리는 내 어리석은 마음이 측은하고</l></lg><lg type="stanza"><l>내 것아닌 절망에 귀 기울여 본적 없는 잘 생긴 내 두 귀가 서글퍼진다</l></lg><lg type="stanza"><l>세월은 모질게 태클을 걸어오고</l></lg><lg type="stanza"><l>아마추어 레슬링 선수의 몸은둥근 통나무 같아 쓰러지고구르는 것이 그의 이력이지만, 지구를 끌어안듯</l></lg><lg type="stanza"><l>그는 온몸 바닥에 밀착시키며 두 팔 벌려 몸의 중심을 잡는다</l></lg><lg type="stanza"><l>들린 몸의 검은 눈동자는</l></lg><lg type="stanza"><l>수준기 유리관 속</l></lg><lg type="stanza"><l>알코올과 섞인 둥근 기포처럼</l></lg><lg type="stanza"><l>수평을 잡기 위해 이리저리 굴러다니고,</l></lg><lg type="stanza"><l>아마추어 레슬링 선수의 두 귀는</l></lg><lg type="stanza"><l>세월의 문짝에 매달려 거친 바람 소리를 듣는,</l></lg><lg type="stanza"><l>닫힌 내일의 문을 두드리는 마음의 문고리다</l></lg></quote>— <persName ref="#p-x9">박후기</persName>,「<title level="a" type="poem" xml:id="t-j">아마추어 레슬링 선수의 슬픈 두 귀J 전문</title>아마추어 레슬링 선수의 뭉개진 귀는 현실의 벽과 부딪치며 필사적= 몸부림친 고통의 흔적이라는 은유적 의미를 지닌다.</s>
+        </p>
+        <p>
+          <s>그러므로 이 시는 귀 의 노래가 아니라 <term type="concept">삶의 노래</term>다.</s>
+          <s>현실의 태클에 모질게 곤두박질 친 <term type="concept">고단한 청춘의 자화상</term>이다.</s>
+          <s>연약한 손과 어 리석은 마음에도 불구하고 생생히 洪1 있는 것은 수평을 잡는 검은 눈동자인데 시인은 그것을 “<quote type="direct" genre="poet">수준기 유리관 속/ 알코올에 섞인 둥근 기포</quote>”에 비유하였다.</s>
+          <s>레슬링과는 관계없는 건설현장의 도구가 채용된 것은 <interp value="neutral" ana="미학">좌절의 서정 속에 현실의 지평을 수용하려는 시도일 수 있다.</interp></s>
+          <s>그러나 시의 결말은 현실의 폐쇄성과는 달리 “<quote type="direct" genre="poet">닫힌 내일의 문을 두드리는 마음의 문고리</quote>’’를 제시하며 <term type="concept">희망의 지평</term>으로 마무리하였다.</s>
+          <s>현실 의 각박함보다는 <term type="concept">서정</term>의 온화함 쪽으로 의식이 선회한 결과다.</s>
+          <s>현실이나 <term type="concept">전위</term>에 거의 눈길을 돌리지 않고 <term type="concept">서정</term>의 본령을 탐구한 시인 으로 <persName role="poet" xml:id="p-x16">장석남</persName>과 <persName role="poet" xml:id="p-x17">안도현</persName>과 <persName role="poet" xml:id="p-x18">문태준</persName>을 드는 데 이의를 제기할 사람은 없을 것 이다.</s>
+          <s>그들의 시에는 비장하거나 격렬한 어법이 거의 나오지 않는다.</s>
+        </p>
+        <p>
+          <s>혼자 조용히 읊조리는 듯한 음조로 대상과 거리를 두고 외관을 <term type="concept">점묘</term>하면서도 대 상의 안으로 침투하려는 예리한 눈빛을 견지하고 있다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">관조의 편안함과 탐색의 집요함이 때로 눈부신 긴장을 유발한다.</interp>
+          </s>
+          <s>그런 예의 하나로 다음 시 를들수있다.</s>
+          <s><quote type="direct" genre="poet" source="산수유나무의 농사"><lg type="stanza"><l>산수유나무가 노란 꽃을 터트리고 있다</l></lg><lg type="stanza"><l>산수유나무는 그늘도 노랗다</l></lg><lg type="stanza"><l>마음의 그늘이 옥말려든다고 불평하는 사람들은 보아라</l></lg><lg type="stanza"><l>나무는 그늘을 그냥 드리우는 게 아니다</l></lg><lg type="stanza"><l>그늘 또한 나무의 한해 농사</l></lg><lg type="stanza"><l>산수유나무가 그늘 농사를 짓고 있다</l></lg><lg type="stanza"><l>꽃은 하늘에 피우지만 그늘은 땅에서 넓어진다</l></lg><lg type="stanza"><l>산수유나무가 농부처럼 농사를 짓고 있다</l></lg><lg type="stanza"><l>끌어 모으면 벌써 노란 좁쌀 다섯 되 무게의 그늘이다</l></lg></quote>—<persName ref="#p-x18">문태준</persName>,「<title level="a" type="poem" xml:id="t-x4">산수유나무의 농사</title>） 전문<interp value="affirmative" ana="미학">산수유나무가 농사를 짓는다는 발상이 우선 새롭고 재미 있다.</interp></s>
+          <s>산수유나 무는 봄이 되면 잎보다 먼저 노란 꽃을 피우는데, 바람이 불면 산수유나무 그늘 아래 노란 꽃잎이 좁쌀처럼 떨어진다.</s>
+          <s>그것을 시인은 “<quote type="direct" genre="poet" source="산수유나무의 농사">산수유나무는 그늘도 노랗다</quote>”고 말해 놓고 다시 그것을 산수유나무의 농사라고 말하자 <interp value="affirmative" ana="미학">우리의 벙벙했던 눈과 귀가 새롭게 열린다</interp>.</s>
+          <s>“<quote type="direct" genre="poet" source="산수유나무의 농사">끌어 모으면 벌써 노란 좁쌀 다섯 되 무게의 그늘이다</quote>”라는 구절은 대상에 대한 정밀한 <term type="concept">관조</term>와 창조적 해석이 이룩한 새로운 발견이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">무에서 유를 창조하는 것이 예술이라면 이런 발견과 창조가 바로 예술에 속할 것이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>이렇게 덤덤하면서도 새로운 탐구와 인식을 전해 주는 <term type="concept">자연파</term> 시인의 계승자가 <persName role="poet" xml:id="p-x19">배한봉</persName>과 <persName role="poet" xml:id="p-x20">손택수</persName>, <persName role="poet" xml:id="p-x21">박성우</persName>, <persName role="poet" xml:id="p-x22">고영민</persName>, <persName role="poet" xml:id="p-x23">문성해</persName>, <persName role="poet" xml:id="p-x24">신용목</persName> 둥이다.</s>
+          <s>이 시 인들은 각자 추구하는 세계가 많이 다른데 자연에서 발상올 얻는다는 점에 서는 유사성을 보인다.</s>
+          <s><persName ref="#p-x21">박성우</persName>의 다음 시는 분명 <persName ref="#p-x16">장석남</persName>, <persName ref="#p-x18">문태준</persName>, <persName ref="#p-x17">안도현</persName>의 <term type="concept">서정</term> 예술올 계승하고 있다.</s>
+          <s><title level="a" type="poem" xml:id="t-x5">닭</title>이 토란잎 그늘 맛을 알았다 토란대 사이를 누비고 다니다가 쬐는 햇볕 맛을 알았다 토란 밭고랑 옆에 돋기 시작한 시금치 맛을 알았다 하필 동리서 씨낙배기로 소문난 너디할매네 아래텃밭이다 뉘집 닭이 우리 밭을 다 조져놔 부렀디야 흐흠, 시금치 씨앗을 두 번이나 뿌렸는데 하나도 남은 게 없다고 헛기침을 했다닭을 닭장에 가둬 키우기는 싫고 그렇다고 닭이 농사를 다 조져놓았다는 말을 들음서 까지 닭을 마냥 놓아 키울 수도 없고 해서 아침저녁 으로 궁리하던 차에 닭은 잘 크냐고 전화안부를 물어오는 부안 살구나 무집 어머니께 암탉과 수탉을 보낸다 적적치 않게 말짓도 하면서 어머 니 말동무나 하라고 닭을 보낸다일어나라고 방문 앞에서 빡빡거 리던 닭, 모이주고 물주고 밥벌이 하 러 나서면 내 꽁무니를 우르르따라나서던 닭, 그만 따라오라고 그만 들 어가라고소리치던 아침도 같이 보낸다— <persName ref="#p-x21">박성우</persName>,「닭」전문토란잎 그늘 밑에서 쉬다가 으슥하면 햇볕을 쪼이기도 하고 밭고랑 옆 에 막 돋아난 시금치 순도 쪼아 먹고 주인 꽁무니를 쪼르르 따라나서는 닭 의 모습은 어린이처럼 천진하고 귀엽다.</s>
+          <s>“<quote type="direct" genre="poet">싸낙배기로 소문난 너디할매</quote>"의 진한 사투리 성화에 못 이겨 적적하게 지내는 고향의 어머니에게 정든 닭 두 마리를 보내기로 했다.</s>
+          <s>여기까지 평범한 이야기가 전개되다가 그 다음 연으로 넘어가, 이러저러한 “<quote type="direct" genre="poet" source="닭">아침도 같이 보낸다</quote>”는 대목에서 <interp value="affirmative" ana="미학">이 시는밝은 꽃으로 활짝 피어난다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="미학">억지로 꾸며내지 않고 자연스럽게 서정을 표현하는 무심의 경지를 펼쳐낸다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">무심한 말씨 속에 가슴 밑바닥에서 우러나는 온 정의 물기가 맑게 응결되어 있다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>여기에 비하면 <persName ref="#p-x24">신용목</persName>의 시는 <term type="concept">감정의 습기</term>가 훨씬 진하게 묻어난다.</s>
+          <s>자 신의 쓰라리고 처절한 내면올 현란한 이미지와 강렬한 시어로 극화하는 국 면은 <persName ref="#p-x20">손택수</persName>, <persName ref="#p-x21">박성우</persName>, <persName ref="#p-x22">고영민</persName>, <persName ref="#p-x23">문성해</persName>의 시에서 찾아보기 어려운 오소다.</s>
+          <s>그의 <term type="concept">비극적 처절성</term>은 오히려 <persName role="poet" xml:id="p-x25">김경주</persName>, <persName role="poet" xml:id="p-x26">박연준</persName>, <persName role="poet" xml:id="p-x27">박진성</persName>, <persName role="poet" xml:id="p-x28">박판식</persName>, <persName role="poet" xml:id="p-x29">이영옥</persName>과 통한다.</s>
+          <s>다음 시편의 <term type="concept">통렬한 시어의 절절함</term>을 보면 그 유사성을 확인할 수 있을 것이다.</s>
+          <s><quote type="direct" genre="poet" source="敵國의 가을"><lg type="stanza"><l>나무마다 붉은 심장이 내걸린다, 저 맹세들</l></lg><lg type="stanza"><l>어떤 역모가 해마다 반란의 풍속을 되살리는가 허공을 파지로 구기 며 진격하는 북국의 나팔소리</l></lg><lg type="stanza"><l>바람의 오랜 섭정에 나는 부역의 무리가 되어버렸다 도망하라 화를 피해 그러나</l></lg><lg type="stanza"><l>살갗을 벗기며 저무는 황혼의 저녁</l></lg><lg type="stanza"><l>붕대로 풀어지는 해진 구름과 벌겋게 나뒹구는 태양의 해골바가지</l></lg><lg type="stanza"><l>모든 문자가 추억처 럼 타올랐으므로 한 장 한 장 시절이 실연을 흔들 며 투항하는 시간의 유적지에서</l></lg><lg type="stanza"><l>연기의 문장으로 원군을 청하는 늦은후회여</l></lg><lg type="stanza"><l>—</l></lg></quote> <persName ref="#p-x24">신용목</persName>,r<title level="a" type="poem" xml:id="t-x6">敵國의 가을</title>」부분<quote type="direct" genre="poet" source="짐승을 토하고 죽는 식물이거나 식물을 토하고 죽는 짐승이거나"><lg type="stanza"><l>부정의 힘으로 여기까지 왔다</l></lg><lg type="stanza"><l>삶이여 내 혐오의 家長이여</l></lg><lg type="stanza"><l>그래, 누구나 자신과 가장 가까운 짐숭 한 마리</l></lg><lg type="stanza"><l>앓다가는 거지</l></lg><lg type="stanza"><l>식물은 자기 안의 짐숭을 토하다 가는 거고</l></lg><lg type="stanza"><l>인간은 피를 토하고 죽는 것이 아니라</l></lg><lg type="stanza"><l>자기 안의 식물을 모두 토하고</l></lg><lg type="stanza"><l>가는거지</l></lg><lg type="stanza"><l>（나는 그극의 이 부분이 수정되기를 원하지 않았다）</l></lg><lg type="stanza"><l>그래, 바깥에 무슨 일이 있어도 멈추지 말아야 할 참혹같은거</l></lg><lg type="stanza"><l>부정의 힘으로 식물은 짐숭을 앓고 있고</l></lg><lg type="stanza"><l>짐승은 식물의 소리로 울고 있지</l></lg><lg type="stanza"><l>—</l></lg></quote> <persName ref="#p-x25">김경주</persName>,「<title level="a" type="poem" xml:id="t-x7">짐승을 토하고 죽는 식물이거나 식물을 토하고 죽는 짐승이거나</title>!</s>
+          <s>부분<quote type="direct" genre="poet" source="나무의 경제"><lg type="stanza"><l>어떤 이력서도 내 病歷을 받아주진 않지요 발작하는 나무에 새들은</l></lg><lg type="stanza"><l>집을 짓지 않습니다 발작이 오려할 때마다 상처의 주름을 내 몸에 기록</l></lg><lg type="stanza"><l>하려 잔뜩 긴장합니다 현금도 계좌이체도 세금원천징수도 아닌 햇빛과</l></lg><lg type="stanza"><l>물과 바람으로 오는 생활비 ,</l></lg><lg type="stanza"><l>나의 소득세는, 나무에 기대어 우는 아픈 사람들의 몫이 마땅합니다</l></lg></quote> — <persName ref="#p-x27">박진성</persName>,「<title level="a" type="poem" xml:id="t-x8">나무의 경제</title>」부분여기까지의 논의에 의해 이 기획에서 요구했던 갈래잡기의 유형화가 어 느 정도 이루어졌다.</s>
+          <s>그러나 <term type="movement">미래파</term>의 유형화가 실패였듯 이러한 <interp value="critical" ana="미학">유형화도 실패를 이미 내장하고 있다</interp>.</s>
+          <s>자유의 비상올 ；꾸는 살아 있는 영혼을 어떻 게 몇 개의 갈래로 유형화한단 말인가?</s>
+        </p>
+        <p>
+          <s>그럼에도 불구하고 하나의 시안을 마련해 본다면, <term type="concept">전위적 서정</term>에 <persName ref="#p-x3">김행숙</persName>, <persName ref="#p-x4">정재학</persName>, <persName ref="#p-x5">장석원</persName>, <persName ref="#p-x6">김근</persName>의 작품이 배 치되고, <term type="concept">현실적 서정</term>에 <persName ref="#p-x7">송경동</persName>, <persName role="critic" xml:id="p-x30">유흥준</persName>, <persName ref="#p-x9">박후기</persName>, <persName ref="#p-x10">고영</persName>, <persName ref="#p-x11">김중일</persName>, <persName ref="#p-x14">길상호</persName>, 안현 미, <persName ref="#p-x13">차승호</persName>, <persName ref="#p-x15">최금진</persName> 둥을 배치하고, <term type="concept">온화한 서정</term>에 <persName ref="#p-x20">손택수</persName>, <persName ref="#p-x21">박성우</persName>, <persName ref="#p-x22">고영민</persName>, <persName ref="#p-x23">문성해</persName> 둥을, <term type="concept">처절한 서정</term>에 <persName ref="#p-x25">김경주</persName>, <persName ref="#p-x26">박연준</persName>, <persName ref="#p-x27">박진성</persName>, <persName ref="#p-x28">박판식</persName>, <persName ref="#p-x29">이영옥</persName> 등을배치할 수 있다.</s>
+          <s>그러면 <persName role="poet" xml:id="p-x31">김충규</persName>, <persName role="poet" xml:id="p-x32">이영광</persName>, <persName role="poet" xml:id="p-x33">이재훈</persName>, <persName role="poet" xml:id="p-x34">이창수</persName>, <persName role="poet" xml:id="p-x35">여태천</persName>, <persName role="poet" xml:id="p-x36">김성규</persName> 등은 어디에 배치하여야 할까?</s>
+          <s><term type="concept">지적인 서정</term>이라는 이름으로 유형화할 수 있을 것 같다.</s>
+          <s>사태가 이러하기 때문에 도입부에서 예견했던 것처럼 나의 이 갈래잡기 작업은 무망 • 무용 ‘ 무위의 기획으로 귀결될 수밖에 없는 것 이다.</s>
+          <s><persName role="critic" xml:id="p-x37">이숭원</persName> I <date when="1955">1955년</date> 서울 출생.</s>
+          <s><orgName xml:id="org-x">서울대학교</orgName> 국어교육과 및 대학원 국어국문학과 졸업.</s>
+          <s>현재 <orgName xml:id="org-x2">서울여자대학교</orgName> 국어국문학과 교수.</s>
+          <s>저서로 r<title level="m" type="critic" xml:id="t-x9">백석을 만나다</title>』, »‘<title level="m" type="critic" xml:id="t-x10">세속의 성전</title>』,『<title level="m" type="critic" xml:id="t-x11">감성의 파 문</title>』,r<title level="m" type="critic" xml:id="t-x12">폐허 속의 축복</title>』,『<title level="m" type="critic" xml:id="t-x13">정지용 시의 심충적 탐구</title>』등이 있음.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

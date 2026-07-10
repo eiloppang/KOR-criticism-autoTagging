@@ -1,0 +1,685 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>미래파를 위하여</title>
+        <author>이수명</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><title level="a" type="critic" xml:id="t-x">미래파를 위하여</title><persName role="poet" xml:id="p-x">이수명</persName><term type="concept">젊은 시인들</term>, 첫 시집 출간 무렵의 시인들이 문단 안팎의 관심을 샀던 <date when="2005">2005</date> 년 전후의 미래파 논의는 다소 예외적인 현상이었던 것으로 기억한다.</s>
+          <s>그것은 무엇보다도 우리 문학사에서 자주 찾아볼 수 있는 신예 시인들에게 거는 관심 과 기대의 수준을 능가한 것이었기 때문이다.</s>
+          <s>당시 아무리 문학적 이슈 자체가 불모화된 상황이었다 하더라도 ‘<quote type="indirect" genre="critic">미래파</quote>’니 ‘<quote type="indirect" genre="critic">뉴웨이브</quote>’니 ‘<quote type="indirect" genre="critic">다른 서정</quote>’이니 하 는 기대에 찬 칭호들은 세인의 관심을 끌 만큼 두드러진 것이었다.</s>
+          <s>젊은 시인 들의 동시다발적 게릴라적 출현은 문학의 새로운 지형을 예고하는 것으로 보 였고 이 열기는, 관심을 가지고 지켜보았던 사람들이 각기 다양한 방식으로 젊 은 시인들의 시에 대한 긍정적, 비판적 목소리를 쏟아 냄으로써 문학에 대한 이야기를 나눌 수 있는 동기를 제공했다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">그것으로도 이들의 의의는 충분하다 할 수 있다.</interp>
+          </s>
+          <s>다만 ‘<term type="concept">서정</term>’ 이나 ‘<term type="concept">환상</term>’, ‘<term type="concept">감각</term>’ 과 ‘<term type="concept">주체</term>’ 등의 의미들을 둘러싸고 벌어졌던 논의의 격돌 이후 최근에는 <term type="movement">미래파</term> 논의도 다소 수그러든 느낌이다.</s>
+          <s>이슈와 논쟁이라는 것은 사실 당파성을 억제하기 어렵기 때문에 지속적으로 생산적이기는 쉽지 않다.</s>
+          <s>문학적 논쟁이어도 그렇다.</s>
+        </p>
+        <p>
+          <s>하지만 논의의 폭발적 열뜩집 1 우리시<date from="2000" to="2009">2000년대</date>는무엇인가①“<term type="movement">미래파</term>기에 비춰 보았을 때 이후의 생산적인 논의의 확대가 요청된다 할 것이다.</s>
+          <s>이 글은 문단적 주요 쟁점화의 여부와 상관없이 이들 <term type="concept">젊은 시인들</term>에게서 보 였덴문학적 문제의식과 이의 성격에 대해 몇 가지 고찰해 보고자 한다.</s>
+          <s>（미래 Vg— - •.</s>
+          <s>; ' " ’’ — -rn-iii .</s>
+          <s>-己	IwMmwiMIW파 시인톨은 우선 자발적이고 의식적인 동인의 성격을 지니지 않았다.</s>
+          <s>그들을 I* IN ：— u iiuiinJIj옹호하는 <persName role="other" xml:id="p-x2">평론가들</persName>의 애정에 의해 무리로 표현되었을 뿐, 어떤 공동의 문제의 식을 선언하지도, 도드라진 창작 방법론을 만들어 낸 것도 아니었다.</s>
+          <s>물론 그 들이 각자의 차이 속에서 공통된 문제의식을 가지고 있으며 일종의 <term type="concept">연합 전선</term> 을 구축하고 있는 것으로 보이는 측면이 있다.</s>
+          <s>하지만 <interp value="critical" ana="문학관">그들을 단일하게 묶는 것은 상이하고 다원적인 각자의 시세계를 훼손하는 길일 수도 있다.</interp></s>
+        </p>
+        <p>
+          <s>또한 차이 에 입각해서 보면 그 각도가 생각보다 크게 벌어지기도 한다.</s>
+          <s>어떤 시인은 <term type="concept">로 고스적 사유</term>의 측면을 드러냄으로써 전혀 다른 방식의 언어 구성력을 보여주 는가 하면（<persName role="poet" xml:id="p-x3">김언</persName>）, 다른 한편 보편적인 정서의 유발에 힘입은 시편들을 제출하 는 경우도 있다（<persName role="poet" xml:id="p-x4">유형진</persName>）.</s>
+          <s>또한 시집을 한두 권 출간하는 가운데, 각 시인이 주목 받았던 부분들이 다소 변모하는 양상을 보이기도 한다（<persName role="critic" xml:id="p-x5">장석원</persName>）.</s>
+          <s>따라서 <interp value="neutral" ana="문학관">이들을 하나의 일정한 성향으로 묶을 수 있는가 하는 의구심과 함께 이제는 오히려 상 이성과 차별화에 주목하는 평단의 고찰이 기대된다.</interp></s>
+          <s>무엇보다도 자신의 의사 에 의해 구성된 것이 아니라 외부에 의해 그렇게 불린 것이었고 주지하다시피 <term type="movement">미래파</term>의 일원인지 아닌지에 대한 정확한 구분도 존재하지 않았다.</s>
+          <s>자신이 <term type="movement">미 래파</term>로 불리는 것에 대한 의혹과 거절을 표현한 시인도 있었을 정도이다.</s>
+          <s><term type="movement">미래파</term>란 <date when="2000">2000년</date> 이후에 활발한 시작 활동을 한 시인들이라는 범주 아닌 범 주에 아직 머물러 있다.</s>
+          <s>이를 유의미하게 유형화하려는 노력들이 있어 왔지만, <interp value="neutral" ana="문학관">시작 방법론에 대한 고찰과 분석이 더 이루어져야 할 것으로 보인다.</interp></s>
+        </p>
+        <p>
+          <s>따라서 <interp value="neutral" ana="문학관">다양하게 흩어져 있는 이들의 문학적 뉘앙스들을 포괄적으로 개괄하는 것이 무리라는 것을 먼저 지적하고 싶다.</interp></s>
+          <s>이를 무릅쓰고 진행할 이 개괄이 부분적으 로만 유효할 수 있으며, 또 그러기를 바라는 이유가 여기에 있다.</s>
+          <s>그리고 이와 같은 전제 위에서 다만 몇몇 <term type="concept">시인들</term>에게서 나타났던 어떤 문학적 문제의식, 그형상을 추적해 보기로 하겠다.</s>
+          <s>（이 글에서는 <term type="movement">미래파</term>라는 말을 새로 정의하지 않고, 이 몇몇 시인에 대한 통칭으로 그냥 사용할 것이다.） <term type="concept">젊은 시인들</term>에게 시 란 무엇인가.</s>
+          <s>어떤 <term type="concept">좌절</term>과 불시착의 기호들인가.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>1.	주류에서 비주류로 주체의 대이동</head>
+        <p>
+          <s>시를 정의할 때 우리는 <term type="concept">주체의 특권화</term>를 이야기할 정도로 시와 주체의 권력 을 동일시한다.</s>
+          <s><term type="concept">주체</term>는 세계를 자신에게로 굴절시키며, 이 과정에서의 인식과 감각의 산물이 시라고 생각하는 것이다.</s>
+          <s>세계를 자신에게로 결집시키는 능력, 이에 대한 여러 갈래의 부정이나 비판의 회오리에도 불구하고 <term type="concept">시적 주체</term>가 누 라는 이 변별성이야말로 <term type="concept">시의 고유성</term>을 확인시켜 주는 것으로 생각되어 왔다.</s>
+          <s>따라서 <term type="concept">서정시</term>나, <term type="movement">리얼리즘</term>적인 풍자시, <term type="movement">모더니즘</term>적인 감각이 두드러진 시 등 어느 유형의 시들을 보더라도 각각의 감각의 프리즘을 제공하는 <term type="concept">주체</term>가 중요 했다.</s>
+          <s>어떤 <term type="concept">주체</term>냐 하는 것이 시의 모든 성격을 결정지었던 것이다.</s>
+          <s>지금까지 <term type="concept">시문학사</term>에서 <term type="concept">주체</term>는 주로 성인이었다.</s>
+          <s>육체적으로나 정신적으로 독립적인 연령에 이른 성인들은 세계와 세계의 문제들을 떠안고 그것을 자신 에게로 귀속시키는 <term type="concept">주체</term>들이었다.</s>
+          <s>이들은 세계의 구조와 모순, 삶의 비극과 불 행, 개인과 집단의 논리와 충돌, 운명의 불가피성과 좌절 등을 대면하고 이에 맞설 만큼 자란 인간들이었다.</s>
+        </p>
+        <p>
+          <s>이를 이해하고 수용하지 못했을 경우 때로 <term type="concept">분노</term> 와 <term type="concept">좌절</term>을, 사색을 내세웠으며, 문학적으로 보았을 때 이들은 책임감 있는 성 인이었다.</s>
+          <s>그리고 이렇게 반성과 성찰의 주체를 내세웠다는 것이 문학이 비문 학과 비교되는 결절점이 었다.</s>
+          <s><persName role="foreigner" xml:id="p-x6">파운드</persName>가 <term type="concept">감각과 인식의 통합적 감수성</term>을 이야기했을 때 시는 획득하기 어 려운 어떤 보편성을 전유해야 하는 것으로 보였다.</s>
+          <s><term type="concept">감각적 사유</term>, 혹은 사유의 감각화라고도 번역될 수 있는 이 말은 어떠한 내용인지를 알지 못한 채 진술된시의 감각적 무늬를 유효화시키는 인식의 가능성을 포괄하는 것이다.</s>
+          <s>이 과정 에서 발생하는 인식의 피로나 불모화는 인식의 제어를 전제로 하는 성숙한 주 체의 통찰의 과정이며 부산물이라 할 수 있다.</s>
+          <s>따라서 인식이 우리의 감각을 제한하지 않고 자유로이 감각과 결합하는, <term type="concept">인식의 잠행</term>이 중요한 시의 덕목으 로 여겨졌다.</s>
+          <s>
+            <interp value="critical" ana="미학">인식의 탐지 능력이 미발달하거나 미숙하게 부정되는 주체는 그 동안 생각되던 우월한 시적 주체와는 맞지 않는 것이었다.</interp>
+          </s>
+          <s>주체가 성숙하다는 것은 자신의 감정과 사유를 돌아본다는 것이다.</s>
+        </p>
+        <p>
+          <s>이러한 <term type="concept">반성 능력</term>에 대한 강조 는 사실 문학을 문제적이게 한 원인이었다.</s>
+          <s><term type="concept">개성</term>으로부터 도피할 것을 요구한 <persName role="foreigner" xml:id="p-x7">엘리엇</persName>의 <term type="movement">모더니즘</term>은 진정한 개성을 가진 자만이 이를 행할 수 있다는 성숙한 주체의 역설로 보였다.2000년대에 등장한 <term type="concept">미래파 시인들</term>에게서 나타난 가장 가시적인 현상은 이 주체의 변화였다.</s>
+          <s>이들 시의 주체의 모습은 고전적인 덕목으로 여겨지던 <term type="concept">성숙 한 주체</term>와는 다른 것이 었다.</s>
+          <s>무엇보다 눈에 띠는 현상은 <term type="concept">주체</term>가 성숙한 어른이 아니라 아이나 <term type="concept">미성년</term>들이라는 것이다.</s>
+          <s>음성이나 톤, <term type="concept">퍼소나</term> 모두 미성숙한 연 령의 아이에게로 <term type="concept">주체</term>의 패턴이 이동한 것이 가장 큰 변화라 할 수 있다.</s>
+          <s><term type="concept">아이 나 미성년 주체</term>는 <term type="concept">감각</term>의 선명함과 순일성을 내세우며 상대적으로 사유의 미 숙함이나 부재를 보여주는데, 중요한 것은 이 점을 오히려 무기로 사용한다는 점이다.</s>
+          <s>’나는 가족들과 함께 식사하는 것을 싫어했어요리타 아침 먹어라 리타 배도 안고프니 리타!</s>
+          <s>리타!</s>
+        </p>
+        <p>
+          <s><term type="concept">새엄마</term>의 발소리가사라진 뒤에야, 나는 도어 록을풀고 식당으로 내려가죠대개 가족들이 식사를 마치고 난 후에 혼자서 밥을 먹는데어떤 날, 내가 미처 모르는 무슨무슨 기념일이나 축하연 자리에 언니 형부 이모 나부랭이들이 식당을 꽉 메워버린 날, 맙소사!</s>
+          <s>그런 날은 마치<quote type="direct" genre="poet" source="리타의 습관"><lg type="stanza"><l>새엄마가 나틀 똥구덩이에 처넣은 둣한 기분이 들곤 했죠</l></lg><lg type="stanza"><l>그 피할수 없는함정,</l></lg><lg type="stanza"><l>처음엔 입을 다물었어요</l></lg><lg type="stanza"><l>다음엔 용기를 내어 옆사람의 수프를 떠먹었고</l></lg><lg type="stanza"><l>그 다음엔 이모부에게 이렇게 말했죠</l></lg><lg type="stanza"><l>내 꺼 볼래?</l></lg></quote>-<persName role="poet" xml:id="p-x8">황병승</persName>, ’‘<title level="a" type="poem" xml:id="t-x2">리타의 습관</title>!</s>
+          <s>부분<quote type="direct" genre="poet" source="리타의 습관">우는 애들을 달랠 순 없어요.</quote></s>
+          <s>
+            <quote type="direct" genre="poet" source="리타의 습관">난 머릿속이 출렁거릴 때까지 울죠.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="리타의 습관">애들이 날 달래지 않으면 애들이...</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="리타의 습관">애들이...</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="리타의 습관">익사할지도 몰라요.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="리타의 습관">애들은 정말 겁도 없어요.</quote>
+          </s>
+        </p>
+        <p>
+          <s>물 속에서 노래를 해요.</s>
+          <s>엄마...</s>
+          <s>엄마...</s>
+          <s>엄마…저 뻐끔거리는 입들을 좀 보세요.</s>
+          <s>표면으로 올라온 물방울들이 잇달아 터지고 있어요.</s>
+          <s>공기가 가시처럼 찌르나 봐요.</s>
+          <s>애들이 너무 오래 물속에서 놀고 있어요.-<persName role="poet" xml:id="p-x9">김행숙</persName>,r<title level="a" type="poem" xml:id="t-x3">우는 아이</title>J 전문반항하는 청소년기의 리타나 우는 것이 삶의 거의 전부인 아이가 작품의 지 배적인 주조를 이룬다.</s>
+          <s>사춘기의 아이나 이보다 어린 아이들의 <term type="concept">퍼소나</term>를 취하 는 것은 짐작 가능한 여러 가지 전략에서 비롯된다.</s>
+        </p>
+        <p>
+          <s><term type="concept">근대적 이성</term>의 제도화 속 에 기형적으로 곤고하게 확장된 듯이 보이는 기성의 질서와 허구의 <term type="concept">슈퍼에고</term> 세계에 대한 <term type="concept">불신과 환멸</term>이다.</s>
+          <s>주류 성인의 세계는 그릇된 <term type="concept">이분법</term>과 도식, 죽 은 언어와 질서의 착종, 형식뿐인 규율과 제도의 복사, 영혼 없는 삶과 가치의 전쟁터이다.</s>
+          <s>이 ‘<quote type="direct" genre="other">똥구덩이</quote>’ 에 발을 들여놓기를 거부하는 세대와 주체를 출현시 킴으로써 이 세계에 대한 <term type="concept">단절과 전복</term>을 꿈꾸는 것이다.</s>
+          <s>이 복수는 적어도 표면적으로는 단번에 완성된다.</s>
+          <s><persName role="other" xml:id="p-x10">리타</persName>는 ‘<quote type="direct" genre="other">피할 수 없는 함정</quote>’ 이 되는 이 세계를 능 란하게 욕보임으로써 아침 식당에 모인 가족들에게 식사를 망칠 기회를 제공 한다.</s>
+          <s>이렇게 <interp value="affirmative" ana="사회">아이가 질서를 제압할 가능성은 어렵지 않게 열려 있다.</interp></s>
+          <s>“<quote type="direct" genre="other">애들은 정말 겁도 없</quote>”고, “<quote type="direct" genre="other">너무 오래 물 속에서 놀고 있</quote>”어서, 겁 많고 이성적인 성인 들과 싸우지 않고도 효과적으로 타격을 가할 수 있는 것이다.</s>
+          <s>아이의 끝나지 않는 울음은 이 둔한 세계를 파고들 <term type="concept">무정부적</term>이고, <term type="concept">그로테스크</term>하고, 날카로운 칼날을 만들어 낸다.</s>
+        </p>
+        <p>
+          <s>미성년이나 작은 아이들이 기존 세계의 구도를 뒤집는 데 이렇게 효과적인 이유는 무엇일까?</s>
+          <s>이 어린, 낯선 주체는 오랫동안 권력이나 패턴화된 문화의 장에서 보이지 않던 존재들, 귀신이나 동성애자, 트랜스젠더 같은 <term type="concept">소수자</term>의 등 장과 맥을 같이 한다.</s>
+          <s>이들은 영화나 만화, 기타 하위문화에서의 등장을 기화 로 서서히 기성 문학에도 입성을 하기 시작했다.</s>
+          <s>시에서 이들이 전격 기용된 것은 <term type="movement">미래파</term>의 두드러진 특징이라 할수 있다.</s>
+          <s>.</s>
+          <s>하루에 두 번 五BW를 운행하는 혐괘열차가 있다고 말해준 건 상고머리의 여자귀 신이다.</s>
+          <s>귀신도 사기를 치는가?</s>
+          <s>그녀와 나는 사이좋게 지내지만 그녀가 말하길,너는 십년 만에 비춰보는 내 거울이야.</s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="poet" source="귀신 이야기 1">난 그 때 꼭 네가 죽을 줄만 알았는데, 그래서 유감없이 탈출했는데, 같이 죽기에는 피차 지겨웠으니깐, 이해해?</quote>-<persName ref="#p-x9">김행숙</persName>.「<title level="a" type="poem" xml:id="t-1">귀신 이야기 1</title>」부분<quote type="direct" genre="poet" source="귀신 이야기 4"><lg type="stanza"><l>악몽에 눌린 남자를 악몽 바깥에서 흔든다 요람을 혼들듯이</l></lg><lg type="stanza"><l>아가＜야, 무서워하지마.</l></lg></quote></s>
+          <s>
+            <quote type="direct" genre="poet" source="귀신 이야기 4">내가 너무 무서워지잖니.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="귀신 이야기 4">
+              <lg type="stanza">
+                <l>그런데</l>
+              </lg>
+              <lg type="stanza">
+                <l>여기는 정말 남자의 바깥일까?</l>
+              </lg>
+            </quote>
+          </s>
+          <s><quote type="direct" genre="poet" source="귀신 이야기 4">나는 왜 인간들의 악몽에 자주 불려다니는 걸까?</quote>-<persName ref="#p-x9">김행숙</persName>, r<title level="a" type="poem" xml:id="t-4">귀신 이야기 4</title>j 부분열두살.</s>
+          <s><quote type="direct" genre="poet" source="여장남자 시코쿠"><lg type="stanza"><l>그 때 이미 나는 남성을 찢고 나온 위대한 여성 미래를 점치기 위해 쥐의 습</l></lg><lg type="stanza"><l>성을 지닌 또래의 사내아이들에게 날1가다 보낸 연애편지들</l></lg></quote>-<persName ref="#p-x8">황병승</persName>.r<title level="a" type="poem" xml:id="t-x4">여장남자 시코쿠</title>」부분<quote type="direct" genre="poet"><lg type="stanza"><l>눈을 씻고 봐도 죄인이 없으니</l></lg><lg type="stanza"><l>나라도 표적이 될래요 이름도 창녀로 바꿨죠.</l></lg></quote></s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>대야미의 소녀</l>
+              </lg>
+              <lg type="stanza">
+                <l>이곳은 작은 마을, 그녀는 정육점에서 그럴 듯한 유방을 달지는 못했네</l>
+              </lg>
+              <lg type="stanza">
+                <l>칼솜씨는 쓸만했지만 바느질은 형편 없었죠, 대야미의 소녀</l>
+              </lg>
+              <lg type="stanza">
+                <l>（중략）</l>
+              </lg>
+              <lg type="stanza">
+                <l>한 때 아무 것도 모르는 소년이었을 때, 말이죠</l>
+              </lg>
+              <lg type="stanza">
+                <l>마구 벌을 내렸죠.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">오로지 용서받고 싶어서...</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>클란트 이스트우드를 좋아했어요 지금도 그 때를 떠올리며</l>
+              </lg>
+              <lg type="stanza">
+                <l>정육점에서 뿌리째 잘라준, 이 쬐꼬만 녀석을 허리춤에 차고는</l>
+              </lg>
+              <lg type="stanza">
+                <l>잔뜩 속상한 표정의 사내를 흥내내곤 하죠, 웃음...</l>
+              </lg>
+            </quote>
+          </s>
+        </p>
+        <p>
+          <s>웃음...</s>
+          <s><title level="a" type="poem" xml:id="t-x5">대야미의 소녀</title>.-<persName ref="#p-x8">황병승</persName>,r<title level="a" type="poem" ref="#t-x5">대야미의 소녀</title>-황야의 <term type="concept">트랜스젠더</term> J <term type="concept">부분주체</term>의 다양화가 일어난다.</s>
+          <s>주체는 소위 <term type="concept">비주체</term>라고도 할 수 있는 <term type="concept">귀신</term>으로, 아니면 여장 남자, <term type="concept">트랜스젠더</term>와 같은 <term type="concept">성적 소수자</term>의 <term type="concept">퍼소나</term>로 나타난다.</s>
+          <s><quote type="direct" genre="poet">육체 의 감옥을 탈출</quote>’ 하고 ‘<quote type="direct" genre="poet">인간들의 악몽에 불려 다니는</quote>’ <term type="concept">귀신</term>들, ‘<quote type="direct" genre="poet">남성을 찢고 나 온 위대한 여성</quote>’ 인 <term type="concept">여장 남자</term> <persName role="other" xml:id="p-x11">시코쿠</persName>, 남성에서 여성으로 성전환 수술을 받고 창녀가 된 ‘<title level="a" type="poem" ref="#t-x5">대야미의 소녀</title>’ <term type="concept">트랜스젠더</term>는 표준적인 세계가 인정하지 않았던 보 이지 않던 존재들을 지시한다.</s>
+          <s>어린 아이와 마찬가지로 이러한 주체들은 <term type="concept">미분화</term>와 <term type="concept">혼돈</term>이라는 특성에 힘 입어 질서를 공략할 수 있는 효과적인 기제로 작용한다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">아니 불안정한 주체의 공격 력은 강력한 것이라 해야 정확한 말이다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="사회">가시적인 표준의 세계라는 것은 사실은 이 불안정한 존재들을 이기지 못하기 때문이다.</interp>
+          </s>
+          <s>이들은 존재하는 것만으로 도 위험한 것이기에 언제나 보이지 않는 곳에 숨겨져 있어야 했다.</s>
+        </p>
+        <p>
+          <s><term type="concept">질서</term>란 허위 이다.</s>
+          <s>숨길 것을 숨기고 난 후의 묵계에 불과하다.</s>
+          <s><term type="concept">질서</term>는 <term type="concept">비질서</term>를 괄호 안에 넣은 상태에 불과한 것이므로 언제나 비질서에 포위되어 있다.</s>
+          <s><term type="concept">비질서</term>를 이길 수 있는 질서란 없다.</s>
+          <s>이길 수 없기에 <term type="concept">질서</term>는, <term type="concept">비질서</term>를 억압한다.</s>
+          <s>여기서 중요 한 것은 <term type="concept">비질서</term>는 반성하지 않는다는 점이다.</s>
+          <s>반성하지 않는 주체는 강하다.</s>
+          <s><term type="concept">비주류 주체들</term>이 <term type="concept">질서</term>를 상대로 벌이는 이 문학적 싸움은 ‘불가능한 싸움’ 이 아니라 그 반대로 애초에 지나치게 쉬워 보인다는 문제가 있다.</s>
+        </p>
+        <p>
+          <s>그래서 젊은 <term type="movement">미래파</term>들의 싸움은 단번에 고지를 점령한 것인지도 모른다.</s>
+          <s>귀신과 트랜스젠 더와 같은 기표의 <term type="concept">비정체성</term>은 그 자체만으로도 강력한 무기이다.</s>
+          <s>어떠한 상황 에서도 적응할 수 있는 복합적 텍스트로 내장되어 있기 때문이다.</s>
+          <s><term type="movement">미래파</term> 시의 다양성과 원기 왕성함은 주체의 이러한 <term type="concept">비결정성</term>에 힘입은 것이다.</s>
+          <s>그것은 일 단 주소 없는 에너지로 가득 차 있다.</s>
+          <s>이 기세등등한 싸움의 한가운데서, <term type="concept">비주류</term>의 창궐이 오히려 세계에 대한 <interp value="critical" ana="문학관">이 분법적이고 도식적인 이해를 추인한 것은 아닌지 돌아볼 필요를 느끼게 된다.</interp></s>
+          <s>괄호를 풀고 마주 서는 것은 <term type="concept">비주류</term> 쪽에서 주류를 세워 주는 것이기 때문이 다.</s>
+          <s>하지만 제거해야 할 질서와 표준이라는 것이 그렇게 강력하지도 또한 정확 하게 구획된 틀도 되지 못한다는 것을 이해하기 위해서 <interp value="critical" ana="문학관">너무 많은 힘을 동원한 셈이 아닐까.</interp></s>
+        </p>
+        <p>
+          <s>결국 <term type="concept">문학적 전면전</term>으로도 보이는 이러한 양상이 전개될 만큼 대 척적인 표준적 세계가완강하지 못한 것이라면 말이다.</s>
+          <s>우선, 아이가 대적해야 할 뚜렷한 성인이라는 것을 무리하게 상정하고 있는 경향을 지적할 수 있다.</s>
+          <s>인간을 <interp value="critical" ana="미학">이분법적으로 구획하는 시도가 늘 효과적인 것 은 아니다.</interp></s>
+          <s>성인의 세계라는 구조를 담당하는 존재가 성숙한 어른이라는 것으 로 실재하고 있는지는 번거로운 증명이 필요할 것이다.</s>
+          <s>아이들이 싸워야 할 어 른이라는 것이 확실히 존재한다면 참으로 편리할 것이다.</s>
+          <s>성인과 어른의 세계 는 약정된 기호의 세계이다.</s>
+          <s>이 약정을 받아들이지 않으면 존재하지 않는 것이다.</s>
+          <s>싸워야 할 어른의 세계도 없게 된다.</s>
+        </p>
+        <p>
+          <s>그러나 약정을 받아들였을 때는 이미 이 질서를 승인하고 한편에 서게 된다.</s>
+          <s>이 경우, 어1전 형식이든 이 세계의 기숙 자이고 완충자가 되지 않을 수 없다.</s>
+          <s>싸움의 모순이 여기에 있다.</s>
+          <s>
+            <interp value="critical" ana="사상">확고한 질서와 주류의 세계가 있어서 무너뜨릴 그 세계의 밖에 우리가 있 다는 것은 얼마나 그럴듯한 환상인가.</interp>
+          </s>
+          <s>그렇다면 모든 것은 정당화될 수 있다.</s>
+          <s>하지만 <interp value="critical" ana="문학관">무너뜨려야 할 주체가 있고 한편엔 더 나은 주체가 있다는 가정은 근본 적으로 문학에 낯선 발상이라는 점을 이야기하고 싶다.</interp></s>
+          <s>
+            <interp value="critical" ana="사상">더 그럴 듯한 주체, 우 리를 해방시키는 어떤 주체의 존재를 기정하는 것은 사회학적인 상상력인 것 이다.</interp>
+          </s>
+          <s><term type="concept">미래파</term>들은 자신들의 새로운 <term type="concept">주체</term>가 정체성이 있는 확고한 주체가 아닌, 분 열적이고, 비인칭적인, 혼종의 주체이며 따라서 <term type="concept">비주체</term>라고 생각할 수도 있다.</s>
+        </p>
+        <p>
+          <s><term type="concept">주체</term>를 소수자에게서 발견한 것이 아니라 주체 자체를 폭파시킨 것이라고 말 이다.</s>
+          <s>하지만 <term type="concept">비주체</term>도 주체이다.</s>
+          <s>발화자라면 모두 <term type="concept">주체</term>이다.</s>
+          <s>“<quote type="direct" genre="other">너는 십년 만에 비춰보는 내 거울이야</quote>’, “<quote type="direct" genre="other">나는 왜 인간들의 악몽에 자주 불려다니는 걸까</quote>2’ 하 고 말하는 귀신이나 “<quote type="direct" genre="other">나는 남성을 찢고 나온 위대한 여성</quote>”, “<quote type="direct" genre="other">나라도 표적이 될 래요 이름도 창녀로 바꿨죠</quote>‘’ 하고 말하는 여장 남자, 트렌스젠더는 발화하는 순간 자신을 <term type="concept">주체</term>로 선언하는 것이다.</s>
+          <s>발화하면서, 싸우면서, <term type="concept">주체</term>가 편리하게 없어질 수는 없다.</s>
+          <s>어떤 복잡한 텍스트를 내장한 발화이든 상관없이 발화가 이 루어지는 순간 그것은 <term type="concept">주체</term> 인 것이다.</s>
+          <s>우리는 우선적으로 제거해야 할 대상으로 질서를 상정하는 경향이 있다.</s>
+          <s>이 가정의 문제점은 우리들 자신이 질서를 보충하고 있고, 질서와 동승하고 있다 는 데 있다.</s>
+        </p>
+        <p>
+          <s><term type="concept">젊은 시인들</term>이 전복하길 바라는 것은 바로 그들 자신이었음을 깨 닫는 데는 얼마 걸리지 않을 것이다.</s>
+          <s>그들이 바로 주류이다.</s>
+          <s>사회적이고 정치 적인 장에는 비주류가 있지만, 삶에는 비주류가 없다.</s>
+          <s>인생에서는 모두가 주류 이다.</s>
+          <s>그리고 모두 비주류이다.</s>
+          <s>우리는 주인이면서 손님이다.</s>
+          <s>우리는 제도이면 서 동시에 제도를 무화시키는 인간이다.</s>
+          <s>아니, 인간은 주류, 비주류를 넘어서그 자체가 파괴적인 존재이다.</s>
+        </p>
+        <p>
+          <s>그리고 <term type="concept">제도</term>와 질서는 인간에게 <term type="concept">억압</term>적일 뿐 아 니라 허약하다.</s>
+          <s><term type="movement">미래파</term> 시에서 <term type="concept">주체</term>의 공급처를 변경한 결과는 세계의 축소이다.</s>
+          <s>등장인물 들의 싸움의 방식에 맞게 세계는 우스꽝스러워지고 감각적인 대상이 되었다.</s>
+          <s><term type="concept">젊은 시인들</term>은 세계를 쪼개는 데 재미를 느끼고 있다.</s>
+          <s>아무 것도 두렵지가 않 다.</s>
+          <s>전략이나 고민 따위는 닑아' 버린 기획이다.</s>
+          <s>이토록 손쉬운 승부였다는 데 대한 아쉬움도 필요 없다.</s>
+          <s>무엇보다도 이러한 전진은 대체된 <term type="concept">주체 중심주의</term>적 성격을 가지고 있다.</s>
+        </p>
+        <p>
+          <s>새 로운 주체들, <term type="concept">소수자들</term>의 등장으로 세계의 전복을 주창하는 주체의 <term type="concept">소재주의</term> 라 할 수 있다.</s>
+          <s>
+            <interp value="neutral" ana="사상">하지만 여기서 이들이 진정으로 새로운 주체들인가 고민해 볼 필요가 있다.</interp>
+          </s>
+          <s><term type="concept">비주류들</term>을 들여다봄으로써 세계와 역사를 다시 구성하는 것은 <term type="movement">푸코 류의 철학</term>에서 이미 제출해 놓은 기획이다.</s>
+          <s>우리는 이 영향력 안에 진입 한 지 오래다.</s>
+          <s>
+            <interp value="neutral" ana="사회">우리 시대의 문화적 풍속도에서 헤게모니를 장악한 것은 사실상 비주류들이다.</interp>
+          </s>
+          <s>미성년 아이들의 비순응적인 감성과 게이, 트렌스젠더 등장인 물들로 상징되는 <term type="concept">이성애 가족</term>에 대한 공격은 이미 영화나 만화에서 참신할 것 이 없는 소재이다.</s>
+          <s>
+            <interp value="critical" ana="미학">이들 소재는 수확 체감의 단계에 들어선 것으로 보인다.</interp>
+          </s>
+          <s>순 수하고 지고한 <term type="concept">이성애</term>를 다룬 시나 영화에 사람들이 몰리는 것은 이 작품들이 통념에 호소하기 때문이 아니다.</s>
+        </p>
+        <p>
+          <s>이것이 오히려 그로테스크한 희귀본이 되었 기 때문이다.</s>
+          <s>아무도 믿지 않는 <term type="concept">이성애</term>, <term type="concept">질서</term>.</s>
+          <s>평범한 주류들, 이것이 신선해 보이는 것이다.</s>
+          <s>‘<term type="movement">미래파</term>는 너무 늦게 <term type="concept">문화 운동</term>에 뛰어든 것은 아닐까.</s>
+          <s>이런 느낌은 이들 문 학의 <term type="concept">새로움</term>으로 이야기되는 것이 - 적어도 소재의 측면에서는 - 다른 장르들 을 통해서 너무나 익숙한 것들이었다는 당혹감으로 배가된다.</s>
+          <s>그러면서도 한 편으로 <interp value="critical" ana="문학관">미래파는 너무 빨리 주목을 받았다</interp>고 할 수 있을 것이다.</s>
+          <s>그들의 비주 류성이 자체적으로 강력하고 진정한 모습을 갖추기 위해서는 은폐의 시간이 필요했다.</s>
+          <s>하지만 그들은 숙성에 필요한 무관심이라는 존귀한 선물을 받지 못했다.</s>
+        </p>
+        <p>
+          <s>그런 여유 없이 곧바로 주목을 받았고 그들의 <term type="concept">비주류성</term>은 평단의 환호 속에 장식적인 것이 되어 버렸다.</s>
+          <s>그들은 너무 빨리 주류가 되어 버린 것이다.2	.</s>
+          <s><term type="concept">가족</term>의 극복<term type="movement">미래파</term> 시에서의 <term type="concept">미성년 주체</term>들이 가족에 대해 모두 같은 자세를 가지고 있 는 것은 아닌 듯하다.</s>
+          <s>보다 과격하거나 온건한 양상으로 다양한 편차를 보인 다.</s>
+          <s>하지만 정도의 차이는 있어도 <term type="concept">가족</term>을 그들의 <term type="concept">정신적 징후</term>의 근본으로 여기 고 전면적인 대결의 주제로 설정하는 경향이 많다.</s>
+          <s><term type="concept">가족제도</term>나 부모와 맞서는 것이 바로 그들의 <term type="concept">실존적 기투</term>이며, <term type="concept">존재론적 사건</term>이 되는 것이다.</s>
+          <s>가족 내의 갈등과 <term type="concept">억압</term>이 전면화되는 이런 장면은 <term type="concept">미성년 주체</term>들이 <term type="concept">권력</term>을 가지지 못했 기 때문이며 이들은 부모와의 긴장상태를 전열에 놓고 <term type="concept">가출</term>이나 그 밖의 괴격 한 상황을 연출한다.</s>
+          <s>그들에게는 <term type="concept">가족</term>이 세계이며 <term type="concept">징후</term>이다.</s>
+        </p>
+        <p>
+          <s>부모는 그들에게 <term type="concept">억압자</term>이며, 세계의 억압자를 대표하는 것으로 설정된다.</s>
+          <s><quote type="direct" genre="poet" source="주치의 h">떠나기 전, 집 담장을 도끼로 두 번 찍었다</quote>-<persName ref="#p-x8">황병승</persName>,「<title level="a" type="poem" xml:id="t-h">주치의 h</title>」부분바닥까지 미개해져서 우리는 만난다.</s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>나의 엄마는 더럽고</l>
+              </lg>
+              <lg type="stanza">
+                <l>너의 아빠는뽀뽀 악수</l>
+              </lg>
+              <lg type="stanza">
+                <l>（중략）</l>
+              </lg>
+              <lg type="stanza">
+                <l>우리는 만난다.</l>
+              </lg>
+            </quote>
+          </s>
+          <s><quote type="direct" genre="poet" source="어린이"><lg type="stanza"><l>너의 아빠는 썩고</l></lg><lg type="stanza"><l>나의 엄마는 맘마 장난감</l></lg><lg type="stanza"><l>우리가 가진 전부, 몇 개의 단어</l></lg><lg type="stanza"><l>몇줄의 엉망의문장으로</l></lg><lg type="stanza"><l>우리가믿는것은모조리검고</l></lg><lg type="stanza"><l>이것이 우리의 원래 눈빛</l></lg><lg type="stanza"><l>뜨겁지도, 차갑지도 않은</l></lg><lg type="stanza"><l>고무나라의 인형들처럼</l></lg></quote>-<persName ref="#p-x8">황병승</persName>,「<title level="a" type="poem" xml:id="t-x6">어린이</title>」부분<quote type="direct" genre="poet" source="살수제비 끓이는 아이">이미죽은내가 엄마아빠를 국자로 떠와 차례차례 변기에담근다</quote> 이미죽은내가 엄마 아빠의 잠옷을 벗기고 속옷을 벗기고 바리깡으로 몸에 난 모든 털을 깎는다 이미죽은 내가 엄마아빠를 깨끗이 물에 헹구고 탈수기에 넣어 탈탈 말린다 이미죽은내가 쇠도끼 로 엄마아빠의 머리뼈와 종지뼈를 쳐내 그걸 고아프림색 국물을 우려낸다 이미죽은내 가 엄마아빠의 살을 조근조근 손톱깎이로 뜯어 홈을 판다 이미죽은내가 엄마아빠의 뜯 긴 살집에 손을 넣어 큼직큼직하게 살‘점을 떼어낸다 이미죽은내가 떼어낸 살점을 조물 조물 납작납작 주물러서 국솥에 떨어뜨린다 이미죽은내가 엄마아빠의 깎아놓은 털에 말간 뇌수액을 붓고 끈적끈적한 혈장을 버무려 양념장을 만든다 이미죽은내가 엄마아 빠의 발라놓은 뻐에 비계칠을 하고 불을 붙여 국솥의 아궁지를달군다 이미죽은내가 링 거바늘로 뽑아둔 엄마아빠의피로 국물 간을 맞춘다 이미죽은내가 엄마아빠의 살수제 비가 팔팔 끓고 있는 국솥 앞에서 김사의 기도를 올린다 이미죽은내가 엄마아빠의 살 수제비를후후 불어 떠먹기 시작한다-<persName role="poet" xml:id="p-x12">김민정</persName>,「<title level="a" type="poem" xml:id="t-x7">살수제비 끓이는 아이</title>」부분어머니는 손에 잡히는 대로 사진들을 오려냈다 눈올 감은 어머니는 가위질 솜씨가 대단했다（중략）어머니의 가위질은 멈추지 않았다 밤이 되자 사진들은 분말이 되어 흘 날렸다 어머니의 가위를 피해 습자지처럼 얇아진 나도 허공으로 날아올랐다 창가에서 떠돌다 끈적한 천장에 들러붙었다 난자당한 사진들 속에 홀어져 있던 나의 눈들이 천천히 걸어나와나를 찍었다-<persName role="poet" xml:id="p-x13">이민하</persName>.「<title level="a" type="poem" xml:id="t-j">사진놀이 J</title> 부분아버지는 아무 말 없이 밖으로 나가더니 角이 잘 잡힌 새장을 하나 구해 왔다.</s>
+          <s><quote type="direct" genre="poet" source="앵무새 一家">내가 네 생일을 깜빡했구나 예쁜 새를 길러 보렴 좀 낡긴 했지만 기막힌 선물이 될 거야 날갯 죽지가 가렵다구요 아버지, （중략） 작고 예쁜 새를 길러 보렴 얘야, 날개보다 아름다운 걸 키울 수 있을 테니 너의 흥건한 피로 새장을 꼼꼼히 칠해 보렴 그리고는 아버지는 팔 과 다리를 구겨 새장 안으로 들어갔다</quote>-<persName ref="#p-x13">이민하</persName>, r<title level="a" type="poem" xml:id="t-x8">앵무새 一家</title>!</s>
+          <s>부분인용한 시들은 모두 <term type="concept">미성년 주체</term>의 입장에서 바라본 <term type="concept">가족</term> 풍경을 다룬 것이 다.</s>
+          <s><persName ref="#p-x8">황병승</persName>은 <interp value="neutral" ana="사회">가족은 썩고 더럽고 미개한 것이라고 말한다.</interp></s>
+          <s>이 ‘<quote type="direct" genre="poet">바닥</quote>’ 에서 우리 는 ‘<quote type="direct" genre="poet" source="어린이">고무나라의 인형들</quote>’ 같은 존재들이다.</s>
+        </p>
+        <p>
+          <s>이 미개한 곳을 떠나는 것은 당연하 고도 자연스러운 절차로, 나는 “<quote type="direct" genre="poet">떠나기 전, 집 담장을 도끼로 두 번 찍</quote>”음으로 써 가족과의 <term type="concept">단절</term>이라는 제의를 치른다.</s>
+          <s>여기에는 망설임도 없고, 신기할 정도 로 어떠한 장애도 나타나지 않는다.</s>
+          <s><term type="concept">구속</term>과 <term type="concept">억압</term>으로 표상되는 담장을 찍어 버 리고 가뿐히 떠나기만 하면 되는 듯하다.</s>
+          <s>
+            <interp value="neutral" ana="미학">황병승의 담장에의 도끼질이 일회성으로 가볍게 마무리된다면, 김민정에게 그것은 보다 격렬하고 연속적인 향연의 양상을 띤다.</interp>
+          </s>
+          <s>이 작품에서 눈에 띄는 양상은 ‘<quote type="direct" genre="poet">살수제비 끓이는 아이</quote>’ 가 ‘<quote type="direct" genre="poet">이미 죽은 나</quote>’ 라는 것이다.</s>
+          <s>죽지 않았다면 아이의 행위는 가령 부모의 훼손으로 성장하는 인간 존재에 대한 평범한 이야 기일 수 있다.</s>
+          <s>부모의 피와 살을 바탕으로 생존하는 공식이 다소 자학적으로 기술된 것으로 볼 수도 있는 것이다.</s>
+          <s>하지만 이 아이는 이미 죽은 아이이다.</s>
+        </p>
+        <p>
+          <s>‘<quote type="direct" genre="poet">이미죽은내7F</quote> 라는 구절의 반복은 <term type="concept">죽음</term>이 자신의 뜻이 아니며, 가족이 원인이었다는 암시가, 그리고 아이가 죽음 과 화해하고 있지 않음이 강조된 것이다.</s>
+          <s>따라서 가족 속에서 죽은 아이는 자신의 <term type="concept">죽음</term>에 머무르지 않고 뛰쳐나와 잔혹한 복수극을 치른다.</s>
+          <s>아이의 처절하 고도 코믹한 살해 행위는 그 서술이 끝이 보이지 않을 정도로 정밀하게 이어져 서 극본을 가지고 진행하는 연기적 성격을 띨 정도이다.</s>
+          <s>거의 기계적으로 세분 화된 이 연기는 ‘<quote type="direct" genre="poet">감사의 기도</quote>’ 에서 절정을 이룬다.</s>
+          <s>부모에 대한 복수를 완성한 것이다.</s>
+          <s>이 지루한 향연이 가능한 것은 복수를 하고 가족을 붕괴시키는 것이 아이에게 재미있고 용이한 일이기 때문이다.</s>
+          <s>용이하다는 것은 부모가 어떠한 방어도 하지 않고 가만히 있다는 것이다.</s>
+          <s>이것은 아이의 놀이이다.</s>
+        </p>
+        <p>
+          <s>놀이를 놀이처럼 표현한 것이 <persName ref="#p-x13">이민하</persName>의 시이다.〈<title level="a" type="poem" xml:id="t-x9">사진놀이</title>〉는 내가 사진을 찍고 어머니가 사진들을 가위로 오리는 모녀의 놀이를 =｝한 것이다.</s>
+          <s>내가 찍 는 사진들을 오려 대는 “어머니의 가위질은 멈추지 않아서 나는 “<quote type="direct" genre="poet">어머니의 가 위를 피해</quote>” 다닌다.</s>
+          <s>어머니는 용의주도하지만 나의 행위를 무화시키고 제압하 는 어머니의 가위질에서 결국 나는 살아남으며 나의 사진 찍는 놀이는 계속된 다.</s>
+          <s>어머니와의 사진놀이는 아버지와의 새장놀이로 이어진다.</s>
+          <s>새장을 구해 와 서 “<quote type="direct" genre="poet">예쁜 새를 길러 보렴</quote>” 하고 말•하고는 새장 안으로 들어가는 것은 바로 아버 지 자신이다.</s>
+          <s>나는 “<quote type="direct" genre="poet">흥건한 피로 새장을 꼼꼼히 칠해</quote>”야 한다.</s>
+          <s>내가 기르게 되 는 것은 아버지이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이민하의 시에서 사진놀이와 새장놀이의 주도권은 나에 게 있으며, 나는 부모의 영향권에서 벗어나 있을 뿐 아니라 이 관계의 향방을 결정지을 존재이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>위의 시들에 나타나는 공통점은 <term type="concept">가족</term>에 대한 어린 주체들의 공격 행위가 무 비판적이고 용이하게 완수된다는 것이다.</s>
+          <s><term type="concept">가족</term>이 보잘 것 없이 무너지는 장면 은 어김없이 이를 주도하는 주체의 선명한 행위와 오버랩된다.</s>
+          <s>이들에 의해 가 족이 전복되고 <term type="concept">가족</term>이라는 것 자체가 단순한 역할 놀이를 넘어서지 못하는 것 으로 판명된다.</s>
+          <s><term type="concept">미성년 주체들</term>에게 <term type="concept">가족</term>의 극복은 일반적인 <term type="concept">강박관념</term>이 되곤 한다.</s>
+          <s>아직 사 회적으로 독립한 성인이 아니기에 <term type="concept">가족</term>이 유일한 소속 집단일 수 있으며, <term type="concept">가족 이데올로기</term>가 피부에 와닿는 구체적인 <term type="concept">억압</term>의 장치가 되는 것이다.</s>
+          <s>따라서 <term type="concept">가족</term>이란 무엇이며, 가족을 극복한다는 것이 어떠한 것인지에 대한 반성은 우선 권을 상실한 채 가족에 대한 부정으로 치닫는 경향이 있다.</s>
+          <s>요컨대 개인과 사 회의 주기율표가 어떻게 맞물려 <term type="concept">가족</term>이라는 복합체를 요구하는 것인지에 대한 검토 없이, 아니, 사회가 가족을 요구하고 있다는 바로 그 사실 때문에 일단 가 족을 <term type="concept">억압</term>의 장으로 위치시키게 되는 것이다.</s>
+          <s>
+            <interp value="critical" ana="사회">가족을 극복하는 것이 곧 기성의 질서를 극복하는 것으로 보이며, 그들의 급진성을 측량하는 시금석으로 비쳐 지는 것이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>굳이 잠깐 시선을 돌리자면 우리는 이전의 시인들, 예컨대 <persName role="poet" xml:id="p-x14">김수영</persName>의 <term type="concept">가족</term>에 서, <persName role="poet" xml:id="p-x15">이성복</persName>과 <persName role="poet" xml:id="p-x16">기형도</persName>의 가족에서 가족이 화두가 되는 것을 목격했다.</s>
+          <s><term type="concept">가족</term>은 그들을 <term type="concept">고통</term>스럽게 했으며, <term type="concept">가난</term>과 구속과 절망의 옥쇄였다.</s>
+          <s>하지만 <term type="concept">가족</term>이 무 찔러야 할 대상으로 설정되지는 않았다.</s>
+          <s>그들이 발견한 것은 <interp value="neutral" ana="문학관">가족은 인간이 견 디려 하는 유일한 고통이라는 것이었다</interp>.</s>
+          <s><term type="concept">고통</term>의 양이나 질적인 측면에서 <term type="concept">가족</term> 을 능가하는 것은 없다.</s>
+          <s>하지만 인간은 <term type="concept">가족</term>에서 자신의 삶의 상징을 발견하려 한다.</s>
+          <s>당시에는 이러한 <term type="concept">가족의 아이러니</term>가 그들의 상상력을 촉발했다.</s>
+          <s><term type="concept">가족</term> 운 명체에 엮어 든, 구성원들에 대한 <term type="concept">연민</term>과 그리움, <term type="concept">고통</term>, 차라리 공포가 어우러 져 있는 모습이었다 할 수 있다.</s>
+        </p>
+        <p>
+          <s><term type="movement">미래파</term> 시의 <term type="concept">가족 혐오증</term>은 이보다 명료하게 요약이 가능한 것이다.</s>
+          <s>그들의 주체들이 자신을 울타리치고 있는 <term type="concept">가족</term>이 보호자라기보다 <term type="concept">억압자</term>라고 생각하 는 점은 이전 세대와 다를 바 없다.</s>
+          <s>차이는, 그들이 이런 조건을 전혀 용서하려 하지 않는다는 것이다.</s>
+          <s>그들은 <term type="concept">가족</term>을 넘어서려 하는데, 주로 파괴하는 방식으 로 이루어진다.</s>
+          <s>그렇게 함으로써 그들 세대의 존재를 증명하고자 한다.</s>
+          <s>그런데 여기서 근본적인 의문이 떠오른다.</s>
+          <s><persName role="other" xml:id="p-x17">미래파 시인들</persName>의 <term type="concept">가족</term>에 대한 과 격성은 과연 실질적인 내용을 갖고 있는 것일까.</s>
+          <s>표면적으로는 미성년 주체들 이 <term type="concept">가족</term>과 부모를 파괴하고 넘어서는 데 모든 것을 걸고 있다.</s>
+        </p>
+        <p>
+          <s>그러나 일견하 기만 해도 <interp value="critical" ana="미학">김민정이나 이민하 시의 풍경은 실제적인 삶의 내용들로 구성되어 있다고 보기 힘들다</interp>는 것이 분명해진다.</s>
+          <s>그것은 어떤 의미 맥락을 가지고 있다기보다 차라리 격렬하고 들끓는 <term type="concept">에너지</term>의 분출로 보이는 측면이 있다.</s>
+          <s>제대로 된 요리를 만드는 것보다 냄비 뚜껑을 열어젖혀 재료들이 쏟아져 나오는 즐거 움을 누리고자 하는 것이다.</s>
+          <s>이들에게 재료가 냄비 속으로 들어가는 순서와 위 치는 무의미하다.</s>
+          <s>어차피 이것들은 과격한 온도에 의해 마구잡이 신세로 흘러 넘칠 것이기 때문이다.</s>
+          <s>나아가 <interp value="critical" ana="미학">재료 자체도 현실적인 의미와 온도를 지니고 있 는 것으로 보이지 않는다.</interp></s>
+          <s>“<quote type="direct" genre="poet">엄마아빠의 머리뼈와 종지뼈를 쳐내 프림색 국물을 우려내</quote>”고 “<quote type="direct" genre="poet">엄마아빠의 살을 조근조근 손톱깎이로 뜯어</quote>” 살수제비를 끓이는 이 진술은 <interp value="critical" ana="미학">현실적인 맥락을 찾기 어려운 것이다.</interp></s>
+          <s>단지 거침없는 칼질만을 느낄 수 있을 뿐이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">칼질의 희열과 맹목성</term>이 여기에는 있다.</s>
+          <s>집 담장을 도끼로 찍는 아이나 부모의 살로 살수제비 뜨는 아이, 사진이나 새장과 같은 도구들로 놀이를 즐기는 아이에게 이 세계는 당연히 현실적 구성 력을 가지고 있는 것이 아니다.</s>
+          <s>세계는 즐거움을 위한 요리, 혹은 <term type="concept">게임</term>이나 놀 이 같은 것이고, 게임의 규칙성과 극단성이 이들을 사로잡으며 이것이 시로 탄 생한다.</s>
+          <s><term type="concept">파괴하고 파괴되는 상호성</term>은 가치나 의미의 영역이 아니라 재미와 변 수에 속한다.</s>
+          <s>
+            <interp value="neutral" ana="미학">요컨대 부모를 살해하거나 새장에 가두는 것은 저항이나 패륜이 라기보다는 새로 프로그램화된 게임의 탐사로 보인다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">게임의 기계적 측면에 초점을 맞추어 보면 김민정의 시는 잔혹하거나 엽기적이라기보다는 선정직이 고 고지식하다.</interp>
+          </s>
+          <s>일정한 패턴으로 지뢰가 내장되어 있는 프로그램을 따라가며 의문 없이 게임 아웃에 이르고 있는 것이다.</s>
+          <s>젊은 <term type="movement">미래파</term>가 원하는 것은 <term type="concept">새로움</term>이다.</s>
+        </p>
+        <p>
+          <s>그들에게 익숙한 사회인 가족에 대 해 말할 때 가족을 어떻게 그들 식으로 새롭게 말할 수 있을까.</s>
+          <s>가족 이데올로 기는 아버지 세대가 헌신과 희생, 숭고함의 담지자라고 가르친다.</s>
+          <s><term type="movement">미래파</term>는 그 <term type="concept">숭고함</term>을 몰아내거나 제거하려고 한다.</s>
+          <s><term type="concept">가족 비틀기</term>, 이것이 그들이 발견한 가 족에 대한 ‘<quote type="direct" genre="poet">새로운</quote>’ 담론인 것이다.</s>
+          <s>가족은 변화하는 조건 속에서도 끈질기게 유지되고 있기 때문에 가족을 짓밟는 일은 가장 의의 있는 <term type="concept">우상파괴</term>로 보일 수 있다.</s>
+          <s>가족은 이 사회를 곤고하게 하는 것으로 생각되기 때문이다.</s>
+          <s>하지만 이렇게 물어볼 수 있을 것이다.</s>
+          <s><term type="movement">미래파</term>가 파괴하려고 하는 것은 어떤 모습의 가족인가?</s>
+        </p>
+        <p>
+          <s>가족은 이미 변모하고 있다.</s>
+          <s>현대의 가족이 지금 어디까지 붕괴되어 있는지 말하기는 어렵다.</s>
+          <s>다만 확실한 것은 가족의 변화가 <term type="concept">아버지의 훼손</term>이라는 일방통행으로 진행되어 왔다는 것이다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">아버지를 무너뜨리 려는 문 학적 노력은 권위의 제압이나 자유의 확장의 길이 될 수도 있을 것이다.</interp>
+          </s>
+          <s>그러 나 <interp value="critical" ana="문학관">기왕의 일방통행에 가세하는 것일 뿐이라는 것도 확실하다</interp>.3	.</s>
+          <s><term type="concept">탈주의 시학</term><term type="concept">새로운 주체들</term>을 등장시키고, 이 사회의 최후의 보루처럼 보이는 <term type="concept">가족</term>을 거 부하는 젊은 <term type="movement">미래파</term>의 시를 크게 보아 <interp value="neutral" ana="미학">탈주의 시학이라고 이야기할 수 있는 근 거는 무엇인가.</interp></s>
+          <s><term type="concept">중심</term>, 주류, 질서, 궤도로부터의 분리, 이탈, <term type="concept">전복</term>을 문학적 모 토로 심고 있다는 것이다.</s>
+          <s><term type="concept">탈주</term>, 즉 중심으로부터의 벗어남이라는 주제는 <term type="movement">미래 파</term> 이전부터 친근한 것이었지만, 미래파와 친연적인 시들의 대부분에서 나타 나는 특징을 포괄적으로 표현하는 말로 새삼 이야기되고 있다.</s>
+        </p>
+        <p>
+          <s>그렇다면 <term type="concept">탈주</term> 는 작품에서 구체적으로 어떻게 나타나고 있는가.</s>
+          <s>개좆같은 <term type="concept">진보</term>, 개좆같은 <term type="concept">진보주의</term>미래라구?</s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>선언하리라 나를 파괴할 권리</l>
+              </lg>
+              <lg type="stanza">
+                <l>셀프 킬러, 킬링 필드, 올드 필드</l>
+              </lg>
+              <lg type="stanza">
+                <l>그곳에 옛날의 나</l>
+              </lg>
+              <lg type="stanza">
+                <l>오늘은오늘의 병든나</l>
+              </lg>
+              <lg type="stanza">
+                <l>태어날 때부터 지금까지 나에게 내리꽂히는 불꽃 예광탄처럼 빠져나가는 타액.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>정액, 림프액, 그리고 신선한 분비액</l>
+              </lg>
+              <lg type="stanza">
+                <l>한방울 남지 않았다</l>
+              </lg>
+              <lg type="stanza">
+                <l>내 몸의 크레바스, 빙하의 눈썹</l>
+              </lg>
+              <lg type="stanza">
+                <l>그순결한틈으로</l>
+              </lg>
+              <lg type="stanza">
+                <l>어둠이 빨려든다.</l>
+              </lg>
+            </quote>
+          </s>
+          <s><quote type="direct" genre="poet" source="악마를위하여"><lg type="stanza"><l>새로운 돌연변이가 태어나는 구멍</l></lg><lg type="stanza"><l>잡종이여 번성하라</l></lg></quote>-<persName ref="#p-x5">장석원</persName>,「<title level="a" type="poem" xml:id="t-x10">악마를위하여</title>」부분내 몸에서 돌연변이가 태어난다.</s>
+          <s>
+            <interp value="neutral" ana="미학">나는 질서와 기획을 허물어뜨리는 장이다.</interp>
+          </s>
+          <s>‘<quote type="direct" genre="poet">옛날의 나</quote>’ 와 ‘<quote type="direct" genre="poet">오늘의 병든 나</quote>’ 가 섞여, ‘<quote type="direct" genre="poet">빙하의 눈썹</quote>’ 과 ‘<quote type="direct" genre="poet">어둠</quote>’ 이 섞여 돌연 변이가 태어난다.</s>
+          <s>‘<term type="concept">새로운 돌연변이</term>’ 라는 코드, 이 세계의 구획의 틈에서 탄생 하는 <term type="concept">예외성</term>에 대한 숭배는 사실상 <term type="concept">소수자</term>의 세계에 대한 애착과 맥을 같이 하 는 것이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">소수자</term>는 지배적인 질서의 작동 기제에 속하지 않는 것처럼 보인 다.</s>
+          <s><term type="concept">소수자</term>들의 세계에 대한 <term type="movement">미래파</term>의 이 강렬한 관심은 어디서 유래한 것인 가.</s>
+          <s>이것이 전략적인 것이든 탐미적인 것이든, 크게 보아<term type="concept">탈중심화</term>라는 모더니 즘 이후의 사상적, 문화적 흐름의 한 부분이 되고 있다고 할 수 있을 것이다.</s>
+          <s><term type="concept">이분법</term>을 흔들고, 중심과 주변을 없애고, 가치 결정적인 구획을 제거하려는 해 체적인 현대적 사유의 일환인 것이다.</s>
+          <s>이 사유 안에서는 동질적인, 순종의 고 유성이 인정되지 않는 것으로 되어 있다.</s>
+          <s>주류라고 생각되는 질서와 본질의 역 사적 장악이 폭로되고 그 허약한 토대가 드러난다.</s>
+          <s>순수한 본연의 것은 존재하 지 않으며 가정된 것이다.</s>
+          <s>이러한 경계 해체적인 사유에서 순종이 아니라 거대한 ‘<term type="concept">잡종</term>’ 이 주목되는 것 은 당연한 일이 아닐까.</s>
+        </p>
+        <p>
+          <s><term type="concept">순종</term>은 절멸하는 것이며 <term type="concept">잡종</term>이 왕성해지는 것이 차라 리 순리에 가깝다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">모더니즘이 진보와 합리성이라는 단일성을 향한 운동으로 이해되는 한 이미 위력을 상실했고, 각종의 기형, 이종, 변종과 같은 잡종의 증 식에 의해 해체되고 있는 것이 현대의 상황이라고 할 수 있을 것이다.</interp>
+          </s>
+          <s>각종의 ‘<term type="concept">섞어 쓰기</term>' 에 몰두하고 있는 모습은 예술뿐만 아니라 곳곳에서 찾아볼 수 있 다.</s>
+          <s><term type="concept">잡종</term>은 이른바 현대 문명의 폭풍우와도 같은 것이다.</s>
+          <s>“<quote type="direct" genre="poet">잡종이여 번성하라</quote>’ 는 <persName ref="#p-x5">장석원</persName>의 외침은 <term type="concept">기원</term>GW이라기보다는 오히려 번성하고 있는 잡종에 대 한 봉사적 발언이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그러나 다음의 시는 선언이나 봉사로 환원되지 않는 역동 적 세계상을 보여주므로 주목할 만하다.</interp>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>곧 우리는</l>
+              </lg>
+              <lg type="stanza">
+                <l>폭발하겠지요 비산하겠지요</l>
+              </lg>
+              <lg type="stanza">
+                <l>냄비 속에서 분해와 융합이 랄랄라 부글거립니다 함께 모인 식구들은 판게아 같습니다 우리를 먹여살리는 아버지의 식사 식탁의 조직의 시스템의...</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>질서를</l>
+              </lg>
+              <lg type="stanza">
+                <l>먼지와 먼지의 질서와 곧 파괴될 우리의...</l>
+              </lg>
+            </quote>
+          </s>
+        </p>
+        <p>
+          <s>뒤를지우는 검은 구름을 철과 니켈의 출렁임을 전부 먹어 치웁니다 규칙과 체계와 균형 그리고 <term type="concept">질서</term>.</s>
+          <s>여러분의 <term type="concept">질서</term> 세계의 심연을 떠다니는 먼지의 질서의 가족의또한 백악기의 식욕 앞에서 아버지켁켁.</s>
+          <s>마비된 것처럼 켁켁, 페퍼 포그처럼멀어집니다 축소됩니다 탄맥이 사라집니다그러다 채굴될 것입니다 우리의 연료가 될 것입니다-<persName ref="#p-x5">장석원</persName>,「<title level="a" type="poem" xml:id="t-x11">식탁과 아버지의 지구과학</title>으 부분모두가 하나로 <term type="concept">판게아</term>였던 단일한 체계의 균열을 유도하는 것은 무엇인가.</s>
+          <s>그것은 우리의 <term type="concept">식욕</term>이다.</s>
+          <s>‘<quote type="direct" genre="poet" source="식탁과 아버지의 지구과학">우리를 먹여살리는 아버지의 식사</quote>3 란 우리가 먹어 치우는 아버지（의 식사）를 의미한다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">우리는 아버지의 조직과 시스템을 먹어 버림으로써 식탁을 붕괴시킨다.</interp>
+          </s>
+          <s>하지만 우리의 <term type="concept">식욕</term>은 여기서 끝나지 않는다.</s>
+          <s>우리는 대식가이다.</s>
+        </p>
+        <p>
+          <s>우리는 먹지 말아야 할 것, 바로 우리 존재의 근원까지 <term type="concept">탐 식</term>한다.</s>
+          <s>“<quote type="direct" genre="poet">우리의…뒤를/지우는 검은 구름을 철과 니켈의 출렁임을/전부 먹어 치우</quote>”는 것이다.</s>
+          <s>우리의 그림자, 심연까지 먹어 치우는 이 눈 먼 <term type="concept">포식</term>은 방향 도, 정지도 없다.</s>
+          <s>끝없는움직임일 뿐이다.</s>
+          <s>우리 스스로도 이 <term type="concept">포식</term>에 의해 파괴 된다.</s>
+          <s>이 <term type="concept">잡식성</term>의 정체는 무엇인가.</s>
+          <s>모든 것을 먹어 치워 버리는 이 정체불명의 <term type="concept">식욕</term>은 우리를 파괴시키고 우리 를 벗어난다.</s>
+          <s>우리에 한정되지 않는 것이다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet">세계의 심연을 떠다니는/먼지의 질서의 가족의/또한 백악기의 식욕</quote>”이 된다.</s>
+          <s>세계의 심연 속을 떠다니는 이 식 욕은 그야말로 살아 있는 파괴성이다.</s>
+          <s>파괴는 주체를 넘어선다.</s>
+          <s>새로운 주체로 의 주체의 대체라는, 이전과 비슷한 공식을 제출하지 않는다.</s>
+          <s>주체들끼리의 주 고받기가 아닌 것이다.</s>
+          <s>주체의 교체는 탈주라고도 할 수 없을 테니까.</s>
+          <s>장석원 의 시는 질서와 무질서를 넘어서는 무형의 포식자가 우리에게 스며들고 있는 것을 보여준다.</s>
+          <s>만약에 앞에서 이야기되었던 미래파의 ‘<quote type="direct" genre="poet">비주체</quote>’ 가 있다고 한다 면 바로 이런 것이 아닐까.</s>
+        </p>
+        <p>
+          <s>（단 여기서 <persName ref="#p-x5">장석원</persName>의 <term type="concept">괴물</term>은 발화하지 않음으로써, <term type="concept">주체</term>가 되는 함정을 회피하고 있다는 점도 지적해야 한다.）아버지를 파괴시키는 것은 아버지와 대척적인 특정한 새로운 주체가 아니라 바로 이 알수 없는 어떤 힘이다.</s>
+          <s>이 알수 없는 힘, 이 <term type="concept">괴물</term>은 어디에서 온이형 일까.</s>
+          <s>어떻게 우리까지 파괴하면서 우리 자신과 공생을 이루는 젓일까.</s>
+          <s>이것을 탐구해 들어가는 것이 의미 있는 일일 것이다.</s>
+          <s>바로 <term type="concept">탈주</term>를 진정한 탈주로 이 행시키는 과정이기 때문이다.</s>
+          <s><term type="concept">잡종</term>은 물론 현대적 <term type="concept">탈주</term>의 전형이다.</s>
+          <s>체계화되지 않으며 정체를 불문하는 것이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">하지만 기성의 분류 체계에 대한 미래파의 거부와 탈주의 시학에서 보이는 혼종성에 대한 숭배는 역설적으로 현대의 주류 담론의 흐름에 자신을 편 입시켜 버리고 말았다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><term type="concept">탈주</term>는 그 자체로 동시대의 슬로건과 극히 부합하는 것 이었다.</s>
+          <s><term type="concept">탈주</term>가 지배적 담론에 속하지 않으려면 어떻게 해야 할까.</s>
+          <s>일차적인 과제는 지배적 담론의 화두로부터 벗어나는 데 있지 않을까.</s>
+          <s><term type="concept">탈주</term>의 일차성을 넘어서 탈주를 탈주하는 데까지 나아가야 한다.</s>
+          <s><term type="concept">탈주</term>에 매달리지 않아야 한다.</s>
+          <s>그러기 위해서는 교체나 변형, 단순한 이탈이 아니라 새로운 요소, 새로운 힘 을 발견해야 한다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">벗어나는 것이 아니라 판을 쓸어버리는 불명의 침입자, 이 괴물을 포착해야 한다.</interp>
+          </s>
+          <s><persName ref="#p-x5">장석원</persName>이 감지했듯 식탁을 떠돌고 있는 이 낯선 힘 말 이다.</s>
+        </p>
+        <p>
+          <s>많은 사람들의 생각과는 달리 시는 근본적으로 시대와 밀착되어 있다.</s>
+          <s>단 그 밀착의 본질이 시대적 사유를 의심하는 데 있을 뿐이다.</s>
+          <s>따라서 시는 <term type="concept">가족의 극복이나 탈주</term>와 같은 <term type="concept">시대적 담론</term>, 표지（標識）에 휘둘리기보다는 이를 의심해 야 한다.</s>
+          <s>시는 <term type="concept">암흑</term>을 품는 것이다.</s>
+          <s>그 <term type="concept">암흑</term>이 무엇으로 불리는지의 논쟁예 치 우치지 않고 새로운 암혹을 걸어가는 것이다.</s>
+          <s>이것이 괴물과 만나는 길이다.</s>
+          <s>시는 불빛이 없는 쪽으로 서성거려야 한다.</s>
+          <s>이미 불 밝혀진 곳으로 이동한 뒤 늦은 징후가 되지 않기 위해서 <term type="movement">미래파</term>는 <term type="concept">암흑</term> 쪽에서 암흑을 몰고 올 수 있어 야 한다.</s>
+        </p>
+        <p>
+          <s>우리가 경외하는 것은 암흑 쪽에 있을 것이기 때문이다.</s>
+          <s>이 수 명 I <date when="1965">1965년</date> 서울 출생.</s>
+          <s>19여년 호작가세계丄 둥단, 시집r<title level="m" type="poem" xml:id="t-x12">새로운오독이 거리를 메웠다</title>广<title level="m" type="poem" xml:id="t-x13">왜가리 는 왜가리 놀이를 한다</title>Z<title level="m" type="poem" xml:id="t-x14">붉은 담장의 커브</title>？’<title level="m" type="poem" xml:id="t-x15">고양이 비디오를 보는 고양이</title>j.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>다시 묻는다-2000년대 시의 정치적 전위성에 대해</title>
+        <author>고명철</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>1.</s>
+          <s><term type="concept">촛불의 향연</term>과 한국 시의 정치적 전위성 지난 5월부터 타오르는 촛불의 향연은 <term type="concept">다중(多衆)</term>의 둔감한 <term type="concept">정치적 감각</term>을 예각적으로 다듬게할 뿐만 아니라 매우 높은 차원의 정치적 감각을 부여하고 있다.</s>
+          <s>금세 꺼질 듯하지만, 언제 그랬냐는 듯, 다시 빠알간 불꽃의 싹을 틔워 내는 그 소생의 힘으로부터‘<term type="concept">정치적 정의(正意)</term>’를 향한 욕망이 솟구치도록한다.</s>
+          <s>왜냐하면 이러한 불꽃의 싹들이 모여 발산하는 빛의 무리는 뒤틀린 근대의 어두움을 소멸시키기 때문이다.</s>
+          <s>나는 이토록 아름다운 <term type="concept">촛불의 향연</term>을 목도하며,‘<term type="concept">정치적 정의</term>’를 향해 타오르는 촛불로부터 시의 <term type="concept">정치적 전위</term>에 대한 상념에 빠지곤한다.</s>
+          <s>한국 시가 새롭게 획득해야할 <term type="concept">정치적 전위</term>는 무엇일까.</s>
+          <s>어디에서부터 <persName role="critic" xml:id="p-x">고명 철</persName>[기획 특집 |각론]한국 시의 새로운 <term type="concept">정치적 전위성</term>을 발견해야할까.</s>
+          <s>쉼 없이 타오르는 촛불의 저 강인한 소생의 힘으로부터 한국 시의 <term type="concept">정치적 전위</term>에 대한 어떤 성찰의 계기를 부여 받을 수 있을까.</s>
+        </p>
+        <p>
+          <s><term type="concept">다중</term>과 괴리되지 않은 채 다중의 삶과 연동되면서‘<term type="concept">정치적 정의</term>’를 향한 의지와 욕망을 새롭게 확보할 수는 없을까.</s>
+          <s>누가 누구를 일방통행식으로 가르치려는 <term type="concept">계몽</term>에 기대지 않고, 서로의 눈높이에 맞게 정치적 입장을 소통하는 과정 속에서 부정한 근대의 정치성을 추방시키는 데 뜻을 함께 모으는 <term type="concept">집단 지성</term>의 창발적 힘을 행사할 수는 없을까.</s>
+          <s>
+            <interp value="neutral" ana="사회">이번 촛불 집회는 한국 사회의 진전을 위해서 여러 성찰의 지점들을 제공하는 만큼 그동안 잠시 주춤거렸던 한국 시의 정치적 전위와 관련한 문제를 숙고하도록한다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">무엇보다 촛불 집회를 통해 다양하게 표출된 다중의 정치적 입장들과 그것을 표현해 내고 있는 언술과 행위는, 이른바 미적 정치성을 훌륭히 보증해 내고 있다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="사회">위정자와 조중동 거대 언론 권력의 거칠고 투박한 관변 언어를 신랄히 조롱하고 풍자하면서 그 위선과 위악을 과감히 해체해 내는 다중의 언 술과 행위야말로 한국 시가 매우 소중히 껴안아야할 정치적 전위성인 셈이다.</interp>
+          </s>
+          <s>
+            <interp value="neutral" ana="사회">관변 언어가 아직도 낡고 구태의연한 분단 이데올로기에 바탕을 둔 위압과 계몽의 언어임에 반해, 다중이 자유자재로 구사하는 촛불의 언어는 경계를 활달히 넘나드는 웹 2.0 세대의(탈)근대의 언어적 미감에 의해 서로 유희를 공명(共鳴)하는 소통과 연대의 속성을 띠고 있다는 것을 간과해서 곤란하다.</interp>
+          </s>
+          <s>여기서 중요한 점은, 이 촛불의 언어를 구사하는 <term type="concept">다중</term>은 뿔뿔이 흩어져 있는 것처럼 보이지만, 촛불 집회에서 확연히 목도한 것처럼 개인 블로그에서 언제든지 광장으로 뛰쳐나와, 강렬한 정치적 욕망과 의지를 결집시킬 수 있는 <term type="concept">정치적 전위</term>의 역할을 다할 수 있다는 점이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">언제부터인지, 쇠약해진 한국 시의 정치적 전위성은 바로 이와 같은 점을 숙고해야할 것이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>기획 특집 |<persName ref="#p-x">고명 철</persName> 4140 |2.</s>
+          <s>삶의 바닥을 치는 패배의 힘한 국시의 무딘 <term type="concept">정치적 전위성</term>을 예각적으로 벼리기 위해서는 맞서야할 대상과 맞서는 지점이 분명해야한다.</s>
+          <s>어디에서 무엇과 맞서야할 것인가를 분명히 해 두지 않은 채 막연히 <term type="concept">정치적 전위성</term>을 갖기를 희망하는 것처럼 우스운 일도 없을 터이다.</s>
+          <s>가령, 다음과 같은 삶의 신산스러운 풍경들을 주목해 보자.</s>
+          <s><quote type="direct" genre="poet" source="임 성용, 저녁 무렵">가리 봉 2 동 어린이집/ 골목길, 빵집 앞/ 아이들이 뛰어놀다/ 한 어린애가 넘어졌다/ 화물차 한 대가 무심코/ 넘어진 어린애를 타 넘고 지나갔다/ 운전사는 애를 못 보았다고 말할 뿐/ 아무런 비명도 없었다/ 그 애의 부모는 일 나가서/ 아직 돌아오지 않았다고, 했다/ 사람들을 대신해서 구급차가 울었다/ 피 냄새가 났다/ 다시, 빵 굽는 냄새가 났다/ 며칠 뒤에 비가 오고/ 아무 일 없이 아이들이 뛰놀았다/ 그 자리, 그 흔적 위에/ 다시 한 아이가 넘어졌다/ 자동차 경적이 울렸다/ 이 동네에선 아주 흔한 일이라고/ 누군가 담배를 피우며 지나갔다/ 골목길, 와와,/ 웃음소리 들리는 저녁 무렵/ 아이들은 저마다 한두 뼘씩 자라났 ᆻ다/ 바라기풀 꽃씨가 바람에 날렸다</quote> —<persName role="poet" xml:id="p-x2">임 성용</persName>,「저녁 무렵」전문 셋방 부엌 창 열고/ 샷시 문 때리는 빗소리 듣다/ 아욱, 아욱 국이 먹고 싶어/ 슈퍼 집 외상 장부 위에/ 또 하루치의 일기를 쓴다/ 오늘은 오백 원 어치의 아욱과/ 천 원 어치 갱 조개/ 매운 매운 삼백 원어치의 마늘 맛었다고/ 쓴다.</s>
+          <s>서러운 날이면/ 혼자라도 한 솥 가득 밥을 짓고/ 외로운 날이면 꾹꾹 누른/ 한 양푼의 돼지고기를 볶는다고 쓴다/ 시다덕기가신라면두개라고써둔/ 뒷장에 쓰고, 바름이 아빠/ 소주 한 병에 참치 캔 하나라고 쓴/ 앞 장에 쓴다/ 민주주의여 만세라고는 쓰지 못하고/ 해방 평등이라고는 쓰지 못하고/ 피골이 상접한 하루살이 날파리가 말라 붙어 있는/ 슈퍼 집 외상 장부 위에/ 쓰린 가슴 위에/ 쓰고 또 쓴다/ 눈물 국에 아욱 향/ 갱조개에파뿌리/ 씀벅나간손끝/ 배어나 온 따뜻한 피 위에/ 꾸물꾸물/ 쓰고또쓴다 —<persName role="poet" xml:id="p-x3">송경동</persName>,「<title level="a" type="poem" xml:id="t-x">외상 일기</title>」전문가 리 봉 2 동 골목길은 빵 냄새와 피 냄새가 공존하는 참으로 희한한 공간이다.</s>
+          <s>부모가 일터에 나간 사이 애들은 골목길에서 뛰어놀다 끔찍한 교통사고를 당하기 십상이다.</s>
+          <s>얼마나 이러한 일들이 비일비재한지 동네 사람들은 교통사고로 인한 애들의 죽음을 대수롭지 않은 골목길의 한 풍경으로 받아들일 뿐이다.</s>
+        </p>
+        <p>
+          <s>골목길은 그렇게 부모의 따뜻한 보살핌을 받지 못하는 애들의 <term type="concept">죽음</term>과 그 죽음의 흔적 위로 덧보태지는 또 다른 죽음의 사위 속에서 애들을 키워 내고 있다.</s>
+          <s>하여, 골목길 사람들은 좀처럼 끊을 수 없는 <term type="concept">가난</term>의 사슬에 묶인 채 골목길의 이 끔찍한 풍경에 익숙해지면서,“<quote type="direct" genre="poet">슈퍼 집 외상 장부 위에</quote>”“<quote type="direct" genre="poet">민주주의여 만세라고는 쓰지 못하고/ 해방 평등이라고는 쓰지 못하고</quote>”하루하루의 생목숨을 연명해 나가기 위한 최소한의 끼니 거리들을 적을 따름이다.</s>
+          <s>사실, <term type="concept">가난</term>에 익숙해지는 게 유별난 일은 아니다.</s>
+          <s>새 천 년이 되었다고, 온갖 장밋빛 미래를 나열하지만, 어찌 된 일인지 <term type="concept">사회적 양극화</term>는 더 욱 가속화되고 있으며,“<quote type="direct" genre="poet">네 식구가 열 일곱 평 낡은 아파트에서/ 뒹굴며 사는 일이</quote>”“<quote type="direct" genre="poet" source="화장실 앞에서 밥을 먹다">간신히 세상의 끄트머리에 매달려 사는 동안/ 내 안에 쌓인 게 아무것도 없다는 게/ 얼마나 경이로운 일</quote>”(<persName role="poet" xml:id="p-x4">황 규 관</persName>의「<title level="a" type="poem" xml:id="t-x2">화장실 앞에서 밥을 먹다</title>」)인지를 깨닫는 것은 자연스럽다.</s>
+          <s>이제 <term type="concept">가난</term>에 익숙해진 자들은 너무나 잘 알고 있다.</s>
+          <s>제아무리 <term type="concept">자본주의</term> 사회의 구조 악과 행 태 악을 극복하려고하지만, 이를 위해서는 관념적인 인식과 생경한 구호를 주창하는 구두선(口頭禪)에 머물러서 안 되고, 예의 악을 견디는 힘을 갖추고, 궁극적으로 <interp value="affirmative" ana="사상">자본주의 사회의 바깥을 상상하는 특유의 활달한 윤리 미를 지녀야하는 것을</interp>.</s>
+          <s>기획 특집 |고명 철 4342 |하지만, 이것은 말처럼 쉬운 일은 결코 아니다.</s>
+          <s>자본주의 사회의 바깥을 상상하기 위해서는‘지금, 이곳’에서 직면하고 있는 신산한 현실을 외면하지 않고 똑바로 응시하는 맞섬의 태도가 절실히 요구된다.</s>
+        </p>
+        <p>
+          <s>더 일하게해 달라는 절규 자체가 비극이다/ 우리는 강둑을 달리던 웃음을 잃고/ 흰 구름을 보면 맑아지던 영혼도 빼앗기고/ 그렇지, 가난했던 외등 아래의 설렘도/ 어쩔 수 없이 그 자리에 놔두고 떠나왔다/ 돌아갈 길은 아득이 지워졌는데/ 더 일하면 모든 게 되돌려질 것처럼 내내 믿어 왔는데/ 이제는 밥만 먹게해 달라고 울어야한다/ 초침처럼 빠르게 계산을 하겠다고/ 화장실 변기를 반짝반짝 닦겠다고/ 외주 용역은 안 된다,/ 찬 바닥에 드러누워야한다/ 내 몸을 구석구석 착취해 달라는 절규 자체가/ 너무 지독한 치욕인데/ 치욕에 대한 예의도 모르는 자들에게/ 무엇보다,/ 우리가 먹는 밥이 뜨거운 까닭이/ 자신들의 착취 때문임을 죽어도 알 수 없는 자들에게/ 더 일하게해 달라며 검게 타 버린 영혼을/ 남김없이 보여 줘야하다니!</s>
+          <s>—황 규 관,「비창」부분 일할 능력이 있음에도 불구하고, 고용주들은 노동의 유연성이란 신자유주의 경제 질서의 명분 아래 비정규직 직원들을 가차 없이 해고한다.</s>
+          <s>비정규직 직원들에게 남은 것은 배신과 절망투성이다.</s>
+          <s>묵묵히 열심히 일만 하면, 그들은 낮은 임금을 받고 있을지언정 그들의 일터에서 해고되지 않을 것이라고 믿어 왔지만, 그들의 순진한 희망은 신자유주의 질서의 위압 아래 비극으로 귀결되고 있다.</s>
+          <s>그렇다면, 노동자들 사이에 또 다른 차별적 모순을 껴안고 있는 비정규직 노동자들의“<quote type="direct" genre="poet">너무 지독한 치욕</quote>”에 대한 시적 응시야말로‘<quote type="direct" genre="poet">지금, 이곳</quote>’에서 주목해야할 시적 정치성의 과제라 해도 과언이 아니다.</s>
+          <s>비정규직 노동자들이 놓여 있는 현실이야말로 형식적 민주주의가 정착하는 과정 속에서 외면했거나 망 실했던 노동의 새로운 문제들이 복잡하게 뒤엉켜 있는 지점이다.</s>
+          <s>여기에는 일국적 자본주의의 문제로만 풀 수 없는 전 지구적 자본주의 체제 아래 노동(력)의 배치 문제를 숙고해 보아야한다.</s>
+          <s>그럴 때“<quote type="direct" genre="poet">저것은 본래/ 우리들의 것/ 비정규직 철폐/ 신자유주의 분쇄 연대 전선으로/ 저들을 고립하라 포위하라/ 인간의 대지에서/ 영원히 저들을 격리하라</quote>”(송경동의「왜?」)와 같은 절규는 사회적 설득력을 확보할 수 있을 것이다.</s>
+        </p>
+        <p>
+          <s>그런데 이와 같은 <term type="concept">노동</term>의 제반 문제를 목도하며 간과해서 안 될 것은, <term type="concept">노동자들</term>이 갖는 특유의 삶의 낙천성으로 현실의 고통을 이겨 내고 있다는 점이다.</s>
+          <s>가령, 다음과 같은 일련의 시편들을 가만히 음미해 보자.</s>
+          <s><quote type="direct" genre="poet" source="아름다운 것들이란">일렬로 늘어서서 출하를 기다리는 제품들 참 아름다워라/ 긴 어둠과 바람과 추위를 견딘 다음에야 세상에 선을 뵈는 봄꽃의 자태처럼/ 아름다운 것들이란 얼마나 가슴 미어지게 만드는가/ 맑은 햇살 아래 일렬로 늘어서서 출하를 기다리는 저 제품들도 누군가의 땀과 눈물과 한숨을 봄꽃처럼 제 가슴 속 깊이 간직하고 있는지도 모른다</quote> —<persName role="poet" xml:id="p-x5">표성배</persName>,「아름다운 것들이란」전문 <quote type="direct" genre="poet" source="하늘 공장">저 맑은 하늘에 공장 하나 세워야겠다/ 따뜻한 밥솥처럼 해가 뜨고 해가 지는 곳/ 무럭무럭 아이들이 자라고 웃음 방울 영그는 곳/ 그곳에서 연기 나는 굴뚝도 없애고 철탑도 없애고/ 손과 발을 잡아먹는 기계 옆에 순한 양을 놓아 먹이고/(중략)/ 내일이라도 당장 하늘 공장으로 출근을 해야겠다/ 큰 공장 작은 공장 모두 하나의 문으로 통하는/ 하늘 공장에 가서, 저 푸르른 하늘 공장에 가서/ 부러진 손과 발을 쓰다듬고 즐겁게 일해야겠다/ 땀내 나는 향기를 칠하고 하늘 공장에서 퇴근하는 길/ 지상에 놓인 집 한 채가 어찌 멀다고 이르랴</quote> —임 성용,「하늘 공장」부분 기획 특집 |고명 철 4544 |<quote type="direct" genre="poet" source="패배는 나의 힘">어제는 내가 졌다/ 그러나 언제쯤 굴욕을 버릴 것인가/ 지고 난 다음 허름해진 어깨 위로/ 바람이 불고, 더 깊은 곳/ 언어가 닿지 않는 심연을 보았다/ 오늘도 나는 졌다/(중략)/ 해야할 일이 있다면 다시 싸움을 맞는 일/ 이게 승리나 패배보다 먼저 아닌가/ 거기서 끝까지 싸워야/ 눈빛이 텅 빈 침묵이 되어야/ 어떤 싸움도 치를 수 있는 것/ 끝내 패배한 자여,/ 패배가 웃음이다/ 그치지 않고 부는 바람이다</quote> —황 규 관,「<title level="a" type="poem" xml:id="t-x3">패배는 나의 힘</title>」부분 <interp value="neutral" ana="사회">노동자들은 삶의 터전인 공장 자체를 부정하지 않는다.</interp></s>
+          <s>비록 아직도 <term type="concept">노동</term> 환경은 열악하고 <term type="concept">노동자들</term>의 복지 수준은 만족할 만큼 향상되지 않았지만, 노동자들은 그들이 일하는 공장에서 생산되는 제품들로부터 아름다움을 느낀다.</s>
+          <s>공장은 그들에게 증오와 <term type="concept">분노</term>의 대상으로만 인식되지 않는다.</s>
+          <s>공장은 그들의 피와 땀이 스며든 아름다움의 가치를 생산해 내는 미적 보고(寶庫)로 전도된다.</s>
+          <s>하여, 공장에서 일하는 그들은 제품을 단순히 만들어 내는 일꾼이 아니라 <term type="concept">노동</term>의 가치가 얼마나 아름다운 가치로 전환될 수 있는지를 보증해 내는 미(美)의 전수자 역할을 맡는다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">실로 파격적인 변전이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><term type="concept">노동자들</term>은 생산 관계 속에서 생산을 담당하는 역할만을 맡는 게 아니라 <term type="concept">아름다움</term>의 가치를 생성해 내는 <term type="concept">예술가</term>로서의 또 다른 신성한 책무를 수행하고 있는 셈이다.</s>
+          <s>따라서 <term type="concept">노동자들</term>에게 공장은 고통스러운 노동의 현실이 자 <term type="concept">미적 가치</term>를 잉태하는 창조의 공간이다.</s>
+          <s>그들은 이러한 공장에서 일할 것을 꿈꾼다.</s>
+          <s><term type="concept">노동</term>의 싱그러움과 아름다움을 만끽할 수 있는 공장에서, 삶을 향한 욕망이 솟구치기를 희망한다.</s>
+          <s>삶의 온갖 굴욕감과 패배감을 떨쳐 내고, 삶의 바닥을 치는 자가 길어 올린 저 도저한‘<term type="concept">패배의 힘</term>’을 전유하기를 간절히 기원한다.</s>
+          <s>그럴 때‘<quote type="direct" genre="poet">지금, 이곳</quote>’의 <term type="concept">노동자들</term>은 새로운 <term type="concept">정치적 전위성</term>을 갖고, 그들의“<quote type="direct" genre="poet" source="황규관의 쇳소리">이 비루함을 더 큰 비루함으로 완성하는</quote>”(<persName ref="#p-x4">황 규 관</persName>의「<title level="a" type="poem" xml:id="t-x4">쇳소리</title>」)노동의 지극한 지경(地境)에 이를 것이다.</s>
+          <s>그 과정에서 그들은“<quote type="direct" genre="poet" source="송경동의 참꼬막">수십억 톤 물이 내리누른다 해도/ 깨지지 않는 부드러운 자신을 열기 위해/ 입앙다무고 꿈꾸는 말들</quote>”(<persName ref="#p-x3">송경동</persName>의「<title level="a" type="poem" xml:id="t-x5">참꼬막</title>」)을 통해“<quote type="direct" genre="poet" source="조영관의 고향의 달">미워하지 않고/ 사람들의 더운 욕망까지 다 사랑할 수 있는/ 법을 가르쳐 주소서/ 내 마음의 칼을 용서하게 하소서/ 아픈 노동으로 옹이가 박힌 손목으로도/ 휘어잡지 못하는 저 야만을 누르는/ 날개를 주소서</quote>”(<persName role="poet" xml:id="p-x6">조영관</persName>의「<title level="a" type="poem" xml:id="t-x6">고향의 달</title>」)와 같은 간구(懇求)의 진정성을 획득한다.3.</s>
+          <s>다문화 공동체의 평화적 가치를 추구하는 전 지구적 <term type="concept">자본주의</term>의 위력 속에서 최근 주목되는 사회 현상은 <term type="concept">외국인 노동자들</term>과 관련한 문제들이다.</s>
+        </p>
+        <p>
+          <s>그들은 한국의 <term type="concept">노동자들</term>보다 훨씬 열악한 <term type="concept">노동 환경</term>과 조건을 감내하는, 이른바 <term type="concept">3D 업종</term>에서 경제 활동을 하고 있는 바, 이제 어엿한 한국 사회의 구성원으로서 그 사회적 지위를 보장해 주는 게 마땅하다.</s>
+          <s>그들을 더 이상 한국 사회의 <term type="concept">타자</term>로서 관리· 감시해야할 배타적 존재로서 인식하는 것은 곤란하다.</s>
+          <s><persName role="poet" xml:id="p-x7">하 종 오</persName> 시인은 <term type="concept">외국인 노동자</term>(더 나아가 <title level="m" type="poem" xml:id="t-x7">아시아계 한국인들</title>)의 삶에 대해 천착한 두 권의 시집(『<title level="m" type="poem" xml:id="t-x8">국경 없는 공장</title>』과『아시아계 한국인들』)을 상 재한 바, 한국 사회가 더는 묵과해서는 안 될 사안들을 <term type="concept">시의 정치적 전위</term>의 과제로 부각시킨다(이하 본문에서 인용되는 하 종 오의 시는 이 두 권의 시집에 수록된 시들이다).</s>
+          <s><quote type="direct" genre="poet" source="성형">시골집 에 아내와 딸 놔두고/ 산업 연수생으로 들어온/ 젊은 미얀마 리즈/ 도색 공장에서 작업하다/ 얼굴에 화상 입어/ 몇 달 만에 붕대 풀었다/ 거울 보고 소스라치다가/ 주저앉아 멀뚱거리다가/ 소리 없이 눈물 흘리는/ 젊은 미얀마 리즈/ 눈썹이 사라지고/ 귀가 뭉개지고/ 표정이 다 벗겨져 버려서/ 딸이 알아보지 기획 특집 |고명 철 4746 |못하고/ 아내가 알아보지 못할 테니/ 돌아갈 수 없다고 소리쳤다/ 갸름했던 눈시울과 미끈했던 콧등과/ 도톰했던 입술/ 돌려 달라며 날뛰다가 까무러치는/ 스물일곱 살 미얀마 리즈/ 이렇게 자신이 돌아가면/ 마당에서 기르는 개도 몰라본다고/ 마을에서 자라는 티크 나무도 몰라본다고/ 산재 보험금과 보상금 받아 들고/ 의사 선생님에게 고쳐 달라고/ 아내와 딸이 좋아하는 미소만이라도 살려 달라고</quote> —「<title level="a" type="poem" xml:id="t-x9">성형</title>」전문“산업 연수생으로 들어온/ 젊은 미얀마 리즈”는“도색 공장에서 작업하다/ 얼굴에 화상”을 입는다.</s>
+          <s>타지에서 큰 상해를 입은 것도 비극인데, 더 큰 비극이 미얀마 리즈를 엄습한다.</s>
+          <s>화상으로 인해 예전의 얼굴 표정을 갖고 있지 않아 젊은 미얀마 리즈는 큰 슬픔에 잠긴다.</s>
+          <s>그가 한국의 <term type="concept">산업 연수생</term>으로 온 이유는 기술을 익히고 돈을 벌어 고향의 가족들에게 행복을 안겨 주기 위해서다.</s>
+          <s>그런데, 이제 행복은커녕 도리어 그에게는 불행이 찾아든 셈이다.</s>
+        </p>
+        <p>
+          <s>화상 때문에 일그러진 얼굴 상태로 고향에 돌아갈 수 없다.</s>
+          <s>고향 마을에 있는 모든 것들이 화상 입은 그를 <term type="concept">소외</term>시킬 것이고, 이물스러운 존재로 간주할 게 뻔한 이상, 그의 절실한 바람은 화상 이전의 얼굴 상태로 되돌리는 것이다.</s>
+          <s>이처럼 젊은 <term type="concept">미얀마</term> 리즈가 겪는 <term type="concept">실존적 고통</term>은 한국을 찾은 <term type="concept">외국인 노동자</term>들에게 언제 찾아올지 모르는 불청객과 같다.</s>
+          <s>가령,“<quote type="direct" genre="poet" source="실명">새벽 퇴근길에 뺑소니 차에 치여/ 구급차에 실려 와 수술받았으나/ 끝내 한쪽 눈 실명한/ 젊은 스리랑칸</quote>”(「실명」),“<quote type="direct" genre="poet" source="귀환">각목에 박힌 못에 발바닥 찔리고도/ 불법 체 류자라서 내버려 두었다가/ 파상풍에 걸려서 죽기 전에/ 외국인 노동자 병원 찾아</quote>”온“<quote type="direct" genre="poet" source="귀환">가구 공장에서 일한 우즈베키스탄 청년</quote>”(「<title level="a" type="poem" xml:id="t-x10">귀환</title>」),“<quote type="direct" genre="poet" source="손발가락">양손 엄지만 빼놓고 몽땅 사출기에 잘려서/ 손 전혀 쓰지 못하는 파 키 스타니</quote>”(「<title level="a" type="poem" xml:id="t-x11">손발가락</title>」), 난생 처음으로 만난 겨울 <title level="a" type="poem" xml:id="t-x12">빙판 길</title>에서 혹시“<quote type="direct" genre="poet" source="빙판 길">미끄러져 팔 다리 부러지고/ 머리 다친 환자 되면/ 봉급 못 받고 잘릴지도 모르는/ 출국해야할지도 모르는/ 동남아시아인들</quote>”(「빙판 길」)은 한국에서의 하루하루가 살얼음판을 딛는 삶과 다름이 없는 셈이다.</s>
+          <s>어떻게 보면, 한국 사회에서 <term type="concept">외국인 노동자</term>들은 지난 시절 한국의 노동자들이 겪는 노동자로서의 <term type="concept">고통</term>을 고스란히 답습하고 있는지 모른다.</s>
+          <s>한국의 <term type="concept">노동</term> 현실이 현저하게 달라졌다고 하지만, 여전히 앙금처럼 가라앉아 있는 제반 문제들이 존재하고 있는 것을 고려해 보건대, <term type="concept">외국인 노동자</term>들을 둘러싸고 있는 노동의 온갖 문제들은 한국의 그 것들과 함께 연동된 것들로, 이 문제들을 해결하는 것은 그리 녹록한 일이 아니다.</s>
+          <s>게다가 한국 사회의 내부에 작동되고 있는 정치 경제적 <term type="concept">식민</term>의 내적 논리를 간과할 수 없다.</s>
+          <s>
+            <interp value="critical" ana="사회">한국보다 정치 경제적으로 열등하다고 판단되는 아시아의 이웃 나라들에 대한 편견은 우리도 모르는 새 아 제국주의(亞帝國主義)의 모양새를 취하고 있는 것이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>정치적으로 <term type="concept">민주화</term>를 향한 값비싼 희생의 대가를 치르면서 한국은 아시아의 국민 국가들 중 민주화를 토착화시킨 자부심을 지니고 있고, 그 과정에서 비약적으로 성장한 국민 경제는 개발도상국의 지위를 벗어나 선진국의 위상을 갖게 됨으로써 은연중 아시아의 문명을 선도한다는 인식을 갖게 되었다.</s>
+          <s>하지만 <term type="concept">신자유주의</term>의 <term type="concept">노동 시장의 유연화</term> 정책에 따라 값싼 아시아 노동력이 한국 노동 시장으로 유입되면서 일어나는 노동의 다양한 문제들에 대해 한국 사회는 효과적인 대응을 하지 못하는 문제점을 낳고 있다.</s>
+          <s>다시 말해 이미 아시아를 비롯 한 전 세계의 <term type="concept">노동 시장</term>은 <term type="concept">노동의 유연화</term>에 따라 국경을 넘어 노동 시장의 질서가 재편되고 있는데, 한국 사회는 이러한 급변화에 걸맞는 사회적 성찰에 대단히 둔감하다.</s>
+          <s>이미 한국 사회 구성원의 상당수가 <term type="concept">아시아계 한국인들</term>로 이루어지고 있는 현실인데도 불구하고 이 문제에 대한 사회적 대화가 미비하기 그지없다.</s>
+          <s>아직도 한국 사회는‘<term type="concept">단일 민족</term>’의 신화가 지배적인 데다가, 남과 북으로 나뉜 <term type="concept">분단 체제</term> 아래 온전한 민족 국가를 이루지 못한 과제를 숙명처럼 안고 있는 만큼 아 시 기획 특집 |고명 철 4948 |아계 한국인들이 부딪치고 있는 <term type="concept">민족적· 인종적 차별</term>은 한국 사회가 해결해야할 인류적 문제라 해도 과언이 아니다.</s>
+          <s>하여, <interp value="affirmative" ana="문학관">한국 시가 새롭게 주목해야할 시의 정치적 전위성은 아시아계 한국인들의 구체적 삶의 현실에서 궁리되어야할 것이다.</interp></s>
+          <s><quote type="direct" genre="poet" source="코시안 리 44">조선족 여자는 손목시계를 보았다/ 한국에선 날마다 점심을 굶었다는 걸/ 공항에 도착해서 새삼 알았다/ 한국에 다신 오고 싶지 않았다/ 농촌 시집살이 일 년/ 어패럴 공장 생활 사 년/ 조선족 여자는 집으로 돌아가서/ 옷 가게를 차릴 만큼 착실히 모은 돈을/ 달러로 환전하여 미리 부쳐 놓았다/ 오늘만 한 국에서 한 끼를 거르고/ 내일부터 집에선 세 끼를 챙겨 먹겠다고/ 아랫입술을 지그시 깨물었다/ 시집 살 적엔 밭일 느리다고 점심 못 얻어먹었고/ 공장 다닐 적엔 식대가 아까워서 점심 못 사 먹었다/ 반 십 년 동안 아침 밥과 저녁 밥만 먹고/ 밤낮으로 일한 조선족 여자는 이제 반 날 걸려/ 집에 도착하면 실컷 잠잘 생각 하며/ 사증 심사 관 앞으로 걸어가 서서/ 두 손으로 공손하게 여권과 티켓을 내미는/ 순간, 시집살이도 공장 생활도 잊히었다</quote> —「<title level="a" type="poem" xml:id="t-44">코시안 리 44</title>」전문 한국으로 시집온 조선족 여자가 그 동안 한국에서 어떠한 생활을 하였는지를 짐작할 수 있다.</s>
+          <s>그녀는 농촌에서 시집살이를 하다가, 시집을 떠나 공장 생활을 하였고, 공장 생활 ᆯ에서 번 돈을 모아 고향으로 송금하여, 이제 한국을 떠나는 순간이다.</s>
+        </p>
+        <p>
+          <s>그녀가 한국으로 시집온 이유는 농촌에서 농사를 짓고 싶은 게 아니라, 한국에서 돈을 벌고 싶기 때문이다.</s>
+          <s>그녀에게 한국은 가난을 벗어나 물질적으로 충족된 삶을 보장하기 위한 <term type="concept">신천지</term>인 셈이다.</s>
+          <s>
+            <interp value="neutral" ana="사회">사실, 그녀의 이러한 욕망을 타락한 것으로 일축할 수만은 없다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="사회">조선족 여자가 코리안 드림을 이루려고하는 그 절실함 자체를 매도할 수 없는 일이다.</interp>
+          </s>
+          <s>다만, 안타까운 일은 <term type="concept">조선족 여자</term>의 이 꿈을 이루는 과정에서 그녀를 신부로 맞아들인 한국의 농촌 총각과 그 가족들이 겪는 또 다른 고통 역시 외면할 수 없는 <term type="concept">사회적 상처</term>라는 사실이다.</s>
+          <s>그렇다면 <term type="concept">조선족 여자</term>가 한국의 농촌을 떠나지 않고, <term type="concept">코리안 드림</term>을 정상적으로 이룰 수는 없을까.</s>
+          <s>아마도, 여기에는 이들 <term type="concept">아시아계 한국인들</term>이 한국에서 겪는 크고 작은 사회적 문제들이 겹쳐 있을지 모른다.</s>
+          <s>문화와 풍속이 다른 남녀 간의 결혼 생활의 어려움, 의사소통이 원활하지 못함으로 인해 타지에서 겪는 <term type="concept">실존적 외로움</term>, 기대에 현저히 못 미치는 한국에서의 농촌 생활, 한국보다 열등한 아시아 사람들에 대한 <term type="concept">민족적· 인종적 배타적 차별의 논리</term> 등이 <term type="concept">조선족 여자</term>로 하여금 정상적인 결혼 생활을 포기하고, 오직 돈을 벌기 위한 차원으로 <term type="concept">코리안 드림</term>을 성취하도록 부추겼는지도 모를 일이다.</s>
+        </p>
+        <p>
+          <s>말하자면, 조선족 여자의 이러한 행위를 통해‘<quote type="direct" genre="poet">지금, 이곳</quote>’에서 <term type="concept">아시아계 한국인들</term>이 어떠한 삶의 곤궁에 처해 있으며, 그것을 어떠한 방식으로 해결하려고하는지를 알 수 있다.</s>
+          <s>여기서 <term type="concept">아시아계 한국인들</term>이 겪는 이 숱한 문제들은 한국 사회가 <term type="concept">다문화 공동체</term>의 평화적 가치를 추구할 것을 요구한다.</s>
+          <s><term type="concept">다민족</term>, 다 인종, <term type="concept">다문화</term>의 가치들이 서로의 독자성을 존중히 여기는 가운데, 아시아의 사람들 사이의 내면의 대화를 통해 서구의 <term type="movement">근대적 합리주의</term>에 맹목화되는 삶이 아닌, 아시아의 <term type="concept">다문화 공동체</term>가 추구하는 평화 적 가치를 뿌리내리기 위한 새로운 과제가 제기되고 있다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">이 것이야말로 한국 시가 외면해서는 안 될 시적 정치성의 전위로 숙고해야할 과제다.</interp>
+          </s>
+          <s>그럴 때, <quote type="direct" genre="poet" source="코시안리6">머지않아 아이가 태어날 것이다/ 아내가 부른 배 부둥켜 안고 있으면/ 남편이 쳐다보고 웃었다/ 첫 아이 낳아도 혼혈이라는 것/ 둘째 아이 낳아도 혼혈이라는 것/ 아내는 생각하지 않았고,/ 걔들이 농토의 주인이라고/ 걔들이 가문의 후손이라고/ 사내는 생각하였다</quote> —「<title level="a" type="poem" xml:id="t-6">코시안리6</title>」부분 기획 특집 |고명 철 5150 |라는 <term type="concept">아시아계 한국인</term>의 생각이, 기존의 한국 사회에서 착 근된 <term type="concept">순 혈 주의</term>에 기반한 공동체에 균열을 내고 <term type="concept">다문화 공동체</term>의 평화적 가치를 일상화할 수 있는 새로운 공동체의 지반을 튼실히 다질 수 있지 않을까.4.</s>
+          <s>지구적 일상과 연동된 한국 시의 <term type="concept">정치적 전위성</term>으로 한국 시의 정치적 전위성을 새롭게 발견하고, 그 시적 폭발력을 배가시키기 위해서는 큰 욕심을 버려야한다.</s>
+          <s>우리가 매일 살아가는 삶이 정치와 무관할 수 없듯, 요란스럽지 않게, 그러면서도 둔감하지 않게, 우리가 살고 있는 삶의 대지에 최대한 납작 엎드린 채 <term type="concept">삶의 정치적 감각</term>을 예각적으로 벼리는 일을 게을리 해서 안 된다.</s>
+          <s>비루하고 하찮은 일상에 겸허한 태도를 지니되, 그 일상에 매몰되어서는 곤란하다.</s>
+        </p>
+        <p>
+          <s>그러면서 우리의 시야를 일국적 범주로 가둬 놓을 게 아니라 우리의 일상이 곧 지구적 일상과 연동되어 있다는 인식 아래 <term type="concept">한국 시</term>의 <term type="concept">정치적 전위</term>의 감각을 심화· 확산시켜야할 것이다.</s>
+          <s><quote type="direct" genre="poet" source="아시아의 국경">땡볕에 눌러쓴 털모자의 땀 냄새가 지나가고/ 사탕수수 자루인 여인의 부르튼 맨발이 지나가고 구루마 끌고 가는 부지깽이 같은 종아리가 지나가고/ 가슴에 면도칼 숨긴 아이들 희 번 덕 거리는 눈초리가 지나가고/ 원 달러 원 달러 외치는 흙먼지 속 다물지 못하는 입이 지나가고/ 때절은 스웨터 속 불룩하게 솟은 노숙의 담요가 지나가고 마약과 매춘 실어 나르는 부황 든 뺨이 지나가고/ 지뢰 속에 다리 묻은 주름 진 아코디언 소리가 지나가고/ 무기 실은 트럭이 지나가 고 탱크가 지나가고 전쟁이 지나가고/ 팔 잘린 부처가 지나가고 목 없는 시바가 지나가고/ 불타는 한낮 목마른 마호메트가 지나가고</quote> —<persName role="poet" xml:id="p-x8">김해자</persName>,「<title level="a" type="poem" xml:id="t-x13">아시아의 국경</title>」부분 돌이켜 보면, <term type="concept">한국 시</term>의 <term type="concept">정치적 전위</term> 감각이 무뎌진 데에는, 지구적 일상에 관한 총체적 인식의 시야를 확보하고 있지 못한 것과 무관하지 않다.</s>
+          <s>
+            <interp value="critical" ana="문학관">일국적 시각을 과감히 극복하여, 지구적 시야 안에서 한국 시의 정치적 전위성을 새롭게 다듬는 데 인색하지 않았는지 반성해 볼 일이다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="사회">지구적 가난과 전쟁, 그리고 종교적 갈등과 연동된 한국 시의 정치적 전위성의 문제에 대한 심층적 탐구가 그 어느 때보다 절실하다.</interp>
+          </s>
+          <s>하여, <term type="concept">한국 시</term>는 <term type="concept">국민 국가</term>의 숱한 문제들을 포괄하여 지구적 일상의 문제와 연동된 것들에까지 그 시적 인식의 지평을 넓혀야할 것이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">한국 시여, 이 원대한 시적 과제를 앞에 놓고 우두망찰 방관할 수만은 없지 않는가.</interp>
+          </s>
+          <s>기획 특집 |<persName ref="#p-x">고명 철</persName> 5352 |고명 철 |<date when="1998">1998년</date>『<title level="j" type="journal" xml:id="t-x14">월간문학</title>』등단.</s>
+          <s>저서『<title level="m" type="critic" xml:id="t-x15">순간, 시마에 들리다</title>』『<title level="m" type="critic" xml:id="t-x16">칼날 위에 서다</title>』『<title level="m" type="critic" xml:id="t-x17">논쟁, 비평의 응전</title>』등.</s>
+        </p>
+        <p>
+          <s>공저『<title level="m" type="critic" xml:id="t-x18">제 주인의 혼불</title>』『<title level="m" type="critic" xml:id="t-x19">탈식민주의를 넘어서</title>』『<title level="m" type="critic" xml:id="t-x20">주례사 비평을 넘어서</title>』등.</s>
+          <s><orgName xml:id="org-x">고석규 비평 문학상</orgName>, <orgName xml:id="org-x2">성 균 문학상</orgName> 수상.『<title level="j" type="journal" xml:id="t-x21">실천문학</title>』편집 위원.</s>
+          <s><orgName xml:id="org-x3">광운대</orgName> 교양 학부 교수.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

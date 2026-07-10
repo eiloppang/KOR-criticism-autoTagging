@@ -1,0 +1,513 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>'미적 현대'와 그이후, 시적 '숭고'의 현현과 새로운 '정치시'의 도래</title>
+        <author>이찬</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><term type="concept">미적 현대</term>와 그 이후, 시적 '<term type="concept">숭고</term>'의 현현과 새로운 <term type="concept">정치시</term>의 도래이 찬1.<date when="2009">2009</date> 봄, <term type="concept">한국시</term>는 <term type="movement">미래파</term>를 넘어 새로운 <term type="concept">진리 사건</term>을 현현시키고 있는가?</s>
+          <s><persName role="foreigner" xml:id="p-x">알랭 바디우</persName>(A.</s>
+          <s>Badiou)는 <persName role="foreigner" xml:id="p-x2">횔덜린</persName>(F.</s>
+          <s>Hdderlin)으로부터 <persName role="foreigner" xml:id="p-x3">파울 첼란</persName>(P.</s>
+          <s>Cellan)에까지 이르는 시기를 ‘<term type="concept">시인들의 시대</term>’ 라 칭했다.</s>
+          <s>그리고 이 시대 시인 들과 시에게 철학의 과제를 ‘<term type="concept">봉합</term>’ 시켰던 <persName role="foreigner" xml:id="p-x4">하이데거</persName>(M.</s>
+          <s>Heidegger)와는 다른 지점에서 ‘<term type="concept">시의 원천</term>’ 을 다시 사유하고자 했다.</s>
+          <s>그는 하이데거와 ‘<quote type="direct" genre="poet">시인들의 시 대</quote>’ 이후 ‘<term type="concept">탈낭만주의적 시</term>’ 는 과연 어떤 것일 수 있는가를 묻는 자리에서 출발했다.</s>
+        </p>
+        <p>
+          <s>그에 따르면, <persName ref="#p-x4">하이데거</persName>가 기획했던 ‘<quote type="paraphrase" genre="critic">시가 되려는 철학</quote>’ 에서 해방된 시는 두 가지 <term type="concept">사유</term>를 관통한다.</s>
+          <s>그 하나는 “<quote type="direct" genre="critic">현실들을 뚫고 지나가면서 현존하 는 것들을 현존케</quote>” 하는 <term type="concept">사유</term>이며, 다른 하나는 “<quote type="direct" genre="critic">계산될 수 있는 이해관계 바깥 으로 도약하는 사건의 이름</quote>”을 ‘<term type="concept">명명</term>’ 하는 사유이다.</s>
+          <s><persName role="foreigner" xml:id="p-x5">바디우</persName>의 이러한 통찰은, ‘시’ 라고 하는 언어가 저 ‘<term type="concept">상징계</term>’ the sumbolic의 의미 체계와 그것을 잘 마 름질한 지식 체계의 ‘<quote type="direct" genre="poet">안정성</quote>’satbilite의 장, 그 바깥에 실재하고 있는 것들을 나타나게 할 수 있는 탁월한 능력을 지니고 있다는 것을, 그리고 이미 확립되어 있는 의미 체계에 1구멍’을 뚫어버리면서 도래하는 ‘<term type="concept">진리 사건</term>’을 새롭게 ‘<term type="concept">명명</term>’하는 것, 그 자체가 이미 ‘<term type="concept">시적인 것</term>’ 이라는사실을 알려준다.</s>
+          <s>이 ‘<term type="concept">명명</term>’ 은 ‘<term type="concept">시적인 것</term>’ 일 수밖에 없다.</s>
+          <s>왜냐하면, ‘<term type="concept">의미의 공백</term>’ 과 ‘<term type="concept">확립된 의미 작용 의 결여</term>’ 속에서 어떤 ‘<quote type="direct" genre="poet">우연</quote>’들과현실초과적인 ‘<term type="concept">실재</term>’를 ^presentation 하려는 언어의 모험이나 ‘<quote type="direct" genre="poet">계산할 수 없는 것</quote>’ 들을 ‘<term type="concept">명명</term>’ 하는 행위는 그 자체 가 새롭게 창조하는 행위, 곧 ‘<term type="concept">시적인 것</term>’ 일 수밖에 없으며.</s>
+          <s>또 “<quote type="direct" genre="critic">언어를 위태롭 게 하면서</quote>” 도래하는 것일 수밖에 없기 때문이다.</s>
+          <s><term type="concept">현실 사회주의</term>의 몰락, 그 이후에야 ‘<term type="concept">5월 광주</term>’를 ‘<quote type="paraphrase" genre="other">그 핏빛어린 외침</quote>’으로 물들게 했던 *<quote type="direct" genre="critic">거대한 야만</quote>’ （<persName role="critic" xml:id="p-x6">서영채</persName>）은 역사의 뒤안길로 사라져갔다.</s>
+          <s>저 비루하 고 뒤처진 <term type="concept">한국 현대성</term>modem^x의 <term type="concept">아이러니</term>는 그 시대 청춘들에게 깊은 상 처를 남겼고, 근본적 고뇌의 문양（文W을 새겼다.</s>
+        </p>
+        <p>
+          <s>그 청춘들은 20대 초반을 불 춤으로 뒤덮게 했던 저 번뜩이는 <term type="concept">이념</term>의 광휘가 처참하게 사그라져가는 광경 을 처연하게 지켜보거나 혹은 장렬하게 견뎌내야만 했다.</s>
+          <s>또한 “<quote type="direct" genre="essay" source="김훈">어쩔 수 없는 것은 어쩔 수 없다</quote>”는 <persName role="novelist" xml:id="p-x7">김훈</persName>의 말처럼, 그냥 그것을 하나의 숙명처럼 받아들여 야만 했다.</s>
+          <s>이 숙명은 ‘<term type="concept">5월 광주</term>’ 이후 한국 지식 사회의 의미 체계의 바탕을 이루었던 <term type="movement">동구 사회주의 담론</term>의 <term type="concept">몰락</term>을 의미했다.</s>
+          <s>이 의미에 구멍을 뚫으면서 도래한 ‘<term type="concept">사건</term>’ 과 ‘<term type="concept">진리</term>’ 의 빛은 <term type="concept">한국문학</term>에 새로운 이름을 도래케 했다.</s>
+          <s>그것 은 나!</s>
+          <s>면성’과 4<term type="concept">타자</term>’라는 두 벡터vector를 추동력으로 삼은 ‘<term type="movement">미적 현（근）대</term>’ aesthetic moctemf하였다.</s>
+          <s>여기서 가장 핵심적인 차원을 이루었던 것은 ‘<quote type="direct" genre="poet">개인 성</quote>’에 대한 숭배였고 ‘<term type="concept">차이</term>’의 발견이었다.</s>
+          <s>‘<term type="concept">개인성</term>’은 ‘<term type="concept">내면성</term>’의 짝이었고, ‘<term type="concept">차이</term>’는 ‘<term type="concept">타자</term>’ 의 다른 이름이었다.</s>
+        </p>
+        <p>
+          <s><date from="1990" to="1999">1990년대</date> 초 <orgName xml:id="org-x">한국문학</orgName>에 비로소 도래했 으며, 1<term type="concept">미적 현대</term>’ 라는 이름으로 명명되었던, 그 ‘<term type="concept">진리 사건</term>’ 은 이제 하나의 상 식적인 <term type="concept">통념</term>doxa이 되어버렸고 지금도 여전히 그 ‘<quote type="direct" genre="poet">안정성</quote>’ 의 장chawp을 견 고하게 축조하고 있다.</s>
+          <s>나］면성’ 이 90년대 초반에 형성되고 또 주도권을 행사 했던 <term type="concept">문학 장</term>의 메커니즘을 표상하는 말이라고 한다면, ‘<term type="concept">타자</term>’ 는 90년대 후반 문학 담론의 중심으로 등장한 이래 현재까지도 여전히 그 유효성을 잃지 않고있는 지속적 사태의 핵심을 지칭하는 말이다.<date from="2000" to="2009">2000년대</date> <orgName ref="#org-x">한국문학</orgName>을 가장 뜨겁게 들끓게 했던 논쟁의 장소는 ‘<term type="movement">미래파</term> 에 있었다.</s>
+          <s>이 논쟁은 시에 있어서 ‘<term type="concept">재현</term>’ r分pr』senWion과 ‘<term type="concept">감각</term>’ sens의 문제를 둘러싼 가치론적 투쟁과 그 대결 구도를 이미 전제하고 있는 것이기도 했다.</s>
+          <s>‘<term type="concept">재현</term>’ 이 ‘<quote type="direct" genre="poet">미적 현대</quote>’ 그 이전 시대, 그러니까 <date when="1970">1970-80년대</date> <orgName ref="#org-x">한국문학</orgName>에서 주 도적인 권리를 행사했던 ‘<term type="movement">리얼리즘</term>’ 미학의 근본 원리를 표현하는 것이라면, ‘<term type="concept">감각</term>’ 은 90년대 초반을 지배했던 <quote type="indirect" genre="critic">나）면성의 나르시시즘</quote>’ （<persName role="critic" xml:id="p-x8">이광호</persName>）을 돌파하고 한국문학이 나아간 자리, 곧 <term type="concept">주체의 동일성</term>이 무너지고 ‘<term type="concept">타자</term>’ 들이 솟아올랐던 여러 자리들 가운데 어떤 한 지점을 호명하는 말이다.</s>
+          <s>그리하여 우리의 질문은 이렇게 시작된다.</s>
+          <s>“한국문학은 ‘<term type="concept">미적 현대</term>’ 라는 말로 지칭되어온 그 ‘안정성’ 의 장에 구멍을 뚫으면서 도래하는 그 어떤 ‘人건’』%*me#도 일으키지 못 하고 있는 것일까?</s>
+          <s>” 또한, “<date when="1991">1991년</date> <term type="concept">동구권 사회주의의 몰락</term>과 함께 도래한, ‘미 적 현대’ 라는 의미의 체계 속에서 문학과 시가 망각하고 있었던 것은 과연 무 엇이었을까?</s>
+          <s>” 한 걸음 더 나아가, “<date when="2008">2008년</date> ‘실용’ 과 ‘선진# 라는 깃발을 들고 다시 등장한 저 간교한 <term type="concept">개발자본주의</term>가 권좌의 새 주인이 된 이래 일어난, ‘<term type="concept">촛 불소녀</term>’들의 가녀린 외침과 ‘<term type="concept">용산 철거민</term>’들의 참혹한 절규는 <term type="concept">형식적 세련성</term> 과 인공적 기교로 점철되어온 <date from="2000" to="2009">2000년대</date> <orgName xml:id="org-x2">한국시</orgName>에 간절한 목소리로 무엇을 요 청하고 있는 것일까?</s>
+        </p>
+        <p>
+          <s>’최근 한 철학자는 “<quote type="direct" genre="critic">비（#） 괘에서 고요는 형식적 유희가 미처 넘볼 수 없는 높이와 관련이 있다.</quote></s>
+          <s>정지는 그 높이에 이르지 못하는 <term type="concept">형식적 유희</term>의 한계를 말한다.</s>
+          <s>산은 형식적 조화보다 더 높은 차원이 있음을 알리는 <term type="concept">숭고</term>한 대상이 다.</s>
+          <s>여기서 <quote type="direct" genre="critic" source="김상환, 대과（大過） 시대의 글쓰기">복잡한 형식적 유희와는 다른 미학적 가능성이 출현한다</quote>”1고 말하 면서, “<quote type="direct" genre="critic" source="김상환, 대과（大過） 시대의 글쓰기">형식적 왜곡에서 벗어나는 내용적 함량운동</quote>”과 ‘<term type="concept">숭고</term>’ 가 새로이 도래할1 <persName role="scholar" xml:id="p-x9">김상환</persName>, r<title level="a" type="critic" xml:id="t-x">대과（大過） 시대의 글쓰기</title>」,『<title level="j" type="journal" xml:id="t-x2">창작과 비평</title>4 통권 142호, <date when="2008">2008</date> 겨울, 우4쪽.</s>
+          <s>것임을 예견한 바 있다.</s>
+          <s>이 새로운 ‘<term type="concept">내용 중심 미학</term>’, 또는 ‘<term type="concept">숭고</term>’ 가 한국시에 어떤 빛과 문양을 지니고 나타날 것이며, 그것이 참으로 하나의 ‘<term type="concept">진리 사건</term>’ 이 될 것인지는 쉽게 단언하기 어렵다.</s>
+          <s>또한, “<quote type="direct" genre="critic">문학의 언어에 코웃음치고 문학을 처단할 수 있는 것은 문학의 언어뿐이다</quote>”2는 말처럼, 비평가는 다만 새로운 미 학의 출현을 감지하거나 기대할 수 있을 뿐이다.</s>
+          <s>띠라서 이 새로운 미학은* 그 리고 문학작품만이 불러일으킬 수 있을 문학사적 ‘<term type="concept">사건</term>’ 이라는 저 의미의 ‘공 백’ vide은, 시인 자신의 실존 전체를 걸고 격투하는 무서운 찢김의 순간과 몸 이 아플 수밖에 없을 어떤 전율을 동반하고서만 나타날 수 있을 것이다.</s>
+        </p>
+        <p>
+          <s>그리 하여, 이 미학은 ‘<quote type="direct" genre="poet">아픈 천국</quote>’ （<persName role="poet" xml:id="p-x10">이영광</persName>）으로서의 언어들과 그 고투（苦B®의 흔적 들을 통해서만 가까스로 나타날 수 있을 것임에 틀림없다.</s>
+          <s>우리는 지금, ‘<term type="concept">미적 현대</term>’를 지나오면서 <term type="concept">한국시</term>가 이미 체득해버린 그 세련된 형식들과 빼어난 기 교들과 그리고 <term type="concept">장르 혼종</term>의 번잡한 <term type="concept">형식유희</term>들과 함께 경쟁하면서 새로운 M 용 중심 미학’ 이라 부를 수 있을, 저 ‘<term type="concept">숭고</term>’ 와 ‘<term type="concept">정치시</term>’ （<persName role="poet" xml:id="p-x11">진은영</persName>）가 어슴푸레한 빛으로나마 어떤 형세를 띠고 나타나고 있는지를 감지해내려 한다.2.</s>
+          <s>minima humanitas： ‘<term type="concept">서정적 원근법</term>’ 의 ‘<term type="concept">권위</term>’ 를 균열시키는최소인간의 ‘<term type="concept">목소리</term>’들눈이 멀어 사방이 멀어지면귀가대신가세상의 물건을 받아오리譜 EIT.字%슈腦?^^解鹽欒2 위의 귤, 1=.</s>
+          <s>꽃이 피었다고어치가와서 우네 벌떼가 와서 우네 한송이꽃곁에온 ' 반짝이는 비늘들 소리가 골물처럼 몰리는 곳 한송이 꽃을 귀로 보네 내 귓가에 맴도는 목소리, 당신의 은밀한 농담들, 소리의 침실들, 그러나 끝이 있는 사랑의 악보들 의자를 꽃 가운데 놓고 내 몸에 수의를 입히듯 나 먼저, 오래 쓴눈을 감네- <persName role="poet" xml:id="p-x12">문태준</persName>,「<title level="a" type="poem" xml:id="t-x3">한 송이 곁에 온</title>j,『<title level="m" type="poem" xml:id="t-x4">그늘의 발달</title>」, <orgName xml:id="org-x3">창비</orgName>, <date when="2008">2008</date>.7문태준 시가 가진 특장은, ‘시’ 라는 언어양식의 저 오래된 관습이라 할 수 있 는 ‘<term type="concept">서정</term>’ 의 문법을 존중하면서도, 그것을 내적으로 혁신하고 있는 자리에서 찾아질 수 있다.</s>
+          <s>이것은 ‘<term type="movement">미래파</term>’ 담론을 주도했던 논자들이 제기했던, “<quote type="direct" genre="critic">시를 자아와 세계의 동일시라는 상투어로 정의하는 관행</quote>”（<persName role="critic" xml:id="p-x13">권혁웅</persName>）에 대한 새로운 대 안 제시나 “<quote type="direct" genre="critic">시적 소실점이 흔들리거나 사라질 때 나타나는 가장 중요한 현상은 세계의 진리를 파악하고 전달하겠다는 의지의 소멸이다</quote>'”（<persName role="critic" xml:id="p-x14">신형철</persName>）라는 그 문제 틀pwb7%atique의 울타리에서 그의 시가 크게 벗어나지 않는다는 것을 의미 한다.</s>
+          <s>이것은 다시 말해, 이 세계의 모든 만상들을 움켜쥐고 그것들 전체를 ‘<quote type="direct" genre="poet">서 정적 자아</quote>’ 의 단일한 진리（표상 체계）로 수렴시켜 버리는 근대 서정시의 <term type="concept">데카르트적 1인칭</term>’ 의 <term type="concept">권위</term>가 소멸될 수 있는, 아니 적어도 그 ‘권위’ 를 취약하게 만 드는 그 미학적 가능성을 작업했던3 <term type="concept">2000년대 젊은 시인들</term>의 시, 더 좁혀 말 한다면 •<quote type="direct" genre="critic">표면의 시</quote>’ (<persName ref="#p-x14">신형철</persName>), 이들의 시작 방법과 그의 시가 그다지 먼 거 리에 놓여있지 않다는 것을 암시한다.</s>
+          <s>그렇다면 <interp value="affirmative" ana="미학">문태준 시의 탁월한 비밀은 어느 자리에 깃들어 있는 것일까.</interp>「<title level="a" type="poem" xml:id="t-x5">한 송이 꽃 곁에 온</title>』의 화자는 가장 먼저 자신의 어떤 <term type="concept">결핍</term>의 상황을 진술하는 것 으로부터 시작한다.</s>
+          <s>“<quote type="direct" genre="poet" source="한 송이 꽃 곁에 온">눈이 멀어 사방이 멀어지면</quote>”이라는 구절이 바로 그것이 다.</s>
+        </p>
+        <p>
+          <s>이러한 “<quote type="direct" genre="poet">눈이 멀어</quote>” 보이지 않음, 곧 화자의 시각 장애라는 상황은 그간 ‘서정적 원근법, 이란 말로 지칭되어온, 바로 그 시선에 이미 깃들어 있는 위계 화의 중심, 곧 ‘<quote type="direct" genre="poet">시적 소실점</quote>’을 무력화시키거나 최소한의 것으로 약화시키는 다른 상태를 불러온다.</s>
+          <s>“나는 생각한다.</s>
+          <s>그러므로 나는 존재한다.</s>
+          <s>” w呂ito ergo stun라는 데카르트(R.</s>
+          <s>Descartes)의 저 유명한 명제는, 적어도 이 작품에서는 다음과 같이 수정되어야 할지 모른다.</s>
+          <s>“나는 보이지 않는다.</s>
+          <s>그러므로 나는 더 탁월하게 존재한다”라고 말이다.</s>
+          <s>그렇다.「한송이 꽃 곁에 온」의 화자는 분명 시각적 능력을 상실하지만, 그 대신 청각의 능력을 최대한으로 확장시켜 “<quote type="direct" genre="poet">한 송이 꽃 곁에 온/반짝이는 비늘들</quote>”과 U한 송이 꽃을 귀로 보네” 라고 말할 수 있 는, 공감각적 능력의 최대치를 발휘할 수 있는 경지로 나아간다.</s>
+        </p>
+        <p>
+          <s>그리하여 어 느 날엔가, ‘나］ <quote type="direct" genre="poet">귓가에 맴도는 목소리,/당신의 은밀한 농담들,/소리의 침실들, 그러나/끝이 있는 사랑의 악보들</quote>”을 들을 수 있고 만질 수 있는 탁월한 능력을 가지게 된다.</s>
+          <s>이러한 사태를 일종의 수!</s>
+          <s>비주의’ 라고 폄하하는 것은, 현대 과학modera science의 비좁은 <term type="concept">합리적 인과성</term>의 사슬에 그 자신의 무한한 잠재력3 이 찬, r‘<term type="concept">정치사회학적 상상력</term>’ 의 귀환인가, ‘<term type="concept">표면의 리얼리티</term>’, 그 감각적 현현인%, r딩아돌 하u 5X, 2007 겨울, 2=33쪽 참조.</s>
+          <s>’<term type="concept">potentiality</term> 가둬버리는 결과만을 초래할 뿐이다.</s>
+          <s>‘눈’ 은 다만 보는 행위만 을 관장하는 기관일 뿐이며, ‘귀’ 는 오로지 듣는 것만을 수행하는 기관이어야 만 하는 것일까.</s>
+          <s>더 나아가 우리들은 반드시 우리들 자신의 <term type="concept">감각기관</term>을 이미 코드화되어 있는 저 <term type="concept">신체 관리 시스템</term>에 내맡겨야만 하는 것일까.</s>
+          <s>갑작스런 불 행으로 손과 팔을 잃어버리고는 입과 발로 그림을 만드는 구족화가(□足S家) 들을 우리는 이미 버젓이 목도해 오지 않았는가.</s>
+          <s>조금 과장해서 말한다면, 들 뢰즈(G.</s>
+        </p>
+        <p>
+          <s>Deleuze)가 아르토(A.</s>
+          <s>Artaud)에 기대어 우리들에게 알려주고자 했 던, 저 ‘<quote type="direct" genre="poet">기관없는 신체</quote>’ corps sans organe^^： 것은 이 화자의 개방된 능력과 그렇게도 다른 것일까.</s>
+          <s>적어도 ‘<quote type="direct" genre="poet">기관없는 신체</quote>’ 가 모든 존재들의 다양한 변이 능력puissance과 그 잠재력에 대한 은유적 표현임을 인정할 수 있다면, 이 둘 사이에는 그다지 큰 차이가 존재한다고 보기 어렵다.</s>
+          <s>"<quote type="direct" genre="poet">의자를 꽃 가운데 놓고/ 내 몸에 수의를 입히듯/나 먼저, 오래 쓴 눈을 감네</quote>”라는 이 작품의 종결 부분 은 실상 ‘<quote type="direct" genre="poet">인간중심주의</quote>’anthmpocentrfsw라 불려온 우리 시대의 지배적인 인식소아ist사厄를 역전시키는 어떤 전도 현상을 표현하는 것이다.</s>
+          <s>그렇다.</s>
+          <s>우 리들의 ‘<quote type="direct" genre="poet">인간중심주의</quote>’ 라는 시선으로 보면, “<quote type="direct" genre="poet">꽃을 의자 가운데 놓</quote>”는 것이 아 닌, “<quote type="direct" genre="poet">의자를 꽃 가운데 놓</quote>”는 행위는 다소 어색하고 조금은 이상스럽다.</s>
+          <s>현대 세계에서 인간은 통상적으로 “<quote type="direct" genre="poet">나는 생각한다</quote>”라는 저 데카르트적 1인칭’ 을 기 준 삼아 세계를 표상해왔으며, 또 그 정교한 분류표에 근거해 사유해왔기 때문 이다.</s>
+          <s>그러므로 사물이 가진 ‘<quote type="direct" genre="poet">사물성</quote>’ 자체, 모든 존재자들의 ‘<quote type="direct" genre="poet">근원적 처소</quote>’ 인 존 재 그 자체, 그리고 자연 그 자신이 발산하는 “<quote type="direct" genre="poet">당신의 은밀한 농담들, 소리의 침실들, 그러나 끝이 있는 사랑의 악보들</quote>”을 우리들이 듣고 보고 만질 수 있기 위해서는, “<quote type="direct" genre="poet">내 몸에 수의를 입히듯</quote>” 저 ‘<quote type="direct" genre="poet">인간주의</quote>’ 라는 해변의 백사장에 그려 져 있는 ‘인간’ 의 얼굴을 지워야 할 뿐만 아니라 V 먼저,/오래 쓴 눈을 감”아 야만 한다.</s>
+        </p>
+        <p>
+          <s>
+            <persName role="foreigner" xml:id="p-f">니체(F.</persName>
+          </s>
+          <s>W.</s>
+          <s>Nietzsche)의 ‘신의 죽음’ 이라는 명제를 ‘<quote type="indirect" genre="foreign" source="Foucault">인간의 죽음</quote>’ 이라는 새로운 문제틀로 해석해냈던, <persName role="foreigner" xml:id="p-m">푸코(M.</persName></s>
+          <s><persName role="foreigner" xml:id="p-foucault">Foucault)</persName>의 그 메시지를 <persName role="poet" xml:id="p-x15">시인문태준</persName>이 의식적인 자각을 가지고 따르고 있다고는 결코 말할 수 없을 것이다.</s>
+          <s>그러나 그의 타고난 체질인 “<quote type="direct" genre="critic" source="이찬">비움과 보살핌의 윤리</quote>”（<persName role="critic" xml:id="p-x16">이찬</persName>）가 그의 시작@寺作） 행위를 <persName role="foreigner" xml:id="p-x17">푸코</persName>의 이 메시지와 인접한 어떤 자리로 이끌어 가고 있는 것은 틀림없 는일이다.</s>
+          <s><title level="a" type="poem" xml:id="t-x6">밤의 호수</title>는 숲과 나무와 둑을정확하게 대칭으로 나눈다불빛만은더 길게 늘어 당기고 있다자욱한 안개마저 반으로 분할한다호수의 한가운데 있는 섬은낮에는 얌전하 떠 있어 무슨 생각에 골몰한지짐작할수 없지만밤엔커다란 한 마리 물고기가 되어컴컴한 입을 벌리고 어딘가로 가려하고 있다불빛을 뿌옇게 풀어놓고 밤안개는다시 숲속을 파고든다번개가 물속을훝고갈때오래전에 가라앉은 것들의 침묵이 잠시 솟구쳤으나이내고요해졌다밤의 호수 곳곳에서 완벽한 세포분열이 일어난다그 중앙의 경계는 호수면이다호수가 만들어낸 기하학무늬를 달빛이 오래 비추던 날이 있었다밤의 호수에서 그림자는 몸이 되어버린다-<persName role="poet" xml:id="p-x18">조용미</persName>,「밤의 호수」,「<title level="j" type="journal" xml:id="t-x7">문학사상</title>』, <date when="2008">2008</date>.122000년대 한국시의 가장 첨예한 화두였던 ‘<term type="movement">미래파</term>* 담론을 함께 주도했던 한 젊은 비평가가 “<quote type="direct" genre="poet">최근의 어떤 시들은 ‘근본적으로’ 라고 해야 할 정도로 다른 것 같다</quote>”（<persName ref="#p-x14">신형철</persName>）고 말했던, “<quote type="direct" genre="critic" source="신형철">최소한의 원근법으로 씌어진</quote>” 저 ‘<term type="concept">표면의 시</term>’는 사실상 영 ’ 미 <term type="movement">이미지즘</term>imagism의 세계관과 시작 원리를 수용하여 자신들의 시작품들로 탁월하게 조형해냈던 한국의 이전 시인들, 예컨대 <persName role="poet" xml:id="p-x19">정지용</persName>과 <persName role="poet" xml:id="p-x20">김춘 수</persName>가 심혈을 기울였던 바로 그 작업의 범주에서 그다지 먼 거리에 존재하지 않 는 것 같다.</s>
+          <s>이 비평가는 <persName role="poet" xml:id="p-x21">이장욱</persName>, <persName role="poet" xml:id="p-x22">김행숙</persName>, <persName role="poet" xml:id="p-x23">하재연</persName>, <persName role="poet" xml:id="p-x24">이근화</persName>의 시에서 문학사적인 하나의 ‘<quote type="direct" genre="poet">사건</quote>’ 을 발견하고, 그 ‘사건’ 에 대해 ‘<term type="concept">미니마 퍼스펙티비外 minima perspctiWa</term>라는 다소 선언적인 ‘<quote type="direct" genre="poet">명명</quote>’ 을 수행했지만, <interp value="critical" ana="미학">그의 논의 전개는 실상 이 네 시인들의 시작품들에 대한 구체적인 해석을 통해 이루어지지 않았다.</interp></s>
+          <s>이 ‘명명’ 은 <persName role="foreigner" xml:id="p-x25">가라타니</persName>와 <persName role="foreigner" xml:id="p-x26">칸트</persName>와 <persName role="foreigner" xml:id="p-x27">들뢰즈</persName>의 철학적 담론 일부를 잘 마름질한 연역적 입법 논리의 정교함과 그 표현의 세련성을 통해서 이루어졌고, 이 행위는 작품 의 구체적인 실상들에 대한 검증을 수반하지 않았다.</s>
+        </p>
+        <p>
+          <s>이것은 그가 이 네 시인 들의 작품들이 지니는 세부적인 문양들과 파장들 그 자체에 관심을 가졌다기 보다는, <interp value="critical" ana="미학">자신이 편애하는 철학 담론들을 우호적으로 개진하기 위한 방편으로 이 시인들의 다양한 여러 특질들을 하나의 매듭으로 환원했던 데서 기원할 수 밖에 없는 필연적인 결과라고 추정된다.</interp></s>
+          <s>이와 같은 추정은.</s>
+          <s>
+            <interp value="critical" ana="미학">이 네 시인의 시작 품들이 결코 하나의 매듭으로 묶일 수 없는 상호 이질성들을 가지고 있다는, 텍스트 자체에 밀착해 있는 사실 판단에서 나온다.</interp>
+          </s>
+          <s>한 걸음 더 나아가.</s>
+          <s>이 네 시인들가운데 <term type="movement">넌i니마퍼스펙티비아</term>’라는저 선언적 ‘명명’ 행위에부합되는 시인은 그리 많지 않다고 여겨지기 때문이다.（이 문제는 지면 관계상 추후 상 세하게 다시 논의하기로 하자.）<persName ref="#p-x18">조용미</persName>의「<title level="a" type="poem" ref="#t-x6">밤의 호수</title>」는 저 ‘<term type="concept">표면의 시</term>’ 에 부합되는 여러 특질들을 지닌다.</s>
+          <s>그렇다.</s>
+          <s>“<quote type="direct" genre="poet" source="밤의 호수">밤의 호수는 숲과 나무와 둑을 대칭으로 정확하게 대칭으로 나눌</quote>” 뿐 만 아니라, “<quote type="direct" genre="poet" source="밤의 호수">불빛만은 더 길게 늘어 당간</quote>”다.</s>
+          <s>그리고 이 진술은 밤의 호수에 일 으키는 그 시각적 ‘<term type="concept">표면 효과</term>’ 에 대한 사실 판단의 언어에 가깝다.</s>
+        </p>
+        <p>
+          <s>적어도 “<quote type="direct" genre="poet">밤의 호수</quote>”에 “<quote type="direct" genre="poet">불빛</quote>”이 비치면, 그에 비친 사물의 그림자들이 내뿜는 파장이 길 어지는 것은 지극히 당연한 것이기 때문이다.</s>
+          <s>그렇다면, 왜 “<quote type="direct" genre="poet">숲과 나무와 둑</quote>”은 “<quote type="direct" genre="poet">정확하게 대칭으로 나누</quote>”어지는 것일까.</s>
+          <s>이 비밀 아닌 비밀은 그 다음 연에 이 미 다 밝혀져 있다.</s>
+          <s>바로 “<quote type="direct" genre="poet">호수 한 가운데 있는 섬</quote>” 때문에 그러한 것이다.</s>
+          <s>시인 은 “<quote type="direct" genre="poet">밤의 호수</quote>”를 “<quote type="direct" genre="poet">컴컴한 입을 벌리고 어딘가로 가려하</quote>”는 “<quote type="direct" genre="poet">커다란 한 마리 물 고기</quote>”에 비유한다.</s>
+          <s>이 넌]유적 이미지’ 역시 화자의 ‘<term type="concept">일점 원근법</term>’ 을 통해 그의 내면을 표상하기 위한 방편으로 세계의 모든 사물들과 이미지들을 그 단일한 ‘<term type="concept">퍼스펙티비아</term>’perspectMa라는 ‘<term type="concept">검은 구멍</term>’ 으로 모두 빨아들이는 <term type="concept">서정시</term>의 근대적 배치 속에서 탄생한 저 <term type="concept">데카르트적 1인칭</term>’ 의 ‘<term type="concept">권위적 진리</term>’ 와는 거의 무관한듯하다.</s>
+          <s>.</s>
+          <s>이 ‘<term type="concept">비유적 이미지</term>’ 는 차라리 홈（T.</s>
+        </p>
+        <p>
+          <s>E Hulme）이「낭만주의와 고전주의」 Romanticism and Cfessidsm라는 글에서 말했던 ‘<quote type="direct" genre="poet">구상력</quote>’ fancy, 그리고 그 것을 굳이 ‘<quote type="direct" genre="poet">공상</quote>’ 陸想）이란 말로 번역했던 김춘수의 용어 ‘<quote type="direct" genre="poet">사생적 소박성</quote>’ （寫 生的 素차®에 가깝다.4 김춘수가 그 자신 이전에 생산되었던 ‘<quote type="direct" genre="poet">서정시</quote>’ 를 ‘<quote type="direct" genre="poet">비 유적 이미지</quote>’ 라는 말로, 자신이 추구했던 시작（詩作） 방법과 표현 기술 중심의 ‘<quote type="direct" genre="poet">현대시</quote>’를 ‘<quote type="direct" genre="poet">서술적 이미지</quote>’ 라는 새로운 문제틀로 해명하려 했던 것은 익히 잘 알려진 사실이다.</s>
+          <s>이는 한 편의 다른 글쓰기를 요구할 만큼 그렇게 단순하게 처리될 수 있는 문제는 아니나.</s>
+          <s>시인 조용미가 조형한 저 “<quote type="direct" genre="poet">물고기</quote>”의 이미지가 기왕의 서정시 가 주로 활용해왔던 ‘비유적 o]u]xf metaphorical image보 다는 김춘수의 ‘<quote type="direct" genre="poet">서술적 이미지</quote>’ descriptive image에 근접해 있는 것은 틀림 없 는 사실인 듯하다.</s>
+          <s>적어도 서로 다른 “<quote type="direct" genre="poet">불빛</quote>”과 “<quote type="direct" genre="poet">안개</quote>”와 “<quote type="direct" genre="poet">달빛</quote>”에 감싸인, 그리 고 그것에 의해 천변만화하는 “<quote type="direct" genre="poet">밤의 호수</quote>”는, 또 그 ‘‘한 가운데 있는 섬”의 표 면 효과는 “<quote type="direct" genre="poet">컴컴한 입을 벌리고 어딘가로 가려하고 있</quote>”는 “물고기’’라고 인지될4 이 찬, &lt;20세기 후반 한국 현대시론 연구〉, 고려대 박사학위논문, 2005,190쪽.</s>
+          <s>수 있을 어떤 착시 효과를 불러일으키는 것 또한 사실이기 때문이다.</s>
+          <s>적어도 “<quote type="direct" genre="poet">밤의 호수</quote>”와 그 ‘<quote type="direct" genre="poet">한가운데</quote>’ 홀로 떠 있는 ”섬“의 이미지를 ‘<quote type="direct" genre="poet">한정된 사물의 관 조</quote>’ （T.</s>
+          <s>E.</s>
+          <s>Hulme）라는 방법에 입각하여 그대로 전사（轉寫）하듯이 시의 ‘<quote type="direct" genre="poet">표면</quote>’ 에 새긴다면 말이다.</s>
+        </p>
+        <p>
+          <s>시인은 «<title level="a" type="poem" ref="#t-x6">밤의 호수</title>’’에서 발생하는 그 ‘<term type="concept">표면</term>’ 의 어떤 착시 효과들을 매우 감 각적인 이미지들로 소묘한다.</s>
+          <s>이것은 시인이 그 자신의 내면 풍경보다는 그 외부 세계의 풍경들을 그 자체로 묘사하거나 그 ‘<term type="concept">표면</term>’ 을 그대로 ‘<term type="concept">현시</term>’ presentation 할 수 있는 작업에 훨씬 더 많은 집중력을 투자하고 있다는 것을 암시한다.</s>
+          <s>그 리고 이러한 시작 원리는 우리들에게 이미 상식이 되어버린 저 ‘<term type="concept">인간주의</term>’ 의 시선과 그 표상 체계를 ‘<term type="concept">판단중지</term>’ （<persName ref="#p-x20">김춘수</persName>）시키는 어떤 효과를 발생하게 만든 다.</s>
+          <s>이 효과는 세계의 사물들과 그 만상들을 특정한 방식의 표상 체계로 환원 하거나 조율하는, 우리들의 ‘<term type="concept">무의식적인 인식론적 배치</term>’』pis"』를 균열시키 는 다른 효과를 불러온다.</s>
+          <s>이것은 시인이 저 ‘<term type="concept">인간주의</term>’ 의 시선에 입각한 사물 들의 표상, 곧 그것에 내재된 •<term type="concept">재현</term>’ repr'senW/on의 원리를 수용하지 않고 있다는 것을 암시한다.</s>
+          <s>더 나아가 이것은 시인, 혹은 그의 다른 분신cfoub/e인 시적 화자가 세계의 사물들과 그 이미지들과 감각적 표면들을 자신의 내면 풍 경을 대리 표상하기 위한 <term type="concept">재현</term>의 수단으로 전유（專有）하지 않는다는 것을 암묵 적으로 가리킨다.</s>
+          <s>그리하여,「<title level="a" type="poem" ref="#t-x6">밤의 호수</title>」에서 “<quote type="direct" genre="poet">밤안개</quote>”는 시인을 위한 도구적 이미지가 아니라, 그 자신의 여러 현상들을 스스로 나타낼 수 있는 “<quote type="direct" genre="critic" source="황현산">권리장전</quote>” （<persName role="critic" xml:id="p-x28">황현산</persName>）을 비로소 취득하게 된다.</s>
+          <s>“<quote type="direct" genre="poet">밤안개</quote>”가 “<quote type="direct" genre="poet">불빛을 뿌옇게 풀어놓고/다시 숲속을 파고드</quote>”는 그야말로 ‘<term type="concept">감각</term>’ 뿐인 이미지들 자체를 통해 이 권리들은 명 징한 ‘<term type="concept">표면</term>’ 으로 솟아오른다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet">오래 전에 가라앉은 것들의 침묵이 잠시 솟구쳤 으나/이내 고요해지</quote>"게 만드는, “<quote type="direct" genre="poet">물속을 홅고 지나갈 때</quote>”라고 표현된, 바로 저 “<quote type="direct" genre="poet">번개</quote>”의 문양들 역시 ‘<term type="concept">인간중심주의</term>’ 라는 포획 장치를 벗어나 있는 ‘<quote type="direct" genre="poet">표면</quote>’ 그 자체뿐인 감각적 이미지들이기 때문이다.</s>
+          <s>그러므로 “<quote type="direct" genre="poet">밤의 호수 곳곳에서 세포분열이 일어나</quote>”게 만드는 것은 결코 외부세계를 특정한 방식으로 바라보는 시인 내면에 깃든 표상 체계가 아니다.</s>
+          <s>이것 에 의해서는 고작 세계와 사물에 대한 특정한 방식의 ‘<term type="concept">재현</term>’ 만이 가능할 뿐이 며, 이 재현은 시인이 미리 품고 있었던 그 내면의 고정화된 틀을 결코 벗어나 지 못하기 때문이다.</s>
+          <s>이것의 속박을 깨뜨리기 위해서는 먼저 시인 자신에게 자 명하게 여겨져 왔던 그 안정화된 인식의 틀과 체계를 벗어나야만 한다.</s>
+          <s>여기서 요구되는 것이 바로 자기 자신을 저 불가해한 미지의 세계 한 가운데로 내던질 수 있는 네적 용기’（<persName ref="#p-x21">이장욱</persName>）이며, 예술의 다른 미래를 향한 헌신적 정념이다.</s>
+          <s>그리고 “<quote type="direct" genre="poet" source="이제니">쓸모없는 아름다움만이 우리를 구원할 것이다</quote>”（<persName role="poet" xml:id="p-x29">이제니</persName>）라는 그 허황된 （?） 믿음을 끝끝내 저버리지 않는, 아니 차라리 시작@e作）의 매 순간들마다 “<quote type="direct" genre="poet" source="이영광">떳 떳한파산</quote>”（<persName ref="#p-x10">이영광</persName>）을감행할수 있는 저 “<quote type="direct" genre="critic" source="이찬">순결한아이러니</quote>”（<persName ref="#p-x16">이찬</persName>）이다.</s>
+          <s>더 나아 가 이 <term type="concept">아이러니</term>를 힘겨운 하나의 희열로 받아들일 수 있는 순정한 충실성 fid敬於만이, <persName role="foreigner" xml:id="p-x30">라깡</persName>（J.</s>
+          <s><persName role="foreigner" xml:id="p-lacan">Lacan</persName>）이 오래전 우리들에게 들려주었던 저 ‘<term type="concept">주이상스</term>’ ’ jouissance라는 ‘<quote type="direct" genre="poet" source="이영광">아픈 천국</quote>’ （<persName ref="#p-x10">이영광</persName>）로 기꺼이 걸어 들어갈 수 있는 소유 관념 을 잃어버린 예술 주체를 탄생시킬 것임에 틀림없다.</s>
+        </p>
+        <p>
+          <s>그렇다.</s>
+          <s>“<title level="a" type="poem" ref="#t-x6">밤의 호수</title>”에서 “<quote type="direct" genre="poet">세포분열을 일으키는</quote>” 것은 저 오만한 인간의 표 상 체계가 아니다.</s>
+          <s>그것은 그 “<quote type="direct" genre="poet">중앙의 경계</quote>”에 놓인 “<quote type="direct" genre="poet">호수면</quote>”이며, “<quote type="direct" genre="poet">호수가 만 들어낸 기하학 무늬를 달빛이 오래 비추던</quote>” 바로 그 %이며, “<quote type="direct" genre="poet">그림자는 몸이 되어버리</quote>”는 ‘밤의 호수”라는 세계 그 자신이다.</s>
+          <s>이러한 세계 역시 결국은 인 간의 시선에서 나온 것이 아니냐는 반론 역시 가능할 것이나, 적어도 그것이 ‘<term type="concept">인간중심주의</term>’ 라는 그 정형화된 틀에서 벗어나 있는 것은 틀림없는 사실이다.</s>
+          <s>왜냐하면, 이 작품은 “밤의 호수”의 ‘실재’ 란 바로 이것이라 규정하는 정명（正 名）의 언어를 구사하지 않을 뿐만 아니라, 그것의 어떤 특성들을 인간을 위한 <term type="concept">인간 중심의 시선</term>으로 마름질하거나 포획하지 않기 때문이다.</s>
+          <s>적어도 이 시에 서는 세계가 인간의 내면 풍경을 위해 존재하는 것이 아니라, 그냥 “<quote type="direct" genre="poet">더불어 곁 에 있는 것</quote>”（<persName role="foreigner" xml:id="p-gasset">Gasset</persName>）이기 때문이다.</s>
+          <s>“<quote type="direct" genre="poet">밤의 호수에서 그림자는 몸이 되어 버린 다</quote>”는 이 작품의 진술처럼 말이다.</s>
+          <s><interp value="neutral" ana="미학">물론 이 작품 역시 오래전 영 • 미 이미지즘이 주로 사용했던 그 시작법#作法)의 원리를 재현하고 있는 것은 아닌가라는 의문은 여전히 남는 것이겠지만.</interp>3.</s>
+        </p>
+        <p>
+          <s><term type="concept">실재</term>의 <term type="concept">aporia</term>: 감각적 이미지들의 축제, 그 사이 공간에서 태어나는 불가해 한 형상들남자가문을 열고 들어선다구두를 벗는다눅신한 피곤을 벗어 버린다셔츠를 벗는다미열이 번진다빌딩 옥상에서 내려다보던 풍경이 흘날린다■허리띠를 푼다바지가 흘러내린다비늘 같은 오후가 둥치를 타고 흘러내린다남자, 거울 앞에 선다거울 속에 마른 짐승 한 마리가 제 샅을 핥고 있다남자, 거울에 한쪽 발을 담근다불쌍한 짐승이 슬그머니 꼬리를 감춘다I.</s>
+          <s>.....)나무가 가지를 혼든다 푸른 그늘이 춤을 춘다 만화경처럼 빙글빙글 춤춘다 혈관 속에서 풋내 나는 수액이 비명을 지른다 사람들속을 걷는다 땀 냄새, 오줌 냄새, 바람 냄새를 해친다 걷는다 뛴다 뛴다 먼지를 쓰고, 햇살을 젖히고, 질긴 불안으로 목을조르고, 조 르고, 조르고, 달콤씁쓸, 달콤씁쓸, 달콤씁쓸한 여자, 검지로겨울을 겨눈다V • •)방아쇠를 당긴다포말이 인다남자가 흩어진다여자가 합장을 한다남자가 홀어진다여자가 합장을 한다여자가 숙이고 또 숙인다잘게 부서지는 은칠 위로 사람을 닮은 허물이 떠오른다—<persName role="critic" xml:id="p-x31">윤예영</persName>,「<title level="a" type="poem" xml:id="t-7">저넉 7시, 소극</title>」부분,1<title level="j" type="journal" xml:id="t-x8">세계의 문학</title>•』, <date when="2008">2008</date> 겨울<interp value="neutral" ana="미학">윤예영의『저녁 7시, 소극」은 앞에서 살펴본 조용미의 시처럼, 명징하고 감 각적인 이미지들로 축조되어 있다.</interp></s>
+          <s>그러나 ‘나무가 가지를 흔든다.</s>
+          <s><quote type="direct" genre="poet" source="저녁 7시, 소극">푸른 그늘 이 춤을 춘다 만화경처럼 빙글/빙글 춤춘다 혈관 속에서 풋내 나는 수액이 비 명을 지른다/사람들/속을 걷는다 땀냄새, 오줌 냄새, 바람 냄새를 헤친다 걷는 다 뛴다</quote>”에서 볼 수 있는 것처럼, 이 작품은 어떤 요동의 상황, 또는 어떤 변화 와 이동을 분명하게 나타내는 동사들을 주로 활용한다.</s>
+          <s>그것은 예컨대 “흔든 다거 “<quote type="direct" genre="poet">춘다</quote>”, “춤춘다”, “<quote type="direct" genre="poet">걷는다</quote>”, “<quote type="direct" genre="poet">헤친다</quote>”, “<quote type="direct" genre="poet">뛴다'</quote>” 등과 같은 것들이다.</s>
+          <s>이 동 사들을 주로 활용함으로써 이 시는 두 가지 효과를 얻는다.</s>
+          <s>하나는 ‘<term type="concept">인간중심주의</term>’ 의 시선을 최소한으로 축소시킨 시들이 갖게 되는 <term type="concept">고요와 관조의 미학</term>이 아닌, 역동적이면서도 불안한 느낌의 이미지들을 탄생시킨다는 것이고, 다른 하나는 그 이미지들은 ‘표면’ 그 자체뿐인 감각만의 이미지들이 아니라 그 명 징한 감각들의 사이 공간에서 빈틈을 찢어 벌리면서 올라오는 어떤 불안하고 불가해（不可解）한 느낌의 ‘<term type="concept">실재</term>’ 를 현시p*en=ion하려 한다는 것이다.</s>
+          <s>이 시에 나타난 ‘斗무”와 “<quote type="direct" genre="poet">가지</quote>”와 “<quote type="direct" genre="poet">푸른 그늘</quote>”, 그리고 “<quote type="direct" genre="poet">만화경</quote>”, “<quote type="direct" genre="poet">혈관</quote>”, “풋내 나는 수액’’은 모두 어떤 <term type="concept">불안</term>과 격정과 요동의 상태를 나타내는 명사들 은 아니나, 요동치는 어떤 상황이나 변화와 이동을 표현하는 동사들과 결합됨 으로써 이상하면서도 불안한 느낌을 자아내는 이미지들로 변신한다.</s>
+        </p>
+        <p>
+          <s>이 느낌 은 “<quote type="direct" genre="poet">혈관 속에서 풋내 나는 수액이 비명을 지른다</quote>”, “<quote type="direct" genre="poet">땀냄새, 오줌 냄새, 바람 냄새를 헤친다 걷는다 뛴다</quote>”, “<quote type="direct" genre="poet">뛴다 먼지를 쓰고, 햇살을 젖히고, 질긴 불안으 로 목을 조르고, 조르고, 조르고, 조르고</quote>”라는 구절들에 나타나 있는 것처럼, 저 ‘<term type="concept">한정된 사물의 관조</term>’ 라는 방법을 통해 이루어진 것이 결코 아니다.</s>
+          <s>그것은 차라리 화자라는 언표 행위의 주체와 그 행위 속에서 진술되는 언표 /nonciation의 주체가 서로를 전제하면서 함께 뒤섞여 있는, 더불어 그 두 주 체를 감싸고 있는 어떤 기후와 시간과 음영과 분위기라는 그 모든 조건이 한데 결합되어 발생하는, 특정한 ‘<term type="concept">사건의 단독성</term>’hecwi於이거나 거기에서 뿜어져 나오는 <term type="concept">정념</term>passion 에 가깝다.</s>
+          <s>그렇다.</s>
+          <s><persName ref="#p-x31">윤예영</persName>의「<title level="a" type="poem" xml:id="t-72">저녁 7시, 소극</title>」은 결코 사물의 ‘<quote type="direct" genre="poet">표면</quote>’ 과 W 에 시적 시 선을 두지 않는다.</s>
+          <s>오히려 시인이 온몸을 대해 자신의 집중력을 투자하는 자리 는 자아와 세계, 주체와 객체, 인간과 자연이 그 모든 경계를 가로질러 그것들 이 한데 뒤섞이면서 발생하는 그 어떤 ‘<term type="concept">단독적 사건</term>’ 의 장소이다.</s>
+          <s>그리고 이 자 리에서 저 ‘<term type="concept">화폐로서의 언어</term>’ 에 애초부터 달라붙어 있는 지시작용designation 의 사이 공간을 뚫고 ‘<term type="concept">실재</term>’ 가 시의 표면으로 솟아오른다.</s>
+          <s>그러므로 이때 시의 ‘<quote type="direct" genre="poet">표면</quote>’ 에 새겨지는 것은 결코 ‘<term type="concept">감각</term>’ 그 자체뿐이거나, 그 어떤 특정한 이념의 불꽃을 표상하는 그것이 아니다.</s>
+          <s>차라리 그것은 ‘<term type="concept">사건의 단독성</term>’ 그 자신이 스入듡 발산하는 결코 정언명법（定言明法）을 사용할 수 없는 불가해한 ‘<term type="concept">실재</term> 에 가깝다.</s>
+        </p>
+        <p>
+          <s>그러므로 이 ‘<term type="concept">실재</term>’ 는 우리에게 이미 안정화되어 있는 어떤 표상 체계 와 이미 확립되어 있는 백과사전적 지식의 체계와 이미 친숙해져버린 예술 형 식의 정형화된 패턴들로 포착되지 않는 ‘<quote type="direct" genre="poet">빈 페이지</quote>’, 곧 ‘<term type="concept">공백</term>’ 자체를 표시한 다.</s>
+          <s>그리고 그것은 바로 그 자리에서 저 오래된 ‘<term type="concept">재현</term>’ 의 원리를 벗어난다.</s>
+          <s>그 리고 그것은 우리가 선취하고 있는 특정한 표상의 체계를 초과해 있는 ‘정원외 적 * wmuni句aire인 시건을 통해서만 현시된다.</s>
+          <s>시와 시적인 것은 바로 이러 한 안정화된 여러 구조들 바깥에 현존하고 있는 ’ <term type="concept">실재</term> ‘를 현시하려는 ‘<quote type="direct" genre="poet">특이한</quote>’ singuher 언어이기 때문이다.</s>
+          <s>따라서 이러한 시의 언어는 <persName ref="#p-x5">바디우</persName>가 말했던 “<quote type="direct" genre="critic">시인들의 시대</quote>”의 시작품에서 볼 수 있는 것처럼, “<quote type="direct" genre="critic">대상이라는 범주</quote>”를 철폐시킬 뿐만 아니라, “<quote type="direct" genre="critic">주체와 객체 의 대립을 가로지르</quote>”는 것이다.</s>
+          <s>시인 <persName ref="#p-x31">윤예영</persName>이 “<quote type="direct" genre="poet">먼지를 쓰고, 햇살을 젖히고, 질긴 불안으로 목을 조르고, 조르고, 조르고</quote>”라고 진술하고 있는 것처럼 말이 다.</s>
+          <s>여기서 “<quote type="direct" genre="poet">먼지</quote>”, W, “목”은 주체의 시선에 의해 그 사용가치가 일목요 연하게 분류된 “<term type="concept">대상성의 범주</term>”로 귀속되지 않는다.</s>
+          <s>그것은 “<quote type="direct" genre="poet">쓰고</quote>”, “<quote type="direct" genre="poet">젖히고</quote>”, “<quote type="direct" genre="poet">조르고</quote>?</s>
+        </p>
+        <p>
+          <s>라는 술어（述語）와 결합됨으로써 “<quote type="direct" genre="critic">대상성의 범주를 철폐</quote>”시킬 뿐만 아 니라, <term type="concept">주체와 객체의 이원적 대립 관계</term>라는 현대 과학의 <term type="concept">인식론적 패러다임</term>을 파괴해버린다.</s>
+          <s>그리고 이 파괴를 통해서만 ‘<term type="concept">실재</term>’ 가 현시될 수 있는 ‘<term type="concept">존재론적 개방</term>’ 의 상황은 도래한다.</s>
+          <s>그리고 이 상황 속에서 “<term type="concept">거울</term>”이란 시어로 표상되는 <term type="concept">재현</term>의 원리는 근본적으로 무너진다.</s>
+          <s><term type="concept">재현</term>이 이루어지기 위해서는, 그것을 가 능하게 하는 <term type="concept">표상의 체계</term>가 그 재현 행위와 그 주체 이전에 미리 작동하고 있 어야 하기 때문이다.</s>
+          <s>이 작품에서 “<quote type="direct" genre="poet">여자, 검지로 거울을 겨눈다</quote>”고 진술된 것은 바로 이러한 <term type="concept">표상의 체계</term>에 의한 <term type="concept">재현의 원리</term>, 저 ‘<term type="concept">상징계</term>’ 의 질서에 대한 순종 적 내면화로부터 벗어나려는 움직임을 표현한다.</s>
+          <s>그러므로 이 작품의 종결부분에 나타난 ‘<quote type="direct" genre="poet">방아쇠를 당긴다</quote>”는 진술은 실제 행 위를 표상하고 있는 <interp value="critical" ana="미학">재현의 언어라고 보기 어렵다</interp>.</s>
+          <s>또한 그 행위가 실제적인것이든 환상적인 것이든, 또 의식적인 것이든 무의식적인 것이든, 그리고 그 표적의 대상이 실제의 남자이건 거울 속의 남자이건 간에, 그것의 명확한 식별 은 그다지 중요치 않다.</s>
+          <s>왜냐하면, 이 작품은 우리에게 이미 인지되어 있고 미 리 범주화되어 있는 특정한 대상을 우리 눈앞에 가져다가 다시 세우는 저 ‘<quote type="direct" genre="poet">재 현</quote>’ 의 정확성을 목표로 하지 않기 때문이다.</s>
+        </p>
+        <p>
+          <s>따라서 “포말이 인다/남자가 흩어 진다/<quote type="direct" genre="poet">여자가 합장을 한다</quote>/남자가 흩어진다/여자가 합장을 한다/남자가 흩어진 다/여자가 합장을 한다/남자가 흩어진다/여자가 숙이고 또 숙인다’’에서 “<quote type="direct" genre="poet">남자 가 흩어진다</quote>”와 “여자가 합장을 한다”라는 진술은 “남자’’와 “여자”라는 행위 주체와 객체라는 대상성의 범주로는 제대로 파악될 수 없으며, 또 이미 그 범 주를 넘어서 있는 것이다.</s>
+          <s>이것은 결국 “<quote type="direct" genre="poet">주체와 대상의 일치</quote>”라는 현대 과학의 진리 조건을 무너뜨리고 난 이후에야 비로소 개방되는 우리들 존재의 핵심에 자리 잡고 있는 “<quote type="direct" genre="poet">공백 또는 심연으로서의 실재</quote>”®.</s>
+          <s>Homer）가 현시되는 순간을 표현하는 것이다.</s>
+          <s>‘<quote type="direct" genre="poet">실재</quote>’ 는 현존하고 있다는 것은 알 수 있지만, 그 실체가 무엇인지는 제대로 파악할 수 없는 미지（未知）의 것인 동시에 그 의미의 공백이자 심연이다.</s>
+          <s>따라 서「저녁 7시, 소극」이 “<quote type="direct" genre="poet">잘게 부서지는 은칠 위로 사람을 닮은 허물이 떠오른 다</quote>”라는 구절로 그 막을 내리게 되는 것은 필연적인 것이다.</s>
+          <s>‘<quote type="direct" genre="poet">실재</quote>’는 저 ‘<quote type="direct" genre="poet">상징 계</quote>’ 의 언어 질서 바깥에 존재하는 것이 아니라 그것의 심부에 현존하는 ‘<quote type="direct" genre="poet">외상 적 중핵</quote>’ 이기 때문이다.</s>
+          <s>그리고 그 ‘<quote type="direct" genre="poet">빈자리</quote>’, 곧 ‘<quote type="direct" genre="poet">결여</quote>’ 를 채우기 위해서 W 이 도래시키는 것이 바로 ‘<quote type="direct" genre="poet">소문자 대상 a</quote>’ objet petit a이기 때문이다.</s>
+          <s>이것은 “<quote type="direct" genre="poet">공백이자 간극인 동시에 우리의 상징적 현실에서 그 간극을 순간적으로 메우 게 되는 모든 대상</quote>”6.</s>
+        </p>
+        <p>
+          <s>Homer）을 일컫는다.</s>
+          <s>따라서 이 작품에 나타난 “<quote type="direct" genre="poet">잘게 부 서지는 은칠</quote>”이라는 시어는 우선 일차적으로 저 <term type="concept">재현</term>의 ‘<quote type="direct" genre="poet">거울</quote>’ 이 파괴되고 난 이후에 생겨난 그 파편 조각들을 가리킨다.</s>
+          <s>더 나아가 그것은 ‘<term type="concept">실재</term>’ 의 침입으 로부터 나타나게 되는 ‘<term type="concept">상징계</term>’ 의 공백이자 간극인 동시에 그 결여를 덮는 ‘<term type="concept">소 문자 대상 a</term> 를 의미한다.</s>
+          <s>‘<quote type="direct" genre="poet">거울</quote>’ 이 재현의 원리를 작동시키는 ‘<term type="concept">상징계</term>’ 의 질서를 그 자체를 의미한다면, *1<quote type="direct" genre="poet">쇠를 당긴다</quote>”는 표현은 이 “거울”, 곧 ‘상징계’ 의 안정성을 무너뜨리는 저 ‘<term type="concept">실재</term>’ 와의 마주침을 표현하는 것이며, 그 속에서 «<quote type="direct" genre="poet">남자</quote>”가 지녀왔던 정체성은 “<quote type="direct" genre="poet">흩어질</quote>” 수밖에 없다.</s>
+          <s>그러므로 여자가 ‘‘<quote type="direct" genre="poet">합장</quote>”을 행위는 바로 그 ‘<term type="concept">정체성</term>’ 의 죽음에 대한 ‘<term type="concept">애도</term>’ mourning를 표현한다.</s>
+          <s>그렇다.</s>
+          <s>‘<quote type="direct" genre="poet">거울</quote>’을 파괴하는 행위는 그 ‘거울’ 속에 들어 있는 ‘<quote type="direct" genre="poet">남자</quote>’의 <term type="concept">정체 성</term>을 죽이는 것일 수밖에 없다.</s>
+          <s>그러나 이 ‘<term type="concept">실재</term>’ 의 현현과 동시에 곧바로 균열 이 일어난 저 ‘<term type="concept">상징계</term>’ 의 질서는 그 공백을 메우는 위한 기능을 작동시키기 시 작한다.</s>
+        </p>
+        <p>
+          <s>그것이 바로 ‘<term type="concept">소문자 대상 a</term> 이다.</s>
+          <s>이 작품에서 깨진 ‘<quote type="direct" genre="poet">거울</quote>’ 의 파편 조 각을 표현하는 “<quote type="direct" genre="poet">잘게 부서진 은칠W</quote>, 그리고 그 ‘<quote type="direct" genre="poet">위로</quote>’ “<quote type="direct" genre="poet">떠오르는</quote>” “사람을 닮은 허물•’이 바로 저 ‘<term type="concept">소문자 대상 a</term> 를 표현하는 것이다.</s>
+          <s>이 시의 표제가「<title level="a" type="poem" ref="#t-72">저녁 7 시, 소극</title>」일 수밖에 없는 까닭은, 우리가 앞에서 살펴 본 것처럼 그것이 정신 분석의 원리와 규칙들을 그것을 구성하는 <term type="concept">라이트모티프leitmotif</term>로 적극 활용 하고 있는 데에서 기원한다.</s>
+          <s>좀 더 자세하게 말하자면, ’ <term type="concept">상징계</term> ‘<quote type="direct" genre="poet">의 결여를 메우 는 것들인</quote> ’ <term type="concept">환상</term>과*’<term type="concept">소문자 대상 a</term> ‘는 “<quote type="direct" genre="critic">욕망의 대상이 아니라 그 무대이</quote>”기 때 문이다.</s>
+          <s>더 나아가 이것들은 욕망을 상연하기 위한 ’ <term type="concept">일종의 스크린</term> ‘<quote type="direct" genre="poet">이자 그</quote> ’ <term type="concept">비어있는 표면</term>‘<quote type="direct" genre="poet">, 곧</quote> ’<term type="concept">욕망의 미장센</term> ‘이기 때문이다.</s>
+          <s>그리고 이것들은 어떤 하 나의 실체로서의 대상이 아니라, 그 대상의 빈 공간 곧 ’ <term type="concept">결여</term> ‘ 그 자체이자 그 것을 순간적으로 메워주는 그 모든 대상을 의미하기 때문이다.</s>
+          <s>그리하여, 이 무대에서 상연되는 ‘<title level="a" type="poem" xml:id="t-73">저녁 7시 소극</title>’ 을 비롯한 그 모든 삶의 연극은 결코 완성 되거나 종결될 수 없다.</s>
+          <s>그것은 끝끝내 만족될 수 없는 저 ‘<term type="concept">공백</term>’ 이라는 ‘<term type="concept">삶의 아포리아쌔"</term>’（<persName role="critic" xml:id="p-x32">조강석</persName>）를 낳을 수밖에 없기 때문이다.e......） 지금은 음악의 계절.</s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="other">떠날 때에 다시 만날 것을 믿는다</quote> 는 옛 소절은다시 오지 않는다.</s>
+          <s>나팔꽃처럼 창문이 지면 몸의 욕조를 열고 너의 뻑 뻑한 털을 빨아줄게.</s>
+          <s>칫솔보다 부드러운 나의 이i로.</s>
+          <s>오오 오늘의 창문은 기후에 맞게 배열되고 오늘의 나는 창문의 각도에 맞게 촬영되었다 아무도 지나지 않는이 골목은 이미 편집되었는지도 몰라.</s>
+          <s>지금은 음악의 계절.</s>
+          <s>우리가 떠나온 적도의 묘비들은 태양의 열매처럼 기억애호가들의 소장품으로 쌓일 것이다.</s>
+          <s>누군가 먼지 를 후후 털고 애장품을 내놓아 판매수익금으로 추억에 기여할 것이다.</s>
+          <s>무덤을 뛰 쳐나온 우리는 유골함에 알맞은 규격으로 해체되었지만.</s>
+        </p>
+        <p>
+          <s>지금은 음악의 계절.</s>
+          <s>우 리가 뿌리는 영혼의 뼛가루는 음악이 불면 흡어져 번식할 것이다.</s>
+          <s>우리가 공유한 건 시간의 큐사인.</s>
+          <s>오늘의 장면엔 행인들이 많구나.- <persName role="poet" xml:id="p-x33">이민하</persName>, r<title level="a" type="poem" xml:id="t-x9">음악이 분다</title>j 부분, r<title level="j" type="journal" xml:id="t-x10">현대문학</title>丁 <date when="2008">2008</date>.12“<quote type="direct" genre="poet" source="음악이 분다">지금은 음악의 계절</quote>”이라는 시어를 일종의 후렴구처럼 7번이나 반복하는 「<title level="a" type="poem" ref="#t-x9">음악이 분다</title>」는, 앞에서 살펴본「<title level="a" type="poem" xml:id="t-74">저녁, 7시 소극</title>」처럼 명징한 ‘<term type="concept">감각적 이미지</term>’ 들의 사이 공간에서 불가해한 ‘<term type="concept">실재</term>’ 의 형상들이 나타날 수 있는 저 ‘<term type="concept">공백</term>’ 의 자리를 열어젖히기는 하지만, 그것과는 다른 자신만의 고유한 특징을 소유한 다.</s>
+          <s>“<quote type="direct" genre="poet" source="음악이 분다">무덤을 뛰쳐나온 우리는 유골함에 알맞은 규격으로 해체되었지만</quote>”이란 구 절에서 알 수 있듯, 그 특장은 화자가 살아 있는 인간이 아니라, 죽은 사람의 영혼이라는 데에서 발생한다.</s>
+          <s>그러나 이 영혼의 목소리는 여타의 다른 시인들 의 작품들과는 달리 신화와 전설이라는 현대 문명 바깥의 아생적 자연으로 회 귀하지 않는다.</s>
+          <s>그것은 오히려 우리들이 살아가고 있는 도시의 거리를 배회하 는 ‘<term type="concept">산책자</term>’ /7』neur처럼, <term type="concept">현대성</term>의 그 모든 세련된 산물들을 주유（周遊）한다.</s>
+          <s>그것은 예컨대 이런 것들이다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet">유니폼을 입은 미화원이 레코드가게 점원/처럼 바닥을 쓸며 가로수들을 가지런히 진열한다</quote>”, “<quote type="direct" genre="poet">모퉁이마다 구겨앉은 건물의 유 리창들은 조조영화의 영사기사처럼 필름을 돌린/다.</quote></s>
+          <s>”, “<quote type="direct" genre="poet">휴일은 물고기의 혈관 에 주입할 관람료를 요구/한다</quote>”, “<quote type="direct" genre="poet">패트롤카가 거 리의 체온을 분리수거하고 우 린 냉장고에/누워 불편한 잠을 자야겠지</quote>”, “<quote type="direct" genre="poet">우리가 떠나/온 적도의 묘비들은 태양의 열매처럼 기억애호가들의 소장품으로 쌓/일 것이다.</quote></s>
+          <s>”, “<quote type="direct" genre="poet">누군가 먼지를 후후 털고 애장품을 내놓아 판매수익금으/로 추억에 기여할 것이다</quote>” 등과 같은 시구절들말이다.</s>
+          <s>이 구절들 가운데 “<quote type="direct" genre="poet">휴일은 물고기의 혈관에 주입할 관람료를 구입할 것이 다</quote>”, “<quote type="direct" genre="poet">우리가 떠나온 적도의 묘비들은 태양의 열매처럼 기 억애호가들의 소장품 으로 쌓일 것이다</quote>”, “<quote type="direct" genre="poet">누군가 먼지를 후후 털고 애장품을 내놓아 판매수익금으 로 추억에 기여할 것이다</quote>” 등과 같은 것들은 이 작품의 시적 시선이 비단 현대 세계의 화려하고 세련된 이미지들만을 수집하고 고구하는 저 ‘<term type="concept">고현학</term>’（考現學） 에 머무르지 않는 것을 분명하게 알려준다.</s>
+          <s>여기에 나타난 “<quote type="direct" genre="poet">휴일</quote>”과 “<quote type="direct" genre="poet">관람료</quote>”, “<quote type="direct" genre="poet">묘비</quote>”와 “<quote type="direct" genre="poet">소장품</quote>”, 그리고 “<quote type="direct" genre="poet">애장품</quote>”과 “판매수익금’’은, 그것들이 한 문장 안에 놓여 있다는 그 사실만으로도 우리들 세계의 저 끔찍한 ‘<term type="concept">교환가치</term>’ 의 통제시스 템을바로 우리 눈앞에 펼쳐서 보여준다.</s>
+          <s>그렇다.</s>
+          <s>이 세계에서는 “<quote type="direct" genre="poet">휴일</quote>”의 여유 를 만끽하기 위해 반드시 “<quote type="direct" genre="poet">관람료</quote>”라는 화폐를 지불해야만 하고, 이미 신（神）의 자리로 올라가버린 저 ‘<term type="concept">교환가치</term>’ 라는 악마에게 영혼조차 필아치울 수 있는 것 처럼 한 인간의 “<quote type="direct" genre="poet">묘비</quote>”는 “<quote type="direct" genre="poet">기억애호가들의 소장품</quote>”으로 둔갑할 것이며, “<quote type="direct" genre="poet">먼지 를후후 털</quote>" 정도로 긴 시간이 흐른 뒤에 그 “<quote type="direct" genre="poet">애장품</quote>”은 ‘판매수익금”이라는 화 폐로 다시 교환될 것이다.</s>
+          <s>.<interp value="affirmative" ana="미학">「음악이 분다」가 지니는 탁월한 매력은 바로 여기에 있다.</interp></s>
+        </p>
+        <p>
+          <s>이 시는 살아 있는 인간이 아닌 죽은 자의 영혼, 곧 유령을 화자로 내세우고 있음에도 불구하고, 현대 세계의 세련된 상품미학과 그 감각적 이미지들을 시의 표면에 경쾌하게 새기고 있을 뿐만 아니라, 그 아름다움이 얼마나 천박한 ‘<quote type="direct" genre="poet">교환가치</quote>’ 시스템의 지배 아래서 유통되고 있는지를 폭로해주고 있기 때문이다.</s>
+          <s>그렇다.</s>
+          <s>이 시는 “<quote type="direct" genre="poet">음악이 분다</quote>”는 표현처럼, “음악’이라는 바람이 현대성의 그 화려한 인공적 생산품들 모두를 살짝 건드리고 지나가는듯한 경쾌한 리듬감을 지니고 있으면 서도, 그 이미지들마다 “<quote type="direct" genre="poet">목이 쉰</quote>”,"내 고막을 찢은; “<quote type="direct" genre="poet">핏물로</quote>”, “<quote type="direct" genre="poet">진물이 줄줄 흐르는</quote>”, “<quote type="direct" genre="poet">묘비들</quote>”, “<quote type="direct" genre="poet">유골함</quote>”, “<quote type="direct" genre="poet">영혼의 뼛가루</quote>” 등과 같은 어둡고 음습한 시어 들을 깔아놓음으로써, ‘<quote type="direct" genre="poet">상징계</quote>’ 질서의 안정성을 균열시키는 불온한 느낌과 불 가해한 형상의 이미지들을 새롭게 탄생시킨다.</s>
+          <s>그리고 이 경쾌한 리듬감과 불 온한 느낌의 이미지들은 서로 마주보고 함께 울리면서 상호 이질적인 것들을한 자리로 거두어들이는 저 ‘<quote type="direct" genre="poet">헤테로토피아heterotopia의 세계</quote>’ （고봉준）를 도 래하게 만든다.</s>
+          <s>그리하여 이 시는 ‘<quote type="direct" genre="poet">그로테스크 동화</quote>’ 라고 명 명될 수 있을, 한국 시에서는 다소간 낯선, 불안하면서도 경쾌하고 섬뜩하면서도 황홀한 ‘<quote type="direct" genre="poet">불온한 쾌감</quote>’과 ‘<quote type="direct" genre="poet">기괴한 신비</quote>’ 의 미학을 도래하게 만든다.</s>
+          <s>저 ‘<quote type="direct" genre="poet">그로테스크 동화</quote>’ 의 미학은 ‘<quote type="direct" genre="poet">상징계</quote>’ 의 언어 질서 바깥에 현존하고 있었 던 ‘<quote type="direct" genre="poet">공백</quote>’ 으로서의 ‘<quote type="direct" genre="poet">실재</quote>’ 를 시의 표면에 새길 뿐만 아니라, 그 질서에 이미 깃 들어 있는 자본주의 세계의 구조적 시스템을 폭로하고 조롱하는 정치적인 차 원을 향해 나아간다.</s>
+          <s>이 시에 나타난 ‘<quote type="direct" genre="poet">영혼의 뼛가루</quote>’ 와 ‘<quote type="direct" genre="poet">음악</quote>’ 과 ‘시’ 는 모두 자본주의적 교환가치라는 ‘<quote type="direct" genre="poet">상징계</quote>’ 의 질서에서는 결코 계산될 수 없는 잔여（殘 餘）에 불과할 뿐이다.</s>
+          <s>그러나 “<quote type="direct" genre="poet">쓸모없는 아름다움만이 우리를 구원할 것이다</quote>” 라고 시인 이제니가 말했던 것처럼, ‘<quote type="direct" genre="poet">계산되지 않는 잔여</quote>’ 이자 “쓸모없는 아름 다움’’만이, 그리고 그것을 고통의 환희로써 기꺼이 향유 jouissancW할 수 있 는 그 “<quote type="direct" genre="poet">영혼</quote>”의 순정함만이 “우리를 구원할” 수 있을 것이다.</s>
+        </p>
+        <p>
+          <s>용산 철거민들을 불바다의 사지로 내몬 저 <term type="concept">개발자본주의</term>의 폭정과 마주치고 있는 현재 한국사 회의 정치적 조건에서라면 더더욱 말이다.</s>
+          <s>이러한 ‘시’와 ‘<quote type="direct" genre="poet">음악</quote>’의 무섭고도 위대한 ‘<term type="concept">감염력</term>’ the intensive affects, 곧 오직 예술적 사유만이 가질 수 있 는 그 특이한 역능puissance을 시인 <persName ref="#p-x33">이민하</persName>는 다음과 같은 문양의 이미지들로 기록한다.</s>
+          <s>“<quote type="direct" genre="poet" source="이민하">우리가 뿌리는 영혼의 뼛가루는 음악이 불면 흩어져 번식할 것이 다.</quote></s>
+          <s>
+            <quote type="direct" genre="poet" source="이민하">우리가공유한 건 시간의 큐사인.</quote>
+          </s>
+          <s>오늘의 장면엔 행인들이 많구나7’라고.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>4.	‘숭고’ 의 epiphany:</head>
+        <p>
+          <s>“일체의미를 넘어서는 것’’ , ‘<term type="concept">숭고</term>’의 도래와 새로운 ‘<term type="concept">정치시</term>’의 현현좁은 부엌 시멘트 바닥에 엉덩이 까고 오줌을 갈겨도아무도 욕하지 않는 이곳가끔삶이 쉬러 가자한다간밤에 무슨 일이 있었는지 누구도 무심한아침이면 멀쩡하게 출근을 하고 슈퍼에 가고 산에도가고맑은 햇살에 눈 못 뜨는 나 같은 게 아니 라시원한 바람이 가슴속을 헤집어도그저 비슷한 것 같은땅위 삶이 뭐 대단치도 않으나자꾸만 읏크려지고 안으로 말리는 내 몸뚱이태어나면 모두 잊어버리지만엄마로부터 세상 소리들은 모두 듣는다는 자궁 속 태아이곳에서 다 드러내놓고 뒹굴뒹굴한다애기처럼자궁과 세상이 하나 될 때까지"<persName role="poet" xml:id="p-x34">김사이</persName>,「<title level="a" type="poem" xml:id="t-x11">숨어 있기 좋은 방</title>」부분, 후<title level="m" type="other" xml:id="t-x12">반성하다 그만 둔 날</title>J, <date when="2008">2008</date>.</s>
+          <s>9시인 <persName ref="#p-x34">김사이</persName>의「<title level="m" type="other" ref="#t-x12">반성하다 그만 둔 날</title>』에는 “<quote type="direct" genre="poet">생의 불륜</quote>”이라는 시어로 표상되 는 자신의 탄생에 얽힌 지독한 <term type="concept">분열감</term>과 “<quote type="direct" genre="poet">젊음의 덫</quote>”이라는 말로 비유되는 청 춘의 방황과 “<quote type="direct" genre="poet">출렁이는 내게</quote>”라는 이미지로 표현되는 성장의 모티프들과 “<quote type="direct" genre="poet">가 이아</quote>”라는 대지의 모신（母神）으로 비유되는 헌신의 정념이 동시에 깃들어 있 다 그리고 이것들은 처절한 분열감으로부터 강인한 헌신의 자세로 나아가려 는 시인 내면의 처절한 싸움과 <term type="concept">성장통</term>의 드라마를 감동적으로 기술한다.</s>
+          <s>그리 고 이 감동은 시인이 자신 마주칠 수밖에 없었던 ‘<term type="concept">아이러니</term>’ 를 정직하게 드러 내는 자리에서 발생한 것이기에, 경건한 실존적 울림의 상황을 가져다준다.</s>
+          <s>“<quote type="direct" genre="poet"><lg type="stanza"><l>무슨 짓을 해도 티가 나지 않을 것 같이 거리낌 없었던/떠나고자 몸부림쳐도 구로동이었다/내 시가 시작된 곳/젊음의 덫이기도 했던 이 거리 구석구석 몸에</l></lg><lg type="stanza"><l>새겨졌다//떠나야겠다/시가 너무 오래 머물러 있었다</l></lg></quote>”（「<title level="a" type="poem" xml:id="t-x13">머물기 위해 떠나다</title>」） 고 시인이 노래할 때, 그것은 “젊음의 덫”이라는 빼어난 시어처럼 夕1리봉”의 “거리 구석구석”이 시인의 “<quote type="direct" genre="poet">몸에 새겨져</quote>” 있는 바로 그 절실한 몸의 리듬에서 나온다.</s>
+          <s>그렇다.</s>
+          <s>그의 시가 우리들에게 아픈 감동을 절실하게 가져다주는 까닭 은 바로 이 자리에 있다.r<title level="m" type="other" ref="#t-x12">반성하다 그만둔 날</title>』은 시인 자신의 “<quote type="direct" genre="poet">몸에 새겨진</quote>” ‘<term type="concept">아이러니</term>’ 를 정직하게 발설할 수밖에 없는 너무나 절실한 몸의 노래로 이루어 져 있기 때문이다.</s>
+          <s>한국 <term type="concept">자본주의</term>의 배수구인 夕＞리봉’” 에서 시인이 목도하게 된 것은 “<quote type="direct" genre="poet">누가 들 고 나는지 모르는 벌집들</quote>”이며, ‘<quote type="direct" genre="poet">한쪽 방에서 가늘고 거친 숨소리가 뒤엉켜 절 정에 다다르는</quote>’ 저 맨살덩어리들의 적나라한장면들이며, “<quote type="direct" genre="poet">다른쪽방에서는 악 다구니와 와장창 소리가 장단을 맞추</quote>”는 생의 그 모욕됨이며, “<quote type="direct" genre="poet">좁은 부엌 시멘 트 바닥에 엉덩이 까고오줌을 갈겨도/아무도욕하지 않는</quote>” 저 바닥의 삶들에게 이미 얼크러져 있는 무관심과 냉소라는 이름의 황폐함이다.</s>
+          <s>시인은 이 황폐한 삶의 풍경들에서 벗어나고 싶은 자신의 충동을 “<quote type="direct" genre="poet">가끔 삶이 쉬러 가자 한다</quote>”라는 문장으로 압축한다.</s>
+        </p>
+        <p>
+          <s>그리고 이것을 견뎌내려는 자신 내면의 싸움을 다음과 같 이 기록한다.</s>
+          <s>"<quote type="direct" genre="poet">땅 위 삶이 뭐 대단치도 않으나/자꾸만 웅크려지고 안으로 말리 는 내 몸뚱이</quote>”라고.</s>
+          <s>그리하여, 이 “<quote type="direct" genre="poet">몸뚱이</quote>”는 필연코 그 모든 다툼과싸움을 제 거한 상태, 곧 외부의 자극으로부터 발생하는 그 모든 긴장 상태와 흥분과 고 통의 에너지를 회피하거나 최대한 축소하려는 ‘<quote type="direct" genre="poet">쾌락원칙</quote>’pleasure principle 을 낳는다.</s>
+          <s>"<quote type="direct" genre="poet">자궁 속 태아</quote>”라는 시어는 바로 저 ‘<quote type="direct" genre="poet">쾌락원칙</quote>’ 을 표상하는 비유어 이기 때문이다.</s>
+          <s>그러나 “<quote type="direct" genre="poet">자궁 속 태아</quote>”는 “엄마로부터 세상소리들을 모두 듣는다는’’이란 수 식어와 결합됨으로써 그 의미의 단순성을 넘어 ‘<quote type="direct" genre="poet">아이러니</quote>’ 의 세계로 진입한다.</s>
+          <s>그것은 세상의 “<quote type="direct" genre="poet">거친 숨소리</quote>”와 "<quote type="direct" genre="poet">악다구니</quote>”와 “<quote type="direct" genre="poet">와장창 소리</quote>”를 귀를 막고 듣지 않으려 하는 것이 아니라, 오히려 “<quote type="direct" genre="poet">엄마로부터 세상 소리들을 모두 듣는다는</quote>” 상태를 꿈꾸는 것이기 때문이다.</s>
+          <s>그리고 “<quote type="direct" genre="poet">세상 소리들</quote>”이 “이 곳에서 다 드러내놓고 뒹굴뒹굴한다’’고 말할 수 있는 강인한 수용력’ 의 경지로 나아가려는 충 동을 그 자체로 머금고 있기 때문이다.</s>
+          <s>그렇다.</s>
+        </p>
+        <p>
+          <s>이렇게 되는 순간은 “<quote type="direct" genre="poet">애기처럼/ 자궁과 세상이 하나</quote>”가 되는 바로 그 “<quote type="direct" genre="poet">때</quote>”일 수 있을 것이다.</s>
+          <s>그러나 시인은 그 순간이 아직도 여전히 단 한 번도 도래하지 않았음을, “<quote type="direct" genre="poet">될 때까지</quote>”라는 아직 완 성되지 않은 어떤 것의 진행 상태를 의미하는 어미를 활용해 표현한다.</s>
+          <s>이 어 미는 “<quote type="direct" genre="poet">자궁과 세상’이 U하나</quote>”가 되는 바로 그 순간을 지향하고 있는 것이므로, 결코 자폐적인 <term type="concept">나르시시즘</term>의 상태나 순결하기는 하지만 홀로 무기 력할 수밖에 없는 저 4<term type="concept">단독자</term>’ 의 상태를 꿈꾸지 않는다.</s>
+          <s>차라리 그것은 시인이 세계의 그 모 든 얼룩들과 소란들과 난리법석들을 사심（私心） 없는 눈으로 바라볼 수 있는 “<quote type="direct" genre="poet">애기</quote>”의 상태를 지향한다는 것을 알려준다.</s>
+          <s>“<quote type="direct" genre="poet">애기</quote>”의 상태란 결국 세상 그 모든 외부 자극으로부터 오는 긴장 상태와 흥 분량을 영WW의 상태로 만들고, 그러한 상태가 지극한 복락이 작동하는 역설 적인 상태, 곧 ‘<term type="concept">열반원칙</term>’ 을 비유하고 있는 것이 아니냐는 반론이 제기될 수 있 을 것이다.</s>
+          <s>그러나 “<quote type="direct" genre="poet">세상 소리들</quote>”을 “<quote type="direct" genre="poet">다 드러내놓고 뒹굴뒹굴</quote>’’할 수 있는 “<quote type="direct" genre="poet">이 곳</quote>”이란, 개인적 열반의 수행이 이루어지고 있는, 신성하기는 하지만 끝끝내 홀로만 순결할 수 있는.</s>
+          <s>저 먼 곳의 숲과 사원이 결코 아니다.</s>
+          <s>차라리 “<quote type="direct" genre="poet">이곳</quote>”은 순정한 마음과 강인한 수용력을 동시에 품을 수 있고 그것을 그대로 보존할 수 있는 유일한 자리, 아니 세상에 더렵혀지면서도 끝끝내 그것과 맞서 싸울 수 있는 ‘<term type="concept">정직한 용기</term>’와 ‘<term type="concept">순결한 아이러니</term>’ 가 동시에 뿜어져 나오는 자리이다.</s>
+        </p>
+        <p>
+          <s>그리고 그것을 지켜내고 단련하기 위해서는, “<quote type="direct" genre="poet">가끔 삶이 쉬러 가자 한다</quote>”는 그 절실한몸의 소리를 들어야만한다.</s>
+          <s>그리하여 이 시의 제목처럼, 엄마의 “<quote type="direct" genre="poet">자궁</quote>” 속 같은 “<quote type="direct" genre="poet">숨어 있기 좋은 방</quote> ”은 아주 ‘<quote type="direct" genre="poet">가끔</quote>’ 은 필요한 수밖에 없는 것이다.</s>
+          <s>이 “방”에서는 여전히 <term type="concept">나르시시즘</term>과 <term type="concept">소비</term>의 충동으로 얼룩진 <term type="concept">자폐적인 중독증</term>이 아니라, ‘‘<quote type="direct" genre="poet">자궁과 세상이 하나 될 때까지</quote>”라는 간절한 염원과 <term type="concept">생성과 창조</term>의 목 소리가 울려 퍼지고 있기 때문이다.</s>
+          <s>그리고 이 “방”에서 보존된 <term type="concept">생성과 창조의 에너지</term>는, 그것이 그 바깥의 세상을 향해 나아갈 때, 다음과 같은 문양들로 이루어진 “<term type="concept">강인한 모성</term>’’의 이미지를 얻는다.</s>
+          <s><quote type="direct" genre="poet" source="개심사"><lg type="stanza"><l>고요하고 적막한 긴 연못 입구</l></lg><lg type="stanza"><l>커다란 고사목 겨드랑이에서 작은 나무가 자라고 있다</l></lg><lg type="stanza"><l>줄기를 뻗어 바람결에 노니는 것처럼 하늘거린다</l></lg><lg type="stanza"><l>어느 홀씨 하나 날아와 안식처로 삼았나 보다</l></lg><lg type="stanza"><l>고사한 나무는 모든 영양분을 거기에 모았나 보다</l></lg><lg type="stanza"><l>몇 가닥 가지들이 싱싱하게 커 가고</l></lg><lg type="stanza"><l>내 몸 가랑이나 입으로 어느 씨앗이 뿌리를 내린다면</l></lg><lg type="stanza"><l>죽은 내 몸뚱이는 그 씨앗 자연스레 받을 수 있을까</l></lg><lg type="stanza"><l>구천을 떠도는 내 영혼이 고사목처럼 썩어가는 살덩이에 마른 피 한 방울이라도 짜내려 육신을 떠나지 않을는지 죽은몸안에 또한생명을 키울수 있다는</l></lg><lg type="stanza"><l>어디까지 해보겠다는 건가</l></lg><lg type="stanza"><l>징그러운 아주 징그러운</l></lg><lg type="stanza"><l>난 죽은 건지 구원받은 건지</l></lg><lg type="stanza"><l>온 몸뚱이 근질근질해지며 거꾸로 치솟는다</l></lg></quote>-<persName ref="#p-x34">김사이</persName>,「<title level="a" type="poem" xml:id="t-x14">개심사</title>」부분, r<title level="m" type="poem" xml:id="t-x15">반성하다 그만둔 닐丁</title> <date when="2008">2008</date>.9시인은 “개심人F에 가서 “<quote type="direct" genre="poet">커다란 고사목 겨드랑이에서 작은 나무가 자라나 고 있</quote>”는 자연 현상의 한 장면을 목도한다.</s>
+          <s>그리고 그 장면에서 하나의 “<quote type="direct" genre="poet">작은 나무</quote>”가 “<quote type="direct" genre="poet">몇 가닥 가지들을 싱싱하게 커갈</quote>” 수 있도록, 제 죽은 온몸을 다해 새 로운 생명의 밑거름이 되어주고 있는 “<quote type="direct" genre="poet">고사한 나무</quote>”의 경건한 헌신의 자세를 읽는다.</s>
+          <s>그리고 자기 자신에게 “<quote type="direct" genre="poet">고사목</quote>”의 이러한 자세를 실천할 수 있는 용기와 충실한 순정이 있는지를 묻는다.</s>
+          <s>그리고 <interp value="affirmative" ana="미학">이 물음에는 그 어떤 가식적인 자 기 과장도 깃들어 있지 않은 것 같다.</interp></s>
+        </p>
+        <p>
+          <s>시인은 오히려 “<quote type="direct" genre="poet">내 몸 가랑이나 입으로 어느 씨앗이 뿌리를 내린다면/죽은 내 몸뚱이는 그 씨앗 자연스레 받을 수 있 을까</quote>’라는 구절에서 볼 수 있는 것처럼, 스스로를 확신하지 못하는 다소 <term type="concept">회의</term> 와 <term type="concept">주저</term>가 섞인 목소리를 내놓는다.</s>
+          <s>더 나아가 시인은 그 자신을 “<quote type="direct" genre="poet">구천을 떠도 는</quote>”, “<quote type="direct" genre="poet">썩어가는 살덩이에 마른 피 한방울이라도 짜내려</quote>”는 목적으로 “<quote type="direct" genre="poet">육신을 떠나지 않을는지</quote>”를 의심할 수밖에 없는 헐벗은 영혼으로 묘사한다.</s>
+          <s>
+            <interp value="neutral" ana="사회">타자들에게 선행과 호의를 베푸는 것은 아름다운 행위임에 틀림없지만, 그 행위에 사회적 선분segment과 그 권력의 배치에 대한 명민한 고려가 개입되 어 있지 않을 가능성은 매우 적다.</interp>
+          </s>
+          <s>또 그것은 자기의 <term type="concept">나르시시즘</term>적인 만족과 희열을 목표로 한 것일 수도 있다.</s>
+          <s>이것은 타자를 위한 선행이 결국 사후（事後） 에 자신에게 되돌아올 이익을 내다본 <term type="concept">자기 배려</term>’ 에서 나올 수 있다는 것을 의 미한다.</s>
+          <s>그리고 이러한 <term type="concept">자기 배려</term>’ 는 결코 자신의 혼란과 주저와 의심을 기꺼 이 바깥으로 내보일 수 없다.</s>
+          <s>그것은 삶의 매 순간마다 마주치게 될 수밖에 없 을 그 숱한 ‘<term type="concept">아이러니</term>’ 의 순간들을 정직하게 대면하려 하지 않기 때문이다.</s>
+          <s>그 것이 목표로 하는 바는 사후적으로 되돌려 받게 될 자신의 사회적 이권과 명 예, 그리고 자신의 황홀한 <term type="concept">나르시시즘</term>에 있기 때문이다.</s>
+        </p>
+        <p>
+          <s>따라서 그것에는 <persName ref="#p-x14">신형 철</persName>이 ‘<quote type="indirect" genre="critic">몰락의 에티카</quote>’ 라고 부른, 몸이 찢겨져 나가는 그 극한의 순간에서만 명 징하게 나타날 수 있는 영혼의 순정과 <term type="concept">봉헌의 정념</term>이 깃들어 있지 않다.</s>
+          <s>그렇 다.</s>
+          <s>자신의 <term type="concept">몰락</term>과 부정성을 정직하게 마주칠 수 있는 자만이 저 ‘<term type="concept">순결한 아이 러니</term>’를 품을 수 있고, 극단적 선택을 강요하는 그 ‘몰락’ 의 순간에도 겸허하 면서도 당당하게 그것을 향해 걸어 들어갈 수 있는 ‘<term type="concept">정직한 용기</term>’ 를 가질 수 있 다.</s>
+          <s>그리고 극한의 순간에서만 빛을 발하는 겸허함과 당당함의 동시적 공존이 야말로 참으로 ‘<term type="concept">윤리적인 것</term>’ 일 수 있으며, 이것을 수용할 수 있는 주체만이 ‘<term type="concept">몰락의 에티카</term>’ 를 실천할 수 있을 것이다.</s>
+          <s>그리고 이러한 ‘<term type="concept">몰락의 윤리</term>’ 가 실 천되는 시간은 곧 ‘<term type="concept">승고</term>’ 가 도래하는 바로 그 순간이기도 하다.</s>
+          <s>“<quote type="direct" genre="foreign">숭고는 하나의 느낌이되 일상적인 의미의 느낌을 능가하는, 바로 그 한계에 다다른 주체가 겪는 느낌이</quote>”며, 바로 그 ‘<term type="concept">승고의 느낌</term>’ 은 “<quote type="direct" genre="foreign">그러한 느낌과 주관 성의 반대편에서 일어난다.</quote></s>
+          <s>”(<persName role="foreigner" xml:id="p-jl">J-L.</persName></s>
+          <s><persName role="foreigner" xml:id="p-nancy">Nancy</persName>) 시인은 “<quote type="direct" genre="poet">개심사</quote>”에 가서 이미 죽어 버린 “<quote type="direct" genre="poet">고사목</quote>”에게서 ‘<term type="concept">숭고</term>’ 를 느낀다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet">죽은 몸 안에 또 한 생명을 키울 수 있 다는</quote>” 저 “<quote type="direct" genre="poet">고사목</quote>”이 “<quote type="direct" genre="poet">작은 나무</quote>”라는 가녀린 생명을 위해 내어놓는 ‘<term type="concept">봉헌</term>’ 이 라는 사건을 통해서 말이다.</s>
+          <s>그러므로 ‘<term type="concept">숭고</term>’ 의 시간은 그것을 느끼는 주체에 게 “<quote type="direct" genre="poet">스스로의 무력함</quote>”을 느끼게 해줄 뿐만 아니라, 자신의 한계의 극한을 체험 하게 하는 <term type="concept">비극적 순간</term>을 가져다준다.</s>
+          <s>그러나 동시에 그 한계 너머로 도약할 수 있는 /<term type="concept">자유</term>’ 의 무한한 가능성을 그 자신에게 개방한다.</s>
+          <s>그러므로, 이 시간은 ‘<term type="concept">비극적 환희</term>’ 를 그 주체 자신의 몸 구석구석에 새기는 전율아 도래하는 시간 이기도 하다.</s>
+          <s>“<quote type="direct" genre="poet">어디까지 해보겠다는 건가/징그러운 아주 징그러운/난 죽은 건 지 구원받은 건지</quote>”라는 이 시의 종결 부분은 ‘<term type="concept">고사목</term>’ 이라는 ‘<term type="concept">숭고한 대상</term>’ 에 게 압도당한 바로 그 순간에 펼쳐졌던 시인 <persName ref="#p-x34">김사이</persName>의 온몸의 드라마를 축약하 여 표현한다.</s>
+          <s>여기서 “<quote type="direct" genre="poet">징그러운 아주 징그러운</quote>”이란 시어는 ‘<term type="concept">숭고한 대상</term> 앞 에서 그 주체가 취하게 되는 <term type="concept">무력감</term> 또는 <term type="concept">겸허함</term>을 표현하는 이미지들이며, “<quote type="direct" genre="poet">죽은 건지 구원받은 건지</quote>”는 그 ‘숭고한 대상 앞에서 발생하는 주체의 무력 감과 그 <term type="concept">진리체험</term>의 <term type="concept">환희</term>를 동시에 표현한다.</s>
+          <s>이것들은 모두 ‘<term type="concept">비극적 환</term>” 일 수밖에 없는 저 ‘<term type="concept">숭고</term>’ 가 도래하는 시간을 현시하고 있기 때문이다.</s>
+          <s>“<quote type="direct" genre="poet">온 몸뚱 이 근질근질해지며 거꾸로 치솟는다</quote>”고 말하면서, 시인이 자신의 이 작품을 종결지었던 바로 그 순간 말이다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>5.	‘정치시’ 의 새로운 가능성과 그 조건</head>
+        <p>
+          <s>시인 진은영은 최근 발표된 한 평론에서 시(예술)와 정치와 미학의 상호 역학 관계에 대한 랑씨에르(J.</s>
+          <s>RanciKre)의 빼어난 논의를 소개하면서 다음과 같이말했다.</s>
+          <s>“그것（‘<quote type="direct" genre="poet">예술의 특이성</quote>’ , ‘<quote type="direct" genre="poet">감성적 자율성</quote>’:인용자）은 세계의 낡은 감각 적 분배를 파괴하고 다른 종류의 분배로 변환시킴으로써 싦의 새로운 형태들 의 발명을 동반한다.</s>
+          <s>이런 의미에서 랑씨에르는 감성적 체제에서 예술로 식별 되는 활동을 정치와 조우시킨다.</s>
+          <s>그에게 정치는 감성적인 것을 새롭게 분배하 는 활동.</s>
+          <s>즉 감성적 혁명을 가져오는 활동에 다름 아니다.</s>
+          <s>”다 이 진술에서 우리 들이 반드시 착안해야 할 문제는, 시와 예술이 이미 확립되어 있는 감성적 질 서의 지도를 바꿔 놓으면서 일으키는 그 새로운 형식실험들이 정치적인 활동 과 연접되어 있다는 사실이다.</s>
+          <s>적어도 ‘<quote type="direct" genre="poet">정치</quote>’ 를 ”감성적인 것을 새롭게 분배하 는 활동, 즉 감성적 혁명을 가져오는 활동“이라고 보는 랑씨에르의 견해에 동 의할 수 있다면 말이다.</s>
+        </p>
+        <p>
+          <s>그러나, 시와 예술의 다양한 미학적 실험들과 그 새로운 형식적 창안 invention들 그 모두가 정치적인 차원을 향해 나아가는 것은 아닐 것이다.</s>
+          <s>그 것들이 우리의 현재적 삶의 다양한 조건들과 싸우는 삶과 정치의 차원으로 개 방되지 못한다면, 그것은 그야말로 4미학적 나르시시즘’ 이라는 ‘<quote type="direct" genre="poet">언어의 감옥</quote>’ 이거나, 실상 이 세계의 기성 질서와 투쟁할 의지를 전혀 가지고 있지 않은 다 만 체제 순종적인 형식 놀음에 불과할 것임에 틀림없기 때문이다.</s>
+          <s>또한 저 광 활한 삶과 정치의 대지로 뻗어나가지 못하고 형식과 미학이라는 좁다란 사원 에 스스로를 가두는 시와 예술은 ‘<quote type="direct" genre="poet">신기함</quote>’ 이라는 선정주의sensationaiisni로 짧은한 시절을 풍미할 수는 있겠으나, 그다지 긴 생명력을 가질 수 없다는 것 지극히 당연한 것이기 때문이다.</s>
+          <s>이러한 시와 예술은 사실상 그 자신이 가진 탁월한 능력과 가치, 그리고 그 무서운 감염력과 잠재력을 스스로 훼손하는 자 해 행위에 가깝다.</s>
+          <s>2000년대 한국시가 ‘<quote type="direct" genre="poet">미래파</quote>’ 의 형식주의적 편향을 넘어서 그것과 한편으로 단절하면서 동시에 다른 한편으로 그것 내부에 이미 존재해5 진은영,r감각적인 것의 분배」,『창작과 비평』142,2008 겨울, 106쪽.</s>
+          <s>왔던 정치적 저항성과 미학적 혁신성의 첨예한 만남들을 감싸면서 새롭게 나 아갈 수 있는 자리는 어디에 있는 것일까.</s>
+          <s>그것은 아마도 랑씨에르에 기대어 시인 진은영이 말했던, 바로 저 “<quote type="direct" genre="poet">감각적인 것의 지도를 바꿔놓는</quote>” 동시에 “<quote type="direct" genre="poet">감 성적 혁명을 가져오는 활동</quote>”을 적극적으로 펼칠 수 있는 바로 그 자리에 있을 것이다.</s>
+          <s>그리고 이 자리는 “<quote type="direct" genre="poet">삶과 정치가 실험되지 않는 한 문학은 실험될 수 없 다</quote>”는 그 시인의 말처럼, 삶과 정치의 문제에 정면으로 맞설 수 있는 다양한 ‘<quote type="direct" genre="poet">정치시</quote>’ 를 탄생시키는 장소가 될 수밖에 없을 것으로 예견된다.</s>
+        </p>
+        <p>
+          <s>한 걸음 더 나 아가, ‘<term type="movement">미래파</term>’ 담론을 사실상 지배했던 ‘<term type="concept">형식주의적 편향</term> 과 단절할 수 있는 <term type="concept">시와 정치와 미학의 새로운 만남</term>은 이 세 차원 모두를 충실하게 관통하려는 시 인의 고된 싸움을 통해서만 비로소 현현될 수 있을 것임에 틀림없다.</s>
+          <s>앞에서 살펴본, <persName ref="#p-x33">이민하</persName>의「<title level="a" type="poem" ref="#t-x9">음악이 분다</title>」가 한국시에 새롭게 현현시킨 저 ‘<term type="concept">그 로테스크 동화</term>’는 비록 직접적인 정치적인 전언을 담지하고 있거나 정치적인 문제를 형상화한 것은 아니지만, 이미 고정화되어 있는 우리들의 <term type="concept">감성의 지도</term> 를 바꾸고 있는 것은 분명한 사실인 듯하다.</s>
+          <s>이것은 또한 실용성과 <term type="concept">교환가치</term>를 추동력으로 삼는 <term type="concept">자본주의</term>의 정형화된 메커니즘과 시와 음악과 예술과 충돌할 수밖에 없는 지점을 새로운 리듬감으로 드러내주었다.</s>
+          <s>이 시가 지금 우리가 제 시하려고 하는 ‘<term type="concept">정치시</term>’의 가장 좋은 사례가 될 수는 없을 것이나, 적어도 <date from="1980" to="1989">1980년대</date> ‘<term type="movement">민중시</term>’ 와는 분명히 다른 ‘정치시’ 의 새로운 가능성을 열어서 보여 주고 있는 것 또한 사실인 듯하다.</s>
+          <s>시인 <persName ref="#p-x34">김사이</persName>는 ‘<term type="concept">숭고</term>’와 ‘<term type="concept">아이러니</term>’와 ‘<term type="concept">봉 헌</term>’ 의 그 ‘<term type="concept">사이 공간</term>’ 에서 자신의 시작 작업의 미학적 정수를 길어 올리고 있 는 것 같다.</s>
+          <s>어쩌면 이러한 ‘<term type="concept">사이 공간</term>’ 은 ‘<term type="concept">시</term>’ 와 ‘<term type="concept">정치</term>’ 와 넌1학’ 이 가장 탁월 하게 만날 수 있고 또 하나가 될 수 있는 유일한 장소일지 모른다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">시인 김사이 는 이 사실을 이미 온몸으로 체득하고 있는 듯하다.</interp>
+          </s>
+          <s>그의 시는 이 세 차원 가운 데서 그 어떤 것으로도 기울어지지 않으면서, 그것들의 ‘<term type="concept">사이 공간</term>?</s>
+        </p>
+        <p>
+          <s>에서 그 셋 모두를 긴장시킬 수 있는 <term type="concept">시작</term> 방법을 이미 터득하고 있는 것 같다.</s>
+          <s>그리고 이 방법은 그의 시작 태도와 <term type="concept">정치적 비전</term>과 그리고 <term type="concept">미학적 감각</term>에 모두 직결되어있다는 점에서, <interp value="affirmative" ana="미학">매우 강력한 힘을 발산하고 있는 것 같다.</interp></s>
+          <s>이 시인의 작업이 앞 으로도 최근 제기되고 있는 ‘<term type="concept">정치시</term>’ 에 새로운 비전을 제공할 수 있는 창조적 밑거름이 되기를 소망한다.</s>
+          <s>그의 시에 나타나는 저 ‘<term type="concept">고사목</term>’ 이 지닌 ‘<term type="concept">봉헌</term>’의 이미지처럼 말이다.</s>
+          <s>더 나아가 ‘<term type="concept">정치시</term>’의 새로운 비전 역시 ‘<term type="movement">미래파</term>’를 통과 하면서 <term type="concept">한국시</term>가 체득해왔던 <term type="concept">형식주의적 세련성</term>과 완전히 단절하는 것이 아니 라, 그 <term type="concept">미학적 역동성</term>을 감싸 안으면서 삶의 여러 고통들과 정치적인 문제들을 연접시키는 자리에서 탄생할 수밖에 없을 것이다.</s>
+          <s>‘<term type="concept">정치시</term>’ 를 우리들에게 제안 하고 있는 시인 <persName ref="#p-x11">진은영</persName>이 이미 아래와 같이 작업했던 것처럼.C......)<quote type="direct" genre="poet" source="진은영">베르테르의 슬픔</quote>에 비견할 성과가 필요하다적어도 내년 봄까지는.......</s>
+          <s>
+            <quote type="direct" genre="poet" source="진은영">
+              <lg type="stanza">
+                <l>젊은이를 비탄으로 몰아갈</l>
+              </lg>
+              <lg type="stanza">
+                <l>실업의 총알을.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet" source="진은영">
+              <lg type="stanza">
+                <l>죽음에 못 이른다면</l>
+              </lg>
+              <lg type="stanza">
+                <l>비정규직의 주황색 망토에 뚫린 동그란 구멍이라도</l>
+              </lg>
+              <lg type="stanza">
+                <l>그럴지도 몰라.</l>
+              </lg>
+            </quote>
+          </s>
+        </p>
+        <p>
+          <s>한 사람의 젊은이가 위대한 <term type="concept">예술가</term>로성장하기 위해서는<quote type="direct" genre="poet">관료들은 결정을 서두른다</quote><quote type="direct" genre="poet"><lg type="stanza"><l>노래는 폐허와 부패의 미끌거리는 창자를 입에 문 채</l></lg><lg type="stanza"><l>갈가마귀처럼 하늘을 날아가는 법이라고</l></lg></quote>우리를 가르치기 위해?</s>
+          <s>또는고통과 비명과 자유로운 확산과 교역을 위해?</s>
+          <s>그들은 결정을 서두른다<quote type="direct" genre="poet">폐병쟁이 시인을 위해 흰 알약의 값을 올리고 아직도 발자크처럼 건강한 소설가에게는 어미소를 먹인 얼룩소를 먹이도록</quote>.</s>
+          <s>잠든 이웃에게는 아름다운 나라의 산업폐기물이<quote type="direct" genre="poet"><lg type="stanza"><l>트로이의 목마처럼 입성하는 도시들과</l></lg><lg type="stanza"><l>햄릿에서처럼</l></lg><lg type="stanza"><l>독극물이 고요한 한낮의 귓속으로 흘러드는 이야 기를 선물하라</l></lg></quote>.-<persName ref="#p-x11">진은영</persName>,r<title level="a" type="poem" xml:id="t-x16">문학적인 삶</title>丁「<title level="m" type="poem" xml:id="t-x17">우리는 매일매알</title>i, 2CW.</s>
+          <s>8.</s>
+          <s>이 찬 1 <date when="1970">1970</date>년 <orgName xml:id="org-x4">충북 진천</orgName> 출생.</s>
+          <s><date when="2007">2007</date> <orgName xml:id="org-x5">서울신문</orgName> 신춘문예 펑론 부문 당선.r2007년을 마감했던 한 국문학의 세 화두: ‘<term type="concept">세게문학</term>’ , ‘<term type="concept">역사의 귀환</term>’, ‘<term type="concept">에세이</term>’」「창작과 비평과 산문의 사이, 저 ‘<term type="concept">문학적인 것</term>’ 의 사유 공간을 위하여 <persName role="critic" xml:id="p-x35">김현</persName>과 <persName ref="#p-x21">이장욱</persName>의 글쓰기를중심으로j.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

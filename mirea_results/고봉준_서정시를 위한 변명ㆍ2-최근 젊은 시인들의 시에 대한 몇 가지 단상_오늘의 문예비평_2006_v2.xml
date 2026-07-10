@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>서정시를 위한 변명ㆍ2-최근 젊은 시인들의 시에 대한 몇 가지 단상</title>
+        <author>고봉준</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><term type="concept">서정시</term>를 위한 변명 • 2一최근 <term type="concept">젊은 시인들</term>의 시에 대한 몇 가지 단상<persName role="critic" xml:id="p-x">고봉준</persName>1<term type="concept">젊은 시인들</term>의 시에 대한 이야기가 끊임없이 들려온다.</s>
+          <s><term type="concept">뉴밀레니엄</term>을 전후해서 등단한 70년대 생 시인들의 첫 시집이 쏟아진 <date when="2005">2005년</date> 한 해, 시 단과 시 비평계는 그들의 새로움에 고무되어 활기를 띠었다.</s>
+          <s>'<term type="concept">새로움</term>‘이 라는 <term type="movement">모던</term>의 미학과，<term type="concept">환상</term>‘이라는 <term type="movement">포스트-모던</term>한 미학의 양편에 걸쳐 있 는 이들의 상상력과 언어 문법은, 문학적인 평가 이전에 특유의 <term type="concept">난해성</term>과 파격적인 이미지로 인해 집중적인 관심의 대상이 되었다.</s>
+          <s>그리고 이들 70 년대 생들이 보여주는 특유의 상상력과 <term type="concept">언어 미학</term>은 당분간 지속될 추세 이다.</s>
+          <s><date when="1990">90년대</date> 이후 시 장르가 폭발적인 관심을 받은 것은 이번이 처음인 듯하다.</s>
+          <s>그들의 시가 비평의 집중적인 조명을 받은 이유는, 무엇보다도 그들이 보여준 <term type="concept">새로움</term>의 강도가 그 어느 때보다 강하며 문제적이었기 때문이다 그래서 그들의 시를 둘러싸고 선망과 의혹의 눈초리 역시 그 어 느 때보다 날카롭게 부딪혔는데, 이 과정에서 많은 비평가들은 <interp value="affirmative" ana="미학">그들의 새 로움에 전폭적인 지지를 보냈다.</interp></s>
+          <s>사실, 모든 시가 곧 <term type="concept">서정시</term>는 아니지만, 오랫동안 시에 대한 우리의 통 념은 서정시에서 근거하고 있었다.</s>
+          <s>시에 대한 이 오래된 통념은 <term type="movement">포스트 모더니즘</term>과 <term type="movement">해체주의</term>가 대중들의 관심이었을 때에도, 그리고 시 장르 자 체가 위협받고 있는 지금에도 많은 사람들이 공유하고 있다.</s>
+        </p>
+        <p>
+          <s>＜<term type="concept">시=서정 시</term>＞라는 통념이 관성에 불과한 것인지, 시 장르에 대한 진실을 담고 있 는지는 별도의 논의가 필요하다.</s>
+          <s>다만, 최근 집중적인 조명을 받고 있는 <term type="concept">젊은 시인들</term>의 시가，<term type="concept">시=서정시</term>‘라는 장르적 통념에 커다란 균열을 내 고 있음은 사실이다.</s>
+          <s>최근 시 비평계에 빈번하게 등장하는，<term type="concept">실정성의 변 화</term>', '<term type="concept">외계어</term>', '<term type="concept">환상</term>',，<term type="concept">다른 서정</term>' 등은 이 균열을 의미화하기 위해 동원 된 개념들인데, 논자에 따른 개념의 차이는 있지만, 대체로 그들의 시가 내장하고 있는 새로움의 파괴력에 긍정적인 의미를 부여하고 있다.</s>
+          <s>“<quote type="direct" genre="critic">젊 은 시인들의 새로운 상상력에 대한 비판적 점검</quote>”이라는 편집자의 요청 은 이들 화려한 비평적 조명이 만들어놓은, 크기를 알 수 없는, 맹목의 지점을 읽어달라는 것이다.</s>
+          <s>빛보다는 그것이 만들어내는 그늘에 주목해 달라는 것.</s>
+          <s>오해를 피하기 위해 먼저 몇 가지 밝혀두고자 한다.</s>
+          <s>나는 이미 몇몇 지 면을 통해서 이들 <term type="concept">70년대 생들</term>의 시적 가능성과 새로움에 대해 진지하게 고민했으며, 넓은 의미에서 이들의 시에 긍정적인 의미를 부여하려 했다.</s>
+          <s>
+            <interp value="neutral" ana="미학">예술의 새로움이란, 그것이 절대적 새로움이 아닌 한에야, 이전 세대 혹 은 시대와의 비교에서 의미화 되기 마련이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>
+            <interp value="affirmative" ana="미학">이들의 시가 보여주는 가능 성은 이전 세대와는 확연하게 다른 감수성의 등장을 보여준다는 점에서 분명 하나의 사건이라고 평가할 수 있다.</interp>
+          </s>
+          <s>특히 <term type="concept">세대론</term>의 지평에서 논의되 든 개별 시인의 차원에서 논의되든, 그들의 시가 시인 자신의 세계상, 즉<term type="concept">특이성</term>을 구성하고 있다는 사실은 눈여겨볼 필요가 있다.</s>
+          <s>그들은 이미 자 신만의 언어문법을, 시적 전략을 소유하고 있다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그들의 시는 새로운 감 성 특유의 도발성을 갖고 있지만, 그것은 결코 투박하거나 촌스럽지 않 다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">그 어떤 기성 시인들보다 안정된 언어를 구사하며 자기 세계를 구축 하고 있는 모습은 무섭기조차 하다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">그들의 시적 성취는 중요하다.</interp>
+          </s>
+          <s>그러 나 새로움 이상의 관점에서 그들의 시를 읽을 때에는 몇 가지 의문이 생 긴다.</s>
+          <s>이 글은 바로 이 의문에서 시작되며, 나아가 <term type="concept">젊은 시인들</term>의 시집을 읽으면서 느낀 나의 고민을 펼쳐 보이는 장소가 될 것이다.2유난히 눈이 많았던 지난해 겨울, 나는 한 시인의 죽음 소식을 접했다.</s>
+        </p>
+        <p>
+          <s>하루에도 무수한 생과 사가 반복되고, 삶과 죽음마저 사물화 되어버린 이 땅에선 한 평범한 인간의 죽음은 일상적인 뉴스조차 되지 못했다.</s>
+          <s>그럼에 도 그의 죽음은 오랫동안 나의 뇌리를 떠나지 않았다.</s>
+          <s>생전에 그가 수첩 속에 넣고 다녔다는 작은 메모 때문이었다.</s>
+          <s>“잔혹한 서정시, 그러나 따뜻 한 서정시, 내가 써야할 시…어려운 말을 버려라.</s>
+          <s>간결하고 쉽게, 하지만 깊이 있게…말장난을 하게 되면 시인의 생명은 끝이다.</s>
+          <s>” 한 시인이 추구 하고자 했던 시적 진실 앞에서 나는 한없이 작아지는 경험을 했다.</s>
+          <s>그리 고 그 경험의 끝자락에서, 우리 시대에 시란 무엇이며, 무엇이어야 하는 가에 대해 새삼 생각했다 그가 쓰고 싶었던 잔혹하면서도 따뜻한 서정시 가 무엇인지는 나는 모른다.</s>
+          <s>그러나，잔혹'과，따뜻'이라는, 이 양립불가 능한 단어의 조합이 가져다주는 울림은 예상외로 컸다.</s>
+        </p>
+        <p>
+          <s>그 울림은, 이어 지는 “<quote type="direct" genre="other">어려운 말을 버려라.</quote></s>
+          <s><quote type="direct" genre="other">간결하고 쉽게</quote>”라는 구절과 겹쳐지면서 한층 뚜렷하게 다가왔다.</s>
+          <s>'<term type="concept">어려운 말</term>'과，<term type="concept">말장난</term>，<persName role="writer" xml:id="p-x2">이상</persName>의 시, 그것은 과연 무엇 일까짧은 삶을 살다간 시인의 메모는 <persName role="poet" xml:id="p-x3">김수영</persName>의 다음과 같은 구절을 연상시 켰다 “<quote type="direct" genre="poet" source="김수영">시의 기술은 양심을 통한 기술인데 작금의 시나 시론에는 양심은 보이지 않고 기술만이 보인다.</quote></s>
+          <s>”（r<title level="a" type="essay" xml:id="t-x">난해의 장막</title>」） <persName ref="#p-x3">김수영</persName>은 윤리가 뒷받침 되지 않는 '<term type="concept">기술</term>‘은 기실 오해된，<term type="concept">현대성</term>‘에 불과하다고 말하고 싶었던 듯 하다.</s>
+          <s>그리고 <interp value="affirmative" ana="문학관">이 지적은 지금도 유효하다.</interp></s>
+          <s><persName ref="#p-x3">김수영</persName> 식으로 말하자면, <interp value="critical" ana="문학관">나는 윤리에 근거하지 않는 기술이나, 기술이 없는 맹목적 윤리를 신용하지 않 는다.</interp></s>
+          <s>시인은 새로운 시각으로 세계를 바라보는 자요, 사물의 현상에서 이면을 투시하는 <term type="concept">미적 감각</term>과 사유의 깊이를 지닌 존재이다.</s>
+          <s>
+            <interp value="critical" ana="미학">이 새로운 시각에 윤리가 결합되지 않으면 시는 감각의 장난에 지나지 않게 되고, 미적 감각이 사유를 동반하지 않으면 평범한 계몽적 진술로 떨어지고 만 다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>시인은 언어를 통해 사유하는 자이지만, 그에게 언어는，소통‘이라는 언어의 보편적 용법을 넘어서는 <term type="concept">초언어적 언어</term>이다.</s>
+          <s>그렇기 때문에 시에 서 중요한 것은 진술된 언어의 배열이 아니라 <term type="concept">행간</term>을 읽는 일이며, 그 행 간을 통해 하나의 울림을 경험하는 일이다 또 중요한 것은 시어의 사전 적 의미가 아니라 그것이 다른 말들과 맺고 있는 관계이며, 나아•가 그 언 어가 만들어내는 독특한 정서에 공감하는 일이다.，<term type="concept">말장난</term>‘이 시인의 생 명을 끝장내는 이유는 그것이 언어에 대한 자의식의 산물이 아니라, 단순 한 수사와 기교에 뿌리내리고 있는 임기응변이기 때문일 것이다.</s>
+          <s>지난 한 해, <term type="concept">젊은 시인들</term>의 시집을 읽으면서 새삼 '<term type="concept">가독성</term>'과 '<term type="concept">난해성</term>'의 문제에 대해 생각했다.</s>
+          <s>비단 그들의 시만이 아니라, 최근에 출간되는 시집의 대 부분이 <term type="concept">난해성</term>의 흔적을 지니고 있다.</s>
+          <s>물론 문학이, 시가, 쉬워야 한다는 원칙은 없다.</s>
+          <s>마찬가지로 시가 어려워야 한다는 원칙 역시 없다.</s>
+          <s>'<term type="concept">난해성</term>' 의 기준 자체가 독자의 주관적 판단에 의지할 수밖에 없기에, 난해성 일 반을 문제삼는 것은 적절하지 않다 아울러 쉬운 시가 어려운 시에 비해, 혹은 그 반대의 경우가, 좋은 시라고 말할 근거도 없다 그러므로 문제는, <persName ref="#p-x3">김수영</persName>의 지적처럼, '<term type="concept">기술</term>'과，<term type="concept">윤리</term>'의 관계를 따져보는 일일 것이다 '기술，과，윤리‘가 결합되지 못한 시는 <term type="concept">형식실험</term> 내지 추상적 자기만족으로 떨어지고 만다.</s>
+          <s>많은 사람들이 <term type="concept">젊은 시인들</term>의 시가 어렵다고 토로한다" 시가 어렵다는 얘기는 비단 독자의，수준' 문제만은 아니다.</s>
+        </p>
+        <p>
+          <s>바야흐로 시 읽기가 힘들어 진 시대가 된 것이다.</s>
+          <s>최근 시들에서 목격되는 <term type="concept">난해성</term>은, 시가，<term type="concept">재현</term>’보다 는'<term type="concept">표현</term>'에 근거한다는 장르적 특성에서 기인한다.</s>
+          <s>소박하게 말하자면, ，<term type="concept">서정</term>，이란 시인의 <term type="concept">감정</term>이나 <term type="concept">정서</term>를 주관적으로 표현한 것이다.，감정，이 나，정서‘는 주체와 외부 현살/세계의 마주침에 근거하지만, 그것은 현살/ 세계의 모사가 아니라 주관적 변용이며, 이 변용의 언어적 표현이 곧 시 이다.</s>
+          <s>그렇기 때문에 한 시인의 시를 이해한다는 것은 <term type="concept">주관적 변용</term>의 문 법을 이해하는 것이며, 시적 감동이나 공감이란 이 주관적 변용의 문법이 일정한 <term type="concept">보편성</term>을 획득할 때 발생하는 공명 현상인 셈이다.</s>
+          <s>주관적 경험이 그 경험의 바깥에 위치한 존재들에게 그대로 받아들여지는 것이 어려운 것은 사실이다.</s>
+          <s>그러나, 그렇기 때문에, 시가 <term type="concept">절대적 주관성</term>의 세계로 함 몰되는 순간 이해나 공감의 가능성은 사라진다.</s>
+          <s>시 독자의 급감은 바로 이것을 의미한다.</s>
+          <s>시인이, 시가, '어려운 말’과 '말장난‘을 버려야 하는 이 유도 여기에 있다.</s>
+        </p>
+        <p>
+          <s>문학에서의 <term type="concept">주관성</term>이란 주관적인 <term type="concept">객관성</term>이자 객관적 인 주관성이다.</s>
+          <s>문제는, 이 <term type="concept">주관</term>과 <term type="concept">객관</term>의 경계를 어떻게 설정하느냐에 달려 있다.</s>
+          <s>한때 <term type="concept">문학의 위기</term>라는 말이 유행처럼 떠돌던 시대가 있었다 문단과 출판계를 중심으로 퍼진 <term type="concept">문학 위기론</term>의 요체는 독자들이 책을 안 읽는다는 것이었다.</s>
+          <s><term type="concept">문학의 위기</term>가 곧 출판 • 유통의 위기는 아니지만, 설 령 그렇다 하더라도 문학의 위기는 작가들과 문학매체들이 자초한 느낌 이 없지 않다.</s>
+          <s>시인들이 <term type="concept">주관</term>의 세계에 함몰되어, 주관적 언어로만 표현 할 때, 그 난해의 장막을 헤집고 들어가 시를 읽을 독자들은 없을 것이기 때문이다.</s>
+          <s>문학을 제도라고 규정할 때 거기에는 독자의 몫 또한 엄연히 존재한다 <interp value="critical" ana="미학">독자를 전제하지 않는 시란, 들리지 않는 외침처럼 주정적인감정의 토로나 절규 이상이 될 수 없다</interp> 수용에 대한 고려가 시인의 주관 적 감정을 침해하거나 부정하는 것은 아니며, 뛰어난 시란 그 미묘한 경 계에서 새로운 <term type="concept">감수성</term>으로 공감을 형성하는 작품이다.</s>
+          <s>또 하나의 책임은 <term type="concept">시 비평</term>에 있다.</s>
+          <s>몇몇 문예지의 편집위원들과 문명 （文名）을 얻은 시인들이‘<term type="concept">등단</term>‘과정을 독점함으로써 특정한 취향의 작품 들을 양산하는 것도 문제지만, <interp value="critical" ana="문학관">작품의 좋고 나쁨에 대한 판단을 회피하는 시 비평계의 무능은 더욱 심각하다.</interp></s>
+        </p>
+        <p>
+          <s>가령 지난해 많은 문예지들은 <date when="2005">2005년</date> 에 첫 시집을 출간한 <term type="concept">젊은 시인들</term>의 시세계를 조명하는 데 엄청난 지면 을 할애했다.</s>
+          <s>문예지들이 앞을 다투어 <term type="concept">젊은 시인들</term>의 시에 대해 주목했다 는 것은 그들의 시가 <interp value="affirmative" ana="미학">가능성과 새로움이라는 두 가지 덕목을 모두 갖추 고 있음을 증명하는 것이다.</interp></s>
+          <s>그러나 그 많은 지면들 어디에서도 <interp value="critical" ana="문학관">그들의 작품에 대한 평가의 목소리를 발견할 수가 없었다.</interp></s>
+          <s>물론, 비평가의 평가 기준 역시 주관적일 수밖에 없으므로 비평가의 평가 자체가 그대로 작품 의 질에 대한 판단이라고 말하기는 어렵다.</s>
+          <s>그러나 <interp value="critical" ana="문학관">어떤 비평가도 그들의 작품이 왜 좋은지에 대해서 말하지 않았다는 것은 다시 생각해 볼 문제 이다.</interp></s>
+          <s>사석에서 만난 많은 비평가들은 최근의 <term type="concept">젊은 시인들</term>의 시가 지나치 게 어려우며 전문 독자의 한 사람인 자신도 이해할 수 없는 부분이 많다 는 어려움을 토로한다.</s>
+          <s>
+            <interp value="neutral" ana="문학관">어쩌면 이 어려움이 시와 비평의 거리를 만들고 텍스트 비평을 양산하는 직접적인 원인인지도 모르겠다.</interp>
+          </s>
+          <s>사실, 한 권의 시집으로 묶인 시인의 시세계에서 '<term type="concept">주관적 변용의 문법</term>，을 발견하고 설명 하는 일은 그다지 어려운 일이 아니다.</s>
+        </p>
+        <p>
+          <s>아니, <date when="2005">2005년</date>에 첫 시집을 출간한 시인들의 경우에는, 이 최소한의 이해마저도 어려웠던 게 사실이다.</s>
+          <s>하나 의 경향으로 묶을 수는 없지만, <term type="concept">젊은 시인들</term>의 시가 <term type="movement">생태주의</term>라는 윤리적 정당성에 묶여서 지루한 동어반복으로 일관하던 시단에 긴장과 활력을 제공했으며, <interp value="affirmative" ana="문학관">그것이 시 비평계의 분발을 촉발시켰다는 점은 충분히 평가 받아 마땅하다.</interp></s>
+          <s>
+            <interp value="affirmative" ana="미학">나는 그들의 시적 감수성이 생태주의 이후를 사유하고 있으며, 현대시의 빛과 그늘이 그 속에 내장되어 있다는 점에서 일정한 공 감을 갖고 있다.</interp>
+          </s>
+          <s>그러나 이 원칙적 긍정과 비평적 공감은 다른 차원에 속 한다.</s>
+          <s>개별 작품의 중요성은，의미，와，의의，의 비산술적 합산 효과이다.</s>
+          <s><persName role="foreigner" xml:id="p-x4">골드 만</persName>은 특정 작품의 중요성이란 결국 그것을 발견해줄 명제, 즉 <term type="concept">시대정신</term>이 당대의 비평에 존재하지 않는다면 당대에는 발견될 수 없다고 말했다.</s>
+          <s>，의미，란 개별 작품이 함축하고 있는 세계상과 내용, 형식 등을 말하며, ，의의'란 <term type="concept">시대정신</term>이라는 맥락 속에서 해당 작품이 차지하는 위상을 의미 한다.</s>
+          <s>원론적으로 말하자면, 문학적 감동이란，의미와 의의 두 차원 모 두에서 발생할 수 있지만 한 사람의 독자의 입장에서 본다면 시의 감동 은 대개'의미’의 영역에서 발생한다.</s>
+        </p>
+        <p>
+          <s>한 시인이 형상화한 세계, 그리고 그 세계를 구성하기 위해 시인이 사용한 언어적 용법, 그것들의 깊이가 현상적 이면의 불투명성을 뚫고 심연의 새로운 의미에 도달할 때 독자는 그 작품에 동감한다.</s>
+          <s>나는 지금 문학의 <term type="concept">대중성</term>에 대해 말하고 있거니와, 대중성이 곧 <term type="concept">통속성</term>을 의미하는 것은 아니다.</s>
+          <s>차라리 그것은 대상7세계에 대한 주관적 변용이 이해될 수 있는 최소한의 고려, 즉 <term type="concept">간주관성</term>을 의미 한다.</s>
+          <s>그러므로 수용에 대한 배려가 시인의 주관적 감정이나 정서의 세계 를 부정하는 것은 아니다.，<term type="concept">공명</term>'이 두 에너지의 마주침에서 발생하는 현 상이라고 할 때, 그것은 개별 작품의 역사적 의미보다는 그 작품이 표현 하는 문학적 진리에서 발생할 가능성이 높다.</s>
+          <s>그러나 <date when="2005">2005년</date> 한 해 동안 집중적인 비평의 대상이 되었던 <term type="concept">젊은 시인들</term>의 시는 대개 ‘의의‘의 차원 에서만 조명되었다.</s>
+          <s>어쩌면 이것이 텍스트 비평의 한계인지도 모른다.3<date when="2005">2005년</date>에 출간된 시집 중에서 <persName role="poet" xml:id="p-x5">황병승</persName>의『<title level="m" type="poem" xml:id="t-x2">여장남자 시코쿠</title>』는 비평의조명을 가장 많이 받은 시집 중의 하나이다.</s>
+          <s>시집뿐만 아니라 그가 문예 지에 발표한 신작들은 매분기마다 V문예지게재 우수작품 지원사업＞에 선정될 정도로 주목을 받았다.，<term type="concept">앨리스 맵</term>‘으로 상징되는 <term type="concept">시코쿠</term>의 세계 는 두 방향을 동시에 긍정하는 역설의 세계상을 통해 새로운 주체의 탄 생을 예고했다.</s>
+          <s>특히 현란한 이미지의 절합과 대중의 통념을 넘어서는 새 로운 주체의 형상화는 시의 새로움이 보여줄 수 있는 한 극단을 제시했 다고 생각한다 그것이 분열된 주체의 모습이든, 새로운 주체의 등장이든 <interp value="affirmative" ana="미학">그의 시는 새로운 시적 감각과 언어 문법을 통해 동일성의 영역에 갇혀 있던 시 장르 자체에 혁신을 가져왔다.</interp></s>
+        </p>
+        <p>
+          <s>나 역시 다른 지면（r<title level="a" type="critic" xml:id="t-x3">환상이라는 유령, 환상의 리얼리티</title>」, 계간《<title level="j" type="journal" xml:id="t-x4">서정시학</title>》<date when="2005">2005</date> 겨울호）을 통해 <persName ref="#p-x5">황병승</persName> 의 시가 보여준 새로움이 견고한 주체의 <term type="concept">자기동일성</term>을 횡단함으로써 새 로운 시적 주체의 등장으로 이어지고 있음에 주목했다.</s>
+          <s><persName ref="#p-x5">황병승</persName>의 시는 자 연에 대한 지나친 동일시나 <term type="concept">감정이입</term>, 가난했던 유년의 가족사에 고착되 어 있던 현대시에 일대 충격으로 받아들여졌다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">특히 그의 시는 새로운 주체와 언어 문법의 등장이 일정한 연관성을 지니고 있다는 점, 이러한 시적 모색이 하나의 일관성을 형성함으로써 시적 감수성의 변화를 예고 한다는 점에서 주목할 만한 성과임은 분명하다.</interp>
+          </s>
+          <s>그러나 <persName ref="#p-x5">황병승</persName>의 시적 성취에 대한 논의 역시 '의의‘의 차원에 한정되 어 있는 것이 사실이다.</s>
+          <s>
+            <interp value="critical" ana="미학">즉 그의 시가 감동적인가 아닌가, 좋은 시인가 아 닌가의 문제는 여전히 논의의 바깥에 버려져 있다.</interp>
+          </s>
+          <s>그는，<term type="concept">놀이</term>‘내지，취 미‘의 하나로 시를 쓰는 시인이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">그의 시는, 놀이나 취미가 그렇듯이, 독자 대중보다는 시인 자신과의 소통이라는 측면에 빠져 있다.</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">즉 주관적 변용의 문법이 지나치게 내면 지향적이라서 독자의 접근 자체를 가로막 고 있다는 느낌을 지우기 어렵다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>물론 <persName ref="#p-x5">황병승</persName>의 시집이 출간 6개월 만에 2쇄를 찍었고, 매계절마다 <orgName xml:id="org-v">V문예지게재 우수작품 지원사업〉</orgName>에 선정되었 으며, 많은 <persName role="other" xml:id="p-x6">비평가들</persName>이 지면을 할애하여 집중적인 조명을 했다는 사실을근거로 반론도 가능할 것이다.</s>
+          <s>그러나 <persName ref="#p-x5">황병승</persName> 시집의 판매량은 <orgName xml:id="org-x">문예지들</orgName> 의 집중적인 조명과 등단을 준비하는 예비 시인들의 가세에 힘입은 바가 크다.</s>
+          <s><persName role="poet" xml:id="p-x7">김민정</persName>의『<title level="m" type="poem" xml:id="t-x5">날으는 고슴도치 아가씨</title>』또한 <date when="2005">2005년</date>에 가장 주목받은 시 집의 하나이다.</s>
+          <s>등단작F<title level="a" type="poem" xml:id="t-x6">검은 나나의 꿈</title>」부터 현재까지, 그의 시는 '완전 한 나'의 발견이라는 문제의식을 이어나가고 있다.</s>
+          <s>특히 분열된，나들'(나 +나)이라는 악몽의 기원을 가족과 생물학적 성에 투사함으로써 자기 분 열을 사회적 맥락으로 확장시키고, 이러한 분열이 자신은 물론 타자에 대 한 폭력이라는 금기의 영역을 관통하고 있음은 주목할 대목이다.</s>
+          <s>트레이 드마크(trade mark)인 특유의 <term type="concept">언어유희</term>와 욕설, 비속어의 남발, <term type="concept">비통사적 언어</term> 사용 등은 시에 대한 대중의 통념을 여지없이 해체시켜버렸다 이 도발적인 상상력은 언어의 통사적 법칙보다는, 언어가 환기하는 이미지 의 인접성을 따라서 무한히 확장됨으로써 독서 행위 자체에 저항한다.</s>
+          <s>그 렇기 때문에 <interp value="affirmative" ana="미학">그녀의 시는 종종 분석을 거부하는, 혹은 분석자의 간계를 이미 알아버린 영리한 환자의 전략처럼 느껴지기도 한다.</interp></s>
+          <s>그녀의 시에 등 장하는 <interp value="affirmative" ana="미학">욕설과 비속어는 외부의 위협으로부터 스스로를 방어하기 위한 언어적 전략^ 가깝다.</interp></s>
+        </p>
+        <p>
+          <s>말하자면, <persName ref="#p-x7">김민정</persName>의 시에서 <term type="concept">수다스러움</term>은 전략, 즉 어떠한 상처와 진실을 은폐하는 동시에 드러내기 위한 전략인 셈이다.</s>
+          <s>그렇기 때문에 그녀의 시를 대면하는 순간 우리는 종종 스핑크스의 수수 께끼와 대면하는 듯한 느낌을 갖게 된다.</s>
+          <s>그리고 오이디푸스의 지혜를 소 유하지 못한 우리는, 번번이 그 수수께끼가 말하고자 하는 '의미，의 영역 앞에서 무너지는 좌절을 경험한다.</s>
+          <s>특히 그의 시적 특징인 <term type="concept">수다스러움</term>과 비유의 비약성은 독자가，의미‘의 세계에 진입하는 것을 지속적으로 방해 한다.</s>
+          <s>일반적으로 <term type="concept">서정시</term>가 생략과 압축을 통해 행간 사이에 의미를 은닉 시킴으로써 독자의 접근을 어렵게 만드는 반면, <persName ref="#p-x7">김민정</persName>의 시는 전통적인 생략과 압축의 전략 대신 언어와 언어 사이에, 혹은 행간 사이에 숱한 이미지와 이질적인 언어들을 끼워 넣음으로써 시적인 효과를 생산한다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 수다스러움의 전략이 전통적인 서정시의 말없음에 대한 적대감의 노골적 표현임은 물론이다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">이러한 전략이 특유의 시적 효과를 발휘할 수 있는 이유는 시가 곧 주관성의 순정한 표백이기 때문이다.</interp>
+          </s>
+          <s>그러나 <interp value="neutral" ana="미학">주관의 순정한 표백이 종종 독자들에게 난해함으로 다가오는 것은 사실이며, 김민정의 시 역시 예외는 아니다</interp> 이미지의 비약적 연쇄 를 충실하게 따라간다면, <persName ref="#p-x7">김민정</persName>의 시가 말하고자/보여주고자 하는 것을 이해하는 것은 그다지 어렵지는 않다.</s>
+        </p>
+        <p>
+          <s>그의 시가 말하고자 하는，<term type="concept">나'의 분열</term>이 일정한 보편성을 획득하고 있기 때문이다.</s>
+          <s>문제는, 이 최소한의 이해마저도 힘든 상황이 발생하고 있다는 점이다.</s>
+          <s><persName ref="#p-x7">김민정</persName>의 시를 읽은 독 자들이 토로하는 불만이 이를 말해준다.</s>
+          <s>독자들의 불만이 남발된 비속어 와 욕설 때문인지, 수다의 전략으로 폭력적 세계에 맞서는 시인 특유의 태도 때문인지는 명확하지 않다.</s>
+          <s>원론적으로 말하자면, 시에서 비속어와 욕설을 사용하는 행위 자체가 문제는 아니다 욕설과 비속어는 그 특유 의 정서적 파급력을 지니고 있으며, 적절한 맥락에서 그것들은 그 어떤 표현보다도 빠르고 날카로운 힘을 발휘한다.</s>
+          <s>그러므로 그것을 사용하느 냐 마느냐^ 문제는 언어에 대한 시인의 자의식에 달려 있다.</s>
+          <s>시어와 일 상어의 기계적 구분 역시 마찬가지이다.</s>
+          <s>시가 반드시 아름다워야 하는 것은 아니며, <term type="concept">자본주의</term>적 질서가 우리의 일상을 점령한 이후에는 더더욱 그렇다.</s>
+        </p>
+        <p>
+          <s>“이것이 과연 시가 될 수 있느냐는 식의 독자의 비판은, 그러므 로 그가 <persName ref="#p-x7">김민정</persName>의 시에서 기대한 모종의 ‘<term type="concept">감동</term>‘이 여지없이 무너졌다는 사실에 대한 분개이며, 만약 시인이 그런 효과를 의도했다면 <interp value="neutral" ana="미학">시인의 시 적 전략이 적절했다고 평가할 수도 있다.</interp></s>
+          <s>그럼에도 불구하고 <interp value="critical" ana="미학">김민정의 시가 보여주는 현란한 이미지의 비약이 독자 대중의 접근을 어렵게 만드 는 것은 사실이다.</interp></s>
+          <s>시인의 표현 욕망을 긍정해서, 시가 다만 <term type="concept">주관의 순정 한 표백</term>에 불과하며 그것 자체를 긍정해야 한다면, 우리는 더 이상 독자들에게 시 읽기를 요구할 수가 없게 된다.</s>
+          <s>
+            <interp value="critical" ana="미학">어떤 감동도, 공감도 공명 효 과도 생성하지 못하는 시를 독자들이 읽어야 할 의무는 없기 때문이다.</interp>
+          </s>
+          <s>비평가 역시 마찬가지이다 새롭게 등장한 시인들의 작품을 예의주시하 고 그 <term type="concept">감수성</term>의 변화를 문학사적 맥락에 안착시킴으로써 개별 작품이 지 닌 ‘의미'와 ‘의의'의 비산술적 합산 효과를 밝히는 것은 비평가의 임무 이다.</s>
+          <s>그러나 그 임무가 끝났을 때, <interp value="neutral" ana="미학">어떠한 개인적 감응도 존재하지 않는 시를 다시 읽을 확률은 지극히 낮다.</interp></s>
+          <s>비평가 역시, 비평가이기 이전에 한 사람의 독자이기 때문이다.</s>
+          <s>어쩌면 <interp value="neutral" ana="사회">직업윤리와 개인적 취향의 절대적 단 절이야말로 지금-이곳에서의 시의 운명을 보여주는 단적인 예인지도 모 르겠다</interp><interp value="neutral" ana="미학">이민하의『환상수족』은 처음으로 시 읽기의 어려움을 느끼게 한 시집 중의 하나이다</interp> <date when="2005">2005년</date>에 출간된 문예지들의 시 특-집은，환상‘이라는 기 법/표현형식에 집중되었는데,，환상‘이라는 제목을 전면에 내세운 이민하 의 시집은 거기에 힘입어 집중적인 조명을 받았다.</s>
+        </p>
+        <p>
+          <s>이미 두 편의 글（「<title level="a" type="critic" xml:id="t-1">서 정시를 위한 변명 • 1</title>」, 반년간《<title level="j" type="journal" xml:id="t-x7">작가와비평</title>》4호 ;T<title level="a" type="critic" ref="#t-x3">환상이라는 유령, 환상의 리얼리티</title>」, 계간《<title level="j" type="journal" ref="#t-x4">서정시학</title>》<date when="2005">2005</date> 겨울호）에서 밝혔듯이, <term type="concept">시적 주관성</term>의 변용이 <term type="concept">재현의 리얼리티</term>를 척도로 삼지 않는 한, 그것의 표현방 식이 환상이냐 아니냐를 따지는 일은 무의미하다.</s>
+          <s>‘<term type="concept">환상</term>，이라는 개념/용 어가, <term type="concept">재현의 리얼리티</term>를 유일한 현실로 간주함으로써 그 바깥의 영역을 통칭하는 것으로 사용될 때 문제는 더욱 심각하다 최근의 시 비평은 테 마 혹은 기법의 공통성만을 좆음으로써 개별 시인들의 시세계가 지닌，차 이'를 놓치고 있으며, 텍스트에 대한 담론적 접근만을 시도함으로써 시가 지녀야 할，<term type="concept">소통</term>‘과，<term type="concept">감동</term>‘의 측면에 대해서는 상대적으로 소홀히 취급하 고 있다.</s>
+          <s><persName role="critic" xml:id="p-x8">이민하</persName>의『<title level="m" type="poem" xml:id="t-x8">환상수족</title>』은 <term type="concept">기하학적 대칭성</term>이라는 형식을 빌어 구조적 긴 밀성을 유지하고 있는 시집이다.</s>
+          <s>'<term type="concept">환상</term>수족'이라는 제목 자체가 그렇듯이,<persName ref="#p-x8">이민하</persName>의，환상‘은 상처의 흔적이다.</s>
+          <s>그의 시에서 소위，<term type="concept">환상</term>‘이라고 명명 되는 절단의 이미지들은 대개 상처의 언저리에서 발생한다.</s>
+          <s>그래서 그의 ，<term type="concept">환상</term>，은 상처를 치유하고자 흐｝는 주체의 의지가 현실을 주관적으로 변용 하는 순간 시작된다.</s>
+          <s>
+            <interp value="neutral" ana="미학">비슷한 시기에 출간된 김신용의『환상통』이 삶의 문 제로 밀착해 들어오는 느낌을 주는 반면, 이민하의『환상수족』은 끊임없 이 보조 텍스트들을 끌어들임으로써 의미의 연쇄망들을 형성한다.</interp>
+          </s>
+          <s>가령 그가 즐겨 사용하는 이니셜과 기호들, 그리고 무수한 의미의 미끄러짐, 아니 어쩌면 의미 발생의 원천일지도 모르는 음악과 회화적 요소의 차용 은, <interp value="critical" ana="미학">시집 전체의 밀도를 높여주는 요소인지는 몰라도 가독성의 차원에서 는 재고될 필요가 있을 듯하다.</interp></s>
+        </p>
+        <p>
+          <s><persName role="poet" xml:id="p-x9">김기림</persName>이 말했듯이, <term type="concept">모던한 시대</term>에 예술 은 자연발생적이기보다는，<term type="concept">제작</term>‘의 산물이다.</s>
+          <s>한 권의 시집이 일정한 기 획에 따라 만들어져 나오는 최근의 출판 관행이 이를 잘 보여준다.</s>
+          <s>시인 이 한 권의 시집을 기획에 따라 묶는다는 사실 자체는 그다지 중요하지 않은 문제일지도 모른다.</s>
+          <s>다만, 그 기획의 완성도를 높이기 위해 사용되 는 시적 장치들이 맥락을 상실한 <term type="concept">스펙터클</term>이나 액세서리로 전락하지는 않았는지, 나아가 <interp value="critical" ana="문학관">그것이 독자의 혹독한 불신을 가중시킬 위험은 없는지 에 대한 고민은 필요할 것이다.</interp></s>
+          <s>이런 점에서 “<quote type="direct" genre="critic" source="균열과 봉합의 비평을 넘어">시는 독자로부터 멀어지면 멀어질수록 더욱더 비의적 문화 권력의 성격을 지닌다.</quote></s>
+          <s>”（<persName role="critic" xml:id="p-x10">박수연</persName>,「<title level="a" type="critic" xml:id="t-x9">균열과 봉합의 비평을 넘어</title>」, 계간《<title level="j" type="journal" xml:id="t-x10">창작과비평</title>》<date when="2005">2005년 가을호</date>）는 충고는 새 겨들을 필요가 있다.4다시, “<term type="concept">잔혹한/따뜻한 서정시</term>”로 돌아오자.</s>
+          <s>오늘날 우리에게 <term type="concept">서정</term>의 의 미는 무엇인가?</s>
+          <s><term type="concept">젊은 시인들</term>의 시세계가 보여주는 <term type="concept">그로테스크한 이미지</term> 의 환영들은，<term type="concept">서정</term>，자체에 대한 도전을 함축하고 있다 이들의 시가, <term type="concept">근대성</term>에 대한 성찰과 윤리적 정당성에 의해 추동되는 <term type="concept">환경/생태적 상상력</term> 이후에 등장했다는 사실에 먼저 주목하자.</s>
+        </p>
+        <p>
+          <s>전통 서정에 대한 <term type="concept">젊은 시인들</term> 의 반발이 소위 <term type="concept">서정시</term>의 <term type="concept">온정주의</term>나，착하니즘’에 대한 혐오와 맞물려 있음은 쉽게 짐작할 수 있다.</s>
+          <s>그러나，<term type="concept">다른 서정</term>'（<persName role="poet" xml:id="p-x11">이장욱</persName>）이나 ‘<term type="concept">신서정</term>'이 라는 개념이 설득력을 지니듯이, 서정은 그 표현에 있어 사뭇 다른 방식 으로 드러날 수 있다 최근의 시들을 읽으면서 나는，서정‘의 다양한 표현 형식이 시인 개인의 성장 환경에 밀착되어 있음을 직감했다 즉 최근 활 동하고 있는 <term type="concept">젊은 시인</term>의 대부분은 산업화 시대 이후에 태어났지만 그들 의 시에서 확인되는 상이한 경향은 동시대라는 시간적 층위보다는 비동 시성의 동시성이라는 공간적 차이에서 비롯되는 측면이 강하기 때문이 다.</s>
+          <s>비슷한 연배임에도 불구하고 <persName role="poet" xml:id="p-x12">박성우</persName>, <persName role="poet" xml:id="p-x13">손택수</persName>, <persName role="poet" xml:id="p-x14">문태준</persName> 등의 시적 감수 성과 <persName ref="#p-x8">이민하</persName>, <persName ref="#p-x7">김민정</persName>, <persName ref="#p-x5">황병승</persName>, <persName role="poet" xml:id="p-x15">유형진</persName> 등의 시적 감수성은 매우 다르다.</s>
+          <s>흥미로운 사실은 최근 시단에서 목격되는 <term type="concept">세대교체</term>가 그 내부에 출산/성 장 지역의 교체를 내포하고 있다는 사실이다.</s>
+          <s>최근 활발한 창작활동을 하 고 있는 <term type="concept">젊은 시인들</term>의 다수는 서울 및 수도권에서 나고 자랐으며, 성장기 경험의 차이는 결국 '<term type="concept">서정의 차이</term>로 드러나고 있다.</s>
+          <s>오늘날에 있어서V시 =<term type="concept">서정시</term>〉라는 통념은 더 이상 설득력을 얻지 못하고 있지만, 이는，서 정‘자체의 문제라기보다는 그것의 상이한 표현형식의 차이에서 비롯되는 현상이다.</s>
+          <s><interp value="critical" ana="미학">따라서 근대 이전의 감수성에 근거한 전통 서정의 관점에서 도 시적 감수성에 근거한 서정을 비판하는 행위는 설득력을 갖기 힘들다.</interp><date when="1900">20세기 초반</date>, <term type="concept">서정시</term>의 불가능성을 예언했던 세 사람이 있었다.</s>
+          <s>아도르 노와 <persName role="foreigner" xml:id="p-x16">벤야민</persName>, 그리고 <persName role="foreigner" xml:id="p-x17">브레히트</persName>가 그들이다.</s>
+        </p>
+        <p>
+          <s>그러나 동시대를 살았던 그들 이 <term type="concept">서정시의 불가능성</term>을 예고했던 맥락은 사뭇 달랐다.</s>
+          <s>널리 알려진 것처 럼, <persName role="foreigner" xml:id="p-x18">아도르노</persName>는 <term type="concept">아우슈비츠</term>라는 근대적 참상이 모든 인간적 가치를 파괴 했으며, 더 이상 인간적 가치가 존중될 근거가 없음을 깨닫고 난 후 “<quote type="direct" genre="critic">아 우슈비츠 이후 시（詩）를 쓴다는 것은 야만이다</quote>”라고 말했다.</s>
+          <s><persName ref="#p-x17">브레히트</persName> 역시r<title level="a" type="poem" xml:id="t-x11">서정시를 쓰기 힘든 시대</title>」라는 시를 통해 “<quote type="direct" genre="poet" source="서정시를 쓰기 힘든 시대">아우슈비츠 이후 서정시 는 불가능하다</quote>”고 역설했다，행복‘과，경악，이라는 대조가 말해주듯이, <interp value="neutral" ana="미학·사상">브레히트는 고통으로 충만한 세계에서 서정의 아름다움을 노래한다는 것 은 허위이거나 죄악에 가까운 행위라고 주장했다.</interp></s>
+          <s><persName ref="#p-x18">아도르노</persName>와 <persName ref="#p-x17">브레히트</persName> 가 <term type="concept">아우슈비츠</term>라는 <term type="concept">계몽의 폭력</term>에 근거해서 <term type="concept">서정시의 불가능성</term>을 예언한 반면, <persName ref="#p-x16">벤야민</persName>은，<term type="concept">근대</term>‘라는 경험적 구조의 변화에 근거해서 서정시의 불 가능성을 예고했다.</s>
+          <s>그는 몰락의 위기에 처한 <term type="concept">서정시</term>의 운명을 <persName role="foreigner" xml:id="p-x19">보들레르</persName> 의 시에서 읽었는데, 그가 말하는 조건의 변화란 집단의 지혜인'<term type="concept">경험</term>'이 개인의 파편화된，<term type="concept">체험</term>'으로 대체되고 예술의 비의적 요소인，<term type="concept">교감</term>‘과 '<term type="concept">아우라</term>'가 상실되는 세계상의 교체를 의미한다.</s>
+          <s>자연이 한낱 정복과 파 괴의 대상이 되^, 신의 세계가 거부되고, 나아가 인간과 인간이 파편화 된 관계로만 관계하는 군중의 시대에 <quote type="paraphrase" genre="critic">서정시는 불가능하다</quote>는 것이 그의 예언이었다그러나 <term type="concept">서정시의 불가능성</term>에 대한 그들의 예언 이후에도 여전히 <interp value="neutral" ana="문학관">서정 시는 씌어졌으며, 또 씌어지고 있다</interp>.</s>
+          <s>문제는, <interp value="affirmative" ana="미학·사상">아우슈비츠 이전과 아우슈 비츠 이후의, 근대 이전과 근대 이후의 '서정，이 다를 수밖에 없음을 직시 하는 일이다.</interp></s>
+          <s>한 평론가의 말처럼, 지금 우리는 <quote type="paraphrase" genre="critic">시인이 숲으로 가지 못하 는 시대에서 시를 쓰고 읽는다</quote>.</s>
+        </p>
+        <p>
+          <s><term type="concept">아우슈비츠</term> 이후, 또는 돌아갈 숲을 상실 한 지금-이곳의 <term type="concept">서정</term>은 이전의 서정과 다를 수밖에 없다 물론 인간과 자 연의 관계를 복원하거나, <term type="concept">자연/생태</term>를 통한 <term type="concept">근대의 극복</term>과 성찰은 여전히 유효하다 그러나 그것이 현대시의 원칙이 될 수는 없다.</s>
+          <s>우리 시대의 서 정이 종종 <term type="concept">그로테스크</term>한 이미지로 범람하는 것도 이 때문이다.</s>
+          <s>이제 우리 는 세상이 아름답지 않다는 것을 안다.</s>
+          <s>“<term type="concept">잔혹한/따뜻한 서정시</term>”란 이 아 름답지 않은 세상을 냉철하게 바라보되, 시가, 문학이, 그 추악한 세계의 현실에 어떻게 맞설 것인가라는 고민을 지닐 때만이 도달할 수 있는 세 계일 것이다 그 고민이 시인 한 사람에 그치지 않고 독자/대중과 정서적공명을 일으킬 때 더욱 빛을 발하리라 지금-이곳의 <term type="concept">젊은 시인들</term>에게 요 구되는 덕목도 바로 이것이다.</s>
+          <s>图啕§ 문학평론가 •<title level="j" type="journal" xml:id="t-x12">《작가와비평》</title>편집동인 bj061 l@lianmail.net</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

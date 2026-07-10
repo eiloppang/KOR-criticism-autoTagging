@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2000년대 시의 유산과 그 상속자들-2010년대의 시를 읽는 하나의 시각</title>
+        <author>신형철</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>I 문학평론 I■—■■■―■■■■■■■■■■■■■■<title level="a" type="critic" xml:id="t-2000">2000년대 시의 유산과 그 상속자들</title><date from="2010" to="2019">2010년대</date>의 시를 읽는 하나의 시각<persName role="critic" xml:id="p-x">신형철</persName><term type="concept">2000년대 한국시</term>의 어떤 유산: <term type="concept">감응</term>과 <term type="concept">딕션</term>2000년대의 한국시가 무엇이 었는지를 알게 해주는 것은 결국 2010 년대의 한국시다.</s>
+          <s>앞 세대가 남긴 유산 중에서 어떤 것은 상속되고 또 어떤 것은 거부되기 마련인데, 이 과정을 거치고 나면 앞 세대는 문학 사에 입장할 때 그들 스스로 예상했던 것과는 다른 자리로 안내될 수 있다.</s>
+          <s><date from="2000" to="2009">2000년대</date>의 시들이 발표될 당시에 평론가들이 쏟아낸 말들도 시 간이 지나면서 '<term type="concept">자연선택</term>되고 '<term type="concept">적자생존</term>'하여 문학사 서술의 틀을 만 드는 데 기여하게 되 겠지만, 어쩌면 그들의 말보다 더 중요한 것은 다 음 세대의 냉정한 선택일 수 있다는 말이다.</s>
+          <s>“<quote type="direct" genre="critic">하나의 새로운 예술작품 이 창조될 때 일어나는 일은 그것에 앞서는 모든 예술 작품에도 동시 에 일어난다.</quote></s>
+          <s>
+            <quote type="direct" genre="critic">현존히는 기념비들은 그들 사이에 어떤 이상적인 질서를 형성하고 있는데, 그 질서는, 어떤 새로운（진정으로 새로운） 예술작품 이 그것들 사이에 도입되면서 수정된다.</quote>
+          </s>
+          <s>”（「<title level="a" type="critic" xml:id="t-x">전통과 개인의 재능</title>」U이9〕） 인 용하기도 새삼스러운 <persName role="foreigner" xml:id="p-x2">엘리엇</persName>（T.S.</s>
+          <s><persName role="foreigner" xml:id="p-eliot">Eliot</persName>）의 이 말은 백년 전에 옳았듯申 亨 澈 문학폄론가.</s>
+          <s>평론집 <title level="m" type="critic" xml:id="t-x2">몰락의 에티카</title>: 산문집「<title level="m" type="essay" xml:id="t-x3">느낌의 공동체</title> 가 있음 poelica7@hanmail.net<interp value="affirmative" ana="문학관">이 지금도 옳다.</interp></s>
+        </p>
+        <p>
+          <s><date from="2010" to="2019">2010년대</date>의 <term type="concept">새로운 시인들</term>의 첫 시집을 읽는 일이, 적 어 도 나에 게는, <term type="concept">2000년대 시의 가장 결정 적인 유산</term>이 무엇인지를 되새 기는 일이 되고 말았다우리에겐 특별한 날이잖아.</s>
+          <s>실용적인 주소록을 만들기로 해.</s>
+          <s>우린 모 두 지쳤기 때문에 동의했어요.</s>
+          <s>무섭게 조용해졌는데, 전화벨이 울렸어 요.</s>
+          <s>내가 모임에 빠진 거 애들이 아니?</s>
+          <s>이해해.</s>
+          <s>우린 너무 많아졌으니 까.</s>
+          <s>나는 앰뷸런스에 실려 가는 중이야.</s>
+        </p>
+        <p>
+          <s>
+            <quote type="direct" genre="poet" source="친구들一사춘기 6">
+              <lg type="stanza">
+                <l>지옥행을 시도했거든.</l>
+              </lg>
+              <lg type="stanza">
+                <l>— 김 행숙「친구들一사춘기 6」부분</l>
+              </lg>
+              <lg type="stanza">
+                <l>우히 히 , 정 말 장난이 아니 었어.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>사람들은 <term type="concept">귀신</term> 들린다고들 하지 만 사 람에게 먹힌 귀신에 대해 들어봤니?</s>
+          <s>히히히, 그래서 늙은 <term type="concept">귀신</term>들은 사 람을 피해서 다녔지만 내가 세상에 귀신으로 남은 이유는 순전히 사람 을 피해서 우회할 필요가 없었기 때문이지.</s>
+          <s>재밌어, 어떤 나무나 어떤 오토바이 어떤 전봇대 ……에 비길 수 없이 사람을 그냥 통과할 때, 단 숨에 어떤 一士이 한 줄로 정리될 때, 정말 神이 된 기분이야.</s>
+          <s>얼레리꼴 레리- <persName role="poet" xml:id="p-x3">김 행숙</persName>1■<title level="a" type="poem" xml:id="t-2">귀신 이야기 2</title>」부분<quote type="direct" genre="poet" source="대야미의 소녀一황야의 트랜스젠더"><lg type="stanza"><l>낮고 낮은 지 붕 아래, 밤낮 가릴 것 없이</l></lg><lg type="stanza"><l>참 많은 죄 없는 사내들이 다녀갔네</l></lg><lg type="stanza"><l>풍만한 가슴의 여자들처럼 뼛속까지 미움을 받진 못했지만, 대야미 의 소녀</l></lg><lg type="stanza"><l>침 대가 주저 앉을 정 도로 톡톡히 미 움을 받았죠, 즐거 워 라</l></lg><lg type="stanza"><l>즐거워서 노래를 다불렀죠</l></lg><lg type="stanza"><l>(•••)</l></lg><lg type="stanza"><l>키스해줘요 그곳에 불이 나도록</l></lg><lg type="stanza"><l>그곳이 못 쓰게 되도록 멍해지도록</l></lg><lg type="stanza"><l>내 뺨을 내 뺨을 갈겨봐요</l></lg><lg type="stanza"><l>당신이 쏘고 싶은 구멍에 대고</l></lg><lg type="stanza"><l>당신을 당신을 털어놔봐요</l></lg><lg type="stanza"><l>장전（裝塡） 했나요?</l></lg></quote></s>
+          <s>장전했어요?—<persName role="poet" xml:id="p-x4">황병승</persName>「대야미의 소녀一황야의 트랜스젠더」부분<quote type="direct" genre="poet" source="웨이트리스"><lg type="stanza"><l>언제나 당신들이 옳았다는 것을……</l></lg><lg type="stanza"><l>변기에 얼굴을 처박고 나는 생각했다</l></lg><lg type="stanza"><l>당신들의 비슷비 슷한 외모 태도와 말솜씨</l></lg><lg type="stanza"><l>그런 것들은 오랜 시간이 흘러도</l></lg><lg type="stanza"><l>당신들의 주문이 옳았다는 것을 확신케 하고</l></lg><lg type="stanza"><l>될 수 있으면 나는 이런 식의 이야기들을</l></lg><lg type="stanza"><l>유니폼과 에 이프런,</l></lg><lg type="stanza"><l>검은색과 흰색으로만 적고 싶었다</l></lg><lg type="stanza"><l>먹고 토하고 먹고 토하는 일에 대해</l></lg><lg type="stanza"><l>스탠드의 불빛이 흰 벽을 스치듯</l></lg><lg type="stanza"><l>식기와 찻잔을 나르는 일에 대해</l></lg><lg type="stanza"><l>수저를 주워 당신들의 테이블에 되돌려놓는</l></lg><lg type="stanza"><l>혼자만의 시간에 대해</l></lg></quote>— 황병승1■<title level="a" type="poem" xml:id="t-x4">웨이트리스</title>」부분이 두 사람의 시라면 어떤 것을 인용해도 좋을 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">김행숙（金杏 淑）이 아니었다면, 방금 자살을 기도해서 앰뷸런스에 실려 가는 한 소 녀가 친구들에 게 전화를 걸어 하는 말을, 살아 있는 인간들의 몸을 통 과하는 일이 재미 있어서 이승에 남기를 선택한 어느 귀신의 말을 우 리가 들을 수 있었을까.</interp>
+          </s>
+          <s>또 <interp value="affirmative" ana="미학">황병승（黃炳承）이 아니었다면, 남자로 살아 가기보다는 학대를 받더라도 여자로 살기를 택한 어느 상처투성 이 트 랜스젠더의 고통스러운 반어의 말을, 조금 전에 변기에 얼굴을 처박 고 토한 어느 지친 웨이트리스의 말을 들을 수 있었을까.</interp></s>
+        </p>
+        <p>
+          <s>
+            <interp value="affirmative" ana="미학">이런 시들이 더이상 새롭게 느껴지지 않는다면 그것은 김행숙과 황병승이 결국 승 리 했다는 뜻이 다.</interp>
+          </s>
+          <s><date from="2000" to="2009">2000년대 중반</date>부터 <term type="concept">한국시</term>를 읽 기 시작한 독자는 이 시인들이 한국시의 영토를 어떻게 얼마나 넓혔는지 가늠하기 어려 울지도 모르겠다.</s>
+          <s>이제와 다시 보아도 결정적인 것은 역시 이것이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">200（）년대의 어떤 시인들 덕분에 한국시는 '시인（1인칭）의 내면 고백 으로서의 시'라는 일면적이면서도 지배적인 통념으로부터 완전히 자 유로워졌다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="문학관">이제 시는 누구도 될 수 있고 무엇이건 말할 수 있다.</interp>
+          </s>
+          <s>이 런 시들로는 시인의 <term type="concept">퍼스낼리티</term>를 짐작하기 어렵다.</s>
+          <s>이것은 일종의 <term type="concept">위 조 신분증</term>이다.</s>
+          <s><term type="concept">위 조 신분증</term>이 있으면 많은 일을 할 수 있다.</s>
+        </p>
+        <p>
+          <s>누군가에 게는 혼란이 었겠지 만 다른 누군가에 게는 축제였을 것이다.</s>
+          <s>물론 이 모든 것이 '무에서 창조된 유'였던 것은 아니다.</s>
+          <s>당장 '<term type="concept">극적 독백 （dramatic monologue）</term>이라 불리는 저 오래된 기법을 떠올리는 이들도 있을 수 있다.</s>
+          <s>시 인 자신과는 명 백히 다른 어떤 화자가 모노드 라마의 주인공처럼 어떤 특정한 상황 속에서 말을 한다.</s>
+          <s>그런데 이 말 은 순전한 혼잣말이 아니라 어떤 청자를 염두에 두고 이루어지는 발 화인데, 청자가 직 접 시 속에 끼어들지는 않지만 화자의 말을 통해 청 자의 반응을 미루어 짐작할 수 있다.</s>
+          <s>화자는 한명 인데도 연극적인 대화의 공간이 생겨난다는 점이 이 기법의 묘미다.</s>
+          <s>그래서 <term type="concept">독백</term>이되 극 적인 독백이다” <term type="movement">낭만주의</term> 시기에 이미 이 기법의 맹아가 나타났다는 견해도 있지만, 대체로 <term type="movement">빅토리아 시대</term>(<date when="1837">1837</date>T901)를 대표하는 두 시인 인 <persName role="foreigner" xml:id="p-a">테니슨(A.</persName></s>
+          <s><persName role="foreigner" xml:id="p-tennyson">Tennyson)</persName>과 <persName role="foreigner" xml:id="p-r">브라우닝(R.</persName></s>
+        </p>
+        <p>
+          <s><persName role="foreigner" xml:id="p-browning">Browning</persName>)에 의해 (특히 후자 에 의해) 창안되었다고 보는 것이 <orgName xml:id="org-x">영문학계</orgName>의 정설이다.</s>
+          <s>앞 세대인 낭 만주의 시인들의 내면 고백에 싫증이 났다는 듯 <term type="concept">빅토리아 시대</term>의 시 인들이 가공의 화자 뒤로 숨어버리자 시에서 아주 많은 것들이 가능 해졌다.</s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>그녀는一뭐랄까?一너무 쉽게 기뻐하고</l>
+              </lg>
+              <lg type="stanza">
+                <l>너무 쉽게 감명받는 그런 마음을 갖고 있었다오.</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">그녀는 자신이 바라보는 무엇이든 간에 좋아했고, 그녀는 도처에 눈길을 돌렸다오.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">선생, 모든 것이 같았단 말이오!</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">내가 선물로 준 그녀의 가슴에 다는 장식물이나, 서편으로 지는 저녁노을이나, 어떤 주제넘은 바보가 과수원에서 꺾어다가그녀에게 바친 벚나무 가지나, 그녀가 타고 테라스 대지를 돌아다니던 하얀 망아지나一 이 모든 것이 각기 그녀로부터 똑같이 감탄을 자아내거나, 아니 면 적어도 얼굴을 붉히 게 했다오.</quote>
+          </s>
+          <s>(...)<quote type="direct" genre="poet">오, 선생, 물론 그녀는 내가 그녀 곁을 지나갈 때마다 미소를 지었다오.</quote></s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>하지 만 그와 똑같은 미소를 받지 않고 그녀 곁을 지 나간 사람이 누가</l>
+              </lg>
+              <lg type="stanza">
+                <l>M.</l>
+              </lg>
+            </quote>
+          </s>
+        </p>
+        <p>
+          <s>H.</s>
+          <s>Abrams, <title level="m" type="other" xml:id="t-aglossaryofliteraryterms">A Glossary of Literary 'Terms</title> (8th ed.), Boston： Tliomson V%dsworrh 2005, 70 〜 71 면.</s>
+          <s>있었겠소?</s>
+          <s>이런 일이 점점 잦아졌다오.</s>
+          <s>그래서 나는 명령을 내렸다오.</s>
+          <s>그러자 모든미소가 딱 멈춰 버 렸다오 그리고 저기에 그녀가마치 살아 있는 듯이 서 있게 되었다오.</s>
+          <s>자, 일어나시겠소?</s>
+          <s>이제 아래층으로 가서 손님들을 만나야지 요.- <persName role="foreigner" xml:id="p-x5">브라우닝</persName>「<title level="a" type="poem" xml:id="t-x5">나의 전처 공작부인</title>」(my last duchess) 부분＞<persName role="foreigner" xml:id="p-x6">테니슨</persName>의「율리 시스」와 더불어 가장 많이 언급되는 이 작품은 앞에 서 설명한 <term type="concept">극적 독백</term> 기법의 전형을 보여준다.</s>
+        </p>
+        <p>
+          <s>상세히 분석할 자리도 아니거니와, 그럴 필요도 없을 것이다;” 이 시들이 없었다면 <date from="2000" to="2009">2000년대</date> <term type="concept">한국시</term>도 없었을 것이라고 보는 것이 문학사적으로 온당한 시각이겠 으나, 당연하게도 <term type="concept">극적 독백</term>이라는 개념으로 <date from="2000" to="2009">2000년대 중반</date>에 일어난 일을 충분히 설명할 수는 없기 때문이다.</s>
+          <s>물론 <persName ref="#p-x3">김행숙</persName>과 <persName ref="#p-x4">황병승</persName>의 시 에는 <term type="concept">극적 공간</term>을 창조하는 독백들이 나온다.</s>
+          <s>이 글의 도입부에 인용 한 시들부터가 그렇다.</s>
+          <s>(「<title level="a" type="poem" ref="#t-x4">웨이트리스</title>」의 경우는 논의의 여지가 있을 수 있겠다.) 그러나 이들의 시에서 중요한 것은 시인과는 다른 누군가 가 말한다는 사실 자체가 아니라 지금 말하고 있는 이의 존재론적 가 치다 <persName ref="#p-x3">김행숙</persName>은 아직 성년이 아닌 존재('<title level="a" type="poem" xml:id="t-x6">사춘기</title>' 연작와 이젠 더이상 사 람이 아닌 존재(•<title level="a" type="poem" xml:id="t-x7">귀신 이야기</title>，연작)를 시 안에 데려왔고, 평균적인 성년<title level="m" type="foreign" xml:id="t-dramaticlyrics">Dramatic Lyrics</title> (1842) 에 수록된 작품이다.</s>
+          <s>대체로 유려하게 읽히는 다음 번역을 따르되 인용한 대목 첫 부분의 주어를 원문대로 '그녀는'으로 고쳤다.『<title level="m" type="translation" xml:id="t-x8">로버트 브라우닝 시선</title>』, 윤 명옥 옮김.</s>
+          <s><orgName xml:id="org-x2">지식을만드는지식</orgName> <date when="2012">2012</date>, 23~27면인용한 부분은 화자인 공작이 자신의 집을 방문한 손님이 한 초상화에 관심을 갖자 그 그 림의 모델이 자신의 전처이며 왜 그녀가 지금 여기에 없고 한점 그림으로 남게 됐는지를 설명하는 대목이다.</s>
+          <s>“그래서 나는 명령을 내렸다오.</s>
+          <s><quote type="direct" genre="foreign">그러자 모든/미소가 딱 멈춰버렸다 오</quote>"「(<quote type="direct" genre="foreign">I gave commands</quote> "<quote type="direct" genre="foreign">Then all smiles stopped together</quote>) 물론 이 구절에는 공작이 전처를 죽였을 가능성 이 암시 되 고 있다.</s>
+        </p>
+        <p>
+          <s><term type="concept">주체</term>가 떠올릴 수도 말할 수도 없는 것들을 그들이 직접 말할 수 있게 했다.</s>
+          <s><persName ref="#p-x4">황병승</persName>은 이 사회가 정상적이고 바람직하다 여기기 어려운 <term type="concept">불운 한/불온한 인물들</term>을 초대했고, 그들을 통해 이 세계가 예외적으로 진 실해지는 어떤 순간을 그들 자신이 직접 보여줄 수 있게 했다.</s>
+          <s>이전 시 기에는 <interp value="affirmative" ana="사회">발언권을 거의 가져본 적이 없는 존재들이 입을 열었다는 사 실, 그것이 중요하다.</interp></s>
+          <s>그래서 어떤 일이 벌어졌는가?</s>
+          <s>첫째, 그런 존재들만이 도달하고 산출할 수 있는 <term type="concept">인식과 정서</term>가 한 국어로 표현되기 시작했다.</s>
+          <s>예컨대 <persName ref="#p-x4">황병승</persName>의 어떤 사내가 “<quote type="direct" genre="poet" source="조금만 더">넌 항상 날 인정해줬지 / 넌 항상 인정했어 / 그것은 네가 날 속이고 있다는 감정 을 갖게 해</quote>”（『<title level="a" type="poem" xml:id="t-x9">조금만 더</title>」）라고 말하면, 살아남기 위해서는 타인의 인정 조차 의심하고 경계해야 하는 어떤 <term type="concept">약자들</term>의 <term type="concept">인식과 정서</term>가 전달된다.</s>
+          <s>또 <persName ref="#p-x3">김행숙</persName>의 어떤 소년이 '•<quote type="direct" genre="poet">난 오토바이족을 동경하지도 않고 여자애 를 엉덩이에 붙이고 싶지도 않아.</quote></s>
+          <s>
+            <quote type="direct" genre="poet">나는 무섭게 세상을 쏘아보지 않지.</quote>
+          </s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="poet">그런 눈빛은 이제 아주 지겨워</quote>”（「<title level="a" type="poem" xml:id="t-x10">오늘밤에도</title>」）라고 말할 때, 이 말은 사 춘기라는 시기조차도 이미 그 시기를 지난 이들에 의해 상투적인 이 미지로 <term type="concept">식민지화</term>되 었다는 사童을 예민하게 꿰뚫고 있는 한 소년의 인 식과 정서를 전달한다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이런 시들이 나오고 나서야 우리는 이전 시기 의 시들이 재현했던 인식과 정서가 협소한 범위 안의 것이었음을 깨 닫게 되었고, 그 이후로 많은 시인들이 그 인식과 정서의 대륙에 잇달 아 상륙했다.</interp>
+          </s>
+          <s>그러니 이 새로운 화자들을 그저 화자（speaker）라고 불러 서는 안될 것이다.</s>
+          <s><persName role="foreigner" xml:id="p-x7">들뢰즈</persName>（G.</s>
+          <s><persName role="foreigner" xml:id="p-deleuze">Deleuze</persName>）는 철학자들이 자신의 책에서 '개념 적 인물'을 창조하고 그를 통해 사유한다고 말한 적 이 있는데;" <persName ref="#p-x3">김행숙</persName>과 <persName ref="#p-x4">황병승</persName>의 （혹은 2000년대의 몇몇 시인들의） 시에는, 이렇게질 <persName role="foreigner" xml:id="p-x8">들뢰즈•펠릭스가타리</persName> ''<title level="m" type="foreign" xml:id="t-x11">철학이란무엇인가</title>』, <persName role="critic" xml:id="p-x9">이정임</persName>•<persName role="critic" xml:id="p-x10">윤정임</persName> 옮김, <orgName xml:id="org-x3">현대미학사</orgName> <date when="1995">1995</date>,3 장.</s>
+          <s>예컨대 <persName role="foreigner" xml:id="p-x11">플라톤</persName>에게는 <persName role="foreigner" xml:id="p-x12">소크라테스</persName>가, <persName role="foreigner" xml:id="p-x13">니체</persName>에게는 <persName role="other" xml:id="p-x14">디오니소스</persName>가, <persName role="foreigner" xml:id="p-x15">키르케고르</persName>에 게는 <persName role="other" xml:id="p-x16">돈 후안</persName>이 바로 <term type="concept">개념적 인물</term>이다.</s>
+          <s>불러도좋다면, 어떤 ‘<term type="concept">감응적 인물</term>'이 존재한다.</s>
+          <s>발화의 주체라는 점에 서 일단은 <term type="concept">화자</term>지만, 시를 지배하고 있는 인식과 정서의 주체이기 때 문에 단순한 화자 이상이다.</s>
+        </p>
+        <p>
+          <s>그들은 （스스로） <term type="concept">감응</term>하면서 （독자를） 감 응시킨다.</s>
+          <s>어쩌면 <persName ref="#p-x3">김행숙</persName>과 <persName ref="#p-x4">황병승</persName>이라는 이름은 그들이 창조한 감응 적 인물들의 필명에 불과한 것인지도 모른다.5）둘째, <term type="concept">감응적 인물</term>들의 인식과 정서는 결국 그들 자신의 말을 통해 전달된다.</s>
+          <s>그 인물이 김 행숙의 경우처럼 ‘<quote type="direct" genre="poet">아직 성년이 아닌 존재</quote>‘이거 나 ‘<quote type="direct" genre="poet">이젠 더이상 사람이 아닌 존재</quote>'이고, <persName ref="#p-x4">황병승</persName>의 경우처럼 '이 사회 가 정상적이고 바람직하다 여기기 어려운 불운한/불온한 인물'인데 도, 그들의 인식과 정서가 그들이 아닌 우리에게도 전달되는 데 성공 한 것은 저 뛰어난 시인들이 <interp value="affirmative" ana="미학">새로운 화법을 창안했기 때문이다.</interp></s>
+          <s>“너의 마음을 내가 이해해도 되 겠니?二<persName ref="#p-x4">황병승</persName>「<title level="a" type="poem" xml:id="t-x12">눈보라 속을 날아서（하）</title>」） 같은 문 장, 혹은 ''나는 지나갔어요.</s>
+          <s>
+            <quote type="direct" genre="poet" source="세월">가장 슬픈 마음도 나를 붙잡지 못해요.</quote>
+          </s>
+          <s>”（김 행숙「<title level="a" type="poem" xml:id="t-x13">세월</title>」） 같은 문장들을 번역투라고 한다면 그것은 틀린 말이 아니 지만, 이 번역이 저 <term type="concept">감응적 인물</term>들의 인식과 정서를 훼손됨 없이 전달 하기 위한 배려라는 것까지 빼놓지 않고 말해야 옳은 말이 된다.</s>
+          <s>황현 산（黃鉉産）이 정확히 지적한 대로, <quote type="indirect" genre="critic">이 시인들의 시쓰기는 본질적으로 번역의 과정이었던 것인지도 모른다.</quote></s>
+          <s>'” 그들 이후로, 그리고 그들의 동 료와 후배들 덕분에, 한국시에서 이른바 '시적인' 문장에 대한 통념적 인 합의는 거의 무의미해졌다.</s>
+        </p>
+        <p>
+          <s>200。년대 시는 <term type="concept">감응적 인물</term>만이 아니라 그에 걸맞은 <term type="concept">딕션（diction）</term>力도 함께 발명해야 했다.</s>
+          <s>다른 감응이 다른앞의 책의 저자들은 "<quote type="direct" genre="other">개념적 인물은 철학자의 대리자（representative）가 아니라 차라리 그 반대</quote>”이며 “<quote type="direct" genre="other">철학자의 이름은 단지 그의〔개념적〕인물들의 필명일 따름</quote>”이라고 적었다.</s>
+          <s>앞 의 책 95면<persName role="critic" xml:id="p-x17">황현산</persName>은 <term type="concept">하위문화</term>와 <term type="concept">주류문화</term> 사이의 거리를 염두에 두고 이렇게 적었다.</s>
+          <s>"<quote type="direct" genre="critic" source="황현산">문화적이거 나 언어적인 접경지대의 위기에서 성립하는 황병승의 시는 많은 경우 번역 또는 의사번역 의 형식을 드러낸다.</quote></s>
+          <s>”「<title level="a" type="poem" xml:id="t-x14">완전소중 시코쿠</title>」,『<title level="m" type="poem" xml:id="t-x15">잘 표현된 불행</title>』, <title level="j" type="journal" xml:id="t-x16">문예중앙</title> <date when="2012">2012</date>, 535면.</s>
+          <s>이 단어는 발음, 발성, 말씨, 어법 둥을 두루 의미하기 때문에 우리말로 번역하기 곤란한<term type="concept">딕션</term>을 요구하고 다른 딕션이 다른 <term type="concept">감응</term>을 실현한다.</s>
+          <s>이 둘은 본질적 으로 결합돼 있기 때문에 어느 하나만을 훔쳐낼 수가 없다.<term type="concept">2000년대 시의 정치적 조건</term>: <term type="concept">대의불충분성</term>과 <term type="concept">대의 불가능성</term>이렇게 새로운 감웅적 인물을 창조해 낯선 인식과 정서를 생산하고 또 그에 걸맞은 시적 <term type="concept">딕션</term>을 발명해내면서 <interp value="affirmative" ana="미학">2000년대 한국시는 아주 쓸 모있는 위조 신분증을 만드는 데 성공했다.</interp></s>
+          <s>일단 이렇게 정리해놓고 이제는 물음의 층위를 바꿔보려고 한다.</s>
+        </p>
+        <p>
+          <s>왜 하필 <date from="2000" to="2009">2000년대</date>인가?</s>
+          <s><date from="2000" to="2009">2000 년대</date> 시가 무엇을 했는가 하는 물음에 대해서는 우리가 지금까지 논 의한 것과 유사하거나 상이한 관점에서 많은 얘기들이 오갔지만, 왜 하필 <date from="2000" to="2009">2000년대 중반</date>에 이같은 일이 일어날 수밖에 없었는지를 따져본 작업은 드물다.</s>
+          <s>혹시 <term type="concept">예술체제</term>에서의 이같은 변화는 <term type="concept">정치체제</term>에서의 어떤 변화와 연동돼 있는 것은 아닐까?</s>
+          <s>여기서 단서로 삼아봄직한 것 은 현대 민주주의의 어쩔 수 없는 근간이 되고 있는 '<term type="concept">대의</term>와 문학의 주도적 방법론 중 하나인 '<term type="concept">재현</term>이 '<term type="concept">리프리젠테이션</term>'(<term type="concept">representation</term>) 의 서로 다른 번역어라는 새삼스러운 사실이다.</s>
+          <s>이 두개의 리프리젠테 이션은 별개의 <term type="concept">개념사</term>(槪念史)를 갖고 있지만, 특정한 역사적 국면 속 에서는 관련을 맺을 것이라고 가정해볼 수 있다.</s>
+          <s>그렇다면 앞에서 던 진 질문을 더 구체화해서, <date from="2000" to="2009">2000년대</date> 한국시에 나타난 <term type="concept">재현</term> 층위에서의 변화는 <term type="concept">2000년대 한국 민주주의</term>의 <term type="concept">대의</term> 층위에서의 변화와 관련을 맺데, 이 다의성이 오히려 이 단어를 쓸모있게 만든다고 해야 할 것이다.</s>
+          <s>노래에서의 <term type="concept">딕션</term>, 배 우의 딕션.</s>
+          <s>소설에서의 <term type="concept">딕션</term> 등에 대해서도 함께 논의하면 시에서의 딕션에 대해 더 잘 말 할 수 있겠지만 이는 다음 기회로 미룬다.</s>
+        </p>
+        <p>
+          <s>고 있는 것이 아닐까 하는 물음을 던져볼 수 있을 것이다.</s>
+          <s>먼저 <term type="concept">빅토리아 시대</term>를 향해 비슷한 질문을 던지고 조언을 구해보 면 어떨까.</s>
+          <s><term type="concept">극적 독백</term>은 왜 하필 <term type="concept">빅토리아 시대</term>에 성행했는가.</s>
+          <s>여러 접 근이 가능하겠지만，마침 우리가 앞에서 예고한 것과 유사한 방식으 로 접근한 사례가 있다.</s>
+          <s>“<quote type="direct" genre="critic">극적 독백은〔낭만주의 시기의一인용자〕자기함 몰적 내면화에 대한 비판에서 출발한다고 해야 하겠지만, 궁극적으로 는 민주주의를 제도적으로 정착하는 과정에서 19세기 최대 관심사로 떠오른 재현• 대의(representation) 문제와 불가분 연관되어 있는 것으 로 보〉야 한다—</quote>” <date when="1832">1832년</date>의 1차 선거법 개정 이후 영국에서는 민주주의 에 대한 욕구가 증폭되 었고, 그 과정에서 민주주의가 과연 인민의 뜻 을 제대로 대의/재현할 수 있는가 하는 문제에 대한 고민이 심화되었 다.</s>
+          <s>한편 동시대에 씌어지기 시작한 <term type="concept">극적 독백</term>의 시는 전적으로 화자 의 말을 통해서만 청자의 반응을 짐작할 수 있는 구조를 갖는데, 이것 은 화자가 청 자의 뜻을 대 의 /재 현하는 구조라고 말할 수 있지 않은가.</s>
+          <s>여기서 서로 다른 두 영역은 <term type="concept">대의</term>와 <term type="concept">재현</term>이라는 층위에서 만난다.</s>
+          <s>저 자는 과감하게도 <term type="concept">극적 독백</term>이 “<quote type="direct" genre="critic">민주화에 대한 고민이 배태한 장르</quote>”이 고 “재현 .</s>
+        </p>
+        <p>
+          <s>대의를 주제로 삼은 장르''라는 결론으로까지 나아간다丿。)이 결론의 설득력을 평가할 처지는 못되지만, 적어도 한 시대의 정치적 대의구조와 예술적 재현구조를 함께 따져보는 작업의 선례로서는 참일례로 한 연구자는 <term type="concept">극적 독백</term> 기법이 화자가 자신의 말을 어느 정도로까지 진지하게 대 하고 있는지를 불확실하게 만들기 때문에 심리학적 관심을 유발하는 측면이 있으며, 이 는 당대에 본격화되기 시작한 인간의 마음에 대한 연구(예컨대 <persName role="foreigner" xml:id="p-x18">제임스 밀</persName>의 <title level="m" type="foreign" xml:id="t-analysisofthephenomenaof">Analysis of the Phenomena of the Human Mind</title> (<date when="1829">1829</date>)등의 사례) 와 관련이 있다고 지적한다.</s>
+          <s>
+            <persName role="foreigner" xml:id="p-lindak">Linda K.</persName>
+          </s>
+          <s>Hughes, <title level="m" type="foreign" xml:id="t-thecambridgeintroduction">The Cambridge Introduction to Victorian Poetry</title>, Cambridge Universicy Press <date when="2010">2010</date>, 1 장.</s>
+          <s><persName role="critic" xml:id="p-x19">유명숙</persName>「<title level="a" type="foreign" xml:id="t-x17">테니슨과 브라우닝</title>」, <orgName xml:id="org-x4">영미문학연구회</orgName> 엮음『<title level="m" type="foreign" xml:id="t-1">영미문학의 길잡이 1： 영국문학</title>』, 창 작과비평사 <date when="2001">2001</date>,413면.</s>
+          <s><persName ref="#p-x19">유명숙</persName> 같은 글 414〜15면.</s>
+          <s>
+            <interp value="affirmative" ana="미학">고할 만하다.</interp>
+          </s>
+          <s>왜 2000년대인가라는 물음으로 다시 돌아오자.</s>
+          <s>'<term type="concept">2000년대 시</term>'로 통 칭되는 작품들이 쓰이고 발표된 시기는 <persName role="other" xml:id="p-x20">김대중</persName>•<persName role="other" xml:id="p-x21">노무현</persName> 전 대통령의 재임기간（<date when="1998">1998</date>년 3월~ <date when="2008">2008</date>년 2월）과 거의 겹친다.</s>
+        </p>
+        <p>
+          <s>（<date when="2008">2008년 3월</date>에 <orgName xml:id="org-x5">이명박 정부</orgName>가 들어서면서 지난 10년의 역사가 구축해놓은 저 불완전한 민 주주의마저 후퇴하기 시작하자 한국시를 둘러싼 담론의 중심 주제는 <term type="concept">시와 정치</term>‘가 되었다.</s>
+          <s>이 시점부터는 다른 논의가 필요하다.</s>
+          <s>한국시 에서 '<term type="concept">2000년대</term>'는 <date when="2008">2008년 3월</date>을 기 점으로 끝났다고 해야 할지도 모른 다.） <date when="1998">1998~2007년</date>은 어떤 시기였던가.</s>
+          <s>대선을 앞둔 <date when="2002">2002년</date> H월에 출 간되어 널리 읽힌 책에서 정치학자 <persName role="scholar" xml:id="p-x22">최장집</persName>（崔章集）은 이렇게 적었다.</s>
+          <s>“<quote type="direct" genre="essay">이제 민주주의는 더이상 사람들의 기대와 열정을 만들어내는 단어가 아니다.</quote></s>
+          <s>일반 국민은 물론 <term type="concept">민주주의</term>를 위해 투쟁한 사람조차 한국 민 주주의의 현 상황에 대해 무관심하고 냉담하며 비판적 이 되 었다.</s>
+          <s>무엇 보다도 그것은 <term type="concept">민주주의</term>를 통해 기 대 했던 것과 한국 민주주의가 실제 로 가져온 결과 사이의 격차가 만들어낸 실망의 표현이라 할 수 있다.</s>
+          <s>더욱이 이같은 실망이 현실정치에 대한 환멸을 동반하면서 한국 민주 주의를 위기로 몰아가고 있는 것이 오늘의 현실인 것이다.</s>
+        </p>
+        <p>
+          <s>”“&gt; 이 '<term type="concept">실 망과，위기</term>‘의 실체를 두가지 각도에서 살필 수 있을 것이다.</s>
+          <s>첫째, 대의불중분성에 대하여.</s>
+          <s><persName ref="#p-x22">최장집</persName> 자신에 의해 제기된 '<term type="concept">민주화 이후의 민주주의</term>'론이 이를 주도했다.</s>
+          <s><date when="1987">1987년 6월</date>을 통해 인민의 뜻을 온전히 대의할 대표를 뽑을 수 있는 직선제를 쟁취했고 뒤이어 <date when="1998">1998년</date> 에는 민주개혁세력이 마침내 집권에 성공했는데 어째서 한국의 민주 주의는 인민의 냉소와 환멸의 대상이 되고 말았는가.</s>
+          <s>알려진 대로 <persName ref="#p-x22">최 장집</persName>은 “<quote type="direct" genre="critic" source="민주화 이후의 민주주의">정당체제의 대표성을 확대하고 그 사회적 기초를 튼튼히 해최장집 '■민주화 이후의 민주주의』.</quote></s>
+          <s><orgName xml:id="org-x6">후마니타스</orgName> <date when="2002">2002</date>, 6면.</s>
+          <s><quote type="direct" genre="critic" source="민주화 이후의 민주주의">야 하는 것이 오늘날 한국 민주주의의 핵심 과제</quote>”⑵라는 시각에서 이 문제에 접근한다.</s>
+          <s>그에 따르면 민주화 이후 이처럼 <term type="concept">환멸과 냉소</term>가 만 연하게 된 것은 인민의 뜻을 제대로 대의하지 못하고 있는 왜곡된 정 당구조에 그 원인이 있다.</s>
+        </p>
+        <p>
+          <s>특정 지역에 기반을 둔 보스 중심의 정당체 제로는 <term type="concept">인민</term>의 다양한 뜻을 <term type="concept">대의</term>할 수 없다.</s>
+          <s>그러나 <term type="concept">민주화</term> 이후 소위 '<quote type="indirect" genre="other">민주정부</quote>'가 들어선 이후에도 이같은 구조는 개선되지 않았다는 것 이 그의 진단이었다.</s>
+          <s>이 와중에 정치에 대한 환멸이 극에 달하면서 많 은 이들이 <term type="concept">민주주의</term>는 '•<quote type="direct" genre="other">모두가주권자라는 점에서 아무도 개별적으로 는 주권자가 아닌 체제</quote>”1“라는 사실을, <term type="concept">대의제</term> 아래 <term type="concept">인민</term> 개개인은 1표 로 환원되는 동질적인 개인이고 또 그만큼 동질적으로 무기력하다는 사실을 실감하기에 이른다.</s>
+          <s>둘째, <term type="concept">대의불가능성</term>에 대하여.</s>
+          <s>사회학자 <persName role="scholar" xml:id="p-x23">고병권</persName>（高秉權）은 한국사회 에서 <term type="concept">대의제</term>가 충분히 발달하지 못한 것보다는 <term type="concept">민주화</term> 이후 대의제의 발달과 대의제로부터의 <term type="concept">대중 추방</term>이 동시에 일어난 것이 위기의 본질 이라고 지적한다.</s>
+          <s><date from="1990" to="1999">1990년대</date>라는 시기가 그래서 중요하다.</s>
+          <s>한편으로 대 의 제 민주주의가 공고화된 때이 면서 다른 한편으로는 <term type="movement">신자유주의</term>적 <term type="concept">구조조정</term>이 본격화된 때이기 때문이다.</s>
+          <s>이 과정에서, 현행 대의민주주 의 하에서는 사실상 자신들을 대의할 수 없게 애초부터 배제돼 있는 미성년자나 <term type="concept">이주노동자</term>에 더해서, 경제적으로 낙오된 탓에 정치적으 로도 무기력한 상황에 내던져진 이들이 급속히 늘어났다.</s>
+        </p>
+        <p>
+          <s>그래서 지금 은 <term type="concept">대의제</term>에 대한 근본적인 질문을 던져야 할 시점이라는 것이 그의 판단이다.</s>
+          <s>“단지 대표가 자기 성원을 얼마나 충분히 대표하는가（<term type="concept">대의 불충분성</term>의 문제） 이 전에 , <term type="concept">대표체제</term> 바깥에 있는 자들을 대표들이 어<persName ref="#p-x22">최장집</persName> •<persName role="scholar" xml:id="p-x24">박찬표</persName>•<persName role="scholar" xml:id="p-x25">박상훈</persName>『<title level="m" type="other" xml:id="t-x18">어떤 민주주의인가</title>』, <orgName ref="#org-x6">후마니타스</orgName> 2007, 29면.</s>
+          <s><persName ref="#p-x23">고병권</persName>『<title level="m" type="other" xml:id="t-x19">민주주의란 무엇인가</title>』, <orgName xml:id="org-x7">그린비</orgName> <date when="2011">2011</date>, 68면.</s>
+          <s>떻게 다룰 수 있는가（<term type="concept">대의불가능성</term>의 문제）의 문제”14）가 추가되어야 한다는 것이다.</s>
+          <s>
+            <interp value="affirmative" ana="사회">결국 '민주주의 = 대의제'라는 도식으로부터 벗어나야 하고, 대의되지 못한 존재들의 직접 행동（ '난입과 점거'）의 정치적 의 미를 숙고해야 하며, 궁극적으로는 민주주의 자체를 근본적으로 다시 사유해야 한다는 주장으로 나아간다.</interp>
+          </s>
+          <s>요컨대 <term type="concept">대의불충분성</term>과 <term type="concept">대의불가능성</term>, 이것이 <date from="2000" to="2009">2000년대</date> 한국의 정 치적 조건이고 바로 그 무렵에 2000년대의 시들이 쓰이고 읽히기 시작 했다.</s>
+          <s>물론 <term type="concept">2000년대의 시인들</term>이 이같은 정치적 조건을 의식하면서 의 도적으로 시를 썼다고 말할 수는 없다.</s>
+          <s>그들이 무언가를 의식했다면 그것은 정치적인 것이 아니라 <term type="concept">미학적인 것</term>이었을 가능성이 높다.</s>
+        </p>
+        <p>
+          <s>낭 만주의의 <term type="concept">내면 지향</term>에 대한 반발로 <term type="concept">빅토리아 시대</term>의 <term type="concept">극적 독백</term>이 등 장했다는 관행적 인 논리와 유사하게, <date from="1990" to="1999">1990년대</date> 시 의 <term type="concept">내면 지향</term>에 대한 미학적 피로감 때문에 이제는 다른 시를 써보고 싶다는 생각을 하게 됐을 것이다.</s>
+          <s>그러나 이런 질문을 던져봐야 한다.</s>
+          <s>왜 그들은 （그리고 우리는） <date from="2000" to="2009">2000년대</date>로 접어들면서 <term type="concept">1인칭 내면 고백</term>의 시들이 갑자기 지 겨워졌던 것일까.</s>
+          <s>어느 시기에 개개인의 취향이 집합적으로 변했다면 거기에는 <term type="concept">정치적 조건</term>이 영향을 미쳤을 것이라고, 그러니까 정치적 조 건이 어떤 （무）의식적인 매개를 거쳐 <term type="concept">미학적 혁신</term>을 낳았을 것이라고 보는 것이 문학사의 시각일 것이다 이를테면 나'라는 존재가 단지 1 표 이상도 이하도 아닌 존재라는 <term type="concept">환멸과 권태</term>가 시에서 <term type="concept">1인칭 나에 대한 탐구</term>를 진부하게 만든 것은 아닌가.</s>
+          <s>
+            <interp value="neutral" ana="사회">또 그 1인칭의 빈자리에, 1표 만큼의 권리조차도 행사하지 못하는 존재들의 좌절과 분노가 다양한 3인칭들의 형상으로 밀고 들어온 것은 아닌가.</interp>
+          </s>
+          <s>이런 시각에서 보면 <date from="2000" to="2009">2000년대</date>는 '<term type="concept">김행숙적인 것</term>'과 '<term type="concept">황병승적인 것</term>'<persName ref="#p-x23">고병권</persName>.</s>
+          <s>같은 책 100면.</s>
+          <s>을 요청했고 바로 그것이 김 행숙과 <persName ref="#p-x4">황병승</persName>을 통해 현실화되 었다고 말 할 수 있을 것이다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x3">김 행숙</persName>과 <persName ref="#p-x4">황병승</persName>이 없었더라도 다른 누군가가 그 와 같은 시를 썼을 것이라는 뜻이다.</s>
+          <s>그렇다면 '<term type="concept">2010년대적 인 것</term>'이라 할 만한 것은 또 필연적으로 그것을 현실화해줄 누군가를 요청할 것 이다.</s>
+          <s><term type="concept">2（）1（）년대적인 것</term>이란무엇일까.</s>
+          <s>앞에서 <date from="2000" to="2009">2000년대</date>의 시가무엇이 었는지를 이해할 수 있게 하는 것은 결국 <date from="2010" to="2019">2010년대</date>의 시라고 적었다.</s>
+          <s>이 제는 반대로 말해보려 한다.</s>
+          <s><date from="2000" to="2009">2000년대</date> 한국시를 바라보는 어떤 문학 사적 관점을 확보하지 않고서는 <date from="2010" to="2019">2010년대</date>의 시를 적 절히 평가하기 어 려울 것이라고 말이다.</s>
+          <s>지금까지 우리는 그 관점이 무엇인지를 말해보 려 했다.</s>
+          <s>그 관점은 이 런 물음을 묻게 한다.</s>
+        </p>
+        <p>
+          <s><term type="concept">2010년대의 시인들</term>은 지금 까지는 본 적이 없는 종류의 <term type="concept">감응적 인물</term>을 창조하고 있는가, 그리고 그 인물을 통해 낯선 인식과 정서를 창출해냈는가, 또 그 인식과 정서 를 전달하는 데 적합한 <term type="concept">딕션</term>을 발명하고 있는가, 더 나아가 그를 통해 <term type="concept">대의와 재현</term>이라는 층위에서 어떤 가능성을 열어놓고 있는가.</s>
+          <s>이런 물 음을 던질 때 특별히 흥미롭게 읽히는 것은 <persName role="poet" xml:id="p-x26">조인호</persName>（趙仁鎬）와 <persName role="poet" xml:id="p-x27">김승일</persName> （金外 •）의 시다.⑸<term type="concept">2010년대 시</term>의 어떤 가능성과 두 사례: <persName ref="#p-x26">조인호</persName>와 <persName ref="#p-x27">김승일</persName>의 경우<persName role="poet" xml:id="p-1981">1981년생 시인 조인호</persName>의 첫 시집『<title level="m" type="poem" xml:id="t-x20">방독면</title>』（<orgName xml:id="org-x8">문학동네</orgName> <date when="2011">2011</date>）은 그 규모 와 밀도와 야심으로 보건대 <persName role="poet" xml:id="p-x28">황지우</persName>（黃芝雨）와 <persName role="novelist" xml:id="p-x29">장정일</persName>（蒋正一）과 <persName role="poet" xml:id="p-x30">함성호</persName> （咸成浩）와 <persName ref="#p-x4">황병승</persName>의 첫 시집을 뛰어넘고 싶어한다.</s>
+          <s>이 시집은 전쟁터<term type="concept">2000년대 시</term>의 유산 중 다른 것에 주목할 경우 여기에 언급될 시인도 달라질 것이다.</s>
+          <s>다 른 판단은 얼마든지 가능할 텐데 그것은 다른 글에서 시도하면 될 것이다.</s>
+          <s>다.</s>
+          <s><date when="1945">1945년 8월</date> <term type="concept">히로시마 원폭 투하</term>, <term type="concept">한국전쟁</term> 이후 <term type="concept">분단체제</term>의 형성, <date when="2003">2003년</date> 미국의 <term type="concept">이라크 침공</term>, <persName role="other" xml:id="p-w">조지 W.</persName></s>
+          <s><persName role="other" xml:id="p-x31">부시</persName>의 '<quote type="direct" genre="other">악의 축</quote> 발언, 남한의 이 라크 파병과 <term type="concept">한미자유무역협정</term> 체결, 그리고 상시적인 <term type="concept">철거와 해고</term>의 형태로 벌어지는 삶의 현장에서의 <term type="concept">폭력</term> 등에 이르기까지(지금 언급한 것들은 모두 이 시집에서 직간접적으로 다루어진다), 유사 이래 이 세 계는 한번도 전쟁을 멈춘 적이 없다.</s>
+          <s>그렇기 때문에 시인은 곧 인간 병 기浜器)여야 하고 시쓰기는 '<quote type="direct" genre="poet">전쟁에 맞서는 전쟁</quote>'이어야 한다고 생각 하는 이 시인은, '<quote type="direct" genre="poet">방독면을 쓰고 쇠파이프를 든 소년</quote>’ 혹은 '<quote type="direct" genre="poet">철가면을 쓰고 철을 씹어먹는 불가사리 같은 사내</quote>' 등의 인물들을 내세워, 절망 적으로 저돌적인 시를 쓴다.</s>
+        </p>
+        <p>
+          <s>그렇게 쓰인 시에는 <term type="concept">문명담론</term>, <term type="concept">분단담론</term>, <term type="concept">계급담론</term> 등이 복잡하게 뒤엉켜 있고, <term type="movement">미래주의(futurism)</term>의 이미저리 와 <term type="concept">재패니메이션(Japanimation)</term>의 상상력까지 가세돼 있어서, <interp value="affirmative" ana="미학">동시대 의 여느 시(심지어 소설까지 포함해서)에서 보기 힘든 역동적인 시적 공간이 탄생했다.</interp></s>
+          <s><quote type="direct" genre="poet" source="뉴키즈온더블록"><lg type="stanza"><l>재개발 지역 옥탑방에서 전기가 끊긴 방구석에서 납처럼 무거운 어둠 속에서</l></lg><lg type="stanza"><l>소년은 녹슨 면도날로 머리카락을 밀었고 소년의 입은 빨간 마스크로 침묵했고 소년의 한 손에 쇠 파이프가 들려지 던 순간 소년은 변형 됐다</l></lg><lg type="stanza"><l>(-)</l></lg><lg type="stanza"><l>타워크레인 꼭대기 위 한소년（少年）이 서 있다</l></lg></quote>—「<title level="a" type="poem" xml:id="t-x21">뉴키즈온더블록</title>」부분<quote type="direct" genre="poet" source="스스로 재래식무기 （在來式武器）가 된 사나이"><lg type="stanza"><l>보아라, 불발탄을 어깨에 짊어진 채 북（北）으로 행군하는 한 사나이 가 있다</l></lg><lg type="stanza"><l>그는 스스로 재래식무기가 된 사나이다</l></lg><lg type="stanza"><l>그는 철과 화약을 먹고 회귀 하는 사나이 다</l></lg><lg type="stanza"><l>그는 외부의 충격에 분노하는 사나이다</l></lg><lg type="stanza"><l>그가 군사분계선（軍事分界線）을 넘어서자,</l></lg><lg type="stanza"><l>그곳엔 콘크리트의 대지가무한궤도처럼 영원히 펼쳐져 있었고</l></lg><lg type="stanza"><l>밤하늘의 별빛은 가시철조망처 럼 숭고했다</l></lg></quote>—「<title level="a" type="poem" xml:id="t-x22">스스로 재래식무기 （在來式武器）가 된 사나이</title>」부분<interp value="affirmative" ana="미학">개개 시편들이 하나같이 흥미진진한 서사를 품고 있고 또 그것들 이 정교하게 맞물려서 큰 그림을 만들고 있는 시집이다.</interp></s>
+          <s>이렇게 부분 적인 인용으로는 각 시편들의 힘을 온전히 전달할 수가 없지만 아쉬 운 대로 두 대목을 옮겼다.</s>
+          <s>이 시집이 벌이고 있는 전쟁의 가장 원형적 인 이미지를 보여주는 것 같아서다.</s>
+          <s>철거를 앞두고 전기마저 끊긴 재 개발지 역 옥탑방에서 스스로 전사가 될 수밖에 없는 소년은 쇠파이프 를 들고 타워크레인으로 올라간다.</s>
+          <s>시스템이 저 높은 곳에서 인간을 철거하려 흐卜자, 한 소년이 시스템을 철거하기 위해 그만큼 높은 곳으 로 올라갔다.</s>
+          <s>이 전쟁은 수직적이다.</s>
+          <s>한편 한사내는 불발탄을 어깨에짊어지고 군사분계선을 넘어 북으로 진군한다.</s>
+        </p>
+        <p>
+          <s><term type="concept">제국</term>의 시스템이 그어 놓은 선을 넘는 방식으로 제국과 싸우기 위해 '<quote type="direct" genre="poet">스스로 재래식무기가 된 사나이</quote>'가 벌이는 이 전쟁은 수평적이다.</s>
+          <s>이 소년과 사내의 형상은 다른 곳에서도(특히 1부와 2부에서) 수시로 나타나 이 시집을 이끄는 감응적 인물로 기능한다.</s>
+          <s>요컨대 그것은 전人H소년병에서 퇴역군인까 지)의 감응이다.</s>
+          <s>그 감응은 이 세계의 모든 일이 다 거시적 •미시적 시 스템과의 <term type="concept">전쟁</term>이라는 인식을 산출하고, 인간은 태어날 때부터 죽을 때까지 그 전쟁을 지속할 따름이라는, <term type="concept">절망도 희망도 아닌 정서</term>를 또 한낳는다.</s>
+          <s>그 과정에서 이 시집은, 전략이라고 부르면 이상하지만, 두가지 흥 미로운 모습을 보여준다.</s>
+          <s>그 하나는 이 시집이 <term type="concept">제국</term>이 송출한 온갖 이 데올로기적 표상들을 전유•해체하는 (<term type="movement">탈식민주의</term>적인 의미에서의) <term type="concept">되받아쓰기</term>'(<term type="concept">writing back</term>)를 능란하게 구사한다는 점이다.</s>
+          <s>3부에 수 록돼 있는 시들이 특히 그렇다.</s>
+          <s>그 <term type="concept">되받아쓰기</term>는 <date when="1945">1945년</date> 히로시마에 투하된 원자폭탄의 이름이자 로즈벨트의 별명이기도 한 ‘<term type="concept">리틀보이</term>' (little boy), 1차대전 당시 참전 독려 포스터에 등장한 바 있는 '<term type="concept">엉클 쌤</term>'(uncle Sam), 그리고 <term type="concept">제국</term>의 문화적 • 경제적 ■종교적 침략의 전령 사들로 전락한 디즈니, 담배, 패스트푸드, 야훼와 십자군 등등에 이르 는 다양한 대상을 아우른다.</s>
+        </p>
+        <p>
+          <s>다른 하나는 이 시집의 인물들을 바라보 는 시인의 태도다.</s>
+          <s>
+            <interp value="critical" ana="사상">그는 철의 문명과 싸우는 와중에 오히 려 그것에 매 혹된 듯한 모습을 보일 때가 있는데, 조금 과장하면, 이 것은 마치 지난 세기 초 이딸리아의 미래주의자들이 그러했던 것처럼 파시즘의 불길 한 기운마저 풍긴다.</interp>
+          </s>
+          <s>그러나 <interp value="affirmative" ana="미학">투명한 비판보다는 거부와 매혹 사이에 애매하게 걸쳐져 있는 이 태도가 오히려 이 시집을 1차원적인 정치적 발언으로 추락하지 않게 하는 역할을 한디는 점이 지적돼야 할 것이 다.</interp></s>
+          <s>시스템을 시스템 자신이 그렇게 하는 것보다 더 진지하게 대함으로써 그것의 효력을 중지시키는 <term type="concept">과잉동일시</term>'(overidenti£cation)"”의 양상이 라고 해야 할까.</s>
+          <s><persName ref="#p-x27">김승일</persName>의『<title level="m" type="poem" xml:id="t-x23">에듀케이션</title>』(<orgName xml:id="org-x9">문학과지성사</orgName> <date when="2012">20⑵</date>은 어떤가.</s>
+          <s><persName role="foreigner" xml:id="p-x32">지젝</persName>이 여러 곳 에 서 말한 대로, <quote type="paraphrase" genre="critic">전체주의사회에서는 아무도 당의 말을 믿지 않으면서 마치 믿는 것처럼 연극을 하고 있을 뿐인데, 역설적이게도 그것이 그 체 제가 유지되 게 한다</quote>.</s>
+          <s>전체주의사회 만이 아니다.</s>
+          <s>오늘날 부모와 자식 혹은 스승과 제자 같은 일상적 관계망들도 비슷한 방식으로 유지되 고 있는 것이 아닌가.</s>
+        </p>
+        <p>
+          <s>사랑과 존경이 빠져나간자리를 우리가흔히 ‘<term type="concept">예 의</term>‘라고 부르는 '<term type="concept">연극</term>'이 버텨주고 있지 않은가.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">김승일의 시가 현존 체제와 기성세대를 비판하기는커녕 냉소하는 데도 별 관심이 없는 것 은 그것이 재미가 없을 뿐 아니라 무력한 일이기도 하다는 것을 잘 알 고 있기 때문일 것이다.</interp>
+          </s>
+          <s>“<quote type="direct" genre="other">민주주의건 전체주의건 간에 현대사회에서 는 그 냉소적인 거리두기, 웃음, 아이러니가 말하자면 게임의 일부M 이 기 때문에</quote>, <interp value="affirmative" ana="문학관">김승일의 시는 특유의 무심함으로 최소한 자신이 게임의 일부가 되어버리는사태를 피했다.</interp></s>
+          <s>누구도 비난하지 않는다는 것은 누 구의 잘못도 아니 라고 생각한다는 것이 다.</s>
+          <s>비난은 비난의 대상이 되는 그것만 해결되면 모든 것이 순조로워질 것이라고 우리를 오도한다.</s>
+          <s>누 구의 잘못도 아니라는 인식은, 이 세계가 개선될 여지가 없다는 인식<persName role="foreigner" xml:id="p-x33">슬라보예 지젝</persName>이 슬로베니아의 밴드 '<orgName xml:id="org-x10">라이바흐</orgName>(Laibach)의 전략을 지칭하기 위해 이 용 어를 사용했다.</s>
+          <s>그들은 나치 복장을 하고 무대에 오르고 정치적으로 위험한 발언을 일삼으 며 물의를 일으키고는 하는데, 이것을 <term type="concept">파시즘</term>에 대한 조롱이나 풍자로 손쉽게 해석될 수 없도록 진지한 제스처를 취함으로써 그들 자신을 어떤 급진적인 질문이 되도록 만든다.</s>
+          <s>
+            <interp value="neutral" ana="사상">이 처럼 반(反)동일시가 아니라 과잉동일시가 오히려 대상의 효력을 중단시킬 수 있다는 것 이 지젝의 요점이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="critic">이 경우에 라이바흐의 전략은 새로운 것으로 드러난다.</quote></s>
+          <s>
+            <quote type="direct" genre="critic">그것은 시 스템(지배 이데올로기)을 '성가시게' 한다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="critic">그것이 시스템에 대한 아이러니한 모방일 때 가 아니라 그것에 대한 과잉동일시일 때만 그렇다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="critic">과잉동일시는 시스템의 저변에 있는 외 설적인 초자아를 백일하에 드러냄으로써 그 시스템의 효력을 중단시킨다.</quote>
+          </s>
+          <s>” <persName role="foreigner" xml:id="p-slavojzizek">Slavoj Zizek</persName>, <title level="m" type="foreign" xml:id="t-metastasesofenjoyment">Metastases of Enjoyment</title>, <orgName xml:id="org-verso">Verso</orgName> <date when="1994">1994</date>, 72면.</s>
+          <s><persName ref="#p-x33">슬라보예 지젝</persName>『<title level="m" type="foreign" xml:id="t-x24">이데올로기라는 숭고한 대상</title>』, <persName role="poet" xml:id="p-x34">이수련</persName> 옮김, <orgName xml:id="org-x11">인간사랑</orgName>2(X)2, 59면일 것이다.</s>
+          <s>대신 그는 '<term type="concept">벌거벗은 임금님</term>'을 그냥 보여주기만 한다.</s>
+          <s>어 떤 방식으로?</s>
+        </p>
+        <p>
+          <s>그는 그냥 묻는다.</s>
+          <s>엄마 아빠가 한꺼번에 죽어버렸는데 이제 화장 실 청소는 누가 하지?</s>
+          <s>“<quote type="direct" genre="poet" source="방관">부모가 죽고 세달이 흐르자 형제는 화장실 청 소를 할 사람이 없다는 것을 깨달았다</quote>「（「<title level="a" type="poem" xml:id="t-x25">방관</title>」） <interp value="affirmative" ana="미학">부모의 죽음에 대해 쓰 는 것이 아니라（임금님이 벌거벗었다는 것을 누가 모르랴）, 부모가 죽은 지 석달이나 지나고 나서, 화장실 때문에 쓴다.</interp></s>
+          <s>또 묻는다.</s>
+          <s>“<quote type="direct" genre="poet" source="같은과 친구들">삼총 사라고 알려진 우리 네명은 （…） 어째서 이렇게 할 얘기가 없는 것일 까?</quote></s>
+          <s>”（「<title level="a" type="poem" xml:id="t-x26">같은과 친구들</title>」） <interp value="affirmative" ana="미학">'삼총사'인데도 '네 명'이라고 적은 이 트릭은 화 자 자신을 포함한 세명 말고 이를 지켜보는 시선 （물론 이 시선도 화자 의 것이다）도 거기에 있다는 것을 알려준다.</interp></s>
+          <s>
+            <interp value="neutral" ana="미학">그 시선은 우정이라 불리 는 관계 안의 공허를 들여다본다.</interp>
+          </s>
+          <s>그리고 또 묻는다.</s>
+        </p>
+        <p>
+          <s>“거리의 어느 가 게에도 주인은 없다 나라고 알 수 있나 그런데도 <term type="concept">쇠</term>가 조용히 넘치고 있는 이유를.</s>
+          <s>”（「<title level="a" type="poem" xml:id="t-x27">우리 시대의 배후</title>」） 주인도 없이 쌓여 있는 이 '<term type="concept">아시바</term>'는 오늘날 이 세대가 처해 있는 상황을 은유적으로 보여준다.</s>
+          <s>요컨대 부 모는 죽었고, 친구들은 할 말이 없으며, 주인들은 자리를 비웠다.</s>
+          <s>누구 의 잘못인가?</s>
+          <s>
+            <quote type="direct" genre="poet">"나라고 알 수 있나.</quote>
+          </s>
+          <s>” 이런 인식과 정서는 어떤 상황의 산물인가.</s>
+          <s>이 시집의 표제작인「<title level="a" type="poem" ref="#t-x23">에듀케이션</title>」에서 화자는 딸을 낳아 기르고 싶 다고, 또 선생님과 멀어져 버 렸다고 말한다.</s>
+          <s>그러 니 까 그는 멀어 져 버 린 선생님과 아직 태어나지 않은 딸 사이에 있다.</s>
+        </p>
+        <p>
+          <s>자신을 가르칠 사람도 없고 자신이 가르칠 사람도 없는 상태, 말하자면 '<term type="concept">에듀케이션</term>'의 공백 상태다.</s>
+          <s>기존체제와 기성세대가 의미있다고 주장해온 어떤 가치도 믿 지 않지만, 그렇다고 어떤 다른 가치가 그 자리를 대신할 것이라고 믿 지도 않는다.</s>
+          <s>그래서 새삼스럽게 비판할 것도 없고 그렇다고 목숨을 걸고 옹호할 것도 없다고 생각하는 무심한 인물들, 그런 인물들이 생산해내는 인식과 정서가 이 시집을 이끈다.</s>
+          <s>
+            <quote type="direct" genre="poet">미안하구나.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">아버지는 그 말을 어디서 배웠어요.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">짐은 본래 사과를 받는 사람.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">짐의 무릎은 깨끗하단다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">그런데 왜 손바닥에서 삶은 달걀 냄새가나죠?</quote>
+          </s>
+        </p>
+        <p>
+          <s>화가나면 방문을잠가버리렴.</s>
+          <s>얼굴이 시뻘게진 네 앞에 그들이 무릎 을 꿇고 기어온다면.</s>
+          <s>어 쩐지 미안할거야.</s>
+          <s>(...)짐은 팬티만 입은 것처럼 허전하구나.</s>
+          <s>아버지는 겁쟁이에요.</s>
+          <s>짐이 미안해.</s>
+          <s>사과하고 싶어서 아빠가너를 낳았지.</s>
+          <s>필요하니까너도 애를 낳으렴.</s>
+        </p>
+        <p>
+          <s>깨끗한 무릎을.—「<title level="a" type="poem" xml:id="t-x28">미안의 제국</title>」부분<interp value="affirmative" ana="미학">이 시집을 지배하는 인식과 정서가 가장 매력적인 결과를 낳은 시 들 중 하나다.</interp></s>
+          <s>이 시에는 ‘<term type="concept">사과(謝過)의 정치학</term>'이라고 할 만한 독특한 통찰이 담겨 있다 ⑶ '사과하는 자'와 '사과받는 자' 중에서 심리 적으 로 더 우위 에 있는 사람은 후자일 것 이 라는 게 우리의 통념 이 다.</s>
+          <s>이 시 는 바로 그 통념을 엎어 버 린다.</s>
+          <s>때로는 사과를 받는 사람이 더 미 안해 질 때도 있으며 그때 더 우월한 위치에 있는 것은 사과를 하는 사람 쪽 일 것이다.</s>
+          <s>신하들의 사과를 받느라 넌더리가 난 왕이 그의 아들에게 사과를 하고, 자신은 사과를 하기 위해서 아들을 낳았으니, 너도 그러 고 싶으면 아이를 낳으라고 말하는 장면은 그래서 <interp value="affirmative" ana="미학">통렬하다</interp>.</s>
+          <s>오늘날다음 책에서 이미 언급한 적이 있디-.</s>
+          <s><persName role="critic" xml:id="p-x35">이남호</persName>•<persName role="critic" xml:id="p-x36">문혜원</persName>•<persName ref="#p-x">신형철</persName> 엮음『<title level="m" type="other" xml:id="t-2010">2010 현장 비평가가뽑은 올해의 좋은 시</title>』, <orgName xml:id="org-x12">현대문학</orgName> 2010.</s>
+          <s>기성세대는 젊은 세대에게 자주 "미안하다'라고 말하지만, 사과를 받 는 쪽에서 보기에 그것은 기성세대가 그들 자신을 용서하기 위한 사 과처럼 보일 수 있다.</s>
+        </p>
+        <p>
+          <s>다름아닌 아버지가 이런 종류의 차가운 진실을 가르친다는 설정은 기성세대의 '에듀케이션'의 효력이 중지된 상황을 생각하지 않을 수 없게 한다.</s>
+          <s>물론 김승일 시의 누구도 비판하거나 냉 소하지 않으며 아무렇게나 마침표를 찍어버린 문장들로 상황을 그냥 보여줄 뿐이다.</s>
+          <s>“내 방에, 방공호에 드러누워서.</s>
+          <s>나는 배웠습니다.</s>
+          <s>고 요한 눈물.</s>
+          <s>기다렸습니다.</s>
+          <s>중요한 것을.</s>
+          <s>”（「에듀케이션」） 어쩌면 이 시집 은 '가르침 따위는 필요 없어'라고 말하는 것이 아니라 ‘무엇이건 제 대로 배우고 싶으니 우리가 진정으로 믿을 만한 것을 가르쳐보라'고 말하고 있지 않은가.</s>
+        </p>
+        <p>
+          <s>가르칠 것이 없는 시대/세대에 더 뼈아픈 말은 전 자가 아니 라 후자다.</s>
+          <s><persName ref="#p-x26">조인호</persName>의 인물들은 전쟁 중이고 <persName ref="#p-x27">김승일</persName>의 인물들은 수업 중이다.</s>
+          <s>어떤 이는 상시적 <term type="concept">전시체제</term> 속에서 살아남기 위해 전사가 되었고, 또 어떤 이는 기성의 가치를 수호하는 <term type="concept">에듀케이션</term>의 효력이 붕괴된 교실 에서 무엇을 배워야할지 알 수 없는 학생처럼 앉아 있다.</s>
+          <s>그래서 전자 는 "<quote type="direct" genre="poet" source="방독면">내가존재하지 않는 시를 쓰는 것은 오직 강해지기 위해서였다</quote>”（『 <title level="m" type="poem" ref="#t-x20">방독면</title>』, 시인의 말라고 적었고, 후자는 “<quote type="direct" genre="poet" source="에듀케이션">내 심장 속엔 선생님이 있다</quote>”（『 <title level="m" type="poem" ref="#t-x23">에듀케이션</title>』, 시인의 말라고 적었다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">이 둘의 차이는 충분히 강조되어야 하겠지만, 이들이 2000년대 시의 유산을 창조적으로 상속한 이들이라 는 공통점도 더불어 지적되어야 한다.</interp>
+          </s>
+          <s><persName ref="#p-x26">조인호</persName>는 <persName ref="#p-x4">황병승</persName>이 이 세계의 다수적인（major） 것들과 펼친 ‘<term type="concept">무한전쟁</term>‘"»을 다른 층위와 규모로 이 어가고 있고, 김 승일은 김 행숙이 우리에 게 선사한 놀랍도록 신선한 감 응을 떠올리 게 하는 시들을 잇달아 써내고 있다.</s>
+          <s>그러면서 <date from="2010" to="2019">2010년대</date>의<persName role="poet" xml:id="p-x37">이장욱</persName>「<title level="a" type="poem" xml:id="t-x29">체셔 캣의 붉은 웃음과 함께하는 무한전쟁（無限戦'户） 연대기</title>」.</s>
+          <s><persName ref="#p-x4">황병승</persName> 시집『<title level="m" type="poem" xml:id="t-x30">여 장남자 시코쿠</title>』, <orgName xml:id="org-x13">랜덤하우스코리아</orgName> <date when="2005">2005</date>.</s>
+        </p>
+        <p>
+          <s>해설.</s>
+          <s><term type="concept">한국시</term>는 이 사회에서 충분히 대의되지 못하고 있거나 아예 대의구조 바깥에 버려져 있는 <term type="concept">감응</term>의 구조들을 재현할 수 있는 문을 하나씩 열 어나가게 될 것이다.</s>
+          <s>다음 문장도 근본적으로는 이와 다르지 않은 요 청으로 읽힌다.</s>
+          <s>“<quote type="direct" genre="critic" source="랑시에르 『문학의 정치』">문학은 우리가 살고 있는 세계를 규정하는 감성 의 분 할 속에 개입하는 어떤 방식, 세계가 우리에게 가시적인 것으로 되는 방식, 이 가시적인 것이 말해지는 방식, 이를통해 표명되는 역량들과 무능들이다</quote>""' 근래 자주 인용된 <persName role="foreigner" xml:id="p-x38">랑씨에르</persName>(J.</s>
+          <s><persName role="foreigner" xml:id="p-rancigre">RanciGre</persName>)의 문장이다.</s>
+          <s><interp value="affirmative" ana="문학관">이 것이 2000년대의 시에 그러했듯이 2010년대의 시에도 적중하는 말 이 되기를 기대한다.</interp>困20) <persName role="foreigner" xml:id="p-x39">자크 랑시에르</persName>『<title level="m" type="foreign" xml:id="t-x31">문학의 정치</title>』, <persName role="critic" xml:id="p-x40">유재흥</persName> 옮김, <orgName ref="#org-x11">인간사랑</orgName> <date when="2009">2009</date>,17면.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

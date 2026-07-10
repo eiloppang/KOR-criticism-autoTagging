@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2000년대 한국 시의 흐름과 전망―환상, 위반의 시학</title>
+        <author>이윤정</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>〉이5 /《4勿제久乂시人b〉I"<quote type="direct" genre="poet">拉 （乡L</quote> ”2000년대 한국 시의 흐름과 전망—<term type="concept">환상</term>, 위반의 시학<persName role="poet" xml:id="p-x">이윤정</persName> （문학평론가）환상은 유혹적 이다.</s>
+          <s>그것은 <quote type="direct" genre="critic">세계의 동일성을 전복시킬 만한 짜릿한 뒤집 기의 체험을 허용할 뿐 아니라, 이 불온한 전복의 기도에 대하여 책임지지 않아도 좋을 만큼 탄력적 이다</quote>” <term type="concept">환상</term>의 세계는 상상력의 극점까지 용납하지 만 동시에 최대치의 상상력을 요구하지도 않는다.</s>
+          <s>그렇기에 횐상과 현실을 넘나드는 탄력적 인 시 쓰기는 독자들에게 아찔한 현기의 체험을 선사한다.</s>
+          <s><date from="2000" to="2009">2000년대</date>의 시는 이 같은 <term type="concept">환상</term>의 맥락과 긴밀히 닿아 있다.</s>
+          <s>새로운 지평으로 시를 쓴 시인들에 대한 명명은 다양한 방식으로 이루어져 왔다.</s>
+          <s>'<term type="movement">미래파</term>（<persName role="critic" xml:id="p-x2">권 혁웅</persName>）', '<term type="movement">진화하는 서정</term>（<persName role="critic" xml:id="p-x3">김수이</persName>）', '<term type="movement">뉴 웨 이브</term>（<persName role="critic" xml:id="p-x4">신형 철</persName>）' 등으로 불리는 일군의 시 들은 이전의 시들과는 차별되는 지점에 있다.</s>
+          <s>이 러한 시들은 독자들을 끌어 들일 수 있는 새로움을 담보로 하고 있었다.</s>
+          <s>문학의 정체 혹은 후퇴라는 위 기 의식 속에서 이러한 <interp value="neutral" ana="문학관">새로운 시적 경향의 등장은 날카로운 비평의 잣대보 다는 포용의 시선을 담보로 하고 있었다.</interp></s>
+        </p>
+        <p>
+          <s>그것은 독자로부터 외면받던 시단 으로서는 반가운 단비와 같았다.2000년대 '<term type="concept">환상</term>'을 기조로 하고 있는 시들은 이전의 시적 경향을 함께하는<persName role="poet" xml:id="p-x5">강정</persName>, <persName role="poet" xml:id="p-x6">김경주</persName>, 김끈.</s>
+          <s><persName role="poet" xml:id="p-x7">김민정</persName>, <persName role="poet" xml:id="p-x8">김언</persName>.</s>
+          <s><persName role="poet" xml:id="p-x9">김이듬</persName>.</s>
+          <s><persName role="poet" xml:id="p-x10">김행숙</persName>, <persName role="poet" xml:id="p-x11">성미정</persName>, <persName role="poet" xml:id="p-x12">신돔옥</persName>, <persName role="poet" xml:id="p-x13">신해욱</persName>.</s>
+          <s><persName role="poet" xml:id="p-x14">이민하</persName>, <persName role="poet" xml:id="p-x15">이원</persName>, <persName role="poet" xml:id="p-w">이	W장욱</persName>, <persName role="poet" xml:id="p-x16">진수미</persName>, <persName role="poet" xml:id="p-x17">진은영</persName>.</s>
+          <s><persName role="poet" xml:id="p-x18">허수경</persName>.</s>
+          <s><persName role="poet" xml:id="p-x19">황병슴</persName> 등의 시인들을 들 수 있다.</s>
+          <s>이와 관련하여 <persName role="poet" xml:id="p-x20">김진수</persName>는 '<persName role="poet" xml:id="p-5">강	5정</persName>, <persName ref="#p-x6">김경주</persName>.</s>
+        </p>
+        <p>
+          <s><persName role="poet" xml:id="p-x21">김근</persName>, 김록* <persName ref="#p-x7">김민정</persName>, <persName ref="#p-x8">김언</persName>.</s>
+          <s><persName ref="#p-x9">김이듬</persName>, <persName ref="#p-x10">김행숙</persName>.</s>
+          <s><persName role="poet" xml:id="p-x22">박상수</persName>, <persName role="poet" xml:id="p-x23">박진성</persName>.</s>
+          <s><persName role="poet" xml:id="p-x24">박판식</persName>, <persName ref="#p-x13">신해욱</persName>, 안현	f미, <persName role="poet" xml:id="p-x25">유형진</persName>, <persName role="poet" xml:id="p-x26">이기인</persName>, <persName ref="#p-x14">이민하</persName>, <persName role="poet" xml:id="p-x27">이영주</persName>.</s>
+          <s><persName role="poet" xml:id="p-x28">이장욱</persName>, <persName role="poet" xml:id="p-x29">조연호</persName>.</s>
+          <s><persName ref="#p-x16">진수미</persName>.</s>
+          <s><persName role="poet" xml:id="p-x30">진은염</persName>, <persName role="poet" xml:id="p-x31">황병승</persName>‘을 언급하고 있 1사람들의 무리와는 달리 개별적 정체성을 가지고 있다.</s>
+          <s>이는 타협이거나 모 방이 아니라, <term type="concept">일군의 시인들</term>에게서 드러나되, 개별적으로 나타난 현상이라 는 데 의미가 있다.</s>
+        </p>
+        <p>
+          <s>무엇이 이 시들을 추동하였는가?</s>
+          <s>이러한물음은 지당하 지만 맥락에 적합한 물음은 아니다.</s>
+          <s>그것은 텍스트 없는 공허한 발화에 불과 하기 때문이다.</s>
+          <s>외 려 텍스트를 통해 우리는 <term type="concept">환상</term>을 기조로 하는 시들에 근접 해갈 수 있다.</s>
+          <s>이 시들의 경우, 어떠한 추동 속에서 탄생한 것이 아니라, 개별 적인 시인들의 시 쓰기 방식이 모여 하나의 '<term type="concept">경향</term>으로 명명된 것이기 때문이 다.</s>
+          <s>그러므로 <term type="concept">환상</term>을 드러내는 <date from="2000" to="2009">2000년대</date>의 시들은 텍스트부터 적확하게 분 석해야 한다는 공통점을 가지고 있다고 할 수 있다.</s>
+          <s>그러므로 이 글에서는 '횐상'을 드러내는 시들 중 특징적 인 점을 중심으로 <term type="concept">환상시</term>药의 특성과 가능성을 모색해 보고자 한다.</s>
+          <s><term type="concept">환상</term>이 드러나는 시들의 뚜 렷한 특징을 종합해 보면，이는 현실 혹은 <term type="concept">상징계</term>에 대한 <term type="concept">낯선 위반</term>, <term type="concept">세계 질 서의 재편성</term>과 시，공간의 개방, <term type="concept">초현실적 이미지</term>와 <term type="concept">그로테스크함</term>, <term type="concept">상상력의 실험</term> , <term type="concept">양립 불가능한 요소들의 돌연한 병치</term> 등으로 요약될 수 있다.</s>
+        </p>
+        <p>
+          <s>이것이 환상시의 범주를 나눌 만한 명확한 기준이 될 수는 없겠지만, 우리를 환상의 영역으로 인도해주는 표지로서의 역할은 할수 있을 것이다.</s>
+          <s>현실, 혹은 상징계의 질서 에 대한 위반환상은 현실의 질서를 위반하고자 하는 추동에 의해 발생한다.</s>
+          <s>언어 , 법 , 규칙 등, 삶의 기빈•이 되고 있는 질서들을 교란시키고 그 틈의 사이 공간에 서 독특한 시적 상상력을 발생시키고 있다.</s>
+          <s>그렇기에 환상은 이상적 세계이 거나 밝음의 세계 일 수 없다.</s>
+          <s>'틈'은 매끄러운 표면에 대한 위반이며 동시에 깊이를7］늠하기 힘든음습한공간이기 때문이다다.</s>
+          <s>아 글에서는 텍스트 분석의 대상이 되는 시인들을 중심으로 논의를 이어가고자 한다이 글에서는 환삼을 특징적으로 드러내는 시들을 편의척으로 '환상人「라 쓰기로 한다.</s>
+          <s>나는 복도에서나는 자판기 곁에서나는 버스 안에서분수처 럼 흩어졌다흩어져서아무 곳으로나 스며들었다-이장욱, r잡담」부분이 시는 말, 언어에는 주체가 담겨 있으나（“나는？） 그것은 “<quote type="direct" genre="poet">아무 곳으로나 스며드는</quote>" 공허한 언어 에 불과하다고 말하고 있다.</s>
+          <s>복도에서 , 자판기 곁에 서, 버스 안에서 이루어지는 잡담들은 어디에도 귀착하지 못한다.</s>
+        </p>
+        <p>
+          <s>그러나 시 인은 이와 같은 <term type="concept">주체의 확산</term>이 의미 없다고 보지 않는다.</s>
+          <s>이것은 오히려 능 동적으로 공간 속에 틈입하는 언어이며, <term type="concept">충돌과 모색</term>을 두려워하지 않는 언 어이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">환상시의 지향은 결국 주체를 무력화하고 현실 세계를 전복시키려 는 폭력적인 시도는 아닐 것이다.</interp>
+          </s>
+          <s><term type="concept">환상시</term>는 기존의 질서를 위반하는 방법적 전략으로 틈을 선택한다.</s>
+          <s>그것은 매끄럽게 보이는 표면의 내부를 탐색하는 시선을 기조로 한다.</s>
+          <s>이는 <term type="concept">시적 환상</term>을 현실로 합리화하여 이해하고자 하는 독자들의 시도를 좌절로 이끈다.</s>
+          <s>이 러한 좌절은 결국 현실 속의 <term type="concept">균열</term>을 인정 할 수밖에 없도록 유도하는 것이다.</s>
+          <s><quote type="direct" genre="poet" source="훤 부엌에서 끓고 있뎐 붉은 국을 좀 보아요">끓고 있는 붉은 국을 좀 보아요, 저 매운 세계를 좀 보아요, 저 흰 부엌을 지 키는 눈먼 사제의 딸을 좀 보아요, 횐 소인 사제의 딸을 보아요, 저 찰랑거리는 사제의 딸을 납치해 가는 거머리총판을 든 귀먹은 용을 좀 보아요, 세계가 화덕 에서 검게 졸아드는 것도 모르고 먹먼지 속으로 기어이 들어가는 저 용들을 좀 보아요, 횐 부엌 에서 끓고 있던 붉은 아픈 국을 좀 보아요</quote>-<persName ref="#p-x18">허수경</persName>.「<title level="a" type="poem" xml:id="t-x">훤 부엌에서 끓고 있뎐 붉은 국을 좀 보아요</title>」부분독자는 <term type="concept">환상과 실재</term>의 모호한 경계에 서서 주춤거리게 된다.</s>
+        </p>
+        <p>
+          <s>세계는 “<quote type="direct" genre="poet">끓고 있는 붉은 국</quote>”으로 변형되고 사제의 딸은 “<quote type="direct" genre="poet">흰 소로 탈바꿈한다.</quote></s>
+          <s>독자들이 주 춤거리는사이, 화자는 쉴 새 없이 지시한다.</s>
+          <s>（“<quote type="direct" genre="poet"><lg type="stanza"><l>먹먼지 속으로 기어이 들어가</l></lg><lg type="stanza"><l>는 저 용들을 좀보아요，</l></lg></quote>） 결국<term type="concept">환상시</term>에서의 환상은 <term type="concept">상징계</term>의 언어 법칙에 따르지만 동시에 이를 배반하는 <term type="concept">이중성</term>을 지니고 있다고 하겠다.</s>
+          <s>독자들은 화자가 지시하는 것을 보게 된다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이러한 화자의 '지시는 일방적으로 이루 어지지만, 매끄러운 표면이 감추고 있던 균열과 틈을 지속적으로 보여줌으 로써 이를 결국 독자들에게 인식하도록 하는 시적 기능을 담당하고 있는 것 이다.</interp>
+          </s>
+          <s><quote type="direct" genre="poet" source="한 여자가 간다">동에 짐을 지고 한 여자가 언덕을 내 려온다 땀이 흥건한 여자의 가죽을 햇빛 이 옥수수 껍 질처 럼 벗긴다 사나워진 햇빛에 찔린 새들은 뜨거운 다리를 떼어 내지 못하고 날아간다 상한 냄새가 진동하는 여자는 몸에서 쉬지 않고 길을 뽑 아낸다 길은 연탄집게 같은 여자의 맨발이 지나간 곳에서만 생겨난다 살로 만 들어진 물컹거 리는 길 아래로 지붕들이 다닥다닥 모여든다 구름들도 몰려온다 여자의 몸에서 두 개의 유방이 나란히 허공으로 떠오른다 유방은 하늘 속으로 파고들어간다 떠도는 두 개의 봉분이 된다 허공에서도 지우지 못하는 대지의 시간을 피해 새들이 급강하한다 하늘에는 몸의 길이 끊긴 유방이 떠가고 언덕 에는 녹슨 자궁이 덜그럭거리며 밀려오고 같은 풍경을 담고 썩지도 못하는 창 근처까지 온 새들은 먼저 날개를 감춘다</quote>-<persName ref="#p-x15">이원</persName>.</s>
+          <s>r<title level="a" type="poem" xml:id="t-x2">한 여자가 간다</title>」전문“길 아래에 “<quote type="direct" genre="poet">지붕</quote>”이 있다.</s>
+          <s>“<quote type="direct" genre="poet">구름</quote>” 역시 “길 아래'에 함께 등장한다.</s>
+        </p>
+        <p>
+          <s>이 시에 서는 "여자의 몸을 중심축으로 하여 상局를 나누고 있지만 이는 대 립죽을 형성하지 않는다.</s>
+          <s>“<quote type="direct" genre="poet">여자의 살로 만들어진 길</quote>' 아래에는 지붕과 구름이 있고, 여자의 몸에서 떠오른 두 개의 유방은 다시 "<quote type="direct" genre="poet">하늘</quote>” 속으로 파고들어가 떠도 는 두 개의 봉분이 된다.</s>
+          <s>즉, <interp value="critical" ana="미학">이는 단순한 상/하의 반전이 아니다.</interp></s>
+          <s>길 위에도 하늘이, 길 아래에도 하늘이 있기 때문이다.</s>
+          <s>이 시에서 공간은 완전히 개방 되어 새로운 세계 질서를 만든다.</s>
+          <s>또한 주목할 것은 “<quote type="direct" genre="poet">허공에서도 지우지 못하는 대지의 시간을 피해 급강하</quote>“ 하고 있는 “<quote type="direct" genre="poet">새들</quote>”이다.</s>
+          <s>즉, 이 시간은 <term type="concept">계기적 시간</term> 질서를 의미한다.</s>
+          <s><term type="concept">대지의 시간</term>을 피해 새가 가고 싶은 곳은 어디인가?</s>
+        </p>
+        <p>
+          <s>이 시 에서는 그 지향을 보여주 지 않는다.</s>
+          <s>대지의 시간을 피하고자 하나 피할 거처를 마련해두지 않은 <persName role="other" xml:id="p-x32">시인</persName>의 시적 전략은 새로운 시간의 개념을 담보로 하고 있다.</s>
+          <s>즉, 세계 질서가 시 에 의해 재편성되고, 시 • 공간의 개방을 통해 <term type="concept">환상</term>의 표지를 형성하는 것이 다.</s>
+          <s><date from="2000" to="2009">2000년대</date>의 <term type="concept">젊은 시인들</term>은 이처럼 <term type="concept">틈의 사유</term>와 <term type="concept">전복적 상상력</term>을 <term type="concept">환상</term>적 으로 표출하고 있다.</s>
+          <s>
+            <interp value="neutral" ana="미학">이는 명확해 보이나 불가해한 것들에 대한 인식을 지속 적으로 요구한다.</interp>
+          </s>
+          <s>그것은 명확한 것들에 대한 도전이라는 점에서 <term type="concept">자유로운 기호</term>이다.</s>
+          <s>그러나 <term type="concept">기의를 찾지 않는 기표</term>라기보다 오히려 하나의 <term type="concept">능동적이 고 탄력적인 기호</term>로 기능한다.</s>
+          <s>무엇인가를 지시하지않는 것 같으면서 동시 에 끊임없이 지시하고 있다는 점에서 그러하다.</s>
+        </p>
+        <p>
+          <s>그러므로 <date from="2000" to="2009">2000년대</date> 일군의 <term type="concept">시인들</term>에게서 발견되는 <term type="concept">낯섦</term>과 <term type="concept">새로움</term>은 자유로운 <term type="concept">시적 기호</term>를 통해 독자들 에게 다층적 인 <term type="concept">상상력</term>을 허용한다는 점 에 기반하고 있다고 할 수 있다.</s>
+          <s><term type="concept">실험적 상상력</term>위에서의 시도와 같이 <term type="concept">환상</term>을 <term type="concept">현실 전복</term>의 기도라는 큰 틀로 묶고자 한다 면 환상은 불온하고 위태하고, 기괴한 이미지들로 득시글대는 음험한 세계 만을 표상할 것이다* 그러나 그것은 다시, 앞서 언급한 바와 같이 자유로운 <term type="concept">시적 기호</term>이며, 독자들에게 풍부한 상상력을 불러일으킬 수 있는 공급원으 로서의 역할도 함께 하고 있다.</s>
+          <s>즉, 좀 더 넓게는 <term type="concept">시니피앙들의 놀이터</term> 이며, <term type="concept">언어의 실험장</term>이라고 할 수 있다.</s>
+          <s>이것은 <quote type="direct" genre="poet"><lg type="stanza"><l>고래와</l></lg><lg type="stanza"><l>이상한 나라의 앨리스 설탕과</l></lg><lg type="stanza"><l>인어와 유리똥에 관한 시가 아닙니다</l></lg><lg type="stanza"><l>천사는 절대 먹지 마세요</l></lg><lg type="stanza"><l>하얗고 너무나 길어서 화랑과 같은 식탁의 끝에 앉은 그에게 소리칩니다</l></lg><lg type="stanza"><l>이봐, 보르헤스는 아직 연두빛이야</l></lg><lg type="stanza"><l>흑백 수정 구슬을 들어 그의 입술을 읽습니다.</l></lg></quote></s>
+          <s>지금 한손은 이 따위 시를계속 쓰려고 하고한 손은 계속 지워버 리고이상한 운명의 덫에 걸린두개의검처럼지우고쓰고 쓰고 지우고 시인이 잠든 척 하는 밤에도 멈추지 않는 손들이 여언어여 발바닥에 생선비늘이 돋도록 불러도 헤엄치지 않는굳어버린 인어여 고래로부터의-<persName ref="#p-x11">성미정</persName>,「<title level="a" type="poem" xml:id="t-x3">외계시 증후군</title>」전문이 시는 “<quote type="direct" genre="poet" source="외계시 증후군">고래와 / 이상한 나라의 앨리스 설탕과 / 인어와 유리똥에 관한 시가 아니다.</quote></s>
+          <s>（시인이 직접 쓰고 있듯이 시인의 <term type="concept">시 쓰기</term>는 고래, 이상한나 라의 앨리스, 설탕, 인어,유리똥'으로는설명될수 없다.</s>
+          <s>시적 소재들로설명 될 수 없는 시 쓰시는 결국 여기 에 '장미', 쓰레기통】 ‘의자를 갖다 붙인다 하 여도 마찬가지로 설명될 수 없을뿐더러 무슨 차질이 발생하지도 않는다.</s>
+          <s>잠 시 어리둥절해지는사이, 돌연 주의 사항이 등장한다.</s>
+        </p>
+        <p>
+          <s>“천사는 절대 먹지 마 세오「' 이는 주의 사항이지만 동시 에 주의 사항이 아니다.</s>
+          <s>누구도 천사를 먹 겠다는 생각은 하지 않았기 때문이다.</s>
+          <s>그러므로 이는 대상이 없는 공허한 주 의 사항이라고 할 수 있다.</s>
+          <s>또한 주의 사항과 무관한 “보르헤스는 연두빛'이 라는 구절이 다시 등장하면서 독자들의 시 읽기와 분석은 난해해질 수밖에 없다.</s>
+          <s>그러나 중요한 것은 시인이 독자들보다 더 큰 혼돈 속에 있다는 것이다.</s>
+          <s>시인의 한 손은 이 따위 시를 계속 쓰려고” 하고, 다른 한 손은 계속 지워버 리고 있다.</s>
+          <s>즉, 이 시는 환상적 이미지들의 장으로서 기능하면서도 그것들 로부터 결코 자유롭지 못한 시적 주체를 그리고 있는 것이다.</s>
+          <s>고래, 이상한 나라의 앨리스,설탕, 인어,유리똥'둥의 기표는굳이 기의를찾지 않은채 유 유히 부유할 수 있다.</s>
+        </p>
+        <p>
+          <s>그러나 이것 역시 고통스러운 <term type="concept">시적 인식</term>의 결과라는 것을 화자는 직시하고 있다.</s>
+          <s>화자는 언어를 불러보지만 시 인에게 언어는"<quote type="direct" genre="poet">발 바닥에 생선비늘이 돋도록 불러도 헤엄치지 않는 굳어버린 인6?</quote></s>
+          <s>와 같은 것 이다.</s>
+          <s><term type="concept">굳어버린 인어</term>, 굳어버린 혀로 시를 써야 하는 시인의 숙명은, <term type="concept">2000년 대 시인들</term>이 마주하고 있는 시적 현실이다.</s>
+          <s>혹자는 <term type="concept">方）00년대 시인들</term>의 특성 을 <interp value="critical" ana="미학">가벼움과 자폐적 성향이 공존하고 있는 시라고 혹평한다</interp>.</s>
+          <s>다분히 <interp value="critical" ana="미학">자족적 이 며, 자기만 아는 언어들로 가볍 되, 기 괴하거나 알 수 없는 이 미지들을 동원 해 시 력을 포장한다는 것이다.</interp></s>
+          <s>
+            <interp value="neutral" ana="미학">그러나 과연 그러한가?</interp>
+          </s>
+          <s>만약 현실이 완전하지 못하다면, 언어는 더욱 불완 전할 것이며, <term type="concept">불완전한 언어</term>로 시를 쓰는 시인의 내면은 더욱 고통스러울 것 이다.</s>
+        </p>
+        <p>
+          <s>지난한 <term type="concept">고통</term>과 섬세한 <term type="concept">감수성</term>으로 쓰여진 시들이다.</s>
+          <s>만약 이 <term type="concept">환상</term>을 몇 가지의 단어로 설명하려고 한다면 이는 곧 환상으로서의 본원을 잃을 것 이다.</s>
+          <s><term type="concept">환상적 텍스트</term>는 표지만을 보여준다.</s>
+          <s>우리는 <term type="concept">환상시</term>가 보여주는 표지 를 다소 흔란스럽고도 즐거운 마음으로 따를 수 있다.</s>
+          <s>그런 점 에서 <date from="2000" to="2009">2000년대</date> 의 <term type="concept">환상시</term>는 <persName role="foreigner" xml:id="p-x33">식수스</persName>의 말처럼, '<quote type="direct" genre="critic">절대적인 비밀，절대적인 새로움</quote>'이다.</s>
+          <s>2000 년대 젊은 시 인들의 시적 경향이 <term type="concept">환상</term>을 향하는 것은 바로 이처 럼 새로운 환 상의 표지를 만들어내는 즐거움 때문일 것이다.<date from="2000" to="2009">2000년대</date> 우리의 <term type="concept">젊은 시인들</term>이 서 있는 지점은 <term type="concept">실재</term>가 더 이상 실재를증 명하지 못하는 위반의 공간, 그 어디쯤이다.</s>
+          <s>위태한 지점에서 흔들리며 시를 쓰는 시 인들을 응원한다.</s>
+          <s>그것을 갇혀 있는 자족의 세계라고 폄하할 수는 없 다.</s>
+        </p>
+        <p>
+          <s>먼저 <term type="concept">흔들리는 자의 아픈 흔들림</term>을 통해 우리는 벌써 중심을 잡으려는 시도를하고 있지 않은가.</s>
+          <s><persName role="poet" xml:id="p-x34">이은정</persName> W<date when="2004">2004년</date>《<title level="j" type="journal" xml:id="t-x4">시와 세계</title>》등단 K</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

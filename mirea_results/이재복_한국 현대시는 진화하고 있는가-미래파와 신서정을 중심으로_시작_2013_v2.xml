@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>한국 현대시는 진화하고 있는가-미래파와 신서정을 중심으로</title>
+        <author>이재복</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>한국 현대시는 진화하고 있는가?●―<term type="movement">미래파</term>와 <term type="movement">신서정</term>을 중심으로<persName role="critic" xml:id="p-x">이재복</persName></s>
+        </p>
+      </div>
+      <div type="section">
+        <head>1. 미래파 혹은 서정의 미래?</head>
+        <p>
+          <s>‘<term type="movement">미래파</term>’1 논쟁이 점입가경이다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">이렇다 할 만한 논쟁이 없어 적막하던 문단에 실로 오랜 만에 찾아온 반가운 사건이다.</interp>
+          </s>
+          <s>한 평론가의 다분히 정략적인 수사로 시작된 이 논쟁은 <interp value="critical" ana="미학">이론적인 정교함이나 문학사적인 맥락에 대한깊이 있는 통찰을 갖추고 있지 못함에도 불구하고</interp> 우리 문단의 태풍의 눈으로 부상한 감이 없지 않다.</s>
+          <s>이것은 ‘<term type="movement">미래파</term>’가 ‘<quote type="direct" genre="critic">명명이냐 아니면 수사냐</quote>’2하는 그런 차원에 대한 해명으로 그칠 문제는 아니라는 것을 의미한다.</s>
+          <s>명명이냐 수사냐 하는 것이 중요한 것이 아니라 그것이 이미 하나의 <term type="concept">담론</term> 차원으로 소통되고 있고 또 끊임없이 다양한 의미들을 생산하고 있다는 사실이 중요한 것이다.</s>
+          <s>논쟁의 과정은 <term type="concept">정예주의적인 담론</term>만이 아니라 정제되지 않거나 불투명하● 이 글은 「<title level="a" type="critic" xml:id="t-x">너희가 서정을 믿느냐</title>」(『<title level="j" type="journal" xml:id="t-x2">현대시학</title>』, 2007.8)를 수정, 보완하였음을 밝힌다.1 <persName role="critic" xml:id="p-x2">권혁웅</persName>, 「<title level="a" type="critic" xml:id="t-2005">미래파―2005년, 젊은 시인들</title>」, 『<title level="j" type="journal" xml:id="t-x3">문예중앙</title>』, 2005.</s>
+          <s>봄.2 <persName role="critic" xml:id="p-x3">김수이</persName>, 「<title level="a" type="critic" xml:id="t-x4">감정의 동료들, 아직 얼굴은 갖지 않은―김근, 황병승의 시</title>」, 『<title level="j" type="journal" xml:id="t-x5">세계의 문학</title>』, <date when="2006">2006</date>.</s>
+          <s>봄,p.352.026 027고 예각화되지 않은 담론이 서로 교차하고 재교차하는 장이다.</s>
+        </p>
+        <p>
+          <s>여기에는 선택과 배제의 논리에 입각한 <term type="concept">단성의 논리</term>보다 포괄과 혼돈의 논리에 입각한<term type="concept">다성의 논리</term>가 더 지배적인 양상으로 드러난다.</s>
+          <s>이런 점에서 볼 때 논쟁에서 중요한 것은 다양한 담론 주체들이 놓여 있은 위치와 입장이다.</s>
+          <s>담론 주특집 체들의 위치와 입장은 하나의 중심을 형성하거나 전면적으로 노출되어 있는 것이 아니라 <term type="concept">탈중심</term>을 지향하면서 무의식화되어 있기 때문에 논쟁의 전체적인 면모와 전망을 가늠하기가 어렵다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">미래파 논쟁 역시 이런 맥락에 놓여 있지만 담론 주체들의 위치와 입장을 포괄하는 내적 문맥을 거느리고 있다는 점에서 주목에 값한다.</interp>
+          </s>
+          <s><term type="concept">미래파논쟁</term>은 기성의 가치에 대한 <term type="concept">부정의 변증법</term>이라는 정략적인 차원의 산물이다.</s>
+          <s><term type="concept">미래파</term>라는 명명 주체의 입장에서 <term type="concept">기성</term> 혹은 <term type="concept">전통</term>은 부정의 대상이고이에 비해 <term type="concept">신세대</term> 혹은 미래는 긍정의 대상이다.</s>
+          <s>마치 우리 문학사의 한 속성으로 굳어져 버린 ‘<term type="concept">새것 콤플렉스</term>’를 연상케 하지만 여기에는 그것을 넘어서는 담론 주체들의 욕망이 강하게 내재해 있다.</s>
+          <s><term type="concept">미래파 논쟁</term>은 <date from="1990" to="1999">1990년대</date> 이후 등장한 <term type="concept">신세대 시인들</term>에 대한 입장의 차이에서 발생한 것이며, 이과정에서 문제가 된 것이 바로 ‘<term type="concept">서정</term>’이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">서정</term>은 주로 <term type="concept">순수</term>와 <term type="concept">전통</term>의 차원에서 논의되어 왔다.</s>
+          <s>‘<term type="concept">순수 서정시</term>’, ‘<term type="concept">전통 서정시</term>’처럼 늘 서정시 앞에는‘순수’와 ‘전통’이라는 수식어가 따라붙었다.</s>
+          <s>이런 식의 명명은 <term type="concept">서정</term> 혹은 <term type="concept">서정시</term>의 개념을 ‘<term type="concept">순수</term>’와 ‘<term type="concept">전통</term>’의 차원으로 범주화하고 또 해석하여 그것을하나의 보편타당한 논리로 인식하게 하는 양식의 인습화 내지 관례화를 초래하기에 이른다.</s>
+          <s>‘<term type="concept">순수</term>’라는 개념에 대한 이러한 인습화 내지 관례화의 이면에는 <interp value="neutral" ana="미학">서정시는 세계의 자아화라는 동일성의 시학과 대화성보다는 고백과 독백성을 강조하는 단성성의 시학이 일정한 이론적인 토대로 작용하고 있는 것으로 볼수 있다.</interp></s>
+          <s>‘<term type="concept">순수</term>’에 비해 ‘<term type="concept">전통</term>’의 이면에는 시에 대한 역사적인 맥락이 강하게자리하고 있다.</s>
+          <s>역사적 맥락에서 보면 우리에게 시는 지적인 영역으로서보다는 <term type="concept">감성</term> 혹은 <term type="concept">정서</term>의 영역으로 간주되어 온 것이 사실이다.</s>
+          <s>우리 시사에서 세계를 지적으로 노래한 시들을 찾아보기가 힘들다.</s>
+          <s>대부분이 <term type="concept">감성</term>이나<term type="concept">감정</term>을 노래(가락)의 형식에다 실은 개인적이고 주관적인 차원의 시이다.</s>
+        </p>
+        <p>
+          <s>우리 시의 <term type="concept">서사시적인 전통</term>이 없는 것은 아니지만 그것 역시 세계에 대한 객관적이고 지적인 인식 태도와 해석보다는 주관적이고 정서적인 차원의 태도와 해석을 더 많이 함축하고 있다고 할 수 있다.</s>
+          <s>특히 세계에 대한 객관적이고 총체적인 감각을 필요로 하는 <term type="movement">리얼리즘 시</term>에서도 주관적이고 정서적인 <term type="concept">서정</term>이 주를 이루고 있으며, 그것이 마치 삶과 현실의 <term type="concept">리얼리티</term>를 보장해 주는 것으로 인식되어 왔다.</s>
+          <s><term type="movement">리얼리즘 시</term>에서 강조한 것은 피, 땀 냄새나는 인간의 정서이고 객관적이고 총체적인 감각은 언제나 그다음이거나부재 그 자체였다.</s>
+          <s><term type="concept">리얼리즘 시인들</term>이 <term type="concept">전통적인 서정</term>을 강조한 이유도 이러한 맥락에서 이해할 수 있을 것이다.</s>
+          <s><term type="movement">리얼리즘 진영</term>에서의 <term type="concept">전통적인 서정</term>에 대한 옹호는 자연히 그와 대척점에 놓이는 <term type="movement">모더니즘 진영</term>에서의 그것에 대한 반대로 이어진다.</s>
+          <s><term type="concept">서정</term>이 자아와 세계와의 동일성의 시학에 기초한다면 <term type="concept">비동일성</term>을 강조하는 <term type="movement">모더니즘 진영</term>의 반대는 당연한 것으로 이해되지만 <interp value="critical" ana="미학">그 반대는 반대를 위한 반대로 서정에 대한 진지한 모색 자체를 차단하는 부정적인 차원으로 드러난다는 점에서 문제적이라고 할 수 있다.</interp></s>
+          <s><term type="concept">서정</term>과 <term type="concept">반서정</term>은 서로에대한 배제가 아니라 포괄의 논리 속에서 스스로의 정체성을 인정받을 수 있는 것이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">서정은 전통주의자들이나 리얼리즘 계열에 속하는 시인들의 전유물처럼 인식되어 오면서 그것에 대한 진지한 모색이나 갱신을 위한 시도는 없었다고 할 수 있다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>하지만 <term type="concept">미래파 논쟁</term>을 계기로 <term type="concept">서정</term>의 문제에 대해 이들 모두 민감한 반응을 드러내면서 여기에 적극적인 태도를 보이고 있다.</s>
+          <s><term type="concept">전통</term>이나 <term type="movement">리얼리즘</term>을옹호하는 진영에서는 기존의 <term type="concept">서정</term>의 의미를 고수하면서 그것을 확대하려는태도를 보이고 있고3 <term type="movement">모더니즘</term>이나 <term type="movement">포스트모더니즘</term>을 옹호 내지 긍정하는3 <persName role="critic" xml:id="p-x4">유성호</persName>, 「<title level="a" type="critic" xml:id="t-x6">한국시의 결핍과 과잉</title>」, 『<title level="j" type="journal" xml:id="t-x7">문학수첩</title>』, 2005.</s>
+          <s>봄; <persName role="critic" xml:id="p-x5">고봉준</persName>, 「개인이라는 척도, 혹은 ‘나’028 029진영에서는 기존의 <term type="concept">서정</term>의 의미를 해체하려는 태도를 보이고 있다.4 <term type="concept">서정</term>의고수든 아니면 해체든 여기에서 중요한 것은 이들 모두가 지금 여기에서 통용되고 있는 ‘서정’에 대해 <term type="concept">불안</term>을 느끼고 있다는 점이다.</s>
+          <s>그렇다면 무엇이이들 모두에게 이런 <term type="concept">불안</term>을 느끼게 한 것일까?</s>
+          <s>이 물음에 대한 답은 기존의특집 <term type="concept">서정</term>이 유지해 온 <term type="concept">신성성</term>에 대한 사유를 통해 해명될 수 있다.</s>
+          <s><term type="concept">서정</term>은 <term type="concept">세계의 자아화</term>라는 <term type="concept">동일성</term>의 사유를 전제로 통용되어 온 개념이지만 이때의 자아화는 불순하고 불온한 것이 제거된 순수 결정체로서의 의미를 지닌다.</s>
+          <s>여기에서의 <term type="concept">순수</term>는 <term type="concept">타자</term> 혹은 외부와의 경계를 공고히 하면서넘나듦 자체를 허용하지 않음으로써 소도(蘇塗)와 같은 <term type="concept">신성함</term>으로 존재하게 된다.</s>
+          <s>
+            <interp value="critical" ana="미학">서정이 이 타락한 세계(시대)에 마지막 남은 신성함의 보루로 인식되면서 그것에 대해 일정한 긴장을 유지하면서 반성적인 거리 개념을 가지는것조차 불경한 것으로 인식되어 온 것이 사실이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><term type="concept">서정의 신성성</term>은 그것이상실된 <term type="concept">후기 산업사회</term>를 유연하게 반영하거나 굴절시키지 못한 채 절대적인심연을 드러냄으로써 <term type="concept">텅 빈 기표</term>로 존재해 왔다고 할 수 있다.</s>
+          <s><term type="concept">서정의 신성성</term>은 소통의 단절에서 비롯된 외곬의 <term type="concept">자폐적인 이데올로기</term>만을 양산해 오히려 <term type="concept">서정의 고갈이나 위기</term>에서 비롯되는 불안을 불러일으키기에 이른다.</s>
+          <s><term type="concept">서정의 고갈이나 위기</term>에서 비롯된 불안은 곧 시의 고갈이나 위기에 대한 불안으로 이어져 ‘<term type="concept">반시</term>’나 ‘<term type="concept">비시</term>’ 같은 용어들이 심심찮게 출현하는 계기를 제공한다.</s>
+          <s>‘<term type="concept">반시</term>’나 ‘<term type="concept">비시</term>’는 ‘<term type="concept">반서정</term>’이나 ‘<term type="concept">비서정</term>’이라는 개념과 크게 다르지 않다는 점에서 <interp value="neutral" ana="미학">서정이라는 개념이 얼마나 시의 정체성을 규정하는 데 결정적으로 작용하고 있는지를 잘 알 수 있다.</interp></s>
+          <s>‘<quote type="direct" genre="critic">시가 서정적이어야 한다</quote>’나 아니면 ‘시가 <term type="concept">반서정적(비서정적)</term>이어야 한다’나 모두 서정과의 관라는 <title level="a" type="critic" xml:id="t-x8">자폐적 이기성</title>」, 『<title level="j" type="journal" xml:id="t-x9">실천문학</title>』, 2006.</s>
+          <s>여름.4 <persName ref="#p-x2">권혁웅</persName>, 같은 글; <persName ref="#p-x2">권혁웅</persName>, 「<title level="a" type="critic" xml:id="t-x10">행복한 서정시, 불행한 서정시</title>」, 『<title level="j" type="journal" ref="#t-x3">문예중앙</title>』, 2006.</s>
+          <s>여름; <persName ref="#p-x2">권혁웅</persName>,「<title level="a" type="critic" xml:id="t-2">미래파 2</title>」, 『<title level="j" type="journal" ref="#t-x3">문예중앙</title>』, 2007.</s>
+          <s>봄; <persName role="poet" xml:id="p-x6">이장욱</persName>, 「<title level="a" type="critic" xml:id="t-x11">꽃들은 세상을 버리고―다른 서정들</title>」, 『<title level="j" type="journal" xml:id="t-x12">창작과 비평</title>』, <date when="2005">2005</date>.</s>
+        </p>
+        <p>
+          <s>여름; <persName ref="#p-x3">김수이</persName>, 「<title level="a" type="critic" xml:id="t-x13">시, 서정이 진화하는 현장</title>」, 『<title level="j" type="journal" ref="#t-x3">문예중앙</title>』, <date when="2006">2006</date>.</s>
+          <s>여름; <persName role="critic" xml:id="p-x7">신형철</persName>, 「<title level="a" type="critic" xml:id="t-x14">문제는 서정이 아니다</title>」, 『<title level="j" type="journal" xml:id="t-x15">문학동네</title>』, <date when="2005">2005</date>.</s>
+          <s>가을.</s>
+          <s>
+            <interp value="critical" ana="문학관">련 속에서 시를 규정하려고 한다는 점에서 서정의 권위를 반영한 진술이라고 할 수 있다.</interp>
+          </s>
+          <s>‘<term type="concept">반서정</term>’이나 ‘<term type="concept">비서정</term>’의 경우 서정 그 자체에 대한 직접적이고 발본적인 문제의식이나 반성적인 거리를 드러내는 것이 아니라 기존의 서정의 신성함이나 숭고함 혹은 권위에 대한 인식론적인 차이를 드러내고 있을 뿐이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">이런 점에서 서정의 신성함이나 숭고함 혹은 권위에 대한 신성모독 같은 보다전면적이고 발본적인 실천 행위가 필요한 것이다.</interp>
+          </s>
+          <s><term type="concept">서정</term>은 그 역사가 장구한만큼 그것이 가지는 신성함이나 숭고함 혹은 권위 역시 견고한 것이 사실이다.</s>
+          <s>
+            <interp value="critical" ana="문학관">견고한 만큼 그것에 틈을 내고 그것을 근원부터 해체하는 문제의식이절실하게 요구되는 것이다.</interp>
+          </s>
+        </p>
+        <p>
+          <s><term type="concept">미래파 논쟁</term>은 이런 점에서 주목에 값한다.</s>
+          <s>논쟁의 주체들은 신성함과 숭고함 그리고 권위로 견고한 성채를 유지해 온 <term type="concept">서정</term>에 대해 신성모독적인 발언을 본격적으로 시작한 것이다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>2. 행복한 서정과 서정의 진화</head>
+        <p>
+          <s><term type="concept">미래파 논쟁</term>은 <date from="1990" to="1999">1990년대</date> 이후 출현한 <persName role="poet" xml:id="p-x8">황병승</persName>, <persName role="poet" xml:id="p-x9">유형진</persName>, <persName role="poet" xml:id="p-x10">장석원</persName>, <persName role="poet" xml:id="p-x11">김민정</persName>,<persName role="poet" xml:id="p-x12">김행숙</persName>, <persName role="poet" xml:id="p-x13">김근</persName>, <persName role="poet" xml:id="p-x14">이민하</persName>, <persName role="poet" xml:id="p-x15">김언</persName>, <persName role="poet" xml:id="p-x16">강정</persName>, <persName role="poet" xml:id="p-x17">박상수</persName> 등 <term type="concept">신세대 시인들</term>의 시를 옹호하는 과정에서 발생한 것이다.</s>
+          <s>이들의 시에 대한 대표적인 옹호론자인 <persName ref="#p-x2">권혁웅</persName>,<persName ref="#p-x6">이장욱</persName>, <persName ref="#p-x7">신형철</persName>, <persName ref="#p-x12">김행숙</persName>, <persName ref="#p-x3">김수이</persName> 등이 내세운 논리는 ‘<term type="concept">행복한 서정, 불행한서정</term>’5 ‘<term type="concept">다른 서정</term>’6 그리고 ‘<term type="concept">서정의 진화</term>’7이다.</s>
+          <s>수사적인 차원에서 보면 ‘다른 서정’보다 ‘행복한 서정, 불행한 서정’이나‘서정의 진화’가 훨씬 문제적이지만 그 이면을 들여다보면 이야기는 달라진다.</s>
+          <s>‘행복한 서정, 불행한 서정’은 <term type="concept">미래파 논쟁</term>에 불을 지핀 <persName ref="#p-x2">권혁웅</persName>의 논리5 권혁웅, 「<title level="a" type="critic" ref="#t-x10">행복한 서정시, 불행한 서정시</title>」.6 이장욱, 같은 글.7 김수이, 같은 글.030 031이다.</s>
+          <s>그는 “<quote type="direct" genre="critic" source="권혁웅">주체의 자리가 거의 변하지 않</quote>”고, “<quote type="direct" genre="critic" source="권혁웅">한 편의 시에서 말하는 이가 한 사람이며, 말들이 가지런하고, 그로써 드러나는 세계의 모습에 분열이 없</quote>”8는 시를 ‘행복한 서정시’로 규정하고 있다.</s>
+          <s>이에 비해 “<quote type="direct" genre="critic" source="권혁웅">세계와 어긋난 자리에서 주체의 정념이 생겨나기 때문</quote>”에 “<quote type="direct" genre="critic" source="권혁웅">주체의 자리가 불안정하</quote>”고,특집 “<quote type="direct" genre="critic" source="권혁웅">말하는 이의 자리가 온전치 않고, 말들이 주체와 엇갈리고, 그로써 드러나는 세계의 모습에 균열이 있</quote>”9는 시를 ‘불행한 서정시’로 규정하고 있다.</s>
+          <s>
+            <interp value="critical" ana="미학">이러한 구분은 서정시가 아니라 시 일반의 구분으로도 볼 수 있다는 점에서 서정시만의 독특한 특성을 드러내는 방식으로는 한계가 있다.</interp>
+          </s>
+          <s>그의 논의에서 주목해 볼 만한 부분은 ‘행복한 서정시’와 ‘불행한 서정시’를 <term type="concept">정합적인언어</term>와 <term type="concept">비정합적인 언어</term>의 관점에서 해석하는 대목이다.</s>
+        </p>
+        <p>
+          <s>그가 말하는 ‘<term type="concept">행복한 서정시</term>’와 ‘<term type="concept">불행한 서정시</term>’의 구분 준거가 되는 <term type="concept">정합적인 언어</term>와 <term type="concept">비정합적인 언어</term> 운용의 원칙은 다음과 같다.A.</s>
+          <s>첫째, 시어, 시행, 시련에 이르는 모든 차원의 <term type="concept">반복</term>.</s>
+          <s><term type="concept">반복</term>을 통해서 <term type="concept">서정시</term>의 언어는 그 최초의 자리로 돌아온다.</s>
+          <s>우리 시에 특이한 구성 방법 가운데 하나가 <term type="concept">수미상관</term>(首尾相關)인데, 이런 언어는 대표적인 <term type="concept">회귀성 언어</term>이다.</s>
+          <s>둘째, <term type="concept">언어의 질감</term>에 대한 배려.</s>
+          <s>언어가 가진 <term type="concept">질료적 성격</term>을 배려하면서, 곧<term type="concept">음운과 리듬</term>을 통합하고 변용하면서 일관된 흐름을 유지하는 일.</s>
+          <s>이것은 <term type="concept">고정된 주체</term>가 언어의 세부까지 스며드는 방식이다.</s>
+          <s>셋째, <term type="concept">주체</term>와 연계된 풍경들.</s>
+        </p>
+        <p>
+          <s>이로써 <interp value="neutral" ana="미학">시의 풍경이 주체의 내면 풍경이 된다</interp>.</s>
+          <s>넷째, 회귀적인 시공간의창출.</s>
+          <s><term type="concept">고정된 주체</term>는 <term type="concept">전변(轉變)하는 주체</term>가 아니므로, 대상들이 주체의 주변에 배치된다.</s>
+          <s><term type="concept">유년</term>(다른 기억을 허용하지 않는 닫힌 시간), 사랑하는 상태(다른 사람을 허락하지 않는 닫힌 시간), 가족(소수의 구성원만을 거느린 닫힌 공간), 소규모공동체(사회 역사적 지형과는 절연된 공간) 등이 흔히 이런 주체를 둘러싼다.108 <persName ref="#p-x2">권혁웅</persName>, 같은 글, p.45.9 <persName ref="#p-x2">권혁웅</persName>, 같은 글, p.48.10<persName ref="#p-x2">권혁웅</persName>, 같은 글, p.45.B.</s>
+          <s>첫째, 다른 시어, 시행, 시련과의 연관을 의도하지 않는, 모든 차원의 배제.</s>
+          <s><term type="concept">비정합적인 언어</term>는 단일한 주체와 대상으로 수렴되지 않는 경우가 많다.</s>
+          <s>둘째, <term type="concept">언어의 질감</term>이 아닌, <term type="concept">통사적인 구문</term>에 대한 배려: 언어는 음운 차원에서도 <term type="concept">율격</term> 차원에서도 통일되지 않는데, 다만 비슷한 구문을 배치하여 전언을통일한다.</s>
+          <s><term type="concept">구문의 통일</term>은 주체가 세계와 자신을 매개하는 유일한 방식이다.</s>
+        </p>
+        <p>
+          <s>셋째, <term type="concept">주체</term>와 분리된 채 대상에서 다른 대상으로 이행하는 진술.</s>
+          <s>이러한 진술은 <term type="concept">주체</term>와 세계의 불일치를 드러내는 데 유력하다.</s>
+          <s>넷째, 개방된 시공간의 창출.</s>
+          <s><term type="concept">주체</term>로 수렴되지 않는 세계는 그 자체로 곤혹스럽다.11A와 B에 드러난 차이는 크게 언어와 주체의 문제로 수렴된다.</s>
+          <s>A에서 그것은 “<quote type="direct" genre="critic">고정된 주체가 언어의 세부까지 스며</quote>”든다는 말 속에 잘 드러나 있고,B에서 그것은 “<quote type="direct" genre="critic">비슷한 구문을 배치하여 전언을 통일</quote>”하고 “<quote type="direct" genre="critic">구문의 통일은주체가 세계와 자신을 매개하는 유일한 방식</quote>”이라는 말 속에 잘 드러나 있다.</s>
+          <s>언어가 가지는 속성에 입각해서 보면 A에서의 <term type="concept">주체</term>는 <term type="concept">구심적인 주체</term>가되고, B에서의 주체는 <term type="concept">원심적인 주체</term>가 되는 것이다.</s>
+          <s><term type="concept">구심적인 주체</term>의 차원에서 보면 대상이나 세계는 <term type="concept">고백</term>이나 <term type="concept">독백</term>으로 수렴될 수밖에 없다.</s>
+          <s>이렇게되면 <term type="concept">주체</term>의 욕망은 곧 <term type="concept">타자</term>의 욕망이 되어 주체와 세계 사이의 합일과 일치를 드러내게 되고, 안정과 질서, 균형 속에서 <term type="concept">서정적 자아</term>는 즐거움을 체험하게 된다.</s>
+        </p>
+        <p>
+          <s><term type="concept">구심적인 주체</term>.</s>
+          <s>다시 말하면 정합적인 언어가 드러나는 <term type="concept">서정</term>혹은 <term type="concept">서정시</term>를 읽으면 세계와의 <term type="concept">동일성</term>에서 비롯되는 마음의 평온함과 따뜻함 같은 것을 체험하게 되는 이유가 바로 여기에 있다.</s>
+          <s><term type="concept">서정시</term>의 미감을여기에서 발견하고 그것을 보편적인 논리로 확대하여 개념화해 온 것이 그동안의 지배적인 흐름이라고 할 수 있다.</s>
+          <s>이런 맥락에서 보면 B의 논리는 비주류적인 것이다.</s>
+          <s>이 논리가 문제적인 것은 <term type="concept">서정시</term>의 미감을 안정이나 질서, 균형 같은 것에서 찾는 것이 아니11 <persName ref="#p-x2">권혁웅</persName>, 같은 글, pp.48-49.032 033라 <term type="concept">불안정</term>, <term type="concept">무질서</term>, <term type="concept">혼돈</term>, 개방 같은 것에서 찾고 있다는 점이다.</s>
+          <s>이것은 주체와 대상, 주체와 세계를 <term type="concept">동일성</term>의 논리가 아니라 <term type="concept">비동일성</term>의 논리로 보려는 인식 태도라고 할 수 있다.</s>
+          <s>대상이나 세계로부터 주체가 분리되면 안정된 것으로부터의 일탈로 인해 <term type="concept">불안</term>을 느낄 수밖에 없고 또 “<quote type="direct" genre="critic">세계는 그 자체특집 로 곤혹스</quote>”러울 수밖에 없다.</s>
+          <s>하지만 <interp value="affirmative" ana="미학">이 불안은 낯선 영역으로의 탐색과 체험을 가능하게 한다는 점에서 그것은 단순한 즐거움을 넘어선다고 할 수 있다.</interp></s>
+        </p>
+        <p>
+          <s>그것은 즐거움을 넘어서는 <term type="concept">즐김</term>의 세계를 드러내는 것이다.</s>
+          <s><term type="concept">서정적 주체</term>의 <term type="concept">즐김</term>은 지금까지 서정이 행사해 온 <term type="concept">신성성</term>, <term type="concept">숭고함</term> 그리고 권위로부터의 결별을 의미한다는 점에서 또 다른 <interp value="affirmative" ana="미학">서정적 주체에 대한 탐색으로도 볼수 있을 것이다.</interp></s>
+          <s><persName ref="#p-x2">권혁웅</persName>은 B의 차원으로 드러나는 <term type="concept">서정</term>을 ‘<term type="concept">불행한 서정</term>’으로 규정하고 있지만 이것은 기실 ‘<term type="concept">행복한 서정</term>’이 되는 것이다.</s>
+          <s>‘<term type="concept">행복한 서정</term>’, ‘<term type="concept">불행한 서정</term>’이라는 개념이 “<quote type="direct" genre="critic">동일성을 전제로 한 자아의 상황에서 유래한 것</quote>”12이기 때문에 이러한 분류는 오류라는 비판이 제기될 수도 있지만 <interp value="neutral" ana="미학">이 명명은 새로운 서정시(B)의 개념을 드러내기 위한 단순한 전략의 차원으로 이해하는 것이 좋을 듯하다.</interp></s>
+          <s><term type="concept">동일성의 시학</term>을 전제로 하면 B는 ‘<term type="concept">불행한 서정</term>’이지만 그 ‘불행’은 ‘<term type="concept">행복</term>’이라는 의미를 내포한 역설적인 명명이라고 할 수 있다.</s>
+          <s>여기에는“<quote type="direct" genre="critic">불일치의 체험이 비극적인 정념의 기원</quote>”13이라는 <term type="concept">미적 태도</term>가 강하게 작용하고 있는 것으로 볼 수 있다.</s>
+          <s>‘<term type="concept">서정의 진화</term>’는 <persName ref="#p-x16">강정</persName>과 <persName ref="#p-x17">박상수</persName>의 시를 해석하면서 <persName ref="#p-x3">김수이</persName>가 사용한 용어이다.</s>
+          <s><term type="concept">젊은 시인들</term>은 이 세계가 부여하는 기성의 ‘<quote type="direct" genre="critic">얼굴</quote>’을 갖기를 거부하는 자들,아직 생성 중인 미정형의 얼굴을 가진 자들이다.</s>
+        </p>
+        <p>
+          <s>이들은 고정된 주체나 목적12 <persName role="critic" xml:id="p-x18">문혜원</persName>, 『<title level="j" type="journal" xml:id="t-x16">문장</title>』, 2006.12.13 <persName ref="#p-x2">권혁웅</persName>, 같은 글, p.52.</s>
+          <s>을 갖지 않으(려 하)며, <term type="concept">주체</term>와 언어를 미분(微粉/未分)하고 탈각하고 재구성해새로운 시적 시공간을 창출하고자 한다.</s>
+          <s>그 중심에 있는 것은 스스로 자기 존재와 내면의 기원이 되고자 하는 의지와 욕망이다.</s>
+          <s>돌발적이고 때로 난감하기까지 한 이들의 시는 ‘<quote type="direct" genre="critic">대상을 노래하지 않는 시들</quote>’이라기보다는, 시인 자신과세계라는 대상에 대해 다른/다양한 <term type="concept">시차(視差/時差/詩差)</term>를 발휘하는 시들이다.</s>
+          <s>(…중략…) 따라서 문제는 이 <term type="concept">시차</term>들이 불러일으키는 효과와 반향의 정체를 규명하는 일이 된다.</s>
+          <s>그 효과와 반향은 궁극적으로 하나의 초점을 향해 귀결되고 있다.</s>
+          <s><term type="concept">서정시</term>의 본질과 정체성에 관한 질문 (…중략…) <quote type="direct" genre="critic">서정시는 다른/다양한/새로운 서정을 향해 진화(進化)하고 있는 중인가, 동일한/단순한/낡은 서정의 과거를 추억하며 진화(鎭火)되고 있는 중인가?</quote>14이 글의 요지는 ‘고정된 주체나 목적을 갖지 않는 주체가 대상에 대해 다른/다양한 <term type="concept">시차(視差/時差/詩差)</term>를 발휘하여 기존의 서정시와 다른 시를 생성해 내고 있다’는 것이다.</s>
+          <s>그녀는 이들의 시가 기존 <term type="concept">서정시</term>의 ‘<quote type="direct" genre="critic">시적 주체 나와 세계의 함수</quote>’를 ‘<quote type="direct" genre="critic">인간과 우주/지구</quote>’로 수정한다고 보고.</s>
+        </p>
+        <p>
+          <s>이것은 “<quote type="direct" genre="critic">대상에대한 시점(視點/時點), 즉 시차의 이동과 변경에 의해 이루어진다</quote>”15는 것이다.</s>
+          <s>그래서 <term type="concept">서정</term>은 ‘<quote type="direct" genre="critic">진화(進化)와 진화(鎭火)의 반복</quote>’을 통해 성립된다는 것이다.</s>
+          <s>시점을 ‘視點’과 ‘時點’으로 겹쳐 읽는 것이 새롭기는 하지만 그녀의 해석은 기존의 <term type="concept">서정시</term>의 해석을 반복하고 있는 것으로 볼 수 있다.</s>
+          <s>오히려 그녀의 규정에서 문제적인 부분은 ‘<term type="concept">서정이 진화한다</term>’는 점이다.</s>
+          <s>
+            <interp value="critical" ana="미학">과연 정서와 같은 인간의 감정이나 감성을 진화한다고 볼 수 있을까?</interp>
+          </s>
+          <s>
+            <interp value="critical" ana="미학">인간의 감정이나 감성은 생물학적인 차원의 문제가 아니라는 점에서 이것은 다분히 시적인 명명이라고 할 수 있다.</interp>
+          </s>
+          <s>하지만 <interp value="critical" ana="미학">이러한 시적 논리가 과거(기존)의 서정에 비해현재 혹은 미래의 서정이 낫다는 우열의 논리를 환기한다는 점에서 문제적</interp>14 <persName ref="#p-x3">김수이</persName>, 같은 글, pp.13-14.15 김수이, 같은 글, p.24.034 035이라고 할 수 있다.</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>3. 다른 서정과 시의 고도</head>
+        <p>
+          <s>특집<persName ref="#p-x6">이장욱</persName>의 ‘<quote type="indirect" genre="critic">다른 서정</quote>’은 기존의 <term type="concept">서정시</term>와의 단순한 차이를 드러내는 수사는 아니다.</s>
+          <s>그가 문제 삼고 있는 그 ‘<term type="concept">다름</term>’ 혹은 ‘<term type="concept">차이</term>’는 <term type="movement">미래파</term> 논의에서“<quote type="direct" genre="critic">가장 급진적이고 발본적인 것</quote>”16이다.</s>
+          <s>그는 “<quote type="direct" genre="critic">지금 다시 서정성의 위기를 말하는 것은 진부한 일</quote>”이라고 전제한 뒤, “지금 나타나고 있는 새로운 감각(들)이, 궁극적으로는 서정성의 ‘부정’이나 ‘해체’가 아니라 일종의 ‘<term type="concept">내파</term>’ 방식일 수 있다는 심중을 전제로 삼는다.</s>
+          <s><quote type="direct" genre="critic">서정시는 사라지지 않고, 다만 갱신된다</quote>”17는 의미심장한 발언을 던진다.</s>
+          <s>그의 발언 중에서 가장 문제적인 부분은 지금 나타나고 있는 <term type="concept">서정시</term>의 새로운 감각을 ‘<quote type="paraphrase" genre="critic">내파 방식일 수 있다</quote>’고 한 대목이다.</s>
+          <s>지금 여기에서의 <term type="concept">서정성</term>의 문제를 ‘<term type="concept">내파</term>’ 혹은 ‘<term type="concept">내적 함열</term>’로 보는 것은 상당히 모던한 발상이다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">그것이 모던하다는 것은 그가 오늘의 삶과 세계를 내면과 외면, 안과 바깥 같은 이분법적인 차원에 입각해서 보고 있지 않다는 점에서 그렇다는 것이다.</interp>
+          </s>
+          <s>그는 “<quote type="direct" genre="critic">오늘날의 삶과 세계는 전래의 서정적 어법으로는 보이지 않고, 들리지 않고, 만져지지 않는다</quote>”고 말한다.</s>
+        </p>
+        <p>
+          <s>그래서 “이제 <quote type="direct" genre="critic">후위(後衛)에 남은 서정시가 할 수 있는 것은 현대적 삶의 대립항으로서 마음의 도원(桃園)을 이루는 것 정도</quote>”라는 것이다.</s>
+          <s>“<quote type="direct" genre="critic">마음의 도원</quote>”은 현대적 삶이 상실한 세계로 그것은 “<quote type="direct" genre="critic">전체이자 모든 것인 1인칭의 영혼으로 가득</quote>” 차 있다.</s>
+          <s><term type="concept">서정</term>은 바로 “<quote type="direct" genre="critic">만상을 1인칭의 내면적 고도(高度)에 걸어 두는 방식</quote>”인 것이다.1816 <persName ref="#p-x7">신형철</persName>, 같은 글, p.346.17 <persName ref="#p-x6">이장욱</persName>, 「<title level="a" type="critic" xml:id="t-x17">꽃들은 세상을 버리고―풍자가 아니라 자살이다</title>」, 『<title level="m" type="critic" xml:id="t-x18">나의 우울한 모던 보이</title>』, <orgName xml:id="org-x">창비</orgName>,<date when="2005">2005</date>, pp.15-17.18 이장욱, 같은 글, p.17.</s>
+          <s>그가 말하는 “<quote type="direct" genre="critic">1인칭의 내면적 고도</quote>”는 고립되고 폐쇄된 세계가 아니라 모든 것, 즉 만상들을 흘러들게 하고 또 통과시키는 그런 유연한 충만함으로가득 찬 세계인 것이다.</s>
+          <s>
+            <interp value="neutral" ana="미학">이것은 세계의 자아화라는 고백이나 독백의 고립되고 폐쇄된 세계를 의미하는 것이 아니라는 것을 말해 준다.</interp>
+          </s>
+          <s>그렇다면 어떻게 이것이 가능할까?</s>
+          <s>그의 논리대로라면 이것은 “<quote type="direct" genre="critic">서정적 화자의 압도적인지위가 돌이킬 수 없는 것이 될</quote>”19 때가 아니라 그 지위가 소멸할 때 가능한것이다.</s>
+          <s><term type="concept">서정적 화자</term>의 지위가 소멸하면 시인은 “<quote type="direct" genre="critic">현실의 불화에 대해 말할때조차</quote>”도 그는 “<quote type="direct" genre="critic">어쩔 수 없이 하나의 가치와 체계로 밀폐된 서정적 우주 안에서 조화로울 수밖에 없</quote>”는 것이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">서정적 화자의 권위의 소멸</term>은 “<quote type="direct" genre="critic">소실점 자체의 삭제 혹은 소멸</quote>”을 통해성립된다.</s>
+          <s>기존의 <term type="concept">서정시</term>는 “<quote type="direct" genre="critic">근본적으로 하나의 소실점을 설정</quote>”하며 흔히서정시가 세계를 ‘<quote type="direct" genre="critic">주체의 표상</quote>’으로 변환한다고 말할 때, 이 ‘<quote type="direct" genre="critic">표상된 세계</quote>’는 단일한 시선의 단일한 소실점을 중심으로 구획된다.</s>
+          <s>그것은 이른바 ‘<term type="concept">일점원근법</term>’의 세계다.</s>
+          <s>이 <term type="concept">일점원근법</term>은 가공의 시간과 공간을 구축하며 서정적자아의 단일한 시선을 중개한다.</s>
+          <s>중세적 자아의 시선이 ‘<term type="concept">역원근법</term>’, 즉 신과만상의 자리를 시선의 출발점으로 삼았다면, 그럼으로써 인간적 시선의 부재를 현현했다면, <term type="concept">근대 서정시</term>들은 <term type="concept">일점원근법</term>이 관할하는 ‘<term type="concept">시적 소실점</term>’에 의해 운용된다.20는 것이다.</s>
+          <s>“<quote type="direct" genre="critic">시적 소실점</quote>”이 존재한다면 단일한 시점으로 인해 우주의 만상들은 <term type="concept">서정적 감성</term>이 유발하는 1인칭의 리듬을 통과할 수도 없고, 또 그것들은 자연스럽게 마음의 영원 속으로 흘러들 수도 없는 것이다.</s>
+          <s>이런 점에서 볼 때 새로운 감각은 ‘<quote type="direct" genre="critic">모든 것을 제 느낌과 깨달음과 전언에 귀속시키</quote>19 이장욱, 같은 글, p.20.20 이장욱, 같은 글, p.25.036 037는 <term type="concept">서정의 권위</term>가 없’어야 그것이 가능한 것이다.</s>
+          <s>그는 이것을 ‘<quote type="direct" genre="critic">반서정이 아니라 다른 서정</quote>’으로 명명한다.</s>
+        </p>
+        <p>
+          <s>그가 궁극적으로 겨냥한 <term type="concept">서정</term>은 “<quote type="direct" genre="critic">서정의 내부로 내려가 서정 자체를 넘어서</quote>”21는 것이다.</s>
+          <s>이러한 예로 그는 <persName role="poet" xml:id="p-x19">진이정</persName>의특 「<title level="a" type="poem" xml:id="t-22">거꾸로 선 꿈을 위하여 2</title>」(『거꾸로 선 꿈을 위하여』, <orgName xml:id="org-x2">세계사</orgName>, <date when="1994">1994</date>)를 들고 있다.</s>
+          <s>
+            <quote type="direct" genre="poet" source="거꾸로 선 꿈을 위하여 2">
+              <lg type="stanza">
+                <l>집</l>
+              </lg>
+              <lg type="stanza">
+                <l>미안해, 나는 성욕을 딱 잃고 말았다</l>
+              </lg>
+              <lg type="stanza">
+                <l>왜 사람들은 날 걱정할까</l>
+              </lg>
+              <lg type="stanza">
+                <l>순두부처럼 살고 싶었다</l>
+              </lg>
+              <lg type="stanza">
+                <l>말도 안 돼</l>
+              </lg>
+              <lg type="stanza">
+                <l>지금부턴 너를 독점하리라</l>
+              </lg>
+              <lg type="stanza">
+                <l>랍비가 있는 풍경이 날 웃게 했다</l>
+              </lg>
+              <lg type="stanza">
+                <l>공동번역 성서를 읽고 있는 평양의 인민들.</l>
+              </lg>
+            </quote>
+          </s>
+          <s><quote type="direct" genre="poet" source="거꾸로 선 꿈을 위하여 2"><lg type="stanza"><l>나는 수령이란 낱말을 찾아 레위기를 헤맨다</l></lg><lg type="stanza"><l>누가 내 몸 안에서 섹스를 하나 봐</l></lg><lg type="stanza"><l>헐떡이는 소리, 세 살 이후부터 끊이지 않고 있다</l></lg><lg type="stanza"><l>나를 사랑하는 헬리콥터 조종사가 머리 위에서 붕붕거린다</l></lg><lg type="stanza"><l>그는 흑인이다</l></lg><lg type="stanza"><l>편견이 돋나다: 나를 버리기란…</l></lg><lg type="stanza"><l>그를 쫓아 주세요 외국 군대에 언제까지 의지해야 하나</l></lg><lg type="stanza"><l>미국이 잘되는 이유는 리더스 다이제스트에 다 들어 있다</l></lg><lg type="stanza"><l>나는 불타고 있는데, 아무 데도 맞불은 보이지 않아</l></lg><lg type="stanza"><l>미끼라도 물고 싶어</l></lg><lg type="stanza"><l>결혼식장이 어물전 같아</l></lg><lg type="stanza"><l>비리지 않은 여자를 만나고 싶다</l></lg><lg type="stanza"><l>기고 싶다, 비비고 싶다, 까고 싶다</l></lg></quote>21 <persName ref="#p-x6">이장욱</persName>, 같은 글, p.35.</s>
+          <s><quote type="direct" genre="poet" source="거꾸로 선 꿈을 위하여 2"><lg type="stanza"><l>내 인생은 재즈라기보단 헤비메탈이다</l></lg><lg type="stanza"><l>내 서정의 목은 늘 쉬어 있다</l></lg></quote>그는 이 시의 언어에 주목한다.</s>
+          <s>그는 이 시를 “<quote type="direct" genre="critic">내면적 카니발리즘의 언어들</quote>”이라고 전제한 뒤, 이러한 “<quote type="direct" genre="critic">들끓고, 들끓는 말들은 수평적 역학 관계 안에서 좌충우돌</quote>”하고, “<quote type="direct" genre="critic">행과 행 사이의 저 좌충우돌을 통해 서정적 권위는극단적으로 약화된다</quote>”고 말한다.</s>
+          <s>또한 그는 이 시의 “<quote type="direct" genre="critic">모든 발화는 시인을부정하는 타자의 언어가 되</quote>”는데 여기에서 “<quote type="direct" genre="critic">타자의 언어라는 것은 정말 남의 말이라는 뜻이 아니라, 서정적 독백이 권위를 버린 말이라는 뜻</quote>”이라고밝힌다.</s>
+          <s>따라서 이 시는 ‘<quote type="paraphrase" genre="critic">궁극적으로 표층의 말과는 다른 잠언, 다른 반성,다른 정치학을 현시한다</quote>’는 것이다.</s>
+        </p>
+        <p>
+          <s>이 시에서도 역시 그가 가장 강조하는 것은 <term type="concept">서정적 화자의 권위의 상실</term>이다.</s>
+          <s>그래서 그는 “<quote type="direct" genre="critic">요컨대 문제는, 서정 자체가 아니라 서정의 권위</quote>”이며, “<quote type="direct" genre="critic">서정시가 마음의 도원을 버리고 진리를 버리고 결국 시인을 버린다는 것, 여기에 새로운 서정의 미래가 있</quote>”22다고 말한다.</s>
+          <s>
+            <interp value="neutral" ana="미학">그의 논리는 서정적 화자의 권위 상실을 강조하고 있다는 점에서 탈근대적인 미학을 겨냥하고 있다고 볼수 있다.</interp>
+          </s>
+          <s>
+            <interp value="affirmative" ana="미학">다만 그 방식이 외적 함열이 아니라 내적 함열, 즉 내파를 문제 삼는다는 점이 기존의 범박한 논의에서 벗어난 그만의 독창성이라고 할 수 있다.</interp>
+          </s>
+          <s>그런데 <interp value="affirmative" ana="사상">서정적 화자의 권위의 소멸 같은 그의 내파의 방식이 동양의 선적인 사유 방식을 강하게 환기하고 있다는 것은 주목에 값한다.</interp></s>
+          <s>‘<term type="concept">새로운 서정시의 미래</term>’가 ‘<quote type="paraphrase" genre="critic">마음의 도원을 버리고 진리를 버리고 결국 시인을 버릴 때 가능하다</quote>’라는 진술은 <term type="concept">무(無)가 유(有)를 낳고 공허가 충만을 낳는다</term>는 광의의<term type="concept">존재론적인 문제</term>를 넘어 ‘나’의 자각, ‘나’의 깨달음이라는 존재론적인 문제를 던져 준다고 할 수 있다.</s>
+          <s><term type="concept">서정적 화자의 권위의 소멸</term>과 ‘<term type="concept">자기 버림</term>’의 문제는 결국 ‘나’에 대한 자각이라는 크나큰 혹은 아주 난해한 화두를 던져 준 셈22 <persName ref="#p-x6">이장욱</persName>, 같은 글, pp.37-38 참조.038 039이다.</s>
+          <s>그가 제시한 이 논리에 입각해 시를 쓴다는 것은 고도의 혹은 일급의<term type="concept">직관</term>을 전제할 때 가능한 것이다.</s>
+        </p>
+        <p>
+          <s>이런 <term type="movement">미래파</term> 옹호론자들의 논리에 대해<term type="concept">난해성</term>의 문제를 제기하고 있는 것이 결코 우연이 아닌 이유가 바로 여기에있다.23 혹시 그는 시에 대해 또 다른 <interp value="critical" ana="문학관">고도를 기다리고 있는 것은 아닐까</interp>?</s>
+          <s>특집</s>
+        </p>
+      </div>
+      <div type="section">
+        <head>4. 믿음의 고도와 서정의 순도</head>
+        <p>
+          <s><term type="movement">미래파 논쟁</term>에 참여한 담론 주체들의 <term type="concept">서정</term>에 대한 문제 제기에 대해 많은 부분 <interp value="affirmative" ana="문학관">공감한다.</interp></s>
+          <s>우리 시사의 신성한 금기의 영역으로 존재하면서 그 개념과 논리에 대해 이렇다 할 만한 문제 제기조차 없었던 <term type="concept">서정</term> 혹은 <term type="concept">서정성</term>에 대해 다양한 담론적인 실천이 행해지고 있다는 것은 <interp value="affirmative" ana="문학관">의미 있는 일이라고할 수 있다.</interp></s>
+          <s>특히 이른 감이 없지 않지만 <term type="concept">서정적 주체</term>의 발본적인 존재 방식을 문제 삼고 있다는 것은 그 논리의 타당성이나 사유의 심화 정도를 떠나서 <interp value="affirmative" ana="문학관">매너리즘과 패배주의에 빠져 있는 우리 시단에 적지 않은 긴장을 불러일으키는 효과를 준 것이 사실이다.</interp></s>
+          <s><term type="movement">미래파</term>의 시가 우리 시의 미래냐 아니냐 하는 문제는 <interp value="neutral" ana="문학관">그다지 중요하지 않다.</interp></s>
+          <s>
+            <interp value="critical" ana="사회">이 논쟁의 이면에는 미래의 우리 시에 대한 기득권을 점하려는 음험한정치적인 논리가 깔려 있다.</interp>
+          </s>
+          <s>우리 시의 미래는 어떤 것도 될 수 있고, 또 어떤 것도 될 수 없다.</s>
+          <s>그것을 결정하는 것은 정치적인 논리가 아니라 시적 논리이기 때문이다.</s>
+          <s><term type="movement">미래파 논쟁</term>을 놓고 보면 우리 시의 미래는 <term type="concept">서정</term> 혹은 <term type="concept">서정성</term>에 대한 담론 투쟁의 역사 속에서 결정될 것이다.</s>
+        </p>
+        <p>
+          <s>하지만 이 논의가 생각처럼 쉽지 않은 것은 <term type="concept">서정</term>이 진화하거나 진보하지 않는 개념이기 때문이다.</s>
+          <s><term type="concept">서정</term>은 그것이 인간의 정서를 바탕으로 한 개념이기 때문에 과거나 현23 <persName role="critic" xml:id="p-x20">박수연</persName>, 「<title level="a" type="critic" xml:id="t-x19">말할 수 없는 것과 말해야만 하는 것</title>」, 『<title level="j" type="journal" ref="#t-x3">문예중앙</title>』, <date when="2006">2006</date>.</s>
+          <s>여름; <persName role="critic" xml:id="p-x21">하상일</persName>, 「<title level="a" type="critic" xml:id="t-x20">비평의소통과 미래</title>」, 『<title level="j" type="journal" xml:id="t-x21">애지</title>』, <date when="2007">2007</date>.</s>
+          <s>여름.</s>
+          <s>재나 미래에도 크게 달라질 성질의 것이 아니다.</s>
+          <s><term type="concept">서정</term>은 어느 정도 순환되고 반복될 수밖에 없다.</s>
+          <s>따라서 <interp value="critical" ana="미학">서정의 절대성을 강조하는 것은 순수 미학의 산물이자 엘리트적인 고급 미학의 산물이라고 할 수 있다.</interp></s>
+          <s>
+            <interp value="critical" ana="미학">서정적 화자의 내파를 통한 서정의 갱신은 태양 아래 새로운것을 찾으려는 한 우울한 모던 보이의 자의식으로 읽을 수도 있다.</interp>
+          </s>
+        </p>
+        <p>
+          <s>내파가“<quote type="direct" genre="critic">부정이나 해체가 아니</quote>”24라고 모던 보이는 항변하고 있지만 그가 보여 준시적 사유는 해체의 논리에 다름 아니다.</s>
+          <s>그가 앓고 있는 딜레마는 모더니즘과 포스트모더니즘 사이, 즉 창조와 모방, 깊이(심층)와 표면(표층), 주체와타자, 총체성과 파편성, 동일성과 비동일성 사이의 딜레마라고 할 수 있다.</s>
+          <s>서정은 소멸할 수 없다.</s>
+          <s>그것은 끊임없이 반복, 재생산될 것이다.</s>
+          <s>이때 중요한 것은 반복과 재생산 속에서 차이를 인식할 수 있는 감각이라고 할 수있다.</s>
+          <s>서정 혹은 서정성에 대한 지금 여기에서의 논의 역시 이러한 역설과모순에 대한 인식과 그것을 통한 갱신의 의지라고 할 수 있다.</s>
+          <s>서정 역시 현실과의 불화 속에서 생성될 수밖에 없는 운명을 지니고 있다.</s>
+          <s>현실과의 불화를 서정의 논리 속에서 충돌하고 겹치게 하여 새로운 세계를 생성해 내는것이 중요하다.</s>
+        </p>
+        <p>
+          <s>현실과의 불화 속에서 일정한 미적 성취를 이루는 길은 <term type="concept">서정적 주체</term>를 자살하게 하여 그 서정의 순도를 극대화하는 것도 좋은 방식25이다.</s>
+          <s><term type="concept">서정적 주체</term>의 자살이 <term type="concept">서정시</term>를 거부하는 현실의 폭압에 저항하는 가장강력한 방편이 된다는 역설의 논리야말로 ‘<quote type="direct" genre="critic">지금, 여기</quote>’에서 절실히 요구되는<term type="concept">시적 실천</term>인지도 모른다.</s>
+          <s>현실과의 불화 속에서 <term type="concept">서정적 주체</term>로 하여금 자살을 감행하게 함으로써 죽음으로써 사는 역설적인 상황을 예각적으로 드러내는 것이다.</s>
+          <s>이처럼 <term type="concept">서정적 주체</term>의 자살은 서정의 순도를 높여 준다.</s>
+          <s>하지만 <term type="concept">서정적 순도</term>를 높이는 또 하나의 방식은 <term type="concept">비순도의 순도</term>라는 <term type="concept">중층적인 미학</term>에 대한 탐색이다.</s>
+          <s>자살의 방식은 순도 높은 <term type="concept">시적 실천</term>이지만 ‘<quote type="direct" genre="critic">지금, 여기</quote>’24 <persName ref="#p-x6">이장욱</persName>, 같은 글, pp.16-17.25 이장욱, 같은 글, p.39.040 041의 현실은 그 자살의 진정성마저도 외면하거나 의심하게 만든다.</s>
+          <s>이런 상황에서 중요한 것은 <term type="concept">서정</term>에 대한 ‘믿음’이라고 할 수 있다.</s>
+          <s>이것은 <term type="concept">서정적 화자</term>의 권위의 회복이라든가 서정 혹은 <term type="concept">서정성</term>에 대한 신성성 및 <term type="concept">숭고성</term>의 회복을 넘어 그것을 왜곡되게 받아들이거나 무조건적인 부정, 다시 말하면 부특집 정에 대한 부정으로 받아들이지 않는 의미로서의 ‘믿음’을 말하는 것이다.</s>
+        </p>
+        <p>
+          <s>이 믿음이 하나의 고도를 이룰 때 비로소 <term type="concept">서정</term>의 순도 또한 결정될 것이다.</s>
+          <s><persName ref="#p-x">이재복</persName> 문학평론가.</s>
+          <s>저서 『<title level="m" type="critic" xml:id="t-x22">몸</title>』 『<title level="m" type="critic" xml:id="t-x23">비만한 이성</title>』 『<title level="m" type="critic" xml:id="t-x24">현대문학의 흐름과 전망</title>』 『<title level="m" type="critic" xml:id="t-x25">한국문학과 몸의 시학</title>』 『<title level="m" type="critic" xml:id="t-43">우리 시대 43인의 시인에 대한 헌사</title>』 『<title level="m" type="critic" xml:id="t-x26">한국 현대시의 미와 숭고</title>』 등.</s>
+          <s><orgName xml:id="org-x3">고석규 비평상</orgName>, <orgName xml:id="org-x4">젊은평론가상</orgName>, <orgName xml:id="org-x5">애지문학상</orgName>, <orgName xml:id="org-x6">편운문학상</orgName> 수상.</s>
+          <s><orgName xml:id="org-x7">한양대학교</orgName> 한국언어문학과 교수.</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

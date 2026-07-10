@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>(계간 시평)새로운 서정의 두 가지 얼굴</title>
+        <author>고봉준</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s>계간 시평<term type="concept">새로운 서정</term>의 두 가지 얼굴<persName role="critic" xml:id="p-x">고봉준</persName>1.</s>
+          <s>세계와의 불화로서의 시 여기저기에서 <interp value="neutral" ana="문학관">서정시가 위기에 직면햇다는  진단이   제기되고 있다.</interp></s>
+          <s>2000년대름 전후하여 등장한 <term type="concept">젊은 시인들</term>의 시세계틀 둘러싸고 진행되 눈 <term type="movement">포스트 서정시</term> 논의는, 서정시의 본질에 대한 근본적이고 진지한 성 찰올 요구하고 있다.</s>
+          <s>9년대 시단의 중요한 화두엿년 <term type="concept">신서정</term>과 <term type="concept">생태학적 상상력</term>이 더 이상의 문학적 출구름 찾지 못하는 상황에서 시작되는 이러 한 변화의 모색은 오늘날 우리에게 서정이관 무엇인가라는 의미심장한 질문올 던지고 있다.</s>
+          <s>흥미로운 사실은, 이러한 시단의 변화가 출판계의 구도 변화틀 그대로 반영하고 있다는 점이다.</s>
+          <s><date when="1970">70년대</date> 이후, 시집의 출판 과 유통은 r<orgName xml:id="org-x">창비</orgName>   '<orgName xml:id="org-x2">문지</orgName>]   F<orgName xml:id="org-x3">민음사</orgName>}  F<orgName xml:id="org-x4">세계사</orgName> 라는 네 개의 출판사름 중심 으로 이루어저 윗다.</s>
+          <s>
+            <interp value="affirmative" ana="문학관">이들 출판사는 신작 시집의 출판이라는 단순한 역 할올 벗어나 현대시의 중요한 화두와 흐름올 이끌어앉다 .</interp>
+          </s>
+          <s>그러나 <date from="2000" to="2009">2000 년대</date>틀 넘어선 지금 시 장르에서 이들의 영향력은 현격하게 줄어들없다.262 계간 문학평 시평<interp value="critical" ana="사회">이러한 변화가 몇몇 출판 자본에 의해 추동되다논 부정적인 면도 있지 만</interp>, <term type="concept">젊은 시인들</term>의 새로운 상상력은 새로운 매체틀 요구하는 것처럼 보 인다.</s>
+        </p>
+        <p>
+          <s>시집 출판에서 r<title level="m" type="other" xml:id="t-x">천년의 시작</title>]   F<orgName xml:id="org-x5">랜덤하우스중앙</orgName>} r<orgName xml:id="org-x6">문학동네</orgName>]의 약 진이 돈보이는 것은 이러한 배경에서 이해할 수 있다.</s>
+          <s><persName role="poet" xml:id="p-x2">광병승</persName>과 <persName role="poet" xml:id="p-x3">김민정</persName>의 시에서 장후적으로 확인되는 이 새로운 감각과 상 상력의 등장은 확실히 이전의 시적 상상력과는 판이한 문법올 보여준다: 그것이 <term type="concept">서정</term>시의 확장올 의미하는 것인지 아니면 <term type="movement">포스트 서정</term>의 장후인 지에 대해서는 별도의 논의가 필요하켓지만 , <interp value="affirmative" ana="미학">그들의 시가 생태주의적 상 상력의 반곤한 서정에 위협적인 요소가 되고 있는 젓만은 분명하다.</interp></s>
+          <s>그 리하여 우리논 새삼 <quote type="direct" genre="critic">"서정이관 무엇인가"</quote> 라는 원론적인 질문에 직면하 고 있다.</s>
+          <s>주지하듯이, <term type="concept">서정</term>이관 <term type="concept">동일성</term>의 원리에 근거하고 있다.</s>
+          <s><term type="concept">'세계 의 자아화'</term> 로 정식화되는 <term type="concept">서정시</term>의 원리논, 그러나 단순한 <term type="concept">동일성</term>이 아 니다.</s>
+          <s>그것은 상처받은 존재가 세계와 자아의 <term type="concept">동일성</term>올 확인함으로써 그 상처률 치유하려는 의지의 하나이다.</s>
+          <s>그러므로 <term type="concept">서정</term>의 <term type="concept">동일성</term>은 원론적 이고 원칙적인 동일성이 아니라 적극적으로 모색해야 하는 동일성인 셈 이다.</s>
+          <s>그러나 <interp value="critical" ana="사회">불행히도 우리는 동일성올 통한 상처의 치유가 더 이상 불 가능한 시대에 시틀 쓰고 읽는다.</interp></s>
+        </p>
+        <p>
+          <s>그래서 최근의 시적 경향은 세계와의 동일성보다는 <term type="concept">불화감</term>올 드러내는 데 집중하고 있다.</s>
+          <s>이것은 분명 낮의은 서정의 모습은 아니다.</s>
+          <s>오늘날 <term type="concept">서정시</term>는 세계와의 <term type="concept">불화</term>름 넘어, 그 세계 틀 해체하려능 욕망울 숨기지' 않듣다 .</s>
+          <s>이제 <term type="concept">서정</term>은 세계와의 동일성이 <term type="concept">불화</term>의 감정으로 미끄러지는 지점에서 발화되다.</s>
+          <s>최근 신작 시집올 출간 한 <persName role="poet" xml:id="p-x4">김근</persName>과 <persName role="poet" xml:id="p-x5">김언</persName>의 시논 이러하 세계와의 <term type="concept">불화</term>가 어떻게 시적 에너지로 콤수월 수 있는가루 뚜컷하게 보여준다.</s>
+          <s>새로운 서정의 두 가지 얼굴 2632 외출 두 세계 사이에서 꾸난 악몽 <persName ref="#p-x4">김근</persName>의 첫 시집 r<title level="m" type="poem" xml:id="t-x2">뱀소년의 외출</title>n (<orgName ref="#org-x6">문학동네</orgName> , <date when="2005">2005</date>) 은 시간에 관한 <term type="concept">신화적 상상력</term>으로 가득하다.</s>
+          <s>그의 시에서 '<term type="concept">시간</term>' 은 현재에서 출발해 과거로, 다시 더 과거로, 그리하여 원형적 세계로 이어진다.</s>
+          <s>그 <term type="concept">신화적 시간</term> 위에 서 &lt;<term type="concept">시간-기억추억</term>&gt; 은 하나의 원초적 장면으로 음각된다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x4">김근</persName>의 시논 끊임없이 과거로 거슬러 올라가는 이 <term type="concept">시간</term>올 시적 모티프로 삼고 있다.</s>
+          <s><term type="concept">신화적 시간</term>은 이미 주어진 합리적 세계의 시간올 뛰어넘논 집단의 운명 적 시간이라고 할 수 있다.</s>
+          <s>원초적 장면 속에서 "<quote type="direct" genre="poet" source="밤마다 축제">할미는 빗자루로 내 등 올 쓸어내</quote>" ('<title level="a" type="poem" xml:id="t-x3">밤마다 축제</title>_)리고, "<quote type="direct" genre="poet" source="어제">엄마가 죽인 아기들의 눈길</quote>" (r<title level="a" type="poem" xml:id="t-x4">어제</title>,)이 마 치  '어제' 의 일처럼 되살아난다.</s>
+          <s><persName ref="#p-x4">김근</persName>의 시에서 이 <term type="concept">신화적 시간</term>은 아이의 죽음이라는 원초적 사건과 관 계된다.</s>
+          <s>"<quote type="direct" genre="poet">아기들의 머리에 대고 어미가 말있다 언제 다 죽올래?</quote></s>
+          <s>(r<title level="a" type="poem" xml:id="t-x5">혜혜 혜 혜혜혜</title>)와 "<quote type="direct" genre="poet" source="오래된 자궁">태어나지 못한 아이들의 통통 불은 몸둥이들이 떠올라앉어</quote>" (r<title level="a" type="poem" xml:id="t-x6">오래된 자궁</title>;) 그리고 "<quote type="direct" genre="poet" source="우물">어떤 날은 우물에서 아기도 몇 마리 함께 건저적 논데</quote>" (r우물,) 처럼 시집의 도처에서 발견되는 어머니의 잦은 '<term type="concept">유산</term>' 과 "<quote type="direct" genre="poet" source="강, 꿈">그만 , ##하올, 나, 너름 보듯</quote>" ('<title level="a" type="poem" xml:id="t-x7">강, 꿈</title>,)의 <term type="concept">입사의식</term>은 그 원초적 상처의 하나이다.</s>
+          <s>시인에게 원초적 세계는 "<quote type="direct" genre="poet" source="노래륙 위한 흐물거리는 각주">어미에게 돌아간들 이미 주글주글 천만 개 주름올 단 자궁일밖에</quote>" ('<title level="a" type="poem" xml:id="t-x8">노래륙 위한 흐물거리는 각주</title>_)에서 확인되 듯이 충만한 시간이라기보다는 <term type="concept">결필의 시간</term>이다.</s>
+          <s>그래서  '밤' 이라는 어 둘의 시간올 틈다 행해지는 <term type="concept">원형적 세계</term>로의 '외출' 은 안온한 끊이기보 다는 악몽에 가깝다.</s>
+        </p>
+        <p>
+          <s>어미는 자주 <title level="a" type="poem" xml:id="t-x9">우물</title> 속으로 들어자습니다 우물 속에는 자주 뱀 한 마리가 파리 틀고 살앗습니다 뱀은 어미블 친친 감아 햇바닥올 날름, 날름거리고 몸부림도 없이 어미는 미친 여자처럼 웃없습니다 어미의 웃음이 당은 자264 계간 문학평 시평리마다 짓푸른 이끼가 무성쾌습니다 아무리 들여다보아도 어미는 좀체 안 나오고 나는 어둡고 축축한 잠 속으로 자꾸 미끄러적습니다 어미가 안 보이고 우물가엔 빨랫감이 쌓어자습니다 동냄새가 진동쾌습니다 중소활 아비는 죽지도 않있습니다 중조활미도 잘 안 죽없습니다 내 잠은 낡은 항 아리처럼 자꾸 금이 가 잠에서 깨면 겨드랑이에 한 장씩 거친 비늘이 돌아 낫습니다 나는 무슨 구렇덩당신선비인가요 이상하게 아비가 보이지 않와 습니다 -r우물] 부분<interp value="neutral" ana="미학">'우물' 은 신화적 시간의 공간적 포상이다.</interp></s>
+          <s><persName ref="#p-x4">김근</persName>의 시에서   '(우)물' 과 '뱀'  같은 <term type="concept">원형 상징</term>은 한 개인의 영혼이 짓들여 살아갈 수 있는 충만한 세계가 아니다.</s>
+          <s>우물올 들여다보는 행위논 <term type="concept">원초적 결들의 시간</term>올 경험하 논 일이미, 그리하여 그 우물의 시간 속에는 죽없지만 국지 안는 '증조 할아비' 와 '중조활미' 그리고 어미의 자국에서 축출권   '아기' 들이 여 전히 살고 있다.</s>
+          <s>시인은 이 오래된 참흑한 풍경의 한 가운데에   '뱀' 이라 논 <term type="concept">원형적 상징</term>올 그려농고 있다.</s>
+          <s><term type="concept">신화적 시간</term>은 흘러가는 시간이 아니 다.</s>
+          <s>그것은 <term type="concept">순한하는 시간</term>이며, 그리하여 영원히 머무르는 시간이다.</s>
+          <s>그 러므로 "<quote type="direct" genre="poet" source="우물">어느날 나는 우물 속의 뱀올 죽엿습니다</quote>" (r우물_ )에서처럼 화자 가 <term type="concept">신화적 시간</term>올 상징하는  '뱀' 올 죽이는 순간부터 신화적 시간은 다른 시간이 등장하게 된다.</s>
+          <s>이제 시간은 어미의 모습이 투영되지 안는 '투 명' 한 시간이 된다.</s>
+        </p>
+        <p>
+          <s>이 투명한 시간이 바로 <term type="concept">신화적 시간</term>의 다음에 오는, <term type="concept">역사적 시간</term>이다.</s>
+          <s>이제 화자는 "<quote type="direct" genre="poet">나는 아주 조금씩 어미블 뜯어먹고 아주 조금씩 늙어자습니다</quote>" 처럼 늙어간다.</s>
+          <s>이러한 시간의 변화는 '<title level="a" type="poem" xml:id="t-x10">오래된 아 이</title>_에서 '<title level="a" type="poem" xml:id="t-x11">뒤집어진 길</title>' 로 표상되다 .</s>
+          <s>"<quote type="direct" genre="poet" source="오래된 아이">그날부터 해와 달이 서로 몸 바뀌 떠올바지만 사람들은 아무도 그 사실흘 눈치채지 못햇어</quote>" ('<title level="a" type="poem" ref="#t-x10">오래된 아이</title>;)새로운 서정의 두 가지 얼굴 265'<term type="concept">늙음</term>' 이라는 생물학적 사건은 <term type="concept">역사적 시간</term>올 살아가는 존재의 운명 이다.</s>
+          <s>이런 의미에서 (<term type="concept">시간-기억추억</term>&gt; 이라는 <term type="concept">비역사적 시간</term> 속에서 살 아가는 <persName ref="#p-x4">김근</persName> 시의 인물들은 <term type="concept">늙음</term>올 알지 못하다.</s>
+          <s><term type="concept">늙음</term>올 모르기에 그들 은 또한 죽음도 알지 못하다.</s>
+          <s>'<title level="a" type="poem" xml:id="t-x12">마음속 폐가 한 채</title>_에서 시인은 그것올 "<quote type="direct" genre="poet">부패의 속도</quote>" 가 한없이 느려지는 집으로 형상화하다.</s>
+          <s>"<quote type="direct" genre="poet">영원히 썩지 암 논 것들 속에서 나 살아남있다</quote>"   죽없지만, 결코 죽지 않눈 세계, 그것이 바로 <term type="concept">신화적 시간</term>이다.</s>
+        </p>
+        <p>
+          <s>이처럼 <term type="concept">시간</term>에 대한 <persName ref="#p-x4">김근</persName>의 사유는 독특하 면올 지니고 있다.</s>
+          <s>그는 '<title level="a" type="poem" xml:id="t-x13">너는 자전거흘 탄다</title>_에서 이러한 <term type="concept">비역사적 시간</term>이 탄생하는 원초적 풍경올 그리고 있는데, 여기에서 시간은 "<quote type="direct" genre="poet">네가 자전거 틀 타는 동안 꽃들이 흐드러진다</quote>" 처럼 사물의 움직임과 함께 시작되논 <term type="concept">생성-시간</term>이다.</s>
+          <s><term type="concept">시간</term>은 불변하는 외적 조건이 아니라 어떠한 심적 계기 나 사건의 발생에 따라 시시각가으로 경험되논 어떤 젓이다.</s>
+          <s>그리하여 "<quote type="direct" genre="poet">꽃잎들과 함께 시간이 자꾸 네 눈올 가린다 꽂이 지논 으로 시간이 사 라진다고 말할 수 있올까</quote>" 처럼 시간은 심사리 입혀지거나 사라지지 암 논다.</s>
+          <s><term type="concept">시간</term>올 과거로 , 혹은 현재로 인식하는 만드는 조건은 결코 외적이 지 않다.</s>
+          <s>마찬가지 이유로, <term type="concept">시간</term>은 "<quote type="direct" genre="poet">납작해진 시간</quote>" 이나   "<quote type="direct" genre="poet">날카로운 시 간</quote>" (r<title level="a" type="poem" xml:id="t-x14">어느날 아침</title>_)처럼 조작 가능한 어떤 것으로 인식된다.</s>
+          <s><quote type="direct" genre="poet" source="뱀소년의 외출">누가 어미의 장사름 지내줄 것인가 누가/어미의 육체틀 장엄하게 썩게 할 것인가/ 갈라진 혀는 여태도 길고 사나우니/내 날카로운 독니로 찢 고 발긴어미의 살점은 또 어느 허공에 뿌려질 것인가/ / (중락) //태클 물 지 못햇으니 고향도 없다/ 몇 차례 허물올 벗/는지는 잊없다 허물올 벗어 도 벗어도 허물 안의 기억은/허물 바깥에서 사라지지 않듣다 /어느 젓이 허물 안의 기억인지/어느 것이 허물 바깥의 기억인지/알 수 없다 나는 안 인가 바깥인가</quote>266 계간 문학평 시평'<title level="a" type="poem" ref="#t-x2">뱀소년의 외출</title>_ 부분'뱀소년의 외출_은 <term type="concept">신화적 세계</term>와 <term type="concept">역사적 세계</term>의 경계에 위치하고 잎 다   '외출' 이란 <term type="concept">신화적 시간</term>의   바깥' 으로 나오는 것올 의미하는 바 , 바 깔' 의 세계는 과거와 미래보다는 "<quote type="direct" genre="poet" source="어두운, 술집들의 거리">자신이 영원히 현재인 것만 중명하면 되는</quote>" (r<title level="a" type="poem" xml:id="t-x15">어두운, 술집들의 거리</title>) 세계이다.</s>
+          <s>그러기 위해서는 먼저 "<quote type="direct" genre="poet">기억올 떼어버</quote>" 려야 한다.</s>
+        </p>
+        <p>
+          <s><quote type="direct" genre="poet">"술에 취하는 건 아직 과거나 미래 따위가 떨어저나 가지 않있다"</quote> 뜻이며 , 이  바깥' 의 세계에서논 <quote type="direct" genre="poet">"현재에 충실한 눈일만이 늘 최상품으로 취급"</quote> 된다.</s>
+          <s>그것은 <term type="concept">'술'</term> 에 취한다는 건 무어가을 상실하 고 있다는 젓이미, 이때 '술' 은 우리의 시간올 심사리 과거지 향해 돌려 놓기 때문이다.</s>
+          <s>그래서 '바깥1_에서 <quote type="direct" genre="poet">"가방을 잃버"</quote> 버린 <term type="concept">'사내'</term> 논 <quote type="direct" genre="poet">"이제 추억에서 암모니아 냄새가 나 노트가 푸르기 때문이야"</quote> 라고 말하다.</s>
+          <s><term type="concept">'안'</term> 의 세계 ,  <term type="concept">'신화적 시간'</term> 의 세계, 그리고  <term type="concept">'추억'</term> 과 <term type="concept">'기억'</term> 의 세계에 사로잡히 사내는 수화기 너머의 음성에게 <quote type="direct" genre="poet">"안이라구?</quote></s>
+          <s>
+            <quote type="direct" genre="poet">아니라구?</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">아무것 도?</quote>
+          </s>
+          <s>라고 되문는다.</s>
+          <s><term type="concept">'바깥2</term> 에서의 화자  나'   역시 <term type="concept">'귀'</term> 틀 잃어버로다.</s>
+        </p>
+        <p>
+          <s>문제는, 안과 바깥, <term type="concept">신화적 시간</term>과 <term type="concept">역사적 시간</term> 모두가 충만한 시간으로 경험되지 않듣다는 사실이다.</s>
+          <s>"<quote type="direct" genre="poet" source="뱀소년의 외출">태틀 문지 못햇으니 고향도 없</quote>" (r<title level="a" type="poem" ref="#t-x2">뱀소년의 외출</title>_)고 , "<quote type="direct" genre="poet" source="노래홀 위한 흐물거리는 각주">어미에게 돌아간들 이미 주글주글 천만 개 주름올 단 자국에</quote>" ('<title level="a" type="poem" xml:id="t-x16">노래홀 위한 흐물거리는 각주</title> ) 지나지 않는 상태, 이 시간의 망명지에서 소년은 늙어간다.</s>
+          <s>이 실중의 망명상태름 시인은 "<quote type="direct" genre="poet" source="잘 접어 만든 종이 인형처럼">나 아년 곳으로도 가지 못하고 내가 나인 곳으로도 온전히 돌아오지 못한 채</quote>" (r<title level="a" type="poem" xml:id="t-x17">잘 접어 만든 종이 인형처럼</title>_)라고 표현한다.</s>
+          <s>그러나 바깥의 세계는 부패가 진행되는 늙음의 시간이다.</s>
+          <s>그렇기 때문에 "<quote type="direct" genre="poet">어미의 장사</quote>" 틀 지내 "<quote type="direct" genre="poet">어미의 육체틀 장엄하 게 썩게</quote>" 만드는 일은 필수적이다.</s>
+          <s>화자인 소년이  '우는 법' 올 모르는 까닭은, 그가 부패가 진행되지 않는 <term type="concept">신화적 시간</term>의 상징인 뱀의 비늘올새로운 서정의 두 가지 얼굴 267두르고 있기 때문이다 <persName ref="#p-x4">김근</persName>의 r<title level="a" type="poem" ref="#t-x2">뱀소년의 외출</title>] 에서 뱀-소년은 허물의 안에서 밖으로, 신화적 시간에서 <term type="concept">역사적 시간</term>으로 던저짐으로써 비로소 성장올 시작하다.</s>
+          <s>아니, 정확하게 말하면 늙기 시작한다.</s>
+          <s>그러나 '<quote type="direct" genre="poet">소년올 버리고 나자 그가 소년 이어는지 늙은이엿는지</quote>" 조차 알 수 없는 상황이 발생하다.</s>
+        </p>
+        <p>
+          <s>그 소년은 신 화적 시간의 주재자인 할머니에게 <quote type="direct" genre="poet">"당신의 자궁 열어 이제 그만나 수서 넣어주시켓소"</quote> 라고 문지만 그곳은 <quote type="direct" genre="poet">"천만 개 주름"</quote> 올 달고 외는 <term type="concept">불모</term>의 공간에 지나지 않듣다.</s>
+          <s>소년은 이 어정쟁한 부패의 시간 속에서 세상울 살아가지만 , 이제   '집' 이라는 공간은 <quote type="direct" genre="poet">"물똑에선 도무지 연기가 피어오 르지 않앗네 화덕은 식고 집은 곧 무덤이 되없네"</quote> 에서 확인되듯이 거대 한 무덤으로 변하고 만다.</s>
+          <s><interp value="affirmative" ana="미학">두 세계 사이에서 망명의 길을 걷고 있는 소년 의 비애와 늙어감, 이것이야말로 김근의 시적 주제라고 할 수 있다.</interp>3.</s>
+          <s>다른 문장 혹은 의도문 더듬거림 <quote type="direct" genre="poet">"처음과 끝이 반드시 맞아떨어지는 지점이 존재하지 않울 것"</quote> .</s>
+          <s><persName ref="#p-x5">김언</persName>의 두 번째 시집 '<title level="m" type="poem" xml:id="t-x18">거인</title>](<orgName xml:id="org-x7">괜덤하우스중앙</orgName>, <date when="2005">2005</date>)의 마지막 시 r시집의 한 구절 이다.</s>
+          <s>3차원도 , 4차원도 아난, 그러면서도 작곡을 하듯이 새야 하는 글이 칸 어떤 것일까?</s>
+          <s><quote type="direct" genre="poet">"한 명의 과학자루 움직" 이논 대신 "백 명의 민중올 포 기" 하는</quote>   <term type="concept">다른 문장</term>' 이관 무엇올 말하는 것일까?</s>
+          <s><persName ref="#p-x5">김언</persName>의 시논 이   '<term type="concept">다른 문장</term>' 의 세계로 우리틀 이끌어간다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x5">김언</persName>의 시논 <term type="concept">다수적 언어</term>름 더듬거리논 데서 시작된다.</s>
+          <s>시집 r<title level="m" type="poem" ref="#t-x18">거인</title> 의 '부록' 에는 "<quote type="direct" genre="poet">불구의 문장들</quote>" 에 대한 탄색이 적혀 있다 .</s>
+          <s>"<quote type="direct" genre="poet">주어가 하나 더 있거나 술어가 엉뚱하게 달려 있거나 앞뒤가 안 맞는 문장들.</quote></s>
+          <s><quote type="direct" genre="poet">팔다리가 하나 더 있거나 물이거나 아무튼 정상과는 거리가 먼 문장들</quote> "  <quote type="direct" genre="poet">시인은 이</quote> "<quote type="direct" genre="poet">비문에서 문장올 발견한다</quote> "  <quote type="direct" genre="poet">그렇게 발견된 문장들은</quote> "<quote type="direct" genre="poet"><lg type="stanza"><l>처음과 끝이</l></lg><lg type="stanza"><l>268 계간 문학평 시평</l></lg><lg type="stanza"><l>다른 인생 혹은 문장</l></lg></quote>" 이다 <interp value="neutral" ana="문학관">이 당혹스런 문장촌은 정상 비정상이라는 척 도의 해체틀 넘어 흔종 잡중의 세계틀 목표로 하고 있다.</interp></s>
+          <s>여기에는 "<quote type="direct" genre="foreign">나 눈 아직도 우리가 문법올 믿기 때문에 신올 제거활 수 없올까화 두렵다</quote>" 라고 말하는 <persName role="foreigner" xml:id="p-x6">니체</persName>의 정신이 스며 있다.</s>
+          <s>즉, <interp value="neutral" ana="문학관">그의 시는 다수적 언어름 더 등거리게 만들기 위해 의도적으로 '문법' 올 해체한다.</interp></s>
+          <s>문법이야말로 언 어라는 <term type="concept">상징계</term>의 <term type="concept">권력</term>이 응축되어 있는 세계이기 때문이다.</s>
+          <s>다른 문장' 올 만드는 첫 번째 방법은 <term type="concept">동음이의어</term>름 사용하는 젓이다.</s>
+        </p>
+        <p>
+          <s><term type="concept">동음이의어</term>의 전락적 사용은 <term type="concept">의미의 고정</term>올 불가능하게 만큼으로씨 다 수적 언어의 <term type="concept">소통구조</term>v 덜레마에 빠뜨린다.</s>
+          <s><persName ref="#p-x5">김언</persName>에게 <term type="concept">동음이의어</term>가 만 들어내는 <term type="concept">의미의 비고정성</term>은 단순한 유희 이상의 의미블 갖는다.</s>
+          <s>인용시 에서   '<quote type="direct" genre="poet">판다</quote>' 눈 "<quote type="direct" genre="poet">팬더공의 일종</quote>" 이면서 동시에 "<quote type="direct" genre="poet">되약볕 아래 구컷빛으로 빛나는 신성한 노동</quote>" 올 의미하는 물칙의 행위이다.</s>
+          <s>또한 그것은 "<quote type="direct" genre="poet">상행 위</quote>" 틀 의미하기도 한다.</s>
+          <s>그는   '<quote type="direct" genre="poet">판다</quote>' 라는 <term type="concept">기표</term>가 의미하는 다양한 의미 틀 통해 어떤 진리나 정보틀 전달하려 하지 않듣다.</s>
+          <s>말하자면 <interp value="neutral" ana="미학">그의 시논 정보의 전달올 목적으로 하는 소통올 거부하고 있다.</interp></s>
+          <s>이러한 의미의 비 고정성은 '<title level="a" type="poem" xml:id="t-2">뱀사람2</title>_에서도 발견되논데, 여기에서   '<quote type="direct" genre="poet">연기</quote>' 논 연기(채)인 동시에 연기(#)이다.</s>
+          <s>그러므로 "<quote type="direct" genre="poet">연기에 가장 가까운 동물로 뱀올 들 수 있다</quote>" 라는 진술에 등장하는 연기는 연기 (#] 일 수도 연기( ##)일 수 도 있다.</s>
+        </p>
+        <p>
+          <s>'<title level="a" type="poem" xml:id="t-x19">즐거운 식사</title>_의 "<quote type="direct" genre="poet">그는 우선 입술부터 먹는다.</quote></s>
+          <s>
+            <quote type="direct" genre="poet">말울 안 듣는 윗 입술올 아랫입술이 지그시 깨무는 것으로 한 사람의 식사는 시작하다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">그결 나무라는 사람은 없다.</quote>
+          </s>
+          <s><quote type="direct" genre="poet">나무라는 사람이 있다면 허리흘 굽히고 발 가락부터 먹으라고 주문하는 사람이다</quote>:"  역시 마찬가지로 <term type="concept">의미의 불확 정</term>흘 드러년다.</s>
+          <s>여기에서 "<quote type="direct" genre="poet">나무라는 사람</quote>" 은 상대의 잘못올 지적하는 주 체름 가리키는 동시에 나무[차]라고 불리는 사람올 <term type="concept">의미</term>한다.</s>
+          <s>해석은 그 어느 방향으로든 열려 있으며, 이 <interp value="affirmative" ana="미학">해석의 다양성 때문에 그의 시적 전락새로운 서정의 두 가지 얼굴 269지배적 언어인 문법올 무용지물로 만듣다.</interp></s>
+          <s><quote type="direct" genre="poet" source="납치">내가 나와 함께 있는 너에게 총구름 겨누메-나는 힘이 세다가 그대 이 름인가 문자 /바위는 말이 없다가/내 직합이라다 / |자정이 훨씬 지나 그들 이 들이닥치기 전바위는 말이 없다가 다시 이르다 돌이 무섭지도 않니/ 그대 친구요?/ | 오래 살기 위해서늘/나와 상관없는 내 애인이니부다 데려 오지 말기블, 그러나 그것은/가책받아 마땅한 자의 가면이 아니라괴미 간을 중심으로-서너 군데 빨간 불이 들어성올 때마지막 경고 없이 들어 오는 그대 부하들의/진짜 이름은 한두 명이 아니과그 사람, 그 방에서 중발해버린 내가 보완던 것은/지속되고 속되고 변함없는 빗물처럼 살고 싶지 않으면 무기틀 버려라/ 엿는지도</quote> -[<title level="a" type="poem" xml:id="t-x20">납치</title>] 전문<persName ref="#p-x5">김언</persName>의 시에는 의미와 표현이라는 두 가지 층위가 각각의 방식으로 표 현덮다.</s>
+          <s><term type="concept">동음이의어</term>의 지나친 사용은 자치 의미의 층위틀 종발시길 위험 올 안고 있지만, <interp value="affirmative" ana="미학">그는 동음이의어라는 언어의 유회적 용법올 통해서도 도시적 삶이 환기하는 상실과 부재의 정서률 뚜럿하게 전달하다.</interp></s>
+        </p>
+        <p>
+          <s>그럼에 도 불구하고 그의 시틀 지나치게 의미의 차원으로 읽으려는 시도는 <interp value="critical" ana="미학">이 낯선  다른 문장' 들 앞에서 여지없이 무너지고 만다.</interp></s>
+          <s>인용시 r<title level="a" type="poem" xml:id="t-x21">납치_</title>에서 <term type="concept">언어의 더듬거림</term>은 다소 극단적인 방식으로 표현되논데, 1행에서 '<quote type="direct" genre="poet">너</quote>' 눈 '너' 인 동시에 "<quote type="direct" genre="poet">나와 함께 있는 너</quote>" 라는 이중적 문맥올 형성하다.</s>
+          <s>마 찬가지로 2행에서 "<quote type="direct" genre="poet">나는 힘이 세다</quote>" 눈 화자 내지 주체의 진술이지만 , 거 기에 머물지 않고 "<quote type="direct" genre="poet">나는 힘이 세다</quote>" 라는 산문화된 이름으로 확장되다.</s>
+          <s>마찬가지로 "<quote type="direct" genre="poet">바위는 말이 없다</quote>"  역시 하나의 진술인 동시에 '직함' 의이 름이다.</s>
+          <s>이러한 <term type="concept">시적 전락</term>은 독자로 하여금 하나의 의미에 고착되지 못270 <title level="j" type="journal" xml:id="t-x22">계간 문학평</title> | 시평하고 시작점으로 돌아가게 만듣다 .</s>
+          <s>2연에는 이 "<quote type="direct" genre="poet">바위는 말이 없다</quote>" 라는 인물이 '<quote type="direct" genre="poet">돌이 무섭지도 않니</quote>"가   '너' 의 친구이나고 물는다.</s>
+          <s>또한 4연에 서느 '그대' 의 부하들이 등장하는데, 그들의 이름은 "<quote type="direct" genre="poet">한두 명</quote>" 은 아니라 "<quote type="direct" genre="poet">살고 싶으면 무기틀 버려라</quote>" 가 된다.</s>
+          <s>이 당혹스러운 <term type="concept">더듬거림</term>은 '돌멩 이2_ 에서도 반복되는데 , 여기에서 "<quote type="direct" genre="poet">꿀 대신에 밀감이라고 부르는</quote>" 은 '돌멩이' 의 이름과 그것들의 치환관계름 동시에 의미한다.</s>
+        </p>
+        <p>
+          <s>다른 문장' 올 만드는 두 번째 방식은 대명사루 사용하는 젓이다  <persName ref="#p-x5">김 언</persName>의 시에 등장하는 인물들은 모두 고유명올 갖지 않듣다.</s>
+          <s>그들은 항상 나|너' , '우리' , '그' , '그것'   동의 대명사로만 호명된다.</s>
+          <s><quote type="paraphrase" genre="critic">나체가 주체 개념이 문법에서 주어와 목적어률 구분하기 때문에 생긴다고 말햇듯이</quote>, <persName ref="#p-x5">김언</persName>은 모든 존재들에계서 고유명사름 박달해버림으로씨 사실상 주어 가 탄생활 여지틀 제공하지 않늘다.</s>
+          <s>인용시 r<title level="a" type="poem" ref="#t-x20">납치</title>_에서도 얼핏 드러나듯 이; 그의 시에는 무수히 많은 나' 와 '너' , 그리고 '그것' 들이 등장하다.</s>
+          <s>그러나 동일한 한 편의 시 안에서도 나' 들은 모두 다른 누군가루 가리 키는 대명사로 사용하다.</s>
+          <s>그의 시에 등장하는 인물들은 한결같이 자신올 나' 라고 부르미, 상대클 너' 라고 부르다.</s>
+          <s>그리하여 어느 순간 대명사 의 숲 속에서 우리논 나' 와  '너' 의 구분이 무의미해지는 것올 경험한 다.</s>
+          <s>그래서 '<title level="a" type="poem" xml:id="t-x23">키스</title>]에서 나 논 "<quote type="direct" genre="poet">나는 나라고</quote>" 싱거운 생각올 하며, r<title level="a" type="poem" xml:id="t-x24">엄마 배고파</title>_에 등장하는 모녀는 "<quote type="direct" genre="poet">나는 아들이에요</quote>" , "<quote type="direct" genre="poet">저도 딸은 아니에요</quote>" , "<quote type="direct" genre="poet">당신은 엄마잡아요-다시 생각해보자라</quote>" 고 말한다.</s>
+        </p>
+        <p>
+          <s>이처럼 <persName ref="#p-x5">김언</persName>의 시 에 등장하는 인물들은 r<term type="concept">유령-되기</term>_에서 확인되듯이 고정된 정체성올 갖 지 않듣다.</s>
+          <s>그는 인물들올 성별은 물론 시 .</s>
+          <s>공간까지 초월하고, 마침내 "<quote type="direct" genre="poet">기울어가는 사람과 기울어진 사람</quote>" 이 동일인인지로 알 수 없는 곳까지 골고 간다.</s>
+          <s>시집 전편올 통해 강하게 환기되는 <term type="concept">부재증명</term>과 <term type="concept">소멸</term>의 감각 특정한 존재의 정체성이 오직 '<term type="concept">흔적</term>' 올 통해서만 포착되는 것과 관련<term type="concept">새로운 서정</term>의 두 가지 얼굴 271된다.</s>
+          <s>그가 만들어내는 인물들은 "<quote type="direct" genre="poet">사라진 사람</quote>" 이나 '그가 토토엿던 사 맘" <quote type="direct" genre="poet">처럼</quote> "<term type="concept">유령-되기</term>" 틀 거친 존재들이다.</s>
+          <s>그들의 정체성은 '<quote type="direct" genre="poet">고가도로 아 래의 '새끼 같은 먼지가 태어나는 곳 한가운데 내가 서서 울고 있올 확 풀이 높다</quote>" 처럼 오직 확출로만 말해질 수 있다.</s>
+          <s>세 번째 방식은 <term type="concept">세계의 언어화</term>와 <term type="concept">다중초점화</term>라고 할 수 있다.</s>
+          <s>지금-이 긋이라는 현실의 두꺼운 벽올 깨는 전락이기도 한 이 방식은, 실제 언어 로만 표현돌 수 있는 세계이다.</s>
+        </p>
+        <p>
+          <s>이는 언어의 진리는 언어 속에 있지 그 바깥에 존재하지는 않듣다는 <term type="concept">언어논리학</term>적 사유름 전제하고 있는데, 그 것은 가령 "<quote type="direct" genre="poet">그는 없는 사람올 중심으로 모엿다가 흩어진다</quote>" ('불멸의 기 록j) , "<quote type="direct" genre="poet">내가 아는 한 사람은 죽어서도 관을 들고 다년다</quote>" ('<title level="a" type="poem" xml:id="t-x25">다음날</title>) , "<quote type="direct" genre="poet">웅크 리고 죽은 사람은 용크리고 앉아서 죽어간다</quote>" (<title level="a" type="poem" xml:id="t-x26">사건현장</title>;) , "높은 곳에서 <title level="a" type="poem" xml:id="t-x27">떨어진 사람</title>올 알고 있다(중락) 그는 떨어지고 있다" ('떨어진 사람,) 같은 표현에서 확인할 수 있다 .</s>
+          <s>'<title level="a" type="poem" ref="#t-x24">엄마 배고파</title>_에서의 "<quote type="direct" genre="poet">이 문장에는 우리 둘뿐 이다</quote>" 라는 발화에서 암시되듯이, <persName ref="#p-x5">김언</persName>의 시-세계는 언어로 만들어진 세 계이다.</s>
+          <s>그러므로 그 속에서 유영하는 존재들은 스스로홀 언어 이상의 무엇으로 표현할 이유가 없다.</s>
+          <s>그 단적인 예가 '<title level="a" type="poem" xml:id="t-x28">누구세요?</title>_이다: 한 인물의 가족사에 근거하고 있든 이 작품은 "<quote type="direct" genre="poet">처음과 끝이 반드시 맛 아운어지는 지점이 존재하지 암</quote>" 눈다는 점에서 <term type="concept">나른 문장</term>' 의 대표적인 예라고 할 수 있다.</s>
+          <s>그 처음과 끝은 각각 "<quote type="direct" genre="poet">옆집의 새댁이 아이름 낭있다</quote>" 와 "<quote type="direct" genre="poet">엄마는 나름 지율 젓이다</quote>" 이다.</s>
+          <s>이러한 불일치 외에도 "<quote type="direct" genre="poet">그녀는 앞으 로 아들이 살게 덜 도시로 이사름 간다</quote>" 나 "<quote type="direct" genre="poet">나는 그녀지 만나기 전에 곁 흔올 하고 이혼해버린 아버지틀 만나러 그 도시틀 찾아간다</quote>" 와 같은 문 맥의 <term type="concept">다중초점화</term>는 <term type="concept">의미의 일의성</term>올 <term type="concept">불확정성</term>으로 몰아감으로씨 새로 운 가능성올 제시한다.</s>
+          <s>이 두 문장에서, 아들이   '실게 월 도시' 와 '찾아 간다' 눈 시제 상으로 연결되기 어려운 면올 지니고 있다.</s>
+          <s>그것은 '찾아272 계간 문학평 시평간다' 의 현재가  '살게 덜' 의 미래름 앞지름 수는 없기 때문이다.</s>
+        </p>
+        <p>
+          <s>이어지 논 문장은 여기에서 한 걸음 더 나아간다.</s>
+          <s>이 문장은 두 가지 의미로 해 석이 가능한데, 하나는 아버지가 그녀지 만나기 전에 결혼하고 이혼있다 논 것으로, 다른 하나는 '찾아간다' 의 주체가 그녀클 만나기 전에, 먼저 결혼하고 이혼한 아버지틀 만나러 간다는 것이다.</s>
+          <s>뿐만 아니라 이 시는 전체적으로 미래의 사건이 현재적 시제틀 앞직러 발생하고 있으며, 과거 의 사실이 미래 다음에 놓이는 시제의 불일치률 보이고 있다.</s>
+          <s>이는 궁극 적으로 언어로만 표현돌 수 있는 세계이며, 이런 점에서 <persName ref="#p-x5">김언</persName>의 시논 세 계틀 언어화하는 방향울 겨냥하고 있다고 말할 수 있다.</s>
+          <s><term type="concept">다수적 언어</term>, 특 히 문법올 더듬거리게 만득으로씨 새로운 종류의 언어름 생산하는 <persName ref="#p-x5">김언</persName> 의 시 쓰기 전락은 <term type="concept">정체성</term> 담혼올 행단하는 주체들올 배태함으로새 새로 운 <term type="concept">서정</term>의 가능성올 보여준다 .</s>
+          <s>그러나 세계의 언어화에는 자치 <term type="concept">언어의 감옥</term>에 갇혀버길 위험도 따르기 마련이다.</s>
+          <s>문법이 <term type="concept">다수적 언어</term>의 척도임 은 분명하지만 , 그 언어률 회단한 새로운 더듬거림이 어떻게 우리의 일 상으로 흘러들어 지금-여기의 현실올 재구성활 수 있는가에 대한 고민도 뒤따라야 하리라고 생각한다.</s>
+          <s><persName ref="#p-x">고봉준</persName> <date when="1970">1970년</date> 부산 출생 <date when="2000">2o00년</date> (<orgName xml:id="org-x8">대한매일</orgName> 신춘문예로 등단 현재 반년간 '<title level="j" type="journal" xml:id="t-x29">작가와비평</title>, 편집동인 <orgName xml:id="org-x9">민예총</orgName> 웬진 .</s>
+        </p>
+        <p>
+          <s><orgName xml:id="org-x10">컬쳐뉴스</orgName>&gt; 편집위원 bO6ti@hanmailnet<term type="concept">새로운 서정</term>의 두 가지 얼굴 23</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>이것은 시뮬라크르가 아니다  환상이미지를 그려내는 2000년대의 '다른 서정들'에 대하여</title>
+        <author>함돈균</author>
+        <respStmt>
+          <resp>TEI 인코딩</resp>
+          <name>KorCritTEI 추출-조립 파이프라인</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>디지털 인문학 연구 목적</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="other">입력 비평텍스트</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>원문을 보존하고 인라인 태그만 삽입함. 구조는 코드가 조립함.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace/>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="tax-role">
+          <category xml:id="role-critic">
+            <catDesc>비평가</catDesc>
+          </category>
+          <category xml:id="role-novelist">
+            <catDesc>소설가</catDesc>
+          </category>
+          <category xml:id="role-poet">
+            <catDesc>시인</catDesc>
+          </category>
+          <category xml:id="role-playwright">
+            <catDesc>극작가</catDesc>
+          </category>
+          <category xml:id="role-essayist">
+            <catDesc>수필가</catDesc>
+          </category>
+          <category xml:id="role-translator">
+            <catDesc>번역가</catDesc>
+          </category>
+          <category xml:id="role-childrenauthor">
+            <catDesc>아동문학가</catDesc>
+          </category>
+          <category xml:id="role-scholar">
+            <catDesc>학자</catDesc>
+          </category>
+          <category xml:id="role-foreigner">
+            <catDesc>외국 문인</catDesc>
+          </category>
+          <category xml:id="role-other">
+            <catDesc>기타</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="tax-interp">
+          <category xml:id="interp-affirmative">
+            <catDesc>긍정</catDesc>
+          </category>
+          <category xml:id="interp-neutral">
+            <catDesc>중립</catDesc>
+          </category>
+          <category xml:id="interp-critical">
+            <catDesc>비판</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="introduction">
+        <p>
+          <s><title level="a" type="critic" xml:id="t-x">이것은 시뮬라크르가 아니다</title> Ceci n, est pas un simulacre〕- 환상이미지를 그려내는 <date from="2000" to="2009">2000년대</date>의 ‘<term type="concept">다른 서정들</term>’에 대하여<persName role="critic" xml:id="p-x">함돈균</persName>(문학평론가)<quote type="direct" genre="other" source="Rene Magritte">애매모호한 형상도 정확한 형상만큼이나 완전하고 필연적인 의미를 지니고 있다.</quote><persName role="foreigner" xml:id="p-renemagritte">Rene Magritte</persName>시와 상상확실히 우리는 오늘 ‘<term type="concept">소리 없는 전쟁</term>’을 치루고 있음에 틀림 없다.</s>
+          <s><date from="2000" to="2009">2000년대</date> 중반 <term type="concept">다른 서정</term>’ 의 줄현을 둘러싸고 벌어지는 이 싸움을, 일 시적이고 국지적인 영토 씨움에 불과한 ‘<quote type="direct" genre="poet">전투</quote>’ 라고 생각한 것은 이제 오 판이었음이 분명히 드러나고 있다.</s>
+          <s>몇몇 평자들의 예견은 빗나갔다.</s>
+          <s>그리 고 그들의 우려나 비난(비판이 아니라)과 상관없이 전선은 급속하게 확장 되었고, 확장되고 있다.</s>
+          <s>그것도 아주 널리, 또 깊숙이.</s>
+          <s>이 전쟁 상황을 서 정의 일시적 인 ‘<term type="concept">해체</term>’가 아니 리-, ‘<term type="concept">갱신</term>’ 혹은 ‘<term type="concept">진화</term>’라고 본 또 다른 평자 들의 견해는 그래서 우리의 관심을 끈다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">미적 형식을 둘러싸고 벌어지는 싸움이란, 단지 지도의 축적을 바꿔서 다른 크기의 똑같은 지도를 복제하 는 따위의 일이 아니라, 다른 투시도법을 통해 보이지 않았던 영토를 복 원하고, 아직 존재하지 않는 미지의 영토를 새로이 획득하려는 근본적이 면서도 지속적인 투쟁일 수밖에 없기 때문이다.</interp>
+          </s>
+          <s>오늘 우리가 이 전장에서 목도하고 있는 것은 <term type="concept">미학</term>은 ‘무엇(what)’ 이 아니라 ‘어떻게(how)’를 통해 스스로를 쇄신해 왔다는 지 오래된 역사적 사실에 대한 새삼스러운 재 확인일 반1이다.</s>
+        </p>
+        <p>
+          <s>이미 우리 영토의 배주대로-를 활보하고 있는 이 •<term type="concept">다른 서 정</term>, 의 존재들이 스스로를 일컬어 우리 잉토에 일정한 게보플 가지고 있는 존재라고 주장히-는 일은 존중받아 마땅한 일이겠지만, 전내와 다른 그들 의 <term type="concept">미적 형식</term>의 ‘<term type="concept">차이</term>’ 가 무엇인가 하는 문제에 우리의 관심이 집중되는 것 역시 어쩔 수 없는 사실이다.</s>
+          <s>그들의 <term type="concept">미적 투쟁</term>의 성패 여부와 상관없 이 이 <term type="concept">미적 쇄신</term>의 남다른 형식들（이 남다른 형식이 반드시 다윈적 의미 의 진화를 의미할 필요는 없다.</s>
+          <s><interp value="neutral" ana="미학">미학은 단선적 진보의 논리를 애초부터 따르지 않기 때문이다</interp>）은 그 자체로 우리 시대가 놓인 영토적 기반이 무 언가 변화하고 있음을 암시하는 지표들이기 때문이다.</s>
+          <s>이 글은 이 ‘<term type="concept">차이</term>’ 와 ‘<term type="concept">변화</term>’를 드러내기 위해, 이미 여러 차례 이슈의 중심에 있었으나 여 전히 ‘<quote type="direct" genre="poet">어떻게</quote>’의 차원에서는 비평적 탐구가 미진한 몇몇 텍스트들의 형 식에 대한 ‘<quote type="direct" genre="poet">소박한</quote>’ 관찰을 담았다.</s>
+          <s>특히 우리는 관찰의 중심에 이 텍스 트들에 나타난 소위 ‘<term type="concept">환상이미지</term>’ 를 놓아 보았다.</s>
+          <s>
+            <quote type="direct" genre="poet">
+              <lg type="stanza">
+                <l>발열반응; 내 몸은 끓고 있는 얼음이란다</l>
+              </lg>
+              <lg type="stanza">
+                <l>일찍이 그녀는 누에고치처럼 순결한 껍데기를 원했다 그러나 순결한 껍데기는 언제나 순결한 속살을 원했다 증명할 수 있어 증명해낼 수 있다 니까 그녀는 쇠스랑을 가져다 양 가슴뼈를 긁어낸 뒤 연하고 말랑말랑한 가슴살을 한 줌 떼어냈다 그러고는 늑골에 고여 있던 피를 한 바가지 떠서 쪽쪽 찢어놓은 가슴살을 푹 적셨다 얘들아 이 리와서 이 신선한 피고름 냉 채 좀 맛보렴 구경하던 소년들이 깔깔거리며 오동나무를 뭉쳐 만든 실로 폰 채로 그녀의 머리를 통통 두들겼다 이 미친년아, 네 피는 까만색이야 격리대상 1호라구!</l>
+              </lg>
+            </quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">아냐 아냐 증명할 수 있어 증명해 낼 수 있다니까 그녀 는 칼날이 신나게 돌아가고 있는 믹서 안으로 머리부터 들이밀었다 쌩 하 는 소리와 동시에 살점은 물에 젖은 휴지가 되고 뼈 마디마디는 걸쭉한 사 골국물로 펄펄 끓고 신경다발는은 뚝뜩 끊어져 수챗구멍을 틀어막은- 머리칼처럼 엉켜갔다 이 정도면 충분하니?</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="poet">깔깔거리며 구경하던 소년들이 점 점 뒷걸음쳐 달아나고 있었다 얘들아 어디 가니?</quote>
+          </s>
+        </p>
+        <p>
+          <s>다시 한 번 증녕해낼게 증명해 낼 수 있다니까 <quote type="direct" genre="poet">불어터진 순두부같이 빚어지지 않는 제 몸을 시루 속에 쏟아 부은 그녀가 삼단 가스레인지의 불을 점점 키워나갔다 백설기 같은 매끈한 살결로 찌어진 그녀가 소년들의 코끝을 따라 말랑말랑한 담 장을 둘러치고 있었다.</quote></s>
+          <s>
+            <quote type="direct" genre="poet">얘들아 제발 나 좀 봐줘 모락모락 이렇게 더운 김 도 나고 있잖아 이런 씨팔 더러워 더럽다구 퉤!</quote>
+          </s>
+          <s>퉤!</s>
+          <s><quote type="direct" genre="poet" source="완전한 격리">소년들이 차고 있던 기 저귀를 빼 그녀를 향해 내던졌다 발가벗은 소년들의 아랫도리에 돋아나는 새빨간 거웃이 새빨간 넝쿨로 꼬여 그녀에게 채찍질을 해대고 있었다 채 찍이 꿀벌처럼 춤출 때마다 소년들이 움찔거렸다 소년들이 움찔거릴 때마 다 소년들의 집 나팔은 커다맣게 부풀었다 나팔이 부풀수록 나팔수들은 나팔 아래 몸을 감추었다 깔깔거 리며 구경하던 소년들 모두 부푼 나팔 아 래 묻어 있는 침이 제 것이 아니라며 그 위에 대고 오줌을 갈기고 있었다</quote>“ <persName role="poet" xml:id="p-x2">김 민정</persName>,「<title level="a" type="poem" xml:id="t-x2">완전한 격 리</title>」부분김민정 시에 지독하게 들끓는 <term type="concept">환상이미지</term>의 대부분은 <term type="concept">가족삼각형</term>에 의 한 <term type="concept">트라우마</term>의 산물이다.</s>
+          <s>이 <term type="concept">가족삼각형</term>은 단지 가족 모형에 그치지 않으 며 세계 전체로 무한히 확장되곤 하는데, 이 경우에 세계 전체는 극단적 인 <term type="concept">남성폭력</term>의 난장이 된다.</s>
+          <s>이 시에서처럼 이 <term type="concept">남성폭력</term>의 세계에서는 아 이와 어른, 늙은이가 구별되지 않으며, 아빠와 이웃집 아저씨, 힉교선생 님이 다르지 않다.</s>
+          <s>이때 주목할 점은 소위 ‘<term type="concept">여성시</term>’ 들에서 나타나는 통상 적 이미지와는 달리, 그의 시에서는 엄마 역시 아빠 못지않은 <term type="concept">억압</term>과 폭 력의 체현자이거나 <term type="concept">폭력</term>을 모로쇠로 일관하는 방관자의 이미지를 지닌다 는 사실이다.</s>
+          <s>그의 시에서 ‘<term type="concept">전통적 서정</term>’ 혹은 ‘<term type="concept">여성시</term>’에서는 좀처럼 부 정적으로 다루어지지 않던 엄마와 아이들까지 끔찍한 <term type="concept">폭력</term>의 체현자로.立!</s>
+        </p>
+        <p>
+          <s>나타난디는 시살은, 그의 시가 단지 만화적 발상으로 이루어진 무의미한시사’ 말놀이의 세계라는 일부의 해석이 지닌 <interp value="critical" ana="미학">피상성</interp>을 반증한다.</s>
+          <s>다시 말해,<persName ref="#p-x2">김민정</persName> 시의 <term type="concept">스토리텔링</term>을 주도하는 이 악역들은 현실 세계를 정확히 반 영하고 있는 존재들이다.</s>
+          <s>그리고 이들의 핍박에 의해 <persName ref="#p-x2">김민정</persName> 시의 가장 두드러진 특징이라 할 수 있는 <term type="concept">시적 주체</term>（‘<quote type="direct" genre="poet">나나</quote>’）의 <term type="concept">그로테스크</term>한 신체훼 손의 이미지가 생산된다.</s>
+          <s>이때 주체의 <term type="concept">신체</term>는 농락당하고 분해되며 유기 되기에 이른다.</s>
+          <s>끔찍하게 들끓는 <term type="concept">성적판타지</term>와 지독하게 훼손된 <term type="concept">신체</term> 이미지들로 나타 나는 이 <term type="concept">환상</term>은, 실은 이렇게 ‘<quote type="direct" genre="poet">사실적인</quote>’ 세계에 대해 그녀의 몸이 취하 고 있는 ‘<term type="concept">발열반응</term>’ 이다.</s>
+          <s><persName ref="#p-x2">김민정</persName>의 경우, 이 <term type="concept">발열반응</term>의 극단에서 나타나 는 <term type="concept">아이러니</term>가 바로 <term type="concept">만화적 언어유희</term>다.</s>
+          <s>찢고 쪼개고 갈고 물고 뜯는 신 체훼손의 극단성과 엽기적인 <term type="concept">성적판타지</term>는 세계에서 ‘<quote type="direct" genre="poet">나나</quote>’ 가 겪는 <term type="concept">폭력</term> 의 <term type="concept">유물론적</term> 표현인데, 이것이 일정 정도의 임계점을 지나자 오히려 유머 의 형식을 비는 <term type="concept">아이러니</term>가 일어나게 되었던 것이다.</s>
+          <s>이런 점에서 그의 시를 <term type="concept">분열증적 언어</term>로 규정하는 대개의 비평들은 텍스트의 관찰에 소홀 하다고 할 만하다.</s>
+        </p>
+        <p>
+          <s>‘<quote type="direct" genre="poet">나나</quote>’ 는 여러 개의 ‘나’ 로 쪼개져 제 각각 서로 다른 무의식의 목소리를 내뱉는 것이 아니라, 오히려 이 시에서 나타나는 바처 럼 “<quote type="direct" genre="poet">누에고치처럼 순결한 껍데기</quote>”（‘<term type="concept">순수한 기원</term>’ 을 가진 <term type="concept">단일주체</term>）를 ‘<quote type="direct" genre="poet">소 년들</quote>’ 에게 확인시키기 위해 고통스러운 자기 “<quote type="direct" genre="poet">증명</quote>”을 반복하는 <term type="concept">강박증</term> 을 앓고 있기 때문이다.</s>
+          <s>선택과 집중, 반복의 행로를 따라가는 나나’ 의 <term type="concept">강박증</term>은 그 집요함으로 인해 <term type="concept">그로테스크</term>하기 이를 데 없는 사도마조히 즘적 이미지를 생산해낸다.</s>
+          <s>그러나 역설적으로 이로 인해 그 언어의 내용 은 들끓지만 형상은 결코 이지 러지지 않고 또렷하며, 내적 서사는 모순을 일으키는 것이 아니라 정확한 스토리라인을 따라 자기존재 증명의 길을 가게 된다.</s>
+          <s>나나’ 의 아무렇지도 않게 훼손된 ‘<quote type="direct" genre="poet">잠지</quote>’와 분해되어버린 ‘<quote type="direct" genre="poet">팔 다리</quote>’ 는 （‘<term type="concept">순수한 기원</term>’ 을 요구하는 <term type="concept">가부장적</term> 세계의 폭력에 의해） 이 길 위에 뿌려진 <term type="concept">희생제의</term>의 산물이다.</s>
+          <s>그런 점에서 M나*’는 <term type="concept">x세대</term>의 예수 다.</s>
+          <s>斗니-’ 가 보여주는 엽기적 판타지와 스토리를 조직하는 구체적인 미기획특집 • <term type="concept">젊은 시인들</term>의 꿈과 이상적 원리는 <term type="concept">만화적 감성</term>으로 구축된 <term type="concept">X세대</term>의 <term type="concept">유머감각</term>이지만, 이 유머의 바탕을 이루는 미적（인식론적） 원리는 오히려 <term type="concept">비극적 아이러니</term>다.</s>
+          <s>이런 점에서 <persName ref="#p-x2">김민정</persName>의 <term type="concept">환상</term>은 내용은 뜨겁지만 그 형식은 오히려 쿨하다고 해 야 한다.</s>
+          <s>다시 뒤집어서 말하건대, 이러한 4나나’의 <term type="concept">아이러니</term>컬한 <term type="concept">환상</term>이 미지의 존재는 그것이 기대고 있는 <term type="concept">트라우마</term>의 근원성을 재확인하게 하 는 역설을 보여준다.</s>
+        </p>
+        <p>
+          <s>만화처럼 유머화된 비극 곧, <term type="concept">아이러니</term>적 <term type="concept">판타지</term>란 승화가 아니라 전도의 원리에 기초해 있기 때문이다.</s>
+          <s>이른바 ‘<term type="concept">환상시</term>’ 논쟁의 중심에 서 있었던 텍스트라고도 할 수 있는 <persName role="poet" xml:id="p-x3">이 민하</persName>의「<title level="a" type="poem" xml:id="t-x3">환상수족</title>」도 세계에 대한 시적 주체의 <term type="concept">아이러니컬한 발열반응</term>이 라고 할 수 있다.</s>
+          <s>마네킹이 모퉁이를 돌아간다.</s>
+          <s>텅 빈 소매가 나풀거린다 타닥타닥 보도 블럭에 무릎뼈가 닿을 때마다 두 귀가 바닥으로 흘러내렸다.</s>
+          <s>지나가던 사 람들이 분홍색 살점을 떼어 마네킹의 무릎뼈에 붙여 준다.</s>
+          <s>마네킹은 목을 꺾지도 않고 또 다른 모퉁이를 돌아간다 （중략） 군데군데 살점이 뜯긴 죽 축한 몸을 소나기가 파 먹고 있다 넝쿨 같은 비가 미네킹을 덮쳤다.</s>
+          <s>마네 킹은 얼굴에 들러붙는 나뭇잎을 뜯어내려고 손을 뻗친다.</s>
+          <s>이마에서 두 팔 이 뻗어나와 공중에 흩어진다.</s>
+        </p>
+        <p>
+          <s><term type="concept">마네킹</term>은 연기처럼 찢어지는 두 팔을 보며 서른 번째 모퉁이를 돌아간다.</s>
+          <s>뼈끝에서 살이 찌는 구두와 장갑이 무거워 횡단보도 앞에 잠시 멈춘다 문이 닫히기 전에 정육점에 가야 한다.</s>
+          <s>차도에 는 질주하는 바퀴들이 걸음을 재촉한다.</s>
+          <s>타닥타닥 뼈 부딪는 소리가 바닥 을 질질 끌고 모퉁이를 돌아간다.— <persName role="poet" xml:id="p-x4">이빈하</persName>.「<title level="a" type="poem" xml:id="t-x4">환상…</title>」부#다른 글에서 밝혔던 것처럼,2〉<persName ref="#p-x3">이민하</persName>의 <title level="a" type="poem" ref="#t-x3">환상수족</title>’을 구성하는 에스쁘 와 리는 <term type="concept">아이러니</term>다.</s>
+          <s>그의「<title level="a" type="poem" xml:id="t-x5">관계</title>」연작에서 잘 드러나는 것처럼 <persName ref="#p-x3">이민하</persName>에게 結 서 생은 <term type="concept">모순</term>과 <term type="concept">전도</term>를 그 본질로 심는다.</s>
+          <s>이 시에서 주인공으로 등장하는 <term type="concept">마네킹</term>의 <term type="concept">사물화</term> 된 육체는 그 자체로 고통스러운 생의 <term type="concept">전도</term>된 표현형 식이다.</s>
+          <s><persName ref="#p-x2">김민정</persName>의 시에서 그랬던 것처럼，<interp value="neutral" ana="미학">생의 고통이 극단에 달해 임계 점을 넘어설 때 미적 언어는 다른 차원의 표현형식을 요구하게 된다.</interp></s>
+          <s>그 것은 펄펄 끓던 물이 일정 온도를 넘어서는 순간 기체로 변해버리는 것과 같은 이치다.</s>
+        </p>
+        <p>
+          <s>‘<quote type="indirect" genre="novel">나나</quote>’ 의 강박증과 <term type="concept">블랙코메디</term>적 감성을 소유하지 못한 <persName ref="#p-x3">이 민하</persName>는, 대신 자신의 뜨거운 육신을 <term type="concept">사물화</term> 된 <term type="concept">마네킹</term>으로 표현함으로써 뜨거운 것이 극에 이를 때 차라리 차가워지는 또 다른 이미지의 환상을 만들어 낸다.</s>
+          <s>즉 이는 <term type="concept">육체</term>가 생과 고투하는 가운데 ‘<quote type="direct" genre="poet">일어난</quote>’ <term type="concept">아이러니컬</term> 한 발열반응의 일종이다.</s>
+          <s><persName ref="#p-x2">김민정</persName>의 언어가 <interp value="neutral" ana="미학">뜨거운 내용을 차가운 형식 속 에 담았던</interp> 것처럼, <persName ref="#p-x3">이민하</persName>의 언어는 고통스러운 육신을 차가운 <term type="concept">마네킹</term>의 이미지로 드러낸다.</s>
+          <s>이 <term type="concept">마네킹</term>은 끓고 있는 ‘<quote type="direct" genre="poet">뜨거운 얼음</quote>’ 인 드라이아이 스와 같다.</s>
+          <s>U<quote type="direct" genre="poet">텅 빈 소매가 나풀거</quote>”리고 “<quote type="direct" genre="poet">타닥타닥 보도블럭에 무릎뼈가 닿을 때마다 두 귀가 흘러내</quote>”리는 이 <term type="concept">사물화</term> 된 육신의 고통과, 잘려진 팔 을 대신해 “<quote type="direct" genre="poet">이마에서 두팔이 뻗어나와</quote>” “<quote type="direct" genre="poet">연기처럼 찢어지는 두 팔</quote>”의 안 간힘은, 이 마네킹의 형상을 비판하는 평자들의 지적처럼 자족적인 언어 유희이거나 “<quote type="direct" genre="critic">자폐적인 이기심</quote>” 혹은 “<quote type="direct" genre="critic">상처로부터의 도피</quote>”3）가 아니다.</s>
+          <s><persName ref="#p-x3">이 민하</persName>의 시집r<title level="m" type="poem" ref="#t-x3">환상수족</title>」에 나타난 수많은 판타지를 <term type="concept">식물성</term> 이미지로 조 감하며, “<quote type="direct" genre="critic" source="김수이">실제 현실의 훼손된 자리에서 발생</quote>”하는 ‘<term type="concept">환상수족</term>’을 <quote type="direct" genre="critic" source="김수이">현실의 상처와 회복의 열망을 반증하는 증상이자 행위</quote>”라고 평한 <persName role="critic" xml:id="p-x5">김수이</persName>의 지직4） 은 그래서 <interp value="affirmative" ana="문학관">주목할 만한 해석이라고 할 것이다.</interp></s>
+          <s>
+            <interp value="critical" ana="문학관">다만 우리는 김수이의 이 러 한 해석이 다른 의미에서 오히려 지나치게 낙관적인 견해일 수도 있다고 생각한다.</interp>
+          </s>
+          <s>전도되고 분해된（유기체적 의미의 ‘<quote type="direct" genre="poet">훼손</quote>’ 을 넘어선） 육체로 표 현될 만큼 <term type="concept">사물화</term> 된 고통을 겪고 있는 이 시적 주체는, <term type="concept">회복의 열망</term>을 가2）	<persName ref="#p-x">함돈균</persName>,「<title level="a" type="critic" xml:id="t-x6">무력하고 통속한, 부조리하거나 난처한</title>」, ＜<title level="j" type="journal" xml:id="t-x7">문학 ' 선</title>）, <date when="2006">2006</date> 여름3）	<persName role="critic" xml:id="p-x6">고봉준</persName>,r개인이라는 척도, 혹은 ‘나’라는 자폐적 이기성」, ｛<title level="j" type="journal" xml:id="t-x8">실천문학</title>）, <date when="2006">2006</date> 여름, 이52〜1534）	<persName ref="#p-x5">김수이</persName>,「<title level="a" type="critic" xml:id="t-x9">환상수족이 달린 식물성의 무성한/무한한 육체</title>」,『환상수족』, <orgName xml:id="org-x">열림원</orgName>, <date when="2005">2005</date>.</s>
+        </p>
+        <p>
+          <s>p.134지고 있다기보다는 차라리 삶을 “<term type="concept">견딘다</term>’고 표현하는 것이 더 정확하지 않을까?</s>
+          <s>다만 “<quote type="direct" genre="poet">티닥타닥 뼈 부딪는 소리가 바닥을 질질 끌</quote>”면서도 결코 쓰러지 지는 않으면서 말이디-.</s>
+          <s><persName role="foreigner" xml:id="p-x7">몬드리인</persName>-: 직선과 원색만으로 우주를“<quote type="direct" genre="other">오래 전부터 우리는 사물을 눈에 보이는 그대로 재현하기를 포기했다.</quote></s>
+          <s>
+            <quote type="direct" genre="other">그것은 추구할 가치가 없는 도깨비불과 같은 것이다.</quote>
+          </s>
+          <s>
+            <quote type="direct" genre="other">우리는 순간순간 변 해가는 가상적인 인상을 캔버스에 고정시키기를 원치 않는디三 세잔처럼 기능한 한 소재가 가진 확고한 모습을 포착하여 그려보자.</quote>
+          </s>
+          <s>우리의 진정한 목표가 어떤 것을 모사하는 것이 아니라 구죽하는 것이라는 사실을 철저 하게 받아들이지 못할 이유가 어디 있겠는가?……단 한순간의 스냅 사진 이나 꼼꼼하게 묘사된 종래의 그림보다 이상스럽게 뒤죽박죽된 형상들이 ‘<term type="concept">실재</term>’ 의 바이올린을 더 잘 재현할 수 있다’’5'' <persName role="foreigner" xml:id="p-x8">피카소</persName>의 말이다.</s>
+          <s>다시 말 해, 어떤 종류의 환상은 우리의 선입견과는 달리 오히려 훨씬 더 ‘<term type="concept">실재</term>’ 에 관여하는 이미지이며, <term type="concept">재현(representation)</term>이 아니라 <term type="concept">구성(composition)</term> 을 목표로 한다는 뜻이다.</s>
+          <s>화가를 <term type="concept">이데아</term>의 <term type="concept">시뮬라크르</term>인 자연사물을 또 다시 <term type="concept">시뮬레이션</term>하는 이중의 모사가라고 본 <persName role="foreigner" xml:id="p-x9">플라톤</persName>의 관점과는 달리.</s>
+        </p>
+        <p>
+          <s>어 떤 화가는 오히려 스스로를 <term type="concept">이데아</term>를 직시하는 기하학자로 인식하기도 한다.</s>
+          <s>최근 우리 시에 나타난 <term type="concept">환상이미지</term>의 어떤 측면을 해독하려고 할 때 <persName ref="#p-x8">피카소</persName>의 이 말처럼 유용한 말도 없다.</s>
+          <s><persName ref="#p-x3">이민하</persName> 시가 빚이내는 환상이 미지 중 어떤 것들은 <persName ref="#p-x8">피카소</persName>가 말한 ‘<term type="concept">구성(구축)</term>’ 의 원리에 기초해 있다.</s>
+          <s>즉, 이는 <term type="concept">환상이미지</term> 자체에 편견을 지닌 어떤 비평들의 관점과는 달리 ‘<term type="concept">비현실</term>’ 도 아니고 <term type="concept">반현실</term>’ 은 더더욱 아니며, 오히려 <interp value="affirmative" ana="미학">고도의 리얼리티의 산물이라고 할 만하다</interp>.</s>
+          <s>이 예를 들어 다음 시를 살펴보자.</s>
+          <s>외-	________________상	5) <persName role="foreigner" xml:id="p-ehgombrich">E.H,Gombrich</persName>,『<title level="m" type="other" xml:id="t-x10">서양미술사</title>』, <orgName xml:id="org-x2">애경</orgName>, <date when="2003">2003</date>, p.573•’：!</s>
+          <s>6) 이 뱡법론에 대해서는 졸고「<title level="a" type="critic" ref="#t-x6">무력하고 통속한, 부조리하거나 난처한</title>j(앞의 책) 참조당신은 안경을 벗고 나는 창문을 벗어요 당신은 바지를 끄르고 나는 계 단을 끌러요 당신은 가랑이를 벌리고 나는 활주로를 벌려요 당신은 혀를 내밀고 나는 비행기를 내밀어요 당신은 내 몸을 올라타고 나는 구름숲을 올라타요 구름숲에는 녹색 투명한 산들이 거꾸로 매달려 자라고 오렌지그- 는에 낀 태아들이 골짜기마다 우글거리고 오백 년 묵은 짐승들의 비명이 으스러져 보드라운 밀가루처럼 날려요— <persName ref="#p-x3">이민하</persName>,「<title level="a" type="poem" xml:id="t-x11">안경을 벗은 당신</title>』부분이 시의 주제는 결코 일치를 이루지 못한 채 영원히 어긋남의 길만을 향해 내달리는 <term type="concept">사랑（욕망）</term>이다.</s>
+          <s>W 이 안경을 벗고 바지를 끄르고 가 랑이를 벌리고 혀를 내밀고 낙］’ 몸을 올라타는 동안（우나’ 를 향해 하강하 는 동안）, ’나’ 는 창문과 계단, 활주로와 비행기, 구름을 향해 내달린 다.（상승한다） 나’에 대한 당신’의 접근과 밀착에 반비례하여 나’는 W 으로부터 점점 멀리 도망친다.</s>
+        </p>
+        <p>
+          <s><persName ref="#p-x3">이민하</persName> 시 전체의 관점에서 보면 이 시는 만상의 ‘<term type="concept">관계</term>’를 ‘<term type="concept">어긋남</term>’ 의 견지에서 이해히는 그의 <term type="concept">아이러니</term>적 세 계인식을 ‘<quote type="direct" genre="poet">표현</quote>’ （현실의 ‘<quote type="direct" genre="poet">재현</quote>’ 이 아니라）하기 위한 ‘<quote type="direct" genre="poet">구성물</quote>’ 이다.</s>
+          <s>즉, 이 시의 방법론은 <persName role="critic" xml:id="p-x10">신형철</persName>의 적절한 관찰처럼 “<quote type="direct" genre="critic" source="신형철">왜곡을 통해 지시 대상 자체를 소멸시키고 사건을 추상화해서 이미지의 구조물로 전환시킨다.</quote></s>
+          <s>”7） 그래서 사건화 된 세계가 먼저 있고 그 다음에 이를 모사하는 <term type="concept">시뮬라크르</term>로서의 이미지가 따라 오는 것이 아니라, <term type="concept">이념（이데아）</term>을 직시（theoria）함으로써 이미지 자체를 <term type="concept">기하학</term>의 영역으로 포섭시킨다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">기하학으로 포섭된 이미 지는 구체적이고 개별적인 실제 사건에 관계하지 않지만 실제보다 더 실 제적이다.</interp>
+          </s>
+          <s>이러한 기하학적 직시가 육체적 감각이 아니라 전적으로 지성 의 논리에 의해서만 견인될 수 있을 때, 그의 시는 동일한 주제를 다음처기획특집 • 젊은 시인들의 꿈과 이상7）	<persName ref="#p-x10">신형철</persName> "<title level="a" type="critic" xml:id="t-x12">앓는 세대의 난경®흐과 난무*#」</title>, （<title level="j" type="journal" xml:id="t-x13">문예중앙</title>）, <date when="2000">2000</date> 봏, p.108럼 육체 없는（육체가 훼손되었다는 뜻이 아니라） 순수한 <term type="concept">기호</term>의 놀이로 전환시킬 수 있게 된다.</s>
+          <s>이는 흡사 가장 단순한 요소인 직선과 원색만으 呈.</s>
+          <s>우주의 객관법칙을 구성하고자 한 <persName role="foreigner" xml:id="p-x11">몬드리안</persName>의 기획과 크게 디르지 않 디-.</s>
+          <s>그는 나를 ■ 라 불러요 나는 그를 □ 라 불러요 내 몸에서 반음들을 빼 먹으;미 그는 나를 사랑해라 불러요 나는 그를 몰라라 불러요 그는 나를 영서 원히라 불러요 나는 그를 못실아라 불러요 그는 니름•아라 불러요 나는 그 c 를 으라 불러요 그:나를 영안실의 국화라 불러요 나는 그들 쿠쿠라 불러요 그는 나-를 안녕이라고 불러요 나는 그를 그래라 불러요 그는 나■플 스라/ 불러요 나는 그를 6라 불러요 그는 나를 부르기 위해 종일 좇아다녀요 니- 는 그를 버리기 위해 종일 좇아다녀요 서로의 앞모습은 볼 수 없어요; 스	—<persName role="poet" xml:id="p-x12">이닌하</persName>.r哀人:<title level="a" type="poem" xml:id="t-x14">관계에 대한 고집</title>」부분파울 클레의 말처럼 “<quote type="direct" genre="other" source="파울 클레">예술은 보이는 것을 재현하는 일이 아니라, 사물 읍 보이두로 마◎느 익이다</quote> ”마그리뜨; 서로 다른 시각을 가리키는 세 개의 시계들, 오늘의 ‘<term type="concept">낯선 텍스트</term> 들이 발산하고 있는 환상이미지가 우리를 낭혹스 럽게 히는 이유 중에 하나는, 이 텍스트들이 <term type="concept">전통적 서정</term>의 공간에서는 좀처럼 볼 수 없었던 <term type="concept">다차원적 시공간</term>을 살고 있기 때문이다.</s>
+        </p>
+        <p>
+          <s><persName role="foreigner" xml:id="p-x13">아인슈타인</persName> 의 <term type="concept">시공간의 싱대성이론</term>, 또는 물질의 존재방식에 대한 <term type="concept">유물론적</term> 모순성으 을 직관한 <term type="concept">양자물리학</term>의 세계가 여전히 낯설기만 한 대부분의 우리 <term type="concept">서정 시인들</term>의 <term type="concept">일점투시도법</term>과는 달리, 이들은 한공간 내에 침투된 서로 다른 시 스 시공간의 존재를 인지하고 체험하면서 이를 우리들이 보기에는 낯선 방 M 스 식의 언어로 발실한다.</s>
+          <s><persName role="poet" xml:id="p-x14">정재학</persName>과 <persName role="poet" xml:id="p-x15">김행숙</persName>의 언어에서 나타나는 어떤 환상들은, <term type="concept">일점투시도•법</term>에 의존하는 <term type="concept">전통적 서정</term>의 층위에 기습적으로 침투 한 모순적 <term type="concept">시공간들의 동시다발적 병존</term>에 의해 빚어진다.</s>
+          <s>이 <term type="concept">시공간</term>을 영 위하는 주체의 시점이 여럿이거나 목소리가 여럿인 것은 당연하다.</s>
+          <s>시점 과 목소리의 분열은 어떤 경우에는 <term type="concept">주체의 분열</term>로 나타나고, 어떤 경우에 는 주체와 대상 간의 경계 소멸로 나타나며, 때로 그것은 한 차원에 겹쳐 져 있는 또 다른 차원의 세계를 경험하게도 한다.</s>
+          <s>다시 말해, 이들의 풍경 은 <term type="concept">다차원</term>이거나 <term type="concept">무중력의 낯선 시공 체험</term>이다.</s>
+          <s>
+            <interp value="affirmative" ana="사상">그러나 이는 유물론적인 것이지 결코 형이상학적인 것이 아니다.</interp>
+          </s>
+          <s>그리고 대개 단 한 명의 화자가 등장할 때조차도 이 목소리의 주체는 좀처럼 ‘풍경5 에 대해 <term type="concept">헤게모니</term>를 행사하지 못한다.</s>
+          <s><quote type="direct" genre="poet" source="세 개의 시계"><lg type="stanza"><l>내 방에는 세 개의 시계가 있네 각기 다른 시간을 가리키고 있었네 문 옆의 시계를 보니 약속 시간이 가까웠네 밖에 나가보니 모두들 우산을 쓰 고 있었네 나만 비를 맞네 비는 수은으로 내 몸에 스며드네 방에 있을 때 는 비가 오지 않아서 안심했었네 수은독이 견디기 힘들었네 약속 장소는 너무 멀었네 택시를 잡았네 운전사는 몸을 뒤로 돌려 나를 보며 운전하네 그는 마구 달렸네 담배를 피우고 싶었지만 물먹은 성냥은 켜지지 않았네 그는 나에게 뭔가 계속 말을 거네 알수 없는 변성화음이었네 그는 앞차를 받았네 그래도 계속 나를 보네 택시에서 내렸네 다른 택시를 잡았네 그는 담배에 불을 붙여주었네 담배 연기는 오로라처럼 피어 오르네 담배 연기 가 아름다운 것을 처음 느꼈네 그는 외눈박이였네 약속 장소 반대 방향으 로 가네 운전기사와 다퉜네 그는 담배 연기를 싫어했네 구토하네 나 그 냄 새 견디기 힘들어 택시에서 내렸네 수은은 계속 내리네 다른 택시를 또 삽 았네 그는 내 눈동자가 은색이 라 믿지 않았네 그 운전사는 눈이 네 개였네 거북하지 않았네 그는 약속 장소에 왔으니 내리라고 하네 생각해 보니 그 에게 약속 장소 말한 적 없네 그는 요금을 받지 않네 내려보니 내 방이었 네 방에는 아무도 없었네 침대 위의 시계는 아직 약속 시간이 되지 않았네</l></lg><lg type="stanza"><l>거울을 보네 눈동자가 없었네 놀라지 않았네 벽에 걸린 시계는 약속 시간 이 지났네 우산을 들고 다급히 나갔네 사남들은 우산을 들고 다급히 나갔 네 사람들은 우산을 쓰고 있지 않네 모두 나를 이상하게 쳐다보네 모두들 똑같은 복장을 하고 있었네 택시를 잡으려 했지만 아무도 나를 태우지 않 네（중략）</l></lg><lg type="stanza"><l>세 개의 시간은 처음부터 죽어 있었네</l></lg></quote>“ <persName ref="#p-x14">정재학</persName>.「<title level="a" type="poem" xml:id="t-j">세 개의 시계J</title> 부부“<quote type="direct" genre="poet" source="세 개의 시계">내 방에 세 개의 시계</quote>”가 있고 이 시계들이 “<quote type="direct" genre="poet" source="세 개의 시계">긱기 다른 시간을 가리키 고</quote>” 있다는 것은, 이 시가 세 개의 서로 다른 사건들을 연속적으로 배치하 여 마치 한 사건인 듯 <term type="concept">단일서사</term>로 구성되어 있음을 시사한다.</s>
+        </p>
+        <p>
+          <s>물론 원래 하나의 서사가 아니 었으므로 이 서시들 간에는 세 개의 단층이 존재한다.</s>
+          <s>세 번의 택시를 타고 세 번 내리게 되는 일이 그것이다.</s>
+          <s>그러나 이 서로 다른 사건은 모두 하나의 목적『•<term type="concept">약속 시간</term>”）에 맞추어져 있다는 점에서 전적으로 다른 사건은 이-니다.</s>
+          <s>처음의 택시에서는 “담배를 피우고 싶었지 만물먹은 성냥은 켜지지 않5’아서, 두 번째 택시에서는 “<quote type="direct" genre="poet">담배 연기플 싫 어</quote>” 히는운전기사가 汗*를 해서, 세 번째는 나］’ 가 “<quote type="direct" genre="poet">그에게 약속 장소 말한 적 없</quote>”어서 택시에서 내리게 된다.</s>
+          <s>결국 세 번의 택시는 모두 “<term type="concept">약속 시간</term>”에 맞추지 못했으며, 원점으로 되돌아온 셈이다.</s>
+          <s>세 번째 택시의 종 칙점이 도로 “<quote type="direct" genre="poet">내 방</quote>’이 되는 까닭은 이 때문이다.</s>
+          <s>시의 마지막 행에서 “<quote type="direct" genre="poet">세 개의 시계는 처음부터 죽어 있었네</quote>”리고 하는 것도, 이 “세 개의 시계”가 모두 ‘•<term type="concept">약속 시간</term>※을 맞추시 못했기 때문이다.</s>
+          <s>그러나 “<term type="concept">약속 시간</term>’을 맞추 지 못하는 세 번의 ‘<quote type="direct" genre="poet">택시타기</quote>’는 끝내 네 번째 택시타기’를 통해서도 반 전을 이루지 못한다.</s>
+        </p>
+        <p>
+          <s>네 번째는 아예 “<quote type="direct" genre="poet">택시를 잡으려 했지만 아무도 나를 태우지 않</quote>"기 때문이다.</s>
+          <s>이 시는 소원성취를 이루려는 화자의 거듭된 시도와 실패에 관한 에피소드를 “<quote type="direct" genre="poet">한 방</quote>”에 동시적으로 풀어 놓은 후일담이 라고 볼 수 있다.</s>
+          <s>택시 안에서 ‘내’ 가 내리게 된 이유들은 목적을 성취하 기 위한 지난한 삶의 과정에서 우리가 겪을 수 있는 이러저러한 양상들이 다.（담뱃불을 붙일 수 없는 “<quote type="direct" genre="poet">물먹은 성냥</quote>’은 뜻하지 않은 <term type="concept">부조리</term>의 상황 을, 운전기사의 “<quote type="direct" genre="poet">구토</quote>”는 소원성취를 방해하는 타인의 개입을, “<quote type="direct" genre="poet">그에게 약속 장소 말한 적 없</quote>”는 것은 M 탓이오!</s>
+          <s>’를 뜻한다고 볼 수 있다） 또 “<quote type="direct" genre="poet">약속 시간이 가까웠</quote>”음을 알리는 “<quote type="direct" genre="poet">문 옆의 시계</quote>‘’를 보고 택시타기를 시 도했으나 결국 방으로 원점회귀한 후, “<quote type="direct" genre="poet">아직 약속 시간이 되지 않</quote>”은 “<quote type="direct" genre="poet">침 대 위의 시계</quote>”와 이미 “<quote type="direct" genre="poet">약속 시간이 지났</quote>”음을 가리키는 “<quote type="direct" genre="poet">벽에 걸린 시 계</quote>’’를 목격하게 된다는 것은, “약속 시간”에 맞추려는 화자의 열망에도 불구하고 삶의 시계는 언제나 4조금 늦거나’ ‘<quote type="direct" genre="poet">조금 빠르다</quote>’ 는 것을 의미 한다.</s>
+          <s>
+            <interp value="neutral" ana="미학">시간 앞에서 언제나 타자일 수밖에 없었던 주체의 무력감이 이 시 의 가학적 이미지를 생산하는 원천이 되었던 셈이다.</interp>
+          </s>
+          <s>다른 시간 속에 있었던 다른 사건들을 하나의 테마로 표현하기 위해 사 건의 이미지를 단순한 오브제（‘<quote type="direct" genre="poet">시계</quote>’, ‘<quote type="direct" genre="poet">택시</quote>’）로 변형 • 통합하고, 이 오브 제들을 선조적으로 반복하여 배치함으로써 이와 같이 낯선 풍경을 연출 하는 방법은 <interp value="neutral" ana="미학">정재학의 시집을 구성하는 전형적 원리였다.</interp></s>
+          <s>이처럼 그 시의 환상적 풍경은 치밀하게 기획되어 논리적으로 산출된 것이 많다는 지에 서 ‘<term type="concept">지성적인</term>’ 시공간이기도 하다.</s>
+          <s>비슷한 풍경이 하나의 에피소드지 럼 반복된다는 것 자체가 주체가 강력한 <term type="concept">무의식</term>의 자장 하에 있다는 사실을- 반영하는 증거이 긴 하지민', 이 풍경을 조직하는 원리는 실은 ‘<term type="concept">논리적인</term>’ 경우가 많다는 뜻이다.</s>
+        </p>
+        <p>
+          <s>이러한 ‘<term type="concept">논리적 구성</term>’ 은 앞서 <persName ref="#p-x11">몬드리안</persName>의 회화 방 법론을 연상하게 하는 <persName ref="#p-x3">이민하</persName>의 경우와도 일정 정도 친연성을 가지고 있 다.</s>
+          <s>그의 시집「<title level="m" type="poem" xml:id="t-x15">어머니가 촛불로 밥을 지으신다</title>』에 실린 첫 번째 시가「아 라베스크□라는 사실은 이 점에서 매우 시사적이다.</s>
+          <s>‘<term type="concept">아라베스크</term>’ 는 혼돈 의 무늬가 아니라, 정교한 균형미를 지닌 <term type="concept">기하학적인 미</term>의 세계다.</s>
+          <s><term type="concept">아라베스크</term> 무늬는 단순한 문양들의 반복만을 통해서도 지극히 마술적이고 미적인 이미지의 생신-이 기능함을 증명한다.</s>
+          <s>그러나 <term type="concept">모순적 시공간</term>을 반 복적으로 병치 • 교차시키는 그만의 구체적 형식론의 차이가 빚어내는풍 경은 <persName ref="#p-x3">이민하</persName>의 경우와는 매우 다른 이질적 이미지를 산출한다.</s>
+          <s>이는 차라 피 병립할 수 없는 여러 개의 시공간•율 <persName role="foreigner" xml:id="p-x16">헤겔</persName> 빈증법의 논리적 기획을 통 해 회화적으로 통합 • 현실화시키려고 했던 <persName role="foreigner" xml:id="p-x17">마그리뜨</persName>의 <term type="concept">역설</term>적인 시도에 더 접근하고 있는 것인지도 모르겠다.（잘 알려진 것처럼 마그리뜨도 단순 한 형태의 오므제를 즐겨 사용한다）달리; 이토록 모호한 풍경들그러나 비슷한 테마를 비슷한 방식으로 다루는 경우에도 <persName ref="#p-x14">정재학</persName>의 아 라베스크적 풍경과는 달리 <persName ref="#p-x15">김행숙</persName>의 풍경은 좀 더 모호하다.</s>
+          <s><persName ref="#p-x14">정재학</persName>의 환 상이 단순 <term type="concept">오브제</term>의 집요한 반복 • 차이를 통해 논리 적이고 강박증적으로 조직’ 되는 경우가 많다면, <persName ref="#p-x15">김행숙</persName>의 <term type="concept">환상</term>은 풍경의 한 끝사락을 놓아비 리거나 인-개처럼 풀어진 모호한 풍경일 경우가 많고.</s>
+          <s>이때 독자는 그 안 개 속을 화자의 손을 잡고 홀린 듯 함께 헤매게 되곤 한다.</s>
+        </p>
+        <p>
+          <s>그래서 <persName ref="#p-x14">정재학</persName> 의 풍경은 어렵지만 헤베은 있는 3차방정식처럼 결국 測呂 될 기능성이 있으나, <persName ref="#p-x15">김행숙</persName>의 풍경은 이 <term type="concept">서정적 주체</term>의 육신과 주파수를 맞추고 손을 마주 잡을 수 있는 어 떤 ‘직＜ 의 순간에서반 그 속살을 알아볼 수 있디-.</s>
+          <s>그리고 이 순간 드러난 풍경의 속살은 의외로 단순한 내용인 경우가 많 다.（거듭하여 말하건대 중요한 것은 ‘<quote type="direct" genre="poet">무엇</quote>’ 이 아니라, 지각에 ‘<quote type="direct" genre="poet">어떻게</quote>’ 충 격을 주는기- 히는 <term type="concept">미적 형식</term>의 특별함이다） 다음 시도 그렇다.</s>
+          <s>나는 이 나 놋에서 사斗 실을 실었다.</s>
+          <s>이 길은 잠시 주차해놓은 자동차 와 같은 깃인 시노 노는■니-.</s>
+          <s>니는 여러 곳에서 같은 남자와 바주•셨다.</s>
+          <s>나는 이 길을 쫓아왔다.</s>
+          <s>나는 몇 번이나 같은 남자에게 인사할 뻔했다.</s>
+          <s>그때마다 노란 가래가 튀어나올 것 같았다.</s>
+        </p>
+        <p>
+          <s>몇 번이나 뒤를 돌아다보았다.</s>
+          <s>그때마다 이 길은 자동차처럼 연기를 날리며 사라지고 있었다.</s>
+          <s>딸려간 가로수가 떨어뜨린 니뭇잎들은 벌써 뭉개지고 있었다.</s>
+          <s>사람이 아주 많은 도시였다.</s>
+          <s>이 길이 사라지면 도시는 처음 와본 도시였다.</s>
+          <s>친척이 없는 도시였기 때문에 나는 여관에서 잠을 잤다.</s>
+          <s>길을 잃은 느낌이 없다는 게 이상했다.</s>
+          <s>걸어다니고 싶지 않았다.</s>
+        </p>
+        <p>
+          <s>길에서 <term type="concept">凍死</term>하는 사람들의 기분에 대해 생각했다.</s>
+          <s>이 길이 또 자동차처 럼 신경 질적으로 경적을 울렸다.</s>
+          <s>나는 이 소리를 너무 자주 듣는다.</s>
+          <s>스' — <persName ref="#p-x15">김행숙</persName>.「<title level="a" type="poem" xml:id="t-x16">출놀히는 길</title>」전문‘<quote type="direct" genre="poet">니-</quote>’는 “<quote type="direct" genre="poet" source="출몰하는 길">여러 곳에서 같은 길을 걸었</quote>”고, “여러 곳에서 같은 남자와 마 주”친다.</s>
+          <s>“그때마다 이 길은 자동차처럼 연기를 날리며 사라’,진다.</s>
+          <s>
+            <interp value="affirmative" ana="미학">이 모 호한 풍경은 모호함 그 자체로 우리를 시적인 서정으로 인도한다.</interp>
+          </s>
+          <s>그러나 이 ‘<title level="a" type="poem" xml:id="t-x17">출몰하는 길</title>’ 을 <persName role="foreigner" xml:id="p-x18">데이빗 린치</persName>의 영화〈<title level="m" type="foreign" xml:id="t-x18">멀홀랜드 드라이브</title>〉에 대한 <persName role="foreigner" xml:id="p-x19">지 젝</persName>의 해석처럼 <term type="concept">상징계</term>의 ‘<term type="concept">구멍</term>’ (hole, the real)이라고 보는 일은 넌센스 다.</s>
+          <s>이 시는 <persName ref="#p-x14">정재학</persName>의 풍경이 그랬던 것처럼.</s>
+        </p>
+        <p>
+          <s>일상의 어떤 ‘<term type="concept">사건</term>’을 변형 된 이니지로 ‘<quote type="direct" genre="poet">구성</quote>’한 것이기 때문이다.</s>
+          <s>“여러 곳에서 같은 길을’• 걷고 “<quote type="direct" genre="poet">여 러 곳에서 같은 남자와 마주</quote>”쳤다는 진술을 통해서, 우리는 이 사건이 한 남자와의 반복된 연애사라는 사실을 짐작할 수 있다.</s>
+          <s>“<quote type="direct" genre="poet">이 길을 쫓아</quote>” 온 것도 ‘나’ 이고 “<quote type="direct" genre="poet">몇 번이나 같은 남자에게 인사할 뻔</quote>‘’한 것도 나’ 라는 점은, 이 연애의 주도권이 남자에게 있었다는 사실을 보여준다.</s>
+          <s>“<quote type="direct" genre="poet">그때나 다 노란 가래가 튀어나올 것 같았</quote>’’고 <quote type="direct" genre="poet"><lg type="stanza"><l>三1때마다 이 길은 자동차처럼 연거</l></lg><lg type="stanza"><l>를 날리며 사라지고 있었다</l></lg></quote>‘’는 진술은, 매번 실패하고 마는 연애사의 반 복된 행로를 임시하고 있디-.</s>
+          <s>연애의 실패로 야기되는 <term type="concept">패배감</term>이 <term type="concept">고립감</term>이 나 <term type="concept">자폐감</term>으로 나타나는 것은 이상한 일이 아니다.</s>
+          <s>그래서 “<quote type="direct" genre="poet">그때마다</quote>” “<quote type="direct" genre="poet">이 길이 사라지면 도시는 처음 와본 도시</quote>’•가 되는 낭폐감을 느끼게 되는 것이고, （<term type="concept">자폐적 심정</term>으로） 홀로 ‘<quote type="direct" genre="poet">나는 여관에서 잠을</quote>” 자게 되는 것이다.</s>
+          <s>이 <term type="concept">패배감</term>은 “<quote type="direct" genre="poet">길에서 凍死하는 사람들의 기분</quote>’과 하등 다를 바가 없다.</s>
+          <s>이때 “<quote type="direct" genre="poet">길이 또 자동차처럼 신경질적으로 경적을 울</quote>”린다는 표현이 화자 의 심경을 대변하는 이미지라는 사실은 두말할 필요가 없다.</s>
+        </p>
+        <p>
+          <s>“<quote type="direct" genre="poet">나는 여러 곳에서 같은 길을 걸었</quote>”고 “<quote type="direct" genre="poet">길을 쫓아왔</quote>”던 목적을 매번 달성하지 못했으 므로, ‘내’ 가 “<quote type="direct" genre="poet">이 소리를 너무 자주 듣는다</quote>”는 시-실은 <term type="concept">동어반복</term>에 가깝다.</s>
+          <s><term type="concept">이미지의 '서사＜</term> 라는 점에서 <persName ref="#p-x15">김행숙</persName>의 이 시는 앞서 언급했던 <persName ref="#p-x14">정재학</persName> 의 방법론과 일정 정도 <interp value="neutral" ana="미학">친연성을 가지고 있다</interp>.</s>
+          <s>그러나 <persName ref="#p-x14">정재학</persName>의 방법론이 <interp value="neutral" ana="미학">집요한 반복 이미지를 통해 가학적 풍경을 산출하는 데 비해, 김행숙의 방법론은 풍경의 프레임을 모호한 채로 내버려 두고 완성하지 않는다</interp>.</s>
+          <s>이 는 <persName ref="#p-x14">정재학</persName>의 방법론이 <term type="concept">에피소드의 형상화</term> 자체에 집중되고 있는 데 비해, <persName ref="#p-x15">김행숙</persName>의 방법론은 풍경 속에 화자의 정서적 반응을 뒤섞어버리기 때문 에 생기는 차이이기도 하다.</s>
+          <s>즉 <persName ref="#p-x15">김행숙</persName>의 풍경은 사건 자체가 아니라, 사 건에 대한 주체의 심리적 화학반응 과정을 통과하면서 산출되는 이미지 다.0사라지는길’ , ‘<quote type="direct" genre="poet">노란 가래</quote>’ , 뭉개진나뭇잎’ , ‘<quote type="direct" genre="poet">자동차처럼 신경질적 으로 경적을 울리는 길</quote>’ 은 모두 심리적 기제들의 이미지화다》시와 상상_김행숙의 풍경이 우리의 일상적 지각체험을 당혹스럽게 뒤흔드는 환 상이미지’ 로 다가오는 까닭 중 하나는, 그의 풍경 속에는 내부에서 느닷 없이 솟아나오는 또 다른 풍경이 숨겨져 있는 경우가 적지 않기 때문이 다.</s>
+          <s>대개 이 돌연한 풍경은 ‘<term type="concept">현재</term>’ 라는 시간의 틈새를 면도칼과 같이 예 리하게 가르고 벼락같이 솟아오르는 또 다른 시간（과거나 미래）의 층위일 경우가 많다.</s>
+          <s>이 <term type="concept">낯선 지각체험</term>의 순간이야말로 그의 언어가 모호한 독백-훅은 방향 없는 중얼거님으-두--？-더 시직인 •깃-。-로 끌어-으리기-:?</s>
+          <s>슨간인 데, 때로 이 순간은 과격하기까지 하다.</s>
+        </p>
+        <p>
+          <s>가령, 다음 시를 보자.</s>
+          <s>네겐 햇빛이 필요하단다.</s>
+          <s>여자는 니'를 유모차에 태우고 공원을 산책했 다.</s>
+          <s>햇빛은 어디 있지요?</s>
+          <s>난 뭔가 만지고 놀 게 필요해요.</s>
+          <s>나는 여자를 올 려다왔다.</s>
+          <s>여자도 어딘가를 올려다보았다.</s>
+          <s>나는 엄마, 라고 말했다.</s>
+        </p>
+        <p>
+          <s>얘야, 너는 잠시 옛날 생각을 하고 있을 뿐이란다.</s>
+          <s>그리고 세상은 많이 변했단다.</s>
+          <s>여자가 유모차를 밀던 손을 놓았다.</s>
+          <s>구른 건 바퀴뿐이었을 까?…… 내 차가들이 받은 나무는 허리를 꺾었다.</s>
+          <s>나뭇잎 나뭇잎이 자지러 지게 웃는 소리를 나는 들은 것 같다.</s>
+          <s>이아아, 내가 처박힌 여기는 어딜까?</s>
+          <s>당신, 왜 그래?</s>
+          <s>헝클어진 당신이 묻는다.</s>
+        </p>
+        <p>
+          <s>나는 핸들에 머리를 박고 있 다.</s>
+          <s>내가 어디로 가고 있었나요?</s>
+          <s>멈출 수가 없었어요.</s>
+          <s>나는 천천히 당신을 올려다본다.</s>
+          <s>당신도 어딘가를 올려다본다.</s>
+          <s>답을 구하는 태도는 누구나 유아적이군 요.</s>
+          <s>그런데, 구른 건 정말 바퀴뿐이 었을까요?</s>
+          <s>나는 엄미-, 생각을 했다.</s>
+        </p>
+        <p>
+          <s>
+            <quote type="direct" genre="poet">나는 빙-향을 틀기 위해 잠시 후진을 해야 한 디-.</quote>
+          </s>
+          <s><quote type="direct" genre="poet">천천히 핸들에 손을 얹고 뒤를 돌아다보았다.</quote>— <persName ref="#p-x15">김행숙</persName>, r<title level="a" type="poem" xml:id="t-x19">삼십세</title>J 전문斗’ 가 ‘여자 가 끌어주는 유모치를 타고 공원을 산책하는 짓 연의 풍 경은 사실 ‘<quote type="direct" genre="poet">현재</quote>’ 가 아니다.</s>
+          <s>“<quote type="direct" genre="poet" source="삼십세">너는 잠시 옛날 생각을 하고 있을 뿐</quote>”이다.</s>
+          <s>“<quote type="direct" genre="poet" source="삼십세">여자가 유모차를 밀던 손을 놓</quote>”음으로써 나는 현재의 시점으로 이동한 다.</s>
+          <s>“<quote type="direct" genre="poet" source="삼십세">구른 건 바퀴 뿐</quote>”이 아니다.</s>
+          <s>‘<term type="concept">시간</term>’ 이 바퀴처럼 흘렀다.</s>
+          <s>그것은 동시 에 4내’ 가 더 이상 보호받을 수 없는 시공간 속으로 이동해 있다는 뜻이 기도 하다.</s>
+          <s>유모차의 바퀴는 ‘<quote type="direct" genre="poet">내 차 의 바퀴가 되고, 아이였던 M</quote>’ 는 ‘<term type="concept">삼십세</term>’ 가 되었다.</s>
+        </p>
+        <p>
+          <s>끌어주는 이 없이 손수 핸들을 잡던 ‘<quote type="direct" genre="poet" source="삼십세">내 차</quote>’ 는 나무를 들 이 받았고, 丄는 핸들에 머리를 박고 있다’,.</s>
+          <s>‘<quote type="direct" genre="poet" source="삼십세">햇빛은 어디 있지요？</quote>’라며 ‘<term type="concept">꿈</term>‘을 찾던 아이는, 이젠 어른이 되어 “<quote type="direct" genre="poet" source="삼십세">내가 어디로 가고 있었나요?</quote></s>
+          <s>”라 는 <term type="concept">방향상실</term>의 망막함을 얼빠진 듯 되뇌인다.</s>
+          <s>아아아, 내가 처박힌 여기 는 어딜끼-?</s>
+          <s>”라며, 현재의 시점에서 회의어린 자문을 던지게 되는 것이 김 행숙의 ‘<title level="a" type="poem" ref="#t-x19">삼십세</title> 디-.</s>
+          <s>
+            <interp value="affirmative" ana="미학">김행숙은 이 시에서 서로 다른 시간 층위의 순간적 교차만으로도 얼마나 매혹적인 낯선 풍경이 연출될 수 있는가를 잘 보여 주고 있디-.</interp>
+          </s>
+          <s>즉 <term type="concept">방향상실</term>을 느끼는 현재의 어떤 계기 속에서 아득했던 과 거가 느닷없이 침투하고, 그 다른 시간의 침투를 통해 일상적 풍경 속에 숨어있던 이질적인 또 다른 풍경이 솟아나옴으로써, 그의 언어는 풍경과 풍경의 <term type="concept">대위법</term>을 통해 익숙한 듯 <term type="concept">낯선 환상</term>을 산줄한다.</s>
+          <s>그리고 잘나적으 로 명멸하는 이 <term type="concept">대위법</term>의 순간에 시적인 어떤 것이 솟아나온다.</s>
+        </p>
+        <p>
+          <s>어떤 점 에서 이는 ‘<quote type="indirect" genre="foreign" source="프루스트">마들렌 과지</quote>; 하나를 통해 <term type="concept">불수의적이고 무의지적인 과거의 시간을 현재의 시점으로 불러들이는</term> <persName role="foreigner" xml:id="p-x20">프루스트</persName>의 방법론을 연상하게도 한 .</s>
+          <s>다.</s>
+          <s>그러나 현재를 입체화하는 <persName ref="#p-x20">프루스트</persName>의 미들렌 괴자가 ‘<term type="concept">구원</term>’ 의 오브 제라고 한다면, 현재를 기습적으로 침탈히는 <persName ref="#p-x15">김행숙</persName>의 이 다른 시공간의 존재는, 오히려 안정된 *현재’（일상어의 가능성을 위협함으로써, <interp value="affirmative" ana="미학">존재의 서 불안정성과 불화로서의 삶의 본질을 예각화 하는 듯하다.</interp></s>
+          <s>이러한 시적 예각화가 더욱 모호하고 두서 없는 중얼거 림으로 바뀔 때, 그의 시는 <persName role="foreigner" xml:id="p-x21">살바도 : 르 달리</persName>의 어떤 <term type="movement">초현실적인</term> 풍경처럼 주체와 대상 간의 뚜렷한 경 계도 없고, 형상-이랄 수도 형상이 아니랄 수도 없는 으스스한 풍경을 드러내곤 한다.1111 하루에 牛 번, h_W艾1를 운행하는 협궤 열차가 있다고 말해준 건 상 시III	고머리의 여자 귀신이디-.</s>
+          <s>귀신도 시기를 치는가?</s>
+          <s>그녀와 나는 사-이좋게너는 십 년 만에 비춰보는 내 거울이야.</s>
+          <s>난 그때 네가 꼭 죽을 줄만 알았 는데, 그래서 유감없이 탈출했는데, 같이 죽기에는 피차 지겨웠으니깐 이 해해?</s>
+          <s>이해할 수 있겠는가?</s>
+        </p>
+        <p>
+          <s>
+            <interp value="neutral" ana="미학">어떤 기억이 이런 식으로 복구된다니!</interp>
+          </s>
+          <s>그녀에게 철썩, 붙어서 도망친 파도들이 막 밀려올 때, 괜찮다고 괜찮다고 나는 누 구를 향해서 웅얼대는 것일까?</s>
+          <s><quote type="direct" genre="poet" source="귀신 이야기1">기차가…… 기차가…… 기차가…… 푸른 새벽에 기차가……</quote>- <persName ref="#p-x15">김행숙</persName>,「<title level="a" type="poem" xml:id="t-1">귀신 이야기1</title>」부분이 시에서는 두 명의 화자가 등장한다.</s>
+          <s>“나”와 “나”에게 “<quote type="direct" genre="poet">그녀</quote>”라고 불 리는 “상고머리의 여자 귀신’’.</s>
+          <s>그러나 이 시가 ‘<term type="concept">귀신</term> 이야기’ 라고 해서, “<quote type="direct" genre="critic">전체적 의미로 온전히 환원할 수 없는 문장들이 불연속적으로 전시되는 풍경</quote>”인 것만은 아니디\ 이야기인즉슨, 십 년 전에 “五臟穴＜가 매우 아 팠던（“<quote type="direct" genre="poet">五臟섀府를 운행하는 협궤 열차</quote>”）, 그래서 화자 안에 자웅동체처럼 살고 있었던 ‘귀신’ 이 오히려 죽음을 피해 화자의 몸을 ‘1출”했다는 거 다.</s>
+          <s>어느 날 그 ‘<term type="concept">귀신</term>’ 이 현재의 거울에 불쑥 나타나 斗‘’에게 u십 년 만 에 비춰보는 내 거울”이라고 말을 건네는 것은, 그래서 단지 망각했던 고 통스러운 기억이 복원되었다는 뜻만은 아니리라.</s>
+          <s>“<quote type="direct" genre="poet" source="귀신 이야기1">기차가…… 기차가…… 기차가…… 푸른 새벽에 기차가</quote>” “<quote type="direct" genre="poet">£W대S를 운행 하는 협궤 열차</quote>”가 십 년 만에 다시 운행을 시작했다（병이 재발했다）고 볼 수도 있기 때문이다.</s>
+          <s>그러나 문제는 이 병의 고통이 현재의 육체에 다시 발생한 실제 사건이냐 혹은 현재로 호출된 과거의 <term type="concept">기억</term>이냐가 아니다.</s>
+        </p>
+        <p>
+          <s>이 ‘<term type="concept">귀신</term>’ 이 우리가 그것 의 존재를 의식하느냐 여부와 상관없이 우리 안에 4계속 살고 있었다는 사실, 그리고 그것이 어떠한 계기 속에서 불쑥 솟아나오는 낯선 풍경을 만든다는 사실, 이것이 중요하다.</s>
+          <s>반복하여 말하건대 이 순간에서 시적인어떤 것이 빚어진디-.</s>
+          <s>그러나 더 중요한 것은 이러한 시적 순간이 산출하 는 효과가 과연 무엇인가 하는 짐이디'.</s>
+          <s>나는 이 시적 효과가 우리가 이 노 트에서 지금까지 이야기한 <term type="concept">환싱-이미지</term> 진체의 의미에 대해 어느 정도 시 사하는 바가 있다고 보고, 이에 대해 간단히 언급하는 것으로 이 어설픈 관찰노트의 결론을 대 신하고자 한다.</s>
+          <s>앞서 언급한 것처럼 <persName ref="#p-x15">김행숙</persName>에게서 이 순간은 <term type="concept">프루스트적인 기억</term>과는 오히려 정반대의 효괴를 산출한다는 의미에서 중요하다.</s>
+          <s>즉 그것은 <term type="concept">현재</term> 라는 괸-념이 지닌 안정적 지반을 흔들고, <term type="concept">자아</term>라는 고정점을 힘주지 않고 •시三 일순간 혀물어 버린디‘.</s>
+          <s>그러나 이 순간은 <persName ref="#p-x20">프루스트</persName>의 <term type="concept">마들렌 과자</term>처 럼 결코 <term type="concept">구원</term>의 삶에 봉사하지 않는다.</s>
+          <s>이 허붊의 순간은 봉환적이기도 하고 때때로는 느닷없는 과격힘을 내포하면서, 우리의 <term type="concept">현재</term>와 <term type="concept">자아</term>가 물 위에 위태롭게 떠 있는 작은 빙하조각에 지나지 않는다는 사실을 ‘<quote type="direct" genre="poet">낯설 게</quote>’ 환기시킨다.</s>
+        </p>
+        <p>
+          <s>(실제로 우리기- 발 딛고 있는 땅이란 크든 작는 간에 바다 한 가운데에 떠 있는 섬에 불과하지 않은가?) 그런 점에서 <persName ref="#p-x15">김행숙</persName>의 시적 引-사은 <interp value="affirmative" ana="미학">일상에 대해 이루어지는 예기치 못한 기습공격</interp>과 같디-.</s>
+          <s>자신이 밞 고 있는 땅이 고정불변의 지형성을 가지고 있다고 생각하며, 이에 대해 배타적 영토주권을 주장하는 기득권자들에게 이들의 ‘<term type="concept">실제적인 환상</term> 은 그래서 위협적이다.</s>
+          <s>그렇다면 정작 <term type="concept">환상</term> 속에 살고 있는 것은 이 기득권 지들인가, 아니면 당신의 악?</s>
+          <s>에 기여하는 이 ‘<term type="concept">귀신</term>’ 의 존재인가-?</s>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
